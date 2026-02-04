@@ -34,38 +34,38 @@ export default function HomePage() {
     <div className="space-y-12">
       {/* Context: What is this and why should I care? */}
       <div className="max-w-3xl">
-        <Text className="text-cyan-400 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
           Competitive Intelligence Report
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
           The Premium Athleisure Landscape
         </h1>
-        <p className="text-gray-400 text-lg leading-relaxed">
-          We tracked <span className="text-white font-semibold">{totalProducts.toLocaleString()} products</span> across{' '}
-          <span className="text-white font-semibold">6 major athleisure brands</span> to understand
+        <p className="text-socal-stone-500 text-lg leading-relaxed">
+          We tracked <span className="text-socal-stone-700 font-semibold">{totalProducts.toLocaleString()} products</span> across{' '}
+          <span className="text-socal-stone-700 font-semibold">6 major athleisure brands</span> to understand
           how competitors position their assortments. Here&apos;s what the data reveals.
         </p>
       </div>
 
       {/* The Big Insight - What's the ONE thing to remember? */}
-      <Card className="bg-gradient-to-r from-gray-900 to-gray-900/50 border-gray-800 ring-0 p-8">
+      <Card className="bg-gradient-to-r from-socal-sand-50 to-socal-ocean-50 border-socal-sand-200 ring-0 p-8">
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           <div className="flex-1">
-            <Text className="text-gray-400 mb-2">The headline</Text>
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+            <Text className="text-socal-stone-400 mb-2">The headline</Text>
+            <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
               Gymshark leads with the largest catalog—
-              <span className="text-amber-400">3,581 products</span>
+              <span className="text-socal-ocean-600">3,581 products</span>
             </h2>
-            <p className="text-gray-400">
-              That&apos;s <span className="text-white">40x</span> the size of Ten Thousand&apos;s focused 88-product lineup,
-              and <span className="text-white">48%</span> larger than Alo Yoga.
+            <p className="text-socal-stone-500">
+              That&apos;s <span className="text-socal-stone-700">40x</span> the size of Ten Thousand&apos;s focused 88-product lineup,
+              and <span className="text-socal-stone-700">48%</span> larger than Alo Yoga.
             </p>
           </div>
           <div className="text-center md:text-right">
-            <Metric className="text-amber-400 text-5xl md:text-6xl font-bold">
+            <Metric className="text-socal-ocean-600 text-5xl md:text-6xl font-bold">
               12K+
             </Metric>
-            <Text className="text-gray-500">products tracked</Text>
+            <Text className="text-socal-stone-400">products tracked</Text>
           </div>
         </div>
       </Card>
@@ -73,14 +73,14 @@ export default function HomePage() {
       {/* Primary Visual: Simple horizontal bar chart */}
       {/* Cole's principle: Let the data speak, remove gridlines and chartjunk */}
       <div>
-        <h2 className="text-xl font-semibold text-white mb-2">
+        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
           Catalog Size Comparison
         </h2>
-        <Text className="text-gray-400 mb-6">
+        <Text className="text-socal-stone-500 mb-6">
           Products tracked from each brand&apos;s sitemap
         </Text>
 
-        <Card className="bg-gray-900 border-gray-800 ring-0">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
           <BarChart
             data={catalogData}
             index="name"
@@ -98,10 +98,10 @@ export default function HomePage() {
 
       {/* Strategic Insights - What actions should this inform? */}
       <div>
-        <h2 className="text-xl font-semibold text-white mb-2">
+        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
           What This Means
         </h2>
-        <Text className="text-gray-400 mb-6">
+        <Text className="text-socal-stone-500 mb-6">
           Key patterns that inform competitive strategy
         </Text>
 
@@ -115,42 +115,42 @@ export default function HomePage() {
       {/* Call to Action: Where to go deeper */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Link href="/brands" className="group">
-          <Card className="bg-gray-900 border-gray-800 ring-0 hover:border-cyan-800 transition-colors h-full">
-            <Text className="text-gray-400 group-hover:text-cyan-400 transition-colors">
+          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
+            <Text className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors">
               Next: Compare Brands
             </Text>
-            <h3 className="text-white font-semibold mt-1 group-hover:text-cyan-300 transition-colors">
+            <h3 className="text-socal-stone-700 font-semibold mt-1 group-hover:text-socal-ocean-700 transition-colors">
               See how brands allocate across categories →
             </h3>
-            <Text className="text-gray-500 mt-2 text-sm">
+            <Text className="text-socal-stone-400 mt-2 text-sm">
               Who focuses on bottoms? Who leads in outerwear?
             </Text>
           </Card>
         </Link>
 
         <Link href="/categories" className="group">
-          <Card className="bg-gray-900 border-gray-800 ring-0 hover:border-cyan-800 transition-colors h-full">
-            <Text className="text-gray-400 group-hover:text-cyan-400 transition-colors">
+          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
+            <Text className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors">
               Dive Deeper
             </Text>
-            <h3 className="text-white font-semibold mt-1 group-hover:text-cyan-300 transition-colors">
+            <h3 className="text-socal-stone-700 font-semibold mt-1 group-hover:text-socal-ocean-700 transition-colors">
               Explore by category →
             </h3>
-            <Text className="text-gray-500 mt-2 text-sm">
+            <Text className="text-socal-stone-400 mt-2 text-sm">
               Bottoms, tops, outerwear, and more
             </Text>
           </Card>
         </Link>
 
         <Link href="/subcategories" className="group">
-          <Card className="bg-gray-900 border-gray-800 ring-0 hover:border-cyan-800 transition-colors h-full">
-            <Text className="text-gray-400 group-hover:text-cyan-400 transition-colors">
+          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
+            <Text className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors">
               Get Specific
             </Text>
-            <h3 className="text-white font-semibold mt-1 group-hover:text-cyan-300 transition-colors">
+            <h3 className="text-socal-stone-700 font-semibold mt-1 group-hover:text-socal-ocean-700 transition-colors">
               Subcategory battles →
             </h3>
-            <Text className="text-gray-500 mt-2 text-sm">
+            <Text className="text-socal-stone-400 mt-2 text-sm">
               Joggers vs leggings, tanks vs tees
             </Text>
           </Card>
@@ -159,44 +159,44 @@ export default function HomePage() {
 
       {/* Data Table - For those who want the details */}
       <details className="group">
-        <summary className="cursor-pointer text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+        <summary className="cursor-pointer text-socal-stone-500 hover:text-socal-stone-700 transition-colors flex items-center gap-2">
           <span>View detailed brand data</span>
           <span className="text-xs">▼</span>
         </summary>
 
-        <Card className="bg-gray-900 border-gray-800 ring-0 mt-4">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft mt-4">
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
-                <tr className="border-b border-gray-800">
-                  <th className="text-left py-3 px-4 text-gray-400 font-medium">Brand</th>
-                  <th className="text-right py-3 px-4 text-gray-400 font-medium">Total</th>
-                  <th className="text-right py-3 px-4 text-gray-400 font-medium">Bottoms</th>
-                  <th className="text-right py-3 px-4 text-gray-400 font-medium">Tops</th>
-                  <th className="text-right py-3 px-4 text-gray-400 font-medium">Outerwear</th>
+                <tr className="border-b border-socal-sand-200">
+                  <th className="text-left py-3 px-4 text-socal-stone-500 font-medium">Brand</th>
+                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Total</th>
+                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Bottoms</th>
+                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Tops</th>
+                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Outerwear</th>
                 </tr>
               </thead>
               <tbody>
                 {brands.map((brand) => (
-                  <tr key={brand.slug} className="border-b border-gray-800/50">
+                  <tr key={brand.slug} className="border-b border-socal-sand-100">
                     <td className="py-3 px-4">
                       <Link
                         href={`/brand/${brand.slug}`}
-                        className="text-white hover:text-cyan-400 transition-colors"
+                        className="text-socal-stone-700 hover:text-socal-ocean-600 transition-colors"
                       >
                         {brand.name}
                       </Link>
                     </td>
-                    <td className="py-3 px-4 text-right font-medium text-white">
+                    <td className="py-3 px-4 text-right font-medium text-socal-stone-700">
                       {brand.total.toLocaleString()}
                     </td>
-                    <td className="py-3 px-4 text-right text-gray-400">
+                    <td className="py-3 px-4 text-right text-socal-stone-500">
                       {(brand.categories.bottoms || 0).toLocaleString()}
                     </td>
-                    <td className="py-3 px-4 text-right text-gray-400">
+                    <td className="py-3 px-4 text-right text-socal-stone-500">
                       {(brand.categories.tops || 0).toLocaleString()}
                     </td>
-                    <td className="py-3 px-4 text-right text-gray-400">
+                    <td className="py-3 px-4 text-right text-socal-stone-500">
                       {(brand.categories.outerwear || 0).toLocaleString()}
                     </td>
                   </tr>

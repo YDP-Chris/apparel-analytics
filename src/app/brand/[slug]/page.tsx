@@ -87,7 +87,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <div>
         <Link
           href="/brands"
-          className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
+          className="text-socal-stone-400 hover:text-socal-ocean-600 transition-colors text-sm"
         >
           ← Back to Brand Comparison
         </Link>
@@ -96,13 +96,13 @@ export default async function BrandPage({ params }: BrandPageProps) {
       {/* Brand Header */}
       <div className="flex flex-col md:flex-row md:items-end gap-6">
         <div className="flex-1">
-          <Text className="text-cyan-400 uppercase tracking-wider text-sm mb-2">
+          <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
             Brand Deep Dive
           </Text>
-          <h1 className="text-4xl font-bold text-white mb-2">{brand.name}</h1>
-          <p className="text-gray-400 text-lg">
+          <h1 className="text-4xl font-bold text-socal-stone-800 mb-2">{brand.name}</h1>
+          <p className="text-socal-stone-500 text-lg">
             #{rank} by catalog size with{' '}
-            <span className="text-white font-semibold">
+            <span className="text-socal-stone-700 font-semibold">
               {brand.total.toLocaleString()}
             </span>{' '}
             products tracked
@@ -110,43 +110,43 @@ export default async function BrandPage({ params }: BrandPageProps) {
         </div>
         <div className="flex gap-8">
           <div className="text-center">
-            <Metric className="text-cyan-400 text-4xl font-bold">
+            <Metric className="text-socal-ocean-600 text-4xl font-bold">
               {brand.total.toLocaleString()}
             </Metric>
-            <Text className="text-gray-500">Products</Text>
+            <Text className="text-socal-stone-400">Products</Text>
           </div>
           <div className="text-center">
-            <Metric className="text-white text-4xl font-bold">#{rank}</Metric>
-            <Text className="text-gray-500">Rank</Text>
+            <Metric className="text-socal-stone-700 text-4xl font-bold">#{rank}</Metric>
+            <Text className="text-socal-stone-400">Rank</Text>
           </div>
         </div>
       </div>
 
       {/* Quick Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card className="bg-gray-900 border-gray-800 ring-0">
-          <Text className="text-gray-400">Categories</Text>
-          <div className="text-2xl font-bold text-white mt-1">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Text className="text-socal-stone-400">Categories</Text>
+          <div className="text-2xl font-bold text-socal-stone-700 mt-1">
             {Object.keys(brand.categories).filter((k) => brand.categories[k] > 0).length}
           </div>
         </Card>
-        <Card className="bg-gray-900 border-gray-800 ring-0">
-          <Text className="text-gray-400">Subcategories</Text>
-          <div className="text-2xl font-bold text-white mt-1">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Text className="text-socal-stone-400">Subcategories</Text>
+          <div className="text-2xl font-bold text-socal-stone-700 mt-1">
             {Object.keys(brand.subcategories).filter((k) => brand.subcategories[k] > 0).length}
           </div>
         </Card>
-        <Card className="bg-gray-900 border-gray-800 ring-0">
-          <Text className="text-gray-400">Top Category</Text>
-          <div className="text-2xl font-bold text-white mt-1">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Text className="text-socal-stone-400">Top Category</Text>
+          <div className="text-2xl font-bold text-socal-stone-700 mt-1">
             {formatCategory(
               Object.entries(brand.categories).sort((a, b) => b[1] - a[1])[0]?.[0] || ''
             )}
           </div>
         </Card>
-        <Card className="bg-gray-900 border-gray-800 ring-0">
-          <Text className="text-gray-400">Bottoms %</Text>
-          <div className="text-2xl font-bold text-white mt-1">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Text className="text-socal-stone-400">Bottoms %</Text>
+          <div className="text-2xl font-bold text-socal-stone-700 mt-1">
             {Math.round(((brand.categories.bottoms || 0) / brand.total) * 100)}%
           </div>
         </Card>
@@ -155,16 +155,16 @@ export default async function BrandPage({ params }: BrandPageProps) {
       {/* Charts Row */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Category Breakdown */}
-        <Card className="bg-gray-900 border-gray-800 ring-0">
-          <h3 className="text-white font-semibold text-lg mb-4">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <h3 className="text-socal-stone-700 font-semibold text-lg mb-4">
             Category Breakdown
           </h3>
           <BrandCategoryDonut data={categoryData} />
         </Card>
 
         {/* Top Subcategories */}
-        <Card className="bg-gray-900 border-gray-800 ring-0">
-          <h3 className="text-white font-semibold text-lg mb-4">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <h3 className="text-socal-stone-700 font-semibold text-lg mb-4">
             Top Subcategories
           </h3>
           <BrandSubcategoryBar data={topSubcats} />
@@ -174,8 +174,8 @@ export default async function BrandPage({ params }: BrandPageProps) {
       {/* Strengths and Gaps */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Strengths */}
-        <Card className="bg-emerald-900/20 border-emerald-800/50 ring-0">
-          <h3 className="text-white font-semibold text-lg mb-4">
+        <Card className="bg-gradient-to-br from-socal-sage-50 to-socal-sand-50 border-socal-sage-200 ring-0 shadow-soft">
+          <h3 className="text-socal-stone-700 font-semibold text-lg mb-4">
             Where {brand.name} Over-Indexes
           </h3>
           {strongSubcats.length > 0 ? (
@@ -183,10 +183,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
               {strongSubcats.map((s) => (
                 <div key={s.subcat}>
                   <div className="flex justify-between items-center">
-                    <span className="text-white">{formatSubcategory(s.subcat)}</span>
-                    <span className="text-emerald-400 font-bold">{s.index}%</span>
+                    <span className="text-socal-stone-700">{formatSubcategory(s.subcat)}</span>
+                    <span className="text-socal-sage-600 font-bold">{s.index}%</span>
                   </div>
-                  <div className="flex justify-between text-sm text-gray-400 mt-1">
+                  <div className="flex justify-between text-sm text-socal-stone-400 mt-1">
                     <span>{s.count} products</span>
                     <span>vs {getMarketAverage(s.subcat)} avg</span>
                   </div>
@@ -194,15 +194,15 @@ export default async function BrandPage({ params }: BrandPageProps) {
               ))}
             </div>
           ) : (
-            <Text className="text-gray-400">
+            <Text className="text-socal-stone-400">
               No significant over-indexing detected (&gt;120% of market average)
             </Text>
           )}
         </Card>
 
         {/* Gaps */}
-        <Card className="bg-amber-900/20 border-amber-800/50 ring-0">
-          <h3 className="text-white font-semibold text-lg mb-4">
+        <Card className="bg-gradient-to-br from-socal-sunset-50 to-socal-sand-50 border-socal-sunset-200 ring-0 shadow-soft">
+          <h3 className="text-socal-stone-700 font-semibold text-lg mb-4">
             Where {brand.name} Under-Indexes
           </h3>
           {gaps.length > 0 ? (
@@ -210,10 +210,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
               {gaps.map((g) => (
                 <div key={g.subcat}>
                   <div className="flex justify-between items-center">
-                    <span className="text-white">{formatSubcategory(g.subcat)}</span>
-                    <span className="text-amber-400 font-bold">{g.index}%</span>
+                    <span className="text-socal-stone-700">{formatSubcategory(g.subcat)}</span>
+                    <span className="text-socal-sunset-500 font-bold">{g.index}%</span>
                   </div>
-                  <div className="flex justify-between text-sm text-gray-400 mt-1">
+                  <div className="flex justify-between text-sm text-socal-stone-400 mt-1">
                     <span>{g.count} products</span>
                     <span>vs {g.avg} avg</span>
                   </div>
@@ -221,7 +221,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
               ))}
             </div>
           ) : (
-            <Text className="text-gray-400">
+            <Text className="text-socal-stone-400">
               No significant gaps detected (&lt;80% of market average)
             </Text>
           )}
@@ -229,27 +229,27 @@ export default async function BrandPage({ params }: BrandPageProps) {
       </div>
 
       {/* Full Subcategory Table */}
-      <Card className="bg-gray-900 border-gray-800 ring-0">
-        <h3 className="text-white font-semibold text-lg mb-4">
+      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <h3 className="text-socal-stone-700 font-semibold text-lg mb-4">
           All Subcategories
         </h3>
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
-              <tr className="border-b border-gray-800">
-                <th className="text-left py-3 px-4 text-gray-400 font-medium">
+              <tr className="border-b border-socal-sand-200">
+                <th className="text-left py-3 px-4 text-socal-stone-500 font-medium">
                   Subcategory
                 </th>
-                <th className="text-right py-3 px-4 text-gray-400 font-medium">
+                <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">
                   Products
                 </th>
-                <th className="text-right py-3 px-4 text-gray-400 font-medium">
+                <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">
                   % of Catalog
                 </th>
-                <th className="text-right py-3 px-4 text-gray-400 font-medium">
+                <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">
                   Market Avg
                 </th>
-                <th className="text-right py-3 px-4 text-gray-400 font-medium">
+                <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">
                   Index
                 </th>
               </tr>
@@ -264,27 +264,27 @@ export default async function BrandPage({ params }: BrandPageProps) {
                   const index = getBrandIndex(slug, subcat);
 
                   return (
-                    <tr key={subcat} className="border-b border-gray-800/50">
-                      <td className="py-3 px-4 text-white">
+                    <tr key={subcat} className="border-b border-socal-sand-100">
+                      <td className="py-3 px-4 text-socal-stone-700">
                         {formatSubcategory(subcat)}
                       </td>
-                      <td className="py-3 px-4 text-right text-gray-300">
+                      <td className="py-3 px-4 text-right text-socal-stone-600">
                         {count}
                       </td>
-                      <td className="py-3 px-4 text-right text-gray-400">
+                      <td className="py-3 px-4 text-right text-socal-stone-400">
                         {pct}%
                       </td>
-                      <td className="py-3 px-4 text-right text-gray-500">
+                      <td className="py-3 px-4 text-right text-socal-stone-400">
                         {avg}
                       </td>
                       <td className="py-3 px-4 text-right">
                         <span
                           className={
                             index >= 120
-                              ? 'text-emerald-400'
+                              ? 'text-socal-sage-600'
                               : index <= 80
-                              ? 'text-amber-400'
-                              : 'text-gray-400'
+                              ? 'text-socal-sunset-500'
+                              : 'text-socal-stone-400'
                           }
                         >
                           {index}%

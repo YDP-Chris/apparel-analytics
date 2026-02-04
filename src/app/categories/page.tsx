@@ -41,13 +41,13 @@ export default function CategoriesPage() {
     <div className="space-y-12">
       {/* Context */}
       <div className="max-w-3xl">
-        <Text className="text-cyan-400 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
           Category Analysis
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
           Who Leads Each Category?
         </h1>
-        <p className="text-gray-400 text-lg leading-relaxed">
+        <p className="text-socal-stone-500 text-lg leading-relaxed">
           Select a category to see how brands stack up.
           Larger product counts typically indicate strategic priority.
         </p>
@@ -55,7 +55,7 @@ export default function CategoriesPage() {
 
       {/* Category Selector */}
       <div>
-        <Text className="text-gray-400 mb-3">Select a category</Text>
+        <Text className="text-socal-stone-500 mb-3">Select a category</Text>
         <div className="flex flex-wrap gap-2">
           {CATEGORIES.map((cat) => (
             <button
@@ -63,8 +63,8 @@ export default function CategoriesPage() {
               onClick={() => setSelectedCategory(cat.id)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 selectedCategory === cat.id
-                  ? 'bg-cyan-600 text-white'
-                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-white'
+                  ? 'bg-socal-ocean-600 text-white'
+                  : 'bg-socal-sand-100 text-socal-stone-500 hover:bg-socal-sand-200 hover:text-socal-stone-700'
               }`}
             >
               {cat.label}
@@ -74,41 +74,41 @@ export default function CategoriesPage() {
       </div>
 
       {/* Category Header */}
-      <Card className="bg-gradient-to-r from-cyan-900/20 to-cyan-900/5 border-cyan-800/50 ring-0 p-8">
+      <Card className="bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 border-socal-ocean-200 ring-0 p-8">
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           <div className="flex-1">
-            <Text className="text-gray-400 mb-2">
+            <Text className="text-socal-stone-400 mb-2">
               {formatCategory(selectedCategory)}
             </Text>
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+            <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
               {leader?.brand} leads with{' '}
-              <span className="text-cyan-400">{leader?.count.toLocaleString()}</span> products
+              <span className="text-socal-ocean-600">{leader?.count.toLocaleString()}</span> products
             </h2>
-            <p className="text-gray-400">
+            <p className="text-socal-stone-500">
               {categoryInfo?.desc}. Across all brands, there are{' '}
-              <span className="text-white">{totalInCategory.toLocaleString()}</span> products
+              <span className="text-socal-stone-700">{totalInCategory.toLocaleString()}</span> products
               in this category.
             </p>
           </div>
           <div className="text-center md:text-right">
-            <Metric className="text-cyan-400 text-5xl font-bold">
+            <Metric className="text-socal-ocean-600 text-5xl font-bold">
               {totalInCategory.toLocaleString()}
             </Metric>
-            <Text className="text-gray-500">total products</Text>
+            <Text className="text-socal-stone-400">total products</Text>
           </div>
         </div>
       </Card>
 
       {/* Main Chart */}
       <div>
-        <h2 className="text-xl font-semibold text-white mb-2">
+        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
           Brand Comparison: {formatCategory(selectedCategory)}
         </h2>
-        <Text className="text-gray-400 mb-6">
+        <Text className="text-socal-stone-500 mb-6">
           Number of products each brand offers in this category
         </Text>
 
-        <Card className="bg-gray-900 border-gray-800 ring-0">
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
           <BarChart
             data={chartData}
             index="name"
@@ -126,7 +126,7 @@ export default function CategoriesPage() {
 
       {/* Detailed Breakdown */}
       <div>
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-socal-stone-800 mb-4">
           Detailed Breakdown
         </h2>
 
@@ -138,26 +138,26 @@ export default function CategoriesPage() {
             return (
               <Card
                 key={l.slug}
-                className={`ring-0 ${
+                className={`ring-0 shadow-soft ${
                   isLeader
-                    ? 'bg-cyan-900/20 border-cyan-800/50'
-                    : 'bg-gray-900 border-gray-800'
+                    ? 'bg-gradient-to-br from-socal-ocean-50 to-socal-sand-50 border-socal-ocean-200'
+                    : 'bg-white border-socal-sand-100'
                 }`}
               >
                 <div className="flex items-start justify-between">
                   <div>
-                    <Text className="text-gray-400 text-sm">
+                    <Text className="text-socal-stone-400 text-sm">
                       {isLeader ? 'Category Leader' : `#${i + 1}`}
                     </Text>
-                    <h3 className="text-white font-semibold text-lg mt-1">
+                    <h3 className="text-socal-stone-700 font-semibold text-lg mt-1">
                       {l.brand}
                     </h3>
                   </div>
                   <div className="text-right">
-                    <div className={`text-2xl font-bold ${isLeader ? 'text-cyan-400' : 'text-white'}`}>
+                    <div className={`text-2xl font-bold ${isLeader ? 'text-socal-ocean-600' : 'text-socal-stone-700'}`}>
                       {l.count.toLocaleString()}
                     </div>
-                    <Text className="text-gray-500 text-sm">
+                    <Text className="text-socal-stone-400 text-sm">
                       {share}% of market
                     </Text>
                   </div>
@@ -165,12 +165,12 @@ export default function CategoriesPage() {
 
                 <div className="mt-4">
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="text-gray-400">% of brand&apos;s catalog</span>
-                    <span className="text-gray-300">{l.pct}%</span>
+                    <span className="text-socal-stone-400">% of brand&apos;s catalog</span>
+                    <span className="text-socal-stone-600">{l.pct}%</span>
                   </div>
-                  <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
+                  <div className="h-2 bg-socal-sand-100 rounded-full overflow-hidden">
                     <div
-                      className={`h-full rounded-full ${isLeader ? 'bg-cyan-500' : 'bg-gray-600'}`}
+                      className={`h-full rounded-full ${isLeader ? 'bg-socal-ocean-500' : 'bg-socal-stone-300'}`}
                       style={{ width: `${Math.min(l.pct * 2, 100)}%` }}
                     />
                   </div>
@@ -182,21 +182,21 @@ export default function CategoriesPage() {
       </div>
 
       {/* Insight */}
-      <Card className="bg-gray-900 border-gray-800 ring-0">
-        <h3 className="text-white font-semibold text-lg mb-3">
+      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <h3 className="text-socal-stone-700 font-semibold text-lg mb-3">
           Reading the data
         </h3>
-        <div className="space-y-3 text-gray-400">
+        <div className="space-y-3 text-socal-stone-500">
           <p>
-            <span className="text-white">Product count shows investment.</span> More products
+            <span className="text-socal-stone-700">Product count shows investment.</span> More products
             typically means more color/size variations and style options—a signal of strategic priority.
           </p>
           <p>
-            <span className="text-white">% of catalog shows focus.</span> A brand with 500 bottoms
+            <span className="text-socal-stone-700">% of catalog shows focus.</span> A brand with 500 bottoms
             out of 1,000 products is more bottoms-focused than one with 500 out of 3,000.
           </p>
           <p>
-            <span className="text-white">Market share shows competitive position.</span> The brand
+            <span className="text-socal-stone-700">Market share shows competitive position.</span> The brand
             with the most products in a category has the most shelf space (digital or physical).
           </p>
         </div>
