@@ -6,7 +6,8 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { href: '/', label: 'Overview' },
   { href: '/vuori', label: 'Vuori Scorecard' },
-  { href: '/colors', label: 'Color Analysis' },
+  { href: '/mix', label: 'Product Mix' },
+  { href: '/colors', label: 'Colors' },
   { href: '/brands', label: 'Brands' },
   { href: '/categories', label: 'Categories' },
   { href: '/subcategories', label: 'Subcategories' },
