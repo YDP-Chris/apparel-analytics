@@ -1,5 +1,5 @@
 import productsData from '@/data/products.json';
-import { DashboardData, BrandData, BRAND_ORDER } from './types';
+import { DashboardData, BrandData, VuoriScorecard, ColorMixRow, BRAND_ORDER } from './types';
 
 export function getData(): DashboardData {
   return productsData as unknown as DashboardData;
@@ -94,4 +94,52 @@ export function formatSubcategory(subcat: string): string {
 export function formatCategory(cat: string): string {
   if (cat === 'sports_bras') return 'Sports Bras';
   return cat.charAt(0).toUpperCase() + cat.slice(1);
+}
+
+export function getColorMix(): ColorMixRow[] {
+  const data = getData();
+  return data.colorMix || [];
+}
+
+export function getVuoriScorecard(): VuoriScorecard {
+  const data = getData();
+  return data.vuoriScorecard || { leading: [], lagging: [], alerts: [] };
+}
+
+export function getColorLeaders(colorFamily: string): Array<{ brand: string; slug: string; count: number; pct: number }> {
+  const data = getData();
+  const counts = data.byColor?.[colorFamily] || {};
+
+  return Object.entries(counts)
+    .map(([slug, count]) => {
+      const brand = data.brands[slug];
+      return {
+        brand: brand?.name || slug,
+        slug,
+        count,
+        pct: brand ? Math.round((count / brand.total) * 1000) / 10 : 0,
+      };
+    })
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getBrandColorDepth(): Array<{ brand: string; slug: string; avgColors: number; uniqueStyles: number; coverage: number }> {
+  const data = getData();
+  return BRAND_ORDER
+    .filter((slug) => data.brands[slug])
+    .map((slug) => {
+      const brand = data.brands[slug];
+      return {
+        brand: brand.name,
+        slug,
+        avgColors: brand.avgColorsPerStyle,
+        uniqueStyles: brand.uniqueStyles,
+        coverage: brand.colorCoverage,
+      };
+    })
+    .sort((a, b) => b.avgColors - a.avgColors);
+}
+
+export function formatColor(color: string): string {
+  return color.charAt(0).toUpperCase() + color.slice(1);
 }
