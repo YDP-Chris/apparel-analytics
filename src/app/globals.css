@@ -3,25 +3,47 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #030712;
+  --foreground: #f9fafb;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Tremor dark mode overrides */
+.tremor-Card-root {
+  background-color: rgb(17 24 39) !important;
+  border-color: rgb(31 41 55) !important;
+}
+
+.tremor-TextInput-root input {
+  background-color: rgb(17 24 39) !important;
+  border-color: rgb(31 41 55) !important;
+  color: rgb(243 244 246) !important;
+}
+
+.tremor-SelectBox-root button {
+  background-color: rgb(17 24 39) !important;
+  border-color: rgb(31 41 55) !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(17 24 39);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(55 65 81);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(75 85 99);
 }

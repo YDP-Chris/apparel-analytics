@@ -1,0 +1,591 @@
+{
+  "brands": {
+    "vuori": {
+      "name": "Vuori",
+      "slug": "vuori",
+      "total": 2422,
+      "categories": {
+        "bottoms": 1196,
+        "tops": 367,
+        "outerwear": 349,
+        "other": 338,
+        "sports_bras": 65,
+        "accessories": 90,
+        "dresses": 17
+      },
+      "subcategories": {
+        "joggers": 118,
+        "shorts": 378,
+        "tanks": 89,
+        "tees": 141,
+        "leggings": 119,
+        "other": 674,
+        "pants": 296,
+        "pullovers": 2,
+        "polos": 38,
+        "jackets": 113,
+        "long_sleeve": 21,
+        "hoodies": 124,
+        "hats": 26,
+        "skirts": 16,
+        "vests": 30,
+        "crop_tops": 5,
+        "quarter_zips": 49,
+        "tennis_dress": 5,
+        "casual_dress": 3,
+        "sweatpants": 98,
+        "bags": 4,
+        "socks": 49,
+        "headwear": 7,
+        "rompers": 9,
+        "fleece": 8
+      },
+      "genders": {
+        "unisex": 1479,
+        "womens": 939,
+        "mens": 4
+      }
+    },
+    "outdoor_voices": {
+      "name": "Outdoor Voices",
+      "slug": "outdoor_voices",
+      "total": 297,
+      "categories": {
+        "other": 35,
+        "bottoms": 140,
+        "dresses": 12,
+        "accessories": 31,
+        "tops": 30,
+        "outerwear": 28,
+        "sports_bras": 21
+      },
+      "subcategories": {
+        "other": 105,
+        "shorts": 33,
+        "tennis_dress": 6,
+        "socks": 18,
+        "tanks": 11,
+        "jackets": 9,
+        "tees": 7,
+        "sweatpants": 16,
+        "skirts": 6,
+        "casual_dress": 6,
+        "hats": 11,
+        "pants": 36,
+        "hoodies": 7,
+        "leggings": 12,
+        "crop_tops": 7,
+        "headwear": 2,
+        "polos": 2,
+        "vests": 3
+      },
+      "genders": {
+        "unisex": 246,
+        "womens": 51
+      }
+    },
+    "tenthousand": {
+      "name": "Ten Thousand",
+      "slug": "tenthousand",
+      "total": 88,
+      "categories": {
+        "other": 10,
+        "bottoms": 36,
+        "tops": 24,
+        "outerwear": 16,
+        "accessories": 2
+      },
+      "subcategories": {
+        "other": 24,
+        "shorts": 20,
+        "long_sleeve": 4,
+        "tanks": 3,
+        "pants": 9,
+        "jackets": 6,
+        "vests": 2,
+        "hoodies": 7,
+        "joggers": 4,
+        "tees": 5,
+        "leggings": 3,
+        "socks": 1
+      },
+      "genders": {
+        "unisex": 88
+      }
+    },
+    "lululemon": {
+      "name": "Lululemon",
+      "slug": "lululemon",
+      "total": 2379,
+      "categories": {
+        "tops": 247,
+        "bottoms": 819,
+        "other": 876,
+        "sports_bras": 91,
+        "accessories": 137,
+        "outerwear": 204,
+        "dresses": 5
+      },
+      "subcategories": {
+        "tanks": 150,
+        "shorts": 251,
+        "other": 1167,
+        "leggings": 143,
+        "joggers": 116,
+        "polos": 35,
+        "socks": 82,
+        "skirts": 91,
+        "crop_tops": 21,
+        "sweatpants": 22,
+        "hoodies": 150,
+        "jackets": 54,
+        "pants": 92,
+        "rompers": 5
+      },
+      "genders": {
+        "womens": 858,
+        "mens": 687,
+        "unisex": 834
+      }
+    },
+    "alo": {
+      "name": "Alo Yoga",
+      "slug": "alo",
+      "total": 3396,
+      "categories": {
+        "other": 638,
+        "bottoms": 1304,
+        "tops": 379,
+        "sports_bras": 228,
+        "accessories": 297,
+        "outerwear": 467,
+        "dresses": 83
+      },
+      "subcategories": {
+        "other": 1243,
+        "leggings": 247,
+        "tanks": 162,
+        "shorts": 315,
+        "hats": 98,
+        "sweatpants": 171,
+        "hoodies": 162,
+        "long_sleeve": 21,
+        "pants": 197,
+        "tees": 40,
+        "pullovers": 98,
+        "skirts": 74,
+        "jackets": 130,
+        "bags": 1,
+        "socks": 131,
+        "bralette": 7,
+        "polos": 13,
+        "crop_tops": 135,
+        "casual_dress": 40,
+        "tennis_dress": 21,
+        "headwear": 36,
+        "vests": 8,
+        "joggers": 32,
+        "fleece": 12,
+        "high_support": 2
+      },
+      "genders": {
+        "unisex": 2393,
+        "womens": 812,
+        "mens": 191
+      }
+    },
+    "gymshark": {
+      "name": "Gymshark",
+      "slug": "gymshark",
+      "total": 3581,
+      "categories": {
+        "other": 210,
+        "bottoms": 1450,
+        "tops": 1014,
+        "accessories": 216,
+        "outerwear": 348,
+        "sports_bras": 343
+      },
+      "subcategories": {
+        "other": 1125,
+        "shorts": 674,
+        "leggings": 302,
+        "crop_tops": 64,
+        "long_sleeve": 170,
+        "socks": 90,
+        "tanks": 282,
+        "joggers": 258,
+        "hoodies": 192,
+        "jackets": 78,
+        "pants": 136,
+        "pullovers": 60,
+        "high_support": 14,
+        "bags": 38,
+        "bralette": 28,
+        "tees": 20,
+        "headwear": 12,
+        "polos": 8,
+        "hats": 22,
+        "low_support": 8
+      },
+      "genders": {
+        "unisex": 2982,
+        "womens": 599
+      }
+    }
+  },
+  "totals": {
+    "products": 12163,
+    "brands": 6,
+    "categories": 7,
+    "subcategories": 28
+  },
+  "byCategory": {
+    "bottoms": {
+      "vuori": 1196,
+      "outdoor_voices": 140,
+      "tenthousand": 36,
+      "lululemon": 819,
+      "alo": 1304,
+      "gymshark": 1450
+    },
+    "tops": {
+      "vuori": 367,
+      "outdoor_voices": 30,
+      "tenthousand": 24,
+      "lululemon": 247,
+      "alo": 379,
+      "gymshark": 1014
+    },
+    "outerwear": {
+      "vuori": 349,
+      "outdoor_voices": 28,
+      "tenthousand": 16,
+      "lululemon": 204,
+      "alo": 467,
+      "gymshark": 348
+    },
+    "other": {
+      "vuori": 338,
+      "outdoor_voices": 35,
+      "tenthousand": 10,
+      "lululemon": 876,
+      "alo": 638,
+      "gymshark": 210
+    },
+    "sports_bras": {
+      "vuori": 65,
+      "outdoor_voices": 21,
+      "lululemon": 91,
+      "alo": 228,
+      "gymshark": 343
+    },
+    "accessories": {
+      "vuori": 90,
+      "outdoor_voices": 31,
+      "tenthousand": 2,
+      "lululemon": 137,
+      "alo": 297,
+      "gymshark": 216
+    },
+    "dresses": {
+      "vuori": 17,
+      "outdoor_voices": 12,
+      "lululemon": 5,
+      "alo": 83
+    }
+  },
+  "bySubcategory": {
+    "joggers": {
+      "vuori": 118,
+      "tenthousand": 4,
+      "lululemon": 116,
+      "alo": 32,
+      "gymshark": 258
+    },
+    "shorts": {
+      "vuori": 378,
+      "outdoor_voices": 33,
+      "tenthousand": 20,
+      "lululemon": 251,
+      "alo": 315,
+      "gymshark": 674
+    },
+    "tanks": {
+      "vuori": 89,
+      "outdoor_voices": 11,
+      "tenthousand": 3,
+      "lululemon": 150,
+      "alo": 162,
+      "gymshark": 282
+    },
+    "tees": {
+      "vuori": 141,
+      "outdoor_voices": 7,
+      "tenthousand": 5,
+      "alo": 40,
+      "gymshark": 20
+    },
+    "leggings": {
+      "vuori": 119,
+      "outdoor_voices": 12,
+      "tenthousand": 3,
+      "lululemon": 143,
+      "alo": 247,
+      "gymshark": 302
+    },
+    "other": {
+      "vuori": 674,
+      "outdoor_voices": 105,
+      "tenthousand": 24,
+      "lululemon": 1167,
+      "alo": 1243,
+      "gymshark": 1125
+    },
+    "pants": {
+      "vuori": 296,
+      "outdoor_voices": 36,
+      "tenthousand": 9,
+      "lululemon": 92,
+      "alo": 197,
+      "gymshark": 136
+    },
+    "pullovers": {
+      "vuori": 2,
+      "alo": 98,
+      "gymshark": 60
+    },
+    "polos": {
+      "vuori": 38,
+      "outdoor_voices": 2,
+      "lululemon": 35,
+      "alo": 13,
+      "gymshark": 8
+    },
+    "jackets": {
+      "vuori": 113,
+      "outdoor_voices": 9,
+      "tenthousand": 6,
+      "lululemon": 54,
+      "alo": 130,
+      "gymshark": 78
+    },
+    "long_sleeve": {
+      "vuori": 21,
+      "tenthousand": 4,
+      "alo": 21,
+      "gymshark": 170
+    },
+    "hoodies": {
+      "vuori": 124,
+      "outdoor_voices": 7,
+      "tenthousand": 7,
+      "lululemon": 150,
+      "alo": 162,
+      "gymshark": 192
+    },
+    "hats": {
+      "vuori": 26,
+      "outdoor_voices": 11,
+      "alo": 98,
+      "gymshark": 22
+    },
+    "skirts": {
+      "vuori": 16,
+      "outdoor_voices": 6,
+      "lululemon": 91,
+      "alo": 74
+    },
+    "vests": {
+      "vuori": 30,
+      "outdoor_voices": 3,
+      "tenthousand": 2,
+      "alo": 8
+    },
+    "crop_tops": {
+      "vuori": 5,
+      "outdoor_voices": 7,
+      "lululemon": 21,
+      "alo": 135,
+      "gymshark": 64
+    },
+    "quarter_zips": {
+      "vuori": 49
+    },
+    "tennis_dress": {
+      "vuori": 5,
+      "outdoor_voices": 6,
+      "alo": 21
+    },
+    "casual_dress": {
+      "vuori": 3,
+      "outdoor_voices": 6,
+      "alo": 40
+    },
+    "sweatpants": {
+      "vuori": 98,
+      "outdoor_voices": 16,
+      "lululemon": 22,
+      "alo": 171
+    },
+    "bags": {
+      "vuori": 4,
+      "alo": 1,
+      "gymshark": 38
+    },
+    "socks": {
+      "vuori": 49,
+      "outdoor_voices": 18,
+      "tenthousand": 1,
+      "lululemon": 82,
+      "alo": 131,
+      "gymshark": 90
+    },
+    "headwear": {
+      "vuori": 7,
+      "outdoor_voices": 2,
+      "alo": 36,
+      "gymshark": 12
+    },
+    "rompers": {
+      "vuori": 9,
+      "lululemon": 5
+    },
+    "fleece": {
+      "vuori": 8,
+      "alo": 12
+    },
+    "bralette": {
+      "alo": 7,
+      "gymshark": 28
+    },
+    "high_support": {
+      "alo": 2,
+      "gymshark": 14
+    },
+    "low_support": {
+      "gymshark": 8
+    }
+  },
+  "categoryMix": [
+    {
+      "brand": "Gymshark",
+      "bottoms": 40.5,
+      "tops": 28.3,
+      "outerwear": 9.7,
+      "dresses": 0,
+      "sports_bras": 9.6,
+      "accessories": 6,
+      "other": 5.9
+    },
+    {
+      "brand": "Alo Yoga",
+      "bottoms": 38.4,
+      "tops": 11.2,
+      "outerwear": 13.8,
+      "dresses": 2.4,
+      "sports_bras": 6.7,
+      "accessories": 8.7,
+      "other": 18.8
+    },
+    {
+      "brand": "Vuori",
+      "bottoms": 49.4,
+      "tops": 15.2,
+      "outerwear": 14.4,
+      "dresses": 0.7,
+      "sports_bras": 2.7,
+      "accessories": 3.7,
+      "other": 14
+    },
+    {
+      "brand": "Lululemon",
+      "bottoms": 34.4,
+      "tops": 10.4,
+      "outerwear": 8.6,
+      "dresses": 0.2,
+      "sports_bras": 3.8,
+      "accessories": 5.8,
+      "other": 36.8
+    },
+    {
+      "brand": "Outdoor Voices",
+      "bottoms": 47.1,
+      "tops": 10.1,
+      "outerwear": 9.4,
+      "dresses": 4,
+      "sports_bras": 7.1,
+      "accessories": 10.4,
+      "other": 11.8
+    },
+    {
+      "brand": "Ten Thousand",
+      "bottoms": 40.9,
+      "tops": 27.3,
+      "outerwear": 18.2,
+      "dresses": 0,
+      "sports_bras": 0,
+      "accessories": 2.3,
+      "other": 11.4
+    }
+  ],
+  "insights": [
+    {
+      "type": "leader",
+      "metric": "shorts",
+      "brand": "Gymshark",
+      "value": 674,
+      "text": "Gymshark leads shorts with 674 products (18.8% of catalog, 242% vs market avg)"
+    },
+    {
+      "type": "leader",
+      "metric": "leggings",
+      "brand": "Gymshark",
+      "value": 302,
+      "text": "Gymshark leads leggings with 302 products (8.4% of catalog, 219% vs market avg)"
+    },
+    {
+      "type": "leader",
+      "metric": "joggers",
+      "brand": "Gymshark",
+      "value": 258,
+      "text": "Gymshark leads joggers with 258 products (7.2% of catalog, 293% vs market avg)"
+    },
+    {
+      "type": "leader",
+      "metric": "hoodies",
+      "brand": "Gymshark",
+      "value": 192,
+      "text": "Gymshark leads hoodies with 192 products (5.4% of catalog, 179% vs market avg)"
+    },
+    {
+      "type": "leader",
+      "metric": "tanks",
+      "brand": "Gymshark",
+      "value": 282,
+      "text": "Gymshark leads tanks with 282 products (7.9% of catalog, 243% vs market avg)"
+    },
+    {
+      "type": "gap",
+      "metric": "tennis_dresses",
+      "brand": "Vuori",
+      "value": 0,
+      "text": "Vuori has minimal tennis dress presence (0 products, 0%)"
+    },
+    {
+      "type": "gap",
+      "metric": "tennis_dresses",
+      "brand": "Lululemon",
+      "value": 0,
+      "text": "Lululemon has minimal tennis dress presence (0 products, 0%)"
+    },
+    {
+      "type": "gap",
+      "metric": "tennis_dresses",
+      "brand": "Alo Yoga",
+      "value": 0,
+      "text": "Alo Yoga has minimal tennis dress presence (0 products, 0%)"
+    }
+  ],
+  "generated_at": "2026-02-04T04:30:13.199Z"
+}
