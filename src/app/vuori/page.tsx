@@ -1,5 +1,4 @@
 import { getData, getVuoriScorecard, getBrandColorDepth } from '@/lib/data';
-import StatsCard from '@/components/StatsCard';
 
 export const metadata = {
   title: 'Vuori Scorecard | Apparel Intel',
@@ -14,156 +13,229 @@ export default function VuoriScorecardPage() {
 
   if (!vuori) {
     return (
-      <div className="min-h-screen bg-gray-950 text-white p-8">
-        <h1 className="text-2xl font-bold">Vuori data not available</h1>
+      <div className="text-center py-20">
+        <h1 className="text-2xl font-bold text-socal-stone-600">Vuori data not available</h1>
       </div>
     );
   }
 
+  // Calculate key narrative metrics
+  const totalCompetitorProducts = Object.values(data.brands)
+    .filter(b => b.slug !== 'vuori')
+    .reduce((sum, b) => sum + b.total, 0);
+  const vuoriMarketShare = ((vuori.total / data.totals.products) * 100).toFixed(1);
+
   return (
-    <div className="min-h-screen bg-gray-950 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">
-            <span className="text-cyan-400">Vuori</span> Competitive Scorecard
-          </h1>
-          <p className="text-gray-400">
-            Where Vuori leads, where to focus, and competitive alerts
-          </p>
+    <div className="space-y-12">
+      {/* Hero: The Story Setup */}
+      <header className="text-center max-w-3xl mx-auto">
+        <p className="text-socal-ocean-600 font-medium text-sm uppercase tracking-wide mb-2">
+          Competitive Intelligence Report
+        </p>
+        <h1 className="text-4xl font-bold text-socal-stone-800 mb-4">
+          Where Does Vuori Stand?
+        </h1>
+        <p className="text-lg text-socal-stone-500 leading-relaxed">
+          Tracking <span className="font-semibold text-socal-stone-700">{vuori.total.toLocaleString()}</span> Vuori products
+          against <span className="font-semibold text-socal-stone-700">{totalCompetitorProducts.toLocaleString()}</span> from
+          5 competitors. Vuori represents <span className="font-semibold text-socal-ocean-600">{vuoriMarketShare}%</span> of
+          the premium athleisure landscape we track.
+        </p>
+      </header>
+
+      {/* Key Metrics - The Numbers That Matter */}
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {[
+          { label: 'Products', value: vuori.total.toLocaleString(), context: 'in catalog' },
+          { label: 'Styles', value: vuori.uniqueStyles.toLocaleString(), context: 'unique product lines' },
+          { label: 'Color Coverage', value: `${vuori.colorCoverage}%`, context: 'products with color data' },
+          { label: 'Colors/Style', value: vuori.avgColorsPerStyle.toFixed(1), context: 'avg variants' },
+        ].map((stat) => (
+          <div key={stat.label} className="bg-white rounded-2xl p-6 shadow-soft border border-socal-sand-100">
+            <p className="text-sm text-socal-stone-400 font-medium">{stat.label}</p>
+            <p className="text-3xl font-bold text-socal-stone-800 mt-1">{stat.value}</p>
+            <p className="text-xs text-socal-stone-400 mt-1">{stat.context}</p>
+          </div>
+        ))}
+      </section>
+
+      {/* The Good News: Where Vuori Leads */}
+      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 rounded-xl bg-socal-sage-100 flex items-center justify-center">
+            <span className="text-socal-sage-600 text-lg">✓</span>
+          </div>
+          <div>
+            <h2 className="text-xl font-bold text-socal-stone-800">Competitive Strengths</h2>
+            <p className="text-sm text-socal-stone-400">Where Vuori outperforms the market</p>
+          </div>
         </div>
 
-        {/* Quick Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          <StatsCard
-            title="Catalog Size"
-            value={vuori.total.toLocaleString()}
-            subtitle="products"
-          />
-          <StatsCard
-            title="Unique Styles"
-            value={vuori.uniqueStyles.toLocaleString()}
-            subtitle="product lines"
-          />
-          <StatsCard
-            title="Color Coverage"
-            value={`${vuori.colorCoverage}%`}
-            subtitle="have color data"
-          />
-          <StatsCard
-            title="Colors/Style"
-            value={vuori.avgColorsPerStyle.toFixed(1)}
-            subtitle="average"
-          />
-        </div>
-
-        {/* Leading Section */}
-        <div className="bg-gray-900 rounded-xl p-6 mb-6">
-          <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-            <span className="text-green-400">✓</span> Where Vuori Leads
-          </h2>
-          {scorecard.leading.length > 0 ? (
-            <div className="space-y-4">
-              {scorecard.leading.map((item, i) => (
-                <div key={i} className="flex items-start gap-4 p-4 bg-green-950/30 rounded-lg border border-green-900/50">
-                  <div className="flex-1">
-                    <h3 className="font-medium text-green-400">{item.metric}</h3>
-                    <p className="text-white text-lg font-semibold">{item.value}</p>
-                    <p className="text-gray-400 text-sm">{item.comparison}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p className="text-gray-500">Analyzing competitive position...</p>
-          )}
-        </div>
-
-        {/* Lagging Section */}
-        <div className="bg-gray-900 rounded-xl p-6 mb-6">
-          <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-            <span className="text-amber-400">✗</span> Areas to Watch
-          </h2>
-          {scorecard.lagging.length > 0 ? (
-            <div className="space-y-4">
-              {scorecard.lagging.map((item, i) => (
-                <div key={i} className="flex items-start gap-4 p-4 bg-amber-950/30 rounded-lg border border-amber-900/50">
-                  <div className="flex-1">
-                    <h3 className="font-medium text-amber-400">{item.metric}</h3>
-                    <p className="text-white text-lg font-semibold">{item.value}</p>
-                    <p className="text-gray-400 text-sm">{item.comparison}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p className="text-green-400">No significant gaps identified</p>
-          )}
-        </div>
-
-        {/* Alerts Section */}
-        <div className="bg-gray-900 rounded-xl p-6 mb-6">
-          <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-            <span className="text-red-400">⚠</span> Competitive Alerts
-          </h2>
-          {scorecard.alerts.length > 0 ? (
-            <div className="space-y-3">
-              {scorecard.alerts.map((alert, i) => (
-                <div
-                  key={i}
-                  className={`p-4 rounded-lg border ${
-                    alert.severity === 'high'
-                      ? 'bg-red-950/30 border-red-900/50'
-                      : 'bg-yellow-950/30 border-yellow-900/50'
-                  }`}
-                >
-                  <span className="mr-2">
-                    {alert.severity === 'high' ? '🔴' : '🟡'}
-                  </span>
-                  {alert.message}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p className="text-green-400">✓ No major competitive threats detected</p>
-          )}
-        </div>
-
-        {/* Color Depth Comparison */}
-        <div className="bg-gray-900 rounded-xl p-6">
-          <h2 className="text-xl font-semibold mb-4">🎨 Color Depth Comparison</h2>
-          <p className="text-gray-400 text-sm mb-4">
-            Average colors per style (more = broader customer appeal)
-          </p>
-          <div className="space-y-3">
-            {colorDepth.map((brand) => (
+        {scorecard.leading.length > 0 ? (
+          <div className="grid md:grid-cols-2 gap-4">
+            {scorecard.leading.map((item, i) => (
               <div
-                key={brand.slug}
-                className={`flex items-center gap-4 p-3 rounded-lg ${
-                  brand.slug === 'vuori' ? 'bg-cyan-950/30 border border-cyan-800' : 'bg-gray-800/50'
-                }`}
+                key={i}
+                className="p-5 rounded-xl bg-gradient-to-br from-socal-sage-50 to-socal-ocean-50 border border-socal-sage-100"
               >
-                <div className="w-32 font-medium">
-                  {brand.slug === 'vuori' && <span className="text-cyan-400 mr-1">🎯</span>}
-                  {brand.brand}
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-2">
-                    <div
-                      className="h-6 rounded bg-gradient-to-r from-cyan-600 to-blue-600"
-                      style={{ width: `${Math.min(brand.avgColors * 30, 100)}%` }}
-                    />
-                    <span className="text-sm font-mono">{brand.avgColors.toFixed(1)}</span>
-                  </div>
-                </div>
-                <div className="text-sm text-gray-500 w-32 text-right">
-                  {brand.uniqueStyles} styles
-                </div>
+                <p className="text-sm font-medium text-socal-sage-700 mb-1">{item.metric}</p>
+                <p className="text-2xl font-bold text-socal-stone-800">{item.value}</p>
+                <p className="text-sm text-socal-stone-500 mt-2">{item.comparison}</p>
               </div>
             ))}
           </div>
+        ) : (
+          <p className="text-socal-stone-400 italic">Analyzing competitive position...</p>
+        )}
+      </section>
+
+      {/* The Challenge: Areas to Watch */}
+      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 rounded-xl bg-socal-sunset-100 flex items-center justify-center">
+            <span className="text-socal-sunset-600 text-lg">!</span>
+          </div>
+          <div>
+            <h2 className="text-xl font-bold text-socal-stone-800">Growth Opportunities</h2>
+            <p className="text-sm text-socal-stone-400">Categories where competitors are stronger</p>
+          </div>
         </div>
-      </div>
+
+        {scorecard.lagging.length > 0 ? (
+          <div className="grid md:grid-cols-2 gap-4">
+            {scorecard.lagging.map((item, i) => (
+              <div
+                key={i}
+                className="p-5 rounded-xl bg-socal-sunset-50 border border-socal-sunset-100"
+              >
+                <p className="text-sm font-medium text-socal-sunset-700 mb-1">{item.metric}</p>
+                <p className="text-2xl font-bold text-socal-stone-800">{item.value}</p>
+                <p className="text-sm text-socal-stone-500 mt-2">{item.comparison}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="p-5 rounded-xl bg-socal-sage-50 border border-socal-sage-100 text-center">
+            <p className="text-socal-sage-700 font-medium">No significant gaps identified</p>
+          </div>
+        )}
+      </section>
+
+      {/* Alerts: What to Watch */}
+      {scorecard.alerts.length > 0 && (
+        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-10 h-10 rounded-xl bg-socal-sand-100 flex items-center justify-center">
+              <span className="text-socal-sand-600 text-lg">⚡</span>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-socal-stone-800">Competitive Alerts</h2>
+              <p className="text-sm text-socal-stone-400">Recent market movements to monitor</p>
+            </div>
+          </div>
+
+          <div className="space-y-3">
+            {scorecard.alerts.map((alert, i) => (
+              <div
+                key={i}
+                className={`p-4 rounded-xl flex items-start gap-3 ${
+                  alert.severity === 'high'
+                    ? 'bg-socal-sunset-50 border border-socal-sunset-200'
+                    : 'bg-socal-sand-50 border border-socal-sand-200'
+                }`}
+              >
+                <span className="text-lg mt-0.5">
+                  {alert.severity === 'high' ? '🔴' : '🟡'}
+                </span>
+                <p className="text-socal-stone-700">{alert.message}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Deep Dive: Color Depth Comparison */}
+      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
+        <div className="flex items-center gap-3 mb-2">
+          <div className="w-10 h-10 rounded-xl bg-socal-ocean-100 flex items-center justify-center">
+            <span className="text-socal-ocean-600 text-lg">🎨</span>
+          </div>
+          <h2 className="text-xl font-bold text-socal-stone-800">Color Depth Analysis</h2>
+        </div>
+        <p className="text-socal-stone-500 mb-6 ml-13">
+          Average color variants per style. More options = broader customer appeal.
+        </p>
+
+        <div className="space-y-4">
+          {colorDepth.map((brand) => {
+            const isVuori = brand.slug === 'vuori';
+            const maxWidth = Math.max(...colorDepth.map(b => b.avgColors));
+            const barWidth = (brand.avgColors / maxWidth) * 100;
+
+            return (
+              <div
+                key={brand.slug}
+                className={`flex items-center gap-4 p-4 rounded-xl transition-all ${
+                  isVuori
+                    ? 'bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 border-2 border-socal-ocean-200'
+                    : 'bg-socal-stone-50 hover:bg-socal-sand-50'
+                }`}
+              >
+                <div className="w-32 flex-shrink-0">
+                  <span className={`font-semibold ${isVuori ? 'text-socal-ocean-700' : 'text-socal-stone-600'}`}>
+                    {isVuori && '→ '}{brand.brand}
+                  </span>
+                </div>
+                <div className="flex-1">
+                  <div className="h-8 bg-socal-stone-100 rounded-lg overflow-hidden">
+                    <div
+                      className={`h-full rounded-lg transition-all ${
+                        isVuori
+                          ? 'bg-gradient-to-r from-socal-ocean-400 to-socal-ocean-600'
+                          : 'bg-socal-stone-300'
+                      }`}
+                      style={{ width: `${barWidth}%` }}
+                    />
+                  </div>
+                </div>
+                <div className="w-20 text-right">
+                  <span className={`text-lg font-bold ${isVuori ? 'text-socal-ocean-600' : 'text-socal-stone-600'}`}>
+                    {brand.avgColors.toFixed(1)}
+                  </span>
+                </div>
+                <div className="w-24 text-right">
+                  <span className="text-sm text-socal-stone-400">{brand.uniqueStyles} styles</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* The Takeaway */}
+      <section className="bg-gradient-to-br from-socal-ocean-600 to-socal-ocean-800 rounded-2xl p-8 text-white">
+        <h2 className="text-xl font-bold mb-4">Key Takeaways</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <div>
+            <p className="text-socal-ocean-200 text-sm font-medium mb-1">Strength</p>
+            <p className="text-white">
+              {scorecard.leading[0]?.metric || 'Performance fabrics'} differentiate Vuori in the market
+            </p>
+          </div>
+          <div>
+            <p className="text-socal-ocean-200 text-sm font-medium mb-1">Opportunity</p>
+            <p className="text-white">
+              {scorecard.lagging[0]?.metric || 'Category expansion'} could unlock new customer segments
+            </p>
+          </div>
+          <div>
+            <p className="text-socal-ocean-200 text-sm font-medium mb-1">Watch</p>
+            <p className="text-white">
+              Monitor competitor velocity and emerging category trends
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
