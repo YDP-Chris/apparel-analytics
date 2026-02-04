@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run prepare-data && next build",
+    "build": "next build",
     "prepare-data": "tsx scripts/prepare-data.ts",
     "start": "next start",
     "lint": "next lint"
