@@ -87,10 +87,16 @@ interface DashboardData {
     black: number;
     white: number;
     gray: number;
-    blue: number;
     navy: number;
+    blue: number;
     green: number;
-    heather: number;
+    khaki: number;
+    brown: number;
+    purple: number;
+    pink: number;
+    orange: number;
+    red: number;
+    yellow: number;
     other: number;
   }>;
   insights: Insight[];
@@ -213,7 +219,7 @@ function processProducts(state: StateJson): DashboardData {
     });
 
   // Calculate color mix (percentages)
-  const COLOR_ORDER = ['black', 'white', 'gray', 'blue', 'navy', 'green', 'heather', 'other'] as const;
+  const COLOR_ORDER = ['black', 'white', 'gray', 'navy', 'blue', 'green', 'khaki', 'brown', 'purple', 'pink', 'orange', 'red', 'yellow', 'other'] as const;
   const colorMix = Object.entries(brands)
     .sort((a, b) => b[1].total - a[1].total)
     .map(([slug, brand]) => {
@@ -227,10 +233,16 @@ function processProducts(state: StateJson): DashboardData {
         black: Math.round(((brand.colors['black'] || 0) / total) * 1000) / 10,
         white: Math.round(((brand.colors['white'] || 0) / total) * 1000) / 10,
         gray: Math.round(((brand.colors['gray'] || 0) / total) * 1000) / 10,
-        blue: Math.round(((brand.colors['blue'] || 0) / total) * 1000) / 10,
         navy: Math.round(((brand.colors['navy'] || 0) / total) * 1000) / 10,
+        blue: Math.round(((brand.colors['blue'] || 0) / total) * 1000) / 10,
         green: Math.round(((brand.colors['green'] || 0) / total) * 1000) / 10,
-        heather: Math.round(((brand.colors['heather'] || 0) / total) * 1000) / 10,
+        khaki: Math.round(((brand.colors['khaki'] || 0) / total) * 1000) / 10,
+        brown: Math.round(((brand.colors['brown'] || 0) / total) * 1000) / 10,
+        purple: Math.round(((brand.colors['purple'] || 0) / total) * 1000) / 10,
+        pink: Math.round(((brand.colors['pink'] || 0) / total) * 1000) / 10,
+        orange: Math.round(((brand.colors['orange'] || 0) / total) * 1000) / 10,
+        red: Math.round(((brand.colors['red'] || 0) / total) * 1000) / 10,
+        yellow: Math.round(((brand.colors['yellow'] || 0) / total) * 1000) / 10,
         other: Math.round((otherTotal / total) * 1000) / 10,
       };
     });
