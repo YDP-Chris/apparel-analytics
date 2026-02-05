@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Apparel Intel | Premium Athleisure Analytics",
-  description: "Competitive intelligence dashboard tracking 12,000+ products across 6 major athleisure brands",
+  description: "Competitive intelligence dashboard tracking products across premium athleisure brands including Vuori, Lululemon, Alo, and more",
 };
 
 export default function RootLayout({

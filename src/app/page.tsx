@@ -29,6 +29,7 @@ export default function HomePage() {
 
   // The "big number" that matters
   const totalProducts = data.totals.products;
+  const brandCount = brands.length;
 
   return (
     <div className="space-y-12">
@@ -42,7 +43,7 @@ export default function HomePage() {
         </h1>
         <p className="text-socal-stone-500 text-lg leading-relaxed">
           We tracked <span className="text-socal-stone-700 font-semibold">{totalProducts.toLocaleString()} products</span> across{' '}
-          <span className="text-socal-stone-700 font-semibold">6 major athleisure brands</span> to understand
+          <span className="text-socal-stone-700 font-semibold">{brandCount} premium athleisure brands</span> to understand
           how competitors position their assortments. Here&apos;s what the data reveals.
         </p>
       </div>
@@ -64,7 +65,7 @@ export default function HomePage() {
           </div>
           <div className="text-center md:text-right">
             <Metric className="text-socal-ocean-600 text-5xl md:text-6xl font-bold">
-              12K+
+              {Math.round(totalProducts / 1000)}K+
             </Metric>
             <Text className="text-socal-stone-400">products tracked</Text>
           </div>
