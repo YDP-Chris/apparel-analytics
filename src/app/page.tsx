@@ -1,9 +1,12 @@
 'use client';
 
-import { Card, BarChart, Text, Metric } from '@tremor/react';
+import { Card, BarChart, Text, Metric, Badge } from '@tremor/react';
 import { getData, getBrands } from '@/lib/data';
 import InsightCard from '@/components/InsightCard';
 import Link from 'next/link';
+import socialData from '@/data/social.json';
+import jobsData from '@/data/jobs.json';
+import pinterestData from '@/data/pinterest.json';
 
 /**
  * Home Page - Following Cole Nussbaumer Knaflic's "Storytelling with Data" principles:
@@ -30,6 +33,25 @@ export default function HomePage() {
   // The "big number" that matters
   const totalProducts = data.totals.products;
   const brandCount = brands.length;
+
+  // Social/Jobs/Pinterest quick stats
+  const social = socialData as { reddit?: { mentions_total?: number }; youtube?: { video_count?: number }; velocity?: Record<string, { mentions_7d?: number }> };
+  const jobs = jobsData as { brands?: Record<string, { total_jobs?: number; name?: string }> };
+  const pinterest = pinterestData as { brands?: Record<string, { total_pins?: number }> };
+
+  const totalJobs = Object.values(jobs.brands || {}).reduce((sum, b) => sum + (b.total_jobs || 0), 0);
+  const totalMentions = social.reddit?.mentions_total || 0;
+  const totalPins = Object.values(pinterest.brands || {}).reduce((sum, b) => sum + (b.total_pins || 0), 0);
+
+  // Top hiring brand
+  const topHiring = Object.entries(jobs.brands || {})
+    .map(([id, b]) => ({ id, jobs: b.total_jobs || 0, name: b.name || id }))
+    .sort((a, b) => b.jobs - a.jobs)[0];
+
+  // Top social brand
+  const topSocial = Object.entries(social.velocity || {})
+    .map(([id, v]) => ({ id, mentions: v.mentions_7d || 0 }))
+    .sort((a, b) => b.mentions - a.mentions)[0];
 
   return (
     <div className="space-y-12">
@@ -71,6 +93,66 @@ export default function HomePage() {
           </div>
         </div>
       </Card>
+
+      {/* Live Intelligence Pulse */}
+      <div>
+        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+          Live Intelligence
+        </h2>
+        <Text className="text-socal-stone-500 mb-6">
+          Real-time signals from social, hiring, and visual trends
+        </Text>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <Link href="/social">
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
+              <Text className="text-socal-stone-400">Reddit Buzz</Text>
+              <Metric className="text-socal-stone-800">{totalMentions.toLocaleString()}</Metric>
+              <Text className="text-xs text-socal-stone-400 mt-1">mentions this month</Text>
+              {topSocial && (
+                <Badge color="cyan" size="sm" className="mt-2">
+                  {topSocial.id === 'outdoor_voices' ? 'Outdoor Voices' : topSocial.id} leading
+                </Badge>
+              )}
+            </Card>
+          </Link>
+
+          <Link href="/jobs">
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
+              <Text className="text-socal-stone-400">Open Roles</Text>
+              <Metric className="text-socal-stone-800">{totalJobs.toLocaleString()}</Metric>
+              <Text className="text-xs text-socal-stone-400 mt-1">jobs across brands</Text>
+              {topHiring && topHiring.jobs > 0 && (
+                <Badge color="emerald" size="sm" className="mt-2">
+                  {topHiring.name}: {topHiring.jobs}
+                </Badge>
+              )}
+            </Card>
+          </Link>
+
+          <Link href="/social">
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
+              <Text className="text-socal-stone-400">Pinterest Pins</Text>
+              <Metric className="text-socal-stone-800">{totalPins}</Metric>
+              <Text className="text-xs text-socal-stone-400 mt-1">visual trends tracked</Text>
+              <Badge color="rose" size="sm" className="mt-2">
+                8 brands
+              </Badge>
+            </Card>
+          </Link>
+
+          <Link href="/social">
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
+              <Text className="text-socal-stone-400">YouTube</Text>
+              <Metric className="text-socal-stone-800">{social.youtube?.video_count || 0}</Metric>
+              <Text className="text-xs text-socal-stone-400 mt-1">recent videos</Text>
+              <Badge color="violet" size="sm" className="mt-2">
+                Last 12 months
+              </Badge>
+            </Card>
+          </Link>
+        </div>
+      </div>
 
       {/* Primary Visual: Simple horizontal bar chart */}
       {/* Cole's principle: Let the data speak, remove gridlines and chartjunk */}
