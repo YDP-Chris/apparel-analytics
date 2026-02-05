@@ -53,10 +53,19 @@ export interface Alert {
   message: string;
 }
 
+export interface HeadToHead {
+  category: string;
+  vuori: number;
+  competitor: number;
+  winner: 'vuori' | 'competitor' | 'tie';
+}
+
 export interface VuoriScorecard {
   leading: ScorecardItem[];
   lagging: ScorecardItem[];
   alerts: Alert[];
+  vsLululemon: HeadToHead[];
+  vsAlo: HeadToHead[];
 }
 
 export interface DashboardData {
