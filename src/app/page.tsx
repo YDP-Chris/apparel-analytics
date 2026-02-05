@@ -70,19 +70,19 @@ export default function HomePage() {
         </p>
       </div>
 
-      {/* The Big Insight - Vuori's unique positioning */}
+      {/* The Big Insight - Vuori's category strength */}
       <Card className="bg-gradient-to-r from-socal-sand-50 to-socal-ocean-50 border-socal-sand-200 ring-0 p-8">
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           <div className="flex-1">
             <Text className="text-socal-stone-400 mb-2">The headline</Text>
             <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
-              Vuori stands alone with{' '}
-              <span className="text-socal-ocean-600">balanced gender positioning</span>
+              Vuori dominates{' '}
+              <span className="text-socal-ocean-600">bottoms and outerwear</span>
             </h2>
             <p className="text-socal-stone-500">
-              While Alo skews <span className="text-socal-stone-700">82% women&apos;s</span> and
-              Gymshark leans <span className="text-socal-stone-700">55% men&apos;s</span>,
-              Vuori maintains a <span className="text-socal-stone-700">48/52 split</span>—capturing both markets.
+              With <span className="text-socal-stone-700">1,268 bottoms</span> (vs Lululemon&apos;s 819) and
+              <span className="text-socal-stone-700"> 386 outerwear</span> pieces (vs Lululemon&apos;s 204),
+              Vuori has built category depth where it matters most.
             </p>
           </div>
           <div className="text-center md:text-right">

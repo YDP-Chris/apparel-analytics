@@ -960,43 +960,15 @@
   ],
   "insights": [
     {
-      "type": "leader",
-      "metric": "gender_balance",
-      "brand": "Vuori",
-      "text": "Vuori is uniquely balanced: 40% women's / 8% men's. Alo skews 30% women's, Gymshark 2% men's."
-    },
-    {
-      "type": "trend",
-      "metric": "earth_tones",
-      "brand": "Vuori",
-      "value": 16,
-      "text": "Vuori's earth tone palette (16%) is +9% vs industry avg—reinforcing California lifestyle positioning."
-    },
-    {
       "type": "comparison",
-      "metric": "joggers_vs_lulu",
-      "text": "Jogger battle: Vuori (130) vs Lululemon (116). Vuori leads by 14."
-    },
-    {
-      "type": "gap",
-      "metric": "leggings",
-      "brand": "Vuori",
-      "value": 20,
-      "text": "Leggings opportunity: Lululemon has 143 vs Vuori's 123. Gap of 20 SKUs."
-    },
-    {
-      "type": "trend",
-      "metric": "neutrals",
-      "brand": "Vuori",
-      "value": 50,
-      "text": "Neutrals (black/white/gray/navy) = 50% of Vuori's palette. Core basics that drive repeat purchases."
+      "metric": "catalog_size",
+      "text": "Gymshark leads with 3,719 products. Vuori has 2,609 (70% of leader)."
     },
     {
       "type": "leader",
-      "metric": "shorts",
+      "metric": "bottoms",
       "brand": "Vuori",
-      "value": 413,
-      "text": "Vuori ranks #2 in shorts with 413 products. Behind Gymshark (680)."
+      "text": "Vuori dominates bottoms with 1,268 products vs Lululemon's 819. A +449 SKU advantage."
     },
     {
       "type": "comparison",
@@ -1005,8 +977,29 @@
     },
     {
       "type": "comparison",
-      "metric": "market_landscape",
-      "text": "Market context: 13,432 competitor products tracked. Vuori's 2,609 = 16% share of tracked catalog."
+      "metric": "joggers",
+      "text": "Jogger battle: Vuori (130) vs Lululemon (116). Vuori leads by 14."
+    },
+    {
+      "type": "comparison",
+      "metric": "market_share",
+      "text": "Tracking 16,041 products across 7 brands. Vuori represents 16% of monitored catalog."
+    },
+    {
+      "type": "trend",
+      "metric": "gender_addressable",
+      "text": "Women's addressable market: Gymshark (98%), Ten Thousand (97%), Vuori (92%)."
+    },
+    {
+      "type": "leader",
+      "metric": "shorts",
+      "brand": "gymshark",
+      "text": "Shorts leader: Gymshark (680). Vuori #2 with 413."
+    },
+    {
+      "type": "trend",
+      "metric": "diversification",
+      "text": "Vuori's bottoms represent 49% of catalog. Balanced vs competitors who over-index on single categories."
     }
   ],
   "vuoriScorecard": {
