@@ -46,26 +46,26 @@
         "unisex": 422
       },
       "colors": {
-        "gray": 335,
-        "navy": 41,
+        "gray": 390,
+        "navy": 74,
         "black": 519,
-        "khaki": 75,
+        "khaki": 134,
         "red": 11,
-        "white": 187,
-        "blue": 267,
-        "green": 114,
-        "brown": 90,
-        "heather": 243,
+        "white": 242,
+        "blue": 260,
+        "green": 146,
+        "brown": 105,
         "print": 7,
+        "heather": 137,
+        "purple": 77,
         "orange": 12,
         "yellow": 11,
         "pink": 16,
-        "purple": 35,
         "multi": 1
       },
-      "colorCoverage": 81.1,
+      "colorCoverage": 88.5,
       "avgColorsPerStyle": 1.1,
-      "uniqueStyles": 1728
+      "uniqueStyles": 1906
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -109,20 +109,20 @@
         "black": 50,
         "white": 16,
         "navy": 25,
-        "gray": 18,
+        "gray": 23,
         "pink": 2,
         "blue": 18,
         "orange": 1,
-        "green": 27,
+        "green": 29,
         "yellow": 1,
-        "brown": 1,
+        "brown": 2,
         "purple": 7,
         "print": 4,
         "multi": 7
       },
-      "colorCoverage": 59.6,
+      "colorCoverage": 62.3,
       "avgColorsPerStyle": 1.2,
-      "uniqueStyles": 146
+      "uniqueStyles": 154
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -195,12 +195,12 @@
         "print": 23,
         "multi": 22,
         "yellow": 3,
-        "blue": 8,
-        "white": 1
+        "white": 13,
+        "blue": 8
       },
-      "colorCoverage": 2.4,
+      "colorCoverage": 2.9,
       "avgColorsPerStyle": 1,
-      "uniqueStyles": 57
+      "uniqueStyles": 69
     },
     "alo": {
       "name": "Alo Yoga",
@@ -250,24 +250,24 @@
       "colors": {
         "navy": 152,
         "black": 821,
-        "white": 666,
-        "gray": 283,
-        "khaki": 42,
+        "white": 663,
+        "gray": 374,
+        "khaki": 80,
         "pink": 141,
-        "blue": 119,
-        "heather": 34,
+        "blue": 120,
         "purple": 30,
-        "green": 165,
+        "green": 164,
         "brown": 228,
         "red": 130,
+        "heather": 20,
         "rust": 7,
         "orange": 2,
-        "yellow": 35,
+        "yellow": 34,
         "multi": 4
       },
-      "colorCoverage": 84.4,
+      "colorCoverage": 87.6,
       "avgColorsPerStyle": 1.2,
-      "uniqueStyles": 2273
+      "uniqueStyles": 2384
     },
     "gymshark": {
       "name": "Gymshark",
@@ -561,13 +561,13 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 335,
-      "outdoor_voices": 18,
-      "alo": 283,
+      "vuori": 390,
+      "outdoor_voices": 23,
+      "alo": 374,
       "gymshark": 430
     },
     "navy": {
-      "vuori": 41,
+      "vuori": 74,
       "outdoor_voices": 25,
       "alo": 152,
       "gymshark": 46
@@ -579,8 +579,8 @@
       "gymshark": 914
     },
     "khaki": {
-      "vuori": 75,
-      "alo": 42
+      "vuori": 134,
+      "alo": 80
     },
     "red": {
       "vuori": 11,
@@ -588,39 +588,45 @@
       "gymshark": 120
     },
     "white": {
-      "vuori": 187,
+      "vuori": 242,
       "outdoor_voices": 16,
-      "lululemon": 1,
-      "alo": 666,
+      "lululemon": 13,
+      "alo": 663,
       "gymshark": 260
     },
     "blue": {
-      "vuori": 267,
+      "vuori": 260,
       "outdoor_voices": 18,
       "lululemon": 8,
-      "alo": 119,
+      "alo": 120,
       "gymshark": 588
     },
     "green": {
-      "vuori": 114,
-      "outdoor_voices": 27,
-      "alo": 165,
+      "vuori": 146,
+      "outdoor_voices": 29,
+      "alo": 164,
       "gymshark": 156
     },
     "brown": {
-      "vuori": 90,
-      "outdoor_voices": 1,
+      "vuori": 105,
+      "outdoor_voices": 2,
       "alo": 228,
       "gymshark": 296
-    },
-    "heather": {
-      "vuori": 243,
-      "alo": 34
     },
     "print": {
       "vuori": 7,
       "outdoor_voices": 4,
       "lululemon": 23
+    },
+    "heather": {
+      "vuori": 137,
+      "alo": 20
+    },
+    "purple": {
+      "vuori": 77,
+      "outdoor_voices": 7,
+      "alo": 30,
+      "gymshark": 146
     },
     "orange": {
       "vuori": 12,
@@ -631,7 +637,7 @@
       "vuori": 11,
       "outdoor_voices": 1,
       "lululemon": 3,
-      "alo": 35,
+      "alo": 34,
       "gymshark": 4
     },
     "pink": {
@@ -639,12 +645,6 @@
       "outdoor_voices": 2,
       "alo": 141,
       "gymshark": 160
-    },
-    "purple": {
-      "vuori": 35,
-      "outdoor_voices": 7,
-      "alo": 30,
-      "gymshark": 146
     },
     "multi": {
       "vuori": 1,
@@ -733,29 +733,29 @@
     {
       "brand": "Alo Yoga",
       "black": 24.2,
-      "white": 19.7,
-      "gray": 8.4,
+      "white": 19.6,
+      "gray": 11,
       "blue": 3.5,
       "navy": 4.5,
-      "green": 4.9,
-      "heather": 1,
-      "other": 18.3
+      "green": 4.8,
+      "heather": 0.6,
+      "other": 19.4
     },
     {
       "brand": "Vuori",
       "black": 21.4,
-      "white": 7.7,
-      "gray": 13.8,
-      "blue": 11,
-      "navy": 1.7,
-      "green": 4.7,
-      "heather": 10,
-      "other": 10.7
+      "white": 10,
+      "gray": 16.1,
+      "blue": 10.7,
+      "navy": 3.1,
+      "green": 6,
+      "heather": 5.7,
+      "other": 15.4
     },
     {
       "brand": "Lululemon",
       "black": 0,
-      "white": 0,
+      "white": 0.5,
       "gray": 0,
       "blue": 0.3,
       "navy": 0,
@@ -767,12 +767,12 @@
       "brand": "Outdoor Voices",
       "black": 16.8,
       "white": 5.4,
-      "gray": 6.1,
+      "gray": 7.7,
       "blue": 6.1,
       "navy": 8.4,
-      "green": 9.1,
+      "green": 9.8,
       "heather": 0,
-      "other": 7.7
+      "other": 8.1
     },
     {
       "brand": "Ten Thousand",
@@ -848,7 +848,7 @@
     "leading": [
       {
         "metric": "Performance Fabrics (Heather)",
-        "value": "10% of products",
+        "value": "6% of products",
         "comparison": "Industry avg: 0%"
       },
       {
@@ -858,7 +858,7 @@
       },
       {
         "metric": "Earth Tone Palette (CA Aesthetic)",
-        "value": "12% earth tones",
+        "value": "16% earth tones",
         "comparison": "Industry avg: 7%"
       },
       {
@@ -876,5 +876,5 @@
     ],
     "alerts": []
   },
-  "generated_at": "2026-02-05T04:29:32.968Z"
+  "generated_at": "2026-02-05T04:37:51.400Z"
 }
