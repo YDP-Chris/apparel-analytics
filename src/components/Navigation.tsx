@@ -7,8 +7,8 @@ const navItems = [
   { href: '/', label: 'Overview' },
   { href: '/vuori', label: 'Vuori Scorecard' },
   { href: '/launches', label: 'Launches' },
+  { href: '/inventory', label: 'Inventory' },
   { href: '/mix', label: 'Product Mix' },
-  { href: '/colors', label: 'Colors' },
   { href: '/brands', label: 'Brands' },
   { href: '/categories', label: 'Categories' },
 ];
