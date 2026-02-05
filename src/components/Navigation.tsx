@@ -8,9 +8,9 @@ const navItems = [
   { href: '/vuori', label: 'Vuori Scorecard' },
   { href: '/launches', label: 'Launches' },
   { href: '/inventory', label: 'Inventory' },
+  { href: '/social', label: 'Social' },
   { href: '/mix', label: 'Product Mix' },
   { href: '/brands', label: 'Brands' },
-  { href: '/categories', label: 'Categories' },
 ];
 
 export default function Navigation() {
