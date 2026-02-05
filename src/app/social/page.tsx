@@ -2,6 +2,7 @@
 
 import { Card, BarChart, Text, Metric, Badge } from '@tremor/react';
 import socialData from '@/data/social.json';
+import pinterestData from '@/data/pinterest.json';
 
 interface TrustpilotData {
   rating: number | null;
@@ -9,6 +10,26 @@ interface TrustpilotData {
   recent_reviews: Array<{ title: string; text: string; stars: number | null }>;
   url: string;
   checked_at: string;
+}
+
+interface PinterestPin {
+  id: string;
+  url: string;
+  image: string;
+  description: string;
+}
+
+interface PinterestBrandData {
+  name: string;
+  queries: Array<{ query: string; pin_count: number }>;
+  total_pins: number;
+  sample_pins: PinterestPin[];
+}
+
+interface PinterestData {
+  brands: Record<string, PinterestBrandData>;
+  categories: Record<string, { pin_count: number; sample_pins: PinterestPin[] }>;
+  generated_at: string;
 }
 
 interface YouTubeVideo {
@@ -62,6 +83,7 @@ interface SocialData {
 }
 
 const data = socialData as unknown as SocialData;
+const pinterest = pinterestData as unknown as PinterestData;
 
 const BRAND_NAMES: Record<string, string> = {
   vuori: 'Vuori',
@@ -116,6 +138,13 @@ export default function SocialPage() {
   const categories = data.trends?.categories || {};
   const trustpilot = data.trustpilot || {};
   const youtube = data.youtube || { videos: [], video_count: 0 };
+
+  // Pinterest data
+  const pinterestBrands = pinterest.brands || {};
+  const pinterestSorted = Object.entries(pinterestBrands)
+    .filter(([, d]) => d.total_pins > 0)
+    .sort((a, b) => b[1].total_pins - a[1].total_pins);
+  const totalPins = pinterestSorted.reduce((sum, [, d]) => sum + d.total_pins, 0);
 
   // Sort brands by velocity
   const sortedVelocity = Object.entries(velocity)
@@ -186,7 +215,7 @@ export default function SocialPage() {
       </div>
 
       {/* Key Metrics */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
           <Text className="text-socal-stone-400">Reddit Mentions</Text>
           <Metric className="text-socal-stone-800">{totalMentions}</Metric>
@@ -197,6 +226,12 @@ export default function SocialPage() {
           <Text className="text-socal-stone-400">YouTube Videos</Text>
           <Metric className="text-socal-ocean-600">{youtube.video_count || 0}</Metric>
           <Text className="text-xs text-socal-stone-400 mt-1">Recent reviews/hauls</Text>
+        </Card>
+
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Text className="text-socal-stone-400">Pinterest Pins</Text>
+          <Metric className="text-socal-sunset-600">{totalPins}</Metric>
+          <Text className="text-xs text-socal-stone-400 mt-1">{pinterestSorted.length} brands tracked</Text>
         </Card>
 
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
@@ -281,6 +316,58 @@ export default function SocialPage() {
                 >
                   View on Trustpilot →
                 </a>
+              </Card>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Pinterest Visual Trends */}
+      {pinterestSorted.length > 0 && (
+        <div>
+          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+            Pinterest Visual Trends
+          </h2>
+          <Text className="text-socal-stone-500 mb-6">
+            Trending pins and outfit inspiration for tracked brands
+          </Text>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {pinterestSorted.map(([brand, brandData]) => (
+              <Card key={brand} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+                <div className="flex items-center justify-between mb-4">
+                  <Badge color={BRAND_COLORS[brand] || 'gray'} size="sm">
+                    {brandData.name}
+                  </Badge>
+                  <span className="text-sm font-medium text-socal-stone-600">
+                    {brandData.total_pins} pins
+                  </span>
+                </div>
+
+                {/* Pin Grid */}
+                <div className="grid grid-cols-3 gap-2 mb-3">
+                  {brandData.sample_pins.slice(0, 6).map((pin) => (
+                    <a
+                      key={pin.id}
+                      href={pin.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block aspect-square rounded-lg overflow-hidden bg-socal-sand-100 hover:opacity-80 transition-opacity"
+                    >
+                      {pin.image && (
+                        <img
+                          src={pin.image}
+                          alt={pin.description || 'Pinterest pin'}
+                          className="w-full h-full object-cover"
+                        />
+                      )}
+                    </a>
+                  ))}
+                </div>
+
+                <p className="text-xs text-socal-stone-400">
+                  Search: &quot;{brandData.queries[0]?.query}&quot;
+                </p>
               </Card>
             ))}
           </div>
@@ -476,6 +563,7 @@ export default function SocialPage() {
               Social mentions are tracked via Reddit RSS feeds from {subredditsChecked} subreddits including
               r/lululemon, r/Gymshark, r/running, r/xxfitness, r/crossfit, r/Peloton, r/tennis, and more.
               YouTube videos are discovered via search. Trustpilot ratings are scraped from public review pages.
+              Pinterest pins are collected using browser automation to capture visual trends.
               Sentiment is estimated using keyword analysis. Data updates every 4 hours.
             </p>
             {data.generated_at && (
