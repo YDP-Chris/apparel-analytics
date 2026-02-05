@@ -18,6 +18,11 @@ interface YouTubeVideo {
   brand: string;
   query: string;
   sentiment: string;
+  channel?: string;
+  views?: number;
+  views_text?: string;
+  published?: string;
+  length?: string;
 }
 
 interface SocialData {
@@ -364,20 +369,26 @@ export default function SocialPage() {
                 <Badge color={BRAND_COLORS[brand] || 'gray'} size="sm" className="mb-3">
                   {BRAND_NAMES[brand] || brand}
                 </Badge>
-                <div className="space-y-2">
+                <div className="space-y-3">
                   {videos.slice(0, 3).map((video) => (
-                    <a
-                      key={video.video_id}
-                      href={video.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-sm text-socal-stone-600 hover:text-socal-ocean-600 line-clamp-1"
-                    >
-                      ▶ {video.title}
-                    </a>
+                    <div key={video.video_id} className="border-b border-socal-sand-100 pb-2 last:border-0">
+                      <a
+                        href={video.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-sm text-socal-stone-700 hover:text-socal-ocean-600 font-medium line-clamp-2"
+                      >
+                        {video.title}
+                      </a>
+                      <div className="flex items-center gap-2 mt-1 text-xs text-socal-stone-400">
+                        {video.channel && <span>{video.channel}</span>}
+                        {video.views_text && <span>• {video.views_text}</span>}
+                        {video.published && <span>• {video.published}</span>}
+                      </div>
+                    </div>
                   ))}
                 </div>
-                <p className="text-xs text-socal-stone-400 mt-2">
+                <p className="text-xs text-socal-stone-400 mt-3">
                   {videos.length} videos found
                 </p>
               </Card>
