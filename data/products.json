@@ -319,13 +319,76 @@
       "colorCoverage": 87.2,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 971
+    },
+    "on_running": {
+      "name": "On Running",
+      "slug": "on_running",
+      "total": 3502,
+      "categories": {
+        "bottoms": 758,
+        "tops": 301,
+        "accessories": 249,
+        "sports_bras": 96,
+        "other": 952,
+        "footwear": 780,
+        "outerwear": 352,
+        "dresses": 14
+      },
+      "subcategories": {
+        "shorts": 318,
+        "leggings": 199,
+        "other": 1112,
+        "hats": 67,
+        "crop_tops": 118,
+        "pants": 185,
+        "running": 712,
+        "tanks": 117,
+        "jackets": 162,
+        "joggers": 23,
+        "casual_dress": 14,
+        "socks": 171,
+        "vests": 36,
+        "hoodies": 145,
+        "skirts": 19,
+        "sweatpants": 14,
+        "lifestyle": 66,
+        "headwear": 4,
+        "polos": 11,
+        "pullovers": 2,
+        "long_sleeve": 7
+      },
+      "genders": {
+        "womens": 1765,
+        "mens": 1271,
+        "unisex": 466
+      },
+      "colors": {
+        "blue": 306,
+        "red": 85,
+        "black": 624,
+        "purple": 90,
+        "navy": 90,
+        "khaki": 60,
+        "gray": 118,
+        "yellow": 24,
+        "white": 540,
+        "pink": 89,
+        "green": 64,
+        "orange": 41,
+        "heather": 5,
+        "brown": 4,
+        "rust": 7
+      },
+      "colorCoverage": 61.3,
+      "avgColorsPerStyle": 2.3,
+      "uniqueStyles": 667
     }
   },
   "totals": {
-    "products": 12151,
-    "brands": 6,
-    "categories": 7,
-    "subcategories": 28
+    "products": 15653,
+    "brands": 7,
+    "categories": 8,
+    "subcategories": 30
   },
   "byCategory": {
     "bottoms": {
@@ -334,7 +397,8 @@
       "tenthousand": 36,
       "lululemon": 819,
       "alo": 1304,
-      "gymshark": 1450
+      "gymshark": 1450,
+      "on_running": 758
     },
     "tops": {
       "vuori": 367,
@@ -342,7 +406,8 @@
       "tenthousand": 24,
       "lululemon": 247,
       "alo": 379,
-      "gymshark": 1014
+      "gymshark": 1014,
+      "on_running": 301
     },
     "outerwear": {
       "vuori": 349,
@@ -350,7 +415,8 @@
       "tenthousand": 16,
       "lululemon": 204,
       "alo": 467,
-      "gymshark": 348
+      "gymshark": 348,
+      "on_running": 352
     },
     "other": {
       "vuori": 337,
@@ -358,14 +424,16 @@
       "tenthousand": 9,
       "lululemon": 875,
       "alo": 631,
-      "gymshark": 208
+      "gymshark": 208,
+      "on_running": 952
     },
     "sports_bras": {
       "vuori": 65,
       "outdoor_voices": 21,
       "lululemon": 91,
       "alo": 228,
-      "gymshark": 343
+      "gymshark": 343,
+      "on_running": 96
     },
     "accessories": {
       "vuori": 90,
@@ -373,13 +441,18 @@
       "tenthousand": 2,
       "lululemon": 137,
       "alo": 297,
-      "gymshark": 216
+      "gymshark": 216,
+      "on_running": 249
     },
     "dresses": {
       "vuori": 17,
       "outdoor_voices": 12,
       "lululemon": 5,
-      "alo": 83
+      "alo": 83,
+      "on_running": 14
+    },
+    "footwear": {
+      "on_running": 780
     }
   },
   "bySubcategory": {
@@ -388,7 +461,8 @@
       "tenthousand": 4,
       "lululemon": 116,
       "alo": 32,
-      "gymshark": 258
+      "gymshark": 258,
+      "on_running": 23
     },
     "shorts": {
       "vuori": 378,
@@ -396,7 +470,8 @@
       "tenthousand": 20,
       "lululemon": 251,
       "alo": 315,
-      "gymshark": 674
+      "gymshark": 674,
+      "on_running": 318
     },
     "tanks": {
       "vuori": 89,
@@ -404,7 +479,8 @@
       "tenthousand": 3,
       "lululemon": 150,
       "alo": 162,
-      "gymshark": 282
+      "gymshark": 282,
+      "on_running": 117
     },
     "tees": {
       "vuori": 141,
@@ -419,7 +495,8 @@
       "tenthousand": 3,
       "lululemon": 143,
       "alo": 247,
-      "gymshark": 302
+      "gymshark": 302,
+      "on_running": 199
     },
     "other": {
       "vuori": 673,
@@ -427,7 +504,8 @@
       "tenthousand": 23,
       "lululemon": 1166,
       "alo": 1236,
-      "gymshark": 1123
+      "gymshark": 1123,
+      "on_running": 1112
     },
     "pants": {
       "vuori": 296,
@@ -435,19 +513,22 @@
       "tenthousand": 9,
       "lululemon": 92,
       "alo": 197,
-      "gymshark": 136
+      "gymshark": 136,
+      "on_running": 185
     },
     "pullovers": {
       "vuori": 2,
       "alo": 98,
-      "gymshark": 60
+      "gymshark": 60,
+      "on_running": 2
     },
     "polos": {
       "vuori": 38,
       "outdoor_voices": 2,
       "lululemon": 35,
       "alo": 13,
-      "gymshark": 8
+      "gymshark": 8,
+      "on_running": 11
     },
     "jackets": {
       "vuori": 113,
@@ -455,13 +536,15 @@
       "tenthousand": 6,
       "lululemon": 54,
       "alo": 130,
-      "gymshark": 78
+      "gymshark": 78,
+      "on_running": 162
     },
     "long_sleeve": {
       "vuori": 21,
       "tenthousand": 4,
       "alo": 21,
-      "gymshark": 170
+      "gymshark": 170,
+      "on_running": 7
     },
     "hoodies": {
       "vuori": 124,
@@ -469,32 +552,37 @@
       "tenthousand": 7,
       "lululemon": 150,
       "alo": 162,
-      "gymshark": 192
+      "gymshark": 192,
+      "on_running": 145
     },
     "hats": {
       "vuori": 26,
       "outdoor_voices": 11,
       "alo": 98,
-      "gymshark": 22
+      "gymshark": 22,
+      "on_running": 67
     },
     "skirts": {
       "vuori": 16,
       "outdoor_voices": 6,
       "lululemon": 91,
-      "alo": 74
+      "alo": 74,
+      "on_running": 19
     },
     "vests": {
       "vuori": 30,
       "outdoor_voices": 3,
       "tenthousand": 2,
-      "alo": 8
+      "alo": 8,
+      "on_running": 36
     },
     "crop_tops": {
       "vuori": 5,
       "outdoor_voices": 7,
       "lululemon": 21,
       "alo": 135,
-      "gymshark": 64
+      "gymshark": 64,
+      "on_running": 118
     },
     "quarter_zips": {
       "vuori": 49
@@ -507,13 +595,15 @@
     "casual_dress": {
       "vuori": 3,
       "outdoor_voices": 6,
-      "alo": 40
+      "alo": 40,
+      "on_running": 14
     },
     "sweatpants": {
       "vuori": 98,
       "outdoor_voices": 16,
       "lululemon": 22,
-      "alo": 171
+      "alo": 171,
+      "on_running": 14
     },
     "bags": {
       "vuori": 4,
@@ -526,13 +616,15 @@
       "tenthousand": 1,
       "lululemon": 82,
       "alo": 131,
-      "gymshark": 90
+      "gymshark": 90,
+      "on_running": 171
     },
     "headwear": {
       "vuori": 7,
       "outdoor_voices": 2,
       "alo": 36,
-      "gymshark": 12
+      "gymshark": 12,
+      "on_running": 4
     },
     "rompers": {
       "vuori": 9,
@@ -552,6 +644,12 @@
     },
     "low_support": {
       "gymshark": 8
+    },
+    "running": {
+      "on_running": 712
+    },
+    "lifestyle": {
+      "on_running": 66
     }
   },
   "byColor": {
@@ -559,52 +657,61 @@
       "vuori": 390,
       "outdoor_voices": 23,
       "alo": 374,
-      "gymshark": 430
+      "gymshark": 430,
+      "on_running": 118
     },
     "navy": {
       "vuori": 74,
       "outdoor_voices": 25,
       "alo": 152,
-      "gymshark": 46
+      "gymshark": 46,
+      "on_running": 90
     },
     "black": {
       "vuori": 519,
       "outdoor_voices": 50,
       "alo": 821,
-      "gymshark": 914
+      "gymshark": 914,
+      "on_running": 624
     },
     "khaki": {
       "vuori": 134,
-      "alo": 80
+      "alo": 80,
+      "on_running": 60
     },
     "red": {
       "vuori": 11,
       "alo": 130,
-      "gymshark": 120
+      "gymshark": 120,
+      "on_running": 85
     },
     "white": {
       "vuori": 242,
       "outdoor_voices": 16,
       "alo": 663,
-      "gymshark": 260
+      "gymshark": 260,
+      "on_running": 540
     },
     "blue": {
       "vuori": 260,
       "outdoor_voices": 18,
       "alo": 120,
-      "gymshark": 588
+      "gymshark": 588,
+      "on_running": 306
     },
     "green": {
       "vuori": 146,
       "outdoor_voices": 29,
       "alo": 164,
-      "gymshark": 156
+      "gymshark": 156,
+      "on_running": 64
     },
     "brown": {
       "vuori": 105,
       "outdoor_voices": 2,
       "alo": 228,
-      "gymshark": 296
+      "gymshark": 296,
+      "on_running": 4
     },
     "print": {
       "vuori": 7,
@@ -612,30 +719,35 @@
     },
     "heather": {
       "vuori": 137,
-      "alo": 20
+      "alo": 20,
+      "on_running": 5
     },
     "purple": {
       "vuori": 77,
       "outdoor_voices": 7,
       "alo": 30,
-      "gymshark": 146
+      "gymshark": 146,
+      "on_running": 90
     },
     "orange": {
       "vuori": 12,
       "outdoor_voices": 1,
-      "alo": 2
+      "alo": 2,
+      "on_running": 41
     },
     "yellow": {
       "vuori": 11,
       "outdoor_voices": 1,
       "alo": 34,
-      "gymshark": 4
+      "gymshark": 4,
+      "on_running": 24
     },
     "pink": {
       "vuori": 16,
       "outdoor_voices": 2,
       "alo": 141,
-      "gymshark": 160
+      "gymshark": 160,
+      "on_running": 89
     },
     "multi": {
       "vuori": 1,
@@ -643,7 +755,8 @@
       "alo": 4
     },
     "rust": {
-      "alo": 7
+      "alo": 7,
+      "on_running": 7
     }
   },
   "categoryMix": [
@@ -656,6 +769,16 @@
       "sports_bras": 9.6,
       "accessories": 6,
       "other": 5.8
+    },
+    {
+      "brand": "On Running",
+      "bottoms": 21.6,
+      "tops": 8.6,
+      "outerwear": 10.1,
+      "dresses": 0.4,
+      "sports_bras": 2.7,
+      "accessories": 7.1,
+      "other": 27.2
     },
     {
       "brand": "Alo Yoga",
@@ -725,6 +848,23 @@
       "red": 3.4,
       "yellow": 0.1,
       "other": 0
+    },
+    {
+      "brand": "On Running",
+      "black": 17.8,
+      "white": 15.4,
+      "gray": 3.4,
+      "navy": 2.6,
+      "blue": 8.7,
+      "green": 1.8,
+      "khaki": 1.7,
+      "brown": 0.1,
+      "purple": 2.6,
+      "pink": 2.5,
+      "orange": 1.2,
+      "red": 2.4,
+      "yellow": 0.7,
+      "other": 0.3
     },
     {
       "brand": "Alo Yoga",
@@ -860,7 +1000,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 9,730 competitor products tracked. Vuori's 2,421 = 20% share of tracked catalog."
+      "text": "Market context: 13,232 competitor products tracked. Vuori's 2,421 = 15% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -871,11 +1011,6 @@
         "comparison": "Industry avg: 0%"
       },
       {
-        "metric": "Color Depth",
-        "value": "1.5 colors/style",
-        "comparison": "+0.0 vs industry avg"
-      },
-      {
         "metric": "Earth Tone Palette (CA Aesthetic)",
         "value": "16% earth tones",
         "comparison": "Industry avg: 7%"
@@ -883,9 +1018,24 @@
     ],
     "lagging": [
       {
+        "metric": "Color Depth",
+        "value": "1.5 colors/style",
+        "comparison": "On Running has 2.3"
+      },
+      {
         "metric": "Bralette",
         "value": "0 products",
         "comparison": "Competitors have 35 products"
+      },
+      {
+        "metric": "Running",
+        "value": "0 products",
+        "comparison": "Competitors have 712 products"
+      },
+      {
+        "metric": "Lifestyle",
+        "value": "0 products",
+        "comparison": "Competitors have 66 products"
       }
     ],
     "alerts": [],
@@ -990,5 +1140,5 @@
       }
     ]
   },
-  "generated_at": "2026-02-05T05:09:21.172Z"
+  "generated_at": "2026-02-05T05:44:59.417Z"
 }

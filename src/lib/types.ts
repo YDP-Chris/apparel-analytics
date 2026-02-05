@@ -93,6 +93,7 @@ export const BRAND_COLORS: Record<string, string> = {
   gymshark: 'amber',
   outdoor_voices: 'emerald',
   tenthousand: 'blue',
+  on_running: 'orange',
 };
 
 export const CATEGORY_COLORS: Record<string, string> = {
@@ -125,4 +126,4 @@ export const COLOR_FAMILY_COLORS: Record<string, string> = {
   print: '#a29bfe',
 };
 
-export const BRAND_ORDER = ['gymshark', 'alo', 'vuori', 'lululemon', 'outdoor_voices', 'tenthousand'];
+export const BRAND_ORDER = ['gymshark', 'on_running', 'alo', 'vuori', 'lululemon', 'outdoor_voices', 'tenthousand'];

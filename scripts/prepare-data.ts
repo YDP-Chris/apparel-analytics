@@ -120,6 +120,7 @@ const BRAND_NAMES: Record<string, string> = {
   gymshark: 'Gymshark',
   outdoor_voices: 'Outdoor Voices',
   tenthousand: 'Ten Thousand',
+  on_running: 'On Running',
 };
 
 const CATEGORY_ORDER = ['bottoms', 'tops', 'outerwear', 'dresses', 'sports_bras', 'accessories', 'other'];
