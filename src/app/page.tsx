@@ -47,18 +47,19 @@ export default function HomePage() {
         </p>
       </div>
 
-      {/* The Big Insight - What's the ONE thing to remember? */}
+      {/* The Big Insight - Vuori's unique positioning */}
       <Card className="bg-gradient-to-r from-socal-sand-50 to-socal-ocean-50 border-socal-sand-200 ring-0 p-8">
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           <div className="flex-1">
             <Text className="text-socal-stone-400 mb-2">The headline</Text>
             <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
-              Gymshark leads with the largest catalog—
-              <span className="text-socal-ocean-600">3,581 products</span>
+              Vuori stands alone with{' '}
+              <span className="text-socal-ocean-600">balanced gender positioning</span>
             </h2>
             <p className="text-socal-stone-500">
-              That&apos;s <span className="text-socal-stone-700">40x</span> the size of Ten Thousand&apos;s focused 88-product lineup,
-              and <span className="text-socal-stone-700">48%</span> larger than Alo Yoga.
+              While Alo skews <span className="text-socal-stone-700">82% women&apos;s</span> and
+              Gymshark leans <span className="text-socal-stone-700">55% men&apos;s</span>,
+              Vuori maintains a <span className="text-socal-stone-700">48/52 split</span>—capturing both markets.
             </p>
           </div>
           <div className="text-center md:text-right">
@@ -171,36 +172,44 @@ export default function HomePage() {
                 <tr className="border-b border-socal-sand-200">
                   <th className="text-left py-3 px-4 text-socal-stone-500 font-medium">Brand</th>
                   <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Total</th>
+                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Men&apos;s</th>
+                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Women&apos;s</th>
                   <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Bottoms</th>
                   <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Tops</th>
-                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Outerwear</th>
                 </tr>
               </thead>
               <tbody>
-                {brands.map((brand) => (
-                  <tr key={brand.slug} className="border-b border-socal-sand-100">
-                    <td className="py-3 px-4">
-                      <Link
-                        href={`/brand/${brand.slug}`}
-                        className="text-socal-stone-700 hover:text-socal-ocean-600 transition-colors"
-                      >
-                        {brand.name}
-                      </Link>
-                    </td>
-                    <td className="py-3 px-4 text-right font-medium text-socal-stone-700">
-                      {brand.total.toLocaleString()}
-                    </td>
-                    <td className="py-3 px-4 text-right text-socal-stone-500">
-                      {(brand.categories.bottoms || 0).toLocaleString()}
-                    </td>
-                    <td className="py-3 px-4 text-right text-socal-stone-500">
-                      {(brand.categories.tops || 0).toLocaleString()}
-                    </td>
-                    <td className="py-3 px-4 text-right text-socal-stone-500">
-                      {(brand.categories.outerwear || 0).toLocaleString()}
-                    </td>
-                  </tr>
-                ))}
+                {brands.map((brand) => {
+                  const mensPct = Math.round(((brand.genders?.mens || 0) / brand.total) * 100);
+                  const womensPct = Math.round(((brand.genders?.womens || 0) / brand.total) * 100);
+                  return (
+                    <tr key={brand.slug} className={`border-b border-socal-sand-100 ${brand.slug === 'vuori' ? 'bg-socal-ocean-50' : ''}`}>
+                      <td className="py-3 px-4">
+                        <Link
+                          href={`/brand/${brand.slug}`}
+                          className={`hover:text-socal-ocean-600 transition-colors ${brand.slug === 'vuori' ? 'text-socal-ocean-700 font-semibold' : 'text-socal-stone-700'}`}
+                        >
+                          {brand.name}
+                        </Link>
+                      </td>
+                      <td className="py-3 px-4 text-right font-medium text-socal-stone-700">
+                        {brand.total.toLocaleString()}
+                      </td>
+                      <td className="py-3 px-4 text-right text-socal-stone-500">
+                        {mensPct}%
+                      </td>
+                      <td className="py-3 px-4 text-right text-socal-stone-500">
+                        {womensPct}%
+                      </td>
+                      <td className="py-3 px-4 text-right text-socal-stone-500">
+                        {(brand.categories.bottoms || 0).toLocaleString()}
+                      </td>
+                      <td className="py-3 px-4 text-right text-socal-stone-500">
+                        {(brand.categories.tops || 0).toLocaleString()}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

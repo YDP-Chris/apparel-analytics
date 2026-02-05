@@ -55,10 +55,18 @@ interface Alert {
   message: string;
 }
 
+interface HeadToHead {
+  category: string;
+  vuori: number;
+  lululemon: number;
+  winner: 'vuori' | 'lululemon' | 'tie';
+}
+
 interface VuoriScorecard {
   leading: ScorecardItem[];
   lagging: ScorecardItem[];
   alerts: Alert[];
+  vsLululemon: HeadToHead[];
 }
 
 interface DashboardData {
@@ -282,78 +290,138 @@ function generateInsights(
   totalProducts: number
 ): Insight[] {
   const insights: Insight[] = [];
-  const brandCount = Object.keys(brands).length;
+  const vuori = brands['vuori'];
+  const lululemon = brands['lululemon'];
 
-  // Find leaders by subcategory
-  const keySubcategories = ['shorts', 'leggings', 'joggers', 'hoodies', 'tanks'];
-  for (const subcat of keySubcategories) {
-    const counts = bySubcategory[subcat] || {};
-    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-    if (sorted.length > 0) {
-      const [leader, count] = sorted[0];
-      const brandData = brands[leader];
-      const pctOfCatalog = Math.round((count / brandData.total) * 1000) / 10;
+  if (!vuori) return insights;
 
-      // Calculate market average
-      const totalInSubcat = Object.values(counts).reduce((s, c) => s + c, 0);
-      const avgCount = totalInSubcat / brandCount;
-      const indexVsMarket = Math.round((count / avgCount) * 100);
+  // --- VUORI-FOCUSED STRATEGIC INSIGHTS ---
 
-      if (indexVsMarket > 120) {
-        insights.push({
-          type: 'leader',
-          metric: subcat,
-          brand: brandData.name,
-          value: count,
-          text: `${brandData.name} leads ${subcat} with ${count} products (${pctOfCatalog}% of catalog, ${indexVsMarket}% vs market avg)`,
-        });
-      }
-    }
-  }
+  // 1. Gender balance advantage
+  const vuoriWomensPct = Math.round(((vuori.genders['womens'] || 0) / vuori.total) * 100);
+  const vuoriMensPct = Math.round(((vuori.genders['mens'] || 0) / vuori.total) * 100);
+  const aloWomensPct = Math.round(((brands['alo']?.genders['womens'] || 0) / (brands['alo']?.total || 1)) * 100);
+  const gymsharkMensPct = Math.round(((brands['gymshark']?.genders['mens'] || 0) / (brands['gymshark']?.total || 1)) * 100);
 
-  // Find gaps (brands under-indexing)
-  for (const [slug, brand] of Object.entries(brands)) {
-    // Check for tennis dresses
-    const dressCount = brand.subcategories['dresses'] || 0;
-    const tennisDressCount = brand.subcategories['tennis_dresses'] || 0;
+  insights.push({
+    type: 'leader',
+    metric: 'gender_balance',
+    brand: 'Vuori',
+    text: `Vuori is uniquely balanced: ${vuoriWomensPct}% women's / ${vuoriMensPct}% men's. Alo skews ${aloWomensPct}% women's, Gymshark ${gymsharkMensPct}% men's.`,
+  });
 
-    if (brand.total > 500 && tennisDressCount < 10) {
+  // 2. Earth tone positioning (California aesthetic)
+  const earthFamilies = ['brown', 'khaki', 'green', 'rust'];
+  const vuoriEarthCount = earthFamilies.reduce((s, c) => s + (vuori.colors[c] || 0), 0);
+  const vuoriEarthPct = Math.round((vuoriEarthCount / vuori.total) * 100);
+  const industryEarthAvg = Math.round(Object.entries(brands)
+    .filter(([s]) => s !== 'vuori')
+    .reduce((sum, [_, b]) => {
+      const earth = earthFamilies.reduce((s, c) => s + (b.colors[c] || 0), 0);
+      return sum + (earth / b.total) * 100;
+    }, 0) / (Object.keys(brands).length - 1));
+
+  insights.push({
+    type: 'trend',
+    metric: 'earth_tones',
+    brand: 'Vuori',
+    value: vuoriEarthPct,
+    text: `Vuori's earth tone palette (${vuoriEarthPct}%) is ${vuoriEarthPct - industryEarthAvg > 0 ? '+' : ''}${vuoriEarthPct - industryEarthAvg}% vs industry avg—reinforcing California lifestyle positioning.`,
+  });
+
+  // 3. Lululemon head-to-head comparison
+  if (lululemon) {
+    const vuoriJoggers = vuori.subcategories['joggers'] || 0;
+    const luluJoggers = lululemon.subcategories['joggers'] || 0;
+    const joggerGap = vuoriJoggers - luluJoggers;
+
+    insights.push({
+      type: 'comparison',
+      metric: 'joggers_vs_lulu',
+      text: `Jogger battle: Vuori (${vuoriJoggers}) vs Lululemon (${luluJoggers}). ${joggerGap > 0 ? `Vuori leads by ${joggerGap}` : `Gap of ${Math.abs(joggerGap)} to close`}.`,
+    });
+
+    // Leggings opportunity
+    const vuoriLeggings = vuori.subcategories['leggings'] || 0;
+    const luluLeggings = lululemon.subcategories['leggings'] || 0;
+    if (luluLeggings > vuoriLeggings) {
       insights.push({
         type: 'gap',
-        metric: 'tennis_dresses',
-        brand: brand.name,
-        value: tennisDressCount,
-        text: `${brand.name} has minimal tennis dress presence (${tennisDressCount} products, ${Math.round((tennisDressCount / brand.total) * 1000) / 10}%)`,
+        metric: 'leggings',
+        brand: 'Vuori',
+        value: luluLeggings - vuoriLeggings,
+        text: `Leggings opportunity: Lululemon has ${luluLeggings} vs Vuori's ${vuoriLeggings}. Gap of ${luluLeggings - vuoriLeggings} SKUs.`,
       });
     }
   }
 
-  // Find catalog size comparisons
-  const sortedBySize = Object.entries(brands).sort((a, b) => b[1].total - a[1].total);
-  const largest = sortedBySize[0];
-  const smallest = sortedBySize[sortedBySize.length - 1];
+  // 4. Color strategy insight
+  const neutrals = ['black', 'white', 'gray', 'navy'];
+  const vuoriNeutralPct = Math.round(neutrals.reduce((s, c) => s + (vuori.colors[c] || 0), 0) / vuori.total * 100);
+
+  insights.push({
+    type: 'trend',
+    metric: 'neutrals',
+    brand: 'Vuori',
+    value: vuoriNeutralPct,
+    text: `Neutrals (black/white/gray/navy) = ${vuoriNeutralPct}% of Vuori's palette. Core basics that drive repeat purchases.`,
+  });
+
+  // 5. Men's category strength
+  const vuoriMensProducts = vuori.genders['mens'] || 0;
+  const luluMensProducts = lululemon?.genders['mens'] || 0;
+  if (vuoriMensProducts > luluMensProducts) {
+    insights.push({
+      type: 'leader',
+      metric: 'mens_catalog',
+      brand: 'Vuori',
+      value: vuoriMensProducts,
+      text: `Vuori leads Lululemon in men's: ${vuoriMensProducts} vs ${luluMensProducts} products. A ${Math.round((vuoriMensProducts / luluMensProducts - 1) * 100)}% advantage.`,
+    });
+  }
+
+  // 6. Shorts leadership check
+  const shortsRanking = Object.entries(brands)
+    .map(([slug, b]) => ({ slug, name: b.name, shorts: b.subcategories['shorts'] || 0 }))
+    .sort((a, b) => b.shorts - a.shorts);
+  const vuoriShortsRank = shortsRanking.findIndex(b => b.slug === 'vuori') + 1;
+
+  if (vuoriShortsRank <= 3) {
+    const vuoriShorts = vuori.subcategories['shorts'] || 0;
+    insights.push({
+      type: 'leader',
+      metric: 'shorts',
+      brand: 'Vuori',
+      value: vuoriShorts,
+      text: `Vuori ranks #${vuoriShortsRank} in shorts with ${vuoriShorts} products. ${vuoriShortsRank === 1 ? 'Category leader.' : `Behind ${shortsRanking[0].name} (${shortsRanking[0].shorts}).`}`,
+    });
+  }
+
+  // 7. Outerwear position
+  const vuoriOuterwear = vuori.categories['outerwear'] || 0;
+  const luluOuterwear = lululemon?.categories['outerwear'] || 0;
+  const outerwearComparison = lululemon
+    ? `vs Lululemon's ${luluOuterwear}`
+    : '';
 
   insights.push({
     type: 'comparison',
-    metric: 'catalog_size',
-    text: `${largest[1].name} has ${Math.round(largest[1].total / smallest[1].total)}x the catalog of ${smallest[1].name} (${largest[1].total.toLocaleString()} vs ${smallest[1].total.toLocaleString()} products)`,
+    metric: 'outerwear',
+    text: `Outerwear depth: Vuori has ${vuoriOuterwear} products ${outerwearComparison}. Key for cooler weather expansion.`,
   });
 
-  // Bottoms-focused brands
-  for (const [slug, brand] of Object.entries(brands)) {
-    const bottomsPct = ((brand.categories['bottoms'] || 0) / brand.total) * 100;
-    if (bottomsPct > 40) {
-      insights.push({
-        type: 'trend',
-        metric: 'bottoms_focus',
-        brand: brand.name,
-        value: Math.round(bottomsPct),
-        text: `${brand.name} is bottoms-focused: ${Math.round(bottomsPct)}% of catalog in bottoms category`,
-      });
-    }
-  }
+  // 8. Size of opportunity
+  const totalCompetitors = Object.values(brands)
+    .filter(b => b.slug !== 'vuori')
+    .reduce((s, b) => s + b.total, 0);
 
-  return insights.slice(0, 8); // Limit to top 8 insights
+  insights.push({
+    type: 'comparison',
+    metric: 'market_landscape',
+    text: `Market context: ${totalCompetitors.toLocaleString()} competitor products tracked. Vuori's ${vuori.total.toLocaleString()} = ${Math.round(vuori.total / totalProducts * 100)}% share of tracked catalog.`,
+  });
+
+  return insights.slice(0, 8);
 }
 
 function generateVuoriScorecard(
@@ -493,11 +561,46 @@ function generateVuoriScorecard(
     }
   }
 
+  // --- HEAD-TO-HEAD VS LULULEMON ---
+  const vsLululemon: HeadToHead[] = [];
+  const lululemon = brands['lululemon'];
+
+  if (lululemon) {
+    // Compare key subcategories
+    const compareSubcats = ['joggers', 'leggings', 'shorts', 'hoodies', 'tanks', 'tees'];
+    for (const subcat of compareSubcats) {
+      const vuoriCount = vuori.subcategories[subcat] || 0;
+      const luluCount = lululemon.subcategories[subcat] || 0;
+      vsLululemon.push({
+        category: subcat.charAt(0).toUpperCase() + subcat.slice(1),
+        vuori: vuoriCount,
+        lululemon: luluCount,
+        winner: vuoriCount > luluCount ? 'vuori' : vuoriCount < luluCount ? 'lululemon' : 'tie',
+      });
+    }
+
+    // Compare gender
+    vsLululemon.push({
+      category: "Men's Products",
+      vuori: vuori.genders['mens'] || 0,
+      lululemon: lululemon.genders['mens'] || 0,
+      winner: (vuori.genders['mens'] || 0) > (lululemon.genders['mens'] || 0) ? 'vuori' : 'lululemon',
+    });
+
+    vsLululemon.push({
+      category: "Women's Products",
+      vuori: vuori.genders['womens'] || 0,
+      lululemon: lululemon.genders['womens'] || 0,
+      winner: (vuori.genders['womens'] || 0) > (lululemon.genders['womens'] || 0) ? 'vuori' : 'lululemon',
+    });
+  }
+
   // Limit outputs
   return {
     leading: leading.slice(0, 5),
     lagging: lagging.slice(0, 4),
     alerts: alerts.slice(0, 5),
+    vsLululemon,
   };
 }
 

@@ -825,59 +825,54 @@
   "insights": [
     {
       "type": "leader",
-      "metric": "shorts",
-      "brand": "Gymshark",
-      "value": 674,
-      "text": "Gymshark leads shorts with 674 products (18.8% of catalog, 242% vs market avg)"
-    },
-    {
-      "type": "leader",
-      "metric": "leggings",
-      "brand": "Gymshark",
-      "value": 302,
-      "text": "Gymshark leads leggings with 302 products (8.4% of catalog, 219% vs market avg)"
-    },
-    {
-      "type": "leader",
-      "metric": "joggers",
-      "brand": "Gymshark",
-      "value": 258,
-      "text": "Gymshark leads joggers with 258 products (7.2% of catalog, 293% vs market avg)"
-    },
-    {
-      "type": "leader",
-      "metric": "hoodies",
-      "brand": "Gymshark",
-      "value": 192,
-      "text": "Gymshark leads hoodies with 192 products (5.4% of catalog, 179% vs market avg)"
-    },
-    {
-      "type": "leader",
-      "metric": "tanks",
-      "brand": "Gymshark",
-      "value": 282,
-      "text": "Gymshark leads tanks with 282 products (7.9% of catalog, 243% vs market avg)"
-    },
-    {
-      "type": "gap",
-      "metric": "tennis_dresses",
+      "metric": "gender_balance",
       "brand": "Vuori",
-      "value": 0,
-      "text": "Vuori has minimal tennis dress presence (0 products, 0%)"
+      "text": "Vuori is uniquely balanced: 39% women's / 43% men's. Alo skews 52% women's, Gymshark 25% men's."
+    },
+    {
+      "type": "trend",
+      "metric": "earth_tones",
+      "brand": "Vuori",
+      "value": 16,
+      "text": "Vuori's earth tone palette (16%) is +9% vs industry avg—reinforcing California lifestyle positioning."
+    },
+    {
+      "type": "comparison",
+      "metric": "joggers_vs_lulu",
+      "text": "Jogger battle: Vuori (118) vs Lululemon (116). Vuori leads by 2."
     },
     {
       "type": "gap",
-      "metric": "tennis_dresses",
-      "brand": "Lululemon",
-      "value": 0,
-      "text": "Lululemon has minimal tennis dress presence (0 products, 0%)"
+      "metric": "leggings",
+      "brand": "Vuori",
+      "value": 24,
+      "text": "Leggings opportunity: Lululemon has 143 vs Vuori's 119. Gap of 24 SKUs."
     },
     {
-      "type": "gap",
-      "metric": "tennis_dresses",
-      "brand": "Alo Yoga",
-      "value": 0,
-      "text": "Alo Yoga has minimal tennis dress presence (0 products, 0%)"
+      "type": "trend",
+      "metric": "neutrals",
+      "brand": "Vuori",
+      "value": 51,
+      "text": "Neutrals (black/white/gray/navy) = 51% of Vuori's palette. Core basics that drive repeat purchases."
+    },
+    {
+      "type": "leader",
+      "metric": "mens_catalog",
+      "brand": "Vuori",
+      "value": 1048,
+      "text": "Vuori leads Lululemon in men's: 1048 vs 727 products. A 44% advantage."
+    },
+    {
+      "type": "leader",
+      "metric": "shorts",
+      "brand": "Vuori",
+      "value": 378,
+      "text": "Vuori ranks #2 in shorts with 378 products. Behind Gymshark (674)."
+    },
+    {
+      "type": "comparison",
+      "metric": "outerwear",
+      "text": "Outerwear depth: Vuori has 349 products vs Lululemon's 204. Key for cooler weather expansion."
     }
   ],
   "vuoriScorecard": {
@@ -910,7 +905,57 @@
         "comparison": "Competitors have 35 products"
       }
     ],
-    "alerts": []
+    "alerts": [],
+    "vsLululemon": [
+      {
+        "category": "Joggers",
+        "vuori": 118,
+        "lululemon": 116,
+        "winner": "vuori"
+      },
+      {
+        "category": "Leggings",
+        "vuori": 119,
+        "lululemon": 143,
+        "winner": "lululemon"
+      },
+      {
+        "category": "Shorts",
+        "vuori": 378,
+        "lululemon": 251,
+        "winner": "vuori"
+      },
+      {
+        "category": "Hoodies",
+        "vuori": 124,
+        "lululemon": 150,
+        "winner": "lululemon"
+      },
+      {
+        "category": "Tanks",
+        "vuori": 89,
+        "lululemon": 150,
+        "winner": "lululemon"
+      },
+      {
+        "category": "Tees",
+        "vuori": 141,
+        "lululemon": 0,
+        "winner": "vuori"
+      },
+      {
+        "category": "Men's Products",
+        "vuori": 1048,
+        "lululemon": 727,
+        "winner": "vuori"
+      },
+      {
+        "category": "Women's Products",
+        "vuori": 951,
+        "lululemon": 1016,
+        "winner": "lululemon"
+      }
+    ]
   },
-  "generated_at": "2026-02-05T04:41:48.448Z"
+  "generated_at": "2026-02-05T04:51:06.789Z"
 }

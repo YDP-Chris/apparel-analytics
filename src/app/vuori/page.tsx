@@ -154,6 +154,57 @@ export default function VuoriScorecardPage() {
         </section>
       )}
 
+      {/* Head-to-Head: Vuori vs Lululemon */}
+      {scorecard.vsLululemon && scorecard.vsLululemon.length > 0 && (
+        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-10 h-10 rounded-xl bg-socal-stone-100 flex items-center justify-center">
+              <span className="text-socal-stone-600 text-lg">⚔️</span>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-socal-stone-800">Vuori vs Lululemon</h2>
+              <p className="text-sm text-socal-stone-400">Head-to-head subcategory comparison</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 gap-3">
+            {scorecard.vsLululemon.map((h2h: { category: string; vuori: number; lululemon: number; winner: string }) => (
+              <div
+                key={h2h.category}
+                className={`flex items-center p-4 rounded-xl ${
+                  h2h.winner === 'vuori'
+                    ? 'bg-socal-ocean-50 border border-socal-ocean-200'
+                    : h2h.winner === 'lululemon'
+                    ? 'bg-socal-sunset-50 border border-socal-sunset-100'
+                    : 'bg-socal-stone-50 border border-socal-stone-100'
+                }`}
+              >
+                <div className="w-32 font-medium text-socal-stone-700">{h2h.category}</div>
+                <div className="flex-1 flex items-center gap-4">
+                  <div className={`flex-1 text-right ${h2h.winner === 'vuori' ? 'font-bold text-socal-ocean-700' : 'text-socal-stone-600'}`}>
+                    {h2h.vuori.toLocaleString()}
+                    {h2h.winner === 'vuori' && <span className="ml-2">✓</span>}
+                  </div>
+                  <div className="w-8 text-center text-socal-stone-400">vs</div>
+                  <div className={`flex-1 ${h2h.winner === 'lululemon' ? 'font-bold text-socal-sunset-700' : 'text-socal-stone-600'}`}>
+                    {h2h.lululemon.toLocaleString()}
+                    {h2h.winner === 'lululemon' && <span className="ml-2">✓</span>}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-6 p-4 bg-socal-sand-50 rounded-xl">
+            <p className="text-sm text-socal-stone-600">
+              <span className="font-semibold">Summary:</span>{' '}
+              Vuori wins {scorecard.vsLululemon.filter((h: { winner: string }) => h.winner === 'vuori').length} of {scorecard.vsLululemon.length} categories.
+              {' '}Strong in men&apos;s, competitive in joggers.
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* Deep Dive: Color Depth Comparison */}
       <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
         <div className="flex items-center gap-3 mb-2">
