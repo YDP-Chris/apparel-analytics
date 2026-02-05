@@ -127,7 +127,11 @@ function processProducts(state: StateJson): DashboardData {
   // Process each brand
   for (const [brandSlug, products] of Object.entries(state.sitemap_products)) {
     const brandName = BRAND_NAMES[brandSlug] || brandSlug;
-    const productList = Object.values(products);
+    // Filter out gift cards
+    const productList = Object.values(products).filter(p => {
+      const url = p.url.toLowerCase();
+      return !(url.includes('gift') && url.includes('card')) && !url.includes('giftcard');
+    });
 
     const categories: Record<string, number> = {};
     const subcategories: Record<string, number> = {};

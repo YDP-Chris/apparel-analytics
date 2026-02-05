@@ -3,12 +3,12 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 2422,
+      "total": 2421,
       "categories": {
         "bottoms": 1196,
         "tops": 367,
         "outerwear": 349,
-        "other": 338,
+        "other": 337,
         "sports_bras": 65,
         "accessories": 90,
         "dresses": 17
@@ -19,7 +19,7 @@
         "tanks": 89,
         "tees": 141,
         "leggings": 119,
-        "other": 674,
+        "other": 673,
         "pants": 296,
         "pullovers": 2,
         "polos": 38,
@@ -43,7 +43,7 @@
       "genders": {
         "mens": 1048,
         "womens": 951,
-        "unisex": 423
+        "unisex": 422
       },
       "colors": {
         "gray": 335,
@@ -127,17 +127,17 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 88,
+      "total": 87,
       "categories": {
-        "other": 10,
         "bottoms": 36,
+        "other": 9,
         "tops": 24,
         "outerwear": 16,
         "accessories": 2
       },
       "subcategories": {
-        "other": 24,
         "shorts": 20,
+        "other": 23,
         "long_sleeve": 4,
         "tanks": 3,
         "pants": 9,
@@ -150,7 +150,7 @@
         "socks": 1
       },
       "genders": {
-        "mens": 88
+        "mens": 87
       },
       "colors": {},
       "colorCoverage": 0,
@@ -160,11 +160,11 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 2379,
+      "total": 2378,
       "categories": {
         "tops": 247,
         "bottoms": 819,
-        "other": 876,
+        "other": 875,
         "sports_bras": 91,
         "accessories": 137,
         "outerwear": 204,
@@ -173,7 +173,7 @@
       "subcategories": {
         "tanks": 150,
         "shorts": 251,
-        "other": 1167,
+        "other": 1166,
         "leggings": 143,
         "joggers": 116,
         "polos": 35,
@@ -189,7 +189,7 @@
       "genders": {
         "womens": 1016,
         "mens": 727,
-        "unisex": 636
+        "unisex": 635
       },
       "colors": {
         "print": 23,
@@ -205,9 +205,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 3396,
+      "total": 3389,
       "categories": {
-        "other": 638,
+        "other": 631,
         "bottoms": 1304,
         "tops": 379,
         "sports_bras": 228,
@@ -216,7 +216,7 @@
         "dresses": 83
       },
       "subcategories": {
-        "other": 1243,
+        "other": 1236,
         "leggings": 247,
         "tanks": 162,
         "shorts": 315,
@@ -243,17 +243,17 @@
         "high_support": 2
       },
       "genders": {
-        "unisex": 840,
+        "unisex": 833,
         "womens": 1757,
         "mens": 799
       },
       "colors": {
         "navy": 152,
-        "black": 822,
-        "white": 669,
+        "black": 821,
+        "white": 666,
         "gray": 283,
         "khaki": 42,
-        "pink": 142,
+        "pink": 141,
         "blue": 119,
         "heather": 34,
         "purple": 30,
@@ -265,27 +265,27 @@
         "yellow": 35,
         "multi": 4
       },
-      "colorCoverage": 84.3,
+      "colorCoverage": 84.4,
       "avgColorsPerStyle": 1.2,
-      "uniqueStyles": 2277
+      "uniqueStyles": 2273
     },
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 3581,
+      "total": 3579,
       "categories": {
-        "other": 210,
         "bottoms": 1450,
         "tops": 1014,
+        "other": 208,
         "accessories": 216,
         "outerwear": 348,
         "sports_bras": 343
       },
       "subcategories": {
-        "other": 1125,
         "shorts": 674,
         "leggings": 302,
         "crop_tops": 64,
+        "other": 1123,
         "long_sleeve": 170,
         "socks": 90,
         "tanks": 282,
@@ -304,7 +304,7 @@
         "low_support": 8
       },
       "genders": {
-        "unisex": 1454,
+        "unisex": 1452,
         "womens": 1231,
         "mens": 896
       },
@@ -321,13 +321,13 @@
         "purple": 146,
         "yellow": 4
       },
-      "colorCoverage": 87.1,
+      "colorCoverage": 87.2,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 1560
     }
   },
   "totals": {
-    "products": 12163,
+    "products": 12151,
     "brands": 6,
     "categories": 7,
     "subcategories": 28
@@ -358,12 +358,12 @@
       "gymshark": 348
     },
     "other": {
-      "vuori": 338,
+      "vuori": 337,
       "outdoor_voices": 35,
-      "tenthousand": 10,
-      "lululemon": 876,
-      "alo": 638,
-      "gymshark": 210
+      "tenthousand": 9,
+      "lululemon": 875,
+      "alo": 631,
+      "gymshark": 208
     },
     "sports_bras": {
       "vuori": 65,
@@ -427,12 +427,12 @@
       "gymshark": 302
     },
     "other": {
-      "vuori": 674,
+      "vuori": 673,
       "outdoor_voices": 105,
-      "tenthousand": 24,
-      "lululemon": 1167,
-      "alo": 1243,
-      "gymshark": 1125
+      "tenthousand": 23,
+      "lululemon": 1166,
+      "alo": 1236,
+      "gymshark": 1123
     },
     "pants": {
       "vuori": 296,
@@ -575,7 +575,7 @@
     "black": {
       "vuori": 519,
       "outdoor_voices": 50,
-      "alo": 822,
+      "alo": 821,
       "gymshark": 914
     },
     "khaki": {
@@ -591,7 +591,7 @@
       "vuori": 187,
       "outdoor_voices": 16,
       "lululemon": 1,
-      "alo": 669,
+      "alo": 666,
       "gymshark": 260
     },
     "blue": {
@@ -637,7 +637,7 @@
     "pink": {
       "vuori": 16,
       "outdoor_voices": 2,
-      "alo": 142,
+      "alo": 141,
       "gymshark": 160
     },
     "purple": {
@@ -665,17 +665,17 @@
       "dresses": 0,
       "sports_bras": 9.6,
       "accessories": 6,
-      "other": 5.9
+      "other": 5.8
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 38.4,
+      "bottoms": 38.5,
       "tops": 11.2,
       "outerwear": 13.8,
       "dresses": 2.4,
       "sports_bras": 6.7,
-      "accessories": 8.7,
-      "other": 18.8
+      "accessories": 8.8,
+      "other": 18.6
     },
     {
       "brand": "Vuori",
@@ -685,7 +685,7 @@
       "dresses": 0.7,
       "sports_bras": 2.7,
       "accessories": 3.7,
-      "other": 14
+      "other": 13.9
     },
     {
       "brand": "Lululemon",
@@ -709,13 +709,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 40.9,
-      "tops": 27.3,
-      "outerwear": 18.2,
+      "bottoms": 41.4,
+      "tops": 27.6,
+      "outerwear": 18.4,
       "dresses": 0,
       "sports_bras": 0,
       "accessories": 2.3,
-      "other": 11.4
+      "other": 10.3
     }
   ],
   "colorMix": [
@@ -734,7 +734,7 @@
       "brand": "Alo Yoga",
       "black": 24.2,
       "white": 19.7,
-      "gray": 8.3,
+      "gray": 8.4,
       "blue": 3.5,
       "navy": 4.5,
       "green": 4.9,
@@ -876,5 +876,5 @@
     ],
     "alerts": []
   },
-  "generated_at": "2026-02-05T04:27:43.572Z"
+  "generated_at": "2026-02-05T04:29:32.968Z"
 }
