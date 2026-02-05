@@ -3,9 +3,27 @@
 import { Card, BarChart, Text, Metric, Badge } from '@tremor/react';
 import socialData from '@/data/social.json';
 
+interface TrustpilotData {
+  rating: number | null;
+  total_reviews: number | null;
+  recent_reviews: Array<{ title: string; text: string; stars: number | null }>;
+  url: string;
+  checked_at: string;
+}
+
+interface YouTubeVideo {
+  video_id: string;
+  title: string;
+  url: string;
+  brand: string;
+  query: string;
+  sentiment: string;
+}
+
 interface SocialData {
   reddit: {
     mentions_total: number;
+    subreddits_checked?: number;
     posts: Array<{
       brand: string;
       subreddit: string;
@@ -16,6 +34,12 @@ interface SocialData {
     }>;
     last_check: string;
   };
+  youtube?: {
+    videos: YouTubeVideo[];
+    video_count: number;
+    last_check: string;
+  };
+  trustpilot?: Record<string, TrustpilotData>;
   velocity: Record<string, { mentions_7d: number; mentions_per_day: number }>;
   trending: Array<{
     brand: string;
@@ -56,11 +80,37 @@ const BRAND_COLORS: Record<string, 'cyan' | 'rose' | 'violet' | 'amber' | 'emera
   rhone: 'gray',
 };
 
+function StarRating({ rating }: { rating: number }) {
+  const fullStars = Math.floor(rating);
+  const hasHalf = rating % 1 >= 0.5;
+
+  return (
+    <div className="flex items-center gap-0.5">
+      {[...Array(5)].map((_, i) => (
+        <span
+          key={i}
+          className={`text-lg ${
+            i < fullStars
+              ? 'text-yellow-400'
+              : i === fullStars && hasHalf
+              ? 'text-yellow-400'
+              : 'text-socal-stone-200'
+          }`}
+        >
+          ★
+        </span>
+      ))}
+    </div>
+  );
+}
+
 export default function SocialPage() {
   const velocity = data.velocity || {};
   const trending = data.trending || [];
   const sentiment = data.sentiment || {};
   const categories = data.trends?.categories || {};
+  const trustpilot = data.trustpilot || {};
+  const youtube = data.youtube || { videos: [], video_count: 0 };
 
   // Sort brands by velocity
   const sortedVelocity = Object.entries(velocity)
@@ -97,7 +147,22 @@ export default function SocialPage() {
     }))
     .sort((a, b) => b['Search Interest'] - a['Search Interest']);
 
+  // Trustpilot sorted by rating
+  const trustpilotSorted = Object.entries(trustpilot)
+    .filter(([, d]) => d.rating !== null)
+    .sort((a, b) => (b[1].rating || 0) - (a[1].rating || 0));
+
+  // YouTube videos grouped by brand
+  const youtubeByBrand: Record<string, YouTubeVideo[]> = {};
+  for (const video of youtube.videos || []) {
+    if (!youtubeByBrand[video.brand]) {
+      youtubeByBrand[video.brand] = [];
+    }
+    youtubeByBrand[video.brand].push(video);
+  }
+
   const totalMentions = data.reddit?.mentions_total || 0;
+  const subredditsChecked = data.reddit?.subreddits_checked || 9;
 
   return (
     <div className="space-y-12">
@@ -110,7 +175,7 @@ export default function SocialPage() {
           Social Velocity
         </h1>
         <p className="text-socal-stone-500 text-lg leading-relaxed">
-          Track brand mentions across Reddit and search trends.
+          Track brand mentions across Reddit, YouTube reviews, and Trustpilot ratings.
           Social buzz often precedes product demand.
         </p>
       </div>
@@ -118,19 +183,15 @@ export default function SocialPage() {
       {/* Key Metrics */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Total Mentions</Text>
+          <Text className="text-socal-stone-400">Reddit Mentions</Text>
           <Metric className="text-socal-stone-800">{totalMentions}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Last 30 days</Text>
+          <Text className="text-xs text-socal-stone-400 mt-1">{subredditsChecked} subreddits</Text>
         </Card>
 
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Top Brand</Text>
-          <Metric className="text-socal-ocean-600">
-            {sortedVelocity[0] ? BRAND_NAMES[sortedVelocity[0][0]] : '-'}
-          </Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">
-            {sortedVelocity[0] ? `${sortedVelocity[0][1].mentions_7d} mentions/week` : ''}
-          </Text>
+          <Text className="text-socal-stone-400">YouTube Videos</Text>
+          <Metric className="text-socal-ocean-600">{youtube.video_count || 0}</Metric>
+          <Text className="text-xs text-socal-stone-400 mt-1">Recent reviews/hauls</Text>
         </Card>
 
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
@@ -144,9 +205,13 @@ export default function SocialPage() {
         </Card>
 
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Brands Tracked</Text>
-          <Metric className="text-socal-stone-800">{Object.keys(velocity).length}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">via Reddit + Trends</Text>
+          <Text className="text-socal-stone-400">Trustpilot Avg</Text>
+          <Metric className="text-socal-stone-800">
+            {trustpilotSorted.length > 0
+              ? (trustpilotSorted.reduce((sum, [, d]) => sum + (d.rating || 0), 0) / trustpilotSorted.length).toFixed(1)
+              : '-'}
+          </Metric>
+          <Text className="text-xs text-socal-stone-400 mt-1">{trustpilotSorted.length} brands rated</Text>
         </Card>
       </div>
 
@@ -178,13 +243,52 @@ export default function SocialPage() {
         </Card>
       )}
 
+      {/* Trustpilot Ratings */}
+      {trustpilotSorted.length > 0 && (
+        <div>
+          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+            Trustpilot Ratings
+          </h2>
+          <Text className="text-socal-stone-500 mb-6">
+            Customer satisfaction scores from verified reviews
+          </Text>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {trustpilotSorted.map(([brand, tpData]) => (
+              <Card key={brand} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+                <div className="flex items-center justify-between mb-2">
+                  <Badge color={BRAND_COLORS[brand] || 'gray'} size="sm">
+                    {BRAND_NAMES[brand] || brand}
+                  </Badge>
+                  <span className="text-2xl font-bold text-socal-stone-800">
+                    {tpData.rating?.toFixed(1)}
+                  </span>
+                </div>
+                <StarRating rating={tpData.rating || 0} />
+                <p className="text-xs text-socal-stone-400 mt-2">
+                  {tpData.total_reviews ? `${tpData.total_reviews.toLocaleString()} reviews` : 'Reviews available'}
+                </p>
+                <a
+                  href={tpData.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-socal-ocean-600 hover:underline mt-1 block"
+                >
+                  View on Trustpilot →
+                </a>
+              </Card>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Velocity Chart */}
       <div>
         <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
           Brand Mention Velocity
         </h2>
         <Text className="text-socal-stone-500 mb-6">
-          Reddit mentions in the last 7 days
+          Reddit mentions in the last 7 days across {subredditsChecked} subreddits
         </Text>
 
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
@@ -243,6 +347,44 @@ export default function SocialPage() {
           ))}
         </div>
       </div>
+
+      {/* YouTube Reviews */}
+      {youtube.video_count > 0 && (
+        <div>
+          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+            YouTube Reviews & Hauls
+          </h2>
+          <Text className="text-socal-stone-500 mb-6">
+            Recent video content featuring tracked brands
+          </Text>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {Object.entries(youtubeByBrand).slice(0, 4).map(([brand, videos]) => (
+              <Card key={brand} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+                <Badge color={BRAND_COLORS[brand] || 'gray'} size="sm" className="mb-3">
+                  {BRAND_NAMES[brand] || brand}
+                </Badge>
+                <div className="space-y-2">
+                  {videos.slice(0, 3).map((video) => (
+                    <a
+                      key={video.video_id}
+                      href={video.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-sm text-socal-stone-600 hover:text-socal-ocean-600 line-clamp-1"
+                    >
+                      ▶ {video.title}
+                    </a>
+                  ))}
+                </div>
+                <p className="text-xs text-socal-stone-400 mt-2">
+                  {videos.length} videos found
+                </p>
+              </Card>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Category Trends */}
       {categoryData.length > 0 && (
@@ -320,8 +462,9 @@ export default function SocialPage() {
           <div>
             <h3 className="font-semibold text-socal-stone-700">About This Data</h3>
             <p className="text-sm text-socal-stone-500 mt-1">
-              Social mentions are tracked via Reddit RSS feeds from r/lululemon, r/Gymshark, r/running,
-              r/xxfitness, r/fitness, and r/yoga. Google Trends data provides search interest scores.
+              Social mentions are tracked via Reddit RSS feeds from {subredditsChecked} subreddits including
+              r/lululemon, r/Gymshark, r/running, r/xxfitness, r/crossfit, r/Peloton, r/tennis, and more.
+              YouTube videos are discovered via search. Trustpilot ratings are scraped from public review pages.
               Sentiment is estimated using keyword analysis. Data updates every 4 hours.
             </p>
             {data.generated_at && (
