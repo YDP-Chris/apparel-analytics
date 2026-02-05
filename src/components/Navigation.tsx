@@ -10,6 +10,7 @@ const navItems = [
   { href: '/launches', label: 'Launches' },
   { href: '/inventory', label: 'Inventory' },
   { href: '/social', label: 'Social' },
+  { href: '/jobs', label: 'Jobs' },
   { href: '/mix', label: 'Product Mix' },
   { href: '/brands', label: 'Brands' },
 ];
