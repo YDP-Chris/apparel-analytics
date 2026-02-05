@@ -435,7 +435,7 @@ function generateVuoriScorecard(
 
   const vuori = brands['vuori'];
   if (!vuori) {
-    return { leading, lagging, alerts };
+    return { leading, lagging, alerts, vsLululemon: [], vsAlo: [] };
   }
 
   const brandCount = Object.keys(brands).length;
