@@ -154,56 +154,105 @@ export default function VuoriScorecardPage() {
         </section>
       )}
 
-      {/* Head-to-Head: Vuori vs Lululemon */}
-      {scorecard.vsLululemon && scorecard.vsLululemon.length > 0 && (
-        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-xl bg-socal-stone-100 flex items-center justify-center">
-              <span className="text-socal-stone-600 text-lg">⚔️</span>
-            </div>
+      {/* Head-to-Head Comparisons */}
+      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 rounded-xl bg-socal-stone-100 flex items-center justify-center">
+            <span className="text-socal-stone-600 text-lg">⚔️</span>
+          </div>
+          <div>
+            <h2 className="text-xl font-bold text-socal-stone-800">Head-to-Head Battles</h2>
+            <p className="text-sm text-socal-stone-400">Vuori vs key competitors by subcategory</p>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Vuori vs Lululemon */}
+          {scorecard.vsLululemon && scorecard.vsLululemon.length > 0 && (
             <div>
-              <h2 className="text-xl font-bold text-socal-stone-800">Vuori vs Lululemon</h2>
-              <p className="text-sm text-socal-stone-400">Head-to-head subcategory comparison</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 gap-3">
-            {scorecard.vsLululemon.map((h2h: { category: string; vuori: number; lululemon: number; winner: string }) => (
-              <div
-                key={h2h.category}
-                className={`flex items-center p-4 rounded-xl ${
-                  h2h.winner === 'vuori'
-                    ? 'bg-socal-ocean-50 border border-socal-ocean-200'
-                    : h2h.winner === 'lululemon'
-                    ? 'bg-socal-sunset-50 border border-socal-sunset-100'
-                    : 'bg-socal-stone-50 border border-socal-stone-100'
-                }`}
-              >
-                <div className="w-32 font-medium text-socal-stone-700">{h2h.category}</div>
-                <div className="flex-1 flex items-center gap-4">
-                  <div className={`flex-1 text-right ${h2h.winner === 'vuori' ? 'font-bold text-socal-ocean-700' : 'text-socal-stone-600'}`}>
-                    {h2h.vuori.toLocaleString()}
-                    {h2h.winner === 'vuori' && <span className="ml-2">✓</span>}
+              <h3 className="font-semibold text-socal-stone-700 mb-4 flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full bg-rose-400"></span>
+                vs Lululemon
+              </h3>
+              <div className="space-y-2">
+                {scorecard.vsLululemon.map((h2h: { category: string; vuori: number; competitor: number; winner: string }) => (
+                  <div
+                    key={h2h.category}
+                    className={`flex items-center p-3 rounded-lg text-sm ${
+                      h2h.winner === 'vuori'
+                        ? 'bg-socal-ocean-50'
+                        : h2h.winner === 'competitor'
+                        ? 'bg-rose-50'
+                        : 'bg-socal-stone-50'
+                    }`}
+                  >
+                    <div className="w-28 font-medium text-socal-stone-600">{h2h.category}</div>
+                    <div className={`w-16 text-right ${h2h.winner === 'vuori' ? 'font-bold text-socal-ocean-700' : 'text-socal-stone-500'}`}>
+                      {h2h.vuori}
+                    </div>
+                    <div className="w-8 text-center text-socal-stone-300">:</div>
+                    <div className={`w-16 ${h2h.winner === 'competitor' ? 'font-bold text-rose-600' : 'text-socal-stone-500'}`}>
+                      {h2h.competitor}
+                    </div>
+                    <div className="w-6 text-right">
+                      {h2h.winner === 'vuori' ? '✓' : ''}
+                    </div>
                   </div>
-                  <div className="w-8 text-center text-socal-stone-400">vs</div>
-                  <div className={`flex-1 ${h2h.winner === 'lululemon' ? 'font-bold text-socal-sunset-700' : 'text-socal-stone-600'}`}>
-                    {h2h.lululemon.toLocaleString()}
-                    {h2h.winner === 'lululemon' && <span className="ml-2">✓</span>}
-                  </div>
-                </div>
+                ))}
               </div>
-            ))}
-          </div>
+              <p className="mt-3 text-xs text-socal-stone-500">
+                Vuori wins {scorecard.vsLululemon.filter((h: { winner: string }) => h.winner === 'vuori').length}/{scorecard.vsLululemon.length} categories
+              </p>
+            </div>
+          )}
 
-          <div className="mt-6 p-4 bg-socal-sand-50 rounded-xl">
-            <p className="text-sm text-socal-stone-600">
-              <span className="font-semibold">Summary:</span>{' '}
-              Vuori wins {scorecard.vsLululemon.filter((h: { winner: string }) => h.winner === 'vuori').length} of {scorecard.vsLululemon.length} categories.
-              {' '}Strong in men&apos;s, competitive in joggers.
-            </p>
-          </div>
-        </section>
-      )}
+          {/* Vuori vs Alo */}
+          {scorecard.vsAlo && scorecard.vsAlo.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-socal-stone-700 mb-4 flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full bg-violet-400"></span>
+                vs Alo Yoga
+              </h3>
+              <div className="space-y-2">
+                {scorecard.vsAlo.map((h2h: { category: string; vuori: number; competitor: number; winner: string }) => (
+                  <div
+                    key={h2h.category}
+                    className={`flex items-center p-3 rounded-lg text-sm ${
+                      h2h.winner === 'vuori'
+                        ? 'bg-socal-ocean-50'
+                        : h2h.winner === 'competitor'
+                        ? 'bg-violet-50'
+                        : 'bg-socal-stone-50'
+                    }`}
+                  >
+                    <div className="w-28 font-medium text-socal-stone-600">{h2h.category}</div>
+                    <div className={`w-16 text-right ${h2h.winner === 'vuori' ? 'font-bold text-socal-ocean-700' : 'text-socal-stone-500'}`}>
+                      {h2h.vuori}
+                    </div>
+                    <div className="w-8 text-center text-socal-stone-300">:</div>
+                    <div className={`w-16 ${h2h.winner === 'competitor' ? 'font-bold text-violet-600' : 'text-socal-stone-500'}`}>
+                      {h2h.competitor}
+                    </div>
+                    <div className="w-6 text-right">
+                      {h2h.winner === 'vuori' ? '✓' : ''}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-3 text-xs text-socal-stone-500">
+                Vuori wins {scorecard.vsAlo.filter((h: { winner: string }) => h.winner === 'vuori').length}/{scorecard.vsAlo.length} categories
+              </p>
+            </div>
+          )}
+        </div>
+
+        <div className="mt-6 p-4 bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 rounded-xl">
+          <p className="text-sm text-socal-stone-600">
+            <span className="font-semibold">Key insight:</span>{' '}
+            Vuori dominates men&apos;s across both competitors. Alo leads women&apos;s leggings; Lululemon leads tanks and hoodies.
+          </p>
+        </div>
+      </section>
 
       {/* Deep Dive: Color Depth Comparison */}
       <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">

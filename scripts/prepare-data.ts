@@ -58,8 +58,8 @@ interface Alert {
 interface HeadToHead {
   category: string;
   vuori: number;
-  lululemon: number;
-  winner: 'vuori' | 'lululemon' | 'tie';
+  competitor: number;
+  winner: 'vuori' | 'competitor' | 'tie';
 }
 
 interface VuoriScorecard {
@@ -67,6 +67,7 @@ interface VuoriScorecard {
   lagging: ScorecardItem[];
   alerts: Alert[];
   vsLululemon: HeadToHead[];
+  vsAlo: HeadToHead[];
 }
 
 interface DashboardData {
@@ -566,7 +567,6 @@ function generateVuoriScorecard(
   const lululemon = brands['lululemon'];
 
   if (lululemon) {
-    // Compare key subcategories
     const compareSubcats = ['joggers', 'leggings', 'shorts', 'hoodies', 'tanks', 'tees'];
     for (const subcat of compareSubcats) {
       const vuoriCount = vuori.subcategories[subcat] || 0;
@@ -574,24 +574,55 @@ function generateVuoriScorecard(
       vsLululemon.push({
         category: subcat.charAt(0).toUpperCase() + subcat.slice(1),
         vuori: vuoriCount,
-        lululemon: luluCount,
-        winner: vuoriCount > luluCount ? 'vuori' : vuoriCount < luluCount ? 'lululemon' : 'tie',
+        competitor: luluCount,
+        winner: vuoriCount > luluCount ? 'vuori' : vuoriCount < luluCount ? 'competitor' : 'tie',
       });
     }
 
-    // Compare gender
     vsLululemon.push({
       category: "Men's Products",
       vuori: vuori.genders['mens'] || 0,
-      lululemon: lululemon.genders['mens'] || 0,
-      winner: (vuori.genders['mens'] || 0) > (lululemon.genders['mens'] || 0) ? 'vuori' : 'lululemon',
+      competitor: lululemon.genders['mens'] || 0,
+      winner: (vuori.genders['mens'] || 0) > (lululemon.genders['mens'] || 0) ? 'vuori' : 'competitor',
     });
 
     vsLululemon.push({
       category: "Women's Products",
       vuori: vuori.genders['womens'] || 0,
-      lululemon: lululemon.genders['womens'] || 0,
-      winner: (vuori.genders['womens'] || 0) > (lululemon.genders['womens'] || 0) ? 'vuori' : 'lululemon',
+      competitor: lululemon.genders['womens'] || 0,
+      winner: (vuori.genders['womens'] || 0) > (lululemon.genders['womens'] || 0) ? 'vuori' : 'competitor',
+    });
+  }
+
+  // --- HEAD-TO-HEAD VS ALO YOGA ---
+  const vsAlo: HeadToHead[] = [];
+  const alo = brands['alo'];
+
+  if (alo) {
+    const compareSubcats = ['joggers', 'leggings', 'shorts', 'hoodies', 'tanks', 'tees'];
+    for (const subcat of compareSubcats) {
+      const vuoriCount = vuori.subcategories[subcat] || 0;
+      const aloCount = alo.subcategories[subcat] || 0;
+      vsAlo.push({
+        category: subcat.charAt(0).toUpperCase() + subcat.slice(1),
+        vuori: vuoriCount,
+        competitor: aloCount,
+        winner: vuoriCount > aloCount ? 'vuori' : vuoriCount < aloCount ? 'competitor' : 'tie',
+      });
+    }
+
+    vsAlo.push({
+      category: "Men's Products",
+      vuori: vuori.genders['mens'] || 0,
+      competitor: alo.genders['mens'] || 0,
+      winner: (vuori.genders['mens'] || 0) > (alo.genders['mens'] || 0) ? 'vuori' : 'competitor',
+    });
+
+    vsAlo.push({
+      category: "Women's Products",
+      vuori: vuori.genders['womens'] || 0,
+      competitor: alo.genders['womens'] || 0,
+      winner: (vuori.genders['womens'] || 0) > (alo.genders['womens'] || 0) ? 'vuori' : 'competitor',
     });
   }
 
@@ -601,6 +632,7 @@ function generateVuoriScorecard(
     lagging: lagging.slice(0, 4),
     alerts: alerts.slice(0, 5),
     vsLululemon,
+    vsAlo,
   };
 }
 
