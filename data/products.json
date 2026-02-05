@@ -41,9 +41,9 @@
         "fleece": 8
       },
       "genders": {
-        "unisex": 1479,
+        "mens": 1048,
         "womens": 939,
-        "mens": 4
+        "unisex": 435
       },
       "colors": {
         "gray": 293,
@@ -101,8 +101,9 @@
         "vests": 3
       },
       "genders": {
-        "unisex": 246,
-        "womens": 51
+        "unisex": 67,
+        "womens": 174,
+        "mens": 56
       },
       "colors": {
         "black": 50,
@@ -148,7 +149,7 @@
         "socks": 1
       },
       "genders": {
-        "unisex": 88
+        "mens": 88
       },
       "colors": {},
       "colorCoverage": 0,
@@ -185,9 +186,9 @@
         "rompers": 5
       },
       "genders": {
-        "womens": 858,
-        "mens": 687,
-        "unisex": 834
+        "unisex": 1999,
+        "womens": 258,
+        "mens": 122
       },
       "colors": {
         "print": 23,
@@ -241,9 +242,9 @@
         "high_support": 2
       },
       "genders": {
-        "unisex": 2393,
-        "womens": 812,
-        "mens": 191
+        "unisex": 2341,
+        "womens": 828,
+        "mens": 227
       },
       "colors": {
         "navy": 152,
@@ -302,8 +303,9 @@
         "low_support": 8
       },
       "genders": {
-        "unisex": 2982,
-        "womens": 599
+        "unisex": 2916,
+        "womens": 629,
+        "mens": 36
       },
       "colors": {
         "green": 156,
@@ -851,6 +853,11 @@
         "metric": "Earth Tone Palette (CA Aesthetic)",
         "value": "6% earth tones",
         "comparison": "Industry avg: 6%"
+      },
+      {
+        "metric": "Gender Balance",
+        "value": "47% W / 53% M",
+        "comparison": "Most balanced lifestyle brand"
       }
     ],
     "lagging": [
@@ -867,5 +874,5 @@
     ],
     "alerts": []
   },
-  "generated_at": "2026-02-04T13:51:11.902Z"
+  "generated_at": "2026-02-05T04:15:48.265Z"
 }
