@@ -41,9 +41,9 @@
         "fleece": 8
       },
       "genders": {
-        "mens": 1048,
+        "unisex": 1340,
         "womens": 951,
-        "unisex": 422
+        "mens": 130
       },
       "colors": {
         "gray": 390,
@@ -64,8 +64,8 @@
         "multi": 1
       },
       "colorCoverage": 88.5,
-      "avgColorsPerStyle": 1.1,
-      "uniqueStyles": 1906
+      "avgColorsPerStyle": 1.5,
+      "uniqueStyles": 1396
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -121,8 +121,8 @@
         "multi": 7
       },
       "colorCoverage": 62.3,
-      "avgColorsPerStyle": 1.2,
-      "uniqueStyles": 154
+      "avgColorsPerStyle": 1.5,
+      "uniqueStyles": 125
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -150,7 +150,8 @@
         "socks": 1
       },
       "genders": {
-        "mens": 87
+        "unisex": 85,
+        "mens": 2
       },
       "colors": {},
       "colorCoverage": 0,
@@ -187,20 +188,14 @@
         "rompers": 5
       },
       "genders": {
-        "womens": 1016,
-        "mens": 727,
-        "unisex": 635
+        "womens": 980,
+        "mens": 723,
+        "unisex": 675
       },
-      "colors": {
-        "print": 23,
-        "multi": 22,
-        "yellow": 3,
-        "white": 13,
-        "blue": 8
-      },
-      "colorCoverage": 2.9,
-      "avgColorsPerStyle": 1,
-      "uniqueStyles": 69
+      "colors": {},
+      "colorCoverage": 0,
+      "avgColorsPerStyle": 0,
+      "uniqueStyles": 0
     },
     "alo": {
       "name": "Alo Yoga",
@@ -243,9 +238,9 @@
         "high_support": 2
       },
       "genders": {
-        "unisex": 833,
-        "womens": 1757,
-        "mens": 799
+        "unisex": 2152,
+        "womens": 1010,
+        "mens": 227
       },
       "colors": {
         "navy": 152,
@@ -266,8 +261,8 @@
         "multi": 4
       },
       "colorCoverage": 87.6,
-      "avgColorsPerStyle": 1.2,
-      "uniqueStyles": 2384
+      "avgColorsPerStyle": 1.4,
+      "uniqueStyles": 2112
     },
     "gymshark": {
       "name": "Gymshark",
@@ -304,9 +299,9 @@
         "low_support": 8
       },
       "genders": {
-        "unisex": 1452,
+        "unisex": 2312,
         "womens": 1231,
-        "mens": 896
+        "mens": 36
       },
       "colors": {
         "green": 156,
@@ -322,8 +317,8 @@
         "yellow": 4
       },
       "colorCoverage": 87.2,
-      "avgColorsPerStyle": 1,
-      "uniqueStyles": 1560
+      "avgColorsPerStyle": 1.6,
+      "uniqueStyles": 971
     }
   },
   "totals": {
@@ -590,14 +585,12 @@
     "white": {
       "vuori": 242,
       "outdoor_voices": 16,
-      "lululemon": 13,
       "alo": 663,
       "gymshark": 260
     },
     "blue": {
       "vuori": 260,
       "outdoor_voices": 18,
-      "lululemon": 8,
       "alo": 120,
       "gymshark": 588
     },
@@ -615,8 +608,7 @@
     },
     "print": {
       "vuori": 7,
-      "outdoor_voices": 4,
-      "lululemon": 23
+      "outdoor_voices": 4
     },
     "heather": {
       "vuori": 137,
@@ -636,7 +628,6 @@
     "yellow": {
       "vuori": 11,
       "outdoor_voices": 1,
-      "lululemon": 3,
       "alo": 34,
       "gymshark": 4
     },
@@ -649,7 +640,6 @@
     "multi": {
       "vuori": 1,
       "outdoor_voices": 7,
-      "lululemon": 22,
       "alo": 4
     },
     "rust": {
@@ -773,10 +763,10 @@
     {
       "brand": "Lululemon",
       "black": 0,
-      "white": 0.5,
+      "white": 0,
       "gray": 0,
       "navy": 0,
-      "blue": 0.3,
+      "blue": 0,
       "green": 0,
       "khaki": 0,
       "brown": 0,
@@ -784,8 +774,8 @@
       "pink": 0,
       "orange": 0,
       "red": 0,
-      "yellow": 0.1,
-      "other": 1.9
+      "yellow": 0,
+      "other": 0
     },
     {
       "brand": "Outdoor Voices",
@@ -827,7 +817,7 @@
       "type": "leader",
       "metric": "gender_balance",
       "brand": "Vuori",
-      "text": "Vuori is uniquely balanced: 39% women's / 43% men's. Alo skews 52% women's, Gymshark 25% men's."
+      "text": "Vuori is uniquely balanced: 39% women's / 5% men's. Alo skews 30% women's, Gymshark 1% men's."
     },
     {
       "type": "trend",
@@ -857,13 +847,6 @@
     },
     {
       "type": "leader",
-      "metric": "mens_catalog",
-      "brand": "Vuori",
-      "value": 1048,
-      "text": "Vuori leads Lululemon in men's: 1048 vs 727 products. A 44% advantage."
-    },
-    {
-      "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
       "value": 378,
@@ -873,6 +856,11 @@
       "type": "comparison",
       "metric": "outerwear",
       "text": "Outerwear depth: Vuori has 349 products vs Lululemon's 204. Key for cooler weather expansion."
+    },
+    {
+      "type": "comparison",
+      "metric": "market_landscape",
+      "text": "Market context: 9,730 competitor products tracked. Vuori's 2,421 = 20% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -884,18 +872,13 @@
       },
       {
         "metric": "Color Depth",
-        "value": "1.1 colors/style",
+        "value": "1.5 colors/style",
         "comparison": "+0.0 vs industry avg"
       },
       {
         "metric": "Earth Tone Palette (CA Aesthetic)",
         "value": "16% earth tones",
         "comparison": "Industry avg: 7%"
-      },
-      {
-        "metric": "Gender Balance",
-        "value": "48% W / 52% M",
-        "comparison": "Most balanced lifestyle brand"
       }
     ],
     "lagging": [
@@ -945,14 +928,14 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1048,
-        "competitor": 727,
-        "winner": "vuori"
+        "vuori": 130,
+        "competitor": 723,
+        "winner": "competitor"
       },
       {
         "category": "Women's Products",
         "vuori": 951,
-        "competitor": 1016,
+        "competitor": 980,
         "winner": "competitor"
       }
     ],
@@ -995,17 +978,17 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1048,
-        "competitor": 799,
-        "winner": "vuori"
+        "vuori": 130,
+        "competitor": 227,
+        "winner": "competitor"
       },
       {
         "category": "Women's Products",
         "vuori": 951,
-        "competitor": 1757,
+        "competitor": 1010,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-02-05T04:57:34.378Z"
+  "generated_at": "2026-02-05T05:09:21.172Z"
 }
