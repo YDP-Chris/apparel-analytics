@@ -70,6 +70,19 @@ interface VuoriScorecard {
   vsAlo: HeadToHead[];
 }
 
+interface LaunchData {
+  date: string;
+  brand: string;
+  brandSlug: string;
+  count: number;
+  products: Array<{
+    name: string;
+    url: string;
+    category: string;
+    gender: string;
+  }>;
+}
+
 interface DashboardData {
   brands: Record<string, BrandData>;
   totals: {
@@ -78,6 +91,8 @@ interface DashboardData {
     categories: number;
     subcategories: number;
   };
+  recentLaunches: LaunchData[];
+  launchVelocity: Record<string, Record<string, number>>; // brand -> date -> count
   byCategory: Record<string, Record<string, number>>;
   bySubcategory: Record<string, Record<string, number>>;
   byColor: Record<string, Record<string, number>>;
@@ -266,6 +281,9 @@ function processProducts(state: StateJson): DashboardData {
   // Generate Vuori scorecard
   const vuoriScorecard = generateVuoriScorecard(brands, bySubcategory);
 
+  // Extract launch data from first_seen dates
+  const { recentLaunches, launchVelocity } = extractLaunchData(state, BRAND_NAMES);
+
   return {
     brands,
     totals: {
@@ -274,6 +292,8 @@ function processProducts(state: StateJson): DashboardData {
       categories: allCategories.size,
       subcategories: allSubcategories.size,
     },
+    recentLaunches,
+    launchVelocity,
     byCategory,
     bySubcategory,
     byColor,
@@ -283,6 +303,80 @@ function processProducts(state: StateJson): DashboardData {
     vuoriScorecard,
     generated_at: new Date().toISOString(),
   };
+}
+
+function extractLaunchData(
+  state: StateJson,
+  brandNames: Record<string, string>
+): { recentLaunches: LaunchData[]; launchVelocity: Record<string, Record<string, number>> } {
+  const launchVelocity: Record<string, Record<string, number>> = {};
+  const launchsByDateBrand: Record<string, Record<string, Product[]>> = {};
+
+  // For each brand, find their earliest tracking date (initial load)
+  const brandEarliestDates: Record<string, string> = {};
+  for (const [brandSlug, products] of Object.entries(state.sitemap_products)) {
+    let earliest = '9999-99-99';
+    for (const product of Object.values(products)) {
+      const date = product.first_seen?.split('T')[0];
+      if (date && date < earliest) {
+        earliest = date;
+      }
+    }
+    brandEarliestDates[brandSlug] = earliest;
+  }
+
+  // Group products by date and brand
+  for (const [brandSlug, products] of Object.entries(state.sitemap_products)) {
+    launchVelocity[brandSlug] = {};
+    const brandInitialDate = brandEarliestDates[brandSlug];
+
+    for (const product of Object.values(products)) {
+      const date = product.first_seen?.split('T')[0];
+      if (!date) continue;
+
+      // Track velocity (include all dates)
+      launchVelocity[brandSlug][date] = (launchVelocity[brandSlug][date] || 0) + 1;
+
+      // Skip this brand's initial bulk load date for "recent launches"
+      if (date === brandInitialDate) continue;
+
+      // Group for recent launches
+      if (!launchsByDateBrand[date]) launchsByDateBrand[date] = {};
+      if (!launchsByDateBrand[date][brandSlug]) launchsByDateBrand[date][brandSlug] = [];
+      launchsByDateBrand[date][brandSlug].push(product);
+    }
+  }
+
+  // Build recent launches (last 14 days, excluding initial load)
+  const recentLaunches: LaunchData[] = [];
+  const sortedDates = Object.keys(launchsByDateBrand).sort().reverse().slice(0, 14);
+
+  for (const date of sortedDates) {
+    for (const [brandSlug, products] of Object.entries(launchsByDateBrand[date])) {
+      if (products.length === 0) continue;
+
+      recentLaunches.push({
+        date,
+        brand: brandNames[brandSlug] || brandSlug,
+        brandSlug,
+        count: products.length,
+        products: products.slice(0, 10).map(p => ({
+          name: p.product_name || p.url.split('/products/')[1]?.split('?')[0] || 'Unknown',
+          url: p.url,
+          category: p.category || 'other',
+          gender: p.gender || 'unisex',
+        })),
+      });
+    }
+  }
+
+  // Sort by date desc, then by count desc
+  recentLaunches.sort((a, b) => {
+    if (a.date !== b.date) return b.date.localeCompare(a.date);
+    return b.count - a.count;
+  });
+
+  return { recentLaunches, launchVelocity };
 }
 
 function generateInsights(
