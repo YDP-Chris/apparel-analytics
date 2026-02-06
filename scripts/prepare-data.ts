@@ -360,7 +360,7 @@ function extractLaunchData(
         brand: brandNames[brandSlug] || brandSlug,
         brandSlug,
         count: products.length,
-        products: products.slice(0, 10).map(p => ({
+        products: products.slice(0, 100).map(p => ({
           name: p.product_name || p.url.split('/products/')[1]?.split('?')[0] || 'Unknown',
           url: p.url,
           category: p.category || 'other',

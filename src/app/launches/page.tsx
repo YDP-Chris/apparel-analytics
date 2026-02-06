@@ -1,36 +1,25 @@
 'use client';
 
 import { Card, BarChart, AreaChart, Text, Metric, Badge } from '@tremor/react';
-import { getRecentLaunches, getLaunchSummary } from '@/lib/data';
+import { getRecentLaunches, getLaunchSummary, getLaunchVelocity } from '@/lib/data';
 import { BRAND_COLORS } from '@/lib/types';
-import launchData from '@/data/launch_calendar.json';
 import Link from 'next/link';
 
-interface LaunchCalendarData {
-  generated_at: string;
-  total_products: number;
-  date_range: { start: string; end: string };
-  velocity: {
-    weekly: Record<string, { mean: number; stdev: number; max: number; total: number; periods_active: number }>;
-    monthly: Record<string, { mean: number; stdev: number; max: number; total: number; periods_active: number }>;
-  };
-  spikes: {
-    weekly: Array<{ period: string; brand: string; count: number; mean: number; multiple: number; top_types: Array<[string, number]> }>;
-    monthly: Array<{ period: string; brand: string; count: number; mean: number; multiple: number; top_types: Array<[string, number]> }>;
-  };
-  timeline: {
-    weekly: Array<{ week: string; total: number; by_brand: Record<string, number> }>;
-    monthly: Array<{ month: string; total: number; by_brand: Record<string, number> }>;
-  };
-  brand_names: Record<string, string>;
-}
-
-const historicalData = launchData as unknown as LaunchCalendarData;
+const BRAND_NAMES: Record<string, string> = {
+  vuori: 'Vuori',
+  lululemon: 'Lululemon',
+  alo: 'Alo Yoga',
+  gymshark: 'Gymshark',
+  outdoor_voices: 'Outdoor Voices',
+  tenthousand: 'Ten Thousand',
+  on_running: 'On Running',
+};
 
 export default function LaunchCalendarPage() {
   // Get recent launches from sitemap tracking (all brands)
   const recentLaunches = getRecentLaunches();
   const launchSummary = getLaunchSummary();
+  const launchVelocity = getLaunchVelocity();
 
   // Group launches by date for display
   const launchesByDate: Record<string, typeof recentLaunches> = {};
@@ -41,15 +30,43 @@ export default function LaunchCalendarPage() {
     launchesByDate[launch.date].push(launch);
   }
 
-  // Historical data for Shopify brands
-  const shopifyBrands = ['outdoor_voices', 'tenthousand'];
-  const monthlyData = historicalData.timeline.monthly
-    .filter(m => shopifyBrands.some(b => (m.by_brand[b] || 0) > 0))
-    .map(m => ({
-      month: m.month,
-      'Outdoor Voices': m.by_brand['outdoor_voices'] || 0,
-      'Ten Thousand': m.by_brand['tenthousand'] || 0,
-    }));
+  // Build velocity chart data from launchVelocity (all brands, all days)
+  // Get all unique dates across all brands, excluding initial load dates
+  const allDates = new Set<string>();
+  const brandInitialDates: Record<string, string> = {};
+
+  // Find initial date for each brand (earliest date with most products)
+  for (const [brandSlug, dates] of Object.entries(launchVelocity)) {
+    let maxCount = 0;
+    let initialDate = '';
+    for (const [date, count] of Object.entries(dates)) {
+      if (count > maxCount) {
+        maxCount = count;
+        initialDate = date;
+      }
+    }
+    brandInitialDates[brandSlug] = initialDate;
+
+    // Add non-initial dates
+    for (const date of Object.keys(dates)) {
+      if (date !== initialDate) {
+        allDates.add(date);
+      }
+    }
+  }
+
+  // Build chart data
+  const velocityChartData = Array.from(allDates)
+    .sort()
+    .map(date => {
+      const row: Record<string, string | number> = { date };
+      for (const [brandSlug, dates] of Object.entries(launchVelocity)) {
+        if (date !== brandInitialDates[brandSlug]) {
+          row[BRAND_NAMES[brandSlug] || brandSlug] = dates[date] || 0;
+        }
+      }
+      return row;
+    });
 
   // Format date for display
   const formatDate = (dateStr: string) => {
@@ -130,9 +147,10 @@ export default function LaunchCalendarPage() {
                     {launches
                       .sort((a, b) => b.count - a.count)
                       .map((launch) => (
-                        <div
+                        <Link
                           key={launch.brandSlug}
-                          className="p-4 bg-socal-sand-50 rounded-lg border border-socal-sand-100"
+                          href={`/launches/${launch.brandSlug}`}
+                          className="p-4 bg-socal-sand-50 rounded-lg border border-socal-sand-100 hover:border-socal-ocean-300 hover:bg-socal-ocean-50 transition-colors group"
                         >
                           <div className="flex items-center justify-between mb-2">
                             <Badge
@@ -141,7 +159,7 @@ export default function LaunchCalendarPage() {
                             >
                               {launch.brand}
                             </Badge>
-                            <span className="text-lg font-bold text-socal-stone-800">
+                            <span className="text-lg font-bold text-socal-stone-800 group-hover:text-socal-ocean-700 transition-colors">
                               {launch.count}
                             </span>
                           </div>
@@ -156,14 +174,14 @@ export default function LaunchCalendarPage() {
                                   {product.name}
                                 </div>
                               ))}
-                              {launch.products.length > 3 && (
-                                <div className="text-xs text-socal-stone-400">
-                                  +{launch.products.length - 3} more
+                              {launch.count > 3 && (
+                                <div className="text-xs text-socal-ocean-500 group-hover:text-socal-ocean-600 font-medium">
+                                  View all {launch.count} →
                                 </div>
                               )}
                             </div>
                           )}
-                        </div>
+                        </Link>
                       ))}
                   </div>
                 </Card>
@@ -205,23 +223,23 @@ export default function LaunchCalendarPage() {
         </Card>
       </div>
 
-      {/* Historical Data (Shopify brands) */}
-      {monthlyData.length > 0 && (
+      {/* Launch Trends Over Time - All Brands */}
+      {velocityChartData.length > 0 && (
         <div>
           <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
-            Historical Launch Patterns
+            Launch Trends by Day
           </h2>
           <Text className="text-socal-stone-500 mb-6">
-            Monthly product launches from Shopify stores (with Shopify-provided created_at dates)
+            Daily new product launches across all tracked brands (excluding initial catalog loads)
           </Text>
 
           <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
             <AreaChart
-              data={monthlyData}
-              index="month"
-              categories={['Outdoor Voices', 'Ten Thousand']}
-              colors={['emerald', 'blue']}
-              className="h-72"
+              data={velocityChartData}
+              index="date"
+              categories={Object.values(BRAND_NAMES)}
+              colors={['cyan', 'rose', 'violet', 'amber', 'emerald', 'blue', 'orange']}
+              className="h-80"
               showAnimation
               showGridLines={false}
               valueFormatter={(v) => v.toString()}
@@ -230,13 +248,12 @@ export default function LaunchCalendarPage() {
 
           <Card className="bg-socal-sand-50 border-socal-sand-200 ring-0 mt-4">
             <div className="flex items-start gap-4">
-              <span className="text-2xl">💡</span>
+              <span className="text-2xl">📊</span>
               <div>
-                <h3 className="font-semibold text-socal-stone-700">Shopify vs Sitemap Data</h3>
+                <h3 className="font-semibold text-socal-stone-700">How This Works</h3>
                 <p className="text-sm text-socal-stone-500 mt-1">
-                  Shopify stores provide actual product creation dates via their API. For other brands,
-                  we use &quot;first seen&quot; dates from sitemap monitoring. Both methods accurately capture
-                  when products became available to customers.
+                  We monitor brand sitemaps and detect when new product URLs appear. The &quot;first seen&quot; date
+                  becomes the launch date. Initial catalog loads are excluded to show only genuine new products.
                 </p>
               </div>
             </div>
