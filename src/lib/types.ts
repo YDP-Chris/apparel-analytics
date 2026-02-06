@@ -68,6 +68,21 @@ export interface VuoriScorecard {
   vsAlo: HeadToHead[];
 }
 
+export interface LaunchProduct {
+  name: string;
+  url: string;
+  category: string;
+  gender: string;
+}
+
+export interface LaunchData {
+  date: string;
+  brand: string;
+  brandSlug: string;
+  count: number;
+  products: LaunchProduct[];
+}
+
 export interface DashboardData {
   brands: Record<string, BrandData>;
   totals: {
@@ -76,6 +91,8 @@ export interface DashboardData {
     categories: number;
     subcategories: number;
   };
+  recentLaunches?: LaunchData[];
+  launchVelocity?: Record<string, Record<string, number>>;
   byCategory: Record<string, Record<string, number>>;
   bySubcategory: Record<string, Record<string, number>>;
   byColor: Record<string, Record<string, number>>;

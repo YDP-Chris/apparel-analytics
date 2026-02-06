@@ -1,5 +1,5 @@
 import productsData from '@/data/products.json';
-import { DashboardData, BrandData, VuoriScorecard, ColorMixRow, BRAND_ORDER } from './types';
+import { DashboardData, BrandData, VuoriScorecard, ColorMixRow, LaunchData, BRAND_ORDER } from './types';
 
 export function getData(): DashboardData {
   return productsData as unknown as DashboardData;
@@ -142,4 +142,45 @@ export function getBrandColorDepth(): Array<{ brand: string; slug: string; avgCo
 
 export function formatColor(color: string): string {
   return color.charAt(0).toUpperCase() + color.slice(1);
+}
+
+export function getRecentLaunches(): LaunchData[] {
+  const data = getData();
+  return data.recentLaunches || [];
+}
+
+export function getLaunchVelocity(): Record<string, Record<string, number>> {
+  const data = getData();
+  return data.launchVelocity || {};
+}
+
+export function getLaunchSummary(): {
+  totalNewProducts: number;
+  byBrand: Array<{ brand: string; brandSlug: string; count: number }>;
+  latestDate: string;
+} {
+  const launches = getRecentLaunches();
+
+  // Group by brand
+  const brandCounts: Record<string, { brand: string; count: number }> = {};
+  let latestDate = '';
+
+  for (const launch of launches) {
+    if (!brandCounts[launch.brandSlug]) {
+      brandCounts[launch.brandSlug] = { brand: launch.brand, count: 0 };
+    }
+    brandCounts[launch.brandSlug].count += launch.count;
+
+    if (launch.date > latestDate) {
+      latestDate = launch.date;
+    }
+  }
+
+  const byBrand = Object.entries(brandCounts)
+    .map(([brandSlug, { brand, count }]) => ({ brand, brandSlug, count }))
+    .sort((a, b) => b.count - a.count);
+
+  const totalNewProducts = byBrand.reduce((sum, b) => sum + b.count, 0);
+
+  return { totalNewProducts, byBrand, latestDate };
 }
