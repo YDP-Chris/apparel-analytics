@@ -3,11 +3,11 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 459,
-      "change_from_last": 0,
+      "total_jobs": 458,
+      "change_from_last": -1,
       "departments": {
         "other": 87,
-        "retail": 141,
+        "retail": 140,
         "design": 57,
         "marketing": 13,
         "finance": 6,
@@ -24,30 +24,30 @@
         "senior": 13,
         "lead": 72,
         "intern": 22,
-        "junior": 193,
+        "junior": 192,
         "vp": 1
       },
       "locations": [
-        "Santa Clara, California, United States",
-        "Beverly Hills, California, United States",
-        "Santa Barbara, California, United States",
-        "Sydney, New South Wales, Australia",
-        "Los Angeles, California, United States",
-        "Minnetonka, Minnesota, United States",
-        "Venice, California, United States",
-        "Pittsburgh, PA",
-        "New York, NY",
-        "East Rutherford, New Jersey, United States",
+        "Jacksonville, FL",
+        "Berlin, Berlin, Germany",
+        "Palm Beach Gardens, FL",
+        "Honolulu, HI",
+        "Vail, CO",
+        "Aventura, Florida, United States",
+        "Las Vegas",
+        "Kansas City, Missouri, United States",
+        "Alexandria, Virginia, United States",
+        "Skokie, IL",
+        "Bridgewater, New Jersey, United States",
+        "Louisville, Kentucky, United States",
+        "Huntington Station, New York, United States",
+        "Burlingame, California, United States",
+        "Toronto, ON",
         "Seoul, Seoul, South Korea",
-        "Austin, TX",
-        "Denver, CO",
-        "New York, New York, United States",
-        "St. Louis, MO",
-        "Laval, Quebec, Canada",
-        "London, England, United Kingdom",
-        "Lynnfield, Massachusetts, United States",
-        "Vancouver, British Columbia, Canada",
-        "Garden City, New York, United States"
+        "Santa Clara, California, United States",
+        "Las Vegas, NV",
+        "Brookfield, Wisconsin, United States",
+        "Montreal, QC"
       ],
       "jobs": [
         {
@@ -551,31 +551,30 @@
           "seniority": "intern"
         }
       ],
-      "checked_at": "2026-02-08T05:30:06.690180"
+      "checked_at": "2026-02-09T05:30:07.087281"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 12,
-      "change_from_last": 0,
+      "total_jobs": 13,
+      "change_from_last": 1,
       "departments": {
         "marketing": 2,
         "engineering": 3,
-        "operations": 1,
+        "operations": 2,
         "other": 4,
         "executive": 1,
         "finance": 1
       },
       "seniority": {
-        "mid": 7,
-        "manager": 3,
-        "lead": 1,
-        "senior": 1
+        "mid": 8,
+        "manager": 4,
+        "lead": 1
       },
       "locations": [
-        "London, England, United Kingdom; Solihull, England, United Kingdom",
         "Solihull, England, United Kingdom",
         "London",
+        "London, England, United Kingdom; Solihull, England, United Kingdom",
         "New York, New York, United States"
       ],
       "jobs": [
@@ -620,6 +619,16 @@
           "seniority": "mid"
         },
         {
+          "id": "4777511101",
+          "title": "Customer Engagement Specialist (12m FTC)",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4777511101",
+          "posted_at": "2026-02-09T05:17:30-05:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
           "id": "4774330101",
           "title": "Data Scientist",
           "location": "Solihull, England, United Kingdom",
@@ -628,6 +637,16 @@
           "posted_at": "2026-02-04T09:21:21-05:00",
           "category": "engineering",
           "seniority": "mid"
+        },
+        {
+          "id": "4743216101",
+          "title": "Finance Manager - Supply Chain",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4743216101",
+          "posted_at": "2026-02-09T05:12:16-05:00",
+          "category": "operations",
+          "seniority": "manager"
         },
         {
           "id": "4774250101",
@@ -670,16 +689,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4742405101",
-          "title": "Senior Customer Engagement Manager (12m FTC)",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4742405101",
-          "posted_at": "2026-02-02T10:59:27-05:00",
-          "category": "other",
-          "seniority": "senior"
-        },
-        {
           "id": "4752700101",
           "title": "Social Content Manager - 15m FTC",
           "location": "Solihull, England, United Kingdom",
@@ -700,7 +709,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-02-08T05:30:08.893963"
+      "checked_at": "2026-02-09T05:30:09.245867"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -753,54 +762,53 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-02-08T05:30:13.489570"
+      "checked_at": "2026-02-09T05:30:14.147034"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 242,
-      "change_from_last": 0,
+      "total_jobs": 239,
+      "change_from_last": -3,
       "departments": {
         "other": 52,
-        "retail": 102,
-        "marketing": 13,
+        "retail": 103,
+        "marketing": 10,
         "executive": 13,
         "product": 7,
         "engineering": 33,
         "design": 12,
         "operations": 5,
         "hr": 1,
-        "finance": 4
+        "finance": 3
       },
       "seniority": {
         "lead": 129,
         "c-suite": 9,
         "mid": 61,
-        "intern": 2,
         "manager": 1,
-        "senior": 40
+        "senior": 39
       },
       "locations": [
-        "Berlin; London; Zurich",
-        "Hanoi",
-        "S\u00e3o Paulo",
-        "New York City",
-        "Zurich",
-        "Beijing",
-        "Mexico City",
-        "Hong Kong; Shanghai",
-        "Milan",
-        "Miami",
+        "Shenzhen",
+        "Paris",
         "Hong Kong",
-        "New York City; Portland",
-        "Guangzhou",
-        "Austin",
-        "Shanghai",
-        "Macao",
-        "Boston",
-        "London; Zurich",
+        "London",
+        "Seoul",
+        "Las Vegas",
+        "Milan",
+        "Ho Chi Minh City",
+        "S\u00e3o Paulo",
+        "Zurich",
+        "Tokyo",
+        "Lisbon",
         "Portland",
-        "Seoul"
+        "London; Zurich",
+        "Hanoi",
+        "New York City; Portland",
+        "Pemalang",
+        "Berlin; London; Zurich",
+        "Beijing",
+        "Mexico City"
       ],
       "jobs": [
         {
@@ -861,16 +869,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7529798?gh_jid=7529798",
           "posted_at": "2026-02-06T08:36:56-05:00",
           "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "7299735",
-          "title": "Associate Store Leader - Hannam Seoul",
-          "location": "Seoul",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7299735?gh_jid=7299735",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "marketing",
           "seniority": "lead"
         },
         {
@@ -1134,21 +1132,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7564661",
-          "title": "Head of EMEA Department Store Channel Strategy",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7564602",
           "title": "Head of EMEA Department Store Channel Strategy",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7564602?gh_jid=7564602",
+          "posted_at": "2026-02-06T08:36:56-05:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7564661",
+          "title": "Head of EMEA Department Store Channel Strategy",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
           "posted_at": "2026-02-06T08:36:56-05:00",
           "category": "retail",
           "seniority": "lead"
@@ -1254,26 +1252,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7584123",
-          "title": "Intern - Community Marketing, LA",
-          "location": "Los Angeles",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7584123?gh_jid=7584123",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "marketing",
-          "seniority": "intern"
-        },
-        {
-          "id": "7583774",
-          "title": "Intern - Marketing, Latin America",
-          "location": "Portland",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7583774?gh_jid=7583774",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "marketing",
-          "seniority": "intern"
-        },
-        {
           "id": "7436455",
           "title": "Lead AI Program Manager (AI Enablement)",
           "location": "Zurich",
@@ -1302,10 +1280,40 @@
           "posted_at": "2026-02-06T08:36:56-05:00",
           "category": "other",
           "seniority": "lead"
+        },
+        {
+          "id": "6893770",
+          "title": "Lead - D365 Engineer (Finance)",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/6893770?gh_jid=6893770",
+          "posted_at": "2026-02-06T08:36:56-05:00",
+          "category": "engineering",
+          "seniority": "lead"
+        },
+        {
+          "id": "7476344",
+          "title": "Lead - eCommerce Planner",
+          "location": "New York City; Portland",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7476344?gh_jid=7476344",
+          "posted_at": "2026-02-06T08:36:56-05:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "7589420",
+          "title": "Lead - Fiscal, Brazil",
+          "location": "S\u00e3o Paulo",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7589420?gh_jid=7589420",
+          "posted_at": "2026-02-06T08:36:56-05:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-08T05:30:18.152855"
+      "checked_at": "2026-02-09T05:30:18.842210"
     }
   },
-  "generated_at": "2026-02-08T05:30:20.153005"
+  "generated_at": "2026-02-09T05:30:20.842390"
 }
