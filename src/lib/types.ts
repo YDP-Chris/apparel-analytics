@@ -103,6 +103,29 @@ export interface DashboardData {
   generated_at: string;
 }
 
+export interface ComebackEntry {
+  brand: string;
+  url: string;
+  product_name: string;
+  category: string;
+  subcategory: string;
+  gender: string;
+  first_seen: string;
+  removed_at: string;
+  returned_at: string;
+  days_gone: number;
+}
+
+export interface ComebackData {
+  comebacks: ComebackEntry[];
+  summary: {
+    total: number;
+    by_brand: Record<string, number>;
+    avg_days_gone: number;
+  };
+  generated_at: string | null;
+}
+
 export const BRAND_COLORS: Record<string, string> = {
   vuori: 'cyan',
   lululemon: 'rose',

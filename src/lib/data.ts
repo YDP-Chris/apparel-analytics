@@ -1,5 +1,6 @@
 import productsData from '@/data/products.json';
-import { DashboardData, BrandData, VuoriScorecard, ColorMixRow, LaunchData, BRAND_ORDER } from './types';
+import comebacksData from '@/data/comebacks.json';
+import { DashboardData, BrandData, VuoriScorecard, ColorMixRow, LaunchData, ComebackData, BRAND_ORDER } from './types';
 
 export function getData(): DashboardData {
   return productsData as unknown as DashboardData;
@@ -142,6 +143,10 @@ export function getBrandColorDepth(): Array<{ brand: string; slug: string; avgCo
 
 export function formatColor(color: string): string {
   return color.charAt(0).toUpperCase() + color.slice(1);
+}
+
+export function getComebacks(): ComebackData {
+  return comebacksData as ComebackData;
 }
 
 export function getRecentLaunches(): LaunchData[] {

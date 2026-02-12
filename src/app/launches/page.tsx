@@ -1,8 +1,8 @@
 'use client';
 
 import { Card, BarChart, AreaChart, Text, Metric, Badge } from '@tremor/react';
-import { getRecentLaunches, getLaunchSummary, getLaunchVelocity } from '@/lib/data';
-import { BRAND_COLORS } from '@/lib/types';
+import { getRecentLaunches, getLaunchSummary, getLaunchVelocity, getComebacks } from '@/lib/data';
+import { BRAND_COLORS, ComebackEntry } from '@/lib/types';
 import Link from 'next/link';
 
 const BRAND_NAMES: Record<string, string> = {
@@ -20,6 +20,7 @@ export default function LaunchCalendarPage() {
   const recentLaunches = getRecentLaunches();
   const launchSummary = getLaunchSummary();
   const launchVelocity = getLaunchVelocity();
+  const comebackData = getComebacks();
 
   // Group launches by date for display
   const launchesByDate: Record<string, typeof recentLaunches> = {};
@@ -254,6 +255,126 @@ export default function LaunchCalendarPage() {
                 <p className="text-sm text-socal-stone-500 mt-1">
                   We monitor brand sitemaps and detect when new product URLs appear. The &quot;first seen&quot; date
                   becomes the launch date. Initial catalog loads are excluded to show only genuine new products.
+                </p>
+              </div>
+            </div>
+          </Card>
+        </div>
+      )}
+
+      {/* Comeback Products */}
+      {comebackData.comebacks.length > 0 && (
+        <div>
+          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+            Comeback Products
+          </h2>
+          <Text className="text-socal-stone-500 mb-6">
+            Products that disappeared from brand sitemaps and then returned — signals restocking, seasonal rotation, or demand.
+          </Text>
+
+          {/* Summary Cards */}
+          <div className="grid grid-cols-3 gap-4 mb-6">
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+              <Text className="text-socal-stone-400">Total Comebacks</Text>
+              <Metric className="text-socal-stone-800">{comebackData.summary.total}</Metric>
+            </Card>
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+              <Text className="text-socal-stone-400">Avg Days Gone</Text>
+              <Metric className="text-socal-stone-800">{comebackData.summary.avg_days_gone}</Metric>
+            </Card>
+            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+              <Text className="text-socal-stone-400">Most Active Brand</Text>
+              <Metric className="text-socal-stone-800 text-2xl">
+                {Object.entries(comebackData.summary.by_brand).sort(([,a], [,b]) => b - a)[0]?.[0]
+                  ? BRAND_NAMES[Object.entries(comebackData.summary.by_brand).sort(([,a], [,b]) => b - a)[0][0]]
+                    || Object.entries(comebackData.summary.by_brand).sort(([,a], [,b]) => b - a)[0][0]
+                  : 'N/A'}
+              </Metric>
+            </Card>
+          </div>
+
+          {/* Comeback Table */}
+          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-socal-sand-100">
+                    <th className="text-left py-3 px-4 text-socal-stone-400 font-medium">Brand</th>
+                    <th className="text-left py-3 px-4 text-socal-stone-400 font-medium">Product</th>
+                    <th className="text-left py-3 px-4 text-socal-stone-400 font-medium">Category</th>
+                    <th className="text-right py-3 px-4 text-socal-stone-400 font-medium">Days Gone</th>
+                    <th className="text-left py-3 px-4 text-socal-stone-400 font-medium">Removed</th>
+                    <th className="text-left py-3 px-4 text-socal-stone-400 font-medium">Returned</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {comebackData.comebacks
+                    .slice()
+                    .reverse()
+                    .slice(0, 20)
+                    .map((cb: ComebackEntry, i: number) => {
+                      const daysColor = cb.days_gone < 7
+                        ? 'text-emerald-600 bg-emerald-50'
+                        : cb.days_gone <= 30
+                        ? 'text-amber-600 bg-amber-50'
+                        : 'text-rose-600 bg-rose-50';
+                      const daysLabel = cb.days_gone < 7
+                        ? 'Quick restock'
+                        : cb.days_gone <= 30
+                        ? 'Rotation'
+                        : 'Seasonal';
+                      const productName = cb.product_name || cb.url.split('/').pop()?.replace(/-/g, ' ') || 'Unknown';
+                      const formatShortDate = (d: string) => {
+                        if (!d) return '—';
+                        try { return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); }
+                        catch { return d.slice(0, 10); }
+                      };
+
+                      return (
+                        <tr key={i} className="border-b border-socal-sand-50 hover:bg-socal-sand-50">
+                          <td className="py-3 px-4">
+                            <Badge
+                              color={(BRAND_COLORS[cb.brand] || 'gray') as 'cyan' | 'rose' | 'violet' | 'amber' | 'emerald' | 'blue' | 'orange' | 'gray'}
+                              size="sm"
+                            >
+                              {BRAND_NAMES[cb.brand] || cb.brand}
+                            </Badge>
+                          </td>
+                          <td className="py-3 px-4 text-socal-stone-700 max-w-[200px] truncate" title={productName}>
+                            {productName}
+                          </td>
+                          <td className="py-3 px-4 text-socal-stone-500 capitalize">
+                            {cb.subcategory || cb.category || '—'}
+                          </td>
+                          <td className="py-3 px-4 text-right">
+                            <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${daysColor}`}>
+                              {cb.days_gone}d · {daysLabel}
+                            </span>
+                          </td>
+                          <td className="py-3 px-4 text-socal-stone-400 text-xs">{formatShortDate(cb.removed_at)}</td>
+                          <td className="py-3 px-4 text-socal-stone-400 text-xs">{formatShortDate(cb.returned_at)}</td>
+                        </tr>
+                      );
+                    })}
+                </tbody>
+              </table>
+            </div>
+            {comebackData.comebacks.length > 20 && (
+              <div className="text-center py-3 text-sm text-socal-stone-400">
+                Showing 20 of {comebackData.comebacks.length} comebacks
+              </div>
+            )}
+          </Card>
+
+          <Card className="bg-socal-sand-50 border-socal-sand-200 ring-0 mt-4">
+            <div className="flex items-start gap-4">
+              <span className="text-2xl">🔄</span>
+              <div>
+                <h3 className="font-semibold text-socal-stone-700">What Are Comebacks?</h3>
+                <p className="text-sm text-socal-stone-500 mt-1">
+                  A comeback is when a product disappears from a brand&apos;s sitemap and later returns.
+                  Quick restocks (&lt;7 days) suggest high demand. Rotations (7-30 days) indicate planned assortment changes.
+                  Seasonal returns (30+ days) reveal cyclical patterns.
                 </p>
               </div>
             </div>
