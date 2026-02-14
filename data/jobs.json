@@ -3,51 +3,51 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 467,
-      "change_from_last": 3,
+      "total_jobs": 477,
+      "change_from_last": 10,
       "departments": {
         "other": 84,
-        "retail": 143,
-        "design": 60,
+        "retail": 150,
+        "design": 59,
         "marketing": 11,
         "finance": 7,
         "engineering": 32,
         "executive": 10,
-        "operations": 110,
+        "operations": 114,
         "product": 4,
         "hr": 6
       },
       "seniority": {
-        "mid": 23,
+        "mid": 24,
         "manager": 104,
         "c-suite": 27,
         "senior": 16,
         "lead": 77,
         "intern": 22,
-        "junior": 197,
+        "junior": 206,
         "vp": 1
       },
       "locations": [
-        "Columbus, Ohio, United States",
-        "Westport, Connecticut, United States",
-        "Albuquerque, New Mexico, United States",
-        "Paramus, NJ",
-        "Corte Madera, California, United States",
-        "Calgary, AB",
-        "Southlake, Texas, United States",
-        "East Rutherford, New Jersey, United States",
-        "Santa Barbara, California, United States",
-        "Palm Desert, California, United States",
-        "Phoenix, Arizona, United States",
-        "Short Hills, New Jersey, United States",
-        "Walnut Creek, California, United States",
-        "Huntington Station, New York, United States",
+        "Roseville, California, United States",
+        "Dallas",
+        "Palm Beach Gardens, FL",
+        "Birmingham, Alabama, United States",
         "Sydney, New South Wales, Australia",
-        "Tampa, FL",
-        "Aspen, CO",
-        "Oklahoma City, Oklahoma, United States",
-        "San Antonio, TX",
-        "Dallas"
+        "Louisville, Kentucky, United States",
+        "Berlin, Berlin, Germany",
+        "Santa Monica, California, United States",
+        "Santa Barbara, California, United States",
+        "Edmonton, AB",
+        "West Palm Beach, Florida, United States",
+        "Las Vegas",
+        "Beverly Hills, California, United States",
+        "Phoenix, Arizona, United States",
+        "Philadelphia, PA",
+        "Lone Tree, CO",
+        "Naples, FL",
+        "Denver, CO",
+        "Dublin, Dublin, Ireland",
+        "Laval, Quebec, Canada"
       ],
       "jobs": [
         {
@@ -221,22 +221,22 @@
           "seniority": "lead"
         },
         {
-          "id": "5789930004",
-          "title": "Data Analyst Intern",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789930004?gh_jid=5789930004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789964004",
           "title": "Data Analyst Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5789964004?gh_jid=5789964004",
           "posted_at": "2026-02-05T19:02:02-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5789930004",
+          "title": "Data Analyst Intern",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789930004?gh_jid=5789930004",
+          "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "engineering",
           "seniority": "intern"
         },
@@ -281,21 +281,21 @@
           "seniority": "mid"
         },
         {
-          "id": "5781938004",
-          "title": "Digital Engineering Intern",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5783146004",
           "title": "Digital Engineering Intern",
           "location": "San Ramon, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
+          "posted_at": "2026-02-05T15:20:13-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5781938004",
+          "title": "Digital Engineering Intern",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
           "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -551,30 +551,33 @@
           "seniority": "intern"
         }
       ],
-      "checked_at": "2026-02-13T05:30:08.395290"
+      "checked_at": "2026-02-14T05:30:06.771586"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": 0,
+      "total_jobs": 16,
+      "change_from_last": 3,
       "departments": {
         "marketing": 2,
-        "operations": 2,
+        "operations": 3,
         "other": 6,
-        "engineering": 2,
+        "engineering": 3,
+        "finance": 1,
         "design": 1
       },
       "seniority": {
-        "mid": 8,
-        "manager": 2,
+        "mid": 9,
+        "manager": 3,
         "lead": 2,
-        "junior": 1
+        "junior": 1,
+        "senior": 1
       },
       "locations": [
         "Solihull, England, United Kingdom",
-        "London",
-        "New York, New York, United States"
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "New York, New York, United States",
+        "London"
       ],
       "jobs": [
         {
@@ -638,6 +641,16 @@
           "seniority": "manager"
         },
         {
+          "id": "4782313101",
+          "title": "Finance Operations Manager",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4782313101",
+          "posted_at": "2026-02-13T11:09:37-05:00",
+          "category": "operations",
+          "seniority": "manager"
+        },
+        {
           "id": "4778757101",
           "title": "Floor Lead - Bond Street, Flagship ",
           "location": "New York, New York, United States",
@@ -688,13 +701,33 @@
           "seniority": "mid"
         },
         {
+          "id": "4782423101",
+          "title": "Senior Front-End Engineer",
+          "location": "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4782423101",
+          "posted_at": "2026-02-13T10:39:02-05:00",
+          "category": "engineering",
+          "seniority": "senior"
+        },
+        {
           "id": "4764531101",
           "title": "SEO Content Executive",
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4764531101",
-          "posted_at": "2026-02-13T03:54:41-05:00",
+          "posted_at": "2026-02-13T06:51:12-05:00",
           "category": "marketing",
+          "seniority": "mid"
+        },
+        {
+          "id": "4782476101",
+          "title": "Transactional Finance Specialist",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4782476101",
+          "posted_at": "2026-02-13T11:19:05-05:00",
+          "category": "finance",
           "seniority": "mid"
         },
         {
@@ -708,7 +741,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-13T05:30:10.526189"
+      "checked_at": "2026-02-14T05:30:08.975281"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -726,8 +759,8 @@
         "manager": 1
       },
       "locations": [
-        "New York, NY",
-        "New York"
+        "New York",
+        "New York, NY"
       ],
       "jobs": [
         {
@@ -761,51 +794,52 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-02-13T05:30:15.259247"
+      "checked_at": "2026-02-14T05:30:13.551550"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 259,
-      "change_from_last": 0,
+      "total_jobs": 266,
+      "change_from_last": 7,
       "departments": {
-        "engineering": 40,
-        "other": 56,
+        "engineering": 42,
+        "other": 59,
         "retail": 109,
         "marketing": 14,
         "executive": 14,
         "product": 7,
-        "design": 11,
-        "operations": 5,
+        "design": 12,
+        "operations": 6,
         "finance": 3
       },
       "seniority": {
-        "lead": 143,
+        "lead": 142,
         "c-suite": 9,
-        "mid": 65,
-        "senior": 42
+        "mid": 67,
+        "intern": 3,
+        "senior": 45
       },
       "locations": [
-        "Berlin; London; New York City; Portland; Shanghai; S\u00e3o Paulo; Zurich",
-        "Shenzhen",
-        "D\u00fcsseldorf",
+        "Miami",
+        "Boston",
+        "Chicago",
+        "Lisbon",
+        "Zurich",
+        "S\u00e3o Paulo",
+        "Hanoi",
         "Shanghai",
-        "Beijing",
-        "Berlin; London; Zurich",
-        "Seoul",
-        "Mexico City",
-        "Central Valley",
-        "Tokyo",
-        "London; Zurich",
-        "Melbourne",
-        "Macao",
-        "Austin",
-        "New York City; Portland",
-        "Hong Kong",
-        "Paris",
-        "London",
         "Chengdu",
-        "Miami"
+        "Nanjing",
+        "London; Zurich",
+        "Hong Kong; Shanghai",
+        "Portland",
+        "Las Vegas",
+        "Berlin; London; New York City; Portland; Shanghai; S\u00e3o Paulo; Zurich",
+        "Beijing",
+        "Pemalang",
+        "Melbourne",
+        "Paris",
+        "Seoul"
       ],
       "jobs": [
         {
@@ -1159,16 +1193,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7449723",
-          "title": "Head of Demand and Inventory Planning, Americas",
-          "location": "Portland",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7449723?gh_jid=7449723",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "7564661",
           "title": "Head of EMEA Department Store Channel Strategy",
           "location": "London",
@@ -1279,6 +1303,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7617002",
+          "title": "Head of Sales - (JD Sports) - EMEA",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7617002?gh_jid=7617002",
+          "posted_at": "2026-02-13T18:08:06-05:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
           "id": "7560039",
           "title": "Head of Talent Business Partnering, Retail Operations",
           "location": "Zurich",
@@ -1289,28 +1323,28 @@
           "seniority": "lead"
         },
         {
-          "id": "7437359",
-          "title": "Lead - Apparel Product Manager, Performance Run",
-          "location": "Zurich",
+          "id": "7612044",
+          "title": "Intern - Analytics & Strategy Enablement",
+          "location": "Portland",
           "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7437359?gh_jid=7437359",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "product",
-          "seniority": "lead"
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7612044?gh_jid=7612044",
+          "posted_at": "2026-02-13T16:48:15-05:00",
+          "category": "other",
+          "seniority": "intern"
         },
         {
-          "id": "7599148",
-          "title": "Lead - Brand Comms, Switzerland",
-          "location": "Zurich",
+          "id": "7608414",
+          "title": "Intern - Process Improvement, Account Services",
+          "location": "Portland",
           "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7599148?gh_jid=7599148",
-          "posted_at": "2026-02-09T10:45:00-05:00",
-          "category": "marketing",
-          "seniority": "lead"
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7608414?gh_jid=7608414",
+          "posted_at": "2026-02-13T20:08:44-05:00",
+          "category": "other",
+          "seniority": "intern"
         }
       ],
-      "checked_at": "2026-02-13T05:30:20.747334"
+      "checked_at": "2026-02-14T05:30:18.195140"
     }
   },
-  "generated_at": "2026-02-13T05:30:22.747486"
+  "generated_at": "2026-02-14T05:30:20.195326"
 }
