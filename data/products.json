@@ -3,12 +3,12 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 2925,
+      "total": 2926,
       "categories": {
         "bottoms": 1379,
         "tops": 456,
         "outerwear": 437,
-        "other": 402,
+        "other": 403,
         "sports_bras": 87,
         "footwear": 14,
         "accessories": 127,
@@ -20,7 +20,7 @@
         "tanks": 115,
         "tees": 183,
         "leggings": 141,
-        "other": 814,
+        "other": 815,
         "pants": 318,
         "pullovers": 3,
         "polos": 45,
@@ -45,7 +45,7 @@
       "genders": {
         "mens": 1174,
         "womens": 1239,
-        "unisex": 512
+        "unisex": 513
       },
       "colors": {
         "gray": 447,
@@ -53,7 +53,7 @@
         "black": 605,
         "khaki": 151,
         "red": 19,
-        "white": 282,
+        "white": 283,
         "blue": 308,
         "green": 173,
         "brown": 141,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 87.6,
       "avgColorsPerStyle": 1.5,
-      "uniqueStyles": 1650
+      "uniqueStyles": 1651
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -222,29 +222,29 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 3835,
+      "total": 3851,
       "categories": {
-        "other": 652,
-        "bottoms": 1464,
-        "tops": 437,
-        "sports_bras": 252,
-        "accessories": 341,
-        "outerwear": 557,
+        "other": 655,
+        "bottoms": 1468,
+        "tops": 441,
+        "sports_bras": 253,
+        "accessories": 344,
+        "outerwear": 558,
         "footwear": 40,
         "dresses": 92
       },
       "subcategories": {
-        "other": 1335,
-        "leggings": 278,
-        "tanks": 193,
-        "shorts": 340,
-        "hats": 121,
+        "other": 1341,
+        "leggings": 279,
+        "tanks": 195,
+        "shorts": 341,
+        "hats": 123,
         "sweatpants": 188,
         "hoodies": 197,
         "running": 31,
         "long_sleeve": 26,
-        "pants": 224,
-        "tees": 43,
+        "pants": 225,
+        "tees": 44,
         "pullovers": 126,
         "skirts": 93,
         "jackets": 144,
@@ -252,32 +252,32 @@
         "socks": 146,
         "bralette": 9,
         "polos": 13,
-        "crop_tops": 153,
+        "crop_tops": 154,
         "casual_dress": 44,
         "tennis_dress": 22,
-        "headwear": 42,
+        "headwear": 43,
         "vests": 12,
         "joggers": 36,
         "fleece": 16,
         "high_support": 2
       },
       "genders": {
-        "unisex": 941,
-        "womens": 2004,
-        "mens": 890
+        "unisex": 947,
+        "womens": 2011,
+        "mens": 893
       },
       "colors": {
         "navy": 165,
-        "black": 882,
-        "white": 740,
-        "gray": 441,
-        "khaki": 87,
+        "black": 884,
+        "white": 743,
+        "gray": 442,
+        "khaki": 89,
         "pink": 168,
         "blue": 153,
         "purple": 36,
-        "green": 188,
-        "brown": 263,
-        "red": 167,
+        "green": 189,
+        "brown": 264,
+        "red": 169,
         "heather": 22,
         "rust": 7,
         "orange": 2,
@@ -286,7 +286,7 @@
       },
       "colorCoverage": 87.6,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2365
+      "uniqueStyles": 2374
     },
     "gymshark": {
       "name": "Gymshark",
@@ -415,12 +415,138 @@
     }
   },
   "totals": {
-    "products": 18269,
+    "products": 18286,
     "brands": 7,
     "categories": 8,
     "subcategories": 32
   },
   "recentLaunches": [
+    {
+      "date": "2026-02-16",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 9,
+      "products": [
+        {
+          "name": "w6286r goddess ribbed high waist hot short",
+          "url": "https://www.aloyoga.com/products/w6286r-goddess-ribbed-high-waist-hot-short-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "w51397r airlift extreme high waist emphasize legging hot summer",
+          "url": "https://www.aloyoga.com/products/w51397r-airlift-extreme-high-waist-emphasize-legging-red-hot-summer",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "w51206r blaze trouser pant",
+          "url": "https://www.aloyoga.com/products/w51206r-blaze-trouser-pant-black",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "w9602r alosoft show stopper bra dark cactus",
+          "url": "https://www.aloyoga.com/products/w9602r-alosoft-show-stopper-bra-dark-cactus",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "a0520u corduroy neighborhood bucket hat",
+          "url": "https://www.aloyoga.com/products/a0520u-corduroy-neighborhood-bucket-hat-bone",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "a0520u corduroy neighborhood bucket hat mens",
+          "url": "https://www.aloyoga.com/products/a0520u-corduroy-neighborhood-bucket-hat-bone-mens",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "a0054u airlift headband truffle",
+          "url": "https://www.aloyoga.com/products/a0054u-airlift-headband-burgundy-truffle",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "w9587r real bra tank oat milk",
+          "url": "https://www.aloyoga.com/products/w9587r-real-bra-tank-oat-milk",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "a0769w sheer glow boyshort",
+          "url": "https://www.aloyoga.com/products/a0769w-sheer-glow-boyshort-taupe",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 1,
+      "products": [
+        {
+          "name": "wanderer backpack",
+          "url": "https://vuoriclothing.com/products/wanderer-backpack-dark-salt",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 7,
+      "products": [
+        {
+          "name": "w51383r wide leg cargo show off trouser",
+          "url": "https://www.aloyoga.com/products/w51383r-wide-leg-cargo-show-off-trouser-espresso",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "m2066r conquer muscle tank stealth",
+          "url": "https://www.aloyoga.com/products/m2066r-conquer-muscle-tank-stealth-green",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "w51432r suit up trouser regular",
+          "url": "https://www.aloyoga.com/products/w51432r-suit-up-trouser-regular-taupe",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "m1199r society crewneck tee athletic",
+          "url": "https://www.aloyoga.com/products/m1199r-society-crewneck-tee-athletic-heather-grey",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "w3788r airlift winter warm 1 4 zip long sleeve soft mulberry",
+          "url": "https://www.aloyoga.com/products/w3788r-airlift-winter-warm-1-4-zip-long-sleeve-soft-mulberry",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w1448r wellness rib mock neck polished short sleeve",
+          "url": "https://www.aloyoga.com/products/w1448r-wellness-rib-mock-neck-polished-short-sleeve-ivory",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "w3660r cropped 1 4 zip alumni pullover spearmint",
+          "url": "https://www.aloyoga.com/products/w3660r-cropped-1-4-zip-alumni-pullover-spearmint",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-02-15",
       "brand": "Vuori",
@@ -9603,7 +9729,8 @@
       "2026-02-12": 10,
       "2026-02-13": 3,
       "2026-02-14": 8,
-      "2026-02-15": 5
+      "2026-02-15": 5,
+      "2026-02-16": 1
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -9632,7 +9759,9 @@
       "2026-02-11": 50,
       "2026-02-12": 24,
       "2026-02-13": 24,
-      "2026-02-14": 29
+      "2026-02-14": 29,
+      "2026-02-15": 7,
+      "2026-02-16": 9
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -9655,7 +9784,7 @@
       "outdoor_voices": 150,
       "tenthousand": 38,
       "lululemon": 849,
-      "alo": 1464,
+      "alo": 1468,
       "gymshark": 1932,
       "on_running": 758
     },
@@ -9664,7 +9793,7 @@
       "outdoor_voices": 30,
       "tenthousand": 24,
       "lululemon": 374,
-      "alo": 437,
+      "alo": 441,
       "gymshark": 1623,
       "on_running": 301
     },
@@ -9673,16 +9802,16 @@
       "outdoor_voices": 29,
       "tenthousand": 16,
       "lululemon": 244,
-      "alo": 557,
+      "alo": 558,
       "gymshark": 575,
       "on_running": 352
     },
     "other": {
-      "vuori": 402,
+      "vuori": 403,
       "outdoor_voices": 39,
       "tenthousand": 9,
       "lululemon": 435,
-      "alo": 652,
+      "alo": 655,
       "gymshark": 327,
       "on_running": 952
     },
@@ -9690,7 +9819,7 @@
       "vuori": 87,
       "outdoor_voices": 22,
       "lululemon": 86,
-      "alo": 252,
+      "alo": 253,
       "gymshark": 439,
       "on_running": 96
     },
@@ -9705,7 +9834,7 @@
       "outdoor_voices": 32,
       "tenthousand": 2,
       "lululemon": 315,
-      "alo": 341,
+      "alo": 344,
       "gymshark": 328,
       "on_running": 249
     },
@@ -9732,7 +9861,7 @@
       "outdoor_voices": 37,
       "tenthousand": 20,
       "lululemon": 277,
-      "alo": 340,
+      "alo": 341,
       "gymshark": 794,
       "on_running": 318
     },
@@ -9741,7 +9870,7 @@
       "outdoor_voices": 11,
       "tenthousand": 3,
       "lululemon": 126,
-      "alo": 193,
+      "alo": 195,
       "gymshark": 414,
       "on_running": 117
     },
@@ -9750,7 +9879,7 @@
       "outdoor_voices": 7,
       "tenthousand": 5,
       "lululemon": 10,
-      "alo": 43,
+      "alo": 44,
       "gymshark": 24
     },
     "leggings": {
@@ -9758,16 +9887,16 @@
       "outdoor_voices": 12,
       "tenthousand": 3,
       "lululemon": 121,
-      "alo": 278,
+      "alo": 279,
       "gymshark": 430,
       "on_running": 199
     },
     "other": {
-      "vuori": 814,
+      "vuori": 815,
       "outdoor_voices": 114,
       "tenthousand": 23,
       "lululemon": 746,
-      "alo": 1335,
+      "alo": 1341,
       "gymshark": 1667,
       "on_running": 1112
     },
@@ -9776,7 +9905,7 @@
       "outdoor_voices": 38,
       "tenthousand": 10,
       "lululemon": 206,
-      "alo": 224,
+      "alo": 225,
       "gymshark": 180,
       "on_running": 185
     },
@@ -9829,7 +9958,7 @@
       "vuori": 47,
       "outdoor_voices": 12,
       "lululemon": 65,
-      "alo": 121,
+      "alo": 123,
       "gymshark": 44,
       "on_running": 67
     },
@@ -9853,7 +9982,7 @@
       "vuori": 7,
       "outdoor_voices": 7,
       "lululemon": 66,
-      "alo": 153,
+      "alo": 154,
       "gymshark": 115,
       "on_running": 118
     },
@@ -9901,7 +10030,7 @@
       "vuori": 9,
       "outdoor_voices": 2,
       "lululemon": 13,
-      "alo": 42,
+      "alo": 43,
       "gymshark": 14,
       "on_running": 4
     },
@@ -9945,7 +10074,7 @@
     "gray": {
       "vuori": 447,
       "outdoor_voices": 24,
-      "alo": 441,
+      "alo": 442,
       "gymshark": 608,
       "on_running": 118
     },
@@ -9959,27 +10088,27 @@
     "black": {
       "vuori": 605,
       "outdoor_voices": 50,
-      "alo": 882,
+      "alo": 884,
       "gymshark": 1336,
       "on_running": 624
     },
     "khaki": {
       "vuori": 151,
       "outdoor_voices": 1,
-      "alo": 87,
+      "alo": 89,
       "gymshark": 2,
       "on_running": 60
     },
     "red": {
       "vuori": 19,
-      "alo": 167,
+      "alo": 169,
       "gymshark": 188,
       "on_running": 85
     },
     "white": {
-      "vuori": 282,
+      "vuori": 283,
       "outdoor_voices": 16,
-      "alo": 740,
+      "alo": 743,
       "gymshark": 394,
       "on_running": 540
     },
@@ -9993,14 +10122,14 @@
     "green": {
       "vuori": 173,
       "outdoor_voices": 31,
-      "alo": 188,
+      "alo": 189,
       "gymshark": 246,
       "on_running": 64
     },
     "brown": {
       "vuori": 141,
       "outdoor_voices": 2,
-      "alo": 263,
+      "alo": 264,
       "gymshark": 412,
       "on_running": 4
     },
@@ -10068,8 +10197,8 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 38.2,
-      "tops": 11.4,
+      "bottoms": 38.1,
+      "tops": 11.5,
       "outerwear": 14.5,
       "dresses": 2.4,
       "sports_bras": 6.6,
@@ -10094,7 +10223,7 @@
       "dresses": 0.8,
       "sports_bras": 3,
       "accessories": 4.3,
-      "other": 13.7
+      "other": 13.8
     },
     {
       "brand": "Lululemon",
@@ -10182,7 +10311,7 @@
     {
       "brand": "Vuori",
       "black": 20.7,
-      "white": 9.6,
+      "white": 9.7,
       "gray": 15.3,
       "navy": 3.1,
       "blue": 10.5,
@@ -10296,7 +10425,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 15,344 competitor products tracked. Vuori's 2,925 = 16% share of tracked catalog."
+      "text": "Market context: 15,360 competitor products tracked. Vuori's 2,926 = 16% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -10405,13 +10534,13 @@
       {
         "category": "Leggings",
         "vuori": 141,
-        "competitor": 278,
+        "competitor": 279,
         "winner": "competitor"
       },
       {
         "category": "Shorts",
         "vuori": 445,
-        "competitor": 340,
+        "competitor": 341,
         "winner": "vuori"
       },
       {
@@ -10423,28 +10552,28 @@
       {
         "category": "Tanks",
         "vuori": 115,
-        "competitor": 193,
+        "competitor": 195,
         "winner": "competitor"
       },
       {
         "category": "Tees",
         "vuori": 183,
-        "competitor": 43,
+        "competitor": 44,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
         "vuori": 1174,
-        "competitor": 890,
+        "competitor": 893,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
         "vuori": 1239,
-        "competitor": 2004,
+        "competitor": 2011,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-02-15T14:15:14.804Z"
+  "generated_at": "2026-02-16T14:15:10.603Z"
 }
