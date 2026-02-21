@@ -3,12 +3,12 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 510,
+      "total_jobs": 514,
       "change_from_last": 4,
       "departments": {
-        "other": 91,
-        "retail": 160,
-        "design": 64,
+        "other": 92,
+        "retail": 161,
+        "design": 66,
         "marketing": 11,
         "finance": 8,
         "engineering": 37,
@@ -20,34 +20,34 @@
       "seniority": {
         "intern": 39,
         "mid": 25,
-        "manager": 107,
+        "manager": 108,
         "c-suite": 28,
         "junior": 209,
-        "senior": 18,
-        "lead": 83,
+        "senior": 19,
+        "lead": 85,
         "vp": 1
       },
       "locations": [
-        "Lone Tree, CO",
-        "Amsterdam, North Holland, Netherlands",
-        "Cerritos, California, United States",
-        "Glendale, California, United States",
-        "Dublin, Dublin, Ireland",
         "Denver, CO",
-        "Lynnfield, Massachusetts, United States",
-        "Brookfield, Wisconsin, United States",
-        "Schaumburg, IL",
-        "Las Vegas",
-        "Sydney, New South Wales, Australia",
-        "Los Angeles, California, United States",
-        "Palm Desert, California, United States",
-        "Canada",
-        "San Ramon, California, United States",
-        "Philadelphia, PA",
+        "Orlando, Florida, United States",
+        "Chicago, Illinois, United States",
         "Honolulu, HI",
-        "Birmingham, Alabama, United States",
-        "Santa Clara, California, United States",
-        "West Palm Beach, Florida, United States"
+        "Santa Monica, California, United States",
+        "Cherry Hill, New Jersey, United States",
+        "Santa Barbara, California, United States",
+        "Detroit, Michigan, United States",
+        "Philadelphia, PA",
+        "Austin, TX",
+        "Laval, Quebec, Canada",
+        "Lynnfield, Massachusetts, United States",
+        "Coral Gables, FL",
+        "Edmonton, AB",
+        "Orange Village, OH",
+        "Alexandria, Virginia, United States",
+        "San Antonio, TX",
+        "Calgary, AB",
+        "East Rutherford, New Jersey, United States",
+        "Santa Clara, California, United States"
       ],
       "jobs": [
         {
@@ -361,21 +361,21 @@
           "seniority": "mid"
         },
         {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5781938004",
           "title": "Digital Engineering Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-02-05T15:20:13-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -551,33 +551,33 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-02-20T05:30:06.809605"
+      "checked_at": "2026-02-21T05:30:06.800090"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 12,
-      "change_from_last": -2,
+      "total_jobs": 13,
+      "change_from_last": 1,
       "departments": {
         "marketing": 1,
         "other": 5,
         "operations": 3,
-        "engineering": 1,
+        "engineering": 2,
         "finance": 1,
         "design": 1
       },
       "seniority": {
-        "mid": 4,
+        "mid": 5,
         "manager": 3,
         "junior": 2,
         "lead": 2,
         "senior": 1
       },
       "locations": [
-        "Solihull, England, United Kingdom",
         "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
         "New York, New York, United States",
-        "London, England, United Kingdom; Solihull, England, United Kingdom"
+        "London, England, United Kingdom; Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -671,12 +671,22 @@
           "seniority": "mid"
         },
         {
+          "id": "4787248101",
+          "title": "Network Engineer",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4787248101",
+          "posted_at": "2026-02-20T10:50:14-05:00",
+          "category": "engineering",
+          "seniority": "mid"
+        },
+        {
           "id": "4782423101",
-          "title": "Senior Front-End Engineer",
+          "title": "Senior Front-End Engineer - 12 month Fixed Term Contract",
           "location": "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4782423101",
-          "posted_at": "2026-02-13T10:39:02-05:00",
+          "posted_at": "2026-02-20T06:13:38-05:00",
           "category": "engineering",
           "seniority": "senior"
         },
@@ -701,7 +711,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-20T05:30:08.987855"
+      "checked_at": "2026-02-21T05:30:08.945574"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -719,8 +729,8 @@
         "manager": 1
       },
       "locations": [
-        "New York",
-        "New York, NY"
+        "New York, NY",
+        "New York"
       ],
       "jobs": [
         {
@@ -754,53 +764,52 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-02-20T05:30:13.548258"
+      "checked_at": "2026-02-21T05:30:13.663110"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 273,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
-        "engineering": 42,
-        "other": 63,
+        "engineering": 44,
+        "other": 60,
         "retail": 114,
         "marketing": 15,
         "product": 4,
         "executive": 13,
-        "design": 14,
-        "hr": 1,
-        "operations": 4,
+        "design": 15,
+        "hr": 2,
+        "operations": 3,
         "finance": 3
       },
       "seniority": {
-        "lead": 152,
+        "lead": 154,
         "c-suite": 7,
-        "mid": 65,
-        "intern": 3,
-        "senior": 46
+        "mid": 63,
+        "senior": 49
       },
       "locations": [
-        "Tianjin",
-        "Beijing",
-        "Madrid",
-        "Lisbon",
-        "Boston",
-        "S\u00e3o Paulo",
-        "Las Vegas",
-        "New York City; Portland",
+        "Miami",
+        "Guangzhou",
         "D\u00fcsseldorf",
+        "Paris",
+        "Boston",
+        "Barcelona",
         "Macao",
-        "Portland",
-        "Melbourne",
-        "Tokyo",
+        "Berlin; London; Zurich",
         "Central Valley",
-        "New York City",
+        "Seoul",
+        "Pemalang",
+        "Lisbon",
         "Hanoi",
+        "Shenzhen",
+        "Las Vegas",
+        "Beijing",
+        "Stockholm",
         "Hong Kong",
-        "Houston",
-        "London",
-        "Barcelona"
+        "Zurich",
+        "New York City"
       ],
       "jobs": [
         {
@@ -1304,8 +1313,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-20T05:30:18.256721"
+      "checked_at": "2026-02-21T05:30:18.498039"
     }
   },
-  "generated_at": "2026-02-20T05:30:20.256871"
+  "generated_at": "2026-02-21T05:30:20.498194"
 }
