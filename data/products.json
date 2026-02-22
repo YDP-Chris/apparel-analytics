@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 2957,
+      "total": 2959,
       "categories": {
-        "bottoms": 1382,
-        "tops": 464,
+        "bottoms": 1383,
+        "tops": 465,
         "outerwear": 441,
         "other": 411,
         "sports_bras": 88,
@@ -16,8 +16,8 @@
       },
       "subcategories": {
         "joggers": 142,
-        "shorts": 446,
-        "tanks": 118,
+        "shorts": 447,
+        "tanks": 119,
         "tees": 185,
         "leggings": 141,
         "other": 829,
@@ -43,17 +43,17 @@
         "fleece": 9
       },
       "genders": {
-        "mens": 1179,
-        "womens": 1260,
+        "mens": 1180,
+        "womens": 1261,
         "unisex": 518
       },
       "colors": {
-        "gray": 452,
+        "gray": 453,
         "navy": 91,
         "black": 608,
         "khaki": 151,
         "red": 20,
-        "white": 287,
+        "white": 288,
         "blue": 312,
         "green": 175,
         "brown": 144,
@@ -222,19 +222,19 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4024,
+      "total": 4026,
       "categories": {
-        "other": 686,
+        "other": 687,
         "bottoms": 1533,
         "tops": 461,
-        "sports_bras": 268,
+        "sports_bras": 269,
         "accessories": 355,
         "outerwear": 581,
         "footwear": 42,
         "dresses": 98
       },
       "subcategories": {
-        "other": 1402,
+        "other": 1404,
         "leggings": 302,
         "tanks": 206,
         "shorts": 356,
@@ -263,8 +263,8 @@
       },
       "genders": {
         "unisex": 983,
-        "womens": 2131,
-        "mens": 910
+        "womens": 2132,
+        "mens": 911
       },
       "colors": {
         "navy": 167,
@@ -276,17 +276,17 @@
         "blue": 163,
         "purple": 37,
         "green": 249,
-        "brown": 267,
-        "red": 183,
+        "brown": 268,
+        "red": 184,
         "heather": 22,
         "rust": 7,
         "orange": 2,
         "yellow": 37,
         "multi": 4
       },
-      "colorCoverage": 87.6,
+      "colorCoverage": 87.7,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2506
+      "uniqueStyles": 2507
     },
     "gymshark": {
       "name": "Gymshark",
@@ -416,12 +416,52 @@
     }
   },
   "totals": {
-    "products": 18770,
+    "products": 18774,
     "brands": 7,
     "categories": 8,
     "subcategories": 32
   },
   "recentLaunches": [
+    {
+      "date": "2026-02-22",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 2,
+      "products": [
+        {
+          "name": "ponto short",
+          "url": "https://vuoriclothing.com/products/ponto-short-cobblestone-heather",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "pose layering tank",
+          "url": "https://vuoriclothing.com/products/womens-pose-layering-tank-white",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "m4153r platinum puffer",
+          "url": "https://www.aloyoga.com/products/m4153r-platinum-puffer-espresso",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "w9772r alosoft highlight bra bold",
+          "url": "https://www.aloyoga.com/products/w9772r-alosoft-highlight-bra-bold-red",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-02-21",
       "brand": "Alo Yoga",
@@ -8435,628 +8475,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-02-08",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 88,
-      "products": [
-        {
-          "name": "weekend jogger",
-          "url": "https://vuoriclothing.com/products/womens-weekend-jogger-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "alpine waffle beanie",
-          "url": "https://vuoriclothing.com/products/alpine-waffle-beanie-salt",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "banks short chestnut texture",
-          "url": "https://vuoriclothing.com/products/banks-short-chestnut-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "halo oversized hoodie",
-          "url": "https://vuoriclothing.com/products/womens-halo-oversized-hoodie-black-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "clean elevation legging short",
-          "url": "https://vuoriclothing.com/products/womens-clean-elevation-legging-short-midnight-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "sunday element track jacket",
-          "url": "https://vuoriclothing.com/products/sunday-element-track-jacket-charcoal-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "halo essential half zip",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-half-zip-black-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "chilled out legging",
-          "url": "https://vuoriclothing.com/products/womens-chilled-out-legging-ink",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "haven wideleg suede",
-          "url": "https://vuoriclothing.com/products/womens-haven-wideleg-suede",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "elijo rain jacket pistachio",
-          "url": "https://vuoriclothing.com/products/womens-elijo-rain-jacket-pistachio",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "evolve legging",
-          "url": "https://vuoriclothing.com/products/womens-evolve-legging-charcoal",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gamepoint polo cashew",
-          "url": "https://vuoriclothing.com/products/gamepoint-polo-cashew",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori allthefeels tank cosmic",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-tank-cosmic",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "coronado novelty full zip",
-          "url": "https://vuoriclothing.com/products/coronado-novelty-full-zip-black-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado half zip",
-          "url": "https://vuoriclothing.com/products/coronado-half-zip-dolomite-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "elevate kore jacket",
-          "url": "https://vuoriclothing.com/products/elevate-kore-jacket-navy",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "travel kit",
-          "url": "https://vuoriclothing.com/products/travel-kit-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "label beanie light",
-          "url": "https://vuoriclothing.com/products/label-beanie-light-heather-grey",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "v1 patch hat",
-          "url": "https://vuoriclothing.com/products/v1-patch-hat-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "alpine waffle beanie tobacco",
-          "url": "https://vuoriclothing.com/products/alpine-waffle-beanie-tobacco",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "sleeveless cove v neck",
-          "url": "https://vuoriclothing.com/products/womens-sleeveless-cove-v-neck-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "long sleeve pose cardigan",
-          "url": "https://vuoriclothing.com/products/womens-long-sleeve-pose-cardigan-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "halo headband",
-          "url": "https://vuoriclothing.com/products/halo-headband-black-heather",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elevation racerback tank",
-          "url": "https://vuoriclothing.com/products/womens-elevation-racerback-tank-cobblestone-heather",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "all around crossbody laurel",
-          "url": "https://vuoriclothing.com/products/all-around-crossbody-laurel",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "elevation track jacket",
-          "url": "https://vuoriclothing.com/products/womens-elevation-track-jacket-black-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential hoodie zion",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-hoodie-zion-rose-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "jamestown crew",
-          "url": "https://vuoriclothing.com/products/jamestown-crew-navy",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "meta elastic waist pant sky",
-          "url": "https://vuoriclothing.com/products/meta-elastic-waist-pant-sky-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "restore half zip hoodie canyon",
-          "url": "https://vuoriclothing.com/products/womens-restore-half-zip-hoodie-canyon-clay",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "restore shirt jacket chia",
-          "url": "https://vuoriclothing.com/products/womens-restore-shirt-jacket-chia",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "restore sweatpant chia",
-          "url": "https://vuoriclothing.com/products/womens-restore-sweatpant-chia",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "short sleeve strato pocket tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-pocket-tee-relaxed-fit-raisin-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "inversion rib support tank",
-          "url": "https://vuoriclothing.com/products/womens-inversion-rib-support-tank-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "anza twill pant natural",
-          "url": "https://vuoriclothing.com/products/womens-anza-twill-pant-natural",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "pose modern dress",
-          "url": "https://vuoriclothing.com/products/womens-pose-modern-dress-black",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "dynamic tank azalea",
-          "url": "https://vuoriclothing.com/products/womens-dynamic-tank-azalea-pink",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "pose modern tank",
-          "url": "https://vuoriclothing.com/products/womens-pose-modern-tank-talc",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "villa trouser short laurel",
-          "url": "https://vuoriclothing.com/products/womens-villa-trouser-short-laurel",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels cami",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-cami-java",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "seaside sweatpant 28 french",
-          "url": "https://vuoriclothing.com/products/seaside-sweatpant-28-french-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside sweatpant spiced apple",
-          "url": "https://vuoriclothing.com/products/seaside-sweatpant-spiced-apple",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "monterey beanie",
-          "url": "https://vuoriclothing.com/products/monterey-beanie-bone",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "monterey beanie rum",
-          "url": "https://vuoriclothing.com/products/monterey-beanie-rum",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "cozy sock light",
-          "url": "https://vuoriclothing.com/products/cozy-sock-light-heather-grey",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "cozy sock marshmallow",
-          "url": "https://vuoriclothing.com/products/cozy-sock-marshmallow-heather",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "half crew gripper sock bright iris",
-          "url": "https://vuoriclothing.com/products/half-crew-gripper-sock-bright-iris",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "douglas beanie",
-          "url": "https://vuoriclothing.com/products/douglas-beanie-cherry",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "alpine waffle beanie haze",
-          "url": "https://vuoriclothing.com/products/alpine-waffle-beanie-blue-haze",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "alpine waffle beanie evergreen",
-          "url": "https://vuoriclothing.com/products/alpine-waffle-beanie-evergreen",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "vortex tee",
-          "url": "https://vuoriclothing.com/products/vortex-tee-black",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori allthefeels bra evergreen",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-bra-evergreen",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential bra",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-bra-ecru-heather",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "long sleeve halo essential scoop",
-          "url": "https://vuoriclothing.com/products/womens-long-sleeve-halo-essential-scoop-raisin",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "cove boyfriend tank",
-          "url": "https://vuoriclothing.com/products/womens-cove-boyfriend-tank-espresso",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "short sleeve maven oversized tee coast",
-          "url": "https://vuoriclothing.com/products/womens-short-sleeve-maven-oversized-tee-blue-coast",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "daily form bra huckleberry",
-          "url": "https://vuoriclothing.com/products/womens-daily-form-bra-huckleberry",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "short sleeve heavyweight crop cotton tee",
-          "url": "https://vuoriclothing.com/products/womens-short-sleeve-heavyweight-crop-cotton-tee-white",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "restore oversized hoodie huckleberry",
-          "url": "https://vuoriclothing.com/products/womens-restore-oversized-hoodie-huckleberry",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "alps classic crew sweater marshmallow",
-          "url": "https://vuoriclothing.com/products/womens-alps-classic-crew-sweater-marshmallow",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "beach fleece zip up spearmint",
-          "url": "https://vuoriclothing.com/products/womens-beach-fleece-zip-up-spearmint",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "halo performance hoodie 2 0 huckleberry",
-          "url": "https://vuoriclothing.com/products/womens-halo-performance-hoodie-2-0-huckleberry-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "performance jogger long",
-          "url": "https://vuoriclothing.com/products/womens-performance-jogger-long-magenta-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori alltheform short 6 vintage",
-          "url": "https://vuoriclothing.com/products/womens-vuori-alltheform-short-6-vintage-rose",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "trestles twill short",
-          "url": "https://vuoriclothing.com/products/womens-trestles-twill-short-nutmeg",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "villa pinstripe trouser short pinstripe",
-          "url": "https://vuoriclothing.com/products/womens-villa-pinstripe-trouser-short-navy-pinstripe",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels legging long sea spray",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-legging-long-sea-spray",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels legging evergreen",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-legging-evergreen",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential wideleg pant short",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-wideleg-pant-short-nutmeg-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential wideleg pant",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-wideleg-pant-nutmeg-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "villa trouser short",
-          "url": "https://vuoriclothing.com/products/womens-villa-trouser-short-espresso",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "pose scoop jumpsuit smokey",
-          "url": "https://vuoriclothing.com/products/womens-pose-scoop-jumpsuit-smokey-taupe",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels slim flare evergreen",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-slim-flare-evergreen",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "villa pinstripe trouser pant s pinstripe",
-          "url": "https://vuoriclothing.com/products/womens-villa-pinstripe-trouser-pant-s-navy-pinstripe",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "villa pinstripe trouser pant pinstripe",
-          "url": "https://vuoriclothing.com/products/womens-villa-pinstripe-trouser-pant-navy-pinstripe",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "villa vibes wideleg short",
-          "url": "https://vuoriclothing.com/products/womens-villa-vibes-wideleg-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "villa vibes wideleg",
-          "url": "https://vuoriclothing.com/products/womens-villa-vibes-wideleg-espresso",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "drift insulated jacket",
-          "url": "https://vuoriclothing.com/products/womens-drift-insulated-jacket-black",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels full zip",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-full-zip-cherry",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "pose scoop dress",
-          "url": "https://vuoriclothing.com/products/womens-pose-scoop-dress-black",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "restore oversized crew 2 0 haze",
-          "url": "https://vuoriclothing.com/products/restore-oversized-crew-2-0-blue-haze",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "current tech tee isle",
-          "url": "https://vuoriclothing.com/products/current-tech-tee-isle-blue",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "seaside straight leg sweatpant 30 acorn",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-30-acorn-heather",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "halo cami",
-          "url": "https://vuoriclothing.com/products/womens-halo-cami-ecru-heather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "halo cami solid",
-          "url": "https://vuoriclothing.com/products/womens-halo-cami-solid-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "sedona mock neck haze",
-          "url": "https://vuoriclothing.com/products/womens-sedona-mock-neck-blue-haze",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "restore double zip sweatshirt ocean",
-          "url": "https://vuoriclothing.com/products/womens-restore-double-zip-sweatshirt-ocean-blue",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels straight leg long agate",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-straight-leg-long-agate-green",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-08",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 13,
-      "products": [
-        {
-          "name": "w9587r real bra tank teal",
-          "url": "https://www.aloyoga.com/products/w9587r-real-bra-tank-teal-agate",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w3472r gather long sleeve celestial",
-          "url": "https://www.aloyoga.com/products/w3472r-gather-long-sleeve-celestial-blue",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w3858r denim knit shawl anthracite",
-          "url": "https://www.aloyoga.com/products/w3858r-denim-knit-shawl-black-anthracite",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "m3216r renown sleeveless hoodie steel",
-          "url": "https://www.aloyoga.com/products/m3216r-renown-sleeveless-hoodie-steel-grey",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "w3863r ribbed cropped butterfly long sleeve",
-          "url": "https://www.aloyoga.com/products/w3863r-ribbed-cropped-butterfly-long-sleeve-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w3845r hazy mock neck pullover truffle",
-          "url": "https://www.aloyoga.com/products/w3845r-hazy-mock-neck-pullover-burgundy-truffle",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "a0543u performance off duty cap",
-          "url": "https://www.aloyoga.com/products/a0543u-performance-off-duty-cap-white-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "a0480u unisex half crew throwback sock red hot summer",
-          "url": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-red-hot-summer-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "a0405u cable knit beanie",
-          "url": "https://www.aloyoga.com/products/a0405u-cable-knit-beanie-ivory",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "u5013rg accolade sweatpant ballet",
-          "url": "https://www.aloyoga.com/products/u5013rg-accolade-sweatpant-ballet-pink",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "u5013rg accolade sweatpant ballet mens",
-          "url": "https://www.aloyoga.com/products/u5013rg-accolade-sweatpant-ballet-pink-mens",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "w54137r high waist micro plisse straight leg pant",
-          "url": "https://www.aloyoga.com/products/w54137r-high-waist-micro-plisse-straight-leg-pant-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w1406r alosoft crop finesse short sleeve warm",
-          "url": "https://www.aloyoga.com/products/w1406r-alosoft-crop-finesse-short-sleeve-warm-butter",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -9078,7 +8496,8 @@
       "2026-02-18": 2,
       "2026-02-19": 3,
       "2026-02-20": 12,
-      "2026-02-21": 10
+      "2026-02-21": 10,
+      "2026-02-22": 2
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -9114,7 +8533,8 @@
       "2026-02-18": 18,
       "2026-02-19": 28,
       "2026-02-20": 8,
-      "2026-02-21": 19
+      "2026-02-21": 19,
+      "2026-02-22": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -9139,7 +8559,7 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 1382,
+      "vuori": 1383,
       "outdoor_voices": 150,
       "tenthousand": 38,
       "lululemon": 849,
@@ -9148,7 +8568,7 @@
       "on_running": 758
     },
     "tops": {
-      "vuori": 464,
+      "vuori": 465,
       "outdoor_voices": 30,
       "tenthousand": 24,
       "lululemon": 374,
@@ -9170,7 +8590,7 @@
       "outdoor_voices": 39,
       "tenthousand": 9,
       "lululemon": 435,
-      "alo": 686,
+      "alo": 687,
       "gymshark": 360,
       "on_running": 952
     },
@@ -9178,7 +8598,7 @@
       "vuori": 88,
       "outdoor_voices": 22,
       "lululemon": 86,
-      "alo": 268,
+      "alo": 269,
       "gymshark": 455,
       "on_running": 96
     },
@@ -9216,7 +8636,7 @@
       "on_running": 23
     },
     "shorts": {
-      "vuori": 446,
+      "vuori": 447,
       "outdoor_voices": 37,
       "tenthousand": 20,
       "lululemon": 277,
@@ -9225,7 +8645,7 @@
       "on_running": 318
     },
     "tanks": {
-      "vuori": 118,
+      "vuori": 119,
       "outdoor_voices": 11,
       "tenthousand": 3,
       "lululemon": 126,
@@ -9255,7 +8675,7 @@
       "outdoor_voices": 114,
       "tenthousand": 23,
       "lululemon": 746,
-      "alo": 1402,
+      "alo": 1404,
       "gymshark": 1766,
       "on_running": 1112
     },
@@ -9431,7 +8851,7 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 452,
+      "vuori": 453,
       "outdoor_voices": 24,
       "alo": 452,
       "gymshark": 667,
@@ -9460,12 +8880,12 @@
     },
     "red": {
       "vuori": 20,
-      "alo": 183,
+      "alo": 184,
       "gymshark": 198,
       "on_running": 85
     },
     "white": {
-      "vuori": 287,
+      "vuori": 288,
       "outdoor_voices": 16,
       "alo": 765,
       "gymshark": 412,
@@ -9488,7 +8908,7 @@
     "brown": {
       "vuori": 144,
       "outdoor_voices": 2,
-      "alo": 267,
+      "alo": 268,
       "gymshark": 426,
       "on_running": 4
     },
@@ -9563,7 +8983,7 @@
       "dresses": 2.4,
       "sports_bras": 6.7,
       "accessories": 8.8,
-      "other": 17
+      "other": 17.1
     },
     {
       "brand": "On Running",
@@ -9639,15 +9059,15 @@
       "black": 22.6,
       "white": 19,
       "gray": 11.2,
-      "navy": 4.2,
-      "blue": 4.1,
+      "navy": 4.1,
+      "blue": 4,
       "green": 6.2,
       "khaki": 2.3,
-      "brown": 6.6,
+      "brown": 6.7,
       "purple": 0.9,
       "pink": 4.2,
       "orange": 0,
-      "red": 4.5,
+      "red": 4.6,
       "yellow": 0.9,
       "other": 0.8
     },
@@ -9670,11 +9090,11 @@
     },
     {
       "brand": "Vuori",
-      "black": 20.6,
+      "black": 20.5,
       "white": 9.7,
       "gray": 15.3,
       "navy": 3.1,
-      "blue": 10.6,
+      "blue": 10.5,
       "green": 5.9,
       "khaki": 5.1,
       "brown": 4.9,
@@ -9767,15 +9187,15 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1179,
-      "text": "Vuori leads Lululemon in men's: 1179 vs 727 products. A 62% advantage."
+      "value": 1180,
+      "text": "Vuori leads Lululemon in men's: 1180 vs 727 products. A 62% advantage."
     },
     {
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
-      "value": 446,
-      "text": "Vuori ranks #2 in shorts with 446 products. Behind Gymshark (807)."
+      "value": 447,
+      "text": "Vuori ranks #2 in shorts with 447 products. Behind Gymshark (807)."
     },
     {
       "type": "comparison",
@@ -9785,7 +9205,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 15,813 competitor products tracked. Vuori's 2,957 = 16% share of tracked catalog."
+      "text": "Market context: 15,815 competitor products tracked. Vuori's 2,959 = 16% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9849,7 +9269,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 446,
+        "vuori": 447,
         "competitor": 277,
         "winner": "vuori"
       },
@@ -9861,7 +9281,7 @@
       },
       {
         "category": "Tanks",
-        "vuori": 118,
+        "vuori": 119,
         "competitor": 126,
         "winner": "competitor"
       },
@@ -9873,13 +9293,13 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1179,
+        "vuori": 1180,
         "competitor": 727,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
-        "vuori": 1260,
+        "vuori": 1261,
         "competitor": 1016,
         "winner": "vuori"
       }
@@ -9899,7 +9319,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 446,
+        "vuori": 447,
         "competitor": 356,
         "winner": "vuori"
       },
@@ -9911,7 +9331,7 @@
       },
       {
         "category": "Tanks",
-        "vuori": 118,
+        "vuori": 119,
         "competitor": 206,
         "winner": "competitor"
       },
@@ -9923,17 +9343,17 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1179,
-        "competitor": 910,
+        "vuori": 1180,
+        "competitor": 911,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
-        "vuori": 1260,
-        "competitor": 2131,
+        "vuori": 1261,
+        "competitor": 2132,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-02-21T14:15:14.684Z"
+  "generated_at": "2026-02-22T14:15:17.693Z"
 }
