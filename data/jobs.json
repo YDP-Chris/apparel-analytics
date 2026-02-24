@@ -3,51 +3,51 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 517,
-      "change_from_last": 2,
+      "total_jobs": 529,
+      "change_from_last": 12,
       "departments": {
-        "other": 92,
-        "retail": 163,
+        "other": 94,
+        "retail": 168,
         "design": 66,
         "marketing": 11,
-        "finance": 8,
+        "finance": 7,
         "engineering": 37,
         "executive": 11,
-        "operations": 117,
+        "operations": 123,
         "product": 5,
         "hr": 7
       },
       "seniority": {
         "intern": 39,
         "mid": 25,
-        "manager": 109,
-        "c-suite": 28,
-        "junior": 211,
+        "manager": 113,
+        "c-suite": 27,
+        "junior": 218,
         "senior": 19,
-        "lead": 85,
+        "lead": 87,
         "vp": 1
       },
       "locations": [
-        "Charlotte, NC",
-        "Lynnfield, Massachusetts, United States",
-        "Philadelphia, PA",
-        "East Rutherford, New Jersey, United States",
-        "Brookfield, Wisconsin, United States",
-        "Vail, CO",
-        "London, England, United Kingdom; Remote",
-        "Vancouver, British Columbia, Canada",
-        "Canada",
-        "Dallas, TX",
-        "Sydney, New South Wales, Australia",
-        "Boston, MA",
-        "Alys Beach, Florida, United States",
+        "Minnetonka, Minnesota, United States",
+        "Las Vegas",
+        "Brooklyn, NY",
+        "Atlanta, Georgia, United States",
+        "Walnut Creek, California, United States",
+        "Roma, Rome, Italy",
+        "Roseville, California, United States",
+        "Corte Madera, California, United States",
+        "Etobicoke, Ontario, Canada",
+        "Australia",
         "Dallas",
-        "Mississauga, Ontario, Canada",
-        "Oakbrook, IL",
-        "Hong Kong",
-        "Glendale, California, United States",
-        "Garden City, New York, United States",
-        "San Antonio, TX"
+        "Burlingame, California, United States",
+        "King of Prussia, Pennsylvania, United States",
+        "East Rutherford, New Jersey, United States",
+        "Huntington Station, New York, United States",
+        "Durham, North Carolina, United States",
+        "Honolulu, HI",
+        "Pittsburgh, PA",
+        "Alpharetta, Georgia, United States",
+        "Charleston, South Carolina, United States"
       ],
       "jobs": [
         {
@@ -87,6 +87,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5719651004?gh_jid=5719651004",
           "posted_at": "2026-02-05T15:20:13-05:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
+          "id": "5806826004",
+          "title": "Assistant Store Manager (Flagship) - Sydney CBD",
+          "location": "Sydney, New South Wales, Australia",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5806826004?gh_jid=5806826004",
+          "posted_at": "2026-02-23T21:20:51-05:00",
           "category": "retail",
           "seniority": "manager"
         },
@@ -172,11 +182,11 @@
         },
         {
           "id": "5775370004",
-          "title": "Associ\u00e9 aux op\u00e9rations | Operations Associate (Part-Time) - Ste. Catherine Street",
+          "title": "Associ\u00e9 aux op\u00e9rations | Operations Associate (Part-Time) - Sainte Catherine Street",
           "location": "Montreal, QC",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5775370004?gh_jid=5775370004",
-          "posted_at": "2026-02-19T17:29:06-05:00",
+          "posted_at": "2026-02-23T13:55:36-05:00",
           "category": "design",
           "seniority": "junior"
         },
@@ -197,6 +207,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5806210004?gh_jid=5806210004",
           "posted_at": "2026-02-19T17:25:36-05:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
+          "id": "5810819004",
+          "title": "Associ\u00e9 ventes et services | Sales Associate (Part-Time) - Sainte Catherine Street",
+          "location": "Montreal, QC",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5810819004?gh_jid=5810819004",
+          "posted_at": "2026-02-23T13:52:43-05:00",
           "category": "retail",
           "seniority": "junior"
         },
@@ -361,21 +381,21 @@
           "seniority": "mid"
         },
         {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5781938004",
           "title": "Digital Engineering Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-02-05T15:20:13-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -428,16 +448,6 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5720923004?gh_jid=5720923004",
           "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "executive",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "5712336004",
-          "title": "Director of Corporate FP&A",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5712336004?gh_jid=5712336004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "finance",
           "seniority": "c-suite"
         },
         {
@@ -539,45 +549,35 @@
           "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "operations",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5705530004",
-          "title": "Director of Retail Client Experience - Selling & Styling",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5705530004?gh_jid=5705530004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "retail",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-02-23T05:30:07.432094"
+      "checked_at": "2026-02-24T05:30:07.509016"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": 0,
+      "total_jobs": 11,
+      "change_from_last": -2,
       "departments": {
         "marketing": 1,
-        "other": 5,
+        "other": 3,
         "operations": 3,
         "engineering": 2,
         "finance": 1,
         "design": 1
       },
       "seniority": {
-        "mid": 5,
+        "mid": 4,
         "manager": 3,
-        "junior": 2,
         "lead": 2,
+        "junior": 1,
         "senior": 1
       },
       "locations": [
         "New York, New York, United States",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
         "Solihull, England, United Kingdom",
-        "London, England, United Kingdom; Solihull, England, United Kingdom"
+        "London, England, United Kingdom; Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -609,16 +609,6 @@
           "posted_at": "2026-02-11T11:04:44-05:00",
           "category": "operations",
           "seniority": "manager"
-        },
-        {
-          "id": "4783192101",
-          "title": "Executive Assistant ",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4783192101",
-          "posted_at": "2026-02-16T09:56:13-05:00",
-          "category": "other",
-          "seniority": "junior"
         },
         {
           "id": "4743216101",
@@ -661,16 +651,6 @@
           "seniority": "junior"
         },
         {
-          "id": "4772941101",
-          "title": "Merchandise Allocator ",
-          "location": "New York, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4772941101",
-          "posted_at": "2026-02-11T11:04:44-05:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "4787248101",
           "title": "Network Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -711,7 +691,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-23T05:30:09.631936"
+      "checked_at": "2026-02-24T05:30:09.730815"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -729,8 +709,8 @@
         "manager": 1
       },
       "locations": [
-        "New York",
-        "New York, NY"
+        "New York, NY",
+        "New York"
       ],
       "jobs": [
         {
@@ -764,52 +744,52 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-02-23T05:30:14.468753"
+      "checked_at": "2026-02-24T05:30:15.307555"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 271,
-      "change_from_last": -1,
+      "total_jobs": 273,
+      "change_from_last": 2,
       "departments": {
         "engineering": 44,
-        "other": 59,
+        "other": 60,
         "retail": 114,
         "marketing": 15,
-        "product": 3,
+        "product": 4,
         "executive": 13,
-        "design": 15,
+        "design": 14,
         "hr": 2,
-        "operations": 3,
+        "operations": 4,
         "finance": 3
       },
       "seniority": {
-        "lead": 154,
-        "c-suite": 7,
-        "mid": 62,
+        "lead": 158,
+        "c-suite": 6,
+        "mid": 61,
         "senior": 48
       },
       "locations": [
-        "Central Valley",
-        "Madrid",
-        "Portland",
-        "Miami",
-        "Seoul",
-        "Beijing",
-        "London",
-        "Ho Chi Minh City",
-        "Nanjing",
-        "New York City; Portland",
-        "Berlin; London; Zurich",
-        "Boston",
-        "Austin",
-        "Chengdu",
-        "Zurich",
+        "Lisbon",
         "Las Vegas",
-        "Hong Kong",
+        "Hanoi",
+        "Ho Chi Minh City",
+        "Tokyo",
+        "Zurich",
+        "Tianjin",
+        "Stockholm",
+        "Paris",
+        "Austin",
+        "Melbourne",
         "D\u00fcsseldorf",
+        "Pemalang",
+        "London; Zurich",
+        "Hong Kong",
         "Shanghai",
-        "Barcelona"
+        "Nanjing",
+        "Bicester",
+        "New York City",
+        "Central Valley"
       ],
       "jobs": [
         {
@@ -1033,16 +1013,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "7484253",
-          "title": "Director of Technology - Platform Foundations",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7484253?gh_jid=7484253",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "engineering",
-          "seniority": "c-suite"
-        },
-        {
           "id": "7573409",
           "title": "Footwear Production QA",
           "location": "Ho Chi Minh City",
@@ -1163,21 +1133,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7564661",
-          "title": "Head of EMEA Department Store Channel Strategy",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
-          "posted_at": "2026-02-06T08:36:56-05:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7564602",
           "title": "Head of EMEA Department Store Channel Strategy",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7564602?gh_jid=7564602",
+          "posted_at": "2026-02-06T08:36:56-05:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7564661",
+          "title": "Head of EMEA Department Store Channel Strategy",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
           "posted_at": "2026-02-06T08:36:56-05:00",
           "category": "retail",
           "seniority": "lead"
@@ -1283,6 +1253,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7217836",
+          "title": "Head of  Product Management",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7217836?gh_jid=7217836",
+          "posted_at": "2026-02-23T12:16:43-05:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
           "id": "7617002",
           "title": "Head of Sales - (JD Sports) - EMEA",
           "location": "London",
@@ -1313,8 +1293,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-23T05:30:19.355583"
+      "checked_at": "2026-02-24T05:30:19.939731"
     }
   },
-  "generated_at": "2026-02-23T05:30:21.355805"
+  "generated_at": "2026-02-24T05:30:21.939906"
 }
