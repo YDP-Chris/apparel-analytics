@@ -3,51 +3,51 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 539,
-      "change_from_last": -1,
+      "total_jobs": 535,
+      "change_from_last": -4,
       "departments": {
-        "design": 72,
-        "other": 98,
+        "design": 71,
+        "finance": 7,
+        "other": 96,
         "retail": 167,
         "marketing": 10,
-        "finance": 6,
         "engineering": 37,
         "executive": 11,
-        "operations": 126,
+        "operations": 125,
         "product": 5,
-        "hr": 7
+        "hr": 6
       },
       "seniority": {
         "mid": 25,
-        "intern": 40,
-        "manager": 117,
+        "intern": 41,
+        "manager": 112,
         "c-suite": 29,
-        "junior": 216,
+        "junior": 217,
         "senior": 20,
-        "lead": 91,
+        "lead": 90,
         "vp": 1
       },
       "locations": [
-        "Oklahoma City, Oklahoma, United States",
-        "Dallas, TX",
-        "Miami Beach, Florida, United States",
-        "Honolulu, HI",
-        "Troy, Mi",
-        "Oakbrook, IL",
-        "Palo Alto, California, United States",
-        "Pasadena, California, United States",
-        "Los Angeles, California, United States",
+        "Frisco, Texas, United States",
+        "Paramus, NJ",
+        "Indianapolis, IN",
+        "Corte Madera, California, United States",
+        "Bloomington, Minnesota, United States",
         "Skokie, IL",
-        "Phoenix, Arizona, United States",
-        "Aspen, CO",
-        "San Antonio, TX",
-        "Schaumburg, IL",
-        "Birmingham, Alabama, United States",
-        "Palm Beach Gardens, FL",
-        "Palm Desert, California, United States",
-        "Cincinnati, OH",
-        "King of Prussia, Pennsylvania, United States",
-        "Calgary, AB"
+        "Etobicoke, Ontario, Canada",
+        "Canada",
+        "Oklahoma City, Oklahoma, United States",
+        "Santa Barbara, California, United States",
+        "London, England, United Kingdom",
+        "Naples, FL",
+        "Kansas City, Missouri, United States",
+        "Edmonton, AB",
+        "Bellevue, Washington, United States",
+        "Meridian, Idaho, United States",
+        "Dublin, Dublin, Ireland",
+        "Troy, Mi",
+        "Bethesda, Maryland, United States",
+        "Amsterdam, North Holland, Netherlands"
       ],
       "jobs": [
         {
@@ -59,6 +59,16 @@
           "posted_at": "2026-02-25T16:46:15-05:00",
           "category": "design",
           "seniority": "mid"
+        },
+        {
+          "id": "5797011004",
+          "title": "Accounting Intern",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5797011004?gh_jid=5797011004",
+          "posted_at": "2026-02-27T12:19:00-05:00",
+          "category": "finance",
+          "seniority": "intern"
         },
         {
           "id": "5797024004",
@@ -221,16 +231,6 @@
           "seniority": "junior"
         },
         {
-          "id": "5806210004",
-          "title": "Associ\u00e9 ventes et services | Sales Associate (Full-Time) - CF Carrefour Laval",
-          "location": "Laval, Quebec, Canada",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5806210004?gh_jid=5806210004",
-          "posted_at": "2026-02-19T17:25:36-05:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
           "id": "5810819004",
           "title": "Associ\u00e9 ventes et services | Sales Associate (Part-Time) - Sainte Catherine Street",
           "location": "Montreal, QC",
@@ -331,22 +331,22 @@
           "seniority": "lead"
         },
         {
-          "id": "5789930004",
-          "title": "Data Analyst Intern",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789930004?gh_jid=5789930004",
-          "posted_at": "2026-02-05T15:20:13-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789964004",
           "title": "Data Analyst Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5789964004?gh_jid=5789964004",
           "posted_at": "2026-02-05T19:02:02-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5789930004",
+          "title": "Data Analyst Intern",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789930004?gh_jid=5789930004",
+          "posted_at": "2026-02-05T15:20:13-05:00",
           "category": "engineering",
           "seniority": "intern"
         },
@@ -551,34 +551,56 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-02-27T05:30:13.077171"
+      "checked_at": "2026-02-28T05:30:06.812486"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 11,
-      "change_from_last": 1,
+      "total_jobs": 13,
+      "change_from_last": 2,
       "departments": {
+        "retail": 1,
         "operations": 4,
-        "other": 2,
+        "other": 3,
         "engineering": 2,
-        "marketing": 1,
-        "finance": 1,
+        "marketing": 2,
         "design": 1
       },
       "seniority": {
-        "manager": 4,
-        "lead": 2,
+        "manager": 5,
+        "lead": 3,
         "junior": 1,
         "mid": 3,
         "senior": 1
       },
       "locations": [
-        "New York, New York, United States",
         "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom"
+        "Solihull, England, United Kingdom",
+        "New York, New York, United States",
+        "UK",
+        "London"
       ],
       "jobs": [
+        {
+          "id": "4792343101",
+          "title": "Assistant Store Manager - London",
+          "location": "London",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4792343101",
+          "posted_at": "2026-02-27T09:51:50-05:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
+          "id": "4792401101",
+          "title": "Department Manager - Operations - London",
+          "location": "UK",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4792401101",
+          "posted_at": "2026-02-27T10:08:24-05:00",
+          "category": "operations",
+          "seniority": "manager"
+        },
         {
           "id": "4743216101",
           "title": "Finance Manager - Supply Chain",
@@ -590,22 +612,22 @@
           "seniority": "manager"
         },
         {
-          "id": "4782313101",
-          "title": "Finance Operations Manager",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4782313101",
-          "posted_at": "2026-02-13T11:09:37-05:00",
-          "category": "operations",
-          "seniority": "manager"
-        },
-        {
           "id": "4778757101",
           "title": "Floor Lead - Bond Street, Flagship ",
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4778757101",
           "posted_at": "2026-02-11T11:04:44-05:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "4792417101",
+          "title": "Floor Lead - London",
+          "location": "London",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4792417101",
+          "posted_at": "2026-02-27T10:21:20-05:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -627,6 +649,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4787248101",
           "posted_at": "2026-02-20T10:50:14-05:00",
           "category": "engineering",
+          "seniority": "mid"
+        },
+        {
+          "id": "4792331101",
+          "title": "Paid Social Executive",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4792331101",
+          "posted_at": "2026-02-27T09:50:07-05:00",
+          "category": "marketing",
           "seniority": "mid"
         },
         {
@@ -660,16 +692,6 @@
           "seniority": "manager"
         },
         {
-          "id": "4782476101",
-          "title": "Transactional Finance Specialist",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4782476101",
-          "posted_at": "2026-02-13T11:19:05-05:00",
-          "category": "finance",
-          "seniority": "mid"
-        },
-        {
           "id": "4746178101",
           "title": "Visual Merchandising Floor Lead - Flagship Store",
           "location": "New York, New York, United States",
@@ -690,7 +712,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-02-27T05:30:15.232342"
+      "checked_at": "2026-02-28T05:30:08.972054"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -708,8 +730,8 @@
         "manager": 1
       },
       "locations": [
-        "New York",
-        "New York, NY"
+        "New York, NY",
+        "New York"
       ],
       "jobs": [
         {
@@ -743,22 +765,22 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-02-27T05:30:20.217010"
+      "checked_at": "2026-02-28T05:30:13.583046"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 271,
-      "change_from_last": -5,
+      "total_jobs": 273,
+      "change_from_last": 2,
       "departments": {
         "engineering": 41,
-        "other": 58,
-        "retail": 113,
+        "other": 61,
+        "retail": 111,
         "marketing": 15,
         "hr": 3,
-        "product": 4,
-        "executive": 14,
-        "design": 15,
+        "product": 5,
+        "executive": 15,
+        "design": 14,
         "operations": 5,
         "finance": 3
       },
@@ -766,29 +788,30 @@
         "lead": 156,
         "senior": 49,
         "c-suite": 6,
-        "mid": 60
+        "mid": 61,
+        "intern": 1
       },
       "locations": [
-        "London",
-        "Chengdu",
-        "Macao",
-        "Guangzhou",
         "Hong Kong; Shanghai",
-        "London; Zurich",
-        "Nanjing",
         "Lisbon",
-        "Berlin; London; Zurich",
-        "Shanghai",
-        "Seoul",
-        "New York City",
-        "Hanoi",
-        "Chicago",
-        "New York City; Portland",
+        "Berlin; Zurich",
+        "D\u00fcsseldorf",
         "Pemalang",
+        "London; Zurich",
         "Austin",
+        "London",
+        "Tianjin",
+        "Guangzhou",
+        "Melbourne",
+        "Hanoi",
         "Ho Chi Minh City",
-        "Shenzhen",
-        "Tianjin"
+        "Macao",
+        "Shanghai",
+        "Zurich",
+        "New York City; Portland",
+        "Las Vegas",
+        "Stockholm",
+        "Chicago"
       ],
       "jobs": [
         {
@@ -1072,16 +1095,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7340217",
-          "title": "Global Retail Operations Excellence Senior Lead",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7340217?gh_jid=7340217",
-          "posted_at": "2026-02-25T04:40:13-05:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7606412",
           "title": "Head of Analytics and Strategy Enablement, APAC",
           "location": "Shanghai",
@@ -1272,6 +1285,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7455175",
+          "title": "Head of Security Platforms and Architecture",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7455175?gh_jid=7455175",
+          "posted_at": "2026-02-27T07:46:18-05:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
           "id": "7560039",
           "title": "Head of Talent Business Partnering, Retail Operations",
           "location": "Zurich",
@@ -1292,8 +1315,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-02-27T05:30:25.342499"
+      "checked_at": "2026-02-28T05:30:18.302549"
     }
   },
-  "generated_at": "2026-02-27T05:30:27.342671"
+  "generated_at": "2026-02-28T05:30:20.302737"
 }
