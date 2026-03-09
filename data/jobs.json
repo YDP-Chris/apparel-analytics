@@ -28,26 +28,26 @@
         "vp": 1
       },
       "locations": [
-        "Manchester, England, United Kingdom",
-        "Mount Royal, Quebec",
-        "Bridgewater, New Jersey, United States",
-        "Thousand Oaks, California, United States",
-        "Des Moines, Iowa, United States",
-        "Miami, FL",
-        "Walnut Creek, California, United States",
-        "Birmingham, Alabama, United States",
-        "Pasadena, California, United States",
-        "West Palm Beach, Florida, United States",
-        "Philadelphia, PA",
-        "Indianapolis, IN",
-        "Detroit, Michigan, United States",
-        "Durham, North Carolina, United States",
-        "Atlanta, Georgia, United States",
-        "Ashburn, Virginia, United States",
+        "Edmonton, AB",
+        "Oakbrook, IL",
+        "Mississauga, Ontario, Canada",
+        "Vancouver, British Columbia, Canada",
+        "East Rutherford, New Jersey, United States",
+        "Canoga Park, California, United States",
+        "Las Vegas",
+        "Seoul, Seoul, South Korea",
+        "San Ramon, California, United States",
         "Lynnfield, Massachusetts, United States",
-        "Chestnut Hill, Massachusetts, United States",
-        "Denver, CO",
-        "Leeds, England, United Kingdom"
+        "St. Louis, MO",
+        "King of Prussia, Pennsylvania, United States",
+        "Aventura, Florida, United States",
+        "Jacksonville, FL",
+        "Amsterdam, North Holland, Netherlands",
+        "Charlotte, NC",
+        "Boca Raton, FL",
+        "Aspen, CO",
+        "Brooklyn, NY",
+        "Roma, Rome, Italy"
       ],
       "jobs": [
         {
@@ -551,7 +551,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-08T05:30:07.217086"
+      "checked_at": "2026-03-09T05:30:07.080133"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -573,11 +573,11 @@
         "senior": 1
       },
       "locations": [
-        "London, England, United Kingdom",
         "London",
+        "Solihull, England, United Kingdom",
         "New York, New York, United States",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom"
+        "London, England, United Kingdom",
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -596,7 +596,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4793493101",
-          "posted_at": "2026-03-05T13:58:38-05:00",
+          "posted_at": "2026-03-08T10:20:25-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -606,7 +606,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4793583101",
-          "posted_at": "2026-03-05T13:56:57-05:00",
+          "posted_at": "2026-03-08T10:21:29-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -721,7 +721,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-03-08T05:30:09.357921"
+      "checked_at": "2026-03-09T05:30:09.572805"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -774,17 +774,17 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-08T05:30:13.957047"
+      "checked_at": "2026-03-09T05:30:14.154311"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 281,
-      "change_from_last": 0,
+      "total_jobs": 280,
+      "change_from_last": -1,
       "departments": {
         "engineering": 45,
         "other": 58,
-        "retail": 112,
+        "retail": 111,
         "marketing": 18,
         "product": 6,
         "executive": 14,
@@ -797,29 +797,29 @@
         "lead": 157,
         "c-suite": 8,
         "manager": 4,
-        "mid": 64,
+        "mid": 63,
         "senior": 48
       },
       "locations": [
-        "London; Zurich",
-        "Macao",
-        "Berlin",
-        "Chicago",
-        "Seoul",
-        "Las Vegas",
-        "Austin",
-        "Nanjing",
-        "Montreal",
-        "Mexico City",
-        "Central Valley",
-        "San Diego",
-        "Chengdu",
-        "Barcelona",
-        "Paris",
-        "Shenzhen",
+        "Madrid",
+        "D\u00fcsseldorf",
         "Portland",
-        "Melbourne",
         "Hong Kong",
+        "Lisbon",
+        "Las Vegas",
+        "New York City",
+        "Barcelona",
+        "Austin",
+        "Guangzhou",
+        "Shanghai",
+        "Central Valley",
+        "Miami",
+        "Stockholm",
+        "Hanoi; Ho Chi Minh City",
+        "Chicago",
+        "Beijing",
+        "Montreal; Toronto; Vancouver",
+        "Nanjing",
         "Tianjin"
       ],
       "jobs": [
@@ -1194,21 +1194,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7564602",
-          "title": "Head of EMEA Department Store Channel Strategy",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7564602?gh_jid=7564602",
-          "posted_at": "2026-02-25T04:40:13-05:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7564661",
           "title": "Head of EMEA Department Store Channel Strategy",
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
+          "posted_at": "2026-02-25T04:40:13-05:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7564602",
+          "title": "Head of EMEA Department Store Channel Strategy",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7564602?gh_jid=7564602",
           "posted_at": "2026-02-25T04:40:13-05:00",
           "category": "retail",
           "seniority": "lead"
@@ -1324,8 +1324,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-03-08T05:30:18.635186"
+      "checked_at": "2026-03-09T05:30:18.940804"
     }
   },
-  "generated_at": "2026-03-08T05:30:20.635331"
+  "generated_at": "2026-03-09T05:30:20.940954"
 }

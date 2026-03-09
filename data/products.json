@@ -3,12 +3,12 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 3268,
+      "total": 3273,
       "categories": {
-        "bottoms": 1524,
+        "bottoms": 1527,
         "tops": 514,
-        "outerwear": 471,
-        "other": 467,
+        "outerwear": 472,
+        "other": 468,
         "sports_bras": 99,
         "footwear": 14,
         "accessories": 147,
@@ -16,16 +16,16 @@
       },
       "subcategories": {
         "joggers": 148,
-        "shorts": 501,
+        "shorts": 502,
         "tanks": 139,
         "tees": 196,
-        "leggings": 152,
-        "other": 946,
+        "leggings": 153,
+        "other": 948,
         "pants": 341,
         "pullovers": 3,
         "polos": 49,
         "training": 14,
-        "jackets": 148,
+        "jackets": 149,
         "long_sleeve": 26,
         "hoodies": 179,
         "hats": 59,
@@ -44,20 +44,20 @@
       },
       "genders": {
         "mens": 1251,
-        "womens": 1454,
-        "unisex": 563
+        "womens": 1458,
+        "unisex": 564
       },
       "colors": {
-        "gray": 472,
+        "gray": 473,
         "navy": 92,
-        "black": 651,
+        "black": 652,
         "khaki": 154,
         "red": 22,
         "white": 317,
-        "blue": 409,
+        "blue": 410,
         "green": 182,
         "brown": 153,
-        "print": 21,
+        "print": 22,
         "heather": 193,
         "purple": 96,
         "orange": 13,
@@ -67,9 +67,9 @@
         "rust": 2,
         "camo": 1
       },
-      "colorCoverage": 86.7,
+      "colorCoverage": 86.6,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 1854
+      "uniqueStyles": 1858
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -222,13 +222,13 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4197,
+      "total": 4198,
       "categories": {
         "other": 721,
         "bottoms": 1580,
         "tops": 484,
         "sports_bras": 283,
-        "accessories": 381,
+        "accessories": 382,
         "outerwear": 605,
         "footwear": 43,
         "dresses": 100
@@ -238,7 +238,7 @@
         "leggings": 317,
         "tanks": 219,
         "shorts": 366,
-        "hats": 136,
+        "hats": 137,
         "sweatpants": 195,
         "hoodies": 206,
         "running": 32,
@@ -262,7 +262,7 @@
         "high_support": 2
       },
       "genders": {
-        "unisex": 1046,
+        "unisex": 1047,
         "womens": 2227,
         "mens": 924
       },
@@ -273,7 +273,7 @@
         "gray": 464,
         "khaki": 96,
         "pink": 214,
-        "blue": 172,
+        "blue": 173,
         "purple": 38,
         "green": 262,
         "brown": 274,
@@ -286,7 +286,7 @@
       },
       "colorCoverage": 88,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2637
+      "uniqueStyles": 2638
     },
     "gymshark": {
       "name": "Gymshark",
@@ -422,12 +422,64 @@
     }
   },
   "totals": {
-    "products": 26228,
+    "products": 26234,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-03-09",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "a0499u notable beanie celestial",
+          "url": "https://www.aloyoga.com/products/a0499u-notable-beanie-celestial-blue",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 5,
+      "products": [
+        {
+          "name": "highlands sherpa jacket natural",
+          "url": "https://vuoriclothing.com/products/womens-highlands-sherpa-jacket-natural",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "long sleeve halo crew heron heather",
+          "url": "https://vuoriclothing.com/products/womens-long-sleeve-halo-crew-blue-heron-heather",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "halo micro short solid",
+          "url": "https://vuoriclothing.com/products/womens-halo-micro-short-solid-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "daily legging espresso",
+          "url": "https://vuoriclothing.com/products/womens-stripe-daily-legging-espresso-stripe",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "short sleeve viewpoint performance tee 2 0 sky",
+          "url": "https://vuoriclothing.com/products/short-sleeve-viewpoint-performance-tee-2-0-sky-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-03-07",
       "brand": "Alo Yoga",
@@ -7149,918 +7201,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-02-23",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 68,
-      "products": [
-        {
-          "name": "gymshark conditioning club tank",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tank-white-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark mesh pleated shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-mesh-pleated-shorts-shorts-purple-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-shorts-shorts",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-sports-bra-sports-bras",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-short-sleeve-top-ss-tops",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-leggings-leggings",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-sports-bra-sports-bras-pink-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-leggings-leggings-yellow-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops-yellow-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-green-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-yellow-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-shorts-shorts-yellow-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-green-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-sports-bra-sports-bras-black-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-shorts-shorts-brown-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops-pink-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-shorts-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-pink-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-leggings-leggings-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-leggings-leggings-brown-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-shorts-shorts-green-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-leggings-leggings-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-sports-bra-sports-bras-yellow-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-sports-bra-sports-bras-brown-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-black-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark conditioning club tank",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tank-white-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark mesh pleated shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-mesh-pleated-shorts-shorts-purple-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-shorts-shorts",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-sports-bra-sports-bras",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-short-sleeve-top-ss-tops",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-leggings-leggings",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-sports-bra-sports-bras-pink-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-leggings-leggings-yellow-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops-yellow-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-green-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-yellow-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-shorts-shorts-yellow-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-green-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-sports-bra-sports-bras-black-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-shorts-shorts-brown-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-long-sleeve-crop-top-ls-tops-pink-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-shorts-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-pink-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-leggings-leggings-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-leggings-leggings-brown-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-short-sleeve-top-ss-tops-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-shorts-shorts-green-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-leggings-leggings-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-sports-bra-sports-bras-yellow-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal tank top with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-tank-top-with-shelf-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-sports-bra-sports-bras-brown-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-black-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark lifting babe tee",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-babe-tee-white-ss24",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark essential oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-essential-oversized-t-shirt-ss-tops-green-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting babe tee",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-babe-tee-white-ss24",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark essential oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-essential-oversized-t-shirt-ss-tops-green-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-23",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 15,
-      "products": [
-        {
-          "name": "w4761r cinch blazer",
-          "url": "https://www.aloyoga.com/products/w4761r-cinch-blazer-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w4761r cinch blazer tree",
-          "url": "https://www.aloyoga.com/products/w4761r-cinch-blazer-olive-tree",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w4778r cropped fan favorite full zip jacket",
-          "url": "https://www.aloyoga.com/products/w4778r-cropped-fan-favorite-full-zip-jacket-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w4778r cropped fan favorite full zip jacket tree",
-          "url": "https://www.aloyoga.com/products/w4778r-cropped-fan-favorite-full-zip-jacket-olive-tree",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w54332r mid rise cosmopolitan snap pant",
-          "url": "https://www.aloyoga.com/products/w54332r-mid-rise-cosmopolitan-snap-pant-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "w54332r mid rise cosmopolitan snap pant tree",
-          "url": "https://www.aloyoga.com/products/w54332r-mid-rise-cosmopolitan-snap-pant-olive-tree",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "w6568r low rise fan favorite micro skirt",
-          "url": "https://www.aloyoga.com/products/w6568r-low-rise-fan-favorite-micro-skirt-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w6568r low rise fan favorite micro skirt tree",
-          "url": "https://www.aloyoga.com/products/w6568r-low-rise-fan-favorite-micro-skirt-olive-tree",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w51150r airbrush low rise bootcut legging",
-          "url": "https://www.aloyoga.com/products/w51150r-airbrush-low-rise-bootcut-legging-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w51318r airlift high waist 7 8 line up legging cola",
-          "url": "https://www.aloyoga.com/products/w51318r-airlift-high-waist-7-8-line-up-legging-cherry-cola",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "u3031rg accolade crew neck pullover crystal clear",
-          "url": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-crystal-clear-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "w9680r airbrush heart throb bra crystal clear blue",
-          "url": "https://www.aloyoga.com/products/w9680r-airbrush-heart-throb-bra-crystal-clear-blue-white",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w2741r seamless chosen tank",
-          "url": "https://www.aloyoga.com/products/w2741r-seamless-chosen-tank-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w2741r seamless chosen tank",
-          "url": "https://www.aloyoga.com/products/w2741r-seamless-chosen-tank-white",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "a0687w ballet tough leg warmer athletic",
-          "url": "https://www.aloyoga.com/products/a0687w-ballet-tough-leg-warmer-athletic-heather-grey",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-23",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 5,
-      "products": [
-        {
-          "name": "sombra sun hat",
-          "url": "https://vuoriclothing.com/products/womens-sombra-sun-hat-black",
-          "category": "accessories",
-          "gender": "womens"
-        },
-        {
-          "name": "uluwatu upf long sleeve sea spray",
-          "url": "https://vuoriclothing.com/products/uluwatu-upf-long-sleeve-sea-spray-heather",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vortex tee natural",
-          "url": "https://vuoriclothing.com/products/vortex-tee-natural",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "inversion rib bra marshmallow",
-          "url": "https://vuoriclothing.com/products/womens-inversion-rib-bra-marshmallow",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "clementine 2 0 short 2 5 bright iris",
-          "url": "https://vuoriclothing.com/products/clementine-2-0-short-2-5-bright-iris",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "brand": "Outdoor Voices",
-      "brandSlug": "outdoor_voices",
-      "count": 48,
-      "products": [
-        {
-          "name": "w polka tee polka",
-          "url": "https://www.outdoorvoices.com/products/w-polka-tee-polka-dot",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w rectrek zip pant dust",
-          "url": "https://www.outdoorvoices.com/products/w-rectrek-zip-pant-pink-dust",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w lightspeed minimal 3 skort twilight",
-          "url": "https://www.outdoorvoices.com/products/w-lightspeed-minimal-3-skort-twilight",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w lightspeed minimal 3 skort surf",
-          "url": "https://www.outdoorvoices.com/products/w-lightspeed-minimal-3-skort-surf",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w club dress ditsy",
-          "url": "https://www.outdoorvoices.com/products/w-club-dress-ditsy-floral",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w club dress polka",
-          "url": "https://www.outdoorvoices.com/products/w-club-dress-polka-dot",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w club polo dusty pink",
-          "url": "https://www.outdoorvoices.com/products/w-club-polo-dusty-pink-stripe",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "w club skort ditsy",
-          "url": "https://www.outdoorvoices.com/products/w-club-skort-ditsy-floral",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w club skort polka",
-          "url": "https://www.outdoorvoices.com/products/w-club-skort-polka-dot",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w doing things 3 skort stargirl",
-          "url": "https://www.outdoorvoices.com/products/w-doing-things-3-skort-stargirl",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w doing things bra polka",
-          "url": "https://www.outdoorvoices.com/products/w-doing-things-bra-polka-dot",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w double dip bra",
-          "url": "https://www.outdoorvoices.com/products/w-double-dip-bra-black",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w double dip bra",
-          "url": "https://www.outdoorvoices.com/products/w-double-dip-bra-navy",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w double dip bra surf",
-          "url": "https://www.outdoorvoices.com/products/w-double-dip-bra-surf",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w double dip bra sports car",
-          "url": "https://www.outdoorvoices.com/products/w-double-dip-bra-sports-car",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w double dip bra twilight",
-          "url": "https://www.outdoorvoices.com/products/w-double-dip-bra-twilight",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 3 5 short",
-          "url": "https://www.outdoorvoices.com/products/w-echo-3-5-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 3 5 short",
-          "url": "https://www.outdoorvoices.com/products/w-echo-3-5-short-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 3 5 short surf",
-          "url": "https://www.outdoorvoices.com/products/w-echo-3-5-short-surf",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 3 5 short sports car",
-          "url": "https://www.outdoorvoices.com/products/w-echo-3-5-short-sports-car",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 5 5 short",
-          "url": "https://www.outdoorvoices.com/products/w-echo-5-5-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 5 5 short",
-          "url": "https://www.outdoorvoices.com/products/w-echo-5-5-short-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 5 5 short surf",
-          "url": "https://www.outdoorvoices.com/products/w-echo-5-5-short-surf",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w echo 5 5 short sports car",
-          "url": "https://www.outdoorvoices.com/products/w-echo-5-5-short-sports-car",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w energy dress stargirl",
-          "url": "https://www.outdoorvoices.com/products/w-energy-dress-stargirl",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "m everyday classic shortsleeve surf",
-          "url": "https://www.outdoorvoices.com/products/m-everyday-classic-shortsleeve-surf",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m everyday classic shortsleeve matisse",
-          "url": "https://www.outdoorvoices.com/products/m-everyday-classic-shortsleeve-matisse",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "w everyday shortsleeve matisse",
-          "url": "https://www.outdoorvoices.com/products/w-everyday-shortsleeve-matisse",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w everyday shortsleeve surf",
-          "url": "https://www.outdoorvoices.com/products/w-everyday-shortsleeve-surf",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w flared legging",
-          "url": "https://www.outdoorvoices.com/products/w-flared-legging-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w flared legging",
-          "url": "https://www.outdoorvoices.com/products/w-flared-legging-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w flared legging sports car",
-          "url": "https://www.outdoorvoices.com/products/w-flared-legging-sports-car",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w malibu sweatpant matisse",
-          "url": "https://www.outdoorvoices.com/products/w-malibu-sweatpant-matisse",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w malibu sweatpant",
-          "url": "https://www.outdoorvoices.com/products/w-malibu-sweatpant-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w malibu sweatpant sports car",
-          "url": "https://www.outdoorvoices.com/products/w-malibu-sweatpant-sports-car",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w orbit bra stargirl",
-          "url": "https://www.outdoorvoices.com/products/w-orbit-bra-stargirl",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy bodysuit",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-bodysuit-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy bodysuit",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-bodysuit-navy",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy bodysuit sports car",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-bodysuit-sports-car",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy tank twilight",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-tank-twilight",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy tank",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-tank-navy",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy tank sports car",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-tank-sports-car",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w strappy tank",
-          "url": "https://www.outdoorvoices.com/products/w-strappy-tank-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w techsweat 3 5 short polka",
-          "url": "https://www.outdoorvoices.com/products/w-techsweat-3-5-short-polka-dot",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w waffle baby tee",
-          "url": "https://www.outdoorvoices.com/products/w-waffle-baby-tee-dusty-pink",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w waffle baby tee",
-          "url": "https://www.outdoorvoices.com/products/w-waffle-baby-tee-white",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w the exercise dress surf",
-          "url": "https://www.outdoorvoices.com/products/w-the-exercise-dress-surf",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w the exercise dress twilight",
-          "url": "https://www.outdoorvoices.com/products/w-the-exercise-dress-twilight",
-          "category": "dresses",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 6,
-      "products": [
-        {
-          "name": "m4153r platinum puffer",
-          "url": "https://www.aloyoga.com/products/m4153r-platinum-puffer-espresso",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "w9772r alosoft highlight bra bold",
-          "url": "https://www.aloyoga.com/products/w9772r-alosoft-highlight-bra-bold-red",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w3438r muse hoodie raisinette",
-          "url": "https://www.aloyoga.com/products/w3438r-muse-hoodie-raisinette-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "a0225u love knots tie scrunchie candy",
-          "url": "https://www.aloyoga.com/products/a0225u-love-knots-tie-scrunchie-candy-red",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "w6434r bloomer short",
-          "url": "https://www.aloyoga.com/products/w6434r-bloomer-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "m1224r double take short sleeve",
-          "url": "https://www.aloyoga.com/products/m1224r-double-take-short-sleeve-limestone",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "ponto short",
-          "url": "https://vuoriclothing.com/products/ponto-short-cobblestone-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "pose layering tank",
-          "url": "https://vuoriclothing.com/products/womens-pose-layering-tank-white",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -8096,7 +7236,8 @@
       "2026-03-04": 1,
       "2026-03-05": 7,
       "2026-03-06": 2,
-      "2026-03-07": 3
+      "2026-03-07": 3,
+      "2026-03-08": 5
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -8148,7 +7289,8 @@
       "2026-03-04": 8,
       "2026-03-05": 5,
       "2026-03-06": 2,
-      "2026-03-07": 5
+      "2026-03-07": 5,
+      "2026-03-09": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -8186,7 +7328,7 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 1524,
+      "vuori": 1527,
       "outdoor_voices": 175,
       "tenthousand": 39,
       "lululemon": 849,
@@ -8204,7 +7346,7 @@
       "on_running": 614
     },
     "outerwear": {
-      "vuori": 471,
+      "vuori": 472,
       "outdoor_voices": 29,
       "tenthousand": 16,
       "lululemon": 244,
@@ -8213,7 +7355,7 @@
       "on_running": 853
     },
     "other": {
-      "vuori": 467,
+      "vuori": 468,
       "outdoor_voices": 42,
       "tenthousand": 9,
       "lululemon": 435,
@@ -8240,7 +7382,7 @@
       "outdoor_voices": 32,
       "tenthousand": 2,
       "lululemon": 315,
-      "alo": 381,
+      "alo": 382,
       "gymshark": 410,
       "on_running": 667
     },
@@ -8263,7 +7405,7 @@
       "on_running": 27
     },
     "shorts": {
-      "vuori": 501,
+      "vuori": 502,
       "outdoor_voices": 46,
       "tenthousand": 21,
       "lululemon": 277,
@@ -8289,7 +7431,7 @@
       "gymshark": 46
     },
     "leggings": {
-      "vuori": 152,
+      "vuori": 153,
       "outdoor_voices": 15,
       "tenthousand": 3,
       "lululemon": 121,
@@ -8298,7 +7440,7 @@
       "on_running": 391
     },
     "other": {
-      "vuori": 946,
+      "vuori": 948,
       "outdoor_voices": 128,
       "tenthousand": 23,
       "lululemon": 746,
@@ -8335,7 +7477,7 @@
       "lululemon": 6
     },
     "jackets": {
-      "vuori": 148,
+      "vuori": 149,
       "outdoor_voices": 10,
       "tenthousand": 6,
       "lululemon": 98,
@@ -8364,7 +7506,7 @@
       "vuori": 59,
       "outdoor_voices": 12,
       "lululemon": 65,
-      "alo": 136,
+      "alo": 137,
       "gymshark": 72,
       "on_running": 214
     },
@@ -8485,7 +7627,7 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 472,
+      "vuori": 473,
       "outdoor_voices": 24,
       "alo": 464,
       "gymshark": 798,
@@ -8499,7 +7641,7 @@
       "on_running": 293
     },
     "black": {
-      "vuori": 651,
+      "vuori": 652,
       "outdoor_voices": 56,
       "alo": 941,
       "gymshark": 1623,
@@ -8526,9 +7668,9 @@
       "on_running": 1444
     },
     "blue": {
-      "vuori": 409,
+      "vuori": 410,
       "outdoor_voices": 18,
-      "alo": 172,
+      "alo": 173,
       "gymshark": 1028,
       "on_running": 780
     },
@@ -8547,7 +7689,7 @@
       "on_running": 74
     },
     "print": {
-      "vuori": 21,
+      "vuori": 22,
       "outdoor_voices": 12,
       "gymshark": 14
     },
@@ -8632,7 +7774,7 @@
     },
     {
       "brand": "Vuori",
-      "bottoms": 46.6,
+      "bottoms": 46.7,
       "tops": 15.7,
       "outerwear": 14.4,
       "dresses": 1,
@@ -8711,7 +7853,7 @@
       "black": 22.4,
       "white": 19,
       "gray": 11.1,
-      "navy": 4.1,
+      "navy": 4,
       "blue": 4.1,
       "green": 6.2,
       "khaki": 2.3,
@@ -8727,7 +7869,7 @@
       "brand": "Vuori",
       "black": 19.9,
       "white": 9.7,
-      "gray": 14.4,
+      "gray": 14.5,
       "navy": 2.8,
       "blue": 12.5,
       "green": 5.6,
@@ -8797,7 +7939,7 @@
       "type": "leader",
       "metric": "gender_balance",
       "brand": "Vuori",
-      "text": "Vuori is uniquely balanced: 44% women's / 38% men's. Alo skews 53% women's, Gymshark 22% men's."
+      "text": "Vuori is uniquely balanced: 45% women's / 38% men's. Alo skews 53% women's, Gymshark 22% men's."
     },
     {
       "type": "trend",
@@ -8829,18 +7971,18 @@
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
-      "value": 501,
-      "text": "Vuori ranks #3 in shorts with 501 products. Behind Gymshark (961)."
+      "value": 502,
+      "text": "Vuori ranks #3 in shorts with 502 products. Behind Gymshark (961)."
     },
     {
       "type": "comparison",
       "metric": "outerwear",
-      "text": "Outerwear depth: Vuori has 471 products vs Lululemon's 244. Key for cooler weather expansion."
+      "text": "Outerwear depth: Vuori has 472 products vs Lululemon's 244. Key for cooler weather expansion."
     },
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 22,960 competitor products tracked. Vuori's 3,268 = 12% share of tracked catalog."
+      "text": "Market context: 22,961 competitor products tracked. Vuori's 3,273 = 12% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8902,13 +8044,13 @@
       },
       {
         "category": "Leggings",
-        "vuori": 152,
+        "vuori": 153,
         "competitor": 121,
         "winner": "vuori"
       },
       {
         "category": "Shorts",
-        "vuori": 501,
+        "vuori": 502,
         "competitor": 277,
         "winner": "vuori"
       },
@@ -8938,7 +8080,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1454,
+        "vuori": 1458,
         "competitor": 1016,
         "winner": "vuori"
       }
@@ -8952,13 +8094,13 @@
       },
       {
         "category": "Leggings",
-        "vuori": 152,
+        "vuori": 153,
         "competitor": 317,
         "winner": "competitor"
       },
       {
         "category": "Shorts",
-        "vuori": 501,
+        "vuori": 502,
         "competitor": 366,
         "winner": "vuori"
       },
@@ -8988,11 +8130,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1454,
+        "vuori": 1458,
         "competitor": 2227,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-03-08T13:15:16.592Z"
+  "generated_at": "2026-03-09T13:15:15.860Z"
 }
