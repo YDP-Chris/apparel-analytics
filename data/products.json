@@ -3,21 +3,21 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 3273,
+      "total": 3275,
       "categories": {
         "bottoms": 1527,
-        "tops": 514,
+        "tops": 515,
         "outerwear": 472,
         "other": 468,
         "sports_bras": 99,
         "footwear": 14,
-        "accessories": 147,
+        "accessories": 148,
         "dresses": 32
       },
       "subcategories": {
         "joggers": 148,
         "shorts": 502,
-        "tanks": 139,
+        "tanks": 140,
         "tees": 196,
         "leggings": 153,
         "other": 948,
@@ -37,18 +37,18 @@
         "casual_dress": 14,
         "sweatpants": 116,
         "bags": 7,
-        "socks": 59,
+        "socks": 60,
         "headwear": 13,
         "rompers": 11,
         "fleece": 11
       },
       "genders": {
         "mens": 1251,
-        "womens": 1458,
-        "unisex": 564
+        "womens": 1459,
+        "unisex": 565
       },
       "colors": {
-        "gray": 473,
+        "gray": 474,
         "navy": 92,
         "black": 652,
         "khaki": 154,
@@ -222,28 +222,28 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4198,
+      "total": 4204,
       "categories": {
         "other": 721,
-        "bottoms": 1580,
-        "tops": 484,
+        "bottoms": 1581,
+        "tops": 486,
         "sports_bras": 283,
         "accessories": 382,
         "outerwear": 605,
         "footwear": 43,
-        "dresses": 100
+        "dresses": 103
       },
       "subcategories": {
         "other": 1463,
         "leggings": 317,
-        "tanks": 219,
+        "tanks": 221,
         "shorts": 366,
         "hats": 137,
         "sweatpants": 195,
         "hoodies": 206,
         "running": 32,
         "long_sleeve": 27,
-        "pants": 235,
+        "pants": 236,
         "tees": 47,
         "pullovers": 138,
         "skirts": 106,
@@ -254,7 +254,7 @@
         "polos": 13,
         "crop_tops": 169,
         "casual_dress": 48,
-        "tennis_dress": 24,
+        "tennis_dress": 27,
         "headwear": 49,
         "vests": 15,
         "joggers": 36,
@@ -262,17 +262,17 @@
         "high_support": 2
       },
       "genders": {
-        "unisex": 1047,
-        "womens": 2227,
+        "unisex": 1048,
+        "womens": 2232,
         "mens": 924
       },
       "colors": {
         "navy": 170,
-        "black": 941,
-        "white": 797,
+        "black": 942,
+        "white": 799,
         "gray": 464,
         "khaki": 96,
-        "pink": 214,
+        "pink": 217,
         "blue": 173,
         "purple": 38,
         "green": 262,
@@ -286,17 +286,17 @@
       },
       "colorCoverage": 88,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2638
+      "uniqueStyles": 2642
     },
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 6575,
+      "total": 6591,
       "categories": {
-        "bottoms": 2376,
-        "tops": 2085,
-        "other": 452,
-        "accessories": 410,
+        "bottoms": 2380,
+        "tops": 2091,
+        "other": 454,
+        "accessories": 414,
         "outerwear": 734,
         "sports_bras": 514,
         "dresses": 4
@@ -305,14 +305,14 @@
         "shorts": 961,
         "leggings": 535,
         "crop_tops": 139,
-        "other": 2105,
-        "long_sleeve": 381,
-        "socks": 172,
+        "other": 2113,
+        "long_sleeve": 383,
+        "socks": 174,
         "tanks": 560,
         "joggers": 457,
         "hoodies": 428,
         "jackets": 150,
-        "pants": 237,
+        "pants": 239,
         "pullovers": 118,
         "high_support": 20,
         "bags": 58,
@@ -320,7 +320,7 @@
         "tees": 46,
         "headwear": 22,
         "polos": 18,
-        "hats": 72,
+        "hats": 74,
         "low_support": 16,
         "fleece": 2,
         "casual_dress": 4,
@@ -329,29 +329,29 @@
         "medium_support": 6
       },
       "genders": {
-        "unisex": 2970,
-        "womens": 2177,
+        "unisex": 2984,
+        "womens": 2179,
         "mens": 1428
       },
       "colors": {
-        "green": 336,
-        "pink": 386,
-        "black": 1623,
+        "green": 338,
+        "pink": 388,
+        "black": 1627,
         "white": 482,
         "navy": 60,
-        "gray": 798,
+        "gray": 800,
         "brown": 492,
-        "blue": 1028,
-        "red": 217,
-        "purple": 311,
+        "blue": 1030,
+        "red": 219,
+        "purple": 313,
         "yellow": 32,
         "orange": 8,
         "khaki": 2,
         "print": 14
       },
-      "colorCoverage": 88,
+      "colorCoverage": 88.1,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 1761
+      "uniqueStyles": 1765
     },
     "on_running": {
       "name": "On Running",
@@ -422,23 +422,183 @@
     }
   },
   "totals": {
-    "products": 26234,
+    "products": 26258,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-03-10",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 2,
+      "products": [
+        {
+          "name": "v1 tab sock",
+          "url": "https://vuoriclothing.com/products/v1-tab-sock-heather-grey",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "vuori allthefeels tank sea spray",
+          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-tank-sea-spray",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 16,
+      "products": [
+        {
+          "name": "gymshark trainer socks 3pk white black core marl",
+          "url": "https://www.gymshark.com/products/gymshark-trainer-socks-3pk-white-black-light-grey-core-marl-ss23",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training oversized fleece sweatshirt ash",
+          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-sweatshirt-ash-blue-aw23",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-green-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark trainer socks 3pk white black core marl",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-trainer-socks-3pk-white-black-light-grey-core-marl-ss23",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training oversized fleece sweatshirt ash",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-oversized-fleece-sweatshirt-ash-blue-aw23",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-green-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark doberman graphic t shirt",
+          "url": "https://www.gymshark.com/products/gymshark-doberman-graphic-t-shirt-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark for the lifters t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-for-the-lifters-t-shirt-ss-tops-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark pumper pants pants aw25",
+          "url": "https://www.gymshark.com/products/gymshark-pumper-pants-pants-purple-aw25-1",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark doberman graphic t shirt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-doberman-graphic-t-shirt-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark for the lifters t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-for-the-lifters-t-shirt-ss-tops-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark pumper pants pants aw25",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-pumper-pants-pants-purple-aw25-1",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark washed cap headwear",
+          "url": "https://www.gymshark.com/products/gymshark-washed-cap-headwear-pink-ss25",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark weight plate oversized tote oat white carmine",
+          "url": "https://www.gymshark.com/products/gymshark-weight-plate-oversized-tote-oat-white-carmine-red-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark washed cap headwear",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-washed-cap-headwear-pink-ss25",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark weight plate oversized tote oat white carmine",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-weight-plate-oversized-tote-oat-white-carmine-red-ss25",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
       "date": "2026-03-09",
       "brand": "Alo Yoga",
       "brandSlug": "alo",
-      "count": 1,
+      "count": 7,
       "products": [
         {
           "name": "a0499u notable beanie celestial",
           "url": "https://www.aloyoga.com/products/a0499u-notable-beanie-celestial-blue",
           "category": "accessories",
           "gender": "unisex"
+        },
+        {
+          "name": "w51433r low rise megastar cargo pant vintage",
+          "url": "https://www.aloyoga.com/products/w51433r-low-rise-megastar-cargo-pant-vintage-pink",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "w8356r airbrush sparks fly corset tennis dress",
+          "url": "https://www.aloyoga.com/products/w8356r-airbrush-sparks-fly-corset-tennis-dress-black",
+          "category": "dresses",
+          "gender": "womens"
+        },
+        {
+          "name": "w8356r airbrush sparks fly corset tennis dress",
+          "url": "https://www.aloyoga.com/products/w8356r-airbrush-sparks-fly-corset-tennis-dress-white",
+          "category": "dresses",
+          "gender": "womens"
+        },
+        {
+          "name": "w8356r airbrush sparks fly corset tennis dress vintage",
+          "url": "https://www.aloyoga.com/products/w8356r-airbrush-sparks-fly-corset-tennis-dress-vintage-pink",
+          "category": "dresses",
+          "gender": "womens"
+        },
+        {
+          "name": "w9943r airbrush sparks fly corset tank",
+          "url": "https://www.aloyoga.com/products/w9943r-airbrush-sparks-fly-corset-tank-white",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "w9943r airbrush sparks fly corset tank vintage",
+          "url": "https://www.aloyoga.com/products/w9943r-airbrush-sparks-fly-corset-tank-vintage-pink",
+          "category": "tops",
+          "gender": "womens"
         }
       ]
     },
@@ -6241,966 +6401,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-02-24",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 234,
-      "products": [
-        {
-          "name": "tuvalu tee misty",
-          "url": "https://vuoriclothing.com/products/tuvalu-tee-misty-blue",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech v neck tee",
-          "url": "https://vuoriclothing.com/products/strato-tech-v-neck-tee-dark-oregano-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato muscle tee",
-          "url": "https://vuoriclothing.com/products/strato-muscle-tee-white",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve knit oxford camp collar button down ocean",
-          "url": "https://vuoriclothing.com/products/short-sleeve-knit-oxford-camp-collar-button-down-ocean-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve knit oxford camp collar button down truffle",
-          "url": "https://vuoriclothing.com/products/short-sleeve-knit-oxford-camp-collar-button-down-truffle",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve knit oxford camp collar button down",
-          "url": "https://vuoriclothing.com/products/short-sleeve-knit-oxford-camp-collar-button-down-white",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve gamepoint tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-gamepoint-tee-relaxed-fit-ink",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve gamepoint tee relaxed fit moonstone",
-          "url": "https://vuoriclothing.com/products/short-sleeve-gamepoint-tee-relaxed-fit-moonstone",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve gamepoint tee relaxed fit court",
-          "url": "https://vuoriclothing.com/products/short-sleeve-gamepoint-tee-relaxed-fit-court-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve gamepoint tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-gamepoint-tee-relaxed-fit-white",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve gamepoint polo 2 0 court",
-          "url": "https://vuoriclothing.com/products/short-sleeve-gamepoint-polo-2-0-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto button down shirt",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-button-down-shirt-azure-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto button down shirt",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-button-down-shirt-charcoal-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto button down shirt truffle",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-button-down-shirt-truffle-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto button down shirt",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-button-down-shirt-abyss-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto button down shirt",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-button-down-shirt-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve viewpoint performance tee 2 0 storm",
-          "url": "https://vuoriclothing.com/products/short-sleeve-viewpoint-performance-tee-2-0-storm-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve viewpoint performance polo 2 0 storm",
-          "url": "https://vuoriclothing.com/products/short-sleeve-viewpoint-performance-polo-2-0-storm-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve viewpoint performance polo 2 0 court",
-          "url": "https://vuoriclothing.com/products/short-sleeve-viewpoint-performance-polo-2-0-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sleeveless viewpoint muscle tank 2 0 court",
-          "url": "https://vuoriclothing.com/products/sleeveless-viewpoint-muscle-tank-2-0-court-blue",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve strato tech tee relaxed fit court",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-tech-tee-relaxed-fit-court-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech tee storm",
-          "url": "https://vuoriclothing.com/products/strato-tech-tee-storm-blue-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech tee court",
-          "url": "https://vuoriclothing.com/products/strato-tech-tee-court-blue-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "ace polo rock",
-          "url": "https://vuoriclothing.com/products/ace-polo-slate-rock",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech polo storm",
-          "url": "https://vuoriclothing.com/products/strato-tech-polo-storm-blue-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech polo court",
-          "url": "https://vuoriclothing.com/products/strato-tech-polo-court-blue-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech polo timber",
-          "url": "https://vuoriclothing.com/products/strato-tech-polo-timber-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle pullover hoodie",
-          "url": "https://vuoriclothing.com/products/tech-waffle-pullover-hoodie-ink",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle pullover hoodie sea",
-          "url": "https://vuoriclothing.com/products/tech-waffle-pullover-hoodie-sea-fog",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle pullover hoodie",
-          "url": "https://vuoriclothing.com/products/tech-waffle-pullover-hoodie-white",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "pique fleece crew mist",
-          "url": "https://vuoriclothing.com/products/pique-fleece-crew-grey-mist",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece crew ocean",
-          "url": "https://vuoriclothing.com/products/pique-fleece-crew-ocean-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ponto full zip hoodie",
-          "url": "https://vuoriclothing.com/products/ponto-full-zip-hoodie-azure-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto full zip hoodie truffle",
-          "url": "https://vuoriclothing.com/products/ponto-full-zip-hoodie-truffle-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto full zip hoodie sable",
-          "url": "https://vuoriclothing.com/products/ponto-full-zip-hoodie-sable-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "pique fleece track jacket mist",
-          "url": "https://vuoriclothing.com/products/pique-fleece-track-jacket-grey-mist",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece track jacket ocean",
-          "url": "https://vuoriclothing.com/products/pique-fleece-track-jacket-ocean-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday element jacket",
-          "url": "https://vuoriclothing.com/products/sunday-element-jacket-limestone-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday element track jacket",
-          "url": "https://vuoriclothing.com/products/sunday-element-track-jacket-white",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle crew",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-ink",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle crew seed",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-seed",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle crew sea",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-sea-fog",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle crew court",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-court-blue",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance short 8",
-          "url": "https://vuoriclothing.com/products/sunday-performance-short-8-limestone-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance short 8",
-          "url": "https://vuoriclothing.com/products/sunday-performance-short-8-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 7 storm color block",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-storm-blue-color-block",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 7 court",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 5 storm blue",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-5-storm-blue-colorblock",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 5 court",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-5-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 7 seed texture",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-7-seed-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 7 washed brick texture",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-7-washed-brick-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "hardkore short lined 7 court",
-          "url": "https://vuoriclothing.com/products/hardkore-short-lined-7-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "hardkore short lined 5 court",
-          "url": "https://vuoriclothing.com/products/hardkore-short-lined-5-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "maverick volley short lined agate",
-          "url": "https://vuoriclothing.com/products/maverick-volley-short-lined-agate-green",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "maverick volley short lined raindrop sol",
-          "url": "https://vuoriclothing.com/products/maverick-volley-short-lined-raindrop-sol",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "crosscourt short unlined 7 moonstone",
-          "url": "https://vuoriclothing.com/products/crosscourt-short-unlined-7-moonstone",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "crosscourt short unlined 7 court",
-          "url": "https://vuoriclothing.com/products/crosscourt-short-unlined-7-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "crosscourt short unlined 5 court",
-          "url": "https://vuoriclothing.com/products/crosscourt-short-unlined-5-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 7 sea mirage",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-7-blue-sea-mirage",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 7 frost fleur",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-7-frost-grey-fleur",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 7 misty palm shadow",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-7-misty-blue-palm-shadow",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 7 vintage palm shadow",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-7-vintage-red-palm-shadow",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "banks short 7 agate mirage",
-          "url": "https://vuoriclothing.com/products/banks-short-7-agate-green-mirage",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 5 court",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-5-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 7 storm blue",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-7-storm-blue-colorblock",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 7 court",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-7-court-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore jogger unlined 28 storm",
-          "url": "https://vuoriclothing.com/products/kore-jogger-unlined-28-storm-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore jogger unlined 28",
-          "url": "https://vuoriclothing.com/products/kore-jogger-unlined-28-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant classic fit 32 sea",
-          "url": "https://vuoriclothing.com/products/meta-pant-classic-fit-32-blue-sea",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant classic fit 30 sea",
-          "url": "https://vuoriclothing.com/products/meta-pant-classic-fit-30-blue-sea",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "benton stretch twill pant athletic slim fit 32 peppercorn",
-          "url": "https://vuoriclothing.com/products/benton-stretch-twill-pant-athletic-slim-fit-32-peppercorn",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "benton stretch twill pant athletic slim fit 30 peppercorn",
-          "url": "https://vuoriclothing.com/products/benton-stretch-twill-pant-athletic-slim-fit-30-peppercorn",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "seaside straight leg sweatpant 30 river rock",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-30-river-rock",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday performance track pant 30",
-          "url": "https://vuoriclothing.com/products/sunday-performance-track-pant-30-limestone-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "metacotton pant classic fit 32 sea",
-          "url": "https://vuoriclothing.com/products/metacotton-pant-classic-fit-32-blue-sea",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "metacotton pant classic fit 32 boulder",
-          "url": "https://vuoriclothing.com/products/metacotton-pant-classic-fit-32-boulder",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "metacotton pant classic fit 32 trench",
-          "url": "https://vuoriclothing.com/products/metacotton-pant-classic-fit-32-trench",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday performance jogger 28",
-          "url": "https://vuoriclothing.com/products/sunday-performance-jogger-28-limestone-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant athletic slim fit 32 sea",
-          "url": "https://vuoriclothing.com/products/meta-pant-athletic-slim-fit-32-blue-sea",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant athletic slim fit 30 sea",
-          "url": "https://vuoriclothing.com/products/meta-pant-athletic-slim-fit-30-blue-sea",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori wordmark water tech hat",
-          "url": "https://vuoriclothing.com/products/vuori-wordmark-water-tech-hat-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori wordmark water tech hat",
-          "url": "https://vuoriclothing.com/products/vuori-wordmark-water-tech-hat-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "inspire happiness dad hat cerise",
-          "url": "https://vuoriclothing.com/products/inspire-happiness-dad-hat-cerise",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "inspire happiness dad hat",
-          "url": "https://vuoriclothing.com/products/inspire-happiness-dad-hat-soft-pewter",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "quarter crew v1 sock 2 0 cerise",
-          "url": "https://vuoriclothing.com/products/quarter-crew-v1-sock-2-0-cerise",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "energy tee cerise",
-          "url": "https://vuoriclothing.com/products/womens-energy-tee-cerise",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels bra cerise",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-bra-cerise",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels bra regatta",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-bra-regatta-blue",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "trestles twill button up",
-          "url": "https://vuoriclothing.com/products/womens-trestles-twill-button-up-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "halo performance crop tank 2 0 regatta",
-          "url": "https://vuoriclothing.com/products/womens-halo-performance-crop-tank-2-0-regatta-blue-heather",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "daily piped bra cerise",
-          "url": "https://vuoriclothing.com/products/womens-daily-piped-bra-cerise",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "daily piped bra regatta",
-          "url": "https://vuoriclothing.com/products/womens-daily-piped-bra-regatta-blue",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "seamless euphoric tank",
-          "url": "https://vuoriclothing.com/products/womens-seamless-euphoric-tank-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "seamless euphoric tank",
-          "url": "https://vuoriclothing.com/products/womens-seamless-euphoric-tank-white",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "pose cooper tank vintage",
-          "url": "https://vuoriclothing.com/products/womens-pose-cooper-tank-vintage-rose",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "energy tee long cerise",
-          "url": "https://vuoriclothing.com/products/womens-energy-tee-long-cerise",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels support tank 2 0 regatta",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-support-tank-2-0-regatta-blue",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels cami cerise",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-cami-cerise",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "westerlies ruched top",
-          "url": "https://vuoriclothing.com/products/womens-westerlies-ruched-top-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "westerlies ruched top",
-          "url": "https://vuoriclothing.com/products/womens-westerlies-ruched-top-white",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-24",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 37,
-      "products": [
-        {
-          "name": "gymshark shaker bottle",
-          "url": "https://www.gymshark.com/products/gymshark-shaker-bottle-black-aw21",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate raglan 3 4 sleeve t shirt ls tops ss25",
-          "url": "https://www.gymshark.com/products/gymshark-collegiate-raglan-3-4-sleeve-t-shirt-ls-tops-grey-ss25-1",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark mesh tank heavy",
-          "url": "https://www.gymshark.com/products/gymshark-mesh-tank-heavy-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark retro skort shorts",
-          "url": "https://www.gymshark.com/products/gymshark-retro-skort-shorts-green-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark tactical shell 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-tactical-shell-1-4-zip-pullovers-brown-aw25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shaker bottle",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shaker-bottle-black-aw21",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate raglan 3 4 sleeve t shirt ls tops ss25",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-raglan-3-4-sleeve-t-shirt-ls-tops-grey-ss25-1",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark diffuse single layer sweat headband",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-diffuse-single-layer-sweat-headband-white-aw24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark mesh tank heavy",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-mesh-tank-heavy-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark retro skort shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-skort-shorts-green-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark tactical shell 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-tactical-shell-1-4-zip-pullovers-brown-aw25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark woven tab quarter socks 3pk light pink sand beige fog",
-          "url": "https://www.gymshark.com/products/gymshark-woven-tab-quarter-socks-3pk-light-pink-sand-beige-fog-purple-ss24",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday racer back tank with shelf",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-racer-back-tank-with-shelf-black-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark ponytail cap dune",
-          "url": "https://www.gymshark.com/products/gymshark-ponytail-cap-dune-brown-ss24",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting pocket leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-pocket-leggings-leggings-brown-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt x whitney animal seamless twist front bra barbell gentle",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-x-whitney-animal-seamless-twist-front-bra-barbell-blue-gentle-blue-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark vital frill scrunchie headwear",
-          "url": "https://www.gymshark.com/products/gymshark-vital-frill-scrunchie-headwear-black-aw25",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark woven tab quarter socks 3pk light pink sand beige fog",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-woven-tab-quarter-socks-3pk-light-pink-sand-beige-fog-purple-ss24",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday racer back tank with shelf",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-racer-back-tank-with-shelf-black-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark ponytail cap dune",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-ponytail-cap-dune-brown-ss24",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting pocket leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-pocket-leggings-leggings-brown-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt x whitney animal seamless twist front bra barbell gentle",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-x-whitney-animal-seamless-twist-front-bra-barbell-blue-gentle-blue-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark vital frill scrunchie headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-frill-scrunchie-headwear-black-aw25",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal seamless leggings court",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-seamless-leggings-court-blue-ss22",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt camo seamless leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-camo-seamless-leggings-green-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark retro crinkle track jacket",
-          "url": "https://www.gymshark.com/products/gymshark-retro-crinkle-track-jacket-black-ss25",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark legacy logo tank",
-          "url": "https://www.gymshark.com/products/gymshark-legacy-logo-tank-black-ss25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gymshark x analis mesh ss top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gymshark-x-analis-mesh-ss-top-ss-tops-black-aw25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-t-shirt-ss-tops-pink-aw25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark crew socks 3pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-crew-socks-3pk-socks-grey-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal seamless leggings court",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-seamless-leggings-court-blue-ss22",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt camo seamless leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-camo-seamless-leggings-green-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark retro crinkle track jacket",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-crinkle-track-jacket-black-ss25",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark legacy logo tank",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-legacy-logo-tank-black-ss25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gymshark x analis mesh ss top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gymshark-x-analis-mesh-ss-top-ss-tops-black-aw25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-t-shirt-ss-tops-pink-aw25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark crew socks 3pk socks",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crew-socks-3pk-socks-grey-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-24",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 19,
-      "products": [
-        {
-          "name": "w6417r low key sweat short",
-          "url": "https://www.aloyoga.com/products/w6417r-low-key-sweat-short-oatmeal-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "a0357u unisex throwback sock athletic heather grey",
-          "url": "https://www.aloyoga.com/products/a0357u-unisex-throwback-sock-athletic-heather-grey-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "w51220r airlift winter warm high waist legging tree",
-          "url": "https://www.aloyoga.com/products/w51220r-airlift-winter-warm-high-waist-legging-olive-tree",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w4574r night out cargo jacket",
-          "url": "https://www.aloyoga.com/products/w4574r-night-out-cargo-jacket-gravel",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "m1205r conquer reform crewneck short sleeve italian",
-          "url": "https://www.aloyoga.com/products/m1205r-conquer-reform-crewneck-short-sleeve-italian-plum",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m1243r sports club sweater knit polo",
-          "url": "https://www.aloyoga.com/products/m1243r-sports-club-sweater-knit-polo-espresso",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "a0225u love knots tie scrunchie warm",
-          "url": "https://www.aloyoga.com/products/a0225u-love-knots-tie-scrunchie-warm-butter",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "w6240r match point tennis skirt crystal clear",
-          "url": "https://www.aloyoga.com/products/w6240r-match-point-tennis-skirt-crystal-clear-blue",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "a0480u unisex half crew throwback sock macadamia",
-          "url": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-white-macadamia",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "w9425r icon cami bra",
-          "url": "https://www.aloyoga.com/products/w9425r-icon-cami-bra-white",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w9351rg splendor bra lemon ice",
-          "url": "https://www.aloyoga.com/products/w9351rg-splendor-bra-lemon-ice-white",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w51154r airlift high waist 7 8 line up legging eclipse",
-          "url": "https://www.aloyoga.com/products/w51154r-airlift-high-waist-7-8-line-up-legging-eclipse-blue",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "a0290u fresh mini scrunchie 3 pack crystal clear blue white",
-          "url": "https://www.aloyoga.com/products/a0290u-fresh-mini-scrunchie-3-pack-crystal-clear-blue-white-navy",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "a0480u unisex half crew throwback sock white crystal clear",
-          "url": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-white-crystal-clear-blue",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "a0660w womens lettuce edge sock quartz",
-          "url": "https://www.aloyoga.com/products/a0660w-womens-lettuce-edge-sock-pink-quartz",
-          "category": "accessories",
-          "gender": "womens"
-        },
-        {
-          "name": "w3694r alosoft 1 2 zip rapid pullover",
-          "url": "https://www.aloyoga.com/products/w3694r-alosoft-1-2-zip-rapid-pullover-mushroom",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "w3903r ribbed modal long sleeve smoky quartz",
-          "url": "https://www.aloyoga.com/products/w3903r-ribbed-modal-long-sleeve-smoky-quartz",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "a0467u district trucker hat seashell",
-          "url": "https://www.aloyoga.com/products/a0467u-district-trucker-hat-seashell-blue",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "a0480u unisex half crew throwback sock neon bubblegum",
-          "url": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-white-neon-bubblegum",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7237,7 +6437,8 @@
       "2026-03-05": 7,
       "2026-03-06": 2,
       "2026-03-07": 3,
-      "2026-03-08": 5
+      "2026-03-08": 5,
+      "2026-03-10": 2
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -7290,7 +6491,7 @@
       "2026-03-05": 5,
       "2026-03-06": 2,
       "2026-03-07": 5,
-      "2026-03-09": 1
+      "2026-03-09": 7
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -7318,7 +6519,8 @@
       "2026-03-03": 94,
       "2026-03-04": 83,
       "2026-03-05": 52,
-      "2026-03-06": 10
+      "2026-03-06": 10,
+      "2026-03-09": 16
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7332,17 +6534,17 @@
       "outdoor_voices": 175,
       "tenthousand": 39,
       "lululemon": 849,
-      "alo": 1580,
-      "gymshark": 2376,
+      "alo": 1581,
+      "gymshark": 2380,
       "on_running": 1554
     },
     "tops": {
-      "vuori": 514,
+      "vuori": 515,
       "outdoor_voices": 38,
       "tenthousand": 24,
       "lululemon": 374,
-      "alo": 484,
-      "gymshark": 2085,
+      "alo": 486,
+      "gymshark": 2091,
       "on_running": 614
     },
     "outerwear": {
@@ -7360,7 +6562,7 @@
       "tenthousand": 9,
       "lululemon": 435,
       "alo": 721,
-      "gymshark": 452,
+      "gymshark": 454,
       "on_running": 2708
     },
     "sports_bras": {
@@ -7378,19 +6580,19 @@
       "on_running": 2767
     },
     "accessories": {
-      "vuori": 147,
+      "vuori": 148,
       "outdoor_voices": 32,
       "tenthousand": 2,
       "lululemon": 315,
       "alo": 382,
-      "gymshark": 410,
+      "gymshark": 414,
       "on_running": 667
     },
     "dresses": {
       "vuori": 32,
       "outdoor_voices": 17,
       "lululemon": 35,
-      "alo": 100,
+      "alo": 103,
       "gymshark": 4,
       "on_running": 23
     }
@@ -7414,11 +6616,11 @@
       "on_running": 677
     },
     "tanks": {
-      "vuori": 139,
+      "vuori": 140,
       "outdoor_voices": 15,
       "tenthousand": 3,
       "lululemon": 126,
-      "alo": 219,
+      "alo": 221,
       "gymshark": 560,
       "on_running": 283
     },
@@ -7445,7 +6647,7 @@
       "tenthousand": 23,
       "lululemon": 746,
       "alo": 1463,
-      "gymshark": 2105,
+      "gymshark": 2113,
       "on_running": 3051
     },
     "pants": {
@@ -7453,8 +6655,8 @@
       "outdoor_voices": 39,
       "tenthousand": 10,
       "lululemon": 206,
-      "alo": 235,
-      "gymshark": 237,
+      "alo": 236,
+      "gymshark": 239,
       "on_running": 387
     },
     "pullovers": {
@@ -7490,7 +6692,7 @@
       "tenthousand": 4,
       "lululemon": 79,
       "alo": 27,
-      "gymshark": 381,
+      "gymshark": 383,
       "on_running": 18
     },
     "hoodies": {
@@ -7507,7 +6709,7 @@
       "outdoor_voices": 12,
       "lululemon": 65,
       "alo": 137,
-      "gymshark": 72,
+      "gymshark": 74,
       "on_running": 214
     },
     "skirts": {
@@ -7544,7 +6746,7 @@
       "vuori": 7,
       "outdoor_voices": 8,
       "lululemon": 5,
-      "alo": 24
+      "alo": 27
     },
     "casual_dress": {
       "vuori": 14,
@@ -7568,12 +6770,12 @@
       "gymshark": 58
     },
     "socks": {
-      "vuori": 59,
+      "vuori": 60,
       "outdoor_voices": 18,
       "tenthousand": 1,
       "lululemon": 77,
       "alo": 164,
-      "gymshark": 172,
+      "gymshark": 174,
       "on_running": 417
     },
     "headwear": {
@@ -7627,10 +6829,10 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 473,
+      "vuori": 474,
       "outdoor_voices": 24,
       "alo": 464,
-      "gymshark": 798,
+      "gymshark": 800,
       "on_running": 317
     },
     "navy": {
@@ -7643,8 +6845,8 @@
     "black": {
       "vuori": 652,
       "outdoor_voices": 56,
-      "alo": 941,
-      "gymshark": 1623,
+      "alo": 942,
+      "gymshark": 1627,
       "on_running": 1492
     },
     "khaki": {
@@ -7657,13 +6859,13 @@
     "red": {
       "vuori": 22,
       "alo": 190,
-      "gymshark": 217,
+      "gymshark": 219,
       "on_running": 218
     },
     "white": {
       "vuori": 317,
       "outdoor_voices": 17,
-      "alo": 797,
+      "alo": 799,
       "gymshark": 482,
       "on_running": 1444
     },
@@ -7671,14 +6873,14 @@
       "vuori": 410,
       "outdoor_voices": 18,
       "alo": 173,
-      "gymshark": 1028,
+      "gymshark": 1030,
       "on_running": 780
     },
     "green": {
       "vuori": 182,
       "outdoor_voices": 31,
       "alo": 262,
-      "gymshark": 336,
+      "gymshark": 338,
       "on_running": 274
     },
     "brown": {
@@ -7702,7 +6904,7 @@
       "vuori": 96,
       "outdoor_voices": 7,
       "alo": 38,
-      "gymshark": 311,
+      "gymshark": 313,
       "on_running": 181
     },
     "orange": {
@@ -7722,8 +6924,8 @@
     "pink": {
       "vuori": 38,
       "outdoor_voices": 4,
-      "alo": 214,
-      "gymshark": 386,
+      "alo": 217,
+      "gymshark": 388,
       "on_running": 184
     },
     "multi": {
@@ -7756,25 +6958,25 @@
       "brand": "Gymshark",
       "bottoms": 36.1,
       "tops": 31.7,
-      "outerwear": 11.2,
+      "outerwear": 11.1,
       "dresses": 0.1,
       "sports_bras": 7.8,
-      "accessories": 6.2,
+      "accessories": 6.3,
       "other": 6.9
     },
     {
       "brand": "Alo Yoga",
       "bottoms": 37.6,
-      "tops": 11.5,
+      "tops": 11.6,
       "outerwear": 14.4,
-      "dresses": 2.4,
+      "dresses": 2.5,
       "sports_bras": 6.7,
       "accessories": 9.1,
       "other": 17.2
     },
     {
       "brand": "Vuori",
-      "bottoms": 46.7,
+      "bottoms": 46.6,
       "tops": 15.7,
       "outerwear": 14.4,
       "dresses": 1,
@@ -7852,14 +7054,14 @@
       "brand": "Alo Yoga",
       "black": 22.4,
       "white": 19,
-      "gray": 11.1,
+      "gray": 11,
       "navy": 4,
       "blue": 4.1,
       "green": 6.2,
       "khaki": 2.3,
       "brown": 6.5,
       "purple": 0.9,
-      "pink": 5.1,
+      "pink": 5.2,
       "orange": 0,
       "red": 4.5,
       "yellow": 0.9,
@@ -7982,7 +7184,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 22,961 competitor products tracked. Vuori's 3,273 = 12% share of tracked catalog."
+      "text": "Market context: 22,983 competitor products tracked. Vuori's 3,275 = 12% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8062,7 +7264,7 @@
       },
       {
         "category": "Tanks",
-        "vuori": 139,
+        "vuori": 140,
         "competitor": 126,
         "winner": "vuori"
       },
@@ -8080,7 +7282,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1458,
+        "vuori": 1459,
         "competitor": 1016,
         "winner": "vuori"
       }
@@ -8112,8 +7314,8 @@
       },
       {
         "category": "Tanks",
-        "vuori": 139,
-        "competitor": 219,
+        "vuori": 140,
+        "competitor": 221,
         "winner": "competitor"
       },
       {
@@ -8130,11 +7332,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1458,
-        "competitor": 2227,
+        "vuori": 1459,
+        "competitor": 2232,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-03-09T13:15:15.860Z"
+  "generated_at": "2026-03-10T13:15:16.146Z"
 }
