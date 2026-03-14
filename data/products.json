@@ -222,21 +222,21 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4257,
+      "total": 4261,
       "categories": {
-        "other": 728,
+        "other": 730,
         "bottoms": 1609,
-        "tops": 492,
+        "tops": 493,
         "sports_bras": 284,
         "accessories": 382,
         "outerwear": 611,
         "footwear": 43,
-        "dresses": 108
+        "dresses": 109
       },
       "subcategories": {
-        "other": 1481,
+        "other": 1483,
         "leggings": 320,
-        "tanks": 224,
+        "tanks": 225,
         "shorts": 372,
         "hats": 137,
         "sweatpants": 200,
@@ -253,7 +253,7 @@
         "bralette": 9,
         "polos": 14,
         "crop_tops": 170,
-        "casual_dress": 52,
+        "casual_dress": 53,
         "tennis_dress": 28,
         "headwear": 49,
         "vests": 15,
@@ -262,13 +262,13 @@
         "high_support": 2
       },
       "genders": {
-        "unisex": 1053,
-        "womens": 2257,
-        "mens": 947
+        "unisex": 1054,
+        "womens": 2259,
+        "mens": 948
       },
       "colors": {
         "navy": 172,
-        "black": 945,
+        "black": 949,
         "white": 813,
         "gray": 465,
         "khaki": 96,
@@ -286,7 +286,7 @@
       },
       "colorCoverage": 88,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2679
+      "uniqueStyles": 2683
     },
     "gymshark": {
       "name": "Gymshark",
@@ -422,12 +422,44 @@
     }
   },
   "totals": {
-    "products": 26443,
+    "products": 26447,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-03-13",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 4,
+      "products": [
+        {
+          "name": "u4027r recovery mode puffer",
+          "url": "https://www.aloyoga.com/products/u4027r-recovery-mode-puffer-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "w2750r standout cropped tank",
+          "url": "https://www.aloyoga.com/products/w2750r-standout-cropped-tank-black",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "u4027r recovery mode puffer mens",
+          "url": "https://www.aloyoga.com/products/u4027r-recovery-mode-puffer-black-mens",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "w8262r asymmetric soleil dress",
+          "url": "https://www.aloyoga.com/products/w8262r-asymmetric-soleil-dress-black",
+          "category": "dresses",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-03-13",
       "brand": "Vuori",
@@ -6027,7 +6059,8 @@
       "2026-03-09": 7,
       "2026-03-10": 24,
       "2026-03-11": 26,
-      "2026-03-12": 3
+      "2026-03-12": 3,
+      "2026-03-13": 4
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6081,7 +6114,7 @@
       "outdoor_voices": 46,
       "tenthousand": 26,
       "lululemon": 378,
-      "alo": 492,
+      "alo": 493,
       "gymshark": 2095,
       "on_running": 614
     },
@@ -6099,7 +6132,7 @@
       "outdoor_voices": 42,
       "tenthousand": 9,
       "lululemon": 485,
-      "alo": 728,
+      "alo": 730,
       "gymshark": 456,
       "on_running": 2708
     },
@@ -6130,7 +6163,7 @@
       "vuori": 32,
       "outdoor_voices": 20,
       "lululemon": 37,
-      "alo": 108,
+      "alo": 109,
       "gymshark": 4,
       "on_running": 23
     }
@@ -6158,7 +6191,7 @@
       "outdoor_voices": 19,
       "tenthousand": 3,
       "lululemon": 126,
-      "alo": 224,
+      "alo": 225,
       "gymshark": 562,
       "on_running": 283
     },
@@ -6184,7 +6217,7 @@
       "outdoor_voices": 128,
       "tenthousand": 24,
       "lululemon": 798,
-      "alo": 1481,
+      "alo": 1483,
       "gymshark": 2124,
       "on_running": 3051
     },
@@ -6290,7 +6323,7 @@
       "vuori": 14,
       "outdoor_voices": 9,
       "lululemon": 25,
-      "alo": 52,
+      "alo": 53,
       "gymshark": 4,
       "on_running": 23
     },
@@ -6383,7 +6416,7 @@
     "black": {
       "vuori": 656,
       "outdoor_voices": 59,
-      "alo": 945,
+      "alo": 949,
       "gymshark": 1633,
       "on_running": 1492
     },
@@ -6506,8 +6539,8 @@
       "brand": "Alo Yoga",
       "bottoms": 37.8,
       "tops": 11.6,
-      "outerwear": 14.4,
-      "dresses": 2.5,
+      "outerwear": 14.3,
+      "dresses": 2.6,
       "sports_bras": 6.7,
       "accessories": 9,
       "other": 17.1
@@ -6590,12 +6623,12 @@
     },
     {
       "brand": "Alo Yoga",
-      "black": 22.2,
+      "black": 22.3,
       "white": 19.1,
       "gray": 10.9,
       "navy": 4,
       "blue": 4.2,
-      "green": 6.6,
+      "green": 6.5,
       "khaki": 2.3,
       "brown": 6.5,
       "purple": 0.9,
@@ -6722,7 +6755,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 23,151 competitor products tracked. Vuori's 3,292 = 12% share of tracked catalog."
+      "text": "Market context: 23,155 competitor products tracked. Vuori's 3,292 = 12% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6853,7 +6886,7 @@
       {
         "category": "Tanks",
         "vuori": 140,
-        "competitor": 224,
+        "competitor": 225,
         "winner": "competitor"
       },
       {
@@ -6865,16 +6898,16 @@
       {
         "category": "Men's Products",
         "vuori": 1256,
-        "competitor": 947,
+        "competitor": 948,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
         "vuori": 1466,
-        "competitor": 2257,
+        "competitor": 2259,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-03-13T13:15:16.237Z"
+  "generated_at": "2026-03-14T13:15:18.367Z"
 }
