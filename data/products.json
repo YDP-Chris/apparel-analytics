@@ -291,12 +291,12 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 6609,
+      "total": 6615,
       "categories": {
         "bottoms": 2386,
-        "tops": 2095,
-        "other": 456,
-        "accessories": 416,
+        "tops": 2097,
+        "other": 458,
+        "accessories": 418,
         "outerwear": 736,
         "sports_bras": 516,
         "dresses": 4
@@ -305,10 +305,10 @@
         "shorts": 963,
         "leggings": 535,
         "crop_tops": 139,
-        "other": 2124,
+        "other": 2126,
         "long_sleeve": 383,
-        "socks": 174,
-        "tanks": 562,
+        "socks": 176,
+        "tanks": 564,
         "joggers": 458,
         "hoodies": 430,
         "jackets": 150,
@@ -329,17 +329,17 @@
         "medium_support": 6
       },
       "genders": {
-        "unisex": 2990,
-        "womens": 2187,
+        "unisex": 2994,
+        "womens": 2189,
         "mens": 1432
       },
       "colors": {
         "green": 343,
-        "pink": 388,
+        "pink": 392,
         "black": 1633,
         "white": 482,
         "navy": 60,
-        "gray": 801,
+        "gray": 803,
         "brown": 492,
         "blue": 1030,
         "red": 219,
@@ -349,9 +349,9 @@
         "khaki": 2,
         "print": 14
       },
-      "colorCoverage": 88,
+      "colorCoverage": 88.1,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 1772
+      "uniqueStyles": 1775
     },
     "on_running": {
       "name": "On Running",
@@ -422,12 +422,56 @@
     }
   },
   "totals": {
-    "products": 26454,
+    "products": 26460,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-03-15",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 6,
+      "products": [
+        {
+          "name": "gymshark legacy drop arm tank core marl",
+          "url": "https://www.gymshark.com/products/gymshark-legacy-drop-arm-tank-light-grey-core-marl-ss22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark small everyday holdall scandi",
+          "url": "https://www.gymshark.com/products/gymshark-small-everyday-holdall-scandi-pink-ss23",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark frill midi sock 3pk white sour active purple winning",
+          "url": "https://www.gymshark.com/products/gymshark-frill-midi-sock-3pk-white-sour-pink-active-purple-winning-pink-ss25",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark legacy drop arm tank core marl",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-legacy-drop-arm-tank-light-grey-core-marl-ss22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark small everyday holdall scandi",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-small-everyday-holdall-scandi-pink-ss23",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark frill midi sock 3pk white sour active purple winning",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-frill-midi-sock-3pk-white-sour-pink-active-purple-winning-pink-ss25",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-03-15",
       "brand": "Vuori",
@@ -5278,7 +5322,8 @@
       "2026-03-06": 10,
       "2026-03-09": 16,
       "2026-03-10": 10,
-      "2026-03-12": 8
+      "2026-03-12": 8,
+      "2026-03-15": 6
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5302,7 +5347,7 @@
       "tenthousand": 26,
       "lululemon": 378,
       "alo": 493,
-      "gymshark": 2095,
+      "gymshark": 2097,
       "on_running": 614
     },
     "outerwear": {
@@ -5320,7 +5365,7 @@
       "tenthousand": 9,
       "lululemon": 489,
       "alo": 730,
-      "gymshark": 456,
+      "gymshark": 458,
       "on_running": 2708
     },
     "sports_bras": {
@@ -5343,7 +5388,7 @@
       "tenthousand": 2,
       "lululemon": 315,
       "alo": 382,
-      "gymshark": 416,
+      "gymshark": 418,
       "on_running": 667
     },
     "dresses": {
@@ -5379,7 +5424,7 @@
       "tenthousand": 3,
       "lululemon": 126,
       "alo": 225,
-      "gymshark": 562,
+      "gymshark": 564,
       "on_running": 283
     },
     "tees": {
@@ -5405,7 +5450,7 @@
       "tenthousand": 24,
       "lululemon": 802,
       "alo": 1483,
-      "gymshark": 2124,
+      "gymshark": 2126,
       "on_running": 3051
     },
     "pants": {
@@ -5533,7 +5578,7 @@
       "tenthousand": 1,
       "lululemon": 77,
       "alo": 164,
-      "gymshark": 174,
+      "gymshark": 176,
       "on_running": 417
     },
     "headwear": {
@@ -5590,7 +5635,7 @@
       "vuori": 475,
       "outdoor_voices": 26,
       "alo": 465,
-      "gymshark": 801,
+      "gymshark": 803,
       "on_running": 317
     },
     "navy": {
@@ -5683,7 +5728,7 @@
       "vuori": 39,
       "outdoor_voices": 7,
       "alo": 220,
-      "gymshark": 388,
+      "gymshark": 392,
       "on_running": 184
     },
     "multi": {
@@ -5942,7 +5987,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 23,159 competitor products tracked. Vuori's 3,295 = 12% share of tracked catalog."
+      "text": "Market context: 23,165 competitor products tracked. Vuori's 3,295 = 12% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6096,5 +6141,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-15T13:15:19.710Z"
+  "generated_at": "2026-03-16T13:15:14.201Z"
 }
