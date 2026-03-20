@@ -3,53 +3,73 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 557,
-      "change_from_last": 1,
+      "total_jobs": 572,
+      "change_from_last": 15,
       "departments": {
+        "operations": 134,
         "design": 72,
-        "finance": 7,
+        "finance": 8,
         "other": 100,
-        "retail": 171,
-        "engineering": 42,
+        "retail": 179,
+        "engineering": 41,
         "marketing": 12,
         "executive": 13,
-        "operations": 127,
         "product": 6,
         "hr": 7
       },
       "seniority": {
+        "manager": 122,
         "mid": 28,
         "intern": 45,
-        "manager": 121,
-        "c-suite": 29,
+        "c-suite": 30,
         "lead": 91,
-        "senior": 19,
-        "junior": 223,
+        "senior": 20,
+        "junior": 235,
         "vp": 1
       },
       "locations": [
-        "Westport, Connecticut, United States",
-        "Calgary, AB",
-        "Glendale, California, United States",
-        "Mississauga, Ontario, Canada",
-        "Baltimore, MD",
-        "Birmingham, Alabama, United States",
-        "Atlanta, Georgia, United States",
-        "Venice, California, United States",
-        "Manhattan Beach, California, United States",
-        "Garden City, New York, United States",
-        "Philadelphia, PA",
-        "Beverly Hills, California, United States; San Ramon, California, United States",
-        "Cherry Hill, New Jersey, United States",
-        "Vancouver, British Columbia, Canada",
-        "Columbus, Ohio, United States",
-        "The Woodlands, Texas, United States",
-        "Detroit, Michigan, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "New York, New York, United States",
+        "Milano, Milan, Italy",
+        "Nashville, TN",
+        "Lynnfield, Massachusetts, United States",
+        "Boulder, Colorado, United States",
+        "Aventura, Florida, United States",
+        "Murray, UT",
+        "Oakbrook, IL",
+        "Etobicoke, Ontario, Canada",
+        "Edmonton, AB",
+        "Minnetonka, Minnesota, United States",
+        "Edina, Minnesota, United States",
         "Oklahoma City, Oklahoma, United States",
-        "Palm Beach Gardens, FL",
-        "New York, New York, United States"
+        "Roseville, California, United States",
+        "Durham, North Carolina, United States",
+        "Miami Beach, Florida, United States",
+        "Rochester Hills, Michigan, United States",
+        "Remote",
+        "Glendale, California, United States"
       ],
       "jobs": [
+        {
+          "id": "5830979004",
+          "title": "3PL Operations Manager - Lichfield, UK",
+          "location": "London, England, United Kingdom",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5830979004?gh_jid=5830979004",
+          "posted_at": "2026-03-19T15:43:44-04:00",
+          "category": "operations",
+          "seniority": "manager"
+        },
+        {
+          "id": "5830970004",
+          "title": "3PL Operations Manager, Netherlands",
+          "location": "Netherlands",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5830970004?gh_jid=5830970004",
+          "posted_at": "2026-03-19T15:47:04-04:00",
+          "category": "operations",
+          "seniority": "manager"
+        },
         {
           "id": "5798245004",
           "title": "Accessories & Bags, Designer 1",
@@ -126,7 +146,7 @@
           "location": "Sydney, New South Wales, Australia",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5806826004?gh_jid=5806826004",
-          "posted_at": "2026-03-04T23:23:21-05:00",
+          "posted_at": "2026-03-20T00:02:03-04:00",
           "category": "retail",
           "seniority": "manager"
         },
@@ -361,16 +381,6 @@
           "seniority": "lead"
         },
         {
-          "id": "5789964004",
-          "title": "Data Analyst Intern",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789964004?gh_jid=5789964004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789930004",
           "title": "Data Analyst Intern",
           "location": "Beverly Hills, California, United States",
@@ -381,11 +391,11 @@
           "seniority": "intern"
         },
         {
-          "id": "5789987004",
-          "title": "Data Engineering Intern",
-          "location": "San Ramon, California, United States",
+          "id": "5789964004",
+          "title": "Data Analyst Intern",
+          "location": "Beverly Hills, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789964004?gh_jid=5789964004",
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -401,6 +411,16 @@
           "seniority": "intern"
         },
         {
+          "id": "5789987004",
+          "title": "Data Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
+          "posted_at": "2026-03-04T09:51:22-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
           "id": "5789802004",
           "title": "Data Intern - AI",
           "location": "Beverly Hills, California, United States",
@@ -411,21 +431,21 @@
           "seniority": "intern"
         },
         {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5781938004",
           "title": "Digital Engineering Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-03-04T09:51:22-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -491,6 +511,16 @@
           "seniority": "c-suite"
         },
         {
+          "id": "5830660004",
+          "title": "Director of Accounting",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5830660004?gh_jid=5830660004",
+          "posted_at": "2026-03-19T17:21:33-04:00",
+          "category": "finance",
+          "seniority": "c-suite"
+        },
+        {
           "id": "5589948004",
           "title": "Director of Corporate Systems, ERP",
           "location": "Beverly Hills, California, United States",
@@ -519,75 +549,55 @@
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "engineering",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5554383004",
-          "title": "Director of Digital FP&A",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5554383004?gh_jid=5554383004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "finance",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "5807789004",
-          "title": "Director of Enterprise Architecture ",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5807789004?gh_jid=5807789004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "executive",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "5798640004",
-          "title": "Director of International Customer Service",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5798640004?gh_jid=5798640004",
-          "posted_at": "2026-03-16T13:36:29-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-19T05:30:09.212859"
+      "checked_at": "2026-03-20T05:30:09.624118"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 13,
-      "change_from_last": -3,
+      "change_from_last": 0,
       "departments": {
+        "other": 5,
         "design": 2,
         "operations": 2,
-        "other": 4,
-        "engineering": 2,
-        "marketing": 1,
-        "retail": 1,
+        "retail": 2,
+        "engineering": 1,
         "finance": 1
       },
       "seniority": {
+        "mid": 4,
         "lead": 3,
         "manager": 3,
         "intern": 1,
-        "mid": 5,
-        "junior": 1
+        "junior": 2
       },
       "locations": [
-        "Solihull, England, United Kingdom",
+        "Amsterdam, North Holland, Netherlands",
+        "Manchester, England, United Kingdom",
         "New York, New York, United States",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands"
+        "Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
       ],
       "jobs": [
+        {
+          "id": "4815344101",
+          "title": "Accounts Payable & Purchasing Executive",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4815344101",
+          "posted_at": "2026-03-19T05:39:16-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
         {
           "id": "4793493101",
           "title": "Creative Lead - Brand Campaigns",
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4793493101",
-          "posted_at": "2026-03-16T05:08:57-04:00",
+          "posted_at": "2026-03-19T07:52:21-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -597,7 +607,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4793583101",
-          "posted_at": "2026-03-16T05:09:20-04:00",
+          "posted_at": "2026-03-19T07:52:53-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -632,26 +642,6 @@
           "seniority": "intern"
         },
         {
-          "id": "4787248101",
-          "title": "Network Engineer",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4787248101",
-          "posted_at": "2026-03-02T06:23:32-05:00",
-          "category": "engineering",
-          "seniority": "mid"
-        },
-        {
-          "id": "4792331101",
-          "title": "Paid Social Executive",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4792331101",
-          "posted_at": "2026-03-06T16:45:08-05:00",
-          "category": "marketing",
-          "seniority": "mid"
-        },
-        {
           "id": "4790393101",
           "title": "Procurement Operations Manager - Indirect/Non Stock",
           "location": "Solihull, England, United Kingdom",
@@ -668,6 +658,16 @@
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4813506101",
           "posted_at": "2026-03-17T07:49:09-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
+          "id": "4816514101",
+          "title": "Sales Associate - Trafford - Part Time",
+          "location": "Manchester, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4816514101",
+          "posted_at": "2026-03-19T06:35:53-04:00",
           "category": "retail",
           "seniority": "junior"
         },
@@ -712,7 +712,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-19T05:30:15.551248"
+      "checked_at": "2026-03-20T05:30:11.816659"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -730,8 +730,8 @@
         "manager": 1
       },
       "locations": [
-        "New York",
-        "New York, NY"
+        "New York, NY",
+        "New York"
       ],
       "jobs": [
         {
@@ -765,53 +765,53 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-19T05:30:20.184184"
+      "checked_at": "2026-03-20T05:30:16.836990"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 274,
-      "change_from_last": -2,
+      "total_jobs": 270,
+      "change_from_last": -4,
       "departments": {
         "other": 49,
-        "engineering": 42,
-        "retail": 114,
+        "engineering": 41,
+        "retail": 112,
         "marketing": 13,
-        "operations": 7,
         "product": 7,
-        "executive": 17,
-        "design": 20,
+        "executive": 18,
+        "design": 19,
         "hr": 1,
+        "operations": 6,
         "finance": 4
       },
       "seniority": {
-        "lead": 147,
-        "mid": 70,
+        "lead": 148,
+        "mid": 69,
         "manager": 4,
         "c-suite": 8,
-        "senior": 45
+        "senior": 41
       },
       "locations": [
-        "Portland",
-        "Central Valley",
-        "Ho Chi Minh City",
-        "Boston",
-        "Guangzhou",
-        "Munich",
+        "Mexico City",
         "Vienna",
         "London; Zurich",
-        "Hanoi",
-        "Shenzhen",
+        "Portland",
+        "Ho Chi Minh City",
+        "Seoul",
+        "Hanoi; Ho Chi Minh City",
+        "Stockholm",
         "Nanjing",
+        "Macao",
+        "London",
+        "Miami",
         "Wuhan",
-        "Hong Kong; Shanghai",
-        "San Diego",
-        "Berlin",
-        "New York City; Portland",
-        "Mexico City",
-        "Beijing",
-        "Chicago",
-        "Tokyo"
+        "Paris",
+        "Guangzhou",
+        "D\u00fcsseldorf",
+        "Los Angeles",
+        "Shenzhen",
+        "Chengdu",
+        "Pemalang"
       ],
       "jobs": [
         {
@@ -845,22 +845,22 @@
           "seniority": "mid"
         },
         {
-          "id": "7673169",
-          "title": "Area Lead, DACH & Nordics",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7673169?gh_jid=7673169",
-          "posted_at": "2026-03-03T13:08:09-05:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
           "id": "7673447",
           "title": "Area Lead, DACH & Nordics",
           "location": "Berlin",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7673447?gh_jid=7673447",
           "posted_at": "2026-03-03T13:08:19-05:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "7673169",
+          "title": "Area Lead, DACH & Nordics",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7673169?gh_jid=7673169",
+          "posted_at": "2026-03-03T13:08:09-05:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -993,16 +993,6 @@
           "posted_at": "2026-02-25T04:40:13-05:00",
           "category": "retail",
           "seniority": "lead"
-        },
-        {
-          "id": "7716814",
-          "title": "Athlete Strategy & Partnership Operations Specialist (10 month fixed-term maternity cover)",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7716814?gh_jid=7716814",
-          "posted_at": "2026-03-17T05:28:13-04:00",
-          "category": "operations",
-          "seniority": "mid"
         },
         {
           "id": "7677335",
@@ -1265,16 +1255,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7390958",
-          "title": "Head of Footwear Creation Asia",
-          "location": "Ho Chi Minh City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7390958?gh_jid=7390958",
-          "posted_at": "2026-02-25T04:40:13-05:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "7546788",
           "title": "Head of Footwear Materials",
           "location": "Zurich",
@@ -1313,10 +1293,30 @@
           "posted_at": "2026-03-18T05:53:51-04:00",
           "category": "executive",
           "seniority": "lead"
+        },
+        {
+          "id": "7574427",
+          "title": "Head of Global Account Partnership",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7574427?gh_jid=7574427",
+          "posted_at": "2026-03-18T05:53:50-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7732601",
+          "title": "Head of Payroll (Global)",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7732601?gh_jid=7732601",
+          "posted_at": "2026-03-19T12:22:43-04:00",
+          "category": "executive",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-03-19T05:30:25.006179"
+      "checked_at": "2026-03-20T05:30:21.560951"
     }
   },
-  "generated_at": "2026-03-19T05:30:27.006328"
+  "generated_at": "2026-03-20T05:30:23.561134"
 }
