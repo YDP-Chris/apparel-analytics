@@ -3,53 +3,63 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 572,
-      "change_from_last": 15,
+      "total_jobs": 576,
+      "change_from_last": 4,
       "departments": {
-        "operations": 134,
+        "engineering": 42,
+        "operations": 135,
         "design": 72,
         "finance": 8,
-        "other": 100,
-        "retail": 179,
-        "engineering": 41,
-        "marketing": 12,
+        "other": 99,
+        "retail": 181,
+        "marketing": 13,
         "executive": 13,
         "product": 6,
         "hr": 7
       },
       "seniority": {
-        "manager": 122,
         "mid": 28,
+        "manager": 123,
         "intern": 45,
         "c-suite": 30,
-        "lead": 91,
+        "lead": 89,
         "senior": 20,
-        "junior": 235,
+        "junior": 240,
         "vp": 1
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
-        "New York, New York, United States",
-        "Milano, Milan, Italy",
-        "Nashville, TN",
-        "Lynnfield, Massachusetts, United States",
-        "Boulder, Colorado, United States",
-        "Aventura, Florida, United States",
-        "Murray, UT",
-        "Oakbrook, IL",
-        "Etobicoke, Ontario, Canada",
-        "Edmonton, AB",
-        "Minnetonka, Minnesota, United States",
-        "Edina, Minnesota, United States",
+        "Portland, Oregon, United States",
+        "Manhattan Beach, California, United States",
         "Oklahoma City, Oklahoma, United States",
-        "Roseville, California, United States",
-        "Durham, North Carolina, United States",
-        "Miami Beach, Florida, United States",
-        "Rochester Hills, Michigan, United States",
-        "Remote",
-        "Glendale, California, United States"
+        "Walnut Creek, California, United States",
+        "Pasadena, California, United States",
+        "Vail, CO",
+        "Frisco, Texas, United States",
+        "Detroit, Michigan, United States",
+        "Albuquerque, New Mexico, United States",
+        "Santa Monica, California, United States",
+        "West Palm Beach, Florida, United States",
+        "San Antonio, TX",
+        "Etobicoke, Ontario, Canada",
+        "Mississauga, Ontario, Canada",
+        "Ottawa, Ontario, Canada",
+        "Thousand Oaks, California, United States",
+        "McLean, Virginia, United States",
+        "Bloomington, Minnesota, United States",
+        "Raleigh, NC",
+        "Huntington Station, New York, United States"
       ],
       "jobs": [
+        {
+          "id": "5802355004",
+          "title": "3D Tech Designer",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5802355004?gh_jid=5802355004",
+          "posted_at": "2026-03-20T14:46:49-04:00",
+          "category": "engineering",
+          "seniority": "mid"
+        },
         {
           "id": "5830979004",
           "title": "3PL Operations Manager - Lichfield, UK",
@@ -118,16 +128,6 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5831676004?gh_jid=5831676004",
           "posted_at": "2026-03-18T14:44:16-04:00",
           "category": "design",
-          "seniority": "mid"
-        },
-        {
-          "id": "5740656004",
-          "title": "Asset Protection Specialist - Prudential",
-          "location": "Boston, MA",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5740656004?gh_jid=5740656004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "other",
           "seniority": "mid"
         },
         {
@@ -551,7 +551,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-20T05:30:09.624118"
+      "checked_at": "2026-03-21T05:30:06.735446"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -574,11 +574,11 @@
         "junior": 2
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
-        "Manchester, England, United Kingdom",
-        "New York, New York, United States",
         "Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Manchester, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -637,7 +637,7 @@
           "location": "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4809491101",
-          "posted_at": "2026-03-13T13:36:30-04:00",
+          "posted_at": "2026-03-20T08:09:00-04:00",
           "category": "other",
           "seniority": "intern"
         },
@@ -712,7 +712,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-20T05:30:11.816659"
+      "checked_at": "2026-03-21T05:30:08.890994"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -730,8 +730,8 @@
         "manager": 1
       },
       "locations": [
-        "New York, NY",
-        "New York"
+        "New York",
+        "New York, NY"
       ],
       "jobs": [
         {
@@ -765,53 +765,53 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-20T05:30:16.836990"
+      "checked_at": "2026-03-21T05:30:14.965483"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 270,
-      "change_from_last": -4,
+      "total_jobs": 267,
+      "change_from_last": -3,
       "departments": {
         "other": 49,
         "engineering": 41,
         "retail": 112,
-        "marketing": 13,
+        "marketing": 12,
         "product": 7,
-        "executive": 18,
-        "design": 19,
-        "hr": 1,
+        "executive": 16,
+        "design": 18,
+        "hr": 2,
         "operations": 6,
         "finance": 4
       },
       "seniority": {
-        "lead": 148,
-        "mid": 69,
+        "lead": 145,
+        "mid": 68,
         "manager": 4,
         "c-suite": 8,
-        "senior": 41
+        "senior": 42
       },
       "locations": [
-        "Mexico City",
-        "Vienna",
-        "London; Zurich",
-        "Portland",
-        "Ho Chi Minh City",
-        "Seoul",
-        "Hanoi; Ho Chi Minh City",
-        "Stockholm",
-        "Nanjing",
-        "Macao",
-        "London",
-        "Miami",
-        "Wuhan",
-        "Paris",
-        "Guangzhou",
-        "D\u00fcsseldorf",
         "Los Angeles",
+        "Pemalang",
         "Shenzhen",
-        "Chengdu",
-        "Pemalang"
+        "D\u00fcsseldorf",
+        "Portland",
+        "Miami",
+        "London; Zurich",
+        "Seoul",
+        "Beijing",
+        "Hanoi; Ho Chi Minh City",
+        "Nairobi; Zurich",
+        "Portland; Zurich",
+        "Hong Kong; Shanghai",
+        "Zurich",
+        "Auckland",
+        "Tianjin",
+        "Tokyo",
+        "Bicester",
+        "London",
+        "Shanghai"
       ],
       "jobs": [
         {
@@ -820,7 +820,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7250019?gh_jid=7250019",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -830,7 +830,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7591254?gh_jid=7591254",
-          "posted_at": "2026-03-17T05:17:19-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "lead"
         },
@@ -840,7 +840,7 @@
           "location": "Hanoi",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7703769?gh_jid=7703769",
-          "posted_at": "2026-03-11T03:44:04-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -850,7 +850,7 @@
           "location": "Berlin",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7673447?gh_jid=7673447",
-          "posted_at": "2026-03-03T13:08:19-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -860,7 +860,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7673169?gh_jid=7673169",
-          "posted_at": "2026-03-03T13:08:09-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -870,7 +870,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7510597?gh_jid=7510597",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -880,7 +880,7 @@
           "location": "D\u00fcsseldorf",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7591167?gh_jid=7591167",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -890,7 +890,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6977000?gh_jid=6977000",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -900,7 +900,7 @@
           "location": "Beijing",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7529798?gh_jid=7529798",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -910,7 +910,7 @@
           "location": "Hong Kong",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7609546?gh_jid=7609546",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -920,7 +920,7 @@
           "location": "Seoul",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7299718?gh_jid=7299718",
-          "posted_at": "2026-02-26T10:04:48-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "marketing",
           "seniority": "lead"
         },
@@ -930,7 +930,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6879879?gh_jid=6879879",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -940,7 +940,7 @@
           "location": "Seoul",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6880990?gh_jid=6880990",
-          "posted_at": "2026-02-26T09:47:49-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "marketing",
           "seniority": "lead"
         },
@@ -950,7 +950,7 @@
           "location": "Melbourne",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/5724886?gh_jid=5724886",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -960,7 +960,7 @@
           "location": "Paris",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7591780?gh_jid=7591780",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -970,7 +970,7 @@
           "location": "Shenzhen",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7430687?gh_jid=7430687",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -980,7 +980,7 @@
           "location": "Stockholm",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7621643?gh_jid=7621643",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -990,7 +990,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7446389?gh_jid=7446389",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1000,7 +1000,7 @@
           "location": "Paris",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7677335?gh_jid=7677335",
-          "posted_at": "2026-03-09T07:12:48-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -1010,7 +1010,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7677306?gh_jid=7677306",
-          "posted_at": "2026-03-09T15:38:09-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -1020,7 +1020,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6940621?gh_jid=6940621",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "product",
           "seniority": "c-suite"
         },
@@ -1030,7 +1030,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7699563?gh_jid=7699563",
-          "posted_at": "2026-03-10T10:22:23-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "c-suite"
         },
@@ -1040,7 +1040,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7072543?gh_jid=7072543",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "c-suite"
         },
@@ -1050,7 +1050,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7214896?gh_jid=7214896",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "c-suite"
         },
@@ -1060,7 +1060,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6734964?gh_jid=6734964",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "c-suite"
         },
@@ -1070,7 +1070,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7641471?gh_jid=7641471",
-          "posted_at": "2026-03-06T13:37:24-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "manager"
         },
@@ -1080,7 +1080,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7677782?gh_jid=7677782",
-          "posted_at": "2026-03-05T03:41:53-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "manager"
         },
@@ -1090,7 +1090,7 @@
           "location": "Ho Chi Minh City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7573409?gh_jid=7573409",
-          "posted_at": "2026-02-26T05:08:40-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -1100,7 +1100,7 @@
           "location": "Pemalang",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7431342?gh_jid=7431342",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -1110,7 +1110,7 @@
           "location": "Hanoi",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7247779?gh_jid=7247779",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -1120,17 +1120,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7573654?gh_jid=7573654",
-          "posted_at": "2026-02-25T04:40:13-05:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
-          "id": "7362100",
-          "title": "Global Head of Brand Creative PAD",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7362100?gh_jid=7362100",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -1140,7 +1130,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7340217?gh_jid=7340217",
-          "posted_at": "2026-03-11T09:59:07-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1150,7 +1140,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7606412?gh_jid=7606412",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1160,7 +1150,7 @@
           "location": "New York City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/4733553?gh_jid=4733553",
-          "posted_at": "2026-03-16T13:37:52-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1170,7 +1160,7 @@
           "location": "Ho Chi Minh City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6834769?gh_jid=6834769",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "lead"
         },
@@ -1180,7 +1170,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7677225?gh_jid=7677225",
-          "posted_at": "2026-03-15T11:54:44-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -1190,7 +1180,7 @@
           "location": "Portland",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7449723?gh_jid=7449723",
-          "posted_at": "2026-03-03T18:14:45-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1200,7 +1190,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1210,7 +1200,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7564602?gh_jid=7564602",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1220,7 +1210,7 @@
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7528858?gh_jid=7528858",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "lead"
         },
@@ -1230,7 +1220,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7408662?gh_jid=7408662",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "lead"
         },
@@ -1240,7 +1230,7 @@
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7589306?gh_jid=7589306",
-          "posted_at": "2026-03-16T09:40:32-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -1250,7 +1240,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7699103?gh_jid=7699103",
-          "posted_at": "2026-03-16T09:41:29-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -1260,7 +1250,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7546788?gh_jid=7546788",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1270,7 +1260,7 @@
           "location": "Ho Chi Minh City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6310531?gh_jid=6310531",
-          "posted_at": "2026-02-25T04:40:13-05:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1280,27 +1270,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7486707?gh_jid=7486707",
-          "posted_at": "2026-02-25T04:40:13-05:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "7574799",
-          "title": "Head of Global Account Partnership",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7574799?gh_jid=7574799",
-          "posted_at": "2026-03-18T05:53:51-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "7574427",
-          "title": "Head of Global Account Partnership",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7574427?gh_jid=7574427",
-          "posted_at": "2026-03-18T05:53:50-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1310,13 +1280,43 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7732601?gh_jid=7732601",
-          "posted_at": "2026-03-19T12:22:43-04:00",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7622390",
+          "title": "Head of People Analytics",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7622390?gh_jid=7622390",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "hr",
+          "seniority": "lead"
+        },
+        {
+          "id": "7384454",
+          "title": "Head of Product Development (Lifestyle)",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7384454?gh_jid=7384454",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7710508",
+          "title": "Head of Production Planning - Apparel & Accessories",
+          "location": "Hanoi",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7710508?gh_jid=7710508",
+          "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-03-20T05:30:21.560951"
+      "checked_at": "2026-03-21T05:30:22.964671"
     }
   },
-  "generated_at": "2026-03-20T05:30:23.561134"
+  "generated_at": "2026-03-21T05:30:24.964821"
 }
