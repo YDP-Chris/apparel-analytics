@@ -227,21 +227,21 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4324,
+      "total": 4326,
       "categories": {
         "other": 740,
         "bottoms": 1634,
-        "tops": 502,
-        "sports_bras": 290,
+        "tops": 503,
+        "sports_bras": 291,
         "accessories": 387,
         "outerwear": 618,
         "footwear": 44,
         "dresses": 109
       },
       "subcategories": {
-        "other": 1505,
+        "other": 1506,
         "leggings": 327,
-        "tanks": 231,
+        "tanks": 232,
         "shorts": 377,
         "hats": 138,
         "sweatpants": 204,
@@ -268,13 +268,13 @@
       },
       "genders": {
         "unisex": 1075,
-        "womens": 2296,
+        "womens": 2298,
         "mens": 953
       },
       "colors": {
         "navy": 172,
         "black": 954,
-        "white": 827,
+        "white": 828,
         "gray": 482,
         "khaki": 121,
         "pink": 220,
@@ -289,7 +289,7 @@
         "yellow": 38,
         "multi": 4
       },
-      "colorCoverage": 88.2,
+      "colorCoverage": 88.1,
       "avgColorsPerStyle": 1.4,
       "uniqueStyles": 2698
     },
@@ -427,12 +427,40 @@
     }
   },
   "totals": {
-    "products": 27249,
+    "products": 27251,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-03-23",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "w2737r goddess ribbed go to tank",
+          "url": "https://www.aloyoga.com/products/w2737r-goddess-ribbed-go-to-tank-ivory",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "w9555r airlift advantage racerback bra raisinette",
+          "url": "https://www.aloyoga.com/products/w9555r-airlift-advantage-racerback-bra-raisinette",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-03-20",
       "brand": "Lululemon",
@@ -4624,108 +4652,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-03-08",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 5,
-      "products": [
-        {
-          "name": "highlands sherpa jacket natural",
-          "url": "https://vuoriclothing.com/products/womens-highlands-sherpa-jacket-natural",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "long sleeve halo crew heron heather",
-          "url": "https://vuoriclothing.com/products/womens-long-sleeve-halo-crew-blue-heron-heather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "halo micro short solid",
-          "url": "https://vuoriclothing.com/products/womens-halo-micro-short-solid-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "daily legging espresso",
-          "url": "https://vuoriclothing.com/products/womens-stripe-daily-legging-espresso-stripe",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "short sleeve viewpoint performance tee 2 0 sky",
-          "url": "https://vuoriclothing.com/products/short-sleeve-viewpoint-performance-tee-2-0-sky-grey",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-07",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 5,
-      "products": [
-        {
-          "name": "a0648u off duty cap candy",
-          "url": "https://www.aloyoga.com/products/a0648u-off-duty-cap-candy-red",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "a0465u explorer fanny pack",
-          "url": "https://www.aloyoga.com/products/a0465u-explorer-fanny-pack-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "w3697r alosoft refine turtleneck",
-          "url": "https://www.aloyoga.com/products/w3697r-alosoft-refine-turtleneck-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "u3031rg accolade crew neck pullover neon bubblegum",
-          "url": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-neon-bubblegum",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "u3031rg accolade crew neck pullover neon bubblegum mens",
-          "url": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-neon-bubblegum-mens",
-          "category": "outerwear",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-07",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 3,
-      "products": [
-        {
-          "name": "halo headband chia",
-          "url": "https://vuoriclothing.com/products/halo-headband-chia-heather",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori allthefeels tank 2 0 evergreen",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-tank-2-0-evergreen",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels shirred bra saguaro",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-shirred-bra-saguaro",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4843,7 +4769,9 @@
       "2026-03-13": 4,
       "2026-03-16": 53,
       "2026-03-18": 8,
-      "2026-03-20": 2
+      "2026-03-20": 2,
+      "2026-03-22": 1,
+      "2026-03-23": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -4903,7 +4831,7 @@
       "outdoor_voices": 46,
       "tenthousand": 33,
       "lululemon": 450,
-      "alo": 502,
+      "alo": 503,
       "gymshark": 2111,
       "on_running": 614
     },
@@ -4929,7 +4857,7 @@
       "vuori": 99,
       "outdoor_voices": 29,
       "lululemon": 96,
-      "alo": 290,
+      "alo": 291,
       "gymshark": 518,
       "on_running": 172
     },
@@ -4980,7 +4908,7 @@
       "outdoor_voices": 19,
       "tenthousand": 4,
       "lululemon": 136,
-      "alo": 231,
+      "alo": 232,
       "gymshark": 564,
       "on_running": 283
     },
@@ -5006,7 +4934,7 @@
       "outdoor_voices": 128,
       "tenthousand": 28,
       "lululemon": 1146,
-      "alo": 1505,
+      "alo": 1506,
       "gymshark": 2141,
       "on_running": 3051
     },
@@ -5225,7 +5153,7 @@
     "white": {
       "vuori": 320,
       "outdoor_voices": 17,
-      "alo": 827,
+      "alo": 828,
       "gymshark": 484,
       "on_running": 1444
     },
@@ -5335,7 +5263,7 @@
       "outerwear": 14.3,
       "dresses": 2.5,
       "sports_bras": 6.7,
-      "accessories": 9,
+      "accessories": 8.9,
       "other": 17.1
     },
     {
@@ -5421,7 +5349,7 @@
       "gray": 11.1,
       "navy": 4,
       "blue": 4.1,
-      "green": 6.5,
+      "green": 6.4,
       "khaki": 2.8,
       "brown": 6.4,
       "purple": 0.9,
@@ -5548,7 +5476,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 23,950 competitor products tracked. Vuori's 3,299 = 12% share of tracked catalog."
+      "text": "Market context: 23,952 competitor products tracked. Vuori's 3,299 = 12% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -5679,7 +5607,7 @@
       {
         "category": "Tanks",
         "vuori": 140,
-        "competitor": 231,
+        "competitor": 232,
         "winner": "competitor"
       },
       {
@@ -5697,10 +5625,10 @@
       {
         "category": "Women's Products",
         "vuori": 1466,
-        "competitor": 2296,
+        "competitor": 2298,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-03-22T13:15:16.619Z"
+  "generated_at": "2026-03-23T13:15:19.021Z"
 }

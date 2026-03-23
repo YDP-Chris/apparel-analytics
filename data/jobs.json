@@ -3,12 +3,12 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 577,
+      "total_jobs": 578,
       "change_from_last": 1,
       "departments": {
         "engineering": 42,
         "operations": 135,
-        "design": 72,
+        "design": 73,
         "finance": 8,
         "other": 99,
         "retail": 182,
@@ -19,7 +19,7 @@
       },
       "seniority": {
         "mid": 28,
-        "manager": 124,
+        "manager": 125,
         "intern": 45,
         "c-suite": 30,
         "lead": 89,
@@ -28,26 +28,26 @@
         "vp": 1
       },
       "locations": [
-        "Indianapolis, IN",
-        "Paramus, NJ",
-        "Miami Beach, Florida, United States",
-        "Troy, Mi",
-        "Brooklyn, NY",
-        "Leeds, England, United Kingdom",
+        "Honolulu, HI",
+        "Sarasota, FL",
+        "Wayne, New Jersey, United States",
+        "Las Vegas, NV",
+        "McLean, Virginia, United States",
+        "Remote",
+        "Aventura, Florida, United States",
+        "Bridgewater, New Jersey, United States",
         "Amsterdam, North Holland, Netherlands",
-        "Etobicoke, Ontario, Canada",
-        "Philadelphia, PA",
-        "Kansas City, Missouri, United States",
-        "Boulder, Colorado, United States",
-        "Austin, TX",
-        "Lynnfield, Massachusetts, United States",
-        "London, England, United Kingdom; Remote",
-        "Southlake, Texas, United States",
-        "Beverly Hills, California, United States; San Ramon, California, United States",
-        "Metairie, Louisiana",
+        "Leeds, England, United Kingdom",
+        "Atlanta, Georgia, United States",
+        "New York, NY",
+        "Skokie, IL",
+        "Santa Clara, California, United States",
+        "Short Hills, New Jersey, United States",
+        "Burlingame, California, United States",
         "Des Moines, Iowa, United States",
-        "Dallas, TX",
-        "Cincinnati, OH"
+        "San Ramon, California, United States",
+        "Beverly Hills, California, United States; San Ramon, California, United States",
+        "Coral Gables, FL"
       ],
       "jobs": [
         {
@@ -551,7 +551,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-22T05:30:06.636006"
+      "checked_at": "2026-03-23T05:30:07.267380"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -575,10 +575,10 @@
       },
       "locations": [
         "New York, New York, United States",
-        "Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "Manchester, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
-        "Manchester, England, United Kingdom"
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -712,7 +712,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-22T05:30:08.789644"
+      "checked_at": "2026-03-23T05:30:09.435066"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -730,8 +730,8 @@
         "manager": 1
       },
       "locations": [
-        "New York",
-        "New York, NY"
+        "New York, NY",
+        "New York"
       ],
       "jobs": [
         {
@@ -765,53 +765,53 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-22T05:30:15.040924"
+      "checked_at": "2026-03-23T05:30:15.255973"
     },
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 267,
-      "change_from_last": 0,
+      "total_jobs": 268,
+      "change_from_last": 1,
       "departments": {
-        "other": 49,
+        "other": 50,
         "engineering": 41,
-        "retail": 112,
-        "marketing": 12,
+        "retail": 114,
+        "marketing": 11,
         "product": 7,
         "executive": 16,
         "design": 18,
         "hr": 2,
-        "operations": 6,
+        "operations": 5,
         "finance": 4
       },
       "seniority": {
-        "lead": 145,
-        "mid": 68,
+        "lead": 148,
+        "mid": 67,
         "manager": 4,
         "c-suite": 8,
-        "senior": 42
+        "senior": 41
       },
       "locations": [
-        "Vienna",
-        "Portland",
-        "Auckland",
-        "Berlin",
-        "Hanoi",
-        "Pemalang",
-        "Wuhan",
-        "Chengdu",
-        "San Diego",
-        "Shenzhen",
-        "D\u00fcsseldorf",
-        "Hong Kong",
-        "Hong Kong; Shanghai",
-        "Beijing",
         "Boston",
-        "Zurich",
-        "London",
-        "Mexico City",
+        "Shanghai",
+        "Hanoi",
+        "Bicester",
+        "Berlin",
         "Macao",
-        "Hanoi; Ho Chi Minh City"
+        "Paris",
+        "Nanjing",
+        "Mexico City",
+        "Zurich",
+        "Portland",
+        "Shenzhen",
+        "Portland; Zurich",
+        "Los Angeles",
+        "Stockholm",
+        "Chicago",
+        "Hong Kong",
+        "London; Zurich",
+        "Guangzhou",
+        "D\u00fcsseldorf"
       ],
       "jobs": [
         {
@@ -935,6 +935,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7591780",
+          "title": "Associate Store Leader, La Vall\u00e9e Village Outlet",
+          "location": "Paris",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7591780?gh_jid=7591780",
+          "posted_at": "2026-03-23T05:07:08-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
           "id": "6880990",
           "title": "Associate Store Leader, Lotte Seoul",
           "location": "Seoul",
@@ -950,16 +960,6 @@
           "location": "Melbourne",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/5724886?gh_jid=5724886",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "7591780",
-          "title": "Associate Store Leader, Paris La Vall\u00e9e Village Outlet",
-          "location": "Paris",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7591780?gh_jid=7591780",
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
@@ -1315,8 +1315,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-03-22T05:30:19.722227"
+      "checked_at": "2026-03-23T05:30:27.237606"
     }
   },
-  "generated_at": "2026-03-22T05:30:21.722408"
+  "generated_at": "2026-03-23T05:30:29.237748"
 }
