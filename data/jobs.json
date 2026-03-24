@@ -3,15 +3,15 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 578,
-      "change_from_last": 1,
+      "total_jobs": 595,
+      "change_from_last": 17,
       "departments": {
-        "engineering": 42,
-        "operations": 135,
-        "design": 73,
+        "engineering": 43,
+        "operations": 136,
+        "design": 74,
         "finance": 8,
-        "other": 99,
-        "retail": 182,
+        "other": 105,
+        "retail": 190,
         "marketing": 13,
         "executive": 13,
         "product": 6,
@@ -19,35 +19,35 @@
       },
       "seniority": {
         "mid": 28,
-        "manager": 125,
+        "manager": 128,
         "intern": 45,
-        "c-suite": 30,
-        "lead": 89,
-        "senior": 20,
-        "junior": 240,
+        "c-suite": 31,
+        "lead": 92,
+        "senior": 21,
+        "junior": 249,
         "vp": 1
       },
       "locations": [
-        "Honolulu, HI",
-        "Sarasota, FL",
-        "Wayne, New Jersey, United States",
-        "Las Vegas, NV",
-        "McLean, Virginia, United States",
-        "Remote",
-        "Aventura, Florida, United States",
+        "Austin, TX",
+        "Philadelphia, PA",
+        "Toronto, ON",
+        "Beverly Hills, California, United States",
+        "Paramus, NJ",
+        "Boulder, Colorado, United States",
         "Bridgewater, New Jersey, United States",
-        "Amsterdam, North Holland, Netherlands",
-        "Leeds, England, United Kingdom",
-        "Atlanta, Georgia, United States",
-        "New York, NY",
-        "Skokie, IL",
-        "Santa Clara, California, United States",
-        "Short Hills, New Jersey, United States",
-        "Burlingame, California, United States",
+        "Venice, California, United States",
+        "Princeton, New Jersey, United States",
         "Des Moines, Iowa, United States",
-        "San Ramon, California, United States",
-        "Beverly Hills, California, United States; San Ramon, California, United States",
-        "Coral Gables, FL"
+        "Charlotte, NC",
+        "Oakbrook, IL",
+        "Dublin, Dublin, Ireland",
+        "Lone Tree, CO",
+        "Washington, DC",
+        "Boca Raton, FL",
+        "Detroit, Michigan, United States",
+        "Edmonton, AB",
+        "Alexandria, Virginia, United States",
+        "Palm Desert, California, United States"
       ],
       "jobs": [
         {
@@ -381,16 +381,6 @@
           "seniority": "lead"
         },
         {
-          "id": "5789930004",
-          "title": "Data Analyst Intern",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789930004?gh_jid=5789930004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789964004",
           "title": "Data Analyst Intern",
           "location": "Beverly Hills, California, United States",
@@ -401,11 +391,11 @@
           "seniority": "intern"
         },
         {
-          "id": "5789987004",
-          "title": "Data Engineering Intern",
-          "location": "San Ramon, California, United States",
+          "id": "5789930004",
+          "title": "Data Analyst Intern",
+          "location": "Beverly Hills, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789930004?gh_jid=5789930004",
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -416,6 +406,16 @@
           "location": "Beverly Hills, California, United States; San Ramon, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5789977004?gh_jid=5789977004",
+          "posted_at": "2026-03-04T09:51:22-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5789987004",
+          "title": "Data Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -551,7 +551,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-23T05:30:07.267380"
+      "checked_at": "2026-03-24T05:30:09.802351"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -576,9 +576,9 @@
       "locations": [
         "New York, New York, United States",
         "Manchester, England, United Kingdom",
+        "Solihull, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom"
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -673,11 +673,11 @@
         },
         {
           "id": "4813567101",
-          "title": "Service Desk Technician (1st Line) - 12 months Fixed Term Contract",
+          "title": "Service Desk Technician (1st Line)",
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4813567101",
-          "posted_at": "2026-03-17T08:11:18-04:00",
+          "posted_at": "2026-03-23T11:13:35-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -712,7 +712,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-23T05:30:09.435066"
+      "checked_at": "2026-03-24T05:30:12.017613"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -770,48 +770,48 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 268,
-      "change_from_last": 1,
+      "total_jobs": 267,
+      "change_from_last": -1,
       "departments": {
-        "other": 50,
+        "other": 49,
         "engineering": 41,
-        "retail": 114,
-        "marketing": 11,
-        "product": 7,
+        "retail": 115,
+        "marketing": 12,
+        "product": 8,
         "executive": 16,
-        "design": 18,
+        "design": 16,
         "hr": 2,
         "operations": 5,
-        "finance": 4
+        "finance": 3
       },
       "seniority": {
-        "lead": 148,
-        "mid": 67,
-        "manager": 4,
+        "lead": 145,
+        "mid": 69,
+        "manager": 3,
         "c-suite": 8,
-        "senior": 41
+        "senior": 42
       },
       "locations": [
-        "Boston",
-        "Shanghai",
-        "Hanoi",
-        "Bicester",
-        "Berlin",
-        "Macao",
-        "Paris",
-        "Nanjing",
+        "D\u00fcsseldorf",
+        "Seoul",
         "Mexico City",
-        "Zurich",
-        "Portland",
-        "Shenzhen",
-        "Portland; Zurich",
-        "Los Angeles",
         "Stockholm",
-        "Chicago",
-        "Hong Kong",
-        "London; Zurich",
-        "Guangzhou",
-        "D\u00fcsseldorf"
+        "Vienna",
+        "New York City",
+        "Austin",
+        "Bicester",
+        "Tianjin",
+        "New York City; Portland",
+        "Shanghai",
+        "London",
+        "Shenzhen",
+        "Miami",
+        "Tokyo",
+        "Los Angeles",
+        "San Diego",
+        "Hong Kong; Shanghai",
+        "Portland; Zurich",
+        "Nairobi; Zurich"
       ],
       "jobs": [
         {
@@ -825,16 +825,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7591254",
-          "title": "AI & Machine Learning Engineering Lead",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7591254?gh_jid=7591254",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "engineering",
-          "seniority": "lead"
-        },
-        {
           "id": "7703769",
           "title": "Apparel Commercialization (Apparel Developer/FOB Merchandiser)",
           "location": "Hanoi",
@@ -843,26 +833,6 @@
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "mid"
-        },
-        {
-          "id": "7673447",
-          "title": "Area Lead, DACH & Nordics",
-          "location": "Berlin",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7673447?gh_jid=7673447",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
-          "id": "7673169",
-          "title": "Area Lead, DACH & Nordics",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7673169?gh_jid=7673169",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "other",
-          "seniority": "lead"
         },
         {
           "id": "7510597",
@@ -1000,16 +970,6 @@
           "location": "Paris",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7677335?gh_jid=7677335",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
-          "id": "7677306",
-          "title": "Department Manager, Selfridges",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7677306?gh_jid=7677306",
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "manager"
@@ -1225,21 +1185,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7589306",
-          "title": "Head of Experience Design - AI Lab",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7589306?gh_jid=7589306",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
           "id": "7699103",
           "title": "Head of Experience Design - AI Lab",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7699103?gh_jid=7699103",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "design",
+          "seniority": "lead"
+        },
+        {
+          "id": "7589306",
+          "title": "Head of Experience Design - AI Lab",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7589306?gh_jid=7589306",
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "design",
           "seniority": "lead"
@@ -1313,10 +1273,50 @@
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "executive",
           "seniority": "lead"
+        },
+        {
+          "id": "7217836",
+          "title": "Head of  Product Management, Product/R&D",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7217836?gh_jid=7217836",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
+          "id": "7617002",
+          "title": "Head of Sales - (JD Sports) - EMEA",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7617002?gh_jid=7617002",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7455175",
+          "title": "Head of Security Platforms and Architecture",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7455175?gh_jid=7455175",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7714659",
+          "title": "Head of Talent Operations, APAC",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7714659?gh_jid=7714659",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "operations",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-03-23T05:30:27.237606"
+      "checked_at": "2026-03-24T05:30:23.936073"
     }
   },
-  "generated_at": "2026-03-23T05:30:29.237748"
+  "generated_at": "2026-03-24T05:30:25.936256"
 }
