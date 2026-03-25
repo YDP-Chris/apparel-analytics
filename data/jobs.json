@@ -3,51 +3,51 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 595,
-      "change_from_last": 17,
+      "total_jobs": 604,
+      "change_from_last": 9,
       "departments": {
         "engineering": 43,
-        "operations": 136,
-        "design": 74,
+        "operations": 137,
+        "design": 75,
         "finance": 8,
-        "other": 105,
-        "retail": 190,
+        "other": 108,
+        "retail": 193,
         "marketing": 13,
         "executive": 13,
         "product": 6,
-        "hr": 7
+        "hr": 8
       },
       "seniority": {
-        "mid": 28,
-        "manager": 128,
+        "mid": 29,
+        "manager": 132,
         "intern": 45,
-        "c-suite": 31,
+        "junior": 252,
+        "c-suite": 32,
         "lead": 92,
         "senior": 21,
-        "junior": 249,
         "vp": 1
       },
       "locations": [
-        "Austin, TX",
-        "Philadelphia, PA",
-        "Toronto, ON",
-        "Beverly Hills, California, United States",
-        "Paramus, NJ",
-        "Boulder, Colorado, United States",
-        "Bridgewater, New Jersey, United States",
-        "Venice, California, United States",
-        "Princeton, New Jersey, United States",
-        "Des Moines, Iowa, United States",
-        "Charlotte, NC",
+        "Columbus, Ohio, United States",
+        "Roseville, California, United States",
         "Oakbrook, IL",
-        "Dublin, Dublin, Ireland",
-        "Lone Tree, CO",
-        "Washington, DC",
-        "Boca Raton, FL",
-        "Detroit, Michigan, United States",
-        "Edmonton, AB",
+        "Princeton, New Jersey, United States",
+        "Jacksonville, FL",
+        "Cherry Hill, New Jersey, United States",
+        "West Palm Beach, Florida, United States",
+        "Dallas",
+        "Birmingham, Alabama, United States",
         "Alexandria, Virginia, United States",
-        "Palm Desert, California, United States"
+        "Burlingame, California, United States",
+        "Dublin, Dublin, Ireland",
+        "Ottawa, Ontario, Canada",
+        "Beverly Hills, California, United States",
+        "Portland, Oregon, United States",
+        "Aventura, Florida, United States",
+        "Southlake, Texas, United States",
+        "Edina, Minnesota, United States",
+        "Coral Gables, FL",
+        "Baltimore, MD"
       ],
       "jobs": [
         {
@@ -66,7 +66,7 @@
           "location": "London, England, United Kingdom",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5830979004?gh_jid=5830979004",
-          "posted_at": "2026-03-19T15:43:44-04:00",
+          "posted_at": "2026-03-24T07:45:15-04:00",
           "category": "operations",
           "seniority": "manager"
         },
@@ -76,7 +76,7 @@
           "location": "Netherlands",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5830970004?gh_jid=5830970004",
-          "posted_at": "2026-03-19T15:47:04-04:00",
+          "posted_at": "2026-03-24T07:44:28-04:00",
           "category": "operations",
           "seniority": "manager"
         },
@@ -221,14 +221,14 @@
           "seniority": "manager"
         },
         {
-          "id": "5674598004",
-          "title": "Associate Director, Packaging Design & Strategy",
+          "id": "5835296004",
+          "title": "Associate Merchandiser, Men's ",
           "location": "Beverly Hills, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5674598004?gh_jid=5674598004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "design",
-          "seniority": "c-suite"
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5835296004?gh_jid=5835296004",
+          "posted_at": "2026-03-24T16:18:50-04:00",
+          "category": "other",
+          "seniority": "junior"
         },
         {
           "id": "5780143004",
@@ -242,11 +242,11 @@
         },
         {
           "id": "5780156004",
-          "title": "Associate Production Manager- Women's",
-          "location": "Beverly Hills, California, United States",
+          "title": "Associate Production Manager, Women's",
+          "location": "Commerce, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5780156004?gh_jid=5780156004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
+          "posted_at": "2026-03-24T14:20:50-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -266,7 +266,7 @@
           "location": "Commerce, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5792272004?gh_jid=5792272004",
-          "posted_at": "2026-03-17T18:17:05-04:00",
+          "posted_at": "2026-03-24T14:47:26-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -361,6 +361,16 @@
           "seniority": "mid"
         },
         {
+          "id": "5834854004",
+          "title": "Creative Production Coordinator",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5834854004?gh_jid=5834854004",
+          "posted_at": "2026-03-24T19:48:39-04:00",
+          "category": "design",
+          "seniority": "c-suite"
+        },
+        {
           "id": "5830694004",
           "title": "Creative Project Manager",
           "location": "Beverly Hills, California, United States",
@@ -401,21 +411,21 @@
           "seniority": "intern"
         },
         {
-          "id": "5789977004",
-          "title": "Data Engineering Intern",
-          "location": "Beverly Hills, California, United States; San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789977004?gh_jid=5789977004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789987004",
           "title": "Data Engineering Intern",
           "location": "San Ramon, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
+          "posted_at": "2026-03-04T09:51:22-05:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5789977004",
+          "title": "Data Engineering Intern",
+          "location": "Beverly Hills, California, United States; San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789977004?gh_jid=5789977004",
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "engineering",
           "seniority": "intern"
@@ -539,45 +549,37 @@
           "posted_at": "2026-03-04T09:51:22-05:00",
           "category": "executive",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5785945004",
-          "title": "Director of Data Engineering",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5785945004?gh_jid=5785945004",
-          "posted_at": "2026-03-04T09:51:22-05:00",
-          "category": "engineering",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-24T05:30:09.802351"
+      "checked_at": "2026-03-25T05:30:09.347327"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": 0,
+      "total_jobs": 15,
+      "change_from_last": 2,
       "departments": {
         "other": 5,
+        "marketing": 1,
         "design": 2,
         "operations": 2,
-        "retail": 2,
+        "retail": 3,
         "engineering": 1,
         "finance": 1
       },
       "seniority": {
-        "mid": 4,
-        "lead": 3,
+        "mid": 5,
+        "lead": 4,
         "manager": 3,
         "intern": 1,
         "junior": 2
       },
       "locations": [
-        "New York, New York, United States",
-        "Manchester, England, United Kingdom",
+        "London, England, United Kingdom; Solihull, England, United Kingdom",
         "Solihull, England, United Kingdom",
+        "New York, New York, United States",
         "Amsterdam, North Holland, Netherlands",
+        "Manchester, England, United Kingdom",
         "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
       ],
       "jobs": [
@@ -589,6 +591,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4815344101",
           "posted_at": "2026-03-19T05:39:16-04:00",
           "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "4762303101",
+          "title": "Athlete Marketing Executive - DACH (German Speaking)",
+          "location": "London, England, United Kingdom; Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4762303101",
+          "posted_at": "2026-03-24T10:23:26-04:00",
+          "category": "marketing",
           "seniority": "mid"
         },
         {
@@ -672,6 +684,16 @@
           "seniority": "junior"
         },
         {
+          "id": "4820819101",
+          "title": "Sales Floor Lead - Flagship Store",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4820819101",
+          "posted_at": "2026-03-24T05:49:28-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
           "id": "4813567101",
           "title": "Service Desk Technician (1st Line)",
           "location": "Solihull, England, United Kingdom",
@@ -712,7 +734,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-03-24T05:30:12.017613"
+      "checked_at": "2026-03-25T05:30:11.495839"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -770,48 +792,48 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 267,
-      "change_from_last": -1,
+      "total_jobs": 269,
+      "change_from_last": 2,
       "departments": {
         "other": 49,
         "engineering": 41,
-        "retail": 115,
-        "marketing": 12,
-        "product": 8,
+        "retail": 118,
+        "marketing": 15,
+        "product": 7,
         "executive": 16,
-        "design": 16,
+        "design": 14,
         "hr": 2,
-        "operations": 5,
+        "operations": 4,
         "finance": 3
       },
       "seniority": {
-        "lead": 145,
-        "mid": 69,
+        "lead": 148,
+        "mid": 68,
         "manager": 3,
-        "c-suite": 8,
-        "senior": 42
+        "c-suite": 9,
+        "senior": 41
       },
       "locations": [
-        "D\u00fcsseldorf",
-        "Seoul",
-        "Mexico City",
-        "Stockholm",
-        "Vienna",
-        "New York City",
-        "Austin",
-        "Bicester",
-        "Tianjin",
-        "New York City; Portland",
-        "Shanghai",
-        "London",
-        "Shenzhen",
-        "Miami",
         "Tokyo",
-        "Los Angeles",
-        "San Diego",
-        "Hong Kong; Shanghai",
+        "Miami",
         "Portland; Zurich",
-        "Nairobi; Zurich"
+        "Corte Madera",
+        "Mexico City",
+        "New York City; Portland",
+        "Ho Chi Minh City",
+        "Austin",
+        "Dallas",
+        "Melbourne",
+        "Hanoi; Ho Chi Minh City",
+        "Wuhan",
+        "Nanjing",
+        "San Francisco",
+        "D\u00fcsseldorf",
+        "Paris",
+        "New York City",
+        "Vienna",
+        "Hong Kong",
+        "Munich"
       ],
       "jobs": [
         {
@@ -951,6 +973,26 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7621643?gh_jid=7621643",
           "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7748105",
+          "title": "Associate Store Leader, The Village at Corte Madera",
+          "location": "Corte Madera",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7748105?gh_jid=7748105",
+          "posted_at": "2026-03-25T00:17:22-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7747859",
+          "title": "Associate Store Leader, University Town Center",
+          "location": "San Diego",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7747859?gh_jid=7747859",
+          "posted_at": "2026-03-24T23:58:25-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1105,16 +1147,6 @@
           "seniority": "lead"
         },
         {
-          "id": "4733553",
-          "title": "Head of Apparel & Accessories, AMER",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/4733553?gh_jid=4733553",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "6834769",
           "title": "Head of Compound Engineering - Polymer Science & Engineering",
           "location": "Ho Chi Minh City",
@@ -1145,21 +1177,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7564661",
-          "title": "Head of EMEA Department Store Channel Strategy",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7564602",
           "title": "Head of EMEA Department Store Channel Strategy",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7564602?gh_jid=7564602",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7564661",
+          "title": "Head of EMEA Department Store Channel Strategy",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7564661?gh_jid=7564661",
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "retail",
           "seniority": "lead"
@@ -1182,26 +1214,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7408662?gh_jid=7408662",
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
-          "seniority": "lead"
-        },
-        {
-          "id": "7699103",
-          "title": "Head of Experience Design - AI Lab",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7699103?gh_jid=7699103",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
-          "id": "7589306",
-          "title": "Head of Experience Design - AI Lab",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7589306?gh_jid=7589306",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "design",
           "seniority": "lead"
         },
         {
@@ -1313,10 +1325,20 @@
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "operations",
           "seniority": "lead"
+        },
+        {
+          "id": "7681813",
+          "title": "Innovation Footwear Developer Coordinator (1-year-contractor)",
+          "location": "Ho Chi Minh City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7681813?gh_jid=7681813",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "engineering",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-24T05:30:23.936073"
+      "checked_at": "2026-03-25T05:30:20.817086"
     }
   },
-  "generated_at": "2026-03-24T05:30:25.936256"
+  "generated_at": "2026-03-25T05:30:22.817247"
 }
