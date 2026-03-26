@@ -3,12 +3,12 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 3494,
+      "total": 3497,
       "categories": {
         "bottoms": 1637,
         "tops": 538,
         "outerwear": 489,
-        "other": 510,
+        "other": 513,
         "sports_bras": 105,
         "footwear": 16,
         "accessories": 167,
@@ -20,7 +20,7 @@
         "tanks": 151,
         "tees": 202,
         "leggings": 161,
-        "other": 1021,
+        "other": 1024,
         "pants": 358,
         "pullovers": 6,
         "polos": 50,
@@ -43,18 +43,18 @@
         "fleece": 11
       },
       "genders": {
-        "mens": 1339,
+        "mens": 1341,
         "womens": 1557,
-        "unisex": 598
+        "unisex": 599
       },
       "colors": {
-        "gray": 493,
+        "gray": 494,
         "navy": 96,
         "black": 677,
         "khaki": 171,
         "red": 23,
-        "white": 339,
-        "blue": 443,
+        "white": 340,
+        "blue": 444,
         "green": 188,
         "brown": 158,
         "print": 28,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 86,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 1987
+      "uniqueStyles": 1990
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -165,11 +165,11 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 3156,
+      "total": 3160,
       "categories": {
         "tops": 450,
-        "bottoms": 1007,
-        "outerwear": 374,
+        "bottoms": 1009,
+        "outerwear": 376,
         "sports_bras": 96,
         "accessories": 375,
         "other": 775,
@@ -179,13 +179,13 @@
       "subcategories": {
         "tanks": 136,
         "shorts": 313,
-        "hoodies": 73,
+        "hoodies": 75,
         "other": 1158,
         "medium_support": 9,
         "leggings": 141,
         "polos": 29,
         "socks": 93,
-        "pants": 264,
+        "pants": 266,
         "hats": 81,
         "quarter_zips": 35,
         "pullovers": 22,
@@ -210,8 +210,8 @@
         "sweatpants": 4
       },
       "genders": {
-        "womens": 1222,
-        "mens": 895,
+        "womens": 1224,
+        "mens": 897,
         "unisex": 1039
       },
       "colors": {
@@ -297,24 +297,24 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 6661,
+      "total": 6733,
       "categories": {
-        "bottoms": 2399,
-        "tops": 2111,
-        "other": 463,
+        "bottoms": 2441,
+        "tops": 2119,
+        "other": 469,
         "accessories": 422,
         "outerwear": 744,
-        "sports_bras": 518,
+        "sports_bras": 534,
         "dresses": 4
       },
       "subcategories": {
-        "shorts": 967,
-        "leggings": 539,
+        "shorts": 993,
+        "leggings": 547,
         "crop_tops": 139,
-        "other": 2143,
+        "other": 2157,
         "long_sleeve": 385,
         "socks": 178,
-        "tanks": 564,
+        "tanks": 572,
         "joggers": 462,
         "hoodies": 430,
         "jackets": 150,
@@ -327,37 +327,37 @@
         "headwear": 22,
         "polos": 18,
         "hats": 76,
-        "low_support": 16,
+        "low_support": 26,
         "fleece": 2,
         "casual_dress": 4,
         "skirts": 2,
         "vests": 12,
-        "medium_support": 6
+        "medium_support": 12
       },
       "genders": {
-        "unisex": 3017,
-        "womens": 2197,
-        "mens": 1447
+        "unisex": 3027,
+        "womens": 2255,
+        "mens": 1451
       },
       "colors": {
         "green": 343,
-        "pink": 396,
-        "black": 1643,
+        "pink": 422,
+        "black": 1659,
         "white": 484,
         "navy": 60,
         "gray": 811,
         "brown": 496,
-        "blue": 1032,
-        "red": 221,
-        "purple": 317,
+        "blue": 1048,
+        "red": 223,
+        "purple": 319,
         "yellow": 32,
-        "orange": 8,
+        "orange": 14,
         "khaki": 2,
         "print": 14
       },
       "colorCoverage": 88,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 1782
+      "uniqueStyles": 1797
     },
     "on_running": {
       "name": "On Running",
@@ -428,7 +428,7 @@
     }
   },
   "totals": {
-    "products": 27491,
+    "products": 27570,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
@@ -436,9 +436,449 @@
   "recentLaunches": [
     {
       "date": "2026-03-25",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 72,
+      "products": [
+        {
+          "name": "gymshark lifting mesh 5 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-mesh-5-shorts-shorts",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-black-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless medium support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-medium-support-sports-bra-sports-bras-black-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-black-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-legging-leggings-black-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-legging-leggings-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras electric",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-electric-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-red-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-light-pink-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts stealth",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-stealth-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-orange-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops reset",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-reset-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless medium support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-medium-support-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-black-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops electric",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-electric-pink-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless medium support sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-medium-support-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-shorts-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-black-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-legging-leggings-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless shrug ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-shrug-ls-tops-black-ss26",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless shrug ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-shrug-ls-tops-pink-ss26",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops electric",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-electric-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings electric",
+          "url": "https://www.gymshark.com/products/gymshark-interval-seamless-legging-leggings-electric-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-high-leg-shorts-shorts-pink-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts ss26 b6b3l kb01",
+          "url": "https://www.gymshark.com/products/gymshark-interval-high-leg-shorts-shorts-pink-ss26-b6b3l-kb01",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-high-leg-shorts-shorts-black-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-high-leg-shorts-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-interval-high-leg-shorts-shorts-orange-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting mesh 5 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-mesh-5-shorts-shorts",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-black-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless medium support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-medium-support-sports-bra-sports-bras-black-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-black-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-legging-leggings-black-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-legging-leggings-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras electric",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-electric-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-red-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-light-pink-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts stealth",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-stealth-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-orange-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops reset",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-reset-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless medium support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-medium-support-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless light support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-light-support-sports-bra-sports-bras-black-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops electric",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-electric-pink-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless medium support sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-medium-support-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-shorts-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless midi tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-midi-tank-sleeveless-tops-black-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-legging-leggings-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless shrug ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-shrug-ls-tops-black-ss26",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless shrug ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-shrug-ls-tops-pink-ss26",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless short sleeve crop top ss tops electric",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-short-sleeve-crop-top-ss-tops-electric-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval seamless legging leggings electric",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-seamless-legging-leggings-electric-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-high-leg-shorts-shorts-pink-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts ss26 b6b3l kb01",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-high-leg-shorts-shorts-pink-ss26-b6b3l-kb01",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-high-leg-shorts-shorts-black-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-high-leg-shorts-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark interval high leg shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-interval-high-leg-shorts-shorts-orange-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark power backpack bags",
+          "url": "https://www.gymshark.com/products/gymshark-power-backpack-bags",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark power backpack bags",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-backpack-bags",
+          "category": "other",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
       "brand": "Vuori",
       "brandSlug": "vuori",
-      "count": 21,
+      "count": 24,
       "products": [
         {
           "name": "banks session short unlined 7",
@@ -564,6 +1004,56 @@
           "name": "renew trainer shell hyacinth",
           "url": "https://vuoriclothing.com/products/womens-renew-trainer-shell-hyacinth",
           "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "halo insulated blanket",
+          "url": "https://vuoriclothing.com/products/halo-insulated-blanket-ecru-heather",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "knox boardshort bloomblur",
+          "url": "https://vuoriclothing.com/products/knox-boardshort-smoke-bloomblur",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "knox boardshort rainforest",
+          "url": "https://vuoriclothing.com/products/knox-boardshort-rainforest-agate",
+          "category": "other",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 4,
+      "products": [
+        {
+          "name": "team canada steady state pullover hoodie coc",
+          "url": "https://shop.lululemon.com/p/mens-jackets-and-hoodies-hoodies/Team-Canada-Steady-State-Pullover-Hoodie-COC-Logo/_/prod20005447",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "team canada steady state pullover hoodie coc logo md",
+          "url": "https://shop.lululemon.com/p/mens-jackets-and-hoodies-hoodies/Team-Canada-Steady-State-Pullover-Hoodie-COC-Logo-MD/_/prod20005446",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "dance studio relaxed fit mid rise cropped pant md",
+          "url": "https://shop.lululemon.com/p/women-pants/Dance-Studio-Relaxed-Fit-Mid-Rise-Cropped-Pant-MD/_/prod20005422",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "dance studio relaxed fit mid rise cropped pant",
+          "url": "https://shop.lululemon.com/p/women-pants/Dance-Studio-Relaxed-Fit-Mid-Rise-Cropped-Pant/_/prod20005423",
+          "category": "bottoms",
           "gender": "womens"
         }
       ]
@@ -5328,7 +5818,7 @@
       "2026-03-18": 2,
       "2026-03-19": 1,
       "2026-03-24": 174,
-      "2026-03-25": 21
+      "2026-03-25": 24
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -5359,7 +5849,8 @@
       "2026-03-18": 10,
       "2026-03-19": 248,
       "2026-03-20": 14,
-      "2026-03-24": 34
+      "2026-03-24": 34,
+      "2026-03-25": 4
     },
     "alo": {
       "2026-02-03": 3396,
@@ -5442,7 +5933,8 @@
       "2026-03-19": 8,
       "2026-03-20": 5,
       "2026-03-23": 4,
-      "2026-03-24": 2
+      "2026-03-24": 2,
+      "2026-03-25": 72
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5455,9 +5947,9 @@
       "vuori": 1637,
       "outdoor_voices": 181,
       "tenthousand": 47,
-      "lululemon": 1007,
+      "lululemon": 1009,
       "alo": 1638,
-      "gymshark": 2399,
+      "gymshark": 2441,
       "on_running": 1554
     },
     "tops": {
@@ -5466,25 +5958,25 @@
       "tenthousand": 33,
       "lululemon": 450,
       "alo": 503,
-      "gymshark": 2111,
+      "gymshark": 2119,
       "on_running": 614
     },
     "outerwear": {
       "vuori": 489,
       "outdoor_voices": 29,
       "tenthousand": 18,
-      "lululemon": 374,
+      "lululemon": 376,
       "alo": 619,
       "gymshark": 744,
       "on_running": 853
     },
     "other": {
-      "vuori": 510,
+      "vuori": 513,
       "outdoor_voices": 42,
       "tenthousand": 10,
       "lululemon": 775,
       "alo": 740,
-      "gymshark": 463,
+      "gymshark": 469,
       "on_running": 2708
     },
     "sports_bras": {
@@ -5492,7 +5984,7 @@
       "outdoor_voices": 29,
       "lululemon": 96,
       "alo": 291,
-      "gymshark": 518,
+      "gymshark": 534,
       "on_running": 172
     },
     "footwear": {
@@ -5534,7 +6026,7 @@
       "tenthousand": 26,
       "lululemon": 313,
       "alo": 377,
-      "gymshark": 967,
+      "gymshark": 993,
       "on_running": 677
     },
     "tanks": {
@@ -5543,7 +6035,7 @@
       "tenthousand": 4,
       "lululemon": 136,
       "alo": 232,
-      "gymshark": 564,
+      "gymshark": 572,
       "on_running": 283
     },
     "tees": {
@@ -5560,23 +6052,23 @@
       "tenthousand": 3,
       "lululemon": 141,
       "alo": 327,
-      "gymshark": 539,
+      "gymshark": 547,
       "on_running": 391
     },
     "other": {
-      "vuori": 1021,
+      "vuori": 1024,
       "outdoor_voices": 128,
       "tenthousand": 28,
       "lululemon": 1158,
       "alo": 1509,
-      "gymshark": 2143,
+      "gymshark": 2157,
       "on_running": 3051
     },
     "pants": {
       "vuori": 358,
       "outdoor_voices": 39,
       "tenthousand": 13,
-      "lululemon": 264,
+      "lululemon": 266,
       "alo": 239,
       "gymshark": 240,
       "on_running": 387
@@ -5621,7 +6113,7 @@
       "vuori": 187,
       "outdoor_voices": 7,
       "tenthousand": 8,
-      "lululemon": 73,
+      "lululemon": 75,
       "alo": 211,
       "gymshark": 430,
       "on_running": 307
@@ -5721,7 +6213,7 @@
     },
     "medium_support": {
       "lululemon": 9,
-      "gymshark": 6
+      "gymshark": 12
     },
     "running": {
       "lululemon": 23,
@@ -5735,7 +6227,7 @@
     },
     "low_support": {
       "lululemon": 19,
-      "gymshark": 16
+      "gymshark": 26
     },
     "high_support": {
       "lululemon": 3,
@@ -5751,7 +6243,7 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 493,
+      "vuori": 494,
       "outdoor_voices": 26,
       "alo": 482,
       "gymshark": 811,
@@ -5768,7 +6260,7 @@
       "vuori": 677,
       "outdoor_voices": 59,
       "alo": 955,
-      "gymshark": 1643,
+      "gymshark": 1659,
       "on_running": 1492
     },
     "khaki": {
@@ -5782,21 +6274,21 @@
       "vuori": 23,
       "lululemon": 2,
       "alo": 192,
-      "gymshark": 221,
+      "gymshark": 223,
       "on_running": 218
     },
     "white": {
-      "vuori": 339,
+      "vuori": 340,
       "outdoor_voices": 17,
       "alo": 832,
       "gymshark": 484,
       "on_running": 1444
     },
     "blue": {
-      "vuori": 443,
+      "vuori": 444,
       "outdoor_voices": 22,
       "alo": 178,
-      "gymshark": 1032,
+      "gymshark": 1048,
       "on_running": 780
     },
     "green": {
@@ -5829,14 +6321,14 @@
       "vuori": 96,
       "outdoor_voices": 8,
       "alo": 38,
-      "gymshark": 317,
+      "gymshark": 319,
       "on_running": 181
     },
     "orange": {
       "vuori": 17,
       "outdoor_voices": 2,
       "alo": 2,
-      "gymshark": 8,
+      "gymshark": 14,
       "on_running": 79
     },
     "yellow": {
@@ -5851,7 +6343,7 @@
       "vuori": 46,
       "outdoor_voices": 7,
       "alo": 220,
-      "gymshark": 396,
+      "gymshark": 422,
       "on_running": 184
     },
     "multi": {
@@ -5883,11 +6375,11 @@
     },
     {
       "brand": "Gymshark",
-      "bottoms": 36,
-      "tops": 31.7,
-      "outerwear": 11.2,
+      "bottoms": 36.3,
+      "tops": 31.5,
+      "outerwear": 11.1,
       "dresses": 0.1,
-      "sports_bras": 7.8,
+      "sports_bras": 7.9,
       "accessories": 6.3,
       "other": 7
     },
@@ -5903,23 +6395,23 @@
     },
     {
       "brand": "Vuori",
-      "bottoms": 46.9,
+      "bottoms": 46.8,
       "tops": 15.4,
       "outerwear": 14,
       "dresses": 0.9,
       "sports_bras": 3,
       "accessories": 4.8,
-      "other": 14.6
+      "other": 14.7
     },
     {
       "brand": "Lululemon",
       "bottoms": 31.9,
-      "tops": 14.3,
+      "tops": 14.2,
       "outerwear": 11.9,
       "dresses": 1.2,
       "sports_bras": 3,
       "accessories": 11.9,
-      "other": 24.6
+      "other": 24.5
     },
     {
       "brand": "Outdoor Voices",
@@ -5962,17 +6454,17 @@
     },
     {
       "brand": "Gymshark",
-      "black": 24.7,
-      "white": 7.3,
-      "gray": 12.2,
+      "black": 24.6,
+      "white": 7.2,
+      "gray": 12,
       "navy": 0.9,
-      "blue": 15.5,
+      "blue": 15.6,
       "green": 5.1,
       "khaki": 0,
       "brown": 7.4,
-      "purple": 4.8,
-      "pink": 5.9,
-      "orange": 0.1,
+      "purple": 4.7,
+      "pink": 6.3,
+      "orange": 0.2,
       "red": 3.3,
       "yellow": 0.5,
       "other": 0.2
@@ -6093,25 +6585,25 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1339,
-      "text": "Vuori leads Lululemon in men's: 1339 vs 895 products. A 50% advantage."
+      "value": 1341,
+      "text": "Vuori leads Lululemon in men's: 1341 vs 897 products. A 49% advantage."
     },
     {
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
       "value": 561,
-      "text": "Vuori ranks #3 in shorts with 561 products. Behind Gymshark (967)."
+      "text": "Vuori ranks #3 in shorts with 561 products. Behind Gymshark (993)."
     },
     {
       "type": "comparison",
       "metric": "outerwear",
-      "text": "Outerwear depth: Vuori has 489 products vs Lululemon's 374. Key for cooler weather expansion."
+      "text": "Outerwear depth: Vuori has 489 products vs Lululemon's 376. Key for cooler weather expansion."
     },
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 23,997 competitor products tracked. Vuori's 3,494 = 13% share of tracked catalog."
+      "text": "Market context: 24,073 competitor products tracked. Vuori's 3,497 = 13% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6139,6 +6631,11 @@
         "comparison": "On Running has 2.6"
       },
       {
+        "metric": "Medium Support",
+        "value": "0 products",
+        "comparison": "Competitors have 21 products"
+      },
+      {
         "metric": "Running",
         "value": "0 products",
         "comparison": "Competitors have 2620 products"
@@ -6147,11 +6644,6 @@
         "metric": "Bralette",
         "value": "0 products",
         "comparison": "Competitors have 65 products"
-      },
-      {
-        "metric": "Low Support",
-        "value": "0 products",
-        "comparison": "Competitors have 35 products"
       }
     ],
     "alerts": [
@@ -6186,7 +6678,7 @@
       {
         "category": "Hoodies",
         "vuori": 187,
-        "competitor": 73,
+        "competitor": 75,
         "winner": "vuori"
       },
       {
@@ -6203,14 +6695,14 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1339,
-        "competitor": 895,
+        "vuori": 1341,
+        "competitor": 897,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
         "vuori": 1557,
-        "competitor": 1222,
+        "competitor": 1224,
         "winner": "vuori"
       }
     ],
@@ -6253,7 +6745,7 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1339,
+        "vuori": 1341,
         "competitor": 954,
         "winner": "vuori"
       },
@@ -6265,5 +6757,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-25T13:15:13.045Z"
+  "generated_at": "2026-03-26T13:15:26.952Z"
 }
