@@ -8,6 +8,7 @@ const navItems = [
   { href: '/', label: 'Overview' },
   { href: '/briefs', label: 'Daily Brief' },
   { href: '/meta', label: 'Brief Analysis' },
+  { href: '/trends', label: 'Trends' },
   { href: '/vuori', label: 'Vuori Scorecard' },
   { href: '/launches', label: 'Launches' },
   { href: '/inventory', label: 'Inventory' },
