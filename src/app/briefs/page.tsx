@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Card, Text } from '@tremor/react';
-import { supabase, IntelBrief } from '@/lib/supabase';
+import { getSupabase, IntelBrief } from '@/lib/supabase';
 
 function formatDate(dateStr: string) {
   const date = new Date(dateStr + 'T00:00:00');
@@ -80,7 +80,7 @@ export default function BriefsPage() {
 
   useEffect(() => {
     async function fetchBriefs() {
-      const { data, error } = await supabase
+      const { data, error } = await getSupabase()
         .from('ai_intel_briefs')
         .select('id, date, generated_at, article_count, companies, threats, trends, product_velocity, social_buzz, comebacks, actions')
         .order('date', { ascending: false });
