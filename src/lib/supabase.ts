@@ -1,4 +1,4 @@
-// Supabase client for ai_intel_briefs and other ai_ prefixed tables
+// Supabase client for ai_intel_briefs and other ai_ prefixed tables (ValleySomm project)
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
