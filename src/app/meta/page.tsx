@@ -64,26 +64,54 @@ function BulletList({ content, accent }: { content: string; accent: string }) {
 function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
   const [filterBrand, setFilterBrand] = useState<string>('all');
   const [filterStatus, setFilterStatus] = useState<string>('all');
+  const [filterType, setFilterType] = useState<string>('all');
+
+  const assessed = useMemo(() =>
+    claims.filter(c => ['confirmed', 'partially_confirmed', 'not_confirmed'].includes(c.outcome_status)),
+    [claims]
+  );
+
+  const calcRate = (items: BriefClaim[]) => {
+    const a = items.filter(c => ['confirmed', 'partially_confirmed', 'not_confirmed'].includes(c.outcome_status));
+    if (a.length === 0) return { rate: 0, confirmed: 0, assessed: 0 };
+    const confirmed = a.filter(c => c.outcome_status === 'confirmed' || c.outcome_status === 'partially_confirmed').length;
+    return { rate: Math.round((confirmed / a.length) * 100), confirmed, assessed: a.length };
+  };
+
+  // Lead time buckets
+  const leadTimeBuckets = useMemo(() => {
+    const all = calcRate(claims);
+    const d5 = calcRate(claims.filter(c => (c.days_to_outcome || 0) >= 5));
+    const d7 = calcRate(claims.filter(c => (c.days_to_outcome || 0) >= 7));
+    return { all, d5, d7 };
+  }, [claims]);
+
+  // By claim type
+  const typeBreakdown = useMemo(() => {
+    const types = ['recommendation', 'warning', 'observation', 'prediction'];
+    return types.map(type => {
+      const subset = claims.filter(c => c.claim_type === type);
+      const stats = calcRate(subset);
+      const d5 = calcRate(subset.filter(c => (c.days_to_outcome || 0) >= 5));
+      const d7 = calcRate(subset.filter(c => (c.days_to_outcome || 0) >= 7));
+      return { type, total: subset.length, ...stats, d5, d7 };
+    }).filter(t => t.total > 0);
+  }, [claims]);
+
+  // By section
+  const sectionBreakdown = useMemo(() => {
+    return ['actions', 'threats'].map(section => {
+      const subset = claims.filter(c => c.section === section);
+      const stats = calcRate(subset);
+      const d5 = calcRate(subset.filter(c => (c.days_to_outcome || 0) >= 5));
+      return { section, total: subset.length, ...stats, d5 };
+    });
+  }, [claims]);
 
   const statusCounts = useMemo(() => {
     const counts: Record<string, number> = {};
-    claims.forEach(c => {
-      counts[c.outcome_status] = (counts[c.outcome_status] || 0) + 1;
-    });
+    claims.forEach(c => { counts[c.outcome_status] = (counts[c.outcome_status] || 0) + 1; });
     return counts;
-  }, [claims]);
-
-  const confirmationRate = useMemo(() => {
-    const assessed = claims.filter(c => ['confirmed', 'partially_confirmed', 'not_confirmed'].includes(c.outcome_status));
-    if (assessed.length === 0) return 0;
-    const confirmed = assessed.filter(c => c.outcome_status === 'confirmed' || c.outcome_status === 'partially_confirmed');
-    return Math.round((confirmed.length / assessed.length) * 100);
-  }, [claims]);
-
-  const avgLeadTime = useMemo(() => {
-    const withDays = claims.filter(c => c.days_to_outcome && c.days_to_outcome > 0);
-    if (withDays.length === 0) return 0;
-    return Math.round(withDays.reduce((sum, c) => sum + (c.days_to_outcome || 0), 0) / withDays.length);
   }, [claims]);
 
   const donutData = useMemo(() => {
@@ -97,12 +125,18 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
     return claims.filter(c => {
       if (filterBrand !== 'all' && c.subject_brand !== filterBrand) return false;
       if (filterStatus !== 'all' && c.outcome_status !== filterStatus) return false;
+      if (filterType !== 'all' && c.claim_type !== filterType) return false;
       return true;
     });
-  }, [claims, filterBrand, filterStatus]);
+  }, [claims, filterBrand, filterStatus, filterType]);
 
   const brands = useMemo(() => {
     const set = new Set(claims.map(c => c.subject_brand).filter(Boolean) as string[]);
+    return Array.from(set).sort();
+  }, [claims]);
+
+  const claimTypes = useMemo(() => {
+    const set = new Set(claims.map(c => c.claim_type).filter(Boolean));
     return Array.from(set).sort();
   }, [claims]);
 
@@ -113,27 +147,61 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
           <Text className="text-socal-stone-400">Total Claims</Text>
           <Metric className="text-socal-stone-800">{claims.length}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Extracted from 58 briefs</Text>
+          <Text className="text-xs text-socal-stone-400 mt-1">{assessed.length} assessed</Text>
         </Card>
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Confirmation Rate</Text>
-          <Metric className="text-socal-ocean-600">{confirmationRate}%</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Confirmed or partially confirmed</Text>
+          <Text className="text-socal-stone-400">Overall Rate</Text>
+          <Metric className="text-socal-ocean-600">{leadTimeBuckets.all.rate}%</Metric>
+          <Text className="text-xs text-socal-stone-400 mt-1">All lead times</Text>
         </Card>
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Avg Lead Time</Text>
-          <Metric className="text-socal-stone-800">{avgLeadTime}d</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Days to confirmation</Text>
+          <Text className="text-socal-stone-400">5+ Day Rate</Text>
+          <Metric className="text-socal-sage-700">{leadTimeBuckets.d5.rate}%</Metric>
+          <Text className="text-xs text-socal-stone-400 mt-1">{leadTimeBuckets.d5.confirmed} of {leadTimeBuckets.d5.assessed} confirmed</Text>
         </Card>
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Pending</Text>
-          <Metric className="text-socal-stone-800">{statusCounts['pending'] || 0}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Awaiting assessment</Text>
+          <Text className="text-socal-stone-400">7+ Day Rate</Text>
+          <Metric className="text-socal-sage-700">{leadTimeBuckets.d7.rate}%</Metric>
+          <Text className="text-xs text-socal-stone-400 mt-1">{leadTimeBuckets.d7.confirmed} of {leadTimeBuckets.d7.assessed} confirmed</Text>
         </Card>
       </div>
 
-      {/* Donut + breakdown */}
+      {/* Lead Time + Type Breakdown */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* By Claim Type */}
+        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">By Claim Type</h3>
+          <div className="space-y-4">
+            {typeBreakdown.map(t => (
+              <div key={t.type} className="border-b border-socal-sand-50 pb-3 last:border-0">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-sm font-medium text-socal-stone-700 capitalize">{t.type}s</span>
+                  <span className="text-sm text-socal-stone-500">{t.total} claims</span>
+                </div>
+                <div className="grid grid-cols-3 gap-2 text-xs">
+                  <div className="bg-socal-sand-50 rounded px-2 py-1.5">
+                    <span className="text-socal-stone-400">All: </span>
+                    <span className="font-semibold text-socal-stone-700">{t.rate}%</span>
+                  </div>
+                  <div className="bg-socal-sand-50 rounded px-2 py-1.5">
+                    <span className="text-socal-stone-400">5d+: </span>
+                    <span className="font-semibold text-socal-stone-700">
+                      {t.d5.assessed > 0 ? `${t.d5.rate}%` : '--'}
+                    </span>
+                  </div>
+                  <div className="bg-socal-sand-50 rounded px-2 py-1.5">
+                    <span className="text-socal-stone-400">7d+: </span>
+                    <span className="font-semibold text-socal-stone-700">
+                      {t.d7.assessed > 0 ? `${t.d7.rate}%` : '--'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Card>
+
+        {/* Outcome Distribution */}
         <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
           <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">Outcome Distribution</h3>
           <DonutChart
@@ -141,18 +209,13 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
             category="value"
             index="name"
             colors={['emerald', 'cyan', 'rose', 'amber', 'gray']}
-            className="h-52"
+            className="h-48"
             showAnimation
           />
-        </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">By Status</h3>
-          <div className="space-y-3 mt-4">
+          <div className="space-y-2 mt-4">
             {Object.entries(STATUS_LABELS).map(([key, label]) => (
               <div key={key} className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <Badge color={STATUS_COLORS[key]}>{label}</Badge>
-                </div>
+                <Badge color={STATUS_COLORS[key]} size="xs">{label}</Badge>
                 <span className="text-sm font-medium text-socal-stone-700">{statusCounts[key] || 0}</span>
               </div>
             ))}
@@ -160,10 +223,48 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
         </Card>
       </div>
 
+      {/* By Section */}
+      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">By Section</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {sectionBreakdown.map(s => (
+            <div key={s.section} className="p-4 bg-socal-sand-50 rounded-xl">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-sm font-semibold text-socal-stone-800 capitalize">{s.section}</span>
+                <span className="text-xs text-socal-stone-400">{s.total} claims</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <div>
+                  <p className="text-2xl font-bold text-socal-ocean-600">{s.rate}%</p>
+                  <p className="text-xs text-socal-stone-400">all lead times</p>
+                </div>
+                <div className="w-px h-10 bg-socal-sand-200" />
+                <div>
+                  <p className="text-2xl font-bold text-socal-sage-700">
+                    {s.d5.assessed > 0 ? `${s.d5.rate}%` : '--'}
+                  </p>
+                  <p className="text-xs text-socal-stone-400">5+ day lead time</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Card>
+
       {/* Filters + Claim List */}
       <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
         <div className="flex flex-wrap items-center gap-3 mb-6">
           <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider">Claims</h3>
+          <select
+            value={filterType}
+            onChange={(e) => setFilterType(e.target.value)}
+            className="text-sm border border-socal-sand-200 rounded-lg px-3 py-1.5 text-socal-stone-600 bg-white"
+          >
+            <option value="all">All Types</option>
+            {claimTypes.map(t => (
+              <option key={t} value={t}>{t.charAt(0).toUpperCase() + t.slice(1)}</option>
+            ))}
+          </select>
           <select
             value={filterBrand}
             onChange={(e) => setFilterBrand(e.target.value)}
