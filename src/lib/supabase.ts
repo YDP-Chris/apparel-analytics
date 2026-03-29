@@ -30,3 +30,54 @@ export interface IntelBrief {
   comebacks: string | null;
   actions: string | null;
 }
+
+export interface BriefClaim {
+  id: number;
+  brief_date: string;
+  section: string;
+  claim_text: string;
+  claim_type: string;
+  subject_brand: string | null;
+  subject_category: string | null;
+  keywords: string[];
+  outcome_status: string;
+  outcome_evidence: string | null;
+  outcome_date: string | null;
+  days_to_outcome: number | null;
+}
+
+export interface TrendTimeline {
+  id: number;
+  keyword: string;
+  keyword_type: string;
+  first_mention_date: string;
+  mention_count: number;
+  mention_dates: string[];
+  initial_search_value: number | null;
+  peak_search_value: number | null;
+  search_growth_pct: number | null;
+  lead_time_days: number | null;
+}
+
+export interface BrandMention {
+  id: number;
+  brief_date: string;
+  brand_id: string;
+  section: string;
+  sentiment: string;
+  context_snippet: string;
+}
+
+export interface BriefRollup {
+  id: number;
+  period_type: string;
+  period_start: string;
+  period_end: string;
+  brief_count: number;
+  article_count_total: number;
+  executive_summary: string | null;
+  top_threats: string | null;
+  key_trends: string | null;
+  notable_launches: string | null;
+  recommended_actions: string | null;
+}
