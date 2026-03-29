@@ -761,11 +761,13 @@ export default function MetaAnalysisPage() {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 border-b border-socal-sand-200 overflow-x-auto">
+      <div className="flex gap-1 border-b border-socal-sand-200 overflow-x-auto" role="tablist">
         {TABS.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
+            role="tab"
+            aria-selected={activeTab === tab.id}
             className={`px-4 py-3 text-sm font-medium transition-all whitespace-nowrap ${
               activeTab === tab.id
                 ? 'text-socal-ocean-700 border-b-2 border-socal-ocean-500'

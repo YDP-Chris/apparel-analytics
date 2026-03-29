@@ -64,6 +64,8 @@ export default function ColorsPage() {
                     isTopThree ? 'ring-2 ring-socal-ocean-200 ring-offset-2' : ''
                   }`}
                   style={{ backgroundColor: COLOR_FAMILY_COLORS[color] || '#6b7280' }}
+                  role="img"
+                  aria-label={`${formatColor(color)}: ${count.toLocaleString()} products (${pct}%)`}
                 />
                 <span className="text-sm font-medium text-socal-stone-700 mt-2">{formatColor(color)}</span>
                 <span className="text-xs text-socal-stone-400">{count.toLocaleString()}</span>
