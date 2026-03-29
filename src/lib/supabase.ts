@@ -1,3 +1,4 @@
+// Supabase client for ai_intel_briefs and other ai_ prefixed tables
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
