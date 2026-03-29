@@ -600,22 +600,30 @@ export default function MetaAnalysisPage() {
   const [mentions, setMentions] = useState<BrandMention[]>([]);
   const [rollups, setRollups] = useState<BriefRollup[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [briefCount, setBriefCount] = useState(0);
 
   useEffect(() => {
     async function fetchData() {
-      const sb = getSupabase();
+      try {
+        const sb = getSupabase();
 
-      const [claimsRes, trendsRes, mentionsRes, rollupsRes] = await Promise.all([
-        sb.from('ai_brief_claims').select('*').order('brief_date', { ascending: false }),
-        sb.from('ai_brief_trends_timeline').select('*').order('mention_count', { ascending: false }),
-        sb.from('ai_brief_brand_mentions').select('*').order('brief_date', { ascending: false }),
-        sb.from('ai_brief_rollups').select('*').order('period_start', { ascending: false }),
-      ]);
+        const [claimsRes, trendsRes, mentionsRes, rollupsRes, briefsRes] = await Promise.all([
+          sb.from('ai_brief_claims').select('*').order('brief_date', { ascending: false }),
+          sb.from('ai_brief_trends_timeline').select('*').order('mention_count', { ascending: false }),
+          sb.from('ai_brief_brand_mentions').select('*').order('brief_date', { ascending: false }),
+          sb.from('ai_brief_rollups').select('*').order('period_start', { ascending: false }),
+          sb.from('ai_intel_briefs').select('id', { count: 'exact', head: true }),
+        ]);
 
-      setClaims(claimsRes.data || []);
-      setTrends(trendsRes.data || []);
-      setMentions(mentionsRes.data || []);
-      setRollups(rollupsRes.data || []);
+        setClaims(claimsRes.data || []);
+        setTrends(trendsRes.data || []);
+        setMentions(mentionsRes.data || []);
+        setRollups(rollupsRes.data || []);
+        setBriefCount(briefsRes.count || 0);
+      } catch {
+        setError('Unable to connect to the database.');
+      }
       setLoading(false);
     }
 
@@ -630,6 +638,14 @@ export default function MetaAnalysisPage() {
     );
   }
 
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-[50vh]">
+        <div className="text-socal-sunset-600 text-sm">{error}</div>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-8">
       {/* Header */}
@@ -638,7 +654,7 @@ export default function MetaAnalysisPage() {
           Brief Analysis
         </h1>
         <p className="mt-2 text-socal-stone-500 max-w-2xl">
-          Meta-analysis of {claims.length} extracted claims across 58+ daily intelligence briefs.
+          Meta-analysis of {claims.length} extracted claims across {briefCount} daily intelligence briefs.
           Tracking prediction accuracy, trend lead times, and competitive themes.
         </p>
       </div>

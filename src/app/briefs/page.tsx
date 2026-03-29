@@ -77,23 +77,28 @@ export default function BriefsPage() {
   const [briefs, setBriefs] = useState<IntelBrief[]>([]);
   const [selectedBrief, setSelectedBrief] = useState<IntelBrief | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     async function fetchBriefs() {
-      const { data, error } = await getSupabase()
-        .from('ai_intel_briefs')
-        .select('id, date, generated_at, article_count, companies, threats, trends, product_velocity, social_buzz, comebacks, actions')
-        .order('date', { ascending: false });
+      try {
+        const { data, error: fetchError } = await getSupabase()
+          .from('ai_intel_briefs')
+          .select('id, date, generated_at, article_count, companies, threats, trends, product_velocity, social_buzz, comebacks, actions')
+          .order('date', { ascending: false });
 
-      if (error) {
-        console.error('Error fetching briefs:', error);
-        setLoading(false);
-        return;
-      }
+        if (fetchError) {
+          setError('Failed to load briefs. Please try again later.');
+          setLoading(false);
+          return;
+        }
 
-      setBriefs(data || []);
-      if (data && data.length > 0) {
-        setSelectedBrief(data[0]);
+        setBriefs(data || []);
+        if (data && data.length > 0) {
+          setSelectedBrief(data[0]);
+        }
+      } catch {
+        setError('Unable to connect to the database.');
       }
       setLoading(false);
     }
@@ -105,6 +110,14 @@ export default function BriefsPage() {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
         <div className="text-socal-stone-400 text-sm">Loading intelligence briefs...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-[50vh]">
+        <div className="text-socal-sunset-600 text-sm">{error}</div>
       </div>
     );
   }
