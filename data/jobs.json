@@ -11,9 +11,9 @@
         "design": 75,
         "finance": 8,
         "other": 111,
-        "retail": 197,
+        "retail": 196,
         "marketing": 15,
-        "executive": 14,
+        "executive": 15,
         "product": 6,
         "hr": 8
       },
@@ -28,26 +28,26 @@
         "vp": 1
       },
       "locations": [
-        "Dublin, Dublin, Ireland",
-        "Beverly Hills, California, United States; San Ramon, California, United States",
-        "Cincinnati, OH",
-        "Remote",
+        "Schaumburg, IL",
+        "Detroit, Michigan, United States",
+        "Alys Beach, Florida, United States",
+        "Vancouver, British Columbia, Canada",
+        "Netherlands",
+        "Des Moines, Iowa, United States",
+        "Burlingame, California, United States",
+        "Palo Alto, California, United States",
+        "East Rutherford, New Jersey, United States",
+        "San Ramon, California, United States",
+        "Etobicoke, Ontario, Canada",
         "Murray, UT",
+        "Albuquerque, New Mexico, United States",
+        "Cincinnati, OH",
+        "Lexington, Kentucky, United States",
+        "Venice, California, United States",
+        "Houston, TX",
+        "Leeds, England, United Kingdom",
         "West Hartford, CT",
-        "Palm Desert, California, United States",
-        "Chicago, Illinois, United States",
-        "Kansas City, Missouri, United States",
-        "Princeton, New Jersey, United States",
-        "Nashville, TN",
-        "Canoga Park, California, United States",
-        "St. Louis, MO",
-        "Hong Kong",
-        "Dallas",
-        "Oklahoma City, Oklahoma, United States",
-        "Metairie, Louisiana",
-        "Minnetonka, Minnesota, United States",
-        "Pasadena, California, United States",
-        "Detroit, Michigan, United States"
+        "Minnetonka, Minnesota, United States"
       ],
       "jobs": [
         {
@@ -461,21 +461,21 @@
           "seniority": "intern"
         },
         {
-          "id": "5789987004",
-          "title": "Data Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
-          "posted_at": "2026-03-25T17:45:44-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789977004",
           "title": "Data Engineering Intern",
           "location": "Beverly Hills, California, United States; San Ramon, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5789977004?gh_jid=5789977004",
+          "posted_at": "2026-03-25T17:45:44-04:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5789987004",
+          "title": "Data Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
           "posted_at": "2026-03-25T17:45:44-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -551,47 +551,37 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-03-29T05:30:07.160715"
+      "checked_at": "2026-03-30T05:30:07.476906"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 14,
-      "change_from_last": 0,
+      "total_jobs": 13,
+      "change_from_last": -1,
       "departments": {
-        "other": 5,
         "marketing": 1,
         "design": 2,
         "operations": 2,
+        "other": 4,
         "engineering": 1,
         "retail": 3
       },
       "seniority": {
-        "mid": 5,
+        "mid": 4,
         "lead": 4,
         "manager": 2,
         "intern": 1,
         "junior": 2
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
-        "Solihull, England, United Kingdom",
-        "London, England, United Kingdom; Solihull, England, United Kingdom",
-        "New York, New York, United States",
         "Manchester, England, United Kingdom",
-        "Solihull, England, United Kingdom; Solihull, England, United Kingdom"
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "Amsterdam, North Holland, Netherlands",
+        "New York, New York, United States",
+        "London, England, United Kingdom; Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
-        {
-          "id": "4808970101",
-          "title": "Accounts Payable Executive",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4808970101",
-          "posted_at": "2026-03-27T12:56:54-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
         {
           "id": "4762303101",
           "title": "Athlete Marketing Executive - DACH (German Speaking)",
@@ -723,7 +713,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-03-29T05:30:12.082476"
+      "checked_at": "2026-03-30T05:30:09.639682"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -781,60 +771,50 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 276,
-      "change_from_last": 0,
+      "total_jobs": 275,
+      "change_from_last": -1,
       "departments": {
-        "other": 50,
         "engineering": 44,
+        "other": 49,
         "retail": 122,
-        "marketing": 15,
+        "marketing": 16,
         "product": 5,
         "executive": 16,
-        "design": 14,
+        "design": 13,
         "operations": 5,
         "finance": 3,
         "hr": 2
       },
       "seniority": {
-        "lead": 149,
         "mid": 69,
+        "lead": 148,
         "manager": 4,
-        "c-suite": 9,
-        "senior": 45
+        "c-suite": 10,
+        "senior": 44
       },
       "locations": [
-        "Ho Chi Minh City",
-        "Guangzhou",
-        "Portland; Zurich",
-        "New York City",
-        "Tianjin",
-        "Wuhan",
-        "Auckland",
-        "D\u00fcsseldorf",
-        "Vienna",
-        "Bicester",
-        "Hong Kong",
-        "Dallas",
-        "Shanghai",
-        "Hong Kong; Shanghai",
-        "Los Angeles",
+        "Austin",
+        "New York City; Portland",
+        "Beijing",
+        "Corte Madera",
+        "Portland",
         "Nanjing",
+        "Shanghai",
+        "London; Zurich",
+        "Hanoi; Ho Chi Minh City",
         "Central Valley",
-        "Shenzhen",
+        "Guangzhou",
+        "Sydney",
+        "Tokyo",
         "Boston",
-        "San Francisco"
+        "Wuhan",
+        "Portland; Zurich",
+        "Berlin",
+        "Bicester",
+        "New York City",
+        "Ho Chi Minh City"
       ],
       "jobs": [
-        {
-          "id": "7250019",
-          "title": "257488 - Area Lead",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7250019?gh_jid=7250019",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
         {
           "id": "7703769",
           "title": "Apparel Commercialization (Apparel Developer/FOB Merchandiser)",
@@ -844,6 +824,16 @@
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "engineering",
           "seniority": "mid"
+        },
+        {
+          "id": "7764845",
+          "title": "Area Lead, Oceania",
+          "location": "Melbourne",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7764845?gh_jid=7764845",
+          "posted_at": "2026-03-29T09:13:44-04:00",
+          "category": "other",
+          "seniority": "lead"
         },
         {
           "id": "7510597",
@@ -1146,16 +1136,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7677225",
-          "title": " Head of Creative, Core Brand Design",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7677225?gh_jid=7677225",
-          "posted_at": "2026-03-20T10:21:18-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
           "id": "7449723",
           "title": "Head of Demand and Inventory Planning, Americas",
           "location": "Portland",
@@ -1324,10 +1304,20 @@
           "posted_at": "2026-03-20T10:21:18-04:00",
           "category": "other",
           "seniority": "lead"
+        },
+        {
+          "id": "7619229",
+          "title": "Lead - Apparel & Accessories, Material Quality, Testing, and Color",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7619229?gh_jid=7619229",
+          "posted_at": "2026-03-20T10:21:18-04:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-03-29T05:30:21.701969"
+      "checked_at": "2026-03-30T05:30:21.016307"
     }
   },
-  "generated_at": "2026-03-29T05:30:23.702117"
+  "generated_at": "2026-03-30T05:30:23.016463"
 }

@@ -228,9 +228,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4333,
+      "total": 4334,
       "categories": {
-        "other": 741,
+        "other": 742,
         "bottoms": 1638,
         "tops": 504,
         "sports_bras": 291,
@@ -240,7 +240,7 @@
         "dresses": 109
       },
       "subcategories": {
-        "other": 1510,
+        "other": 1511,
         "leggings": 327,
         "tanks": 233,
         "shorts": 377,
@@ -270,7 +270,7 @@
       "genders": {
         "unisex": 1076,
         "womens": 2303,
-        "mens": 954
+        "mens": 955
       },
       "colors": {
         "navy": 172,
@@ -279,7 +279,7 @@
         "gray": 482,
         "khaki": 121,
         "pink": 220,
-        "blue": 178,
+        "blue": 179,
         "purple": 38,
         "green": 279,
         "brown": 276,
@@ -292,7 +292,7 @@
       },
       "colorCoverage": 88.1,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2702
+      "uniqueStyles": 2703
     },
     "gymshark": {
       "name": "Gymshark",
@@ -428,12 +428,26 @@
     }
   },
   "totals": {
-    "products": 27710,
+    "products": 27711,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-03-30",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "m3199r conquer reform long sleeve with hood eclipse",
+          "url": "https://www.aloyoga.com/products/m3199r-conquer-reform-long-sleeve-with-hood-eclipse-blue",
+          "category": "other",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-03-28",
       "brand": "Vuori",
@@ -5603,58 +5617,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-03-14",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 4,
-      "products": [
-        {
-          "name": "rsgnnn5415 md",
-          "url": "https://shop.lululemon.com/p/waterproof-classic-fit-car-coat/rsgnnn5415-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "rsgnnn5415",
-          "url": "https://shop.lululemon.com/p/waterproof-classic-fit-car-coat/rsgnnn5415",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "g6cbsjd6m6",
-          "url": "https://shop.lululemon.com/p/waterproof-cinch-hem-jacket/g6cbsjd6m6",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "g6cbsjd6m6 md",
-          "url": "https://shop.lululemon.com/p/waterproof-cinch-hem-jacket/g6cbsjd6m6-md",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-14",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "vuori gym bag 2 0 chia",
-          "url": "https://vuoriclothing.com/products/vuori-gym-bag-2-0-chia",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "all around tote",
-          "url": "https://vuoriclothing.com/products/all-around-tote-espresso",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5782,7 +5744,8 @@
       "2026-03-20": 2,
       "2026-03-22": 1,
       "2026-03-23": 6,
-      "2026-03-26": 2
+      "2026-03-26": 2,
+      "2026-03-30": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5865,7 +5828,7 @@
       "outdoor_voices": 42,
       "tenthousand": 10,
       "lululemon": 869,
-      "alo": 741,
+      "alo": 742,
       "gymshark": 471,
       "on_running": 2708
     },
@@ -5950,7 +5913,7 @@
       "outdoor_voices": 128,
       "tenthousand": 28,
       "lululemon": 1252,
-      "alo": 1510,
+      "alo": 1511,
       "gymshark": 2167,
       "on_running": 3051
     },
@@ -6177,7 +6140,7 @@
     "blue": {
       "vuori": 445,
       "outdoor_voices": 22,
-      "alo": 178,
+      "alo": 179,
       "gymshark": 1054,
       "on_running": 780
     },
@@ -6493,7 +6456,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 24,205 competitor products tracked. Vuori's 3,505 = 13% share of tracked catalog."
+      "text": "Market context: 24,206 competitor products tracked. Vuori's 3,505 = 13% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6636,7 +6599,7 @@
       {
         "category": "Men's Products",
         "vuori": 1342,
-        "competitor": 954,
+        "competitor": 955,
         "winner": "vuori"
       },
       {
@@ -6647,5 +6610,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-29T13:15:15.776Z"
+  "generated_at": "2026-03-30T13:15:19.898Z"
 }
