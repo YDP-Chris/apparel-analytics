@@ -228,14 +228,14 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4386,
+      "total": 4387,
       "categories": {
         "other": 746,
         "bottoms": 1653,
         "tops": 519,
         "sports_bras": 299,
         "accessories": 390,
-        "outerwear": 621,
+        "outerwear": 622,
         "footwear": 44,
         "dresses": 114
       },
@@ -253,7 +253,7 @@
         "tees": 47,
         "pullovers": 146,
         "skirts": 115,
-        "jackets": 166,
+        "jackets": 167,
         "bags": 1,
         "socks": 170,
         "bralette": 9,
@@ -269,13 +269,13 @@
       },
       "genders": {
         "unisex": 1089,
-        "womens": 2337,
+        "womens": 2338,
         "mens": 960
       },
       "colors": {
         "navy": 172,
         "black": 963,
-        "white": 849,
+        "white": 850,
         "gray": 485,
         "khaki": 121,
         "pink": 220,
@@ -428,7 +428,7 @@
     }
   },
   "totals": {
-    "products": 28443,
+    "products": 28444,
     "brands": 7,
     "categories": 8,
     "subcategories": 33
@@ -438,13 +438,19 @@
       "date": "2026-04-04",
       "brand": "Alo Yoga",
       "brandSlug": "alo",
-      "count": 1,
+      "count": 2,
       "products": [
         {
           "name": "a0480u unisex half crew throwback sock ballet pink",
           "url": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-ballet-pink-white",
           "category": "accessories",
           "gender": "unisex"
+        },
+        {
+          "name": "w4574r night out cargo jacket",
+          "url": "https://www.aloyoga.com/products/w4574r-night-out-cargo-jacket-ivory",
+          "category": "outerwear",
+          "gender": "womens"
         }
       ]
     },
@@ -6267,7 +6273,7 @@
       "2026-03-31": 2,
       "2026-04-01": 3,
       "2026-04-03": 1,
-      "2026-04-04": 1
+      "2026-04-04": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6346,7 +6352,7 @@
       "outdoor_voices": 29,
       "tenthousand": 18,
       "lululemon": 390,
-      "alo": 621,
+      "alo": 622,
       "gymshark": 770,
       "on_running": 853
     },
@@ -6477,7 +6483,7 @@
       "outdoor_voices": 10,
       "tenthousand": 6,
       "lululemon": 182,
-      "alo": 166,
+      "alo": 167,
       "gymshark": 166,
       "on_running": 424
     },
@@ -6660,7 +6666,7 @@
     "white": {
       "vuori": 340,
       "outdoor_voices": 17,
-      "alo": 849,
+      "alo": 850,
       "gymshark": 518,
       "on_running": 1444
     },
@@ -6983,7 +6989,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 24,936 competitor products tracked. Vuori's 3,507 = 12% share of tracked catalog."
+      "text": "Market context: 24,937 competitor products tracked. Vuori's 3,507 = 12% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -7132,10 +7138,10 @@
       {
         "category": "Women's Products",
         "vuori": 1561,
-        "competitor": 2337,
+        "competitor": 2338,
         "winner": "competitor"
       }
     ]
   },
-  "generated_at": "2026-04-04T13:15:17.464Z"
+  "generated_at": "2026-04-05T13:15:16.957Z"
 }
