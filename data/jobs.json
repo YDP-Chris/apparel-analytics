@@ -3,11 +3,11 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 619,
-      "change_from_last": -4,
+      "total_jobs": 618,
+      "change_from_last": -1,
       "departments": {
         "engineering": 42,
-        "operations": 141,
+        "operations": 140,
         "design": 76,
         "finance": 8,
         "other": 106,
@@ -23,31 +23,31 @@
         "intern": 41,
         "junior": 260,
         "c-suite": 33,
-        "lead": 92,
+        "lead": 91,
         "senior": 21,
         "vp": 1
       },
       "locations": [
-        "Fort Worth, TX",
-        "West Palm Beach, Florida, United States",
-        "Nashville, TN",
-        "Vail, CO",
-        "Palm Beach Gardens, FL",
-        "Florence, Italy",
+        "St. Louis, MO",
+        "Etobicoke, Ontario, Canada",
+        "Newport Beach, California, United States",
+        "Charlotte, NC",
+        "Garden City, New York, United States",
         "Tucson, Arizona, United States",
-        "Miami Beach, Florida, United States",
-        "Aventura, Florida, United States",
-        "Orlando, Florida, United States",
-        "Calgary, AB",
-        "Sydney, New South Wales, Australia",
-        "Glendale, California, United States",
-        "New York, NY",
-        "Oklahoma City, Oklahoma, United States",
-        "Palo Alto, California, United States",
-        "Las Vegas",
-        "Dallas, TX",
+        "Brooklyn, NY",
+        "Detroit, Michigan, United States",
         "Ashburn, Virginia, United States",
-        "Columbus, Ohio, United States"
+        "Macau",
+        "Calgary, AB",
+        "Ardmore, Pennsylvania, United States",
+        "Beverly Hills, California, United States",
+        "Bridgewater, New Jersey, United States",
+        "Bloomington, Minnesota, United States",
+        "East Rutherford, New Jersey, United States",
+        "Princeton, New Jersey, United States",
+        "Edmonton, AB",
+        "Pasadena, California, United States",
+        "Lone Tree, CO"
       ],
       "jobs": [
         {
@@ -481,16 +481,6 @@
           "seniority": "lead"
         },
         {
-          "id": "5789964004",
-          "title": "Data Analyst Intern",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789964004?gh_jid=5789964004",
-          "posted_at": "2026-03-25T17:45:44-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789930004",
           "title": "Data Analyst Intern",
           "location": "Beverly Hills, California, United States",
@@ -501,11 +491,11 @@
           "seniority": "intern"
         },
         {
-          "id": "5789987004",
-          "title": "Data Engineering Intern",
-          "location": "San Ramon, California, United States",
+          "id": "5789964004",
+          "title": "Data Analyst Intern",
+          "location": "Beverly Hills, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789964004?gh_jid=5789964004",
           "posted_at": "2026-03-25T17:45:44-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -521,21 +511,21 @@
           "seniority": "intern"
         },
         {
-          "id": "5789802004",
-          "title": "Data Intern - AI",
-          "location": "Beverly Hills, California, United States",
+          "id": "5789987004",
+          "title": "Data Engineering Intern",
+          "location": "San Ramon, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789802004?gh_jid=5789802004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
           "posted_at": "2026-03-25T17:45:44-04:00",
           "category": "engineering",
           "seniority": "intern"
         },
         {
-          "id": "5781938004",
-          "title": "Digital Engineering Intern",
+          "id": "5789802004",
+          "title": "Data Intern - AI",
           "location": "Beverly Hills, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789802004?gh_jid=5789802004",
           "posted_at": "2026-03-25T17:45:44-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -549,9 +539,19 @@
           "posted_at": "2026-03-25T17:45:44-04:00",
           "category": "engineering",
           "seniority": "intern"
+        },
+        {
+          "id": "5781938004",
+          "title": "Digital Engineering Intern",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-03-25T17:45:44-04:00",
+          "category": "engineering",
+          "seniority": "intern"
         }
       ],
-      "checked_at": "2026-04-05T05:30:07.275989"
+      "checked_at": "2026-04-06T05:30:07.552856"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -573,10 +573,10 @@
         "junior": 1
       },
       "locations": [
-        "London, England, United Kingdom; Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom",
         "New York, New York, United States",
         "Amsterdam, North Holland, Netherlands",
-        "Solihull, England, United Kingdom",
+        "London, England, United Kingdom; Solihull, England, United Kingdom",
         "London, England, United Kingdom"
       ],
       "jobs": [
@@ -721,7 +721,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-04-05T05:30:09.431183"
+      "checked_at": "2026-04-06T05:30:09.713118"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -779,7 +779,7 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 277,
+      "total_jobs": 278,
       "change_from_last": 1,
       "departments": {
         "other": 50,
@@ -788,7 +788,7 @@
         "marketing": 21,
         "product": 4,
         "executive": 16,
-        "design": 13,
+        "design": 14,
         "operations": 3,
         "finance": 3,
         "hr": 3
@@ -798,29 +798,29 @@
         "lead": 146,
         "manager": 5,
         "c-suite": 11,
-        "senior": 43
+        "senior": 44
       },
       "locations": [
+        "Shenzhen",
         "Macao",
-        "Central Valley",
-        "Corte Madera",
-        "Nairobi; Zurich",
-        "Chicago; Dallas; Miami",
-        "San Diego",
-        "Nanjing",
-        "Melbourne",
-        "Zurich",
-        "Mexico City",
         "Guangzhou",
+        "Copenhagen",
+        "Melbourne",
+        "Ho Chi Minh City",
+        "Palo Alto",
+        "London",
+        "Miami",
+        "Boston",
+        "Hanoi; Ho Chi Minh City",
+        "Seoul",
+        "Nairobi; Zurich",
+        "Berlin",
         "Munich",
         "Vienna",
-        "Auckland",
-        "Hanoi",
-        "San Francisco",
-        "Portland; Zurich",
-        "Sydney",
-        "Shanghai",
-        "Beijing"
+        "New York City; Portland",
+        "Austin",
+        "Dallas",
+        "Tianjin"
       ],
       "jobs": [
         {
@@ -1324,8 +1324,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-04-05T05:30:21.576665"
+      "checked_at": "2026-04-06T05:30:19.583976"
     }
   },
-  "generated_at": "2026-04-05T05:30:23.576814"
+  "generated_at": "2026-04-06T05:30:21.584165"
 }
