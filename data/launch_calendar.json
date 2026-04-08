@@ -1,281 +1,204 @@
 {
-  "generated_at": "2026-04-07T05:36:59.014746",
-  "total_products": 28886,
+  "generated_at": "2026-04-08T05:58:12.260898",
+  "total_products": 36825,
   "date_range": {
-    "start": "2020-11-04",
-    "end": "2026-04-07"
+    "start": "2016-05-30",
+    "end": "2026-04-08"
   },
   "velocity": {
     "weekly": {
+      "gymreapers": {
+        "mean": 8.986956521739131,
+        "stdev": 67.4875683480038,
+        "max": 1021,
+        "total": 2067,
+        "periods_active": 177
+      },
+      "schiek": {
+        "mean": 0.9739130434782609,
+        "stdev": 8.676083544391528,
+        "max": 112,
+        "total": 224,
+        "periods_active": 28
+      },
       "vuori": {
-        "mean": 83.61904761904762,
-        "stdev": 435.5281040121713,
+        "mean": 15.282608695652174,
+        "stdev": 187.10689365321,
         "max": 2816,
-        "total": 3512,
+        "total": 3515,
         "periods_active": 10
       },
       "gymshark": {
-        "mean": 170.8095238095238,
-        "stdev": 694.2633308694991,
+        "mean": 31.26086956521739,
+        "stdev": 301.1115241741952,
         "max": 4401,
-        "total": 7174,
+        "total": 7190,
         "periods_active": 10
       },
       "lululemon": {
-        "mean": 84.16666666666667,
-        "stdev": 379.38871993380104,
+        "mean": 15.91304347826087,
+        "stdev": 163.974652701837,
         "max": 2379,
-        "total": 3535,
+        "total": 3660,
         "periods_active": 6
       },
       "on_running": {
-        "mean": 223.07142857142858,
-        "stdev": 842.7554803450215,
+        "mean": 40.73478260869565,
+        "stdev": 366.90622543215255,
         "max": 3860,
         "total": 9369,
         "periods_active": 3
       },
       "outdoor_voices": {
-        "mean": 16.476190476190474,
-        "stdev": 50.31182671186552,
-        "max": 310,
-        "total": 692,
-        "periods_active": 33
+        "mean": 3.260869565217391,
+        "stdev": 22.53326970907771,
+        "max": 311,
+        "total": 750,
+        "periods_active": 31
+      },
+      "bear_grips": {
+        "mean": 21.286956521739132,
+        "stdev": 162.94324916734683,
+        "max": 2448,
+        "total": 4896,
+        "periods_active": 82
+      },
+      "harbinger": {
+        "mean": 0.4,
+        "stdev": 3.677620267196482,
+        "max": 46,
+        "total": 92,
+        "periods_active": 4
       },
       "tenthousand": {
-        "mean": 4.809523809523809,
-        "stdev": 17.59467504705939,
+        "mean": 0.9391304347826087,
+        "stdev": 7.706728140345985,
         "max": 89,
-        "total": 202,
-        "periods_active": 13
+        "total": 216,
+        "periods_active": 14
       },
       "alo": {
-        "mean": 104.80952380952381,
-        "stdev": 563.6020581111151,
+        "mean": 19.278260869565216,
+        "stdev": 241.908046618537,
         "max": 3659,
-        "total": 4402,
+        "total": 4434,
         "periods_active": 10
+      },
+      "sbd": {
+        "mean": 1.791304347826087,
+        "stdev": 14.10255367390277,
+        "max": 206,
+        "total": 412,
+        "periods_active": 31
       }
     },
     "monthly": {
+      "gymreapers": {
+        "mean": 23.224719101123597,
+        "stdev": 108.29890799510197,
+        "max": 1021,
+        "total": 2067,
+        "periods_active": 83
+      },
+      "schiek": {
+        "mean": 2.5168539325842696,
+        "stdev": 14.147849466800247,
+        "max": 112,
+        "total": 224,
+        "periods_active": 20
+      },
       "vuori": {
-        "mean": 175.6,
-        "stdev": 724.8039589760589,
+        "mean": 39.49438202247191,
+        "stdev": 344.7562420687295,
         "max": 3245,
-        "total": 3512,
+        "total": 3515,
         "periods_active": 3
       },
       "gymshark": {
-        "mean": 358.7,
-        "stdev": 1397.252194393282,
+        "mean": 80.78651685393258,
+        "stdev": 666.5508483623005,
         "max": 6263,
-        "total": 7174,
+        "total": 7190,
         "periods_active": 3
       },
       "lululemon": {
-        "mean": 176.75,
-        "stdev": 565.1905011866166,
+        "mean": 41.12359550561798,
+        "stdev": 273.7946651077608,
         "max": 2379,
-        "total": 3535,
+        "total": 3660,
         "periods_active": 3
       },
       "on_running": {
-        "mean": 468.45,
-        "stdev": 1684.3320861147868,
+        "mean": 105.26966292134831,
+        "stdev": 806.9664964888982,
         "max": 7368,
         "total": 9369,
         "periods_active": 2
       },
       "outdoor_voices": {
-        "mean": 34.6,
-        "stdev": 81.50195347997882,
-        "max": 362,
-        "total": 692,
+        "mean": 8.426966292134832,
+        "stdev": 44.82640446525844,
+        "max": 404,
+        "total": 750,
         "periods_active": 20
       },
+      "bear_grips": {
+        "mean": 55.01123595505618,
+        "stdev": 267.0350459797545,
+        "max": 2448,
+        "total": 4896,
+        "periods_active": 33
+      },
+      "harbinger": {
+        "mean": 1.0337078651685394,
+        "stdev": 6.7814074668809905,
+        "max": 46,
+        "total": 92,
+        "periods_active": 3
+      },
       "tenthousand": {
-        "mean": 10.1,
-        "stdev": 25.389388583256174,
+        "mean": 2.4269662921348316,
+        "stdev": 12.779500310733306,
         "max": 90,
-        "total": 202,
+        "total": 216,
         "periods_active": 8
       },
       "alo": {
-        "mean": 220.1,
-        "stdev": 919.002771887464,
+        "mean": 49.82022471910113,
+        "stdev": 436.88792409801874,
         "max": 4116,
-        "total": 4402,
+        "total": 4434,
         "periods_active": 3
+      },
+      "sbd": {
+        "mean": 4.629213483146067,
+        "stdev": 22.46734095529852,
+        "max": 206,
+        "total": 412,
+        "periods_active": 27
       }
     }
   },
   "spikes": {
     "weekly": [
       {
-        "period": "2025-10-13",
-        "brand": "tenthousand",
-        "count": 73,
-        "mean": 4.809523809523809,
-        "multiple": 15.178217821782178,
-        "top_types": [
-          [
-            "Interval Shirt",
-            4
-          ],
-          [
-            "Interval Short",
-            3
-          ],
-          [
-            "Tactical Utility Pant",
-            3
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
-        "brand": "vuori",
-        "count": 2816,
-        "mean": 83.61904761904762,
-        "multiple": 33.676537585421414,
-        "top_types": [
-          [
-            "other",
-            776
-          ],
-          [
-            "shorts",
-            432
-          ],
-          [
-            "pants",
-            313
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
-        "brand": "outdoor_voices",
-        "count": 310,
-        "mean": 16.476190476190474,
-        "multiple": 18.815028901734106,
-        "top_types": [
-          [
-            "other",
-            112
-          ],
-          [
-            "pants",
-            38
-          ],
-          [
-            "shorts",
-            37
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
-        "brand": "tenthousand",
-        "count": 89,
-        "mean": 4.809523809523809,
-        "multiple": 18.504950495049506,
-        "top_types": [
-          [
-            "other",
-            24
-          ],
-          [
-            "shorts",
-            20
-          ],
-          [
-            "pants",
-            10
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
-        "brand": "lululemon",
-        "count": 2379,
-        "mean": 84.16666666666667,
-        "multiple": 28.265346534653464,
-        "top_types": [
-          [
-            "other",
-            747
-          ],
-          [
-            "shorts",
-            277
-          ],
-          [
-            "pants",
-            206
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
-        "brand": "alo",
-        "count": 3659,
-        "mean": 104.80952380952381,
-        "multiple": 34.91094956837801,
-        "top_types": [
-          [
-            "other",
-            1295
-          ],
-          [
-            "shorts",
-            325
-          ],
-          [
-            "leggings",
-            266
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
+        "period": "2026-02-23",
         "brand": "gymshark",
-        "count": 4401,
-        "mean": 170.8095238095238,
-        "multiple": 25.76554223585169,
+        "count": 763,
+        "mean": 31.26086956521739,
+        "multiple": 24.407510431154382,
         "top_types": [
           [
             "other",
-            1417
+            239
           ],
           [
             "shorts",
-            716
+            116
           ],
           [
-            "leggings",
-            356
-          ]
-        ]
-      },
-      {
-        "period": "2026-02-02",
-        "brand": "on_running",
-        "count": 3508,
-        "mean": 223.07142857142858,
-        "multiple": 15.725904578930514,
-        "top_types": [
-          [
-            "other",
-            1118
-          ],
-          [
-            "running",
-            712
-          ],
-          [
-            "shorts",
-            318
+            "tanks",
+            102
           ]
         ]
       },
@@ -283,8 +206,8 @@
         "period": "2026-02-23",
         "brand": "on_running",
         "count": 3860,
-        "mean": 223.07142857142858,
-        "multiple": 17.303874479666987,
+        "mean": 40.73478260869565,
+        "multiple": 94.75931262674779,
         "top_types": [
           [
             "other",
@@ -304,8 +227,8 @@
         "period": "2026-03-02",
         "brand": "on_running",
         "count": 2001,
-        "mean": 223.07142857142858,
-        "multiple": 8.970220941402497,
+        "mean": 40.73478260869565,
+        "multiple": 49.122638488632724,
         "top_types": [
           [
             "other",
@@ -320,141 +243,154 @@
             151
           ]
         ]
+      },
+      {
+        "period": "2026-03-16",
+        "brand": "tenthousand",
+        "count": 25,
+        "mean": 0.9391304347826087,
+        "multiple": 26.62037037037037,
+        "top_types": [
+          [
+            "shorts",
+            5
+          ],
+          [
+            "other",
+            4
+          ],
+          [
+            "pants",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2026-03-16",
+        "brand": "lululemon",
+        "count": 664,
+        "mean": 15.91304347826087,
+        "multiple": 41.72677595628415,
+        "top_types": [
+          [
+            "other",
+            344
+          ],
+          [
+            "pants",
+            54
+          ],
+          [
+            "jackets",
+            42
+          ]
+        ]
+      },
+      {
+        "period": "2026-04-06",
+        "brand": "gymreapers",
+        "count": 1021,
+        "mean": 8.986956521739131,
+        "multiple": 113.6090953072085,
+        "top_types": [
+          [
+            "other",
+            510
+          ],
+          [
+            "shorts",
+            127
+          ],
+          [
+            "tees",
+            109
+          ]
+        ]
+      },
+      {
+        "period": "2026-04-06",
+        "brand": "sbd",
+        "count": 206,
+        "mean": 1.791304347826087,
+        "multiple": 115.0,
+        "top_types": [
+          [
+            "other",
+            125
+          ],
+          [
+            "socks",
+            39
+          ],
+          [
+            "shorts",
+            13
+          ]
+        ]
+      },
+      {
+        "period": "2026-04-06",
+        "brand": "harbinger",
+        "count": 46,
+        "mean": 0.4,
+        "multiple": 115.0,
+        "top_types": [
+          [
+            "other",
+            46
+          ]
+        ]
+      },
+      {
+        "period": "2026-04-06",
+        "brand": "schiek",
+        "count": 112,
+        "mean": 0.9739130434782609,
+        "multiple": 115.0,
+        "top_types": [
+          [
+            "other",
+            106
+          ],
+          [
+            "bags",
+            2
+          ],
+          [
+            "hats",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2026-04-06",
+        "brand": "bear_grips",
+        "count": 2448,
+        "mean": 21.286956521739132,
+        "multiple": 114.99999999999999,
+        "top_types": [
+          [
+            "tees",
+            566
+          ],
+          [
+            "tanks",
+            469
+          ],
+          [
+            "other",
+            468
+          ]
+        ]
       }
     ],
     "monthly": [
       {
-        "period": "2025-10",
-        "brand": "tenthousand",
-        "count": 75,
-        "mean": 10.1,
-        "multiple": 7.425742574257426,
-        "top_types": [
-          [
-            "Interval Shirt",
-            4
-          ],
-          [
-            "Interval Short",
-            3
-          ],
-          [
-            "Tactical Utility Pant",
-            3
-          ]
-        ]
-      },
-      {
-        "period": "2026-02",
-        "brand": "vuori",
-        "count": 3245,
-        "mean": 175.6,
-        "multiple": 18.479498861047837,
-        "top_types": [
-          [
-            "other",
-            937
-          ],
-          [
-            "shorts",
-            500
-          ],
-          [
-            "pants",
-            341
-          ]
-        ]
-      },
-      {
-        "period": "2026-02",
-        "brand": "outdoor_voices",
-        "count": 362,
-        "mean": 34.6,
-        "multiple": 10.462427745664739,
-        "top_types": [
-          [
-            "other",
-            128
-          ],
-          [
-            "shorts",
-            46
-          ],
-          [
-            "pants",
-            39
-          ]
-        ]
-      },
-      {
-        "period": "2026-02",
-        "brand": "tenthousand",
-        "count": 90,
-        "mean": 10.1,
-        "multiple": 8.910891089108912,
-        "top_types": [
-          [
-            "other",
-            24
-          ],
-          [
-            "shorts",
-            20
-          ],
-          [
-            "pants",
-            10
-          ]
-        ]
-      },
-      {
-        "period": "2026-02",
-        "brand": "lululemon",
-        "count": 2379,
-        "mean": 176.75,
-        "multiple": 13.45968882602546,
-        "top_types": [
-          [
-            "other",
-            747
-          ],
-          [
-            "shorts",
-            277
-          ],
-          [
-            "pants",
-            206
-          ]
-        ]
-      },
-      {
-        "period": "2026-02",
-        "brand": "alo",
-        "count": 4116,
-        "mean": 220.1,
-        "multiple": 18.7005906406179,
-        "top_types": [
-          [
-            "other",
-            1439
-          ],
-          [
-            "shorts",
-            360
-          ],
-          [
-            "leggings",
-            308
-          ]
-        ]
-      },
-      {
         "period": "2026-02",
         "brand": "gymshark",
         "count": 6263,
-        "mean": 358.7,
-        "multiple": 17.46027320880959,
+        "mean": 80.78651685393258,
+        "multiple": 77.52531293463143,
         "top_types": [
           [
             "other",
@@ -474,8 +410,8 @@
         "period": "2026-02",
         "brand": "on_running",
         "count": 7368,
-        "mean": 468.45,
-        "multiple": 15.728466218379763,
+        "mean": 105.26966292134831,
+        "multiple": 69.99167467178995,
         "top_types": [
           [
             "other",
@@ -490,31 +426,196 @@
             526
           ]
         ]
+      },
+      {
+        "period": "2026-03",
+        "brand": "tenthousand",
+        "count": 39,
+        "mean": 2.4269662921348316,
+        "multiple": 16.069444444444443,
+        "top_types": [
+          [
+            "shorts",
+            7
+          ],
+          [
+            "other",
+            5
+          ],
+          [
+            "Interval Shirt",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2026-03",
+        "brand": "lululemon",
+        "count": 1006,
+        "mean": 41.12359550561798,
+        "multiple": 24.462841530054646,
+        "top_types": [
+          [
+            "other",
+            598
+          ],
+          [
+            "jackets",
+            82
+          ],
+          [
+            "pants",
+            64
+          ]
+        ]
+      },
+      {
+        "period": "2026-03",
+        "brand": "on_running",
+        "count": 2001,
+        "mean": 105.26966292134831,
+        "multiple": 19.008325328210056,
+        "top_types": [
+          [
+            "other",
+            597
+          ],
+          [
+            "running",
+            595
+          ],
+          [
+            "shorts",
+            151
+          ]
+        ]
+      },
+      {
+        "period": "2026-04",
+        "brand": "gymreapers",
+        "count": 1021,
+        "mean": 23.224719101123597,
+        "multiple": 43.96178035800677,
+        "top_types": [
+          [
+            "other",
+            510
+          ],
+          [
+            "shorts",
+            127
+          ],
+          [
+            "tees",
+            109
+          ]
+        ]
+      },
+      {
+        "period": "2026-04",
+        "brand": "sbd",
+        "count": 206,
+        "mean": 4.629213483146067,
+        "multiple": 44.5,
+        "top_types": [
+          [
+            "other",
+            125
+          ],
+          [
+            "socks",
+            39
+          ],
+          [
+            "shorts",
+            13
+          ]
+        ]
+      },
+      {
+        "period": "2026-04",
+        "brand": "harbinger",
+        "count": 46,
+        "mean": 1.0337078651685394,
+        "multiple": 44.5,
+        "top_types": [
+          [
+            "other",
+            46
+          ]
+        ]
+      },
+      {
+        "period": "2026-04",
+        "brand": "schiek",
+        "count": 112,
+        "mean": 2.5168539325842696,
+        "multiple": 44.5,
+        "top_types": [
+          [
+            "other",
+            106
+          ],
+          [
+            "bags",
+            2
+          ],
+          [
+            "hats",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2026-04",
+        "brand": "bear_grips",
+        "count": 2448,
+        "mean": 55.01123595505618,
+        "multiple": 44.5,
+        "top_types": [
+          [
+            "tees",
+            566
+          ],
+          [
+            "tanks",
+            469
+          ],
+          [
+            "other",
+            468
+          ]
+        ]
       }
     ]
   },
   "timeline": {
     "weekly": [
       {
-        "week": "2026-01-05",
-        "total": 13,
+        "week": "2026-01-12",
+        "total": 32,
         "by_brand": {
-          "outdoor_voices": 13
+          "bear_grips": 1,
+          "gymreapers": 2,
+          "tenthousand": 9,
+          "sbd": 20
         }
       },
       {
-        "week": "2026-01-12",
-        "total": 8,
+        "week": "2026-01-19",
+        "total": 24,
         "by_brand": {
-          "tenthousand": 8
+          "bear_grips": 24
         }
       },
       {
         "week": "2026-02-02",
-        "total": 17162,
+        "total": 17182,
         "by_brand": {
+          "bear_grips": 7,
+          "gymreapers": 12,
+          "outdoor_voices": 311,
           "vuori": 2816,
-          "outdoor_voices": 310,
           "tenthousand": 89,
           "lululemon": 2379,
           "alo": 3659,
@@ -524,10 +625,12 @@
       },
       {
         "week": "2026-02-09",
-        "total": 1132,
+        "total": 1219,
         "by_brand": {
+          "bear_grips": 37,
+          "gymreapers": 9,
+          "outdoor_voices": 45,
           "vuori": 110,
-          "outdoor_voices": 4,
           "tenthousand": 1,
           "alo": 190,
           "gymshark": 827
@@ -535,8 +638,10 @@
       },
       {
         "week": "2026-02-16",
-        "total": 550,
+        "total": 594,
         "by_brand": {
+          "bear_grips": 1,
+          "gymreapers": 43,
           "vuori": 34,
           "outdoor_voices": 48,
           "alo": 188,
@@ -545,8 +650,10 @@
       },
       {
         "week": "2026-02-23",
-        "total": 4998,
+        "total": 5003,
         "by_brand": {
+          "bear_grips": 1,
+          "gymreapers": 4,
           "vuori": 290,
           "alo": 85,
           "gymshark": 763,
@@ -555,8 +662,10 @@
       },
       {
         "week": "2026-03-02",
-        "total": 2414,
+        "total": 2429,
         "by_brand": {
+          "bear_grips": 1,
+          "gymreapers": 14,
           "vuori": 24,
           "tenthousand": 1,
           "alo": 82,
@@ -566,11 +675,12 @@
       },
       {
         "week": "2026-03-09",
-        "total": 227,
+        "total": 273,
         "by_brand": {
+          "gymreapers": 20,
+          "tenthousand": 11,
+          "outdoor_voices": 36,
           "vuori": 22,
-          "outdoor_voices": 19,
-          "tenthousand": 2,
           "lululemon": 80,
           "alo": 64,
           "gymshark": 40
@@ -578,10 +688,12 @@
       },
       {
         "week": "2026-03-16",
-        "total": 790,
+        "total": 836,
         "by_brand": {
+          "bear_grips": 25,
+          "gymreapers": 14,
+          "tenthousand": 25,
           "vuori": 4,
-          "tenthousand": 18,
           "lululemon": 664,
           "alo": 64,
           "gymshark": 40
@@ -589,8 +701,12 @@
       },
       {
         "week": "2026-03-23",
-        "total": 460,
+        "total": 507,
         "by_brand": {
+          "bear_grips": 34,
+          "gymreapers": 10,
+          "tenthousand": 1,
+          "sbd": 2,
           "vuori": 206,
           "lululemon": 138,
           "alo": 8,
@@ -610,91 +726,125 @@
       },
       {
         "week": "2026-04-06",
-        "total": 21,
+        "total": 4030,
         "by_brand": {
-          "vuori": 4,
+          "gymreapers": 1021,
+          "vuori": 7,
           "outdoor_voices": 1,
           "tenthousand": 2,
-          "lululemon": 4,
-          "alo": 8,
-          "gymshark": 2
+          "lululemon": 129,
+          "alo": 40,
+          "gymshark": 18,
+          "sbd": 206,
+          "harbinger": 46,
+          "schiek": 112,
+          "bear_grips": 2448
         }
       }
     ],
     "monthly": [
       {
-        "month": "2025-04",
-        "total": 15,
+        "month": "2025-05",
+        "total": 396,
         "by_brand": {
-          "outdoor_voices": 15
+          "bear_grips": 369,
+          "gymreapers": 5,
+          "schiek": 3,
+          "sbd": 19
         }
       },
       {
         "month": "2025-06",
-        "total": 10,
+        "total": 243,
         "by_brand": {
-          "outdoor_voices": 10
+          "bear_grips": 227,
+          "gymreapers": 4,
+          "schiek": 1,
+          "outdoor_voices": 11
         }
       },
       {
         "month": "2025-07",
-        "total": 29,
+        "total": 290,
         "by_brand": {
-          "outdoor_voices": 29
+          "bear_grips": 245,
+          "gymreapers": 17,
+          "harbinger": 1,
+          "outdoor_voices": 27
         }
       },
       {
         "month": "2025-08",
-        "total": 15,
+        "total": 185,
         "by_brand": {
-          "outdoor_voices": 15
+          "bear_grips": 150,
+          "gymreapers": 20,
+          "sbd": 1,
+          "outdoor_voices": 14
         }
       },
       {
         "month": "2025-09",
-        "total": 44,
+        "total": 276,
         "by_brand": {
-          "outdoor_voices": 44
+          "bear_grips": 160,
+          "gymreapers": 73,
+          "outdoor_voices": 43
         }
       },
       {
         "month": "2025-10",
-        "total": 99,
+        "total": 300,
         "by_brand": {
-          "tenthousand": 75,
+          "bear_grips": 160,
+          "gymreapers": 44,
+          "tenthousand": 72,
           "outdoor_voices": 24
         }
       },
       {
         "month": "2025-11",
-        "total": 24,
+        "total": 136,
         "by_brand": {
+          "bear_grips": 36,
+          "gymreapers": 48,
+          "schiek": 1,
           "tenthousand": 1,
-          "outdoor_voices": 23
+          "sbd": 25,
+          "outdoor_voices": 25
         }
       },
       {
         "month": "2025-12",
-        "total": 5,
+        "total": 118,
         "by_brand": {
-          "tenthousand": 3,
+          "bear_grips": 92,
+          "gymreapers": 18,
+          "schiek": 3,
+          "tenthousand": 2,
+          "sbd": 1,
           "outdoor_voices": 2
         }
       },
       {
         "month": "2026-01",
-        "total": 27,
+        "total": 93,
         "by_brand": {
-          "tenthousand": 8,
+          "bear_grips": 43,
+          "gymreapers": 2,
+          "tenthousand": 9,
+          "sbd": 20,
           "outdoor_voices": 19
         }
       },
       {
         "month": "2026-02",
-        "total": 23823,
+        "total": 23979,
         "by_brand": {
+          "bear_grips": 46,
+          "gymreapers": 68,
+          "outdoor_voices": 404,
           "vuori": 3245,
-          "outdoor_voices": 362,
           "tenthousand": 90,
           "lululemon": 2379,
           "alo": 4116,
@@ -704,11 +854,14 @@
       },
       {
         "month": "2026-03",
-        "total": 4153,
+        "total": 4307,
         "by_brand": {
+          "bear_grips": 60,
+          "gymreapers": 58,
+          "tenthousand": 39,
+          "sbd": 2,
+          "outdoor_voices": 36,
           "vuori": 261,
-          "outdoor_voices": 19,
-          "tenthousand": 22,
           "lululemon": 1006,
           "alo": 272,
           "gymshark": 572,
@@ -717,14 +870,19 @@
       },
       {
         "month": "2026-04",
-        "total": 512,
+        "total": 4521,
         "by_brand": {
-          "vuori": 6,
+          "gymreapers": 1021,
+          "vuori": 9,
           "outdoor_voices": 1,
           "tenthousand": 2,
-          "lululemon": 150,
-          "alo": 14,
-          "gymshark": 339
+          "lululemon": 275,
+          "alo": 46,
+          "gymshark": 355,
+          "sbd": 206,
+          "harbinger": 46,
+          "schiek": 112,
+          "bear_grips": 2448
         }
       }
     ]
