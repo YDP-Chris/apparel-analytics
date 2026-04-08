@@ -10,6 +10,7 @@ const navItems = [
   { href: '/meta', label: 'Brief Analysis' },
   { href: '/trends', label: 'Trends' },
   { href: '/vuori', label: 'Vuori Scorecard' },
+  { href: '/gymreapers', label: 'Gymreapers' },
   { href: '/launches', label: 'Launches' },
   { href: '/inventory', label: 'Inventory' },
   { href: '/social', label: 'Social' },
