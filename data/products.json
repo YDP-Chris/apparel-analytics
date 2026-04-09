@@ -166,14 +166,14 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 3659,
+      "total": 3663,
       "categories": {
         "tops": 478,
         "bottoms": 1050,
         "outerwear": 394,
         "sports_bras": 98,
         "accessories": 391,
-        "other": 1167,
+        "other": 1171,
         "dresses": 39,
         "footwear": 42
       },
@@ -181,7 +181,7 @@
         "tanks": 150,
         "shorts": 326,
         "hoodies": 81,
-        "other": 1560,
+        "other": 1564,
         "medium_support": 9,
         "leggings": 147,
         "polos": 31,
@@ -213,7 +213,7 @@
       "genders": {
         "womens": 1337,
         "mens": 965,
-        "unisex": 1357
+        "unisex": 1361
       },
       "colors": {
         "multi": 2,
@@ -298,23 +298,23 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 7188,
+      "total": 7192,
       "categories": {
-        "bottoms": 2643,
+        "bottoms": 2645,
         "tops": 2266,
         "other": 477,
-        "accessories": 458,
+        "accessories": 460,
         "outerwear": 774,
         "sports_bras": 566,
         "dresses": 4
       },
       "subcategories": {
         "shorts": 1070,
-        "leggings": 633,
+        "leggings": 635,
         "crop_tops": 140,
         "other": 2273,
         "long_sleeve": 415,
-        "socks": 194,
+        "socks": 196,
         "tanks": 616,
         "joggers": 473,
         "hoodies": 444,
@@ -336,8 +336,8 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 3221,
-        "womens": 2450,
+        "unisex": 3223,
+        "womens": 2452,
         "mens": 1517
       },
       "colors": {
@@ -347,7 +347,7 @@
         "white": 519,
         "navy": 60,
         "gray": 847,
-        "brown": 522,
+        "brown": 524,
         "blue": 1151,
         "red": 229,
         "purple": 337,
@@ -358,7 +358,7 @@
       },
       "colorCoverage": 88.8,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 1906
+      "uniqueStyles": 1907
     },
     "on_running": {
       "name": "On Running",
@@ -640,12 +640,64 @@
     }
   },
   "totals": {
-    "products": 32470,
+    "products": 32478,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-04-09",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark running graphic crew socks 2pk socks",
+          "url": "https://www.gymshark.com/products/gymshark-running-graphic-crew-socks-2pk-socks",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running graphic crew socks 2pk socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-running-graphic-crew-socks-2pk-socks",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 4,
+      "products": [
+        {
+          "name": "olevp0zyvo",
+          "url": "https://shop.lululemon.com/p/crossbody_camera_bag_2l/olevp0zyvo",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "everywhere backpack 22l campus md",
+          "url": "https://shop.lululemon.com/p/bags/Everywhere-Backpack-22L-Campus-MD/_/prod20008250",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "everywhere backpack 22l campus",
+          "url": "https://shop.lululemon.com/p/bags/Everywhere-Backpack-22L-Campus/_/prod20008251",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "olevp0zyvo md",
+          "url": "https://shop.lululemon.com/p/crossbody_camera_bag_2l/olevp0zyvo-md",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-04-08",
       "brand": "Vuori",
@@ -668,6 +720,26 @@
           "name": "villa everyday wideleg long bleached",
           "url": "https://vuoriclothing.com/products/womens-villa-everyday-wideleg-long-bleached-sand",
           "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark soft sculpt flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-soft-sculpt-flared-leggings-leggings-brown-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark soft sculpt flared leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-soft-sculpt-flared-leggings-leggings-brown-ss26",
+          "category": "bottoms",
           "gender": "womens"
         }
       ]
@@ -6379,846 +6451,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-03-24",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 174,
-      "products": [
-        {
-          "name": "tuvalu tee spice",
-          "url": "https://vuoriclothing.com/products/tuvalu-tee-spice",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech hoodie river rock",
-          "url": "https://vuoriclothing.com/products/strato-tech-hoodie-river-rock-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve clearview seamless tee",
-          "url": "https://vuoriclothing.com/products/short-sleeve-clearview-seamless-tee-abyss",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "short sleeve strato pocket tee relaxed fit river rock",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-pocket-tee-relaxed-fit-river-rock-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve terrain tee relaxed fit sandalwood",
-          "url": "https://vuoriclothing.com/products/short-sleeve-terrain-tee-relaxed-fit-sandalwood",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle polo relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-polo-relaxed-fit-bark",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle polo relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-polo-relaxed-fit-navy",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle polo relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-polo-relaxed-fit-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato tech tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-tech-tee-relaxed-fit-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-tee-relaxed-fit-bark",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-tee-relaxed-fit-navy",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle tee relaxed fit",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-tee-relaxed-fit-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve travellite polo",
-          "url": "https://vuoriclothing.com/products/short-sleeve-travellite-polo-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve travellite polo",
-          "url": "https://vuoriclothing.com/products/short-sleeve-travellite-polo-dark-pewter",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech tee",
-          "url": "https://vuoriclothing.com/products/strato-tech-tee-faded-rose-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech tank",
-          "url": "https://vuoriclothing.com/products/strato-tech-tank-black",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "strato tech polo salty air",
-          "url": "https://vuoriclothing.com/products/strato-tech-polo-salty-air-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "current tech tee spice",
-          "url": "https://vuoriclothing.com/products/current-tech-tee-spice",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "beach fleece shirt jacket",
-          "url": "https://vuoriclothing.com/products/beach-fleece-shirt-jacket-bone-heather",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "ponto pullover hoodie",
-          "url": "https://vuoriclothing.com/products/ponto-pullover-hoodie-azure-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto pullover hoodie",
-          "url": "https://vuoriclothing.com/products/ponto-pullover-hoodie-salt-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto pullover hoodie thyme",
-          "url": "https://vuoriclothing.com/products/ponto-pullover-hoodie-thyme-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cypress vintage crew agate",
-          "url": "https://vuoriclothing.com/products/cypress-vintage-crew-agate-green",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday crew",
-          "url": "https://vuoriclothing.com/products/sunday-crew-black",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday crew river rock",
-          "url": "https://vuoriclothing.com/products/sunday-crew-river-rock-heather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday crew haze heather",
-          "url": "https://vuoriclothing.com/products/sunday-crew-blue-haze-heather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday element vest",
-          "url": "https://vuoriclothing.com/products/sunday-element-vest-limestone-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance short 8 peppercorn",
-          "url": "https://vuoriclothing.com/products/sunday-performance-short-8-peppercorn-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 7 blue haze",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-blue-haze-juniper",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 7",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-mauve",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "grafton short unlined 7 sandalwood",
-          "url": "https://vuoriclothing.com/products/grafton-short-unlined-7-sandalwood",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 5 sea mirage",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-5-blue-sea-mirage",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 5 solid waistband",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-5-black-solid-waistband",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 5 mauve texture",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-5-mauve-linen-texture",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 5 vintage palm shadow",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-5-vintage-red-palm-shadow",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 7 azure texture",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-7-azure-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 7 black riptide",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-7-black-riptide-camo",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "hardkore short lined 7 rock",
-          "url": "https://vuoriclothing.com/products/hardkore-short-lined-7-slate-rock",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 9 blue haze",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-9-blue-haze-juniper",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "terrain short lined 5",
-          "url": "https://vuoriclothing.com/products/terrain-short-lined-5-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "optimist elastic waist short 8",
-          "url": "https://vuoriclothing.com/products/optimist-elastic-waist-short-8-ivory",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "course short lined 5 river rock",
-          "url": "https://vuoriclothing.com/products/course-short-lined-5-river-rock",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "aim short 8 blue sea slub",
-          "url": "https://vuoriclothing.com/products/aim-short-8-blue-sea-slub-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim short 8 gravel slub",
-          "url": "https://vuoriclothing.com/products/aim-short-8-gravel-slub-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim short 8",
-          "url": "https://vuoriclothing.com/products/aim-short-8-mauve",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim short 8 navy texture",
-          "url": "https://vuoriclothing.com/products/aim-short-8-navy-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim short 8 river rock slub",
-          "url": "https://vuoriclothing.com/products/aim-short-8-river-rock-slub-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim short 8 salt texture",
-          "url": "https://vuoriclothing.com/products/aim-short-8-salt-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim short 8 rock",
-          "url": "https://vuoriclothing.com/products/aim-short-8-slate-rock",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "cruise boardshort 7 solid waistband",
-          "url": "https://vuoriclothing.com/products/cruise-boardshort-7-black-solid-waistband",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 5 azure texture",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-5-azure-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks short 7 blue haze slub",
-          "url": "https://vuoriclothing.com/products/banks-short-7-blue-haze-slub-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks short 7 dark pewter slub",
-          "url": "https://vuoriclothing.com/products/banks-short-7-dark-pewter-slub-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks short 7 timber slub",
-          "url": "https://vuoriclothing.com/products/banks-short-7-timber-slub-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 5 blue haze",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-5-blue-haze-juniper",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 5",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-5-mauve",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta short 8",
-          "url": "https://vuoriclothing.com/products/meta-short-8-ivory",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta short 8 sable",
-          "url": "https://vuoriclothing.com/products/meta-short-8-sable",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta short 6",
-          "url": "https://vuoriclothing.com/products/meta-short-6-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta short 6 sable",
-          "url": "https://vuoriclothing.com/products/meta-short-6-sable",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 7 blue haze",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-7-blue-haze-juniper",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant classic fit 32 winter",
-          "url": "https://vuoriclothing.com/products/meta-pant-classic-fit-32-winter-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant classic fit 34 winter",
-          "url": "https://vuoriclothing.com/products/meta-pant-classic-fit-34-winter-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant classic fit 30 winter",
-          "url": "https://vuoriclothing.com/products/meta-pant-classic-fit-30-winter-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore everyday cargo pant classic fit 30",
-          "url": "https://vuoriclothing.com/products/kore-everyday-cargo-pant-classic-fit-30-bark",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore everyday cargo pant classic fit 30",
-          "url": "https://vuoriclothing.com/products/kore-everyday-cargo-pant-classic-fit-30-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance sweatpant peppercorn",
-          "url": "https://vuoriclothing.com/products/sunday-performance-sweatpant-peppercorn-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance sweatpant long peppercorn",
-          "url": "https://vuoriclothing.com/products/sunday-performance-sweatpant-long-peppercorn-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance track pant 30 peppercorn",
-          "url": "https://vuoriclothing.com/products/sunday-performance-track-pant-30-peppercorn-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 32 navy texture",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-navy-linen-texture",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 32 river rock",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-river-rock",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 32 salt texture",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-salt-linen-texture",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 32 rock",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-slate-rock",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 30 navy texture",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-30-navy-linen-texture",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 30 river rock",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-30-river-rock",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 30 salt texture",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-30-salt-linen-texture",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "aim trouser athletic slim fit 30 rock",
-          "url": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-30-slate-rock",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance jogger 28 peppercorn",
-          "url": "https://vuoriclothing.com/products/sunday-performance-jogger-28-peppercorn-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant athletic slim fit 32 winter",
-          "url": "https://vuoriclothing.com/products/meta-pant-athletic-slim-fit-32-winter-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant athletic slim fit 34 winter",
-          "url": "https://vuoriclothing.com/products/meta-pant-athletic-slim-fit-34-winter-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "meta pant athletic slim fit 30 winter",
-          "url": "https://vuoriclothing.com/products/meta-pant-athletic-slim-fit-30-winter-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "outdoor trainer shell black riptide",
-          "url": "https://vuoriclothing.com/products/outdoor-trainer-shell-black-riptide-camo",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "venture track jacket blue sea texture",
-          "url": "https://vuoriclothing.com/products/venture-track-jacket-blue-sea-linen-texture",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori dad hat riviera",
-          "url": "https://vuoriclothing.com/products/vuori-dad-hat-riviera-blue",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori dad hat trench",
-          "url": "https://vuoriclothing.com/products/vuori-dad-hat-trench",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "terrain cap",
-          "url": "https://vuoriclothing.com/products/terrain-cap-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "terrain cap seed",
-          "url": "https://vuoriclothing.com/products/terrain-cap-seed",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "terrain run belt",
-          "url": "https://vuoriclothing.com/products/terrain-run-belt-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "magnitude hat 2 0 sea",
-          "url": "https://vuoriclothing.com/products/magnitude-hat-2-0-blue-sea",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "inspire happiness dad hat",
-          "url": "https://vuoriclothing.com/products/inspire-happiness-dad-hat-azure",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "half crew sock 2 0 hyacinth",
-          "url": "https://vuoriclothing.com/products/half-crew-sock-2-0-hyacinth",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "v1 crew sock 2 0",
-          "url": "https://vuoriclothing.com/products/v1-crew-sock-2-0-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "v1 crew sock 2 0",
-          "url": "https://vuoriclothing.com/products/v1-crew-sock-2-0-charcoal-heather",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "half crew ruffle sock riviera",
-          "url": "https://vuoriclothing.com/products/half-crew-ruffle-sock-riviera-blue",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "half crew ruffle sock",
-          "url": "https://vuoriclothing.com/products/half-crew-ruffle-sock-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "energy tee hyacinth",
-          "url": "https://vuoriclothing.com/products/womens-energy-tee-hyacinth-heather",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "vuori allthefeels bra eggshell",
-          "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-bra-eggshell-blue",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "energy top long",
-          "url": "https://vuoriclothing.com/products/womens-energy-top-long-light-peach",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "halo performance crop tank 2 0 hyacinth",
-          "url": "https://vuoriclothing.com/products/womens-halo-performance-crop-tank-2-0-hyacinth-heather",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "surge seamless tank hyacinth",
-          "url": "https://vuoriclothing.com/products/womens-surge-seamless-tank-hyacinth",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 34,
-      "products": [
-        {
-          "name": "scuba os collegiate jacket new jersey devils md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-New-Jersey-Devils-MD/_/prod20003870",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket new jersey devils",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-New-Jersey-Devils/_/prod20003871",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket new york rangers",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-New-York-Rangers/_/prod20003567",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "b3nx4mpo04 md",
-          "url": "https://shop.lululemon.com/p/becalm-cinch-waist-jumpsuit-updated-fabric/b3nx4mpo04-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket toronto maple leafs md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Toronto-Maple-Leafs-MD/_/prod20003538",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "sojourn overshirt",
-          "url": "https://shop.lululemon.com/p/men-ls-tops/Sojourn-Overshirt/_/prod20005935",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "b3nx4mpo04",
-          "url": "https://shop.lululemon.com/p/becalm-cinch-waist-jumpsuit-updated-fabric/b3nx4mpo04",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "op3ecdvb9e",
-          "url": "https://shop.lululemon.com/p/uv-protective-side-ruched-run-long-sleeve-shirt/op3ecdvb9e",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "scuba oversized collegiate jacket florida panthers",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-Oversized-Collegiate-Jacket-Florida-Panthers/_/prod20001683",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket vegas golden knights",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Vegas-Golden-Knights/_/prod20003671",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "h17gcccuql",
-          "url": "https://shop.lululemon.com/p/nulu-and-mesh-no-line-high-rise-studio-tight-25/h17gcccuql",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket detroit wings md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Detroit-Red-Wings-MD/_/prod20003638",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "eh9tsb8ygo md",
-          "url": "https://shop.lululemon.com/p/charm-hair-ties-3-pack/eh9tsb8ygo-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba oversized collegiate jacket florida panthers md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-Oversized-Collegiate-Jacket-Florida-Panthers-MD/_/prod20001682",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket toronto maple leafs",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Toronto-Maple-Leafs/_/prod20003539",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "eh9tsb8ygo",
-          "url": "https://shop.lululemon.com/p/charm-hair-ties-3-pack/eh9tsb8ygo",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "nulu contourmesh hr studio short",
-          "url": "https://shop.lululemon.com/p/women-shorts/Nulu-ContourMesh-HR-Studio-Short-35/_/prod11020279",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "sojourn overshirt md",
-          "url": "https://shop.lululemon.com/p/men-ls-tops/Sojourn-Overshirt-MD/_/prod20005934",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "nulu contourmesh hr studio short 35 md",
-          "url": "https://shop.lululemon.com/p/women-shorts/Nulu-ContourMesh-HR-Studio-Short-35-MD/_/prod11785029",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "h17gcccuql md",
-          "url": "https://shop.lululemon.com/p/nulu-and-mesh-no-line-high-rise-studio-tight-25/h17gcccuql-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket new york rangers md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-New-York-Rangers-MD/_/prod20003566",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket detroit wings",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Detroit-Red-Wings/_/prod20003639",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket vegas golden knights md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Vegas-Golden-Knights-MD/_/prod20003670",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket pittsburgh penguins",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Pittsburgh-Penguins/_/prod20003019",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba mid rise wide leg pant waffle md",
-          "url": "https://shop.lululemon.com/p/womens-sweatpants/Scuba-Mid-Rise-Wide-Leg-Pant-Waffle-MD/_/prod20004466",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "scuba mid rise wide leg pant waffle",
-          "url": "https://shop.lululemon.com/p/womens-sweatpants/Scuba-Mid-Rise-Wide-Leg-Pant-Waffle/_/prod20004467",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "scuba os collegiate jacket tampa bay lightning",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Tampa-Bay-Lightning/_/prod20001259",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "op3ecdvb9e md",
-          "url": "https://shop.lululemon.com/p/uv-protective-side-ruched-run-long-sleeve-shirt/op3ecdvb9e-md",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "wkjf7q9uww",
-          "url": "https://shop.lululemon.com/p/nulu and mesh-overlay cropped studio tank top/wkjf7q9uww",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket tampa bay lightning md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Tampa-Bay-Lightning-MD/_/prod20001258",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba oversized collegiate jacket edmonton oilers md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-Oversized-Collegiate-Jacket-Edmonton-Oilers-MD/_/prod20003702",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba oversized collegiate jacket edmonton oilers",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-Oversized-Collegiate-Jacket-Edmonton-Oilers/_/prod20003703",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba os collegiate jacket pittsburgh penguins md",
-          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Scuba-OS-Collegiate-Jacket-Pittsburgh-Penguins-MD/_/prod20003018",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "wkjf7q9uww md",
-          "url": "https://shop.lululemon.com/p/nulu and mesh-overlay cropped studio tank top/wkjf7q9uww-md",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 2,
-      "products": [
-        {
-          "name": "gymshark sharkhead cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-sharkhead-cap-headwear",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sharkhead cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-sharkhead-cap-headwear",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7313,7 +6545,8 @@
       "2026-04-02": 72,
       "2026-04-03": 2,
       "2026-04-06": 4,
-      "2026-04-07": 125
+      "2026-04-07": 125,
+      "2026-04-08": 4
     },
     "alo": {
       "2026-02-03": 3396,
@@ -7414,7 +6647,9 @@
       "2026-04-02": 313,
       "2026-04-03": 14,
       "2026-04-06": 2,
-      "2026-04-07": 16
+      "2026-04-07": 16,
+      "2026-04-08": 2,
+      "2026-04-09": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7444,7 +6679,7 @@
       "tenthousand": 50,
       "lululemon": 1050,
       "alo": 1673,
-      "gymshark": 2643,
+      "gymshark": 2645,
       "on_running": 1554,
       "gymreapers": 200,
       "sbd": 20,
@@ -7481,7 +6716,7 @@
       "vuori": 520,
       "outdoor_voices": 43,
       "tenthousand": 10,
-      "lululemon": 1167,
+      "lululemon": 1171,
       "alo": 754,
       "gymshark": 477,
       "on_running": 2708,
@@ -7514,7 +6749,7 @@
       "tenthousand": 2,
       "lululemon": 391,
       "alo": 390,
-      "gymshark": 458,
+      "gymshark": 460,
       "on_running": 667,
       "gymreapers": 174,
       "sbd": 51,
@@ -7583,7 +6818,7 @@
       "tenthousand": 3,
       "lululemon": 147,
       "alo": 332,
-      "gymshark": 633,
+      "gymshark": 635,
       "on_running": 391,
       "gymreapers": 42,
       "bear_grips": 32
@@ -7592,7 +6827,7 @@
       "vuori": 1034,
       "outdoor_voices": 129,
       "tenthousand": 28,
-      "lululemon": 1560,
+      "lululemon": 1564,
       "alo": 1539,
       "gymshark": 2273,
       "on_running": 3051,
@@ -7755,7 +6990,7 @@
       "tenthousand": 1,
       "lululemon": 99,
       "alo": 170,
-      "gymshark": 194,
+      "gymshark": 196,
       "on_running": 417,
       "gymreapers": 6,
       "sbd": 39
@@ -7896,7 +7131,7 @@
       "vuori": 159,
       "outdoor_voices": 2,
       "alo": 279,
-      "gymshark": 522,
+      "gymshark": 524,
       "on_running": 74,
       "gymreapers": 9,
       "schiek": 2,
@@ -8008,12 +7243,12 @@
     {
       "brand": "Lululemon",
       "bottoms": 28.7,
-      "tops": 13.1,
+      "tops": 13,
       "outerwear": 10.8,
       "dresses": 1.1,
       "sports_bras": 2.7,
       "accessories": 10.7,
-      "other": 31.9
+      "other": 32
     },
     {
       "brand": "Vuori",
@@ -8116,7 +7351,7 @@
     },
     {
       "brand": "Gymshark",
-      "black": 24.6,
+      "black": 24.5,
       "white": 7.2,
       "gray": 11.8,
       "navy": 0.8,
@@ -8350,7 +7585,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 28,956 competitor products tracked. Vuori's 3,514 = 11% share of tracked catalog."
+      "text": "Market context: 28,964 competitor products tracked. Vuori's 3,514 = 11% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8504,5 +7739,5 @@
       }
     ]
   },
-  "generated_at": "2026-04-08T13:15:16.377Z"
+  "generated_at": "2026-04-09T13:15:14.760Z"
 }
