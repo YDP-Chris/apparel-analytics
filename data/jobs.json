@@ -3,15 +3,15 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 646,
-      "change_from_last": 0,
+      "total_jobs": 645,
+      "change_from_last": -1,
       "departments": {
         "engineering": 41,
         "design": 74,
         "operations": 149,
         "finance": 7,
         "other": 109,
-        "retail": 224,
+        "retail": 223,
         "marketing": 16,
         "executive": 13,
         "product": 6,
@@ -21,32 +21,32 @@
         "mid": 31,
         "manager": 151,
         "intern": 35,
-        "junior": 284,
+        "junior": 283,
         "lead": 94,
         "c-suite": 30,
         "senior": 21
       },
       "locations": [
-        "Austin, TX",
-        "Indianapolis, IN",
-        "Pittsburgh, PA",
-        "Fort Worth, TX",
+        "Aspen, CO",
         "Denver, CO",
-        "Memphis, Tennessee, United States",
-        "Dublin, Dublin, Ireland",
-        "Des Moines, Iowa, United States",
-        "Chicago, Illinois, United States",
-        "Sydney, New South Wales, Australia",
-        "Seoul, Seoul, South Korea",
-        "Berlin, Berlin, Germany",
-        "Philadelphia, PA",
-        "Portland, Oregon, United States",
-        "Canoga Park, California, United States",
+        "Wayne, New Jersey, United States",
+        "Hamburg, Hamburg, Germany",
+        "Etobicoke, Ontario, Canada",
+        "Naperville, Illinois, United States",
+        "Oakbrook, IL",
+        "Studio City, California, United States",
+        "Charlotte, NC",
+        "Ashburn, Virginia, United States",
+        "Detroit, Michigan, United States",
+        "Brea, California, United States",
+        "Nashville, TN",
+        "Kansas City, Missouri, United States",
+        "Leawood, Kansas, United States",
         "Shrewsbury, New Jersey, United States",
-        "Murray, UT",
-        "Santa Barbara, California, United States",
-        "Louisville, Kentucky, United States",
-        "Short Hills, New Jersey, United States"
+        "Palo Alto, California, United States",
+        "Bridgewater, New Jersey, United States",
+        "Atlanta, Georgia, United States",
+        "Miami Beach, Florida, United States"
       ],
       "jobs": [
         {
@@ -550,33 +550,34 @@
           "seniority": "intern"
         }
       ],
-      "checked_at": "2026-04-12T05:30:08.384341"
+      "checked_at": "2026-04-13T05:30:06.304106"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": 0,
+      "total_jobs": 16,
+      "change_from_last": 3,
       "departments": {
         "marketing": 2,
-        "engineering": 1,
+        "engineering": 2,
         "retail": 4,
         "operations": 1,
-        "other": 3,
+        "other": 4,
+        "design": 1,
         "hr": 2
       },
       "seniority": {
-        "mid": 8,
+        "mid": 10,
         "manager": 2,
         "lead": 2,
-        "junior": 1
+        "junior": 2
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
         "London, England, United Kingdom; Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom",
+        "Amsterdam, North Holland, Netherlands",
+        "London, England, United Kingdom",
         "New York, New York, United States",
-        "London, England, United Kingdom"
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -630,6 +631,26 @@
           "seniority": "lead"
         },
         {
+          "id": "4839442101",
+          "title": "Insights Analyst ",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4839442101",
+          "posted_at": "2026-04-13T05:28:36-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "4839428101",
+          "title": "Junior Researcher (UX)",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4839428101",
+          "posted_at": "2026-04-13T04:59:44-04:00",
+          "category": "design",
+          "seniority": "junior"
+        },
+        {
           "id": "4746233101",
           "title": "Operations Team Member - Part Time - Flagship store, New York City",
           "location": "New York, New York, United States",
@@ -680,6 +701,16 @@
           "seniority": "mid"
         },
         {
+          "id": "4824894101",
+          "title": "Product Developer \u2013 Seamless - 6 Month FTC",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4824894101",
+          "posted_at": "2026-04-13T05:13:31-04:00",
+          "category": "engineering",
+          "seniority": "mid"
+        },
+        {
           "id": "4813506101",
           "title": "Sales Associate - Part Time",
           "location": "Amsterdam, North Holland, Netherlands",
@@ -710,7 +741,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-04-12T05:30:10.545675"
+      "checked_at": "2026-04-13T05:30:08.623143"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -772,44 +803,44 @@
       "change_from_last": 0,
       "departments": {
         "other": 46,
-        "engineering": 39,
-        "retail": 127,
+        "engineering": 38,
+        "retail": 128,
         "marketing": 23,
-        "product": 4,
+        "product": 5,
         "executive": 16,
-        "design": 15,
+        "design": 14,
         "operations": 3,
         "finance": 3,
         "hr": 3
       },
       "seniority": {
         "mid": 76,
-        "lead": 145,
+        "lead": 146,
         "manager": 4,
         "c-suite": 13,
-        "senior": 41
+        "senior": 40
       },
       "locations": [
-        "Dallas",
-        "Brooklyn",
-        "Wuhan",
-        "Auckland",
-        "Palo Alto",
-        "Central Valley",
-        "Seoul",
-        "Miami",
-        "Austin",
-        "Guangzhou",
-        "Shenzhen",
-        "Nairobi; Zurich",
-        "Woodbury",
-        "Melbourne",
-        "New York City; Zurich",
-        "Milan",
-        "Hong Kong",
         "Zurich",
-        "Shanghai",
-        "Chengdu"
+        "Woodbury",
+        "Auckland",
+        "Hong Kong",
+        "Paris",
+        "Sydney",
+        "Macao",
+        "Corte Madera",
+        "Seoul",
+        "Tokyo",
+        "Munich",
+        "Chengdu",
+        "Bicester",
+        "Beijing",
+        "Palo Alto",
+        "Miami",
+        "Central Valley",
+        "Portland",
+        "San Diego",
+        "New York City; Zurich"
       ],
       "jobs": [
         {
@@ -1223,6 +1254,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7217836",
+          "title": "Head of  Product Management, Product/R&D",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7217836?gh_jid=7217836",
+          "posted_at": "2026-04-13T05:16:44-04:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
           "id": "7775298",
           "title": "Head of Sales for Distributors, Latin America & Caribbean",
           "location": "New York City",
@@ -1301,20 +1342,10 @@
           "posted_at": "2026-04-08T05:54:24-04:00",
           "category": "executive",
           "seniority": "c-suite"
-        },
-        {
-          "id": "7609666",
-          "title": "Lead - Brand, Communication and PR, Oceania",
-          "location": "Melbourne",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7609666?gh_jid=7609666",
-          "posted_at": "2026-04-08T05:54:24-04:00",
-          "category": "marketing",
-          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-04-12T05:30:21.300566"
+      "checked_at": "2026-04-13T05:30:21.167558"
     }
   },
-  "generated_at": "2026-04-12T05:30:23.300765"
+  "generated_at": "2026-04-13T05:30:23.167709"
 }
