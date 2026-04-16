@@ -4,49 +4,49 @@
       "name": "Alo Yoga",
       "platform": "greenhouse",
       "total_jobs": 660,
-      "change_from_last": -6,
+      "change_from_last": 0,
       "departments": {
-        "engineering": 38,
+        "engineering": 37,
         "design": 75,
-        "operations": 157,
+        "operations": 158,
         "finance": 7,
         "other": 110,
-        "retail": 230,
+        "retail": 232,
         "marketing": 17,
         "executive": 13,
-        "product": 6,
-        "hr": 7
+        "product": 5,
+        "hr": 6
       },
       "seniority": {
         "mid": 31,
-        "manager": 150,
-        "intern": 33,
+        "manager": 151,
+        "intern": 31,
         "junior": 295,
-        "c-suite": 30,
-        "senior": 20,
-        "lead": 101
+        "c-suite": 31,
+        "senior": 21,
+        "lead": 100
       },
       "locations": [
-        "Corte Madera, California, United States",
-        "Los Angeles, California, United States",
-        "Santa Clara, California, United States",
-        "Manhattan Beach, California, United States",
-        "Kansas City, Missouri, United States",
-        "Sydney ",
-        "Venice, California, United States",
-        "Ashburn, Virginia, United States",
+        "Palo Alto, California, United States",
+        "Calgary, AB",
+        "Scottsdale, Arizona, United States",
+        "Berlin, Berlin, Germany",
+        "Palm Desert, California, United States",
+        "Orlando, Florida, United States",
+        "Santa Monica, California, United States",
+        "Boston, MA",
+        "Laval, Quebec, Canada",
+        "Rochester Hills, Michigan, United States",
+        "Denver, CO",
+        "Charleston, South Carolina, United States",
+        "Memphis, Tennessee, United States",
+        "Remote",
+        "Seoul, Seoul, South Korea",
+        "Cincinnati, OH",
         "Bellevue, Washington, United States",
-        "St. Louis, MO",
-        "Southlake, Texas, United States",
-        "Greenwich, Connecticut, United States",
-        "Hong Kong",
-        "Bridgewater, New Jersey, United States",
-        "Florence, Italy",
-        "Pasadena, California, United States",
-        "Studio City, California, United States",
-        "Shrewsbury, New Jersey, United States",
-        "Milano, Milan, Italy",
-        "Austin, TX"
+        "Schaumburg, IL",
+        "Carlsbad, California, United States",
+        "New York, NY"
       ],
       "jobs": [
         {
@@ -120,16 +120,6 @@
           "seniority": "mid"
         },
         {
-          "id": "5844379004",
-          "title": "Asset Protection Specialist - Brompton Road, London",
-          "location": "London, England, United Kingdom",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5844379004?gh_jid=5844379004",
-          "posted_at": "2026-04-13T09:08:19-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "5855139004",
           "title": "Asset Protection Specialist - Fashion Island",
           "location": "Newport Beach, California, United States",
@@ -137,6 +127,16 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5855139004?gh_jid=5855139004",
           "posted_at": "2026-04-07T12:55:18-04:00",
           "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "5970922004",
+          "title": "Asset Protection Specialist (In-Store) - London",
+          "location": "London, England, United Kingdom",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5970922004?gh_jid=5970922004",
+          "posted_at": "2026-04-16T03:24:40-04:00",
+          "category": "retail",
           "seniority": "mid"
         },
         {
@@ -166,16 +166,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5838853004?gh_jid=5838853004",
           "posted_at": "2026-04-07T12:11:53-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "5844372004",
-          "title": "Asset Protection Specialist - Regent Street, London",
-          "location": "London, England, United Kingdom",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5844372004?gh_jid=5844372004",
-          "posted_at": "2026-04-13T08:59:34-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -460,16 +450,6 @@
           "seniority": "intern"
         },
         {
-          "id": "5789987004",
-          "title": "Data Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
-          "posted_at": "2026-04-14T01:01:44-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5789802004",
           "title": "Data Intern - AI",
           "location": "Beverly Hills, California, United States",
@@ -480,21 +460,21 @@
           "seniority": "intern"
         },
         {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
-          "posted_at": "2026-04-14T01:01:42-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5781938004",
           "title": "Digital Engineering Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-04-14T01:01:42-04:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-04-14T01:01:42-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -548,36 +528,57 @@
           "posted_at": "2026-04-14T01:01:36-04:00",
           "category": "executive",
           "seniority": "c-suite"
+        },
+        {
+          "id": "5797031004",
+          "title": "Director, Global Logistics Programs & Solutions",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5797031004?gh_jid=5797031004",
+          "posted_at": "2026-04-14T01:01:47-04:00",
+          "category": "operations",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "5830660004",
+          "title": "Director of Accounting",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5830660004?gh_jid=5830660004",
+          "posted_at": "2026-04-14T01:01:51-04:00",
+          "category": "finance",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-04-15T05:30:09.964176"
+      "checked_at": "2026-04-16T05:30:09.814467"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": -2,
+      "total_jobs": 14,
+      "change_from_last": 1,
       "departments": {
         "retail": 5,
         "engineering": 2,
+        "other": 3,
         "operations": 1,
-        "other": 2,
         "design": 1,
         "hr": 1,
         "marketing": 1
       },
       "seniority": {
-        "manager": 3,
+        "manager": 4,
         "mid": 6,
         "lead": 2,
         "junior": 2
       },
       "locations": [
-        "New York, New York, United States; New York, New York, United States",
-        "Solihull, England, United Kingdom",
-        "London, England, United Kingdom",
         "New York, New York, United States",
-        "Roosevelt, New York, United States"
+        "Manchester, England, United Kingdom",
+        "Roosevelt, New York, United States",
+        "London, England, United Kingdom",
+        "New York, New York, United States; New York, New York, United States",
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -608,6 +609,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4827740101",
           "posted_at": "2026-03-31T05:51:39-04:00",
           "category": "retail",
+          "seniority": "manager"
+        },
+        {
+          "id": "4842921101",
+          "title": "Department Manager - Trafford Centre",
+          "location": "Manchester, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4842921101",
+          "posted_at": "2026-04-16T04:07:32-04:00",
+          "category": "other",
           "seniority": "manager"
         },
         {
@@ -711,7 +722,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-04-15T05:30:12.112152"
+      "checked_at": "2026-04-16T05:30:12.006791"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -770,13 +781,13 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 275,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
-        "other": 50,
+        "other": 48,
         "engineering": 38,
         "retail": 126,
         "marketing": 21,
-        "product": 5,
+        "product": 7,
         "executive": 13,
         "design": 13,
         "operations": 3,
@@ -784,65 +795,35 @@
         "hr": 3
       },
       "seniority": {
-        "lead": 148,
         "mid": 75,
+        "lead": 147,
         "manager": 4,
         "c-suite": 11,
-        "senior": 37
+        "senior": 38
       },
       "locations": [
-        "Chengdu",
-        "Guangzhou",
-        "Shanghai",
-        "London; Zurich",
-        "Nanjing",
-        "Beijing",
-        "Shenzhen",
-        "Manchester",
+        "Auckland",
         "Seoul",
-        "Bicester",
-        "Nairobi; Zurich",
-        "Nairobi",
-        "Hong Kong",
-        "Paris",
-        "Portland; Zurich",
-        "Melbourne",
-        "Woodbury",
+        "Mexico City",
+        "Brooklyn",
+        "Berlin",
+        "Madrid",
+        "Central Valley",
         "Milan",
-        "Munich",
-        "Dallas"
+        "Tokyo",
+        "Portland",
+        "Ho Chi Minh City",
+        "Manchester",
+        "Paris",
+        "London",
+        "D\u00fcsseldorf",
+        "Macao",
+        "San Francisco",
+        "Tianjin",
+        "Sydney",
+        "Palo Alto"
       ],
       "jobs": [
-        {
-          "id": "7807228",
-          "title": "268822 - Lead - Procurement Category Manager Ocean",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7807228?gh_jid=7807228",
-          "posted_at": "2026-04-13T07:57:09-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
-          "id": "7810692",
-          "title": "268823 - Senior Lead - Distribution Procurement Category Manager",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7810692?gh_jid=7810692",
-          "posted_at": "2026-04-13T07:51:34-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
-          "id": "7810829",
-          "title": "268825 - Senior Lead - Procurement Special Projects",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7810829?gh_jid=7810829",
-          "posted_at": "2026-04-13T07:43:25-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
         {
           "id": "7768126",
           "title": "Accounts Receivables Specialist, German & English",
@@ -1312,10 +1293,40 @@
           "posted_at": "2026-04-08T05:54:24-04:00",
           "category": "other",
           "seniority": "lead"
+        },
+        {
+          "id": "7775612",
+          "title": "Lead - Apparel Testing",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7775612?gh_jid=7775612",
+          "posted_at": "2026-04-08T05:54:24-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "7748553",
+          "title": "Lead, Art Director",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7748553?gh_jid=7748553",
+          "posted_at": "2026-04-08T05:54:24-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "7733841",
+          "title": "Lead - Athlete Strategy Manager, Global Ultra & Trail Running",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7733841?gh_jid=7733841",
+          "posted_at": "2026-04-15T09:24:42-04:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-04-15T05:30:22.007426"
+      "checked_at": "2026-04-16T05:30:21.445466"
     }
   },
-  "generated_at": "2026-04-15T05:30:24.007609"
+  "generated_at": "2026-04-16T05:30:23.445618"
 }
