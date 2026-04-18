@@ -132,16 +132,16 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 113,
+      "total": 115,
       "categories": {
-        "bottoms": 50,
+        "bottoms": 52,
         "other": 10,
         "tops": 33,
         "outerwear": 18,
         "accessories": 2
       },
       "subcategories": {
-        "shorts": 28,
+        "shorts": 29,
         "other": 28,
         "long_sleeve": 6,
         "tanks": 4,
@@ -151,12 +151,12 @@
         "hoodies": 8,
         "joggers": 5,
         "tees": 7,
-        "leggings": 3,
+        "leggings": 4,
         "socks": 1,
         "sweatpants": 1
       },
       "genders": {
-        "mens": 113
+        "mens": 115
       },
       "colors": {},
       "colorCoverage": 0,
@@ -166,14 +166,14 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 3861,
+      "total": 3863,
       "categories": {
         "tops": 482,
         "bottoms": 1074,
         "outerwear": 420,
         "sports_bras": 98,
         "accessories": 401,
-        "other": 1303,
+        "other": 1305,
         "dresses": 41,
         "footwear": 42
       },
@@ -181,7 +181,7 @@
         "tanks": 150,
         "shorts": 328,
         "hoodies": 83,
-        "other": 1704,
+        "other": 1706,
         "medium_support": 9,
         "leggings": 149,
         "polos": 31,
@@ -211,7 +211,7 @@
         "sweatpants": 4
       },
       "genders": {
-        "womens": 1359,
+        "womens": 1361,
         "mens": 1023,
         "unisex": 1479
       },
@@ -298,9 +298,9 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 7281,
+      "total": 7283,
       "categories": {
-        "bottoms": 2672,
+        "bottoms": 2674,
         "tops": 2304,
         "other": 493,
         "accessories": 464,
@@ -309,7 +309,7 @@
         "dresses": 4
       },
       "subcategories": {
-        "shorts": 1080,
+        "shorts": 1082,
         "leggings": 643,
         "crop_tops": 144,
         "other": 2306,
@@ -338,7 +338,7 @@
       "genders": {
         "unisex": 3262,
         "womens": 2484,
-        "mens": 1535
+        "mens": 1537
       },
       "colors": {
         "green": 377,
@@ -348,7 +348,7 @@
         "navy": 60,
         "gray": 863,
         "brown": 528,
-        "blue": 1167,
+        "blue": 1169,
         "red": 235,
         "purple": 339,
         "yellow": 50,
@@ -640,7 +640,7 @@
     }
   },
   "totals": {
-    "products": 32902,
+    "products": 32908,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
@@ -669,6 +669,66 @@
           "url": "https://vuoriclothing.com/products/short-sleeve-terrain-tee-relaxed-fit-river-rock",
           "category": "bottoms",
           "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 2,
+      "products": [
+        {
+          "name": "recover short 5 inch",
+          "url": "https://www.tenthousand.cc/products/recover-short-5-inch",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "distance half tight",
+          "url": "https://www.tenthousand.cc/products/distance-half-tight",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 2,
+      "products": [
+        {
+          "name": "natvtjcdwa md",
+          "url": "https://shop.lululemon.com/p/ruched-tote-bag-24l/natvtjcdwa-md",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "natvtjcdwa",
+          "url": "https://shop.lululemon.com/p/ruched-tote-bag-24l/natvtjcdwa",
+          "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark sport 7 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-sport-7-shorts-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sport 7 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-7-shorts-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "mens"
         }
       ]
     },
@@ -5867,7 +5927,8 @@
       "2026-03-16": 2,
       "2026-03-18": 16,
       "2026-03-31": 1,
-      "2026-04-06": 2
+      "2026-04-06": 2,
+      "2026-04-17": 2
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -5895,7 +5956,8 @@
       "2026-04-13": 12,
       "2026-04-14": 12,
       "2026-04-15": 2,
-      "2026-04-16": 94
+      "2026-04-16": 94,
+      "2026-04-17": 2
     },
     "alo": {
       "2026-02-03": 3396,
@@ -6008,7 +6070,8 @@
       "2026-04-13": 4,
       "2026-04-14": 39,
       "2026-04-15": 18,
-      "2026-04-16": 10
+      "2026-04-16": 10,
+      "2026-04-17": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6035,10 +6098,10 @@
     "bottoms": {
       "vuori": 1657,
       "outdoor_voices": 181,
-      "tenthousand": 50,
+      "tenthousand": 52,
       "lululemon": 1074,
       "alo": 1704,
-      "gymshark": 2672,
+      "gymshark": 2674,
       "on_running": 1554,
       "gymreapers": 200,
       "sbd": 20,
@@ -6075,7 +6138,7 @@
       "vuori": 527,
       "outdoor_voices": 44,
       "tenthousand": 10,
-      "lululemon": 1303,
+      "lululemon": 1305,
       "alo": 772,
       "gymshark": 493,
       "on_running": 2708,
@@ -6140,10 +6203,10 @@
     "shorts": {
       "vuori": 572,
       "outdoor_voices": 52,
-      "tenthousand": 28,
+      "tenthousand": 29,
       "lululemon": 328,
       "alo": 396,
-      "gymshark": 1080,
+      "gymshark": 1082,
       "on_running": 677,
       "gymreapers": 127,
       "sbd": 13,
@@ -6174,7 +6237,7 @@
     "leggings": {
       "vuori": 165,
       "outdoor_voices": 15,
-      "tenthousand": 3,
+      "tenthousand": 4,
       "lululemon": 149,
       "alo": 337,
       "gymshark": 643,
@@ -6186,7 +6249,7 @@
       "vuori": 1044,
       "outdoor_voices": 131,
       "tenthousand": 28,
-      "lululemon": 1704,
+      "lululemon": 1706,
       "alo": 1569,
       "gymshark": 2306,
       "on_running": 3051,
@@ -6470,7 +6533,7 @@
       "vuori": 452,
       "outdoor_voices": 23,
       "alo": 219,
-      "gymshark": 1167,
+      "gymshark": 1169,
       "on_running": 780,
       "gymreapers": 31,
       "sbd": 6,
@@ -6607,7 +6670,7 @@
       "dresses": 1.1,
       "sports_bras": 2.5,
       "accessories": 10.4,
-      "other": 33.7
+      "other": 33.8
     },
     {
       "brand": "Vuori",
@@ -6661,13 +6724,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 44.2,
-      "tops": 29.2,
-      "outerwear": 15.9,
+      "bottoms": 45.2,
+      "tops": 28.7,
+      "outerwear": 15.7,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 1.8,
-      "other": 8.8
+      "accessories": 1.7,
+      "other": 8.7
     },
     {
       "brand": "schiek",
@@ -6712,12 +6775,12 @@
       "brand": "Gymshark",
       "black": 24.5,
       "white": 7.2,
-      "gray": 11.9,
+      "gray": 11.8,
       "navy": 0.8,
-      "blue": 16,
+      "blue": 16.1,
       "green": 5.2,
       "khaki": 0,
-      "brown": 7.3,
+      "brown": 7.2,
       "purple": 4.7,
       "pink": 6.9,
       "orange": 0.3,
@@ -6934,7 +6997,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 572,
-      "text": "Vuori ranks #3 in shorts with 572 products. Behind Gymshark (1080)."
+      "text": "Vuori ranks #3 in shorts with 572 products. Behind Gymshark (1082)."
     },
     {
       "type": "comparison",
@@ -6944,7 +7007,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 29,344 competitor products tracked. Vuori's 3,558 = 11% share of tracked catalog."
+      "text": "Market context: 29,350 competitor products tracked. Vuori's 3,558 = 11% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -7043,7 +7106,7 @@
       {
         "category": "Women's Products",
         "vuori": 1582,
-        "competitor": 1359,
+        "competitor": 1361,
         "winner": "vuori"
       }
     ],
@@ -7098,5 +7161,5 @@
       }
     ]
   },
-  "generated_at": "2026-04-17T13:15:18.607Z"
+  "generated_at": "2026-04-18T13:15:18.664Z"
 }
