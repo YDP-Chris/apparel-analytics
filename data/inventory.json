@@ -83,16 +83,16 @@
           "price": "39.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363188"
+      "checked_at": "2026-04-21T06:38:28.408820"
     },
     "tenthousand:distance-tank": {
       "handle": "distance-tank",
       "title": "Distance Tank",
       "product_type": "Distance Tank",
       "any_available": true,
-      "available_count": 1,
+      "available_count": 3,
       "total_variants": 6,
-      "availability_pct": 17,
+      "availability_pct": 50,
       "created_at": "2025-10-14T01:59:20-04:00",
       "variants": [
         {
@@ -116,13 +116,13 @@
         {
           "id": 42030135083095,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "58.00"
         },
         {
           "id": 42030135115863,
           "title": "Black / XL",
-          "available": false,
+          "available": true,
           "price": "58.00"
         },
         {
@@ -132,7 +132,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363243"
+      "checked_at": "2026-04-21T06:38:28.408875"
     },
     "tenthousand:session-tank": {
       "handle": "session-tank",
@@ -140,8 +140,8 @@
       "product_type": "Session Shirt",
       "any_available": true,
       "available_count": 4,
-      "total_variants": 12,
-      "availability_pct": 33,
+      "total_variants": 54,
+      "availability_pct": 7,
       "created_at": "2025-10-14T02:01:37-04:00",
       "variants": [
         {
@@ -215,18 +215,270 @@
           "title": "Light Grey / XXL",
           "available": true,
           "price": "68.00"
+        },
+        {
+          "id": 42713802801239,
+          "title": "Black (New SKU) / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713802834007,
+          "title": "Black (New SKU) / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713802866775,
+          "title": "Black (New SKU) / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713802899543,
+          "title": "Black (New SKU) / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713802932311,
+          "title": "Black (New SKU) / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713802965079,
+          "title": "Black (New SKU) / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713802997847,
+          "title": "Light Grey (New SKU) / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803030615,
+          "title": "Light Grey (New SKU) / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803063383,
+          "title": "Light Grey (New SKU) / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803096151,
+          "title": "Light Grey (New SKU) / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803128919,
+          "title": "Light Grey (New SKU) / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803161687,
+          "title": "Light Grey (New SKU) / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803194455,
+          "title": "Dusk Blue / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803227223,
+          "title": "Dusk Blue / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803259991,
+          "title": "Dusk Blue / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803292759,
+          "title": "Dusk Blue / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803325527,
+          "title": "Dusk Blue / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803358295,
+          "title": "Dusk Blue / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803391063,
+          "title": "Pine / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803423831,
+          "title": "Pine / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803456599,
+          "title": "Pine / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803489367,
+          "title": "Pine / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803522135,
+          "title": "Pine / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803554903,
+          "title": "Pine / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803587671,
+          "title": "Burlap / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803620439,
+          "title": "Burlap / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803653207,
+          "title": "Burlap / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803685975,
+          "title": "Burlap / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803718743,
+          "title": "Burlap / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803751511,
+          "title": "Burlap / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803784279,
+          "title": "Navy / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803817047,
+          "title": "Navy / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803849815,
+          "title": "Navy / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803882583,
+          "title": "Navy / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803915351,
+          "title": "Navy / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803948119,
+          "title": "Navy / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713803980887,
+          "title": "Bluefin / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713804013655,
+          "title": "Bluefin / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713804046423,
+          "title": "Bluefin / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713804079191,
+          "title": "Bluefin / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713804111959,
+          "title": "Bluefin / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713804144727,
+          "title": "Bluefin / XXL",
+          "available": false,
+          "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363277"
+      "checked_at": "2026-04-21T06:38:28.408970"
     },
     "tenthousand:distance-half-tight": {
       "handle": "distance-half-tight",
       "title": "Distance Half Tight",
       "product_type": "Distance Half Tight",
       "any_available": true,
-      "available_count": 3,
+      "available_count": 4,
       "total_variants": 6,
-      "availability_pct": 50,
+      "availability_pct": 67,
       "created_at": "2025-10-14T02:25:35-04:00",
       "variants": [
         {
@@ -244,7 +496,7 @@
         {
           "id": 42030283063383,
           "title": "Black / M",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -266,16 +518,16 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363298"
+      "checked_at": "2026-04-21T06:38:28.408992"
     },
     "tenthousand:interval-short-9-inch": {
       "handle": "interval-short-9-inch",
       "title": "Interval Short | 9-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 8,
+      "available_count": 13,
       "total_variants": 24,
-      "availability_pct": 33,
+      "availability_pct": 54,
       "created_at": "2025-10-14T02:26:21-04:00",
       "variants": [
         {
@@ -299,19 +551,19 @@
         {
           "id": 42030283817047,
           "title": "Black / S / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
           "id": 42030283849815,
           "title": "Black / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
           "id": 42030283882583,
           "title": "Black / M / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -329,7 +581,7 @@
         {
           "id": 42030283980887,
           "title": "Black / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -401,7 +653,7 @@
         {
           "id": 42115957555287,
           "title": "Light Grey / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -423,7 +675,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363349"
+      "checked_at": "2026-04-21T06:38:28.409039"
     },
     "tenthousand:heavyweight-cotton-short": {
       "handle": "heavyweight-cotton-short",
@@ -472,7 +724,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363369"
+      "checked_at": "2026-04-21T06:38:28.409060"
     },
     "tenthousand:heavyweight-cotton-sweatpant": {
       "handle": "heavyweight-cotton-sweatpant",
@@ -593,7 +845,7 @@
           "price": "158.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363412"
+      "checked_at": "2026-04-21T06:38:28.409099"
     },
     "tenthousand:tactical-short-5-inch-sale": {
       "handle": "tactical-short-5-inch-sale",
@@ -822,7 +1074,7 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363479"
+      "checked_at": "2026-04-21T06:38:28.409162"
     },
     "tenthousand:concept-boxy-tee": {
       "handle": "concept-boxy-tee",
@@ -871,16 +1123,16 @@
           "price": "54.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363499"
+      "checked_at": "2026-04-21T06:38:28.409183"
     },
     "tenthousand:3-4-tight": {
       "handle": "3-4-tight",
       "title": "3/4 Tight",
       "product_type": "3/4 Tight",
       "any_available": true,
-      "available_count": 4,
+      "available_count": 5,
       "total_variants": 6,
-      "availability_pct": 67,
+      "availability_pct": 83,
       "created_at": "2025-10-14T02:20:10-04:00",
       "variants": [
         {
@@ -898,7 +1150,7 @@
         {
           "id": 42030274838615,
           "title": "Black / M",
-          "available": false,
+          "available": true,
           "price": "118.00"
         },
         {
@@ -920,16 +1172,16 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363519"
+      "checked_at": "2026-04-21T06:38:28.409203"
     },
     "tenthousand:tactical-waterproof-hoodie-sale": {
       "handle": "tactical-waterproof-hoodie-sale",
       "title": "Waterproof Hoodie",
       "product_type": "Tactical Waterproof Hoodie",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 4,
       "total_variants": 6,
-      "availability_pct": 33,
+      "availability_pct": 67,
       "created_at": "2026-03-16T17:35:00-04:00",
       "variants": [
         {
@@ -947,13 +1199,13 @@
         {
           "id": 42618288111703,
           "title": "Black / M",
-          "available": false,
+          "available": true,
           "price": "118.00"
         },
         {
           "id": 42618288144471,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "118.00"
         },
         {
@@ -969,7 +1221,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363538"
+      "checked_at": "2026-04-21T06:38:28.409337"
     },
     "tenthousand:ession-short-5-inch-sale": {
       "handle": "ession-short-5-inch-sale",
@@ -1198,7 +1450,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363605"
+      "checked_at": "2026-04-21T06:38:28.409403"
     },
     "tenthousand:session-short-sale": {
       "handle": "session-short-sale",
@@ -1463,16 +1715,16 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363678"
+      "checked_at": "2026-04-21T06:38:28.409474"
     },
     "tenthousand:interval-short-sale": {
       "handle": "interval-short-sale",
       "title": "Interval Short | 7-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 5,
+      "available_count": 6,
       "total_variants": 72,
-      "availability_pct": 7,
+      "availability_pct": 8,
       "created_at": "2026-03-13T21:03:38-04:00",
       "variants": [
         {
@@ -1826,7 +2078,7 @@
         {
           "id": 42608478224471,
           "title": "Dark Olive / M / Liner",
-          "available": false,
+          "available": true,
           "price": "58.00"
         },
         {
@@ -1908,16 +2160,16 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363797"
+      "checked_at": "2026-04-21T06:38:28.409590"
     },
     "tenthousand:camoknit-shirt-sale": {
       "handle": "camoknit-shirt-sale",
       "title": "CamoKnit Shirt",
       "product_type": "CamoKnit Shirt",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 3,
       "total_variants": 6,
-      "availability_pct": 33,
+      "availability_pct": 50,
       "created_at": "2026-03-13T16:33:24-04:00",
       "variants": [
         {
@@ -1941,7 +2193,7 @@
         {
           "id": 42608238002263,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
@@ -1957,16 +2209,16 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363817"
+      "checked_at": "2026-04-21T06:38:28.409609"
     },
     "tenthousand:reset-jogger": {
       "handle": "reset-jogger",
       "title": "Reset Jogger",
       "product_type": "Reset Jogger",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 3,
       "total_variants": 12,
-      "availability_pct": 17,
+      "availability_pct": 25,
       "created_at": "2025-12-16T12:02:33-05:00",
       "variants": [
         {
@@ -2014,7 +2266,7 @@
         {
           "id": 42412779536471,
           "title": "Black Heather / S",
-          "available": false,
+          "available": true,
           "price": "70.00"
         },
         {
@@ -2042,16 +2294,16 @@
           "price": "70.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363845"
+      "checked_at": "2026-04-21T06:38:28.409638"
     },
     "tenthousand:tactical-utility-pant-sale": {
       "handle": "tactical-utility-pant-sale",
       "title": "Utility Pant | Regular",
       "product_type": "Tactical Utility Pant",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 3,
       "total_variants": 10,
-      "availability_pct": 20,
+      "availability_pct": 30,
       "created_at": "2026-03-16T17:25:23-04:00",
       "variants": [
         {
@@ -2075,7 +2327,7 @@
         {
           "id": 42618268942423,
           "title": "Dark Olive / 36",
-          "available": false,
+          "available": true,
           "price": "106.00"
         },
         {
@@ -2115,16 +2367,16 @@
           "price": "106.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363872"
+      "checked_at": "2026-04-21T06:38:28.409664"
     },
     "tenthousand:tactical-long-sleeve-shirt-sale": {
       "handle": "tactical-long-sleeve-shirt-sale",
       "title": "Tactical Long Sleeve Shirt",
       "product_type": "Tactical Shirt",
       "any_available": true,
-      "available_count": 1,
+      "available_count": 2,
       "total_variants": 6,
-      "availability_pct": 17,
+      "availability_pct": 33,
       "created_at": "2026-03-16T15:49:36-04:00",
       "variants": [
         {
@@ -2148,7 +2400,7 @@
         {
           "id": 42618046021719,
           "title": "Iron / L",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
@@ -2164,16 +2416,16 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363892"
+      "checked_at": "2026-04-21T06:38:28.409684"
     },
     "tenthousand:sherpa-tech-vest-2-0-sale": {
       "handle": "sherpa-tech-vest-2-0-sale",
       "title": "Sherpa Tech Vest",
       "product_type": "Sherpa Tech Vest",
       "any_available": true,
-      "available_count": 3,
+      "available_count": 2,
       "total_variants": 6,
-      "availability_pct": 50,
+      "availability_pct": 33,
       "created_at": "2026-03-16T15:00:19-04:00",
       "variants": [
         {
@@ -2191,7 +2443,7 @@
         {
           "id": 42618006995031,
           "title": "Flat Dark Earth / M",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -2213,7 +2465,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363912"
+      "checked_at": "2026-04-21T06:38:28.409704"
     },
     "tenthousand:overzip-sale": {
       "handle": "overzip-sale",
@@ -2298,7 +2550,7 @@
           "price": "76.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363941"
+      "checked_at": "2026-04-21T06:38:28.409732"
     },
     "tenthousand:interval-shirt-sale": {
       "handle": "interval-shirt-sale",
@@ -2455,16 +2707,16 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.363985"
+      "checked_at": "2026-04-21T06:38:28.409777"
     },
     "tenthousand:interval-pant-sale": {
       "handle": "interval-pant-sale",
       "title": "Interval Pant | Regular",
       "product_type": "Interval Pant",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 3,
       "total_variants": 12,
-      "availability_pct": 17,
+      "availability_pct": 25,
       "created_at": "2026-03-13T17:10:21-04:00",
       "variants": [
         {
@@ -2536,11 +2788,11 @@
         {
           "id": 42608286564439,
           "title": "Fir / XXL",
-          "available": false,
+          "available": true,
           "price": "82.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364014"
+      "checked_at": "2026-04-21T06:38:28.409806"
     },
     "tenthousand:core-tee-sale": {
       "handle": "core-tee-sale",
@@ -2625,16 +2877,16 @@
           "price": "37.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364046"
+      "checked_at": "2026-04-21T06:38:28.409835"
     },
     "tenthousand:rep-short-sale": {
       "handle": "rep-short-sale",
       "title": "Output Short | 7-inch",
       "product_type": "Rep Short",
       "any_available": true,
-      "available_count": 1,
+      "available_count": 3,
       "total_variants": 6,
-      "availability_pct": 17,
+      "availability_pct": 50,
       "created_at": "2026-01-13T14:00:55-05:00",
       "variants": [
         {
@@ -2652,7 +2904,7 @@
         {
           "id": 42473327263831,
           "title": "OD Green / M / Liner",
-          "available": false,
+          "available": true,
           "price": "58.00"
         },
         {
@@ -2664,7 +2916,7 @@
         {
           "id": 42473327329367,
           "title": "OD Green / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "58.00"
         },
         {
@@ -2674,16 +2926,16 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364067"
+      "checked_at": "2026-04-21T06:38:28.409855"
     },
     "tenthousand:session-shirt-sale": {
       "handle": "session-shirt-sale",
       "title": "Session Shirt",
       "product_type": "Session Shirt",
       "any_available": true,
-      "available_count": 3,
+      "available_count": 7,
       "total_variants": 12,
-      "availability_pct": 25,
+      "availability_pct": 58,
       "created_at": "2026-01-13T14:00:55-05:00",
       "variants": [
         {
@@ -2701,25 +2953,25 @@
         {
           "id": 42473327067223,
           "title": "Iron / M",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
           "id": 42473327099991,
           "title": "Iron / L",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
           "id": 42473327132759,
           "title": "Iron / XL",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
           "id": 42473327165527,
           "title": "Iron / XXL",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
@@ -2759,7 +3011,7 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364095"
+      "checked_at": "2026-04-21T06:38:28.409885"
     },
     "tenthousand:rep-shirt-sale": {
       "handle": "rep-shirt-sale",
@@ -2808,7 +3060,7 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364114"
+      "checked_at": "2026-04-21T06:38:28.409904"
     },
     "tenthousand:merino-tech-full-zip-hoodie": {
       "handle": "merino-tech-full-zip-hoodie",
@@ -2857,7 +3109,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364132"
+      "checked_at": "2026-04-21T06:38:28.409922"
     },
     "tenthousand:tactical-over-zip": {
       "handle": "tactical-over-zip",
@@ -2906,7 +3158,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364151"
+      "checked_at": "2026-04-21T06:38:28.409940"
     },
     "tenthousand:interval-tank-sale": {
       "handle": "interval-tank-sale",
@@ -2961,16 +3213,16 @@
           "price": "40.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364171"
+      "checked_at": "2026-04-21T06:38:28.409961"
     },
     "tenthousand:interval-long-sleeve-shirt-sale": {
       "handle": "interval-long-sleeve-shirt-sale",
       "title": "Interval Long Sleeve Shirt",
       "product_type": "Interval Shirt",
       "any_available": true,
-      "available_count": 9,
+      "available_count": 10,
       "total_variants": 24,
-      "availability_pct": 38,
+      "availability_pct": 42,
       "created_at": "2026-03-13T17:00:50-04:00",
       "variants": [
         {
@@ -3096,7 +3348,7 @@
         {
           "id": 42608280993879,
           "title": "Medium Grey / M",
-          "available": false,
+          "available": true,
           "price": "52.00"
         },
         {
@@ -3118,7 +3370,7 @@
           "price": "52.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364218"
+      "checked_at": "2026-04-21T06:38:28.410009"
     },
     "tenthousand:tactical-hoodie-sale": {
       "handle": "tactical-hoodie-sale",
@@ -3167,16 +3419,16 @@
           "price": "94.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364238"
+      "checked_at": "2026-04-21T06:38:28.410029"
     },
     "tenthousand:tactical-hooded-shirt-sale": {
       "handle": "tactical-hooded-shirt-sale",
       "title": "Tactical Hooded Shirt",
       "product_type": "Tactical Long Sleeve Hood",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 4,
       "total_variants": 18,
-      "availability_pct": 11,
+      "availability_pct": 22,
       "created_at": "2026-01-13T14:00:55-05:00",
       "variants": [
         {
@@ -3194,13 +3446,13 @@
         {
           "id": 42618059358295,
           "title": "OD Green / M",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
           "id": 42618059391063,
           "title": "OD Green / L",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
@@ -3288,16 +3540,16 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364275"
+      "checked_at": "2026-04-21T06:38:28.410067"
     },
     "tenthousand:tech-hoodie": {
       "handle": "tech-hoodie",
       "title": "Midweight Tech Hoodie",
       "product_type": "Tech Hoodie",
       "any_available": true,
-      "available_count": 8,
+      "available_count": 11,
       "total_variants": 30,
-      "availability_pct": 27,
+      "availability_pct": 37,
       "created_at": "2025-10-14T01:40:39-04:00",
       "variants": [
         {
@@ -3321,7 +3573,7 @@
         {
           "id": 42030094450775,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "76.00"
         },
         {
@@ -3393,7 +3645,7 @@
         {
           "id": 42030094843991,
           "title": "Admiral Blue / L",
-          "available": false,
+          "available": true,
           "price": "76.00"
         },
         {
@@ -3429,7 +3681,7 @@
         {
           "id": 42030095040599,
           "title": "Medium Grey / L",
-          "available": false,
+          "available": true,
           "price": "76.00"
         },
         {
@@ -3481,16 +3733,16 @@
           "price": "76.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364330"
+      "checked_at": "2026-04-21T06:38:28.410123"
     },
     "tenthousand:rep-short-5-inch-sale": {
       "handle": "rep-short-5-inch-sale",
       "title": "Output Short | 5-inch",
       "product_type": "Rep Short",
       "any_available": true,
-      "available_count": 3,
+      "available_count": 4,
       "total_variants": 6,
-      "availability_pct": 50,
+      "availability_pct": 67,
       "created_at": "2026-03-16T13:50:50-04:00",
       "variants": [
         {
@@ -3502,7 +3754,7 @@
         {
           "id": 42617920290903,
           "title": "OD Green / S / Liner",
-          "available": false,
+          "available": true,
           "price": "58.00"
         },
         {
@@ -3530,7 +3782,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364350"
+      "checked_at": "2026-04-21T06:38:28.410144"
     },
     "tenthousand:interval-short-5-inch-sale": {
       "handle": "interval-short-5-inch-sale",
@@ -3795,16 +4047,16 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364423"
+      "checked_at": "2026-04-21T06:38:28.410219"
     },
     "tenthousand:foundation-pant": {
       "handle": "foundation-pant",
       "title": "Foundation Pant",
       "product_type": "Foundation Pant",
       "any_available": true,
-      "available_count": 4,
+      "available_count": 6,
       "total_variants": 18,
-      "availability_pct": 22,
+      "availability_pct": 33,
       "created_at": "2025-10-14T01:31:57-04:00",
       "variants": [
         {
@@ -3882,7 +4134,7 @@
         {
           "id": 42030085668951,
           "title": "Navy / XS",
-          "available": false,
+          "available": true,
           "price": "128.00"
         },
         {
@@ -3900,7 +4152,7 @@
         {
           "id": 42030085767255,
           "title": "Navy / L",
-          "available": false,
+          "available": true,
           "price": "128.00"
         },
         {
@@ -3916,7 +4168,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364463"
+      "checked_at": "2026-04-21T06:38:28.410255"
     },
     "tenthousand:midweight-tech-crew": {
       "handle": "midweight-tech-crew",
@@ -4073,16 +4325,16 @@
           "price": "70.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364554"
+      "checked_at": "2026-04-21T06:38:28.410301"
     },
     "tenthousand:heavyweight-cotton-hoodie": {
       "handle": "heavyweight-cotton-hoodie",
       "title": "Heavyweight Core Hoodie",
       "product_type": "Heavyweight Cotton Hoodie",
       "any_available": true,
-      "available_count": 15,
+      "available_count": 16,
       "total_variants": 30,
-      "availability_pct": 50,
+      "availability_pct": 53,
       "created_at": "2025-10-14T01:38:14-04:00",
       "variants": [
         {
@@ -4142,7 +4394,7 @@
         {
           "id": 42030092648535,
           "title": "Medium Heather Grey / L",
-          "available": false,
+          "available": true,
           "price": "178.00"
         },
         {
@@ -4266,16 +4518,16 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364609"
+      "checked_at": "2026-04-21T06:38:28.410356"
     },
     "tenthousand:interval-tank": {
       "handle": "interval-tank",
       "title": "Interval Tank",
       "product_type": "Interval Shirt",
       "any_available": true,
-      "available_count": 6,
-      "total_variants": 20,
-      "availability_pct": 30,
+      "available_count": 7,
+      "total_variants": 90,
+      "availability_pct": 8,
       "created_at": "2025-10-14T01:24:31-04:00",
       "variants": [
         {
@@ -4335,7 +4587,7 @@
         {
           "id": 42030078132311,
           "title": "Iron / M",
-          "available": false,
+          "available": true,
           "price": "68.00"
         },
         {
@@ -4397,18 +4649,438 @@
           "title": "Midship Blue / XXL",
           "available": true,
           "price": "68.00"
+        },
+        {
+          "id": 42713798574167,
+          "title": "Black (New SKU) / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798606935,
+          "title": "Black (New SKU) / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798639703,
+          "title": "Black (New SKU) / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798672471,
+          "title": "Black (New SKU) / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798705239,
+          "title": "Black (New SKU) / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798738007,
+          "title": "Black (New SKU) / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798770775,
+          "title": "Black (New SKU) / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798803543,
+          "title": "Iron (New SKU) / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798836311,
+          "title": "Iron (New SKU) / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798869079,
+          "title": "Iron (New SKU) / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798901847,
+          "title": "Iron (New SKU) / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798934615,
+          "title": "Iron (New SKU) / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713798967383,
+          "title": "Iron (New SKU) / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799000151,
+          "title": "Iron (New SKU) / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799032919,
+          "title": "Stone / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799065687,
+          "title": "Stone / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799098455,
+          "title": "Stone / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799131223,
+          "title": "Stone / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799163991,
+          "title": "Stone / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799196759,
+          "title": "Stone / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799229527,
+          "title": "Stone / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799262295,
+          "title": "Dusk Blue / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799295063,
+          "title": "Dusk Blue / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799327831,
+          "title": "Dusk Blue / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799360599,
+          "title": "Dusk Blue / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799393367,
+          "title": "Dusk Blue / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799426135,
+          "title": "Dusk Blue / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799458903,
+          "title": "Dusk Blue / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799491671,
+          "title": "Salt / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799524439,
+          "title": "Salt / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799557207,
+          "title": "Salt / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799589975,
+          "title": "Salt / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799622743,
+          "title": "Salt / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799655511,
+          "title": "Salt / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799688279,
+          "title": "Salt / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799721047,
+          "title": "Safari / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799753815,
+          "title": "Safari / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799786583,
+          "title": "Safari / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799819351,
+          "title": "Safari / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799852119,
+          "title": "Safari / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799884887,
+          "title": "Safari / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799917655,
+          "title": "Safari / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799950423,
+          "title": "OD Green / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713799983191,
+          "title": "OD Green / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800015959,
+          "title": "OD Green / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800048727,
+          "title": "OD Green / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800081495,
+          "title": "OD Green / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800114263,
+          "title": "OD Green / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800147031,
+          "title": "OD Green / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800179799,
+          "title": "Fir / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800212567,
+          "title": "Fir / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800245335,
+          "title": "Fir / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800278103,
+          "title": "Fir / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800310871,
+          "title": "Fir / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800343639,
+          "title": "Fir / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800376407,
+          "title": "Fir / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800409175,
+          "title": "Bluefin / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800441943,
+          "title": "Bluefin / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800474711,
+          "title": "Bluefin / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800507479,
+          "title": "Bluefin / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800540247,
+          "title": "Bluefin / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800573015,
+          "title": "Bluefin / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800605783,
+          "title": "Bluefin / XXXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800638551,
+          "title": "Mesa Red / XS",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800671319,
+          "title": "Mesa Red / S",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800704087,
+          "title": "Mesa Red / M",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800736855,
+          "title": "Mesa Red / L",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800769623,
+          "title": "Mesa Red / XL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800802391,
+          "title": "Mesa Red / XXL",
+          "available": false,
+          "price": "68.00"
+        },
+        {
+          "id": 42713800835159,
+          "title": "Mesa Red / XXXL",
+          "available": false,
+          "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364650"
+      "checked_at": "2026-04-21T06:38:28.410501"
     },
     "tenthousand:distance-shirt": {
       "handle": "distance-shirt",
       "title": "Distance Shirt",
       "product_type": "Distance Shirt",
       "any_available": true,
-      "available_count": 2,
+      "available_count": 3,
       "total_variants": 6,
-      "availability_pct": 33,
+      "availability_pct": 50,
       "created_at": "2025-10-14T01:59:09-04:00",
       "variants": [
         {
@@ -4432,7 +5104,7 @@
         {
           "id": 42030134722647,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -4448,7 +5120,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364669"
+      "checked_at": "2026-04-21T06:38:28.410523"
     },
     "tenthousand:interval-muscle-tee": {
       "handle": "interval-muscle-tee",
@@ -4569,7 +5241,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364707"
+      "checked_at": "2026-04-21T06:38:28.410562"
     },
     "tenthousand:recover-short": {
       "handle": "recover-short",
@@ -4590,7 +5262,7 @@
         {
           "id": 42030277951575,
           "title": "Black / S / No Liner",
-          "available": false,
+          "available": true,
           "price": "39.00"
         },
         {
@@ -4614,7 +5286,7 @@
         {
           "id": 42030278082647,
           "title": "Black / XXL / No Liner",
-          "available": true,
+          "available": false,
           "price": "39.00"
         },
         {
@@ -4714,16 +5386,16 @@
           "price": "39.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364752"
+      "checked_at": "2026-04-21T06:38:28.410606"
     },
     "tenthousand:tech-hoodie-full-zip": {
       "handle": "tech-hoodie-full-zip",
       "title": "Midweight Tech Full Zip Hoodie",
       "product_type": "Tech Hoodie",
       "any_available": true,
-      "available_count": 15,
+      "available_count": 18,
       "total_variants": 42,
-      "availability_pct": 36,
+      "availability_pct": 43,
       "created_at": "2025-10-14T01:41:59-04:00",
       "variants": [
         {
@@ -4891,7 +5563,7 @@
         {
           "id": 42030096121943,
           "title": "Medium Grey / L",
-          "available": false,
+          "available": true,
           "price": "168.00"
         },
         {
@@ -4957,13 +5629,13 @@
         {
           "id": 42030095892567,
           "title": "Black / M",
-          "available": false,
+          "available": true,
           "price": "168.00"
         },
         {
           "id": 42030095925335,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "168.00"
         },
         {
@@ -4979,7 +5651,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364823"
+      "checked_at": "2026-04-21T06:38:28.410679"
     },
     "tenthousand:double-knee-work-pant": {
       "handle": "double-knee-work-pant",
@@ -5040,7 +5712,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364951"
+      "checked_at": "2026-04-21T06:38:28.410877"
     },
     "tenthousand:delivery-guarantee": {
       "handle": "delivery-guarantee",
@@ -5191,16 +5863,16 @@
           "price": "16.50"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.364999"
+      "checked_at": "2026-04-21T06:38:28.410925"
     },
     "tenthousand:tactical-short-sale": {
       "handle": "tactical-short-sale",
       "title": "Tactical Short | 7-inch",
       "product_type": "Tactical Short",
       "any_available": true,
-      "available_count": 3,
+      "available_count": 4,
       "total_variants": 36,
-      "availability_pct": 8,
+      "availability_pct": 11,
       "created_at": "2026-01-15T15:42:20-05:00",
       "variants": [
         {
@@ -5302,7 +5974,7 @@
         {
           "id": 42618227523671,
           "title": "Zodiac / M / Liner",
-          "available": false,
+          "available": true,
           "price": "64.00"
         },
         {
@@ -5420,7 +6092,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365063"
+      "checked_at": "2026-04-21T06:38:28.410988"
     },
     "tenthousand:digital-gift-card": {
       "handle": "digital-gift-card",
@@ -5457,16 +6129,16 @@
           "price": "200.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365081"
+      "checked_at": "2026-04-21T06:38:28.411004"
     },
     "tenthousand:interval-pant-shorter-inseam": {
       "handle": "interval-pant-shorter-inseam",
       "title": "Interval Pant | Short",
       "product_type": "Interval Pant",
       "any_available": true,
-      "available_count": 7,
+      "available_count": 9,
       "total_variants": 24,
-      "availability_pct": 29,
+      "availability_pct": 38,
       "created_at": "2025-10-14T01:58:35-04:00",
       "variants": [
         {
@@ -5478,25 +6150,25 @@
         {
           "id": 42030134263895,
           "title": "Black / S",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
           "id": 42030134296663,
           "title": "Black / M",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
           "id": 42030134329431,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
           "id": 42030134362199,
           "title": "Black / XL",
-          "available": true,
+          "available": false,
           "price": "138.00"
         },
         {
@@ -5614,22 +6286,22 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365129"
+      "checked_at": "2026-04-21T06:38:28.411048"
     },
     "tenthousand:interval-jogger": {
       "handle": "interval-jogger",
       "title": "Interval Jogger",
       "product_type": "Interval Jogger",
       "any_available": true,
-      "available_count": 4,
+      "available_count": 8,
       "total_variants": 18,
-      "availability_pct": 22,
+      "availability_pct": 44,
       "created_at": "2025-10-14T01:53:05-04:00",
       "variants": [
         {
           "id": 42030128070743,
           "title": "Black / XS",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
@@ -5647,13 +6319,13 @@
         {
           "id": 42030128169047,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
           "id": 42030128201815,
           "title": "Black / XL",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
@@ -5713,7 +6385,7 @@
         {
           "id": 42030128529495,
           "title": "Iron / M",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
@@ -5735,7 +6407,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365166"
+      "checked_at": "2026-04-21T06:38:28.411084"
     },
     "tenthousand:session-pant": {
       "handle": "session-pant",
@@ -5820,16 +6492,16 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365195"
+      "checked_at": "2026-04-21T06:38:28.411113"
     },
     "tenthousand:tactical-short": {
       "handle": "tactical-short",
       "title": "Tactical Short | 7-inch",
       "product_type": "Tactical Short",
       "any_available": true,
-      "available_count": 50,
+      "available_count": 53,
       "total_variants": 93,
-      "availability_pct": 54,
+      "availability_pct": 57,
       "created_at": "2025-10-14T01:58:00-04:00",
       "variants": [
         {
@@ -5883,7 +6555,7 @@
         {
           "id": 42030133477463,
           "title": "Black / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6093,7 +6765,7 @@
         {
           "id": 42030133117015,
           "title": "OD Green / L / No Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -6159,7 +6831,7 @@
         {
           "id": 42030132461655,
           "title": "Iron / L / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6391,16 +7063,16 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365437"
+      "checked_at": "2026-04-21T06:38:28.411256"
     },
     "tenthousand:tactical-short-5-inch": {
       "handle": "tactical-short-5-inch",
       "title": "Tactical Short | 5-inch",
       "product_type": "Tactical Short",
       "any_available": true,
-      "available_count": 43,
+      "available_count": 49,
       "total_variants": 72,
-      "availability_pct": 60,
+      "availability_pct": 68,
       "created_at": "2025-10-14T02:15:43-04:00",
       "variants": [
         {
@@ -6430,7 +7102,7 @@
         {
           "id": 42030246166615,
           "title": "Black / M / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6454,7 +7126,7 @@
         {
           "id": 42030246035543,
           "title": "Black / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6502,7 +7174,7 @@
         {
           "id": 42030244986967,
           "title": "Black Camo / M / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6646,7 +7318,7 @@
         {
           "id": 42030245380183,
           "title": "OD Green / M / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6658,7 +7330,7 @@
         {
           "id": 42030245314647,
           "title": "OD Green / L / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6670,7 +7342,7 @@
         {
           "id": 42030245249111,
           "title": "OD Green / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -6836,7 +7508,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365565"
+      "checked_at": "2026-04-21T06:38:28.411372"
     },
     "tenthousand:recover-shirt": {
       "handle": "recover-shirt",
@@ -6957,7 +7629,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365605"
+      "checked_at": "2026-04-21T06:38:28.411410"
     },
     "tenthousand:al-pack-15l": {
       "handle": "al-pack-15l",
@@ -6976,7 +7648,7 @@
           "price": "158.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365616"
+      "checked_at": "2026-04-21T06:38:28.411422"
     },
     "tenthousand:full-length-tight": {
       "handle": "full-length-tight",
@@ -7025,7 +7697,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365637"
+      "checked_at": "2026-04-21T06:38:28.411441"
     },
     "tenthousand:overzip": {
       "handle": "overzip",
@@ -7134,7 +7806,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365672"
+      "checked_at": "2026-04-21T06:38:28.411474"
     },
     "tenthousand:tactical-hoodie": {
       "handle": "tactical-hoodie",
@@ -7219,7 +7891,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365699"
+      "checked_at": "2026-04-21T06:38:28.411500"
     },
     "tenthousand:aaron-levine-tee": {
       "handle": "aaron-levine-tee",
@@ -7268,7 +7940,7 @@
           "price": "40.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365718"
+      "checked_at": "2026-04-21T06:38:28.411519"
     },
     "tenthousand:resistance-bands": {
       "handle": "resistance-bands",
@@ -7287,7 +7959,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365729"
+      "checked_at": "2026-04-21T06:38:28.411530"
     },
     "tenthousand:ankle-sock": {
       "handle": "ankle-sock",
@@ -7312,7 +7984,7 @@
           "price": "18.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365742"
+      "checked_at": "2026-04-21T06:38:28.411542"
     },
     "tenthousand:mil-spec-belt": {
       "handle": "mil-spec-belt",
@@ -7361,7 +8033,7 @@
           "price": "75.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365761"
+      "checked_at": "2026-04-21T06:38:28.411561"
     },
     "tenthousand:hand-grips": {
       "handle": "hand-grips",
@@ -7380,7 +8052,7 @@
           "price": "64.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365772"
+      "checked_at": "2026-04-21T06:38:28.411572"
     },
     "tenthousand:wrist-wraps": {
       "handle": "wrist-wraps",
@@ -7399,7 +8071,7 @@
           "price": "44.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365784"
+      "checked_at": "2026-04-21T06:38:28.411583"
     },
     "tenthousand:al-boxer": {
       "handle": "al-boxer",
@@ -7556,7 +8228,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365830"
+      "checked_at": "2026-04-21T06:38:28.411625"
     },
     "tenthousand:co5-boxer": {
       "handle": "co5-boxer",
@@ -7605,16 +8277,16 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365850"
+      "checked_at": "2026-04-21T06:38:28.411644"
     },
     "tenthousand:compression-short": {
       "handle": "compression-short",
       "title": "Compression Short",
       "product_type": "Compression Short",
       "any_available": true,
-      "available_count": 5,
+      "available_count": 6,
       "total_variants": 6,
-      "availability_pct": 83,
+      "availability_pct": 100,
       "created_at": "2025-10-14T02:23:37-04:00",
       "variants": [
         {
@@ -7638,7 +8310,7 @@
         {
           "id": 42030278836311,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "68.00"
         },
         {
@@ -7654,7 +8326,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365868"
+      "checked_at": "2026-04-21T06:38:28.411664"
     },
     "tenthousand:distance-full-length-tight": {
       "handle": "distance-full-length-tight",
@@ -7703,16 +8375,16 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365886"
+      "checked_at": "2026-04-21T06:38:28.411683"
     },
     "tenthousand:session-short-5-inch": {
       "handle": "session-short-5-inch",
       "title": "Session Short | 5-inch",
       "product_type": "Session Short 2.0",
       "any_available": true,
-      "available_count": 31,
+      "available_count": 32,
       "total_variants": 61,
-      "availability_pct": 51,
+      "availability_pct": 52,
       "created_at": "2025-10-14T01:36:59-04:00",
       "variants": [
         {
@@ -7814,7 +8486,7 @@
         {
           "id": 42030089732183,
           "title": "Black Camo / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8082,16 +8754,16 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.365988"
+      "checked_at": "2026-04-21T06:38:28.411782"
     },
     "tenthousand:session-short": {
       "handle": "session-short",
       "title": "Session Short | 7-inch",
       "product_type": "Session Short 2.0",
       "any_available": true,
-      "available_count": 47,
+      "available_count": 48,
       "total_variants": 78,
-      "availability_pct": 60,
+      "availability_pct": 62,
       "created_at": "2025-10-14T01:34:59-04:00",
       "variants": [
         {
@@ -8253,7 +8925,7 @@
         {
           "id": 42030087536727,
           "title": "Navy / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8563,16 +9235,16 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.366114"
+      "checked_at": "2026-04-21T06:38:28.411960"
     },
     "tenthousand:interval-short-5-inch": {
       "handle": "interval-short-5-inch",
       "title": "Interval Short | 5-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 118,
+      "available_count": 129,
       "total_variants": 197,
-      "availability_pct": 60,
+      "availability_pct": 65,
       "created_at": "2025-10-14T01:30:41-04:00",
       "variants": [
         {
@@ -8590,7 +9262,7 @@
         {
           "id": 42030083014743,
           "title": "Black / S / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8602,7 +9274,7 @@
         {
           "id": 42030082981975,
           "title": "Black / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8632,7 +9304,7 @@
         {
           "id": 42030083899479,
           "title": "Black / XL / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -8674,7 +9346,7 @@
         {
           "id": 42030083375191,
           "title": "Black Camo / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8698,7 +9370,7 @@
         {
           "id": 42030083539031,
           "title": "Black Camo / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8746,7 +9418,7 @@
         {
           "id": 42031049211991,
           "title": "Navy / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8770,7 +9442,7 @@
         {
           "id": 42031049343063,
           "title": "Navy / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -8962,7 +9634,7 @@
         {
           "id": 42030080131159,
           "title": "Stone / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -9238,7 +9910,7 @@
         {
           "id": 42030080786519,
           "title": "Admiral Blue / S / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -9250,7 +9922,7 @@
         {
           "id": 42030080720983,
           "title": "Admiral Blue / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -9280,7 +9952,7 @@
         {
           "id": 42030080557143,
           "title": "Admiral Blue / XL / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -9758,16 +10430,16 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.366462"
+      "checked_at": "2026-04-21T06:38:28.412341"
     },
     "tenthousand:interval-long-sleeve-shirt": {
       "handle": "interval-long-sleeve-shirt",
       "title": "Interval Long Sleeve Shirt",
       "product_type": "Interval Shirt",
       "any_available": true,
-      "available_count": 18,
+      "available_count": 17,
       "total_variants": 24,
-      "availability_pct": 75,
+      "availability_pct": 71,
       "created_at": "2025-10-14T01:23:30-04:00",
       "variants": [
         {
@@ -9785,7 +10457,7 @@
         {
           "id": 42030076198999,
           "title": "Black / M",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -9915,16 +10587,16 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.366511"
+      "checked_at": "2026-04-21T06:38:28.412394"
     },
     "tenthousand:interval-shirt": {
       "handle": "interval-shirt",
       "title": "Interval Shirt",
       "product_type": "Interval Shirt",
       "any_available": true,
-      "available_count": 56,
+      "available_count": 62,
       "total_variants": 102,
-      "availability_pct": 55,
+      "availability_pct": 61,
       "created_at": "2025-10-14T01:21:55-04:00",
       "variants": [
         {
@@ -9942,7 +10614,7 @@
         {
           "id": 42030073577559,
           "title": "Black / M",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -9978,7 +10650,7 @@
         {
           "id": 42030074003543,
           "title": "Iron / M",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -9990,7 +10662,7 @@
         {
           "id": 42030074069079,
           "title": "Iron / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -10050,13 +10722,13 @@
         {
           "id": 42031076999255,
           "title": "OD Green / M",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
           "id": 42031077032023,
           "title": "OD Green / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -10308,7 +10980,7 @@
         {
           "id": 42030074495063,
           "title": "Light Grey / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -10540,16 +11212,16 @@
           "price": "84.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.366678"
+      "checked_at": "2026-04-21T06:38:28.412555"
     },
     "tenthousand:interval-short": {
       "handle": "interval-short",
       "title": "Interval Short | 7-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 98,
+      "available_count": 105,
       "total_variants": 191,
-      "availability_pct": 51,
+      "availability_pct": 55,
       "created_at": "2025-10-14T01:19:01-04:00",
       "variants": [
         {
@@ -10807,7 +11479,7 @@
         {
           "id": 42030065582167,
           "title": "Light Grey / L / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -10897,7 +11569,7 @@
         {
           "id": 42030066958423,
           "title": "Iron / XL / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -10945,7 +11617,7 @@
         {
           "id": 42030068760663,
           "title": "Stone / M / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -11041,7 +11713,7 @@
         {
           "id": 42030067744855,
           "title": "OD Green / XL / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -11107,7 +11779,7 @@
         {
           "id": 42030068990039,
           "title": "Maroon / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -11299,7 +11971,7 @@
         {
           "id": 42030066729047,
           "title": "Admiral Blue / M / Liner",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -11317,7 +11989,7 @@
         {
           "id": 42030066630743,
           "title": "Admiral Blue / L / No Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -11699,7 +12371,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.366971"
+      "checked_at": "2026-04-21T06:38:28.412868"
     },
     "tenthousand:tactical-long-sleeve-shirt": {
       "handle": "tactical-long-sleeve-shirt",
@@ -11820,7 +12492,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367014"
+      "checked_at": "2026-04-21T06:38:28.412910"
     },
     "tenthousand:distance-short-3-inch": {
       "handle": "distance-short-3-inch",
@@ -11869,16 +12541,16 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367034"
+      "checked_at": "2026-04-21T06:38:28.412930"
     },
     "tenthousand:foundation-shirt": {
       "handle": "foundation-shirt",
       "title": "Foundation Shirt",
       "product_type": "Foundation Shirt",
       "any_available": true,
-      "available_count": 13,
+      "available_count": 14,
       "total_variants": 36,
-      "availability_pct": 36,
+      "availability_pct": 39,
       "created_at": "2025-10-14T02:18:51-04:00",
       "variants": [
         {
@@ -11944,7 +12616,7 @@
         {
           "id": 42030249181271,
           "title": "Black / XL",
-          "available": false,
+          "available": true,
           "price": "68.00"
         },
         {
@@ -12098,7 +12770,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367098"
+      "checked_at": "2026-04-21T06:38:28.412994"
     },
     "tenthousand:rep-short-5-inch": {
       "handle": "rep-short-5-inch",
@@ -12363,7 +13035,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367173"
+      "checked_at": "2026-04-21T06:38:28.413349"
     },
     "tenthousand:rep-short": {
       "handle": "rep-short",
@@ -12664,16 +13336,16 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367442"
+      "checked_at": "2026-04-21T06:38:28.413445"
     },
     "tenthousand:tactical-utility-short": {
       "handle": "tactical-utility-short",
       "title": "Utility Short",
       "product_type": "Tactical Utility Short",
       "any_available": true,
-      "available_count": 16,
+      "available_count": 17,
       "total_variants": 26,
-      "availability_pct": 62,
+      "availability_pct": 65,
       "created_at": "2025-10-14T02:11:25-04:00",
       "variants": [
         {
@@ -12763,7 +13435,7 @@
         {
           "id": 42030240661591,
           "title": "OD Green / 38",
-          "available": false,
+          "available": true,
           "price": "118.00"
         },
         {
@@ -12833,16 +13505,16 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367496"
+      "checked_at": "2026-04-21T06:38:28.413493"
     },
     "tenthousand:foundation-short": {
       "handle": "foundation-short",
       "title": "Foundation Short | 7-inch",
       "product_type": "Foundation Short",
       "any_available": true,
-      "available_count": 13,
+      "available_count": 14,
       "total_variants": 30,
-      "availability_pct": 43,
+      "availability_pct": 47,
       "created_at": "2025-10-14T02:09:56-04:00",
       "variants": [
         {
@@ -12872,7 +13544,7 @@
         {
           "id": 42030238367831,
           "title": "Black / XL / Liner",
-          "available": false,
+          "available": true,
           "price": "88.00"
         },
         {
@@ -13026,7 +13698,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367550"
+      "checked_at": "2026-04-21T06:38:28.413548"
     },
     "tenthousand:camoknit-shirt": {
       "handle": "camoknit-shirt",
@@ -13111,16 +13783,16 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367579"
+      "checked_at": "2026-04-21T06:38:28.413577"
     },
     "tenthousand:set-short-5-inch": {
       "handle": "set-short-5-inch",
       "title": "Set Short | 5-inch",
       "product_type": "Set Short",
       "any_available": true,
-      "available_count": 14,
+      "available_count": 15,
       "total_variants": 18,
-      "availability_pct": 78,
+      "availability_pct": 83,
       "created_at": "2025-10-14T02:07:54-04:00",
       "variants": [
         {
@@ -13216,7 +13888,7 @@
         {
           "id": 42030235844695,
           "title": "Navy / L",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -13232,16 +13904,16 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367615"
+      "checked_at": "2026-04-21T06:38:28.413613"
     },
     "tenthousand:set-short": {
       "handle": "set-short",
       "title": "Set Short | 6.5-inch",
       "product_type": "Set Short",
       "any_available": true,
-      "available_count": 11,
+      "available_count": 14,
       "total_variants": 18,
-      "availability_pct": 61,
+      "availability_pct": 78,
       "created_at": "2025-10-14T02:07:17-04:00",
       "variants": [
         {
@@ -13301,7 +13973,7 @@
         {
           "id": 42030235451479,
           "title": "Stone / L",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -13337,13 +14009,13 @@
         {
           "id": 42030235254871,
           "title": "Navy / L",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
           "id": 42030235287639,
           "title": "Navy / XL",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -13353,51 +14025,123 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367652"
+      "checked_at": "2026-04-21T06:38:28.413651"
     },
     "tenthousand:core-tee": {
       "handle": "core-tee",
       "title": "Core Tee",
       "product_type": "Core Tee",
       "any_available": true,
-      "available_count": 57,
+      "available_count": 54,
       "total_variants": 114,
-      "availability_pct": 50,
+      "availability_pct": 47,
       "created_at": "2025-10-14T02:06:43-04:00",
       "variants": [
         {
-          "id": 42030233780311,
+          "id": 42647945576535,
+          "title": "Black / XS",
+          "available": false,
+          "price": "62.00"
+        },
+        {
+          "id": 42647945805911,
+          "title": "Black / S",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42647946002519,
+          "title": "Black / M",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42647946133591,
+          "title": "Black / L",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42647946264663,
+          "title": "Black / XL",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42647946526807,
+          "title": "Black / XXL",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42655824642135,
           "title": "White / XS",
           "available": true,
           "price": "62.00"
         },
         {
-          "id": 42030233813079,
+          "id": 42655824674903,
           "title": "White / S",
           "available": true,
           "price": "62.00"
         },
         {
-          "id": 42030233845847,
+          "id": 42655824707671,
           "title": "White / M",
           "available": true,
           "price": "62.00"
         },
         {
-          "id": 42030233878615,
+          "id": 42655824740439,
           "title": "White / L",
           "available": true,
           "price": "62.00"
         },
         {
-          "id": 42030233911383,
+          "id": 42655824773207,
           "title": "White / XL",
           "available": true,
           "price": "62.00"
         },
         {
-          "id": 42030233944151,
+          "id": 42655824805975,
           "title": "White / XXL",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42030233780311,
+          "title": "White (Old SKU) / XS",
+          "available": false,
+          "price": "62.00"
+        },
+        {
+          "id": 42030233813079,
+          "title": "White (Old SKU) / S",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42030233845847,
+          "title": "White (Old SKU) / M",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42030233878615,
+          "title": "White (Old SKU) / L",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42030233911383,
+          "title": "White (Old SKU) / XL",
+          "available": true,
+          "price": "62.00"
+        },
+        {
+          "id": 42030233944151,
+          "title": "White (Old SKU) / XXL",
           "available": true,
           "price": "62.00"
         },
@@ -13428,7 +14172,7 @@
         {
           "id": 42030234107991,
           "title": "Medium Heather Grey / XL",
-          "available": false,
+          "available": true,
           "price": "62.00"
         },
         {
@@ -13691,37 +14435,37 @@
         },
         {
           "id": 42618060963927,
-          "title": "Black / XS",
-          "available": true,
+          "title": "Black (Old SKU) / XS",
+          "available": false,
           "price": "62.00"
         },
         {
           "id": 42618061357143,
-          "title": "Black / S",
-          "available": true,
+          "title": "Black (Old SKU) / S",
+          "available": false,
           "price": "62.00"
         },
         {
           "id": 42618061553751,
-          "title": "Black / M",
+          "title": "Black (Old SKU) / M",
           "available": true,
           "price": "62.00"
         },
         {
           "id": 42618064994391,
-          "title": "Black / L",
-          "available": true,
+          "title": "Black (Old SKU) / L",
+          "available": false,
           "price": "62.00"
         },
         {
           "id": 42618065289303,
-          "title": "Black / XL",
+          "title": "Black (Old SKU) / XL",
           "available": false,
           "price": "62.00"
         },
         {
           "id": 42618065584215,
-          "title": "Black / XXL",
+          "title": "Black (Old SKU) / XXL",
           "available": false,
           "price": "62.00"
         },
@@ -13830,78 +14574,6 @@
         {
           "id": 42627321528407,
           "title": "Navy / XXL",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42647945576535,
-          "title": "Black (New SKU) / XS",
-          "available": false,
-          "price": "62.00"
-        },
-        {
-          "id": 42647945805911,
-          "title": "Black (New SKU) / S",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42647946002519,
-          "title": "Black (New SKU) / M",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42647946133591,
-          "title": "Black (New SKU) / L",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42647946264663,
-          "title": "Black (New SKU) / XL",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42647946526807,
-          "title": "Black (New SKU) / XXL",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42655824642135,
-          "title": "White (New SKU) / XS",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42655824674903,
-          "title": "White (New SKU) / S",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42655824707671,
-          "title": "White (New SKU) / M",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42655824740439,
-          "title": "White (New SKU) / L",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42655824773207,
-          "title": "White (New SKU) / XL",
-          "available": true,
-          "price": "62.00"
-        },
-        {
-          "id": 42655824805975,
-          "title": "White (New SKU) / XXL",
           "available": true,
           "price": "62.00"
         },
@@ -14050,7 +14722,7 @@
           "price": "62.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.367828"
+      "checked_at": "2026-04-21T06:38:28.413825"
     },
     "tenthousand:field-tee": {
       "handle": "field-tee",
@@ -14615,16 +15287,16 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368003"
+      "checked_at": "2026-04-21T06:38:28.413957"
     },
     "tenthousand:rep-shirt": {
       "handle": "rep-shirt",
       "title": "Output Shirt",
       "product_type": "Rep Shirt",
       "any_available": true,
-      "available_count": 9,
+      "available_count": 10,
       "total_variants": 24,
-      "availability_pct": 38,
+      "availability_pct": 42,
       "created_at": "2025-10-14T02:04:15-04:00",
       "variants": [
         {
@@ -14684,7 +15356,7 @@
         {
           "id": 42030200258647,
           "title": "Medium Grey / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14772,22 +15444,22 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368081"
+      "checked_at": "2026-04-21T06:38:28.413997"
     },
     "tenthousand:session-shirt": {
       "handle": "session-shirt",
       "title": "Session Shirt",
       "product_type": "Session Shirt",
       "any_available": true,
-      "available_count": 12,
+      "available_count": 18,
       "total_variants": 30,
-      "availability_pct": 40,
+      "availability_pct": 60,
       "created_at": "2025-10-14T02:03:09-04:00",
       "variants": [
         {
           "id": 42030181548119,
           "title": "Black / XS",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14805,13 +15477,13 @@
         {
           "id": 42030181646423,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
           "id": 42030181679191,
           "title": "Black / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14847,7 +15519,7 @@
         {
           "id": 42211774333015,
           "title": "Maroon / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14877,7 +15549,7 @@
         {
           "id": 42030182236247,
           "title": "Light Grey / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14955,7 +15627,7 @@
         {
           "id": 42030182465623,
           "title": "Clay / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14965,16 +15637,16 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368179"
+      "checked_at": "2026-04-21T06:38:28.414067"
     },
     "tenthousand:tactical-shirt": {
       "handle": "tactical-shirt",
       "title": "Tactical Shirt",
       "product_type": "Tactical Shirt",
       "any_available": true,
-      "available_count": 21,
+      "available_count": 27,
       "total_variants": 43,
-      "availability_pct": 49,
+      "availability_pct": 63,
       "created_at": "2025-10-14T02:01:18-04:00",
       "variants": [
         {
@@ -14998,13 +15670,13 @@
         {
           "id": 42030150156375,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
           "id": 42030150189143,
           "title": "Black / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -15058,7 +15730,7 @@
         {
           "id": 42030150287447,
           "title": "Iron / S",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -15070,7 +15742,7 @@
         {
           "id": 42030150352983,
           "title": "Iron / L",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -15112,7 +15784,7 @@
         {
           "id": 42412780683351,
           "title": "Pine / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -15184,7 +15856,7 @@
         {
           "id": 42031151710295,
           "title": "Zodiac / XL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -15236,16 +15908,16 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368263"
+      "checked_at": "2026-04-21T06:38:28.414143"
     },
     "tenthousand:tactical-hooded-shirt": {
       "handle": "tactical-hooded-shirt",
       "title": "Tactical Hooded Shirt",
       "product_type": "Tactical Long Sleeve Hood",
       "any_available": true,
-      "available_count": 11,
+      "available_count": 10,
       "total_variants": 12,
-      "availability_pct": 92,
+      "availability_pct": 83,
       "created_at": "2025-10-14T02:00:14-04:00",
       "variants": [
         {
@@ -15281,7 +15953,7 @@
         {
           "id": 42030135836759,
           "title": "Black / XXL",
-          "available": true,
+          "available": false,
           "price": "98.00"
         },
         {
@@ -15321,16 +15993,16 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368294"
+      "checked_at": "2026-04-21T06:38:28.414173"
     },
     "tenthousand:distance-long-sleeve-shirt": {
       "handle": "distance-long-sleeve-shirt",
       "title": "Distance Long Sleeve Shirt",
       "product_type": "Distance Shirt",
       "any_available": true,
-      "available_count": 1,
+      "available_count": 2,
       "total_variants": 6,
-      "availability_pct": 17,
+      "availability_pct": 33,
       "created_at": "2025-10-14T01:55:31-04:00",
       "variants": [
         {
@@ -15354,7 +16026,7 @@
         {
           "id": 42030130528343,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "46.00"
         },
         {
@@ -15370,16 +16042,16 @@
           "price": "46.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368315"
+      "checked_at": "2026-04-21T06:38:28.414192"
     },
     "tenthousand:interval-pant": {
       "handle": "interval-pant",
       "title": "Interval Pant | Regular",
       "product_type": "Interval Pant",
       "any_available": true,
-      "available_count": 28,
+      "available_count": 32,
       "total_variants": 60,
-      "availability_pct": 47,
+      "availability_pct": 53,
       "created_at": "2025-10-14T01:55:19-04:00",
       "variants": [
         {
@@ -15403,7 +16075,7 @@
         {
           "id": 42030129152087,
           "title": "Black / L",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
@@ -15535,13 +16207,13 @@
         {
           "id": 42030129872983,
           "title": "Light Grey / S",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
           "id": 42030129905751,
           "title": "Light Grey / M",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
@@ -15715,7 +16387,7 @@
         {
           "id": 42031152463959,
           "title": "Fog / S",
-          "available": false,
+          "available": true,
           "price": "138.00"
         },
         {
@@ -15743,7 +16415,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368416"
+      "checked_at": "2026-04-21T06:38:28.414287"
     },
     "tenthousand:tactical-utility-pant-tall-fit": {
       "handle": "tactical-utility-pant-tall-fit",
@@ -15786,7 +16458,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368435"
+      "checked_at": "2026-04-21T06:38:28.414305"
     },
     "tenthousand:tactical-utility-pant": {
       "handle": "tactical-utility-pant",
@@ -16009,7 +16681,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368502"
+      "checked_at": "2026-04-21T06:38:28.414367"
     },
     "tenthousand:tactical-5-pocket-pant": {
       "handle": "tactical-5-pocket-pant",
@@ -16180,13 +16852,13 @@
         {
           "id": 42030099660887,
           "title": "Midnight / 32",
-          "available": false,
+          "available": true,
           "price": "168.00"
         },
         {
           "id": 42030099693655,
           "title": "Midnight / 33",
-          "available": true,
+          "available": false,
           "price": "168.00"
         },
         {
@@ -16358,7 +17030,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368601"
+      "checked_at": "2026-04-21T06:38:28.414455"
     },
     "tenthousand:tactical-5-pocket-pant-tall-fit": {
       "handle": "tactical-5-pocket-pant-tall-fit",
@@ -16419,7 +17091,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368625"
+      "checked_at": "2026-04-21T06:38:28.414479"
     },
     "tenthousand:tactical-5-pocket-pant-straight-fit": {
       "handle": "tactical-5-pocket-pant-straight-fit",
@@ -16528,16 +17200,16 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368659"
+      "checked_at": "2026-04-21T06:38:28.414516"
     },
     "tenthousand:tactical-utility-pant-straight-fit": {
       "handle": "tactical-utility-pant-straight-fit",
       "title": "Utility Pant | Straight",
       "product_type": "Tactical Utility Pant",
       "any_available": true,
-      "available_count": 8,
+      "available_count": 9,
       "total_variants": 10,
-      "availability_pct": 80,
+      "availability_pct": 90,
       "created_at": "2025-10-14T01:43:03-04:00",
       "variants": [
         {
@@ -16591,7 +17263,7 @@
         {
           "id": 42030097399895,
           "title": "Iron / 36",
-          "available": false,
+          "available": true,
           "price": "178.00"
         },
         {
@@ -16601,7 +17273,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368685"
+      "checked_at": "2026-04-21T06:38:28.414542"
     },
     "tenthousand:tactical-waterproof-shell-jacket": {
       "handle": "tactical-waterproof-shell-jacket",
@@ -16722,7 +17394,7 @@
           "price": "298.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368726"
+      "checked_at": "2026-04-21T06:38:28.414578"
     },
     "tenthousand:tactical-waterproof-hoodie": {
       "handle": "tactical-waterproof-hoodie",
@@ -16807,7 +17479,7 @@
           "price": "298.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:45.368753"
+      "checked_at": "2026-04-21T06:38:28.414606"
     },
     "outdoor_voices:ov-w-cloudknit-high-rise-wide-leg-pant": {
       "handle": "ov-w-cloudknit-high-rise-wide-leg-pant",
@@ -16850,7 +17522,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964476"
+      "checked_at": "2026-04-21T06:38:29.925867"
     },
     "outdoor_voices:ov-signature-tote-case": {
       "handle": "ov-signature-tote-case",
@@ -16869,7 +17541,7 @@
           "price": "0.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964524"
+      "checked_at": "2026-04-21T06:38:29.925914"
     },
     "outdoor_voices:w-the-volley-dress-black": {
       "handle": "w-the-volley-dress-black",
@@ -16930,7 +17602,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964550"
+      "checked_at": "2026-04-21T06:38:29.925939"
     },
     "outdoor_voices:w-desert-shirt-salt": {
       "handle": "w-desert-shirt-salt",
@@ -16973,7 +17645,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964570"
+      "checked_at": "2026-04-21T06:38:29.925959"
     },
     "outdoor_voices:m-everyday-classic-shortsleeve-surf": {
       "handle": "m-everyday-classic-shortsleeve-surf",
@@ -17016,7 +17688,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964588"
+      "checked_at": "2026-04-21T06:38:29.925977"
     },
     "outdoor_voices:m-everyday-classic-shortsleeve-matisse": {
       "handle": "m-everyday-classic-shortsleeve-matisse",
@@ -17059,7 +17731,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964648"
+      "checked_at": "2026-04-21T06:38:29.925995"
     },
     "outdoor_voices:w-doing-things-3-skort-stargirl": {
       "handle": "w-doing-things-3-skort-stargirl",
@@ -17102,7 +17774,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964668"
+      "checked_at": "2026-04-21T06:38:29.926014"
     },
     "outdoor_voices:w-orbit-bra-stargirl": {
       "handle": "w-orbit-bra-stargirl",
@@ -17145,7 +17817,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964687"
+      "checked_at": "2026-04-21T06:38:29.926033"
     },
     "outdoor_voices:w-energy-dress-stargirl": {
       "handle": "w-energy-dress-stargirl",
@@ -17188,7 +17860,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964705"
+      "checked_at": "2026-04-21T06:38:29.926052"
     },
     "outdoor_voices:ov-rec-ankle-sock-hot-coral": {
       "handle": "ov-rec-ankle-sock-hot-coral",
@@ -17213,7 +17885,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964719"
+      "checked_at": "2026-04-21T06:38:29.926065"
     },
     "outdoor_voices:w-malibu-sweatpant-sports-car": {
       "handle": "w-malibu-sweatpant-sports-car",
@@ -17256,7 +17928,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964736"
+      "checked_at": "2026-04-21T06:38:29.926082"
     },
     "outdoor_voices:w-malibu-sweatpant-navy": {
       "handle": "w-malibu-sweatpant-navy",
@@ -17299,7 +17971,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964753"
+      "checked_at": "2026-04-21T06:38:29.926100"
     },
     "outdoor_voices:w-malibu-sweatpant-matisse": {
       "handle": "w-malibu-sweatpant-matisse",
@@ -17342,7 +18014,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964770"
+      "checked_at": "2026-04-21T06:38:29.926118"
     },
     "outdoor_voices:w-lightspeed-minimal-3-skort-surf": {
       "handle": "w-lightspeed-minimal-3-skort-surf",
@@ -17385,7 +18057,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964787"
+      "checked_at": "2026-04-21T06:38:29.926136"
     },
     "outdoor_voices:w-lightspeed-minimal-3-skort-twilight": {
       "handle": "w-lightspeed-minimal-3-skort-twilight",
@@ -17428,7 +18100,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964804"
+      "checked_at": "2026-04-21T06:38:29.926155"
     },
     "outdoor_voices:w-techsweat-3-5-short-polka-dot": {
       "handle": "w-techsweat-3-5-short-polka-dot",
@@ -17471,7 +18143,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964820"
+      "checked_at": "2026-04-21T06:38:29.926171"
     },
     "outdoor_voices:w-doing-things-bra-polka-dot": {
       "handle": "w-doing-things-bra-polka-dot",
@@ -17514,7 +18186,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964836"
+      "checked_at": "2026-04-21T06:38:29.926190"
     },
     "outdoor_voices:w-polka-tee-polka-dot": {
       "handle": "w-polka-tee-polka-dot",
@@ -17557,7 +18229,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964853"
+      "checked_at": "2026-04-21T06:38:29.926207"
     },
     "outdoor_voices:w-double-dip-bra-twilight": {
       "handle": "w-double-dip-bra-twilight",
@@ -17600,7 +18272,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964870"
+      "checked_at": "2026-04-21T06:38:29.926224"
     },
     "outdoor_voices:w-double-dip-bra-sports-car": {
       "handle": "w-double-dip-bra-sports-car",
@@ -17643,7 +18315,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964886"
+      "checked_at": "2026-04-21T06:38:29.926241"
     },
     "outdoor_voices:w-double-dip-bra-surf": {
       "handle": "w-double-dip-bra-surf",
@@ -17686,7 +18358,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964902"
+      "checked_at": "2026-04-21T06:38:29.926258"
     },
     "outdoor_voices:w-double-dip-bra-navy": {
       "handle": "w-double-dip-bra-navy",
@@ -17729,7 +18401,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964919"
+      "checked_at": "2026-04-21T06:38:29.926276"
     },
     "outdoor_voices:w-double-dip-bra-black": {
       "handle": "w-double-dip-bra-black",
@@ -17772,7 +18444,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964937"
+      "checked_at": "2026-04-21T06:38:29.926295"
     },
     "outdoor_voices:w-echo-5-5-short-sports-car": {
       "handle": "w-echo-5-5-short-sports-car",
@@ -17815,7 +18487,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964954"
+      "checked_at": "2026-04-21T06:38:29.926313"
     },
     "outdoor_voices:w-echo-5-5-short-surf": {
       "handle": "w-echo-5-5-short-surf",
@@ -17858,7 +18530,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964972"
+      "checked_at": "2026-04-21T06:38:29.926330"
     },
     "outdoor_voices:w-echo-5-5-short-navy": {
       "handle": "w-echo-5-5-short-navy",
@@ -17901,7 +18573,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.964989"
+      "checked_at": "2026-04-21T06:38:29.926347"
     },
     "outdoor_voices:w-echo-5-5-short-black": {
       "handle": "w-echo-5-5-short-black",
@@ -17944,7 +18616,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965005"
+      "checked_at": "2026-04-21T06:38:29.926363"
     },
     "outdoor_voices:w-echo-3-5-short-sports-car": {
       "handle": "w-echo-3-5-short-sports-car",
@@ -17987,7 +18659,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965021"
+      "checked_at": "2026-04-21T06:38:29.926380"
     },
     "outdoor_voices:w-echo-3-5-short-surf": {
       "handle": "w-echo-3-5-short-surf",
@@ -18030,7 +18702,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965038"
+      "checked_at": "2026-04-21T06:38:29.926397"
     },
     "outdoor_voices:w-echo-3-5-short-navy": {
       "handle": "w-echo-3-5-short-navy",
@@ -18073,7 +18745,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965055"
+      "checked_at": "2026-04-21T06:38:29.926413"
     },
     "outdoor_voices:w-echo-3-5-short-black": {
       "handle": "w-echo-3-5-short-black",
@@ -18116,7 +18788,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965072"
+      "checked_at": "2026-04-21T06:38:29.926429"
     },
     "outdoor_voices:w-club-skort-polka-dot": {
       "handle": "w-club-skort-polka-dot",
@@ -18159,7 +18831,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965088"
+      "checked_at": "2026-04-21T06:38:29.926446"
     },
     "outdoor_voices:w-club-skort-ditsy-floral": {
       "handle": "w-club-skort-ditsy-floral",
@@ -18202,16 +18874,16 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965105"
+      "checked_at": "2026-04-21T06:38:29.926462"
     },
     "outdoor_voices:w-club-dress-polka-dot": {
       "handle": "w-club-dress-polka-dot",
       "title": "Club Dress",
       "product_type": "Dresses",
       "any_available": true,
-      "available_count": 3,
+      "available_count": 2,
       "total_variants": 5,
-      "availability_pct": 60,
+      "availability_pct": 40,
       "created_at": "2026-02-11T16:06:21-05:00",
       "variants": [
         {
@@ -18229,7 +18901,7 @@
         {
           "id": 43440662020174,
           "title": "Polka Dot / M",
-          "available": true,
+          "available": false,
           "price": "118.00"
         },
         {
@@ -18245,7 +18917,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965121"
+      "checked_at": "2026-04-21T06:38:29.926479"
     },
     "outdoor_voices:w-club-dress-ditsy-floral": {
       "handle": "w-club-dress-ditsy-floral",
@@ -18288,7 +18960,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965137"
+      "checked_at": "2026-04-21T06:38:29.926495"
     },
     "outdoor_voices:w-the-exercise-dress-twilight": {
       "handle": "w-the-exercise-dress-twilight",
@@ -18331,7 +19003,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965155"
+      "checked_at": "2026-04-21T06:38:29.926512"
     },
     "outdoor_voices:w-the-exercise-dress-surf": {
       "handle": "w-the-exercise-dress-surf",
@@ -18374,7 +19046,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965171"
+      "checked_at": "2026-04-21T06:38:29.926528"
     },
     "outdoor_voices:w-everyday-shortsleeve-surf": {
       "handle": "w-everyday-shortsleeve-surf",
@@ -18417,7 +19089,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965188"
+      "checked_at": "2026-04-21T06:38:29.926545"
     },
     "outdoor_voices:w-everyday-shortsleeve-matisse": {
       "handle": "w-everyday-shortsleeve-matisse",
@@ -18460,7 +19132,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965257"
+      "checked_at": "2026-04-21T06:38:29.926561"
     },
     "outdoor_voices:w-flared-legging-sports-car": {
       "handle": "w-flared-legging-sports-car",
@@ -18503,7 +19175,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965281"
+      "checked_at": "2026-04-21T06:38:29.926578"
     },
     "outdoor_voices:w-flared-legging-navy": {
       "handle": "w-flared-legging-navy",
@@ -18546,7 +19218,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965298"
+      "checked_at": "2026-04-21T06:38:29.926595"
     },
     "outdoor_voices:w-flared-legging-black": {
       "handle": "w-flared-legging-black",
@@ -18589,7 +19261,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965315"
+      "checked_at": "2026-04-21T06:38:29.926612"
     },
     "outdoor_voices:w-strappy-tank-black": {
       "handle": "w-strappy-tank-black",
@@ -18632,7 +19304,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965332"
+      "checked_at": "2026-04-21T06:38:29.926627"
     },
     "outdoor_voices:w-strappy-tank-sports-car": {
       "handle": "w-strappy-tank-sports-car",
@@ -18675,7 +19347,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965437"
+      "checked_at": "2026-04-21T06:38:29.928052"
     },
     "outdoor_voices:w-strappy-tank-navy": {
       "handle": "w-strappy-tank-navy",
@@ -18718,7 +19390,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965456"
+      "checked_at": "2026-04-21T06:38:29.928090"
     },
     "outdoor_voices:w-strappy-tank-twilight": {
       "handle": "w-strappy-tank-twilight",
@@ -18761,7 +19433,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965472"
+      "checked_at": "2026-04-21T06:38:29.928110"
     },
     "outdoor_voices:w-strappy-bodysuit-sports-car": {
       "handle": "w-strappy-bodysuit-sports-car",
@@ -18804,7 +19476,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965489"
+      "checked_at": "2026-04-21T06:38:29.928128"
     },
     "outdoor_voices:w-strappy-bodysuit-navy": {
       "handle": "w-strappy-bodysuit-navy",
@@ -18847,7 +19519,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965505"
+      "checked_at": "2026-04-21T06:38:29.928145"
     },
     "outdoor_voices:w-strappy-bodysuit-black": {
       "handle": "w-strappy-bodysuit-black",
@@ -18890,7 +19562,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965523"
+      "checked_at": "2026-04-21T06:38:29.928163"
     },
     "outdoor_voices:ov-rec-ankle-sock-bubblegum": {
       "handle": "ov-rec-ankle-sock-bubblegum",
@@ -18915,7 +19587,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965535"
+      "checked_at": "2026-04-21T06:38:29.928175"
     },
     "outdoor_voices:m-solarcool-camp-collar-reservoir": {
       "handle": "m-solarcool-camp-collar-reservoir",
@@ -18976,7 +19648,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965556"
+      "checked_at": "2026-04-21T06:38:29.928197"
     },
     "outdoor_voices:frosted-beanie-joggy-green": {
       "handle": "frosted-beanie-joggy-green",
@@ -18995,7 +19667,7 @@
           "price": "24.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965567"
+      "checked_at": "2026-04-21T06:38:29.928208"
     },
     "outdoor_voices:w-cloudknit-cami-dark-bay": {
       "handle": "w-cloudknit-cami-dark-bay",
@@ -19038,7 +19710,7 @@
           "price": "34.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965585"
+      "checked_at": "2026-04-21T06:38:29.928226"
     },
     "outdoor_voices:w-cloudknit-cami-grass": {
       "handle": "w-cloudknit-cami-grass",
@@ -19081,7 +19753,7 @@
           "price": "34.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965602"
+      "checked_at": "2026-04-21T06:38:29.928244"
     },
     "outdoor_voices:w-cloudknit-wide-leg-pant-dark-bay": {
       "handle": "w-cloudknit-wide-leg-pant-dark-bay",
@@ -19124,7 +19796,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965619"
+      "checked_at": "2026-04-21T06:38:29.928262"
     },
     "outdoor_voices:w-cloudknit-wide-leg-pant-grass": {
       "handle": "w-cloudknit-wide-leg-pant-grass",
@@ -19167,7 +19839,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965637"
+      "checked_at": "2026-04-21T06:38:29.928278"
     },
     "outdoor_voices:w-cloudknit-3-5-short-grass": {
       "handle": "w-cloudknit-3-5-short-grass",
@@ -19210,7 +19882,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965655"
+      "checked_at": "2026-04-21T06:38:29.928296"
     },
     "outdoor_voices:w-cloudknit-3-5-short-dark-bay": {
       "handle": "w-cloudknit-3-5-short-dark-bay",
@@ -19253,7 +19925,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965672"
+      "checked_at": "2026-04-21T06:38:29.928313"
     },
     "outdoor_voices:w-cloudknit-boxy-shortsleeve-grass": {
       "handle": "w-cloudknit-boxy-shortsleeve-grass",
@@ -19296,7 +19968,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965689"
+      "checked_at": "2026-04-21T06:38:29.928330"
     },
     "outdoor_voices:w-cloudknit-boxy-shortsleeve-dark-bay": {
       "handle": "w-cloudknit-boxy-shortsleeve-dark-bay",
@@ -19339,7 +20011,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965705"
+      "checked_at": "2026-04-21T06:38:29.928348"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-grass": {
       "handle": "m-cloudknit-shortsleeve-grass",
@@ -19382,7 +20054,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965723"
+      "checked_at": "2026-04-21T06:38:29.928365"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-dark-bay": {
       "handle": "m-cloudknit-shortsleeve-dark-bay",
@@ -19425,7 +20097,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965740"
+      "checked_at": "2026-04-21T06:38:29.928382"
     },
     "outdoor_voices:m-cloudknit-7-short-grass": {
       "handle": "m-cloudknit-7-short-grass",
@@ -19468,7 +20140,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965756"
+      "checked_at": "2026-04-21T06:38:29.928401"
     },
     "outdoor_voices:m-cloudknit-7-short-dark-bay": {
       "handle": "m-cloudknit-7-short-dark-bay",
@@ -19511,7 +20183,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965773"
+      "checked_at": "2026-04-21T06:38:29.928417"
     },
     "outdoor_voices:w-cloudknit-cami-charcoal": {
       "handle": "w-cloudknit-cami-charcoal",
@@ -19584,7 +20256,7 @@
           "price": "34.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965798"
+      "checked_at": "2026-04-21T06:38:29.928444"
     },
     "outdoor_voices:w-desert-pant-salt": {
       "handle": "w-desert-pant-salt",
@@ -19627,7 +20299,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965815"
+      "checked_at": "2026-04-21T06:38:29.928461"
     },
     "outdoor_voices:w-lightspeed-minimal-3-skort-juicy-fruit": {
       "handle": "w-lightspeed-minimal-3-skort-juicy-fruit",
@@ -19670,7 +20342,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965833"
+      "checked_at": "2026-04-21T06:38:29.928478"
     },
     "outdoor_voices:w-the-exercise-dress-juicy-fruit": {
       "handle": "w-the-exercise-dress-juicy-fruit",
@@ -19713,7 +20385,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965850"
+      "checked_at": "2026-04-21T06:38:29.928496"
     },
     "outdoor_voices:ov-rec-ankle-sock-caribbean": {
       "handle": "ov-rec-ankle-sock-caribbean",
@@ -19738,7 +20410,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965863"
+      "checked_at": "2026-04-21T06:38:29.928508"
     },
     "outdoor_voices:ov-rec-ankle-sock-conch-shell": {
       "handle": "ov-rec-ankle-sock-conch-shell",
@@ -19763,7 +20435,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965875"
+      "checked_at": "2026-04-21T06:38:29.928521"
     },
     "outdoor_voices:ov-club-crew-sock-rose-water": {
       "handle": "ov-club-crew-sock-rose-water",
@@ -19788,7 +20460,7 @@
           "price": "14.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965887"
+      "checked_at": "2026-04-21T06:38:29.928534"
     },
     "outdoor_voices:ov-rec-ankle-sock-jasmine": {
       "handle": "ov-rec-ankle-sock-jasmine",
@@ -19813,7 +20485,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965899"
+      "checked_at": "2026-04-21T06:38:29.928547"
     },
     "outdoor_voices:ov-rec-ankle-sock-burlap": {
       "handle": "ov-rec-ankle-sock-burlap",
@@ -19838,7 +20510,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965912"
+      "checked_at": "2026-04-21T06:38:29.928560"
     },
     "outdoor_voices:the-diamante-doing-things-hoodie-limon": {
       "handle": "the-diamante-doing-things-hoodie-limon",
@@ -19881,7 +20553,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965929"
+      "checked_at": "2026-04-21T06:38:29.928577"
     },
     "outdoor_voices:the-diamante-doing-things-hoodie-baby": {
       "handle": "the-diamante-doing-things-hoodie-baby",
@@ -19924,7 +20596,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965946"
+      "checked_at": "2026-04-21T06:38:29.928595"
     },
     "outdoor_voices:sugar-cardigan-black": {
       "handle": "sugar-cardigan-black",
@@ -19967,7 +20639,7 @@
           "price": "148.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965962"
+      "checked_at": "2026-04-21T06:38:29.928612"
     },
     "outdoor_voices:sugar-cardigan-caterpillar": {
       "handle": "sugar-cardigan-caterpillar",
@@ -20010,7 +20682,7 @@
           "price": "148.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965978"
+      "checked_at": "2026-04-21T06:38:29.928630"
     },
     "outdoor_voices:w-techsweat-3-5-short-juicy-fruit-helios": {
       "handle": "w-techsweat-3-5-short-juicy-fruit-helios",
@@ -20053,7 +20725,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.965995"
+      "checked_at": "2026-04-21T06:38:29.928648"
     },
     "outdoor_voices:w-techsweat-core-7-8-legging-juicy-fruit": {
       "handle": "w-techsweat-core-7-8-legging-juicy-fruit",
@@ -20096,7 +20768,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966013"
+      "checked_at": "2026-04-21T06:38:29.928665"
     },
     "outdoor_voices:w-doing-things-bra-juicy-fruit": {
       "handle": "w-doing-things-bra-juicy-fruit",
@@ -20139,7 +20811,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966030"
+      "checked_at": "2026-04-21T06:38:29.928682"
     },
     "outdoor_voices:w-techsweat-move-free-tank-juicy-fruit": {
       "handle": "w-techsweat-move-free-tank-juicy-fruit",
@@ -20182,7 +20854,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966048"
+      "checked_at": "2026-04-21T06:38:29.928700"
     },
     "outdoor_voices:w-techsweat-core-7-8-legging-dark-bay": {
       "handle": "w-techsweat-core-7-8-legging-dark-bay",
@@ -20225,7 +20897,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966066"
+      "checked_at": "2026-04-21T06:38:29.928717"
     },
     "outdoor_voices:w-techsweat-3-5-short-dark-bay": {
       "handle": "w-techsweat-3-5-short-dark-bay",
@@ -20268,7 +20940,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966082"
+      "checked_at": "2026-04-21T06:38:29.928735"
     },
     "outdoor_voices:w-doing-things-bra-dark-bay": {
       "handle": "w-doing-things-bra-dark-bay",
@@ -20311,7 +20983,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966099"
+      "checked_at": "2026-04-21T06:38:29.928753"
     },
     "outdoor_voices:w-techsweat-move-free-tank-dark-bay": {
       "handle": "w-techsweat-move-free-tank-dark-bay",
@@ -20354,7 +21026,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966117"
+      "checked_at": "2026-04-21T06:38:29.928770"
     },
     "outdoor_voices:w-sunny-hoodie-dark-bay": {
       "handle": "w-sunny-hoodie-dark-bay",
@@ -20397,7 +21069,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966134"
+      "checked_at": "2026-04-21T06:38:29.928788"
     },
     "outdoor_voices:w-doing-things-bra-juicy-fruit-helios": {
       "handle": "w-doing-things-bra-juicy-fruit-helios",
@@ -20440,7 +21112,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966310"
+      "checked_at": "2026-04-21T06:38:29.928855"
     },
     "outdoor_voices:w-joggy-doggy-tee-homer": {
       "handle": "w-joggy-doggy-tee-homer",
@@ -20483,7 +21155,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966332"
+      "checked_at": "2026-04-21T06:38:29.928875"
     },
     "outdoor_voices:puddle-capri-dark-bay": {
       "handle": "puddle-capri-dark-bay",
@@ -20526,7 +21198,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966351"
+      "checked_at": "2026-04-21T06:38:29.928892"
     },
     "outdoor_voices:puddle-capri-black": {
       "handle": "puddle-capri-black",
@@ -20569,7 +21241,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966368"
+      "checked_at": "2026-04-21T06:38:29.928909"
     },
     "outdoor_voices:puddle-legging-navy": {
       "handle": "puddle-legging-navy",
@@ -20612,7 +21284,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966386"
+      "checked_at": "2026-04-21T06:38:29.928925"
     },
     "outdoor_voices:puddle-legging-grass": {
       "handle": "puddle-legging-grass",
@@ -20655,7 +21327,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966404"
+      "checked_at": "2026-04-21T06:38:29.928943"
     },
     "outdoor_voices:puddle-legging-dark-bay": {
       "handle": "puddle-legging-dark-bay",
@@ -20698,7 +21370,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966421"
+      "checked_at": "2026-04-21T06:38:29.928961"
     },
     "outdoor_voices:puddle-legging-black": {
       "handle": "puddle-legging-black",
@@ -20741,7 +21413,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966437"
+      "checked_at": "2026-04-21T06:38:29.928979"
     },
     "outdoor_voices:w-star-bra-mustang": {
       "handle": "w-star-bra-mustang",
@@ -20784,16 +21456,16 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966454"
+      "checked_at": "2026-04-21T06:38:29.928997"
     },
     "outdoor_voices:w-star-bra-limon": {
       "handle": "w-star-bra-limon",
       "title": "Star Bra",
       "product_type": "Bras",
       "any_available": true,
-      "available_count": 5,
+      "available_count": 4,
       "total_variants": 5,
-      "availability_pct": 100,
+      "availability_pct": 80,
       "created_at": "2025-11-20T16:31:56-05:00",
       "variants": [
         {
@@ -20805,7 +21477,7 @@
         {
           "id": 43172265197646,
           "title": "Limon / S",
-          "available": true,
+          "available": false,
           "price": "48.00"
         },
         {
@@ -20827,7 +21499,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966472"
+      "checked_at": "2026-04-21T06:38:29.929015"
     },
     "outdoor_voices:w-star-bra-leaf": {
       "handle": "w-star-bra-leaf",
@@ -20870,7 +21542,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966490"
+      "checked_at": "2026-04-21T06:38:29.929033"
     },
     "outdoor_voices:w-star-bra-grass": {
       "handle": "w-star-bra-grass",
@@ -20913,7 +21585,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966508"
+      "checked_at": "2026-04-21T06:38:29.929051"
     },
     "outdoor_voices:w-star-bra-dark-bay": {
       "handle": "w-star-bra-dark-bay",
@@ -20956,7 +21628,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966525"
+      "checked_at": "2026-04-21T06:38:29.929069"
     },
     "outdoor_voices:w-star-bra-black": {
       "handle": "w-star-bra-black",
@@ -20999,7 +21671,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966541"
+      "checked_at": "2026-04-21T06:38:29.929086"
     },
     "outdoor_voices:w-apple-bra-mustang": {
       "handle": "w-apple-bra-mustang",
@@ -21042,7 +21714,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966559"
+      "checked_at": "2026-04-21T06:38:29.929104"
     },
     "outdoor_voices:w-apple-bra-limon": {
       "handle": "w-apple-bra-limon",
@@ -21085,7 +21757,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966577"
+      "checked_at": "2026-04-21T06:38:29.929123"
     },
     "outdoor_voices:w-apple-bra-leaf": {
       "handle": "w-apple-bra-leaf",
@@ -21128,7 +21800,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966594"
+      "checked_at": "2026-04-21T06:38:29.929141"
     },
     "outdoor_voices:w-apple-bra-dark-bay": {
       "handle": "w-apple-bra-dark-bay",
@@ -21171,7 +21843,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966610"
+      "checked_at": "2026-04-21T06:38:29.929159"
     },
     "outdoor_voices:w-apple-bra-black": {
       "handle": "w-apple-bra-black",
@@ -21214,7 +21886,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966627"
+      "checked_at": "2026-04-21T06:38:29.929176"
     },
     "outdoor_voices:w-sunny-sweatpant-dark-bay": {
       "handle": "w-sunny-sweatpant-dark-bay",
@@ -21257,7 +21929,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966643"
+      "checked_at": "2026-04-21T06:38:29.929193"
     },
     "outdoor_voices:w-sport-sweatpant-limon": {
       "handle": "w-sport-sweatpant-limon",
@@ -21300,7 +21972,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966660"
+      "checked_at": "2026-04-21T06:38:29.929257"
     },
     "outdoor_voices:w-sport-sweatpant-black": {
       "handle": "w-sport-sweatpant-black",
@@ -21343,7 +22015,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966677"
+      "checked_at": "2026-04-21T06:38:29.929282"
     },
     "outdoor_voices:w-sport-sweatpant-baby": {
       "handle": "w-sport-sweatpant-baby",
@@ -21386,7 +22058,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966694"
+      "checked_at": "2026-04-21T06:38:29.929300"
     },
     "outdoor_voices:w-sport-short-limon": {
       "handle": "w-sport-short-limon",
@@ -21429,7 +22101,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966712"
+      "checked_at": "2026-04-21T06:38:29.929318"
     },
     "outdoor_voices:w-sport-short-black": {
       "handle": "w-sport-short-black",
@@ -21472,7 +22144,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966730"
+      "checked_at": "2026-04-21T06:38:29.929336"
     },
     "outdoor_voices:w-sport-short-baby": {
       "handle": "w-sport-short-baby",
@@ -21515,7 +22187,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966747"
+      "checked_at": "2026-04-21T06:38:29.929353"
     },
     "outdoor_voices:gemini-high-rise-short-mustang": {
       "handle": "gemini-high-rise-short-mustang",
@@ -21558,7 +22230,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966765"
+      "checked_at": "2026-04-21T06:38:29.929370"
     },
     "outdoor_voices:gemini-high-rise-short-leaf": {
       "handle": "gemini-high-rise-short-leaf",
@@ -21601,7 +22273,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966785"
+      "checked_at": "2026-04-21T06:38:29.929387"
     },
     "outdoor_voices:gemini-high-rise-short-grass": {
       "handle": "gemini-high-rise-short-grass",
@@ -21644,7 +22316,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966801"
+      "checked_at": "2026-04-21T06:38:29.929405"
     },
     "outdoor_voices:gemini-high-rise-short-dark-bay": {
       "handle": "gemini-high-rise-short-dark-bay",
@@ -21687,7 +22359,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966818"
+      "checked_at": "2026-04-21T06:38:29.929423"
     },
     "outdoor_voices:gemini-high-rise-short-black": {
       "handle": "gemini-high-rise-short-black",
@@ -21730,7 +22402,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966835"
+      "checked_at": "2026-04-21T06:38:29.929440"
     },
     "outdoor_voices:w-jog-jacket-rainstorm-blur": {
       "handle": "w-jog-jacket-rainstorm-blur",
@@ -21791,7 +22463,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966858"
+      "checked_at": "2026-04-21T06:38:29.929461"
     },
     "outdoor_voices:w-lightspeed-minimal-3-skort-rainstorm-blur": {
       "handle": "w-lightspeed-minimal-3-skort-rainstorm-blur",
@@ -21852,7 +22524,7 @@
           "price": "19.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966880"
+      "checked_at": "2026-04-21T06:38:29.929483"
     },
     "outdoor_voices:w-candy-fleece-vest-steel-multi": {
       "handle": "w-candy-fleece-vest-steel-multi",
@@ -21895,7 +22567,7 @@
           "price": "148.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966898"
+      "checked_at": "2026-04-21T06:38:29.929501"
     },
     "outdoor_voices:w-doing-things-dress-hot-coral": {
       "handle": "w-doing-things-dress-hot-coral",
@@ -21956,7 +22628,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966921"
+      "checked_at": "2026-04-21T06:38:29.929522"
     },
     "outdoor_voices:w-doing-things-dress-black": {
       "handle": "w-doing-things-dress-black",
@@ -22017,7 +22689,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966942"
+      "checked_at": "2026-04-21T06:38:29.929544"
     },
     "outdoor_voices:w-venus-crop-top-blizzard": {
       "handle": "w-venus-crop-top-blizzard",
@@ -22060,7 +22732,7 @@
           "price": "20.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966960"
+      "checked_at": "2026-04-21T06:38:29.929562"
     },
     "outdoor_voices:w-venus-crop-top-mustang": {
       "handle": "w-venus-crop-top-mustang",
@@ -22103,7 +22775,7 @@
           "price": "20.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966977"
+      "checked_at": "2026-04-21T06:38:29.929579"
     },
     "outdoor_voices:washed-hat-washed-doing-things": {
       "handle": "washed-hat-washed-doing-things",
@@ -22122,7 +22794,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.966988"
+      "checked_at": "2026-04-21T06:38:29.929591"
     },
     "outdoor_voices:m-rectrek-pant-bosc": {
       "handle": "m-rectrek-pant-bosc",
@@ -22183,7 +22855,7 @@
           "price": "59.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967009"
+      "checked_at": "2026-04-21T06:38:29.929614"
     },
     "outdoor_voices:m-thinkfast-mesh-shortsleeve-tiger": {
       "handle": "m-thinkfast-mesh-shortsleeve-tiger",
@@ -22226,7 +22898,7 @@
           "price": "23.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967026"
+      "checked_at": "2026-04-21T06:38:29.929632"
     },
     "outdoor_voices:m-gridtek-breezy-shortsleeve-sagebrush": {
       "handle": "m-gridtek-breezy-shortsleeve-sagebrush",
@@ -22287,7 +22959,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967046"
+      "checked_at": "2026-04-21T06:38:29.929652"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-lemon-water": {
       "handle": "m-cloudknit-shortsleeve-lemon-water",
@@ -22330,7 +23002,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967065"
+      "checked_at": "2026-04-21T06:38:29.929669"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-heather-grey": {
       "handle": "m-cloudknit-shortsleeve-heather-grey",
@@ -22391,7 +23063,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967087"
+      "checked_at": "2026-04-21T06:38:29.929691"
     },
     "outdoor_voices:w-rectrek-pant-mustang": {
       "handle": "w-rectrek-pant-mustang",
@@ -22434,7 +23106,7 @@
           "price": "59.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967104"
+      "checked_at": "2026-04-21T06:38:29.929709"
     },
     "outdoor_voices:w-rectrek-pant-bosc": {
       "handle": "w-rectrek-pant-bosc",
@@ -22543,7 +23215,7 @@
           "price": "59.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967135"
+      "checked_at": "2026-04-21T06:38:29.929741"
     },
     "outdoor_voices:w-warmup-5in-shorts-mustang": {
       "handle": "w-warmup-5in-shorts-mustang",
@@ -22586,16 +23258,16 @@
           "price": "20.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967153"
+      "checked_at": "2026-04-21T06:38:29.929758"
     },
     "outdoor_voices:w-warmup-5in-short-blizzard": {
       "handle": "w-warmup-5in-short-blizzard",
       "title": "Warmup 5\" Short",
       "product_type": "Shorts",
       "any_available": true,
-      "available_count": 4,
+      "available_count": 3,
       "total_variants": 5,
-      "availability_pct": 80,
+      "availability_pct": 60,
       "created_at": "2023-07-11T10:28:25-04:00",
       "variants": [
         {
@@ -22619,7 +23291,7 @@
         {
           "id": 42391499669582,
           "title": "Blizzard / L",
-          "available": true,
+          "available": false,
           "price": "20.95"
         },
         {
@@ -22629,7 +23301,7 @@
           "price": "20.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967169"
+      "checked_at": "2026-04-21T06:38:29.929775"
     },
     "outdoor_voices:w-thinkfast-mesh-shortsleeve-ov-blue": {
       "handle": "w-thinkfast-mesh-shortsleeve-ov-blue",
@@ -22672,7 +23344,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967185"
+      "checked_at": "2026-04-21T06:38:29.929792"
     },
     "outdoor_voices:w-everyday-shortsleeve-mustang": {
       "handle": "w-everyday-shortsleeve-mustang",
@@ -22715,7 +23387,7 @@
           "price": "19.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967202"
+      "checked_at": "2026-04-21T06:38:29.929809"
     },
     "outdoor_voices:w-double-time-bra-mustang": {
       "handle": "w-double-time-bra-mustang",
@@ -22758,7 +23430,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967219"
+      "checked_at": "2026-04-21T06:38:29.929827"
     },
     "outdoor_voices:w-warmup-dress-mustang": {
       "handle": "w-warmup-dress-mustang",
@@ -22801,7 +23473,7 @@
           "price": "44.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967237"
+      "checked_at": "2026-04-21T06:38:29.929843"
     },
     "outdoor_voices:recfleece-relaxed-full-zip-soil": {
       "handle": "recfleece-relaxed-full-zip-soil",
@@ -22844,7 +23516,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967255"
+      "checked_at": "2026-04-21T06:38:29.929860"
     },
     "outdoor_voices:recfleece-relaxed-full-zip-black": {
       "handle": "recfleece-relaxed-full-zip-black",
@@ -22887,7 +23559,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967272"
+      "checked_at": "2026-04-21T06:38:29.929877"
     },
     "outdoor_voices:recfleece-1-2-zip-tea-tree": {
       "handle": "recfleece-1-2-zip-tea-tree",
@@ -22930,7 +23602,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967289"
+      "checked_at": "2026-04-21T06:38:29.929894"
     },
     "outdoor_voices:recfleece-1-2-zip-soil": {
       "handle": "recfleece-1-2-zip-soil",
@@ -22973,7 +23645,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967306"
+      "checked_at": "2026-04-21T06:38:29.929911"
     },
     "outdoor_voices:recfleece-1-2-zip-storm": {
       "handle": "recfleece-1-2-zip-storm",
@@ -23016,7 +23688,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967323"
+      "checked_at": "2026-04-21T06:38:29.929928"
     },
     "outdoor_voices:recfleece-snap-jacket-soil": {
       "handle": "recfleece-snap-jacket-soil",
@@ -23059,7 +23731,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967340"
+      "checked_at": "2026-04-21T06:38:29.929944"
     },
     "outdoor_voices:recfleece-1-4-zip-sorbet": {
       "handle": "recfleece-1-4-zip-sorbet",
@@ -23102,7 +23774,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967358"
+      "checked_at": "2026-04-21T06:38:29.929960"
     },
     "outdoor_voices:recfleece-1-4-zip-oyster": {
       "handle": "recfleece-1-4-zip-oyster",
@@ -23145,7 +23817,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967376"
+      "checked_at": "2026-04-21T06:38:29.929977"
     },
     "outdoor_voices:w-recfleece-snap-jacket-moonstone": {
       "handle": "w-recfleece-snap-jacket-moonstone",
@@ -23218,7 +23890,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967399"
+      "checked_at": "2026-04-21T06:38:29.930003"
     },
     "outdoor_voices:rainy-floral-puff-mineral-blue": {
       "handle": "rainy-floral-puff-mineral-blue",
@@ -23261,7 +23933,7 @@
           "price": "298.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967416"
+      "checked_at": "2026-04-21T06:38:29.930020"
     },
     "outdoor_voices:recfleece-snap-jacket-sorbet": {
       "handle": "recfleece-snap-jacket-sorbet",
@@ -23304,7 +23976,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967434"
+      "checked_at": "2026-04-21T06:38:29.930037"
     },
     "outdoor_voices:recfleece-1-4-zip-balsam": {
       "handle": "recfleece-1-4-zip-balsam",
@@ -23347,7 +24019,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967451"
+      "checked_at": "2026-04-21T06:38:29.930055"
     },
     "outdoor_voices:recfleece-relaxed-full-zip-balsam": {
       "handle": "recfleece-relaxed-full-zip-balsam",
@@ -23390,7 +24062,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967468"
+      "checked_at": "2026-04-21T06:38:29.930072"
     },
     "outdoor_voices:w-rectrek-zip-off-pant-dark-sky-blizzard-blue-sky": {
       "handle": "w-rectrek-zip-off-pant-dark-sky-blizzard-blue-sky",
@@ -23433,7 +24105,7 @@
           "price": "69.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967485"
+      "checked_at": "2026-04-21T06:38:29.930090"
     },
     "outdoor_voices:w-thinkfast-mesh-muscle-tank-brilliant-white": {
       "handle": "w-thinkfast-mesh-muscle-tank-brilliant-white",
@@ -23494,7 +24166,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967507"
+      "checked_at": "2026-04-21T06:38:29.930112"
     },
     "outdoor_voices:w-everyday-longsleeve-black": {
       "handle": "w-everyday-longsleeve-black",
@@ -23573,7 +24245,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967530"
+      "checked_at": "2026-04-21T06:38:29.930138"
     },
     "outdoor_voices:w-pickup-organic-cropped-hoodie-canvas": {
       "handle": "w-pickup-organic-cropped-hoodie-canvas",
@@ -23616,7 +24288,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967547"
+      "checked_at": "2026-04-21T06:38:29.930155"
     },
     "outdoor_voices:w-pickup-organic-cropped-hoodie-kale": {
       "handle": "w-pickup-organic-cropped-hoodie-kale",
@@ -23659,7 +24331,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967564"
+      "checked_at": "2026-04-21T06:38:29.930172"
     },
     "outdoor_voices:w-pickup-organic-sweatpant-canvas": {
       "handle": "w-pickup-organic-sweatpant-canvas",
@@ -23702,7 +24374,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967581"
+      "checked_at": "2026-04-21T06:38:29.930189"
     },
     "outdoor_voices:w-pickup-organic-sweatpant-kale": {
       "handle": "w-pickup-organic-sweatpant-kale",
@@ -23745,7 +24417,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967597"
+      "checked_at": "2026-04-21T06:38:29.930207"
     },
     "outdoor_voices:m-everyday-classic-longsleeve-pasilla": {
       "handle": "m-everyday-classic-longsleeve-pasilla",
@@ -23788,7 +24460,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967613"
+      "checked_at": "2026-04-21T06:38:29.930225"
     },
     "outdoor_voices:m-everyday-classic-longsleeve-brilliant-white": {
       "handle": "m-everyday-classic-longsleeve-brilliant-white",
@@ -23831,7 +24503,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967629"
+      "checked_at": "2026-04-21T06:38:29.930242"
     },
     "outdoor_voices:stratus-sweatpant-heather-grey": {
       "handle": "stratus-sweatpant-heather-grey",
@@ -23904,7 +24576,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967652"
+      "checked_at": "2026-04-21T06:38:29.930268"
     },
     "outdoor_voices:stratus-sweatshirt-heather-grey": {
       "handle": "stratus-sweatshirt-heather-grey",
@@ -23977,7 +24649,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967676"
+      "checked_at": "2026-04-21T06:38:29.930291"
     },
     "outdoor_voices:w-ride-pant-plaid": {
       "handle": "w-ride-pant-plaid",
@@ -24020,7 +24692,7 @@
           "price": "198.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967693"
+      "checked_at": "2026-04-21T06:38:29.930307"
     },
     "outdoor_voices:ov-rec-ankle-sock-desert-poppy": {
       "handle": "ov-rec-ankle-sock-desert-poppy",
@@ -24045,7 +24717,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967706"
+      "checked_at": "2026-04-21T06:38:29.930321"
     },
     "outdoor_voices:stratus-sweatpant-dark-sky": {
       "handle": "stratus-sweatpant-dark-sky",
@@ -24136,7 +24808,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967736"
+      "checked_at": "2026-04-21T06:38:29.930351"
     },
     "outdoor_voices:stratus-sweatshirt-dark-sky": {
       "handle": "stratus-sweatshirt-dark-sky",
@@ -24209,7 +24881,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967762"
+      "checked_at": "2026-04-21T06:38:29.930375"
     },
     "outdoor_voices:stratus-sweatpant-black": {
       "handle": "stratus-sweatpant-black",
@@ -24300,7 +24972,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967791"
+      "checked_at": "2026-04-21T06:38:29.930404"
     },
     "outdoor_voices:stratus-sweatshirt-black": {
       "handle": "stratus-sweatshirt-black",
@@ -24373,7 +25045,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967815"
+      "checked_at": "2026-04-21T06:38:29.930429"
     },
     "outdoor_voices:ov-club-crew-sock-pinkfinch": {
       "handle": "ov-club-crew-sock-pinkfinch",
@@ -24398,7 +25070,7 @@
           "price": "14.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967828"
+      "checked_at": "2026-04-21T06:38:29.930443"
     },
     "outdoor_voices:ov-rec-ankle-sock-pastel-lilac": {
       "handle": "ov-rec-ankle-sock-pastel-lilac",
@@ -24423,7 +25095,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967841"
+      "checked_at": "2026-04-21T06:38:29.930455"
     },
     "outdoor_voices:frosted-headband-mineral-blue": {
       "handle": "frosted-headband-mineral-blue",
@@ -24442,7 +25114,7 @@
           "price": "28.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967852"
+      "checked_at": "2026-04-21T06:38:29.930467"
     },
     "outdoor_voices:frosted-beanie-mineral-blue": {
       "handle": "frosted-beanie-mineral-blue",
@@ -24461,7 +25133,7 @@
           "price": "24.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967879"
+      "checked_at": "2026-04-21T06:38:29.930495"
     },
     "outdoor_voices:w-rectrek-pant-balsam": {
       "handle": "w-rectrek-pant-balsam",
@@ -24504,7 +25176,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967899"
+      "checked_at": "2026-04-21T06:38:29.930514"
     },
     "outdoor_voices:w-waffle-longsleeve-tea-tree": {
       "handle": "w-waffle-longsleeve-tea-tree",
@@ -24547,7 +25219,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967918"
+      "checked_at": "2026-04-21T06:38:29.930532"
     },
     "outdoor_voices:w-candy-fleece-snap-jacket-storm": {
       "handle": "w-candy-fleece-snap-jacket-storm",
@@ -24620,7 +25292,7 @@
           "price": "188.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967942"
+      "checked_at": "2026-04-21T06:38:29.930559"
     },
     "outdoor_voices:w-candy-fleece-vest-black": {
       "handle": "w-candy-fleece-vest-black",
@@ -24663,7 +25335,7 @@
           "price": "148.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967958"
+      "checked_at": "2026-04-21T06:38:29.930576"
     },
     "outdoor_voices:w-candy-fleece-vest-orchid-multi": {
       "handle": "w-candy-fleece-vest-orchid-multi",
@@ -24706,7 +25378,7 @@
           "price": "148.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967975"
+      "checked_at": "2026-04-21T06:38:29.930593"
     },
     "outdoor_voices:w-waffle-longsleeve-steel": {
       "handle": "w-waffle-longsleeve-steel",
@@ -24749,7 +25421,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.967992"
+      "checked_at": "2026-04-21T06:38:29.930610"
     },
     "outdoor_voices:w-waffle-baby-tee-balsam": {
       "handle": "w-waffle-baby-tee-balsam",
@@ -24810,7 +25482,7 @@
           "price": "19.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968012"
+      "checked_at": "2026-04-21T06:38:29.930633"
     },
     "outdoor_voices:w-the-exercise-dress-balsam": {
       "handle": "w-the-exercise-dress-balsam",
@@ -24853,7 +25525,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968028"
+      "checked_at": "2026-04-21T06:38:29.930650"
     },
     "outdoor_voices:w-candy-fleece-snap-jacket-earth": {
       "handle": "w-candy-fleece-snap-jacket-earth",
@@ -24896,7 +25568,7 @@
           "price": "188.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968045"
+      "checked_at": "2026-04-21T06:38:29.930667"
     },
     "outdoor_voices:w-waffle-longsleeve-storm": {
       "handle": "w-waffle-longsleeve-storm",
@@ -24939,7 +25611,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968062"
+      "checked_at": "2026-04-21T06:38:29.930684"
     },
     "outdoor_voices:w-waffle-baby-tee-storm": {
       "handle": "w-waffle-baby-tee-storm",
@@ -24982,7 +25654,7 @@
           "price": "19.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968079"
+      "checked_at": "2026-04-21T06:38:29.930701"
     },
     "outdoor_voices:w-candy-fleece-jacket-orchid-multi": {
       "handle": "w-candy-fleece-jacket-orchid-multi",
@@ -25025,7 +25697,7 @@
           "price": "188.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968094"
+      "checked_at": "2026-04-21T06:38:29.930717"
     },
     "outdoor_voices:w-energy-tee-shale": {
       "handle": "w-energy-tee-shale",
@@ -25068,7 +25740,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968111"
+      "checked_at": "2026-04-21T06:38:29.930735"
     },
     "outdoor_voices:w-waffle-baby-tee-seaglass": {
       "handle": "w-waffle-baby-tee-seaglass",
@@ -25111,7 +25783,7 @@
           "price": "19.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968127"
+      "checked_at": "2026-04-21T06:38:29.930752"
     },
     "outdoor_voices:w-candy-fleece-jacket-steel-multi": {
       "handle": "w-candy-fleece-jacket-steel-multi",
@@ -25154,7 +25826,7 @@
           "price": "188.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968144"
+      "checked_at": "2026-04-21T06:38:29.930769"
     },
     "outdoor_voices:trucker-hat": {
       "handle": "trucker-hat",
@@ -25173,7 +25845,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968155"
+      "checked_at": "2026-04-21T06:38:29.930781"
     },
     "outdoor_voices:m-waffle-longsleeve-balsam": {
       "handle": "m-waffle-longsleeve-balsam",
@@ -25216,7 +25888,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968172"
+      "checked_at": "2026-04-21T06:38:29.930798"
     },
     "outdoor_voices:m-waffle-longsleeve-steel": {
       "handle": "m-waffle-longsleeve-steel",
@@ -25259,7 +25931,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968188"
+      "checked_at": "2026-04-21T06:38:29.930816"
     },
     "outdoor_voices:m-waffle-longsleeve-tea-tree": {
       "handle": "m-waffle-longsleeve-tea-tree",
@@ -25302,7 +25974,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968205"
+      "checked_at": "2026-04-21T06:38:29.930832"
     },
     "outdoor_voices:w-candy-fleece-jacket-black": {
       "handle": "w-candy-fleece-jacket-black",
@@ -25345,7 +26017,7 @@
           "price": "188.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968222"
+      "checked_at": "2026-04-21T06:38:29.930850"
     },
     "outdoor_voices:m-high-stride-7in-short-with-pockets-navy": {
       "handle": "m-high-stride-7in-short-with-pockets-navy",
@@ -25406,7 +26078,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968244"
+      "checked_at": "2026-04-21T06:38:29.930870"
     },
     "outdoor_voices:w-rectrek-zip-pant-earth-multi": {
       "handle": "w-rectrek-zip-pant-earth-multi",
@@ -25449,7 +26121,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968262"
+      "checked_at": "2026-04-21T06:38:29.930886"
     },
     "outdoor_voices:w-rectrek-zip-pant-indigo-multi": {
       "handle": "w-rectrek-zip-pant-indigo-multi",
@@ -25492,7 +26164,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968280"
+      "checked_at": "2026-04-21T06:38:29.930901"
     },
     "outdoor_voices:w-rectrek-zip-pant-tea-tree-multi": {
       "handle": "w-rectrek-zip-pant-tea-tree-multi",
@@ -25535,7 +26207,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968297"
+      "checked_at": "2026-04-21T06:38:29.930917"
     },
     "outdoor_voices:w-boulder-dress-black": {
       "handle": "w-boulder-dress-black",
@@ -25578,7 +26250,7 @@
           "price": "59.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968314"
+      "checked_at": "2026-04-21T06:38:29.930934"
     },
     "outdoor_voices:w-boulder-dress-balsam": {
       "handle": "w-boulder-dress-balsam",
@@ -25621,7 +26293,7 @@
           "price": "59.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968332"
+      "checked_at": "2026-04-21T06:38:29.930951"
     },
     "outdoor_voices:w-boulder-dress-soil": {
       "handle": "w-boulder-dress-soil",
@@ -25664,7 +26336,7 @@
           "price": "59.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968350"
+      "checked_at": "2026-04-21T06:38:29.930968"
     },
     "outdoor_voices:m-cloudknit-longsleeve-balsam": {
       "handle": "m-cloudknit-longsleeve-balsam",
@@ -25707,7 +26379,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968367"
+      "checked_at": "2026-04-21T06:38:29.930986"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-balsam": {
       "handle": "m-cloudknit-shortsleeve-balsam",
@@ -25750,7 +26422,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968384"
+      "checked_at": "2026-04-21T06:38:29.931003"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-orchid": {
       "handle": "m-cloudknit-shortsleeve-orchid",
@@ -25793,7 +26465,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968401"
+      "checked_at": "2026-04-21T06:38:29.931020"
     },
     "outdoor_voices:m-cloudknit-longsleeve-navy": {
       "handle": "m-cloudknit-longsleeve-navy",
@@ -25878,7 +26550,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968429"
+      "checked_at": "2026-04-21T06:38:29.931050"
     },
     "outdoor_voices:m-cloudknit-longsleeve-charcoal": {
       "handle": "m-cloudknit-longsleeve-charcoal",
@@ -25963,7 +26635,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968458"
+      "checked_at": "2026-04-21T06:38:29.931078"
     },
     "outdoor_voices:windbreaker-1": {
       "handle": "windbreaker-1",
@@ -26006,7 +26678,7 @@
           "price": "79.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968474"
+      "checked_at": "2026-04-21T06:38:29.931095"
     },
     "outdoor_voices:w-cloudknit-boxy-longsleeve-charcoal": {
       "handle": "w-cloudknit-boxy-longsleeve-charcoal",
@@ -26049,7 +26721,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968491"
+      "checked_at": "2026-04-21T06:38:29.931114"
     },
     "outdoor_voices:w-cloudknit-boxy-longsleeve-balsam": {
       "handle": "w-cloudknit-boxy-longsleeve-balsam",
@@ -26092,7 +26764,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968508"
+      "checked_at": "2026-04-21T06:38:29.931131"
     },
     "outdoor_voices:w-cloudknit-boxy-longsleeve-navy": {
       "handle": "w-cloudknit-boxy-longsleeve-navy",
@@ -26129,7 +26801,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968523"
+      "checked_at": "2026-04-21T06:38:29.931146"
     },
     "outdoor_voices:w-cloudknit-boxy-longsleeve-orchid": {
       "handle": "w-cloudknit-boxy-longsleeve-orchid",
@@ -26172,7 +26844,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968539"
+      "checked_at": "2026-04-21T06:38:29.931163"
     },
     "outdoor_voices:w-cloudknit-boxy-shortsleeve-orchid": {
       "handle": "w-cloudknit-boxy-shortsleeve-orchid",
@@ -26215,7 +26887,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968557"
+      "checked_at": "2026-04-21T06:38:29.931181"
     },
     "outdoor_voices:w-cloudknit-boxy-shortsleeve-balsam": {
       "handle": "w-cloudknit-boxy-shortsleeve-balsam",
@@ -26258,7 +26930,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968575"
+      "checked_at": "2026-04-21T06:38:29.931198"
     },
     "outdoor_voices:m-cloudknit-hoodie-balsam": {
       "handle": "m-cloudknit-hoodie-balsam",
@@ -26301,7 +26973,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968592"
+      "checked_at": "2026-04-21T06:38:29.931217"
     },
     "outdoor_voices:w-cloudknit-sweatpant-balsam": {
       "handle": "w-cloudknit-sweatpant-balsam",
@@ -26344,7 +27016,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968609"
+      "checked_at": "2026-04-21T06:38:29.931234"
     },
     "outdoor_voices:w-cloudknit-sweatpant-orchid": {
       "handle": "w-cloudknit-sweatpant-orchid",
@@ -26387,7 +27059,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968625"
+      "checked_at": "2026-04-21T06:38:29.931252"
     },
     "outdoor_voices:m-cloudknit-slim-sweatpant-balsam": {
       "handle": "m-cloudknit-slim-sweatpant-balsam",
@@ -26430,7 +27102,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968643"
+      "checked_at": "2026-04-21T06:38:29.931270"
     },
     "outdoor_voices:w-cloudknit-wide-leg-pant-charcoal": {
       "handle": "w-cloudknit-wide-leg-pant-charcoal",
@@ -26521,7 +27193,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968672"
+      "checked_at": "2026-04-21T06:38:29.931298"
     },
     "outdoor_voices:w-cloudknit-wide-leg-pant-navy": {
       "handle": "w-cloudknit-wide-leg-pant-navy",
@@ -26612,7 +27284,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968700"
+      "checked_at": "2026-04-21T06:38:29.931327"
     },
     "outdoor_voices:w-cloudknit-wide-leg-pant-balsam": {
       "handle": "w-cloudknit-wide-leg-pant-balsam",
@@ -26655,7 +27327,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968716"
+      "checked_at": "2026-04-21T06:38:29.931345"
     },
     "outdoor_voices:w-cloudknit-wide-leg-pant-orchid": {
       "handle": "w-cloudknit-wide-leg-pant-orchid",
@@ -26698,7 +27370,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968733"
+      "checked_at": "2026-04-21T06:38:29.931362"
     },
     "outdoor_voices:w-club-polo-storm-stripe": {
       "handle": "w-club-polo-storm-stripe",
@@ -26741,7 +27413,7 @@
           "price": "49.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968750"
+      "checked_at": "2026-04-21T06:38:29.931378"
     },
     "outdoor_voices:w-ride-pant-storm": {
       "handle": "w-ride-pant-storm",
@@ -26784,7 +27456,7 @@
           "price": "99.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968768"
+      "checked_at": "2026-04-21T06:38:29.931395"
     },
     "outdoor_voices:trucker-hat-bark": {
       "handle": "trucker-hat-bark",
@@ -26803,7 +27475,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968780"
+      "checked_at": "2026-04-21T06:38:29.931406"
     },
     "outdoor_voices:w-striped-sun-shirt-storm": {
       "handle": "w-striped-sun-shirt-storm",
@@ -26846,7 +27518,7 @@
           "price": "69.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968797"
+      "checked_at": "2026-04-21T06:38:29.931423"
     },
     "outdoor_voices:w-mustang-tee-orchid-dust": {
       "handle": "w-mustang-tee-orchid-dust",
@@ -26889,7 +27561,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968813"
+      "checked_at": "2026-04-21T06:38:29.931440"
     },
     "outdoor_voices:w-club-polo-bark-stripe": {
       "handle": "w-club-polo-bark-stripe",
@@ -26932,7 +27604,7 @@
           "price": "49.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968832"
+      "checked_at": "2026-04-21T06:38:29.931456"
     },
     "outdoor_voices:ov-rec-ankle-tipped-sock-tea-tree": {
       "handle": "ov-rec-ankle-tipped-sock-tea-tree",
@@ -26957,7 +27629,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968844"
+      "checked_at": "2026-04-21T06:38:29.931468"
     },
     "outdoor_voices:ov-rec-ankle-tipped-sock-black": {
       "handle": "ov-rec-ankle-tipped-sock-black",
@@ -26982,7 +27654,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968857"
+      "checked_at": "2026-04-21T06:38:29.931481"
     },
     "outdoor_voices:rec-ankle-sock-faded-sky": {
       "handle": "rec-ankle-sock-faded-sky",
@@ -27007,7 +27679,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968869"
+      "checked_at": "2026-04-21T06:38:29.931493"
     },
     "outdoor_voices:rec-ankle-sock-dark-sky": {
       "handle": "rec-ankle-sock-dark-sky",
@@ -27032,7 +27704,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968881"
+      "checked_at": "2026-04-21T06:38:29.931506"
     },
     "outdoor_voices:no-show-sock-white-kiwi": {
       "handle": "no-show-sock-white-kiwi",
@@ -27057,7 +27729,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968894"
+      "checked_at": "2026-04-21T06:38:29.931519"
     },
     "outdoor_voices:no-show-sock-white-navy": {
       "handle": "no-show-sock-white-navy",
@@ -27082,7 +27754,7 @@
           "price": "12.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968906"
+      "checked_at": "2026-04-21T06:38:29.931532"
     },
     "outdoor_voices:w-rectrek-29-pant-black": {
       "handle": "w-rectrek-29-pant-black",
@@ -27191,7 +27863,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968940"
+      "checked_at": "2026-04-21T06:38:29.931565"
     },
     "outdoor_voices:w-rectrek-29-pant-navy": {
       "handle": "w-rectrek-29-pant-navy",
@@ -27300,7 +27972,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.968973"
+      "checked_at": "2026-04-21T06:38:29.931600"
     },
     "outdoor_voices:w-rectrek-pant-bone": {
       "handle": "w-rectrek-pant-bone",
@@ -27427,7 +28099,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969009"
+      "checked_at": "2026-04-21T06:38:29.931640"
     },
     "outdoor_voices:w-zephyr-longer-inseam-thunder": {
       "handle": "w-zephyr-longer-inseam-thunder",
@@ -27488,7 +28160,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969030"
+      "checked_at": "2026-04-21T06:38:29.931662"
     },
     "outdoor_voices:w-zephyr-longer-inseam-navy": {
       "handle": "w-zephyr-longer-inseam-navy",
@@ -27549,7 +28221,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969052"
+      "checked_at": "2026-04-21T06:38:29.931684"
     },
     "outdoor_voices:w-zephyr-longer-inseam-dark-olive": {
       "handle": "w-zephyr-longer-inseam-dark-olive",
@@ -27610,7 +28282,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969073"
+      "checked_at": "2026-04-21T06:38:29.931704"
     },
     "outdoor_voices:w-zephyr-longer-inseam-black": {
       "handle": "w-zephyr-longer-inseam-black",
@@ -27671,7 +28343,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969093"
+      "checked_at": "2026-04-21T06:38:29.931725"
     },
     "outdoor_voices:w-zephyr-pant-dark-olive": {
       "handle": "w-zephyr-pant-dark-olive",
@@ -27732,7 +28404,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969114"
+      "checked_at": "2026-04-21T06:38:29.931747"
     },
     "outdoor_voices:w-cloudknit-cami-aries": {
       "handle": "w-cloudknit-cami-aries",
@@ -27775,7 +28447,7 @@
           "price": "19.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969132"
+      "checked_at": "2026-04-21T06:38:29.931765"
     },
     "outdoor_voices:w-superform-crop-top-dark-sky": {
       "handle": "w-superform-crop-top-dark-sky",
@@ -27818,7 +28490,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969149"
+      "checked_at": "2026-04-21T06:38:29.931782"
     },
     "outdoor_voices:w-superform-crop-top-bright-white": {
       "handle": "w-superform-crop-top-bright-white",
@@ -27861,7 +28533,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969165"
+      "checked_at": "2026-04-21T06:38:29.931800"
     },
     "outdoor_voices:w-cloudknit-shortsleeve-charcoal": {
       "handle": "w-cloudknit-shortsleeve-charcoal",
@@ -28000,7 +28672,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969251"
+      "checked_at": "2026-04-21T06:38:29.931839"
     },
     "outdoor_voices:w-cloudknit-shortsleeve-black": {
       "handle": "w-cloudknit-shortsleeve-black",
@@ -28073,7 +28745,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969290"
+      "checked_at": "2026-04-21T06:38:29.931864"
     },
     "outdoor_voices:w-the-exercise-dress-joggy-green": {
       "handle": "w-the-exercise-dress-joggy-green",
@@ -28116,7 +28788,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969307"
+      "checked_at": "2026-04-21T06:38:29.931881"
     },
     "outdoor_voices:w-rectrek-cargo-pant-balsam": {
       "handle": "w-rectrek-cargo-pant-balsam",
@@ -28159,7 +28831,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969325"
+      "checked_at": "2026-04-21T06:38:29.931899"
     },
     "outdoor_voices:w-rectrek-cargo-pant-black": {
       "handle": "w-rectrek-cargo-pant-black",
@@ -28232,7 +28904,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969349"
+      "checked_at": "2026-04-21T06:38:29.931923"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-aries": {
       "handle": "m-cloudknit-shortsleeve-aries",
@@ -28275,7 +28947,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969367"
+      "checked_at": "2026-04-21T06:38:29.931940"
     },
     "outdoor_voices:m-rectrek-pant-balsam": {
       "handle": "m-rectrek-pant-balsam",
@@ -28348,7 +29020,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969393"
+      "checked_at": "2026-04-21T06:38:29.931964"
     },
     "outdoor_voices:w-zephyr-pant-thunder": {
       "handle": "w-zephyr-pant-thunder",
@@ -28409,7 +29081,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969415"
+      "checked_at": "2026-04-21T06:38:29.931987"
     },
     "outdoor_voices:w-zephyr-pant-navy": {
       "handle": "w-zephyr-pant-navy",
@@ -28470,7 +29142,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969439"
+      "checked_at": "2026-04-21T06:38:29.932012"
     },
     "outdoor_voices:digital-gift-certificate": {
       "handle": "digital-gift-certificate",
@@ -28531,7 +29203,7 @@
           "price": "300.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969462"
+      "checked_at": "2026-04-21T06:38:29.932033"
     },
     "outdoor_voices:w-zephyr-pant-black": {
       "handle": "w-zephyr-pant-black",
@@ -28592,7 +29264,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969484"
+      "checked_at": "2026-04-21T06:38:29.932056"
     },
     "outdoor_voices:w-rectrek-pant-black": {
       "handle": "w-rectrek-pant-black",
@@ -28701,16 +29373,16 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969561"
+      "checked_at": "2026-04-21T06:38:29.932090"
     },
     "outdoor_voices:w-rectrek-pant-navy": {
       "handle": "w-rectrek-pant-navy",
       "title": "RecTrek 26\" Pant",
       "product_type": "Pants",
       "any_available": true,
-      "available_count": 12,
+      "available_count": 13,
       "total_variants": 16,
-      "availability_pct": 75,
+      "availability_pct": 81,
       "created_at": "2025-03-17T18:48:32-04:00",
       "variants": [
         {
@@ -28770,7 +29442,7 @@
         {
           "id": 42327004840014,
           "title": "Navy / L || 2",
-          "available": false,
+          "available": true,
           "price": "108.00"
         },
         {
@@ -28810,7 +29482,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969595"
+      "checked_at": "2026-04-21T06:38:29.932125"
     },
     "outdoor_voices:m-cloudknit-7in-short-navy": {
       "handle": "m-cloudknit-7in-short-navy",
@@ -28871,7 +29543,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969618"
+      "checked_at": "2026-04-21T06:38:29.932145"
     },
     "outdoor_voices:m-cloudknit-7in-short-black": {
       "handle": "m-cloudknit-7in-short-black",
@@ -28932,7 +29604,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969639"
+      "checked_at": "2026-04-21T06:38:29.932167"
     },
     "outdoor_voices:m-cloudknit-7in-short-charcoal": {
       "handle": "m-cloudknit-7in-short-charcoal",
@@ -28993,7 +29665,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969660"
+      "checked_at": "2026-04-21T06:38:29.932189"
     },
     "outdoor_voices:m-thinkfast-jersey-shortsleeve-milk-stone": {
       "handle": "m-thinkfast-jersey-shortsleeve-milk-stone",
@@ -29036,7 +29708,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969678"
+      "checked_at": "2026-04-21T06:38:29.932206"
     },
     "outdoor_voices:m-thinkfast-jersey-shortsleeve-aura": {
       "handle": "m-thinkfast-jersey-shortsleeve-aura",
@@ -29079,7 +29751,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969694"
+      "checked_at": "2026-04-21T06:38:29.932223"
     },
     "outdoor_voices:m-thinkfast-vent-shortsleeve-black": {
       "handle": "m-thinkfast-vent-shortsleeve-black",
@@ -29122,7 +29794,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969712"
+      "checked_at": "2026-04-21T06:38:29.932240"
     },
     "outdoor_voices:m-thinkfast-vent-shortsleeve-white": {
       "handle": "m-thinkfast-vent-shortsleeve-white",
@@ -29165,7 +29837,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969728"
+      "checked_at": "2026-04-21T06:38:29.932257"
     },
     "outdoor_voices:m-thinkfast-vent-shortsleeve-navy": {
       "handle": "m-thinkfast-vent-shortsleeve-navy",
@@ -29208,7 +29880,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969745"
+      "checked_at": "2026-04-21T06:38:29.932274"
     },
     "outdoor_voices:m-thinkfast-tank-deep-forest": {
       "handle": "m-thinkfast-tank-deep-forest",
@@ -29269,7 +29941,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969767"
+      "checked_at": "2026-04-21T06:38:29.932295"
     },
     "outdoor_voices:m-thinkfast-tank-dark-sky": {
       "handle": "m-thinkfast-tank-dark-sky",
@@ -29330,7 +30002,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969787"
+      "checked_at": "2026-04-21T06:38:29.932316"
     },
     "outdoor_voices:m-thinkfast-mesh-muscle-tank-black": {
       "handle": "m-thinkfast-mesh-muscle-tank-black",
@@ -29391,7 +30063,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969808"
+      "checked_at": "2026-04-21T06:38:29.932337"
     },
     "outdoor_voices:w-rectrek-cargo-pant-milk-stone": {
       "handle": "w-rectrek-cargo-pant-milk-stone",
@@ -29464,7 +30136,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969833"
+      "checked_at": "2026-04-21T06:38:29.932361"
     },
     "outdoor_voices:w-thinkfast-shortsleeve-black": {
       "handle": "w-thinkfast-shortsleeve-black",
@@ -29513,7 +30185,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969851"
+      "checked_at": "2026-04-21T06:38:29.932380"
     },
     "outdoor_voices:w-thinkfast-shortsleeve-brilliant-white": {
       "handle": "w-thinkfast-shortsleeve-brilliant-white",
@@ -29574,7 +30246,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969873"
+      "checked_at": "2026-04-21T06:38:29.932399"
     },
     "outdoor_voices:w-thinkfast-mesh-cropped-muscle-tank-black": {
       "handle": "w-thinkfast-mesh-cropped-muscle-tank-black",
@@ -29665,7 +30337,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969900"
+      "checked_at": "2026-04-21T06:38:29.932426"
     },
     "outdoor_voices:thinkfast-mesh-cropped-muscle-tank-brilliant-white": {
       "handle": "thinkfast-mesh-cropped-muscle-tank-brilliant-white",
@@ -29708,7 +30380,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969917"
+      "checked_at": "2026-04-21T06:38:29.932442"
     },
     "outdoor_voices:w-cloudknit-35-lounge-short-charcoal": {
       "handle": "w-cloudknit-35-lounge-short-charcoal",
@@ -29799,7 +30471,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969945"
+      "checked_at": "2026-04-21T06:38:29.932471"
     },
     "outdoor_voices:w-cloudknit-shortsleeve-navy": {
       "handle": "w-cloudknit-shortsleeve-navy",
@@ -29914,7 +30586,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969978"
+      "checked_at": "2026-04-21T06:38:29.932505"
     },
     "outdoor_voices:w-rectrek-4in-short-strawberry": {
       "handle": "w-rectrek-4in-short-strawberry",
@@ -29975,7 +30647,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.969998"
+      "checked_at": "2026-04-21T06:38:29.932526"
     },
     "outdoor_voices:recreationalist-hat-black": {
       "handle": "recreationalist-hat-black",
@@ -29994,7 +30666,7 @@
           "price": "28.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970009"
+      "checked_at": "2026-04-21T06:38:29.932538"
     },
     "outdoor_voices:ov-solid-crew-sock-black": {
       "handle": "ov-solid-crew-sock-black",
@@ -30019,7 +30691,7 @@
           "price": "14.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970022"
+      "checked_at": "2026-04-21T06:38:29.932552"
     },
     "outdoor_voices:comfort-sock-hyper-white": {
       "handle": "comfort-sock-hyper-white",
@@ -30044,7 +30716,7 @@
           "price": "14.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970363"
+      "checked_at": "2026-04-21T06:38:29.932909"
     },
     "outdoor_voices:ov-club-crew-sock-3-pack-blizzard-rose-water-latte": {
       "handle": "ov-club-crew-sock-3-pack-blizzard-rose-water-latte",
@@ -30069,7 +30741,7 @@
           "price": "32.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970385"
+      "checked_at": "2026-04-21T06:38:29.932934"
     },
     "outdoor_voices:doing-things-hat-ov-blue": {
       "handle": "doing-things-hat-ov-blue",
@@ -30088,7 +30760,7 @@
           "price": "28.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970396"
+      "checked_at": "2026-04-21T06:38:29.932946"
     },
     "outdoor_voices:w-venus-crop-top-black": {
       "handle": "w-venus-crop-top-black",
@@ -30179,7 +30851,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970425"
+      "checked_at": "2026-04-21T06:38:29.932977"
     },
     "outdoor_voices:doing-things-hoodie-black": {
       "handle": "doing-things-hoodie-black",
@@ -30222,7 +30894,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970441"
+      "checked_at": "2026-04-21T06:38:29.932994"
     },
     "outdoor_voices:w-techsweat-core-7-8-legging-night": {
       "handle": "w-techsweat-core-7-8-legging-night",
@@ -30325,7 +30997,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970469"
+      "checked_at": "2026-04-21T06:38:29.933024"
     },
     "outdoor_voices:w-warmup-2-5in-skort-dove": {
       "handle": "w-warmup-2-5in-skort-dove",
@@ -30416,7 +31088,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970497"
+      "checked_at": "2026-04-21T06:38:29.933052"
     },
     "outdoor_voices:w-techsweat-move-free-tank-white": {
       "handle": "w-techsweat-move-free-tank-white",
@@ -30501,7 +31173,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970524"
+      "checked_at": "2026-04-21T06:38:29.933079"
     },
     "outdoor_voices:w-striped-sun-shirt-guava": {
       "handle": "w-striped-sun-shirt-guava",
@@ -30544,7 +31216,7 @@
           "price": "69.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970540"
+      "checked_at": "2026-04-21T06:38:29.933096"
     },
     "outdoor_voices:washed-hat-washed-black": {
       "handle": "washed-hat-washed-black",
@@ -30563,7 +31235,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970551"
+      "checked_at": "2026-04-21T06:38:29.933107"
     },
     "outdoor_voices:washed-hat-washed-canvas": {
       "handle": "washed-hat-washed-canvas",
@@ -30582,7 +31254,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970562"
+      "checked_at": "2026-04-21T06:38:29.933118"
     },
     "outdoor_voices:trucker-hat-ov-blue": {
       "handle": "trucker-hat-ov-blue",
@@ -30601,7 +31273,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970573"
+      "checked_at": "2026-04-21T06:38:29.933129"
     },
     "outdoor_voices:w-doing-things-bra-joggy-green-helios": {
       "handle": "w-doing-things-bra-joggy-green-helios",
@@ -30644,7 +31316,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970590"
+      "checked_at": "2026-04-21T06:38:29.933145"
     },
     "outdoor_voices:w-techsweat-3-short-joggy-green-helios": {
       "handle": "w-techsweat-3-short-joggy-green-helios",
@@ -30687,7 +31359,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970607"
+      "checked_at": "2026-04-21T06:38:29.933163"
     },
     "outdoor_voices:washed-hat-washed-sorbet": {
       "handle": "washed-hat-washed-sorbet",
@@ -30706,7 +31378,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970618"
+      "checked_at": "2026-04-21T06:38:29.933174"
     },
     "outdoor_voices:washed-hat": {
       "handle": "washed-hat",
@@ -30725,7 +31397,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970629"
+      "checked_at": "2026-04-21T06:38:29.933185"
     },
     "outdoor_voices:w-sugar-cardigan-sky": {
       "handle": "w-sugar-cardigan-sky",
@@ -30768,7 +31440,7 @@
           "price": "94.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970645"
+      "checked_at": "2026-04-21T06:38:29.933201"
     },
     "outdoor_voices:w-sugar-cardigan-granite": {
       "handle": "w-sugar-cardigan-granite",
@@ -30811,7 +31483,7 @@
           "price": "94.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970662"
+      "checked_at": "2026-04-21T06:38:29.933283"
     },
     "outdoor_voices:w-sugar-cardigan-mustang": {
       "handle": "w-sugar-cardigan-mustang",
@@ -30854,7 +31526,7 @@
           "price": "94.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970680"
+      "checked_at": "2026-04-21T06:38:29.933306"
     },
     "outdoor_voices:w-techsweat-move-free-tank-sky-blue-yonder": {
       "handle": "w-techsweat-move-free-tank-sky-blue-yonder",
@@ -30897,7 +31569,7 @@
           "price": "29.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970697"
+      "checked_at": "2026-04-21T06:38:29.933324"
     },
     "outdoor_voices:w-techsweat-move-free-tank-baltic": {
       "handle": "w-techsweat-move-free-tank-baltic",
@@ -30940,7 +31612,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970712"
+      "checked_at": "2026-04-21T06:38:29.933341"
     },
     "outdoor_voices:w-doing-things-bra-night": {
       "handle": "w-doing-things-bra-night",
@@ -30983,7 +31655,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970729"
+      "checked_at": "2026-04-21T06:38:29.933357"
     },
     "outdoor_voices:w-doing-things-bra-white": {
       "handle": "w-doing-things-bra-white",
@@ -31026,7 +31698,7 @@
           "price": "39.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970747"
+      "checked_at": "2026-04-21T06:38:29.933374"
     },
     "outdoor_voices:w-techsweat-core-7-8-legging-baltic": {
       "handle": "w-techsweat-core-7-8-legging-baltic",
@@ -31069,7 +31741,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970764"
+      "checked_at": "2026-04-21T06:38:29.933390"
     },
     "outdoor_voices:w-techsweat-core-7-8-legging-sky-blue-yonder": {
       "handle": "w-techsweat-core-7-8-legging-sky-blue-yonder",
@@ -31112,7 +31784,7 @@
           "price": "79.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970782"
+      "checked_at": "2026-04-21T06:38:29.933407"
     },
     "outdoor_voices:w-double-time-bra-balsam": {
       "handle": "w-double-time-bra-balsam",
@@ -31155,16 +31827,16 @@
           "price": "34.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970801"
+      "checked_at": "2026-04-21T06:38:29.933424"
     },
     "outdoor_voices:w-springs-7-8-legging-balsam-watercress-glacier": {
       "handle": "w-springs-7-8-legging-balsam-watercress-glacier",
       "title": "Springs 7/8 Legging",
       "product_type": "Leggings",
       "any_available": true,
-      "available_count": 4,
+      "available_count": 5,
       "total_variants": 5,
-      "availability_pct": 80,
+      "availability_pct": 100,
       "created_at": "2025-07-28T22:59:09-04:00",
       "variants": [
         {
@@ -31194,11 +31866,11 @@
         {
           "id": 42736903454798,
           "title": "Balsam/Watercress/Glacier / XL",
-          "available": false,
+          "available": true,
           "price": "34.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970818"
+      "checked_at": "2026-04-21T06:38:29.933442"
     },
     "outdoor_voices:w-two-tone-7-8-legging-black-navy": {
       "handle": "w-two-tone-7-8-legging-black-navy",
@@ -31241,7 +31913,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970835"
+      "checked_at": "2026-04-21T06:38:29.933459"
     },
     "outdoor_voices:w-two-tone-7-8-legging-dove-ash": {
       "handle": "w-two-tone-7-8-legging-dove-ash",
@@ -31284,7 +31956,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970853"
+      "checked_at": "2026-04-21T06:38:29.933476"
     },
     "outdoor_voices:w-warmup-2-5-skort-ash": {
       "handle": "w-warmup-2-5-skort-ash",
@@ -31327,7 +31999,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970871"
+      "checked_at": "2026-04-21T06:38:29.933495"
     },
     "outdoor_voices:w-rectrek-4in-short-black": {
       "handle": "w-rectrek-4in-short-black",
@@ -31436,7 +32108,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970905"
+      "checked_at": "2026-04-21T06:38:29.933529"
     },
     "outdoor_voices:w-the-exercise-dress-black": {
       "handle": "w-the-exercise-dress-black",
@@ -31497,7 +32169,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970927"
+      "checked_at": "2026-04-21T06:38:29.933552"
     },
     "outdoor_voices:m-high-stride-7in-short-with-pockets-black": {
       "handle": "m-high-stride-7in-short-with-pockets-black",
@@ -31558,7 +32230,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970949"
+      "checked_at": "2026-04-21T06:38:29.933573"
     },
     "outdoor_voices:w-the-exercise-dress-laurel-wreath": {
       "handle": "w-the-exercise-dress-laurel-wreath",
@@ -31601,7 +32273,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970965"
+      "checked_at": "2026-04-21T06:38:29.933591"
     },
     "outdoor_voices:w-thinkfast-jersey-baby-tee-aura": {
       "handle": "w-thinkfast-jersey-baby-tee-aura",
@@ -31644,7 +32316,7 @@
           "price": "24.95"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.970982"
+      "checked_at": "2026-04-21T06:38:29.933608"
     },
     "outdoor_voices:m-zephyr-5-short-reservoir": {
       "handle": "m-zephyr-5-short-reservoir",
@@ -31705,7 +32377,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971003"
+      "checked_at": "2026-04-21T06:38:29.933631"
     },
     "outdoor_voices:m-zephyr-5-short-black": {
       "handle": "m-zephyr-5-short-black",
@@ -31766,7 +32438,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971025"
+      "checked_at": "2026-04-21T06:38:29.933652"
     },
     "outdoor_voices:m-everyday-classic-shortsleeve-heather-grey": {
       "handle": "m-everyday-classic-shortsleeve-heather-grey",
@@ -31845,7 +32517,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971050"
+      "checked_at": "2026-04-21T06:38:29.933678"
     },
     "outdoor_voices:m-everyday-classic-shortsleeve-black": {
       "handle": "m-everyday-classic-shortsleeve-black",
@@ -31918,7 +32590,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971076"
+      "checked_at": "2026-04-21T06:38:29.933745"
     },
     "outdoor_voices:w-warmup-2-5in-skort-black": {
       "handle": "w-warmup-2-5in-skort-black",
@@ -32009,7 +32681,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971105"
+      "checked_at": "2026-04-21T06:38:29.933775"
     },
     "outdoor_voices:w-cloudknit-boxy-shortsleeve-charcoal": {
       "handle": "w-cloudknit-boxy-shortsleeve-charcoal",
@@ -32130,7 +32802,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971138"
+      "checked_at": "2026-04-21T06:38:29.933811"
     },
     "outdoor_voices:w-cloudknit-boxy-shortsleeve-navy": {
       "handle": "w-cloudknit-boxy-shortsleeve-navy",
@@ -32221,7 +32893,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971166"
+      "checked_at": "2026-04-21T06:38:29.933838"
     },
     "outdoor_voices:m-high-stride-5in-short-2-black": {
       "handle": "m-high-stride-5in-short-2-black",
@@ -32282,7 +32954,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971187"
+      "checked_at": "2026-04-21T06:38:29.933859"
     },
     "outdoor_voices:m-high-stride-5in-short-2-milk-stone": {
       "handle": "m-high-stride-5in-short-2-milk-stone",
@@ -32325,7 +32997,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971204"
+      "checked_at": "2026-04-21T06:38:29.933877"
     },
     "outdoor_voices:m-high-stride-5in-short-navy": {
       "handle": "m-high-stride-5in-short-navy",
@@ -32386,7 +33058,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971225"
+      "checked_at": "2026-04-21T06:38:29.933899"
     },
     "outdoor_voices:w-warmup-dress-black": {
       "handle": "w-warmup-dress-black",
@@ -32447,7 +33119,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971247"
+      "checked_at": "2026-04-21T06:38:29.933920"
     },
     "outdoor_voices:w-lightspeed-3-short-black": {
       "handle": "w-lightspeed-3-short-black",
@@ -32508,7 +33180,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971268"
+      "checked_at": "2026-04-21T06:38:29.933942"
     },
     "outdoor_voices:m-rectrek-pant-black": {
       "handle": "m-rectrek-pant-black",
@@ -32647,7 +33319,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971309"
+      "checked_at": "2026-04-21T06:38:29.933980"
     },
     "outdoor_voices:m-rectrek-pant-navy": {
       "handle": "m-rectrek-pant-navy",
@@ -32738,7 +33410,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971338"
+      "checked_at": "2026-04-21T06:38:29.934010"
     },
     "outdoor_voices:m-thinkfast-shortsleeve-dark-sky": {
       "handle": "m-thinkfast-shortsleeve-dark-sky",
@@ -32817,7 +33489,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971362"
+      "checked_at": "2026-04-21T06:38:29.934035"
     },
     "outdoor_voices:m-thinkfast-shortsleeve-black": {
       "handle": "m-thinkfast-shortsleeve-black",
@@ -32890,7 +33562,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971384"
+      "checked_at": "2026-04-21T06:38:29.934058"
     },
     "outdoor_voices:m-thinkfast-shortsleeve-milk-stone": {
       "handle": "m-thinkfast-shortsleeve-milk-stone",
@@ -33005,7 +33677,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971417"
+      "checked_at": "2026-04-21T06:38:29.934090"
     },
     "outdoor_voices:m-cloudknit-sweatpant-charcoal": {
       "handle": "m-cloudknit-sweatpant-charcoal",
@@ -33120,7 +33792,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971448"
+      "checked_at": "2026-04-21T06:38:29.934126"
     },
     "outdoor_voices:m-cloudknit-sweatpant-navy": {
       "handle": "m-cloudknit-sweatpant-navy",
@@ -33229,7 +33901,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971480"
+      "checked_at": "2026-04-21T06:38:29.934159"
     },
     "outdoor_voices:m-cloudknit-hoodie-charcoal": {
       "handle": "m-cloudknit-hoodie-charcoal",
@@ -33344,7 +34016,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971514"
+      "checked_at": "2026-04-21T06:38:29.934194"
     },
     "outdoor_voices:w-relay-3in-short-black": {
       "handle": "w-relay-3in-short-black",
@@ -33435,7 +34107,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971540"
+      "checked_at": "2026-04-21T06:38:29.934220"
     },
     "outdoor_voices:m-cloudknit-hoodie-navy": {
       "handle": "m-cloudknit-hoodie-navy",
@@ -33544,7 +34216,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971569"
+      "checked_at": "2026-04-21T06:38:29.934252"
     },
     "outdoor_voices:w-relay-3in-short-ov-blue": {
       "handle": "w-relay-3in-short-ov-blue",
@@ -33629,7 +34301,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971596"
+      "checked_at": "2026-04-21T06:38:29.934277"
     },
     "outdoor_voices:w-everyday-shortsleeve-heather-grey": {
       "handle": "w-everyday-shortsleeve-heather-grey",
@@ -33720,7 +34392,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971624"
+      "checked_at": "2026-04-21T06:38:29.934304"
     },
     "outdoor_voices:w-the-exercise-dress-navy": {
       "handle": "w-the-exercise-dress-navy",
@@ -33781,7 +34453,7 @@
           "price": "100.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971644"
+      "checked_at": "2026-04-21T06:38:29.934324"
     },
     "outdoor_voices:w-everyday-shortsleeve-brilliant-white": {
       "handle": "w-everyday-shortsleeve-brilliant-white",
@@ -33866,7 +34538,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971670"
+      "checked_at": "2026-04-21T06:38:29.934350"
     },
     "outdoor_voices:w-warmup-5in-shorts-dove": {
       "handle": "w-warmup-5in-shorts-dove",
@@ -33945,7 +34617,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971696"
+      "checked_at": "2026-04-21T06:38:29.934375"
     },
     "outdoor_voices:w-warmup-5in-shorts-black": {
       "handle": "w-warmup-5in-shorts-black",
@@ -34024,7 +34696,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971722"
+      "checked_at": "2026-04-21T06:38:29.934400"
     },
     "outdoor_voices:w-everyday-shortsleeve-black": {
       "handle": "w-everyday-shortsleeve-black",
@@ -34109,7 +34781,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971748"
+      "checked_at": "2026-04-21T06:38:29.934427"
     },
     "outdoor_voices:w-double-time-bra-black": {
       "handle": "w-double-time-bra-black",
@@ -34230,7 +34902,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971784"
+      "checked_at": "2026-04-21T06:38:29.934465"
     },
     "outdoor_voices:w-cloudknit-sweatpant-charcoal": {
       "handle": "w-cloudknit-sweatpant-charcoal",
@@ -34321,7 +34993,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971812"
+      "checked_at": "2026-04-21T06:38:29.934496"
     },
     "outdoor_voices:m-rectrek-7in-short-black": {
       "handle": "m-rectrek-7in-short-black",
@@ -34430,7 +35102,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971878"
+      "checked_at": "2026-04-21T06:38:29.934565"
     },
     "outdoor_voices:w-cloudknit-sweatpant-navy": {
       "handle": "w-cloudknit-sweatpant-navy",
@@ -34551,7 +35223,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971914"
+      "checked_at": "2026-04-21T06:38:29.934602"
     },
     "outdoor_voices:m-rectrek-7in-short-navy": {
       "handle": "m-rectrek-7in-short-navy",
@@ -34660,7 +35332,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971946"
+      "checked_at": "2026-04-21T06:38:29.934635"
     },
     "outdoor_voices:w-rectrek-zip-off-pant-navy": {
       "handle": "w-rectrek-zip-off-pant-navy",
@@ -34787,7 +35459,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.971984"
+      "checked_at": "2026-04-21T06:38:29.934673"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-charcoal": {
       "handle": "m-cloudknit-shortsleeve-charcoal",
@@ -34908,7 +35580,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972018"
+      "checked_at": "2026-04-21T06:38:29.934710"
     },
     "outdoor_voices:m-cloudknit-shortsleeve-navy": {
       "handle": "m-cloudknit-shortsleeve-navy",
@@ -35029,7 +35701,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972052"
+      "checked_at": "2026-04-21T06:38:29.934747"
     },
     "outdoor_voices:m-everyday-classic-shortsleeve-brilliant-white": {
       "handle": "m-everyday-classic-shortsleeve-brilliant-white",
@@ -35072,7 +35744,7 @@
           "price": "38.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972068"
+      "checked_at": "2026-04-21T06:38:29.934764"
     },
     "outdoor_voices:m-zephyr-pant-navy": {
       "handle": "m-zephyr-pant-navy",
@@ -35115,7 +35787,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972084"
+      "checked_at": "2026-04-21T06:38:29.934780"
     },
     "outdoor_voices:m-zephyr-pant-black": {
       "handle": "m-zephyr-pant-black",
@@ -35158,7 +35830,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972099"
+      "checked_at": "2026-04-21T06:38:29.934796"
     },
     "outdoor_voices:m-zephyr-pant-dark-olive": {
       "handle": "m-zephyr-pant-dark-olive",
@@ -35201,7 +35873,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972116"
+      "checked_at": "2026-04-21T06:38:29.934814"
     },
     "outdoor_voices:w-double-time-bra-dove": {
       "handle": "w-double-time-bra-dove",
@@ -35340,7 +36012,7 @@
           "price": "58.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972157"
+      "checked_at": "2026-04-21T06:38:29.934854"
     },
     "outdoor_voices:w-rectrek-zip-off-pant-black": {
       "handle": "w-rectrek-zip-off-pant-black",
@@ -35521,8 +36193,8 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-04-20T06:16:46.972207"
+      "checked_at": "2026-04-21T06:38:29.934900"
     }
   },
-  "last_check": "2026-04-20T06:16:46.973280"
+  "last_check": "2026-04-21T06:38:29.935802"
 }
