@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 672,
-      "change_from_last": 2,
+      "total_jobs": 660,
+      "change_from_last": -12,
       "departments": {
-        "engineering": 33,
-        "design": 85,
-        "operations": 161,
-        "finance": 7,
-        "other": 122,
+        "engineering": 34,
+        "design": 81,
+        "operations": 157,
+        "other": 119,
         "retail": 222,
         "marketing": 18,
+        "finance": 5,
         "executive": 14,
         "product": 5,
         "hr": 5
       },
       "seniority": {
-        "mid": 31,
-        "manager": 155,
-        "intern": 27,
-        "junior": 294,
-        "c-suite": 33,
+        "mid": 30,
+        "manager": 151,
+        "junior": 293,
+        "intern": 26,
+        "c-suite": 32,
         "senior": 24,
-        "lead": 108
+        "lead": 104
       },
       "locations": [
-        "Edina, Minnesota, United States",
-        "Bellevue, Washington, United States",
-        "Ashburn, Virginia, United States",
-        "Milano, Milan, Italy",
-        "Toronto, ON",
-        "Charleston, South Carolina, United States",
-        "Dallas, TX",
-        "Orlando, Florida, United States",
-        "Roma, Rome, Italy",
-        "Bloomington, Minnesota, United States",
-        "Paramus, NJ",
-        "Princeton, New Jersey, United States",
-        "Sarasota, FL",
-        "Roseville, California, United States",
+        "London, England, United Kingdom",
+        "San Diego, California, United States",
+        "Philadelphia, PA",
+        "Bridgewater, New Jersey, United States",
+        "Portland, Oregon, United States",
+        "Denver, CO",
+        "McLean, Virginia, United States",
+        "Columbus, Ohio, United States",
+        "Cincinnati, OH",
+        "Memphis, Tennessee, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Vail, CO",
+        "Corte Madera, California, United States",
+        "Murray, UT",
+        "Bethesda, Maryland, United States",
         "Alys Beach, Florida, United States",
-        "Cherry Hill, New Jersey, United States",
-        "St. Louis, MO",
-        "Washington, DC",
-        "Boca Raton, FL",
-        "West Palm Beach, Florida, United States"
+        "Aspen, CO",
+        "West Palm Beach, Florida, United States",
+        "Ottawa, Ontario, Canada",
+        "Palo Alto, California, United States"
       ],
       "jobs": [
         {
@@ -98,16 +98,6 @@
           "posted_at": "2026-04-14T01:01:47-04:00",
           "category": "design",
           "seniority": "mid"
-        },
-        {
-          "id": "5797011004",
-          "title": "Accounting Intern",
-          "location": "Commerce, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5797011004?gh_jid=5797011004",
-          "posted_at": "2026-04-14T01:01:46-04:00",
-          "category": "finance",
-          "seniority": "intern"
         },
         {
           "id": "5623418004",
@@ -300,6 +290,16 @@
           "seniority": "junior"
         },
         {
+          "id": "5977968004",
+          "title": "Associate Product Developer",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5977968004?gh_jid=5977968004",
+          "posted_at": "2026-04-23T12:58:48-04:00",
+          "category": "engineering",
+          "seniority": "junior"
+        },
+        {
           "id": "5792272004",
           "title": "Branding & Packaging Developer - Apparel, Footwear & Accessories ",
           "location": "Commerce, California, United States",
@@ -395,7 +395,7 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5850342004?gh_jid=5850342004",
-          "posted_at": "2026-04-20T17:16:26-04:00",
+          "posted_at": "2026-04-23T14:35:43-04:00",
           "category": "marketing",
           "seniority": "junior"
         },
@@ -440,21 +440,21 @@
           "seniority": "manager"
         },
         {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
-          "posted_at": "2026-04-14T01:01:42-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5781938004",
           "title": "Digital Engineering Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-04-14T01:01:42-04:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-04-14T01:01:42-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -525,7 +525,7 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5840053004?gh_jid=5840053004",
-          "posted_at": "2026-04-21T19:03:50-04:00",
+          "posted_at": "2026-04-23T11:18:19-04:00",
           "category": "retail",
           "seniority": "c-suite"
         },
@@ -545,12 +545,12 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5589948004?gh_jid=5589948004",
-          "posted_at": "2026-04-14T01:01:29-04:00",
+          "posted_at": "2026-04-23T17:28:06-04:00",
           "category": "executive",
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-04-23T05:30:10.813547"
+      "checked_at": "2026-04-24T05:30:07.462549"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -558,35 +558,26 @@
       "total_jobs": 10,
       "change_from_last": 0,
       "departments": {
-        "other": 2,
         "retail": 4,
         "engineering": 3,
+        "other": 2,
         "hr": 1
       },
       "seniority": {
-        "mid": 5,
         "manager": 3,
-        "junior": 1,
+        "mid": 4,
+        "junior": 2,
         "lead": 1
       },
       "locations": [
         "London, England, United Kingdom",
-        "Roosevelt, New York, United States",
-        "Manchester, England, United Kingdom",
+        "Solihull, England, United Kingdom",
         "New York, New York, United States",
-        "Solihull, England, United Kingdom"
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "Roosevelt, New York, United States",
+        "Manchester, England, United Kingdom"
       ],
       "jobs": [
-        {
-          "id": "4815344101",
-          "title": "Accounts Payable & Purchasing Executive",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4815344101",
-          "posted_at": "2026-04-17T07:57:14-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
         {
           "id": "4840659101",
           "title": "Assistant Store Manager - Roosevelt Field, NYC",
@@ -638,6 +629,16 @@
           "seniority": "junior"
         },
         {
+          "id": "4848531101",
+          "title": "Junior  Studio Stylist",
+          "location": "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4848531101",
+          "posted_at": "2026-04-23T10:12:58-04:00",
+          "category": "other",
+          "seniority": "junior"
+        },
+        {
           "id": "4746233101",
           "title": "Operations Team Member - Part Time - Flagship store, New York City",
           "location": "New York, New York, United States",
@@ -678,7 +679,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-04-23T05:30:13.023415"
+      "checked_at": "2026-04-24T05:30:09.617308"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -736,14 +737,14 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 283,
-      "change_from_last": 8,
+      "total_jobs": 289,
+      "change_from_last": 6,
       "departments": {
-        "engineering": 44,
-        "other": 52,
-        "retail": 125,
+        "other": 53,
+        "engineering": 46,
+        "retail": 127,
         "marketing": 21,
-        "product": 6,
+        "product": 7,
         "executive": 13,
         "design": 13,
         "operations": 4,
@@ -751,45 +752,35 @@
         "hr": 3
       },
       "seniority": {
-        "manager": 6,
-        "mid": 72,
-        "lead": 152,
+        "mid": 74,
+        "lead": 154,
         "c-suite": 11,
-        "senior": 42
+        "manager": 5,
+        "senior": 45
       },
       "locations": [
-        "Miami",
-        "Melbourne",
-        "Woodbury",
-        "Calgary; Montreal; Toronto; Vancouver",
-        "Boston",
-        "Seoul",
-        "New York City; Portland",
-        "Central Valley",
-        "Paris",
-        "Montreal",
-        "San Diego",
-        "Brooklyn",
-        "Zurich",
         "Nairobi",
-        "Nanjing",
-        "Nairobi; Zurich",
-        "Mexico City",
-        "Auckland",
+        "Hanoi; Ho Chi Minh City",
+        "Milan",
+        "Hong Kong",
+        "New York City; Portland",
+        "San Diego",
+        "Austin",
         "Corte Madera",
-        "Sydney"
+        "Palo Alto",
+        "Bicester",
+        "San Francisco",
+        "Guangzhou",
+        "Ho Chi Minh City",
+        "Wuhan",
+        "Vienna",
+        "Tianjin",
+        "Woodbury",
+        "New York City",
+        "Montreal",
+        "Dallas"
       ],
       "jobs": [
-        {
-          "id": "7841974",
-          "title": "2722 - Technical Program Manager",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7841974?gh_jid=7841974",
-          "posted_at": "2026-04-22T09:30:07-04:00",
-          "category": "engineering",
-          "seniority": "manager"
-        },
         {
           "id": "7768126",
           "title": "Accounts Receivables Specialist, German & English",
@@ -816,7 +807,7 @@
           "location": "Melbourne",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7764845?gh_jid=7764845",
-          "posted_at": "2026-04-08T05:54:24-04:00",
+          "posted_at": "2026-04-23T12:26:03-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -891,12 +882,12 @@
           "seniority": "lead"
         },
         {
-          "id": "7591780",
+          "id": "7846578",
           "title": "Associate Store Leader, La Vall\u00e9e Village Outlet",
           "location": "Paris",
           "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7591780?gh_jid=7591780",
-          "posted_at": "2026-04-22T04:51:07-04:00",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7846578?gh_jid=7846578",
+          "posted_at": "2026-04-23T09:08:15-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -906,8 +897,18 @@
           "location": "Seoul",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6880990?gh_jid=6880990",
-          "posted_at": "2026-04-08T05:54:24-04:00",
+          "posted_at": "2026-04-23T20:51:48-04:00",
           "category": "marketing",
+          "seniority": "lead"
+        },
+        {
+          "id": "7846530",
+          "title": "Associate Store Leader, Saint Germain",
+          "location": "Paris",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7846530?gh_jid=7846530",
+          "posted_at": "2026-04-23T08:40:38-04:00",
+          "category": "retail",
           "seniority": "lead"
         },
         {
@@ -966,7 +967,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/6940621?gh_jid=6940621",
-          "posted_at": "2026-04-08T05:54:24-04:00",
+          "posted_at": "2026-04-24T04:51:13-04:00",
           "category": "product",
           "seniority": "c-suite"
         },
@@ -1262,12 +1263,12 @@
         },
         {
           "id": "7768527",
-          "title": "Integrations Specialist - EDI",
+          "title": "Integrations Engineering Specialist ",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7768527?gh_jid=7768527",
-          "posted_at": "2026-04-16T06:53:30-04:00",
-          "category": "other",
+          "posted_at": "2026-04-23T05:43:53-04:00",
+          "category": "engineering",
           "seniority": "mid"
         },
         {
@@ -1281,8 +1282,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-04-23T05:30:22.385399"
+      "checked_at": "2026-04-24T05:30:19.107320"
     }
   },
-  "generated_at": "2026-04-23T05:30:24.385555"
+  "generated_at": "2026-04-24T05:30:21.107475"
 }
