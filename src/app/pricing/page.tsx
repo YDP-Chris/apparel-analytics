@@ -106,6 +106,93 @@ export default function PricingPage() {
           </p>
         </section>
 
+        {(() => {
+          // Diverging horizontal bar chart: premium right, discount left, sorted by magnitude
+          const sorted = [...data.class_pricing]
+            .filter((r) => r.position !== 'parity')
+            .sort((a, b) => b.gap_vs_peer_median_pct - a.gap_vs_peer_median_pct);
+          const max = Math.max(
+            ...sorted.map((r) => Math.abs(r.gap_vs_peer_median_pct)),
+            1,
+          );
+          if (sorted.length === 0) return null;
+          return (
+            <section>
+              <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">
+                Evidence
+              </div>
+              <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">
+                Premium vs Discount Classes (sorted by magnitude)
+              </h2>
+              <div className="bg-gr-surface border border-gr-border rounded-md p-5">
+                <div className="space-y-2">
+                  {sorted.map((r) => {
+                    const v = r.gap_vs_peer_median_pct;
+                    const pct = Math.min(50, (Math.abs(v) / max) * 50);
+                    const isPremium = v > 0;
+                    return (
+                      <div key={r.class} className="flex items-center gap-3 text-xs">
+                        <div className="w-40 truncate text-right text-gr-text" title={r.class_name || r.class}>
+                          {r.class_name || r.class}
+                        </div>
+                        <div className="flex-1 h-6 relative bg-gr-bg rounded-sm overflow-hidden border border-gr-border">
+                          <div
+                            className="absolute top-0 bottom-0 w-px bg-gr-border-strong"
+                            style={{ left: '50%' }}
+                          />
+                          {!isPremium && (
+                            <div
+                              className="absolute top-0 bottom-0 bg-gr-warning"
+                              style={{ right: '50%', width: `${pct}%` }}
+                              title={`${v.toFixed(0)}% below peer median`}
+                            />
+                          )}
+                          {isPremium && (
+                            <div
+                              className="absolute top-0 bottom-0 bg-gr-accent"
+                              style={{ left: '50%', width: `${pct}%` }}
+                              title={`+${v.toFixed(0)}% above peer median`}
+                            />
+                          )}
+                          <div
+                            className={`absolute top-0 bottom-0 flex items-center px-2 font-mono text-[11px] font-bold ${
+                              isPremium ? 'text-gr-text' : 'text-gr-text'
+                            }`}
+                            style={{
+                              [isPremium ? 'left' : 'right']: '50%',
+                              transform: isPremium ? `translateX(${pct}%)` : `translateX(-${pct}%)`,
+                            }}
+                          >
+                            <span className={`${isPremium ? 'ml-2' : 'mr-2'}`}>
+                              {v >= 0 ? '+' : ''}
+                              {v.toFixed(0)}%
+                            </span>
+                          </div>
+                        </div>
+                        <div className="w-16 text-gr-subtle font-mono text-right">
+                          {r.focus_styles} sku
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="mt-4 flex items-center gap-4 text-xs text-gr-muted font-mono pt-3 border-t border-gr-border">
+                  <span>
+                    <span className="inline-block w-3 h-3 bg-gr-warning align-middle mr-1.5" />
+                    Below peer median (discount)
+                  </span>
+                  <span>
+                    <span className="inline-block w-3 h-3 bg-gr-accent align-middle mr-1.5" />
+                    Above peer median (premium)
+                  </span>
+                  <span className="text-gr-subtle">·</span>
+                  <span>Sorted by magnitude</span>
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
         <div className="grid grid-cols-3 gap-4">
           <button
             onClick={() => setFilter('all')}
