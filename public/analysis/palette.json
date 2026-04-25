@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-04-24T22:41:13.824316",
+  "focus_brand": "gymreapers",
+  "peers": [
+    "gymshark",
+    "sbd",
+    "schiek",
+    "harbinger",
+    "bear_grips"
+  ],
+  "palette_order": [
+    "neutral",
+    "earth",
+    "bright",
+    "print",
+    "other",
+    "unknown"
+  ],
+  "by_brand": {
+    "gymreapers": {
+      "sku_count": 7358,
+      "distribution": {
+        "neutral": 4064,
+        "earth": 389,
+        "bright": 1069,
+        "print": 203,
+        "other": 1603,
+        "unknown": 30
+      },
+      "pct": {
+        "neutral": 55.2,
+        "earth": 5.3,
+        "bright": 14.5,
+        "print": 2.8,
+        "other": 21.8,
+        "unknown": 0.4
+      }
+    },
+    "gymshark": {
+      "sku_count": 17420,
+      "distribution": {
+        "neutral": 7400,
+        "earth": 1474,
+        "bright": 6868,
+        "print": 168,
+        "other": 676,
+        "unknown": 834
+      },
+      "pct": {
+        "neutral": 42.5,
+        "earth": 8.5,
+        "bright": 39.4,
+        "print": 1.0,
+        "other": 3.9,
+        "unknown": 4.8
+      }
+    },
+    "sbd": {
+      "sku_count": 1443,
+      "distribution": {
+        "neutral": 2,
+        "earth": 20,
+        "bright": 12,
+        "print": 0,
+        "other": 1284,
+        "unknown": 125
+      },
+      "pct": {
+        "neutral": 0.1,
+        "earth": 1.4,
+        "bright": 0.8,
+        "print": 0.0,
+        "other": 89.0,
+        "unknown": 8.7
+      }
+    },
+    "schiek": {
+      "sku_count": 2722,
+      "distribution": {
+        "neutral": 422,
+        "earth": 21,
+        "bright": 632,
+        "print": 127,
+        "other": 1354,
+        "unknown": 166
+      },
+      "pct": {
+        "neutral": 15.5,
+        "earth": 0.8,
+        "bright": 23.2,
+        "print": 4.7,
+        "other": 49.7,
+        "unknown": 6.1
+      }
+    },
+    "harbinger": {
+      "sku_count": 146,
+      "distribution": {
+        "neutral": 74,
+        "earth": 0,
+        "bright": 24,
+        "print": 11,
+        "other": 26,
+        "unknown": 11
+      },
+      "pct": {
+        "neutral": 50.7,
+        "earth": 0.0,
+        "bright": 16.4,
+        "print": 7.5,
+        "other": 17.8,
+        "unknown": 7.5
+      }
+    },
+    "bear_grips": {
+      "sku_count": 97679,
+      "distribution": {
+        "neutral": 33998,
+        "earth": 1156,
+        "bright": 22645,
+        "print": 176,
+        "other": 39631,
+        "unknown": 73
+      },
+      "pct": {
+        "neutral": 34.8,
+        "earth": 1.2,
+        "bright": 23.2,
+        "print": 0.2,
+        "other": 40.6,
+        "unknown": 0.1
+      }
+    }
+  },
+  "peers_combined": {
+    "sku_count": 119410,
+    "distribution": {
+      "neutral": 41896,
+      "earth": 2671,
+      "bright": 30181,
+      "print": 482,
+      "other": 42971,
+      "unknown": 1209
+    },
+    "pct": {
+      "neutral": 35.1,
+      "earth": 2.2,
+      "bright": 25.3,
+      "print": 0.4,
+      "other": 36.0,
+      "unknown": 1.0
+    }
+  },
+  "focus_vs_peer_delta_pp": {
+    "neutral": 20.1,
+    "earth": 3.1,
+    "bright": -10.8,
+    "print": 2.4,
+    "other": -14.2,
+    "unknown": -0.6
+  }
+}

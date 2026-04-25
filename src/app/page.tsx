@@ -44,20 +44,32 @@ type Canonical = {
   divisions: Array<{ departments: Array<{ classes: unknown[] }> }>;
 };
 
+type Palette = {
+  generated_at: string;
+  focus_brand: string;
+  palette_order: string[];
+  by_brand: Record<string, { sku_count: number; pct: Record<string, number> }>;
+  peers_combined: { sku_count: number; pct: Record<string, number> };
+  focus_vs_peer_delta_pp: Record<string, number>;
+};
+
 export default function OverviewPage() {
   const [gaps, setGaps] = useState<Gaps | null>(null);
   const [pricing, setPricing] = useState<Pricing | null>(null);
   const [canonical, setCanonical] = useState<Canonical | null>(null);
+  const [palette, setPalette] = useState<Palette | null>(null);
 
   useEffect(() => {
     Promise.all([
       fetch('/analysis/gaps.json').then((r) => r.json()).catch(() => null),
       fetch('/analysis/pricing.json').then((r) => r.json()).catch(() => null),
       fetch('/canonical.json').then((r) => r.json()).catch(() => null),
-    ]).then(([g, p, c]) => {
+      fetch('/analysis/palette.json').then((r) => r.json()).catch(() => null),
+    ]).then(([g, p, c, pal]) => {
       setGaps(g);
       setPricing(p);
       setCanonical(c);
+      setPalette(pal);
     });
   }, []);
 
@@ -306,6 +318,70 @@ export default function OverviewPage() {
           ))}
         </div>
       </section>
+
+      {/* Palette mix: how do we lean — neutral, bright, earth, print? */}
+      {palette && (
+        <section>
+          <div className="flex items-baseline justify-between mb-4">
+            <div>
+              <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
+              <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+                Palette Mix vs Strength Market
+              </h2>
+            </div>
+            <div className="text-xs text-gr-subtle font-mono">color-relevant SKUs only</div>
+          </div>
+          <div className="bg-gr-surface border border-gr-border rounded-md p-6">
+            <div className="space-y-3">
+              {palette.palette_order
+                .filter((p) => p !== 'unknown')
+                .map((p) => {
+                  const focus = palette.by_brand[palette.focus_brand]?.pct?.[p] || 0;
+                  const peers = palette.peers_combined.pct[p] || 0;
+                  const delta = palette.focus_vs_peer_delta_pp[p] || 0;
+                  const max = Math.max(focus, peers, 1);
+                  const focusW = (focus / max) * 100;
+                  const peersW = (peers / max) * 100;
+                  return (
+                    <div key={p}>
+                      <div className="flex items-baseline justify-between text-xs mb-1.5">
+                        <div className="text-gr-text font-bold uppercase tracking-wider">{p}</div>
+                        <div className={`font-mono font-bold ${delta > 5 ? 'text-gr-accent' : delta < -5 ? 'text-gr-warning' : 'text-gr-muted'}`}>
+                          {delta >= 0 ? '+' : ''}
+                          {delta.toFixed(1)}pp
+                        </div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="flex items-center gap-3 text-xs">
+                          <div className="text-gr-subtle font-mono w-16">us</div>
+                          <div className="flex-1 h-2 bg-gr-bg rounded-sm overflow-hidden">
+                            <div className="h-full bg-gr-accent rounded-sm" style={{ width: `${focusW}%` }} />
+                          </div>
+                          <div className="text-gr-text font-mono w-12 text-right">{focus.toFixed(0)}%</div>
+                        </div>
+                        <div className="flex items-center gap-3 text-xs">
+                          <div className="text-gr-subtle font-mono w-16">peers</div>
+                          <div className="flex-1 h-2 bg-gr-bg rounded-sm overflow-hidden">
+                            <div className="h-full bg-gr-muted rounded-sm" style={{ width: `${peersW}%` }} />
+                          </div>
+                          <div className="text-gr-text font-mono w-12 text-right">{peers.toFixed(0)}%</div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+            </div>
+            <div className="mt-5 pt-5 border-t border-gr-border text-sm text-gr-muted leading-relaxed">
+              We over-index on neutrals by{' '}
+              <b className="text-gr-text">+{(palette.focus_vs_peer_delta_pp.neutral || 0).toFixed(0)}pp</b> and
+              under-index on brights by{' '}
+              <b className="text-gr-text">{(palette.focus_vs_peer_delta_pp.bright || 0).toFixed(0)}pp</b>{' '}
+              vs the strength-market median. Either deliberate "iron and grit" minimalism or merch oversight.
+              That&apos;s a question for the next merch review.
+            </div>
+          </div>
+        </section>
+      )}
 
       <div className="text-center text-xs text-gr-subtle uppercase tracking-[0.2em] font-mono pt-4">
         Internal only &middot; Built by the data team &middot; Questions: ping Chris
