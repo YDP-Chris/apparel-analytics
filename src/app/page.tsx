@@ -376,7 +376,7 @@ export default function OverviewPage() {
               <b className="text-gr-text">+{(palette.focus_vs_peer_delta_pp.neutral || 0).toFixed(0)}pp</b> and
               under-index on brights by{' '}
               <b className="text-gr-text">{(palette.focus_vs_peer_delta_pp.bright || 0).toFixed(0)}pp</b>{' '}
-              vs the strength-market median. Either deliberate "iron and grit" minimalism or merch oversight.
+              vs the strength-market median. Either deliberate &quot;iron and grit&quot; minimalism or merch oversight.
               That&apos;s a question for the next merch review.
             </div>
           </div>

@@ -118,7 +118,7 @@ export default function GapsPage() {
           </p>
           <p className="text-gr-muted text-base mt-3 leading-relaxed">
             <span className="text-gr-text font-bold">Decision lens:</span> for each empty-class gap, ask whether
-            it&apos;s a deliberate "not our category" call or an oversight. Every &quot;oversight&quot; is roadmap
+            it&apos;s a deliberate &quot;not our category&quot; call or an oversight. Every oversight is roadmap
             input.
           </p>
         </section>
