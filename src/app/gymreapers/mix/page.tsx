@@ -50,12 +50,12 @@ export default function GymreapersMixPage() {
         const topCat = focusMix?.categoryMix
           ? Object.entries(focusMix.categoryMix).sort((a, b) => b[1] - a[1])[0]
           : null;
-        const focusExt = focusMix?.sizeStrategy?.extendedSizePct ?? 0;
-        const focusColors = focusMix?.colorStrategy?.avgColorsPerStyle ?? 0;
+        const focusExt = focusMix?.sizeRange?.extendedSizesPct ?? 0;
+        const focusColors = focusMix?.colorDepth?.avgColorsPerStyle ?? 0;
         // Find peer with deepest color depth for comparison
         const peerColors = mixOrder
           .filter((s) => s !== focus)
-          .map((s) => ({ slug: s, val: data.mix[s]?.colorStrategy?.avgColorsPerStyle || 0 }))
+          .map((s) => ({ slug: s, val: data.mix[s]?.colorDepth?.avgColorsPerStyle || 0 }))
           .sort((a, b) => b.val - a.val);
         const colorLeader = peerColors[0];
         return (

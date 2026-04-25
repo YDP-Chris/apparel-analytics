@@ -1,0 +1,790 @@
+{
+  "brands_analyzed": [
+    "gymshark",
+    "bear_grips",
+    "gymreapers",
+    "schiek",
+    "tenthousand",
+    "sbd",
+    "harbinger",
+    "outdoor_voices"
+  ],
+  "analyses": {
+    "gymshark": {
+      "total_products": 749,
+      "category_mix": {
+        "bottoms": {
+          "count": 277,
+          "pct": 37.0
+        },
+        "tops": {
+          "count": 194,
+          "pct": 25.9
+        },
+        "sports_bras": {
+          "count": 66,
+          "pct": 8.8
+        },
+        "accessories": {
+          "count": 63,
+          "pct": 8.4
+        },
+        "outerwear": {
+          "count": 33,
+          "pct": 4.4
+        },
+        "mens pullovers": {
+          "count": 31,
+          "pct": 4.1
+        },
+        "womens pullovers": {
+          "count": 24,
+          "pct": 3.2
+        },
+        "unisex accessories": {
+          "count": 12,
+          "pct": 1.6
+        },
+        "headwear": {
+          "count": 10,
+          "pct": 1.3
+        },
+        "bottles": {
+          "count": 7,
+          "pct": 0.9
+        },
+        "mens underwear": {
+          "count": 5,
+          "pct": 0.7
+        },
+        "womens one pieces": {
+          "count": 5,
+          "pct": 0.7
+        },
+        "misc.": {
+          "count": 4,
+          "pct": 0.5
+        },
+        "womens unisex womens misc.": {
+          "count": 4,
+          "pct": 0.5
+        },
+        "mens pullover": {
+          "count": 3,
+          "pct": 0.4
+        },
+        "": {
+          "count": 2,
+          "pct": 0.3
+        },
+        "womens unisex womens headwear": {
+          "count": 2,
+          "pct": 0.3
+        },
+        "womens unisex womens accessories": {
+          "count": 2,
+          "pct": 0.3
+        },
+        "gift card": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "unisex bottles": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "womens headwear": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "womens pullover": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "womens one piece": {
+          "count": 1,
+          "pct": 0.1
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 3.6,
+        "max_colors": 33,
+        "total_unique": 615,
+        "palette_breakdown": {
+          "neutrals": 41.5,
+          "blues": 20.4,
+          "earth_tones": 8.8,
+          "brights": 13.1,
+          "other": 16.1,
+          "pastels": 0.1
+        }
+      },
+      "size_stats": {
+        "ranges": {},
+        "extended_size_pct": 0.0
+      },
+      "price_stats": {
+        "min": 5.4,
+        "max": 140.8,
+        "avg": 33.61,
+        "median": 30.0
+      }
+    },
+    "bear_grips": {
+      "total_products": 2448,
+      "category_mix": {
+        "tops": {
+          "count": 1178,
+          "pct": 48.1
+        },
+        "long-sleeve": {
+          "count": 389,
+          "pct": 15.9
+        },
+        "kids clothes": {
+          "count": 246,
+          "pct": 10.0
+        },
+        "outerwear": {
+          "count": 229,
+          "pct": 9.4
+        },
+        "": {
+          "count": 172,
+          "pct": 7.0
+        },
+        "bottoms": {
+          "count": 114,
+          "pct": 4.7
+        },
+        "accessories": {
+          "count": 73,
+          "pct": 3.0
+        },
+        "specialty supplements": {
+          "count": 10,
+          "pct": 0.4
+        },
+        "natural extracts": {
+          "count": 7,
+          "pct": 0.3
+        },
+        "v-neck": {
+          "count": 4,
+          "pct": 0.2
+        },
+        "proteins & blends": {
+          "count": 4,
+          "pct": 0.2
+        },
+        "vitamins & minerals": {
+          "count": 4,
+          "pct": 0.2
+        },
+        "trousers": {
+          "count": 3,
+          "pct": 0.1
+        },
+        "amino acids & blends": {
+          "count": 3,
+          "pct": 0.1
+        },
+        "workout grips": {
+          "count": 3,
+          "pct": 0.1
+        },
+        "mug": {
+          "count": 2,
+          "pct": 0.1
+        },
+        "beanies": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "membership": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "membership-vip": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "crossfit": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "extra strength wrist wraps": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "lifting straps": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "shin guard sleeves": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 5.5,
+        "max_colors": 21,
+        "total_unique": 270,
+        "palette_breakdown": {
+          "other": 37.6,
+          "brights": 16.4,
+          "neutrals": 28.4,
+          "blues": 15.3,
+          "pastels": 1.5,
+          "earth_tones": 0.8
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "S-XL": 274,
+          "XS-XL": 174,
+          "XS-2XL": 742,
+          "S-2XL": 450,
+          "S-3XL": 338,
+          "S-L": 74,
+          "XS-XXL": 76,
+          "XS-4XL": 9,
+          "S-XXXL": 10,
+          "XS-XXXL": 12,
+          "S-XXL": 5,
+          "S-4XL": 6,
+          "XL-2XL": 1,
+          "XS-3XL": 2,
+          "M-3XL": 1,
+          "XS-L": 1,
+          "XS": 1
+        },
+        "extended_size_pct": 67.5
+      },
+      "price_stats": {
+        "min": 10.4,
+        "max": 299.0,
+        "avg": 41.11,
+        "median": 39.9
+      }
+    },
+    "gymreapers": {
+      "total_products": 1047,
+      "category_mix": {
+        "tops": {
+          "count": 221,
+          "pct": 21.1
+        },
+        "bottoms": {
+          "count": 187,
+          "pct": 17.9
+        },
+        "accessories": {
+          "count": 166,
+          "pct": 15.9
+        },
+        "gear": {
+          "count": 87,
+          "pct": 8.3
+        },
+        "sports_bras": {
+          "count": 67,
+          "pct": 6.4
+        },
+        "outerwear": {
+          "count": 67,
+          "pct": 6.4
+        },
+        "bundle": {
+          "count": 64,
+          "pct": 6.1
+        },
+        "equipment": {
+          "count": 40,
+          "pct": 3.8
+        },
+        "weightlifting belt": {
+          "count": 33,
+          "pct": 3.2
+        },
+        "lever belt": {
+          "count": 25,
+          "pct": 2.4
+        },
+        "": {
+          "count": 24,
+          "pct": 2.3
+        },
+        "bottles": {
+          "count": 18,
+          "pct": 1.7
+        },
+        "grips": {
+          "count": 13,
+          "pct": 1.2
+        },
+        "knee wraps": {
+          "count": 10,
+          "pct": 1.0
+        },
+        "bundles": {
+          "count": 7,
+          "pct": 0.7
+        },
+        "tricep rope": {
+          "count": 6,
+          "pct": 0.6
+        },
+        "wristbands": {
+          "count": 5,
+          "pct": 0.5
+        },
+        "underwear": {
+          "count": 3,
+          "pct": 0.3
+        },
+        "arm warmers": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "stringers": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "shopstorm_hidden_product": {
+          "count": 1,
+          "pct": 0.1
+        },
+        "gift card": {
+          "count": 1,
+          "pct": 0.1
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 1.6,
+        "max_colors": 35,
+        "total_unique": 249,
+        "palette_breakdown": {
+          "neutrals": 50.7,
+          "other": 31.3,
+          "blues": 7.4,
+          "brights": 6.0,
+          "pastels": 0.4,
+          "earth_tones": 4.1
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "S-2XL": 139,
+          "XS-XL": 223,
+          "S-3XL": 127,
+          "XS-2XL": 45,
+          "S-M": 2,
+          "M-2XL": 1,
+          "M-XL": 1,
+          "XL": 6,
+          "XL-2XL": 7,
+          "S-L": 10,
+          "XS-L": 1,
+          "XS-3XL": 12,
+          "S-4XL": 62
+        },
+        "extended_size_pct": 37.5
+      },
+      "price_stats": {
+        "min": 0.01,
+        "max": 495.0,
+        "avg": 56.37,
+        "median": 40.0
+      }
+    },
+    "schiek": {
+      "total_products": 112,
+      "category_mix": {
+        "": {
+          "count": 80,
+          "pct": 71.4
+        },
+        "lifting belt": {
+          "count": 19,
+          "pct": 17.0
+        },
+        "weight lifting": {
+          "count": 5,
+          "pct": 4.5
+        },
+        "knee wraps": {
+          "count": 2,
+          "pct": 1.8
+        },
+        "waist trainer": {
+          "count": 1,
+          "pct": 0.9
+        },
+        "ankle cuff": {
+          "count": 1,
+          "pct": 0.9
+        },
+        "dip belt": {
+          "count": 1,
+          "pct": 0.9
+        },
+        "ab strap": {
+          "count": 1,
+          "pct": 0.9
+        },
+        "arm blaster": {
+          "count": 1,
+          "pct": 0.9
+        },
+        "wrist wraps": {
+          "count": 1,
+          "pct": 0.9
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 3.3,
+        "max_colors": 22,
+        "total_unique": 95,
+        "palette_breakdown": {
+          "neutrals": 14.5,
+          "earth_tones": 1.3,
+          "other": 61.6,
+          "brights": 15.3,
+          "blues": 7.3
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "S-XL": 1,
+          "XS-XXL": 1,
+          "XXXL": 1,
+          "XL": 1
+        },
+        "extended_size_pct": 1.8
+      },
+      "price_stats": {
+        "min": 10.0,
+        "max": 199.95,
+        "avg": 52.0,
+        "median": 40.0
+      }
+    },
+    "tenthousand": {
+      "total_products": 102,
+      "category_mix": {
+        "bottoms": {
+          "count": 43,
+          "pct": 42.2
+        },
+        "tops": {
+          "count": 26,
+          "pct": 25.5
+        },
+        "outerwear": {
+          "count": 16,
+          "pct": 15.7
+        },
+        "over zip": {
+          "count": 2,
+          "pct": 2.0
+        },
+        "tactical long sleeve hood": {
+          "count": 2,
+          "pct": 2.0
+        },
+        "": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "tactical over zip": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "midweight tech crew": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "digital gift card": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "a\u2014l pack 15l": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "aaron levine capsule": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "resistance bands": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "accessories": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "makr + tt \u201cmil spec\u201d belt": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "hand grips": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "wrist wraps": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "a\u2014l boxer": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "c\u00f85 boxer": {
+          "count": 1,
+          "pct": 1.0
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 3.7,
+        "max_colors": 18,
+        "total_unique": 74,
+        "palette_breakdown": {
+          "neutrals": 36.4,
+          "other": 44.9,
+          "blues": 13.9,
+          "earth_tones": 2.7,
+          "brights": 2.1
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "XS-XXL": 82,
+          "XS-XXXL": 3,
+          "S-L": 1
+        },
+        "extended_size_pct": 83.3
+      },
+      "price_stats": {
+        "min": 2.98,
+        "max": 348.0,
+        "avg": 102.35,
+        "median": 88.0
+      }
+    },
+    "sbd": {
+      "total_products": 206,
+      "category_mix": {
+        "forge": {
+          "count": 32,
+          "pct": 15.5
+        },
+        "classic": {
+          "count": 31,
+          "pct": 15.0
+        },
+        "resolve": {
+          "count": 25,
+          "pct": 12.1
+        },
+        "nova": {
+          "count": 20,
+          "pct": 9.7
+        },
+        "aspire": {
+          "count": 19,
+          "pct": 9.2
+        },
+        "storm": {
+          "count": 16,
+          "pct": 7.8
+        },
+        "tops": {
+          "count": 14,
+          "pct": 6.8
+        },
+        "reflect": {
+          "count": 13,
+          "pct": 6.3
+        },
+        "defy": {
+          "count": 10,
+          "pct": 4.9
+        },
+        "momentum": {
+          "count": 7,
+          "pct": 3.4
+        },
+        "phoenix": {
+          "count": 7,
+          "pct": 3.4
+        },
+        "endure": {
+          "count": 7,
+          "pct": 3.4
+        },
+        "accessories": {
+          "count": 2,
+          "pct": 1.0
+        },
+        "eclipse": {
+          "count": 2,
+          "pct": 1.0
+        },
+        "gift card": {
+          "count": 1,
+          "pct": 0.5
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 0.8,
+        "max_colors": 2,
+        "total_unique": 16,
+        "palette_breakdown": {
+          "other": 96.5,
+          "earth_tones": 1.2,
+          "blues": 1.2,
+          "neutrals": 0.6,
+          "brights": 0.6
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "XS-4XL": 68,
+          "XS-L": 1
+        },
+        "extended_size_pct": 33.0
+      },
+      "price_stats": {
+        "min": 7.99,
+        "max": 229.99,
+        "avg": 49.54,
+        "median": 32.99
+      }
+    },
+    "harbinger": {
+      "total_products": 46,
+      "category_mix": {
+        "fitness": {
+          "count": 33,
+          "pct": 71.7
+        },
+        "": {
+          "count": 13,
+          "pct": 28.3
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 1.0,
+        "max_colors": 5,
+        "total_unique": 14,
+        "palette_breakdown": {
+          "neutrals": 48.9,
+          "blues": 13.3,
+          "earth_tones": 2.2,
+          "other": 33.3,
+          "pastels": 2.2
+        }
+      },
+      "size_stats": {
+        "ranges": {},
+        "extended_size_pct": 0.0
+      },
+      "price_stats": {
+        "min": 13.99,
+        "max": 99.99,
+        "avg": 36.45,
+        "median": 29.99
+      }
+    },
+    "outdoor_voices": {
+      "total_products": 368,
+      "category_mix": {
+        "bottoms": {
+          "count": 178,
+          "pct": 48.4
+        },
+        "outerwear": {
+          "count": 39,
+          "pct": 10.6
+        },
+        "sports_bras": {
+          "count": 30,
+          "pct": 8.2
+        },
+        "accessories": {
+          "count": 28,
+          "pct": 7.6
+        },
+        "tops": {
+          "count": 26,
+          "pct": 7.1
+        },
+        "longsleeve": {
+          "count": 21,
+          "pct": 5.7
+        },
+        "dresses": {
+          "count": 21,
+          "pct": 5.7
+        },
+        "skorts/skirts": {
+          "count": 10,
+          "pct": 2.7
+        },
+        "": {
+          "count": 9,
+          "pct": 2.4
+        },
+        "headwear": {
+          "count": 5,
+          "pct": 1.4
+        },
+        "gift certificate": {
+          "count": 1,
+          "pct": 0.3
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 3.5,
+        "max_colors": 10,
+        "total_unique": 112,
+        "palette_breakdown": {
+          "other": 56.1,
+          "neutrals": 23.1,
+          "brights": 2.0,
+          "blues": 14.5,
+          "earth_tones": 3.6,
+          "pastels": 0.7
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "XS-XL": 192,
+          "XXS-XL": 9,
+          "S-L": 16,
+          "XXS-XXXL": 114,
+          "XS-XXXL": 13
+        },
+        "extended_size_pct": 34.5
+      },
+      "price_stats": {
+        "min": 12.0,
+        "max": 298.0,
+        "avg": 67.82,
+        "median": 58.0
+      }
+    }
+  },
+  "insights": [
+    "Color depth: bear_grips leads with 5.5 colors/style vs sbd's 0.8",
+    "Extended sizes: tenthousand offers 2XL+ in 83.3% of styles",
+    "Price positioning: tenthousand ($102.35) to gymshark ($33.61)",
+    "bear_grips focuses on tops (48.1% of assortment)",
+    "tenthousand focuses on bottoms (42.2% of assortment)",
+    "harbinger focuses on fitness (71.7% of assortment)",
+    "outdoor_voices focuses on bottoms (48.4% of assortment)"
+  ],
+  "generated_at": "2026-04-24T20:51:27.110501"
+}

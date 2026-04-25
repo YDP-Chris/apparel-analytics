@@ -17,6 +17,7 @@ const navItems = [
   { href: '/gymreapers/launches', label: 'Launches' },
   { href: '/gymreapers/social', label: 'Social' },
   { href: '/gymreapers/jobs', label: 'Jobs' },
+  { href: '/brands', label: 'Brands' },
   { href: '/taxonomy', label: 'Taxonomy' },
 ];
 
