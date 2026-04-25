@@ -82,6 +82,25 @@ const config: Config = {
             900: "#1c1917",
           },
         },
+        // Gymreapers brand palette - dark, monochrome, iron-aesthetic.
+        // Pulled from gymreapers.com CSS. Use for Gymreapers-internal pages
+        // and any artifact (email, deck, doc) that should feel like the brand.
+        gr: {
+          bg: "#0a0a0a",         // page background, near-black
+          surface: "#141414",    // cards, panels
+          raised: "#1f1f1f",     // raised cards, hover state
+          border: "#2a2a2a",     // subtle borders
+          'border-strong': "#3a3a3a",
+          text: "#f5f5f5",       // main text on dark
+          muted: "#a3a3a3",      // secondary text
+          subtle: "#6b6b6b",     // tertiary text
+          accent: "#dc2626",     // red accent - reaper / iron / blood
+          'accent-hover': "#ef4444",
+          'accent-soft': "#7f1d1d",
+          success: "#22c55e",
+          warning: "#f59e0b",
+          danger: "#ef4444",
+        },
         // Override tremor with SoCal palette
         tremor: {
           brand: {

@@ -1,0 +1,261 @@
+{
+  "version": "1.0.0",
+  "owner": "Christopher Ford, Head of Data & Analytics, Gymreapers",
+  "purpose": "Canonical product taxonomy. Single source of truth for product organization across all channels. Each channel (Shopify, Amazon, GNC, future) maps INTO this hierarchy, never the other way around.",
+  "last_updated": "2026-04-24",
+  "_notes": [
+    "Hierarchy levels: Division -> Department -> Class -> Style -> SKU.",
+    "Facets are orthogonal to the hierarchy. Filter and pivot, do not encode into class names.",
+    "Slugs are immutable once published. Names can be edited freely. Slugs in code, names in UI.",
+    "match_rules are case-insensitive substring matches against (product_type + title + handle). First class to match wins. Authority order is the array order within a department, then department within division. Audit by re-running explode and reviewing diffs."
+  ],
+  "divisions": [
+    {
+      "slug": "equipment_gear",
+      "name": "Equipment & Gear",
+      "description": "Hard goods used during training. Belts, sleeves, wraps, straps, specialty equipment. Core Gymreapers identity.",
+      "departments": [
+        {
+          "slug": "belts",
+          "name": "Belts",
+          "description": "Lifting and weightlifting belts of all closures and thicknesses.",
+          "classes": [
+            {"slug": "lever_belts", "name": "Lever Belts", "default_facets": {"closure": "lever"}, "match_rules": ["lever belt", "lever buckle", "lever-belt"]},
+            {"slug": "prong_belts", "name": "Prong Belts", "default_facets": {"closure": "prong"}, "match_rules": ["prong belt", "single prong", "double prong", "buckle belt"]},
+            {"slug": "velcro_belts", "name": "Velcro Belts", "default_facets": {"closure": "velcro"}, "match_rules": ["velcro belt", "nylon belt", "quick release belt"]},
+            {"slug": "dip_belts", "name": "Dip Belts", "match_rules": ["dip belt"]},
+            {"slug": "strongman_belts", "name": "Strongman Belts", "default_facets": {"use_case": "strongman"}, "match_rules": ["strongman belt"]},
+            {"slug": "training_belts", "name": "Training Belts", "match_rules": ["training belt", "weight belt", "lifting belt"]}
+          ]
+        },
+        {
+          "slug": "sleeves",
+          "name": "Sleeves",
+          "description": "Compression sleeves for joint support during heavy lifts.",
+          "classes": [
+            {"slug": "knee_sleeves", "name": "Knee Sleeves", "match_rules": ["knee sleeve"]},
+            {"slug": "elbow_sleeves", "name": "Elbow Sleeves", "match_rules": ["elbow sleeve"]},
+            {"slug": "compression_sleeves", "name": "Compression Sleeves", "match_rules": ["compression sleeve", "calf sleeve", "arm sleeve"]}
+          ]
+        },
+        {
+          "slug": "wraps",
+          "name": "Wraps",
+          "description": "Wraps for joint stabilization and stiff support.",
+          "classes": [
+            {"slug": "wrist_wraps", "name": "Wrist Wraps", "match_rules": ["wrist wrap"]},
+            {"slug": "knee_wraps", "name": "Knee Wraps", "match_rules": ["knee wrap"]},
+            {"slug": "elbow_wraps", "name": "Elbow Wraps", "match_rules": ["elbow wrap"]}
+          ]
+        },
+        {
+          "slug": "straps_grips",
+          "name": "Straps & Grips",
+          "description": "Hand and wrist tools for grip extension on pulls.",
+          "classes": [
+            {"slug": "lifting_straps", "name": "Lifting Straps", "match_rules": ["lifting strap", "wrist strap"]},
+            {"slug": "figure_8_straps", "name": "Figure 8 Straps", "match_rules": ["figure 8", "figure-8"]},
+            {"slug": "versa_grips", "name": "Versa Grips & Hooks", "match_rules": ["versa grip", "lifting hook", "deadlift hook"]},
+            {"slug": "grip_pads", "name": "Grip Pads", "match_rules": ["grip pad", "lifting pad"]}
+          ]
+        },
+        {
+          "slug": "specialty",
+          "name": "Specialty Equipment",
+          "description": "Chalk, smelling salts, ammonia caps, niche lifting tools.",
+          "classes": [
+            {"slug": "chalk", "name": "Chalk", "match_rules": ["chalk block", "lifting chalk", " chalk "]},
+            {"slug": "chalk_bags", "name": "Chalk Bags", "match_rules": ["chalk bag"]},
+            {"slug": "smelling_salts", "name": "Smelling Salts", "match_rules": ["smelling salt", "ammonia"]},
+            {"slug": "thumb_tape", "name": "Thumb & Athletic Tape", "match_rules": ["thumb tape", "athletic tape", "lifting tape"]}
+          ]
+        },
+        {
+          "slug": "recovery",
+          "name": "Recovery",
+          "description": "Mobility and post-training recovery tools.",
+          "classes": [
+            {"slug": "foam_rollers", "name": "Foam Rollers", "match_rules": ["foam roller"]},
+            {"slug": "massage_tools", "name": "Massage Tools", "match_rules": ["massage gun", "massage ball", "trigger point", "lacrosse ball"]},
+            {"slug": "compression_recovery", "name": "Compression Recovery", "match_rules": ["compression boot", "recovery sleeve"]}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apparel",
+      "name": "Apparel",
+      "description": "Soft goods worn during or around training.",
+      "departments": [
+        {
+          "slug": "tops",
+          "name": "Tops",
+          "classes": [
+            {"slug": "tshirts", "name": "T-Shirts", "match_rules": ["t-shirt", "t shirt", "tshirt"]},
+            {"slug": "tank_tops", "name": "Tank Tops", "match_rules": ["tank top", " tank ", "stringer"]},
+            {"slug": "long_sleeves", "name": "Long Sleeves", "match_rules": ["long sleeve", "long-sleeve", "ls tee"]},
+            {"slug": "polos", "name": "Polos", "match_rules": ["polo"]},
+            {"slug": "sports_bras", "name": "Sports Bras", "default_facets": {"gender": "womens"}, "match_rules": ["sports bra", "sport bra", "sports-bra"]},
+            {"slug": "crops", "name": "Crops & Crop Tops", "default_facets": {"gender": "womens"}, "match_rules": ["crop top", " crop ", "cropped"]},
+            {"slug": "henleys", "name": "Henleys", "match_rules": ["henley"]}
+          ]
+        },
+        {
+          "slug": "bottoms",
+          "name": "Bottoms",
+          "classes": [
+            {"slug": "shorts", "name": "Shorts", "match_rules": [" short ", "shorts", "boardshort"]},
+            {"slug": "joggers", "name": "Joggers", "match_rules": ["jogger", "sweatpant"]},
+            {"slug": "pants", "name": "Pants", "match_rules": [" pants", "trouser"]},
+            {"slug": "leggings", "name": "Leggings", "default_facets": {"gender": "womens"}, "match_rules": ["legging"]},
+            {"slug": "tights", "name": "Tights", "match_rules": [" tights", "compression tight"]},
+            {"slug": "track_pants", "name": "Track Pants", "match_rules": ["track pant"]}
+          ]
+        },
+        {
+          "slug": "outerwear",
+          "name": "Outerwear",
+          "classes": [
+            {"slug": "hoodies", "name": "Hoodies", "match_rules": ["hoodie", "pullover hoodie"]},
+            {"slug": "crewnecks", "name": "Crewnecks & Sweatshirts", "match_rules": ["crewneck", "crew neck", "sweatshirt"]},
+            {"slug": "quarter_zips", "name": "Quarter Zips", "match_rules": ["quarter zip", "quarter-zip", "1/4 zip", "qtr zip"]},
+            {"slug": "full_zips", "name": "Full Zips", "match_rules": ["full zip", "zip-up", "zip up hoodie"]},
+            {"slug": "jackets", "name": "Jackets", "match_rules": ["jacket", "windbreaker", "puffer", "parka"]},
+            {"slug": "vests", "name": "Vests", "match_rules": ["vest"]}
+          ]
+        },
+        {
+          "slug": "competition",
+          "name": "Competition Wear",
+          "description": "Singlets and federation-spec apparel.",
+          "classes": [
+            {"slug": "singlets", "name": "Singlets", "default_facets": {"use_case": "powerlifting"}, "match_rules": ["singlet", "deadlift suit"]},
+            {"slug": "deadlift_socks", "name": "Deadlift Socks", "default_facets": {"use_case": "powerlifting"}, "match_rules": ["deadlift sock", "knee high sock", "knee-high sock"]}
+          ]
+        },
+        {
+          "slug": "underlayers",
+          "name": "Underlayers & Undergarments",
+          "classes": [
+            {"slug": "compression_tops", "name": "Compression Tops", "match_rules": ["compression top", "compression shirt"]},
+            {"slug": "compression_bottoms", "name": "Compression Bottoms", "match_rules": ["compression short", "base layer"]},
+            {"slug": "underwear", "name": "Underwear", "match_rules": ["underwear", "boxer brief", "boxer-brief", "boxer", " brief "]},
+            {"slug": "thermal_layers", "name": "Thermal Layers", "match_rules": ["thermal", "base layer top"]}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "footwear",
+      "name": "Footwear",
+      "description": "Lifting and training shoes. Lower-priority for Gymreapers today; placeholder for expansion.",
+      "departments": [
+        {
+          "slug": "lifting_shoes",
+          "name": "Lifting Shoes",
+          "classes": [
+            {"slug": "squat_shoes", "name": "Squat Shoes", "match_rules": ["squat shoe", "lifting shoe"]},
+            {"slug": "olympic_lifting_shoes", "name": "Olympic Lifting Shoes", "default_facets": {"use_case": "weightlifting"}, "match_rules": ["olympic lifting", "weightlifting shoe"]},
+            {"slug": "deadlift_slippers", "name": "Deadlift Slippers", "match_rules": ["deadlift slipper", "deadlift shoe"]}
+          ]
+        },
+        {
+          "slug": "training_shoes",
+          "name": "Training Shoes",
+          "classes": [
+            {"slug": "cross_training", "name": "Cross Training", "match_rules": ["cross training", "crossfit shoe"]},
+            {"slug": "running_shoes", "name": "Running Shoes", "match_rules": ["running shoe"]}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "accessories",
+      "name": "Accessories",
+      "description": "Headwear, bags, hydration, and gym lifestyle goods.",
+      "departments": [
+        {
+          "slug": "headwear",
+          "name": "Headwear",
+          "classes": [
+            {"slug": "caps", "name": "Caps & Hats", "match_rules": [" cap ", "snapback", "trucker hat", "dad hat", "ball cap"]},
+            {"slug": "beanies", "name": "Beanies", "match_rules": ["beanie"]},
+            {"slug": "headbands", "name": "Headbands & Sweatbands", "match_rules": ["headband", "sweatband"]}
+          ]
+        },
+        {
+          "slug": "bags",
+          "name": "Bags",
+          "classes": [
+            {"slug": "gym_bags", "name": "Gym Bags", "match_rules": ["gym bag"]},
+            {"slug": "duffel_bags", "name": "Duffel Bags", "match_rules": ["duffel", "duffle"]},
+            {"slug": "backpacks", "name": "Backpacks", "match_rules": ["backpack"]},
+            {"slug": "drawstring_bags", "name": "Drawstring & Sling Bags", "match_rules": ["drawstring", "sling bag"]}
+          ]
+        },
+        {
+          "slug": "hydration",
+          "name": "Hydration",
+          "classes": [
+            {"slug": "water_bottles", "name": "Water Bottles", "match_rules": ["water bottle", "shaker", "tumbler"]},
+            {"slug": "hydration_packs", "name": "Hydration Packs", "match_rules": ["hydration pack"]}
+          ]
+        },
+        {
+          "slug": "personal_care",
+          "name": "Personal Care",
+          "classes": [
+            {"slug": "towels", "name": "Towels", "match_rules": [" towel"]},
+            {"slug": "deodorant_wipes", "name": "Deodorant & Wipes", "match_rules": ["deodorant", " wipes"]}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nutrition",
+      "name": "Nutrition",
+      "description": "Placeholder for future supplement and ingestible expansion. Critical given GNC channel relationship.",
+      "departments": [
+        {
+          "slug": "supplements",
+          "name": "Supplements",
+          "classes": [
+            {"slug": "protein_powders", "name": "Protein Powders", "match_rules": ["protein powder", "whey protein", "casein"]},
+            {"slug": "pre_workout", "name": "Pre-Workout", "match_rules": ["pre-workout", "preworkout"]},
+            {"slug": "creatine", "name": "Creatine", "match_rules": ["creatine"]},
+            {"slug": "amino_acids", "name": "Amino Acids", "match_rules": ["amino acid", "bcaa", " eaa"]},
+            {"slug": "recovery_supplements", "name": "Recovery Supplements", "match_rules": ["recovery formula", "post-workout"]}
+          ]
+        },
+        {
+          "slug": "hydration_mix",
+          "name": "Hydration Mix",
+          "classes": [
+            {"slug": "electrolyte_powder", "name": "Electrolyte Powder", "match_rules": ["electrolyte"]}
+          ]
+        }
+      ]
+    }
+  ],
+  "facets": [
+    {"key": "gender", "name": "Gender", "type": "enum", "values": ["mens", "womens", "unisex"], "required": true, "description": "Target audience."},
+    {"key": "use_case", "name": "Use Case", "type": "enum", "values": ["powerlifting", "weightlifting", "strongman", "bodybuilding", "general_fitness", "crossfit"], "description": "Primary athletic context."},
+    {"key": "tier", "name": "Tier", "type": "enum", "values": ["pro", "premium", "core"], "description": "Internal product tier. Pro = top of line, Premium = signature, Core = entry."},
+    {"key": "material", "name": "Material", "type": "enum_multi", "values": ["leather", "suede", "neoprene", "cotton", "polyester", "nylon", "technical_blend", "bamboo", "modal"], "description": "Primary fabric/material."},
+    {"key": "thickness", "name": "Thickness", "type": "enum", "values": ["5mm", "7mm", "10mm", "13mm"], "description": "For belts and sleeves where mm thickness is a consumer-facing spec."},
+    {"key": "closure", "name": "Closure", "type": "enum", "values": ["lever", "single_prong", "double_prong", "velcro", "zipper", "buckle"], "description": "Mechanical closure type. Most relevant on belts."},
+    {"key": "certification", "name": "Certification", "type": "enum_multi", "values": ["ipf_approved", "uspa_approved", "usapl_approved", "wpc_approved"], "description": "Federation approval. Required for serious competitive lifters."},
+    {"key": "season", "name": "Season", "type": "enum", "values": ["ss", "fw", "all_season", "core"], "description": "Drop season. Core = always-on assortment."},
+    {"key": "launch_year", "name": "Launch Year", "type": "int", "description": "Year the style was first introduced."}
+  ],
+  "channels": [
+    {"slug": "shopify", "name": "Shopify DTC", "type": "dtc", "url_root": "https://gymreapers.com", "notes": "Owned site. Source of truth for SKU master, pricing baseline, marketing messaging."},
+    {"slug": "amazon_us", "name": "Amazon US", "type": "marketplace", "notes": "Browse Tree mapping required per class. Variation theme limited to color x size for apparel; size only for belts."},
+    {"slug": "gnc", "name": "GNC", "type": "wholesale_retail", "notes": "Wholesale partner. Joins on UPC, not internal SKU. Pack/case quantities differ from DTC."}
+  ],
+  "channel_class_mapping_template": {
+    "shopify": {"strategy": "passthrough", "fields": ["product_type=class.name", "tags=division+department+facets", "vendor=Gymreapers"]},
+    "amazon_us": {"strategy": "lookup_table", "required": ["external_node_id", "external_node_path", "title_template", "required_attrs"]},
+    "gnc": {"strategy": "lookup_table", "required": ["gnc_department", "gnc_class_code", "case_qty"]}
+  }
+}

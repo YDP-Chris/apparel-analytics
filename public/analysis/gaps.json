@@ -1,0 +1,520 @@
+{
+  "generated_at": "2026-04-24T20:53:12.058982",
+  "focus_brand": "gymreapers",
+  "peers": [
+    "gymshark",
+    "sbd",
+    "schiek",
+    "harbinger",
+    "bear_grips"
+  ],
+  "class_gaps": [
+    {
+      "class": "pants",
+      "class_name": "Pants",
+      "department": "bottoms",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 37,
+      "gap_size": 37,
+      "all_brands": {
+        "gymshark": 37,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "jackets",
+      "class_name": "Jackets",
+      "department": "outerwear",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 24,
+      "gap_size": 24,
+      "all_brands": {
+        "gymshark": 24,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "gloves",
+      "class_name": "Gloves",
+      "department": "personal_care",
+      "division": "accessories",
+      "we_have": 0,
+      "peer_max_brand": "harbinger",
+      "peer_max_styles": 14,
+      "gap_size": 14,
+      "all_brands": {
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 8,
+        "harbinger": 14,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "singlets",
+      "class_name": "Singlets",
+      "department": "competition",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "sbd",
+      "peer_max_styles": 12,
+      "gap_size": 12,
+      "all_brands": {
+        "gymshark": 1,
+        "sbd": 12,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "deadlift_socks",
+      "class_name": "Deadlift Socks",
+      "department": "competition",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "sbd",
+      "peer_max_styles": 12,
+      "gap_size": 12,
+      "all_brands": {
+        "gymshark": 0,
+        "sbd": 12,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "quarter_zips",
+      "class_name": "Quarter Zips",
+      "department": "outerwear",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 11,
+      "gap_size": 11,
+      "all_brands": {
+        "gymshark": 11,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "backpacks",
+      "class_name": "Backpacks",
+      "department": "bags",
+      "division": "accessories",
+      "we_have": 1,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 10,
+      "gap_size": 9,
+      "all_brands": {
+        "gymshark": 10,
+        "sbd": 0,
+        "schiek": 1,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 1
+      }
+    },
+    {
+      "class": "pullovers",
+      "class_name": "Pullovers",
+      "department": "outerwear",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 8,
+      "gap_size": 8,
+      "all_brands": {
+        "gymshark": 8,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "elbow_sleeves",
+      "class_name": "Elbow Sleeves",
+      "department": "sleeves",
+      "division": "equipment_gear",
+      "we_have": 4,
+      "peer_max_brand": "sbd",
+      "peer_max_styles": 11,
+      "gap_size": 7,
+      "all_brands": {
+        "gymshark": 0,
+        "sbd": 11,
+        "schiek": 1,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 4
+      }
+    },
+    {
+      "class": "full_zips",
+      "class_name": "Full Zips",
+      "department": "outerwear",
+      "division": "apparel",
+      "we_have": 0,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 5,
+      "gap_size": 5,
+      "all_brands": {
+        "gymshark": 5,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "underwear",
+      "class_name": "Underwear",
+      "department": "underlayers",
+      "division": "apparel",
+      "we_have": 3,
+      "peer_max_brand": "gymshark",
+      "peer_max_styles": 5,
+      "gap_size": 2,
+      "all_brands": {
+        "gymshark": 5,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 3
+      }
+    }
+  ],
+  "color_depth_gaps": [
+    {
+      "class": "lifting_straps",
+      "focus_colors_per_style": 2.19,
+      "focus_styles": 27,
+      "leader": "bear_grips",
+      "leader_colors_per_style": 12.75,
+      "delta": 10.56,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 3.67,
+          "styles": 7
+        },
+        "sbd": {
+          "colors_per_style": 0,
+          "styles": 6
+        },
+        "schiek": {
+          "colors_per_style": 5.0,
+          "styles": 12
+        },
+        "bear_grips": {
+          "colors_per_style": 12.75,
+          "styles": 5
+        }
+      }
+    },
+    {
+      "class": "training_belts",
+      "focus_colors_per_style": 1.4,
+      "focus_styles": 20,
+      "leader": "schiek",
+      "leader_colors_per_style": 11.25,
+      "delta": 9.85,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 1.2,
+          "styles": 5
+        },
+        "schiek": {
+          "colors_per_style": 11.25,
+          "styles": 18
+        }
+      }
+    },
+    {
+      "class": "tshirts",
+      "focus_colors_per_style": 1.44,
+      "focus_styles": 172,
+      "leader": "schiek",
+      "leader_colors_per_style": 8.75,
+      "delta": 7.31,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 5.6,
+          "styles": 106
+        },
+        "sbd": {
+          "colors_per_style": 2.0,
+          "styles": 50
+        },
+        "schiek": {
+          "colors_per_style": 8.75,
+          "styles": 10
+        }
+      }
+    },
+    {
+      "class": "water_bottles",
+      "focus_colors_per_style": 1.21,
+      "focus_styles": 15,
+      "leader": "gymshark",
+      "leader_colors_per_style": 6.0,
+      "delta": 4.79,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 6.0,
+          "styles": 5
+        }
+      }
+    },
+    {
+      "class": "crops",
+      "focus_colors_per_style": 2.12,
+      "focus_styles": 17,
+      "leader": "gymshark",
+      "leader_colors_per_style": 6.33,
+      "delta": 4.21,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 6.33,
+          "styles": 12
+        },
+        "sbd": {
+          "colors_per_style": 0,
+          "styles": 6
+        }
+      }
+    },
+    {
+      "class": "sports_bras",
+      "focus_colors_per_style": 1.57,
+      "focus_styles": 67,
+      "leader": "gymshark",
+      "leader_colors_per_style": 5.51,
+      "delta": 3.94,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 5.51,
+          "styles": 66
+        }
+      }
+    },
+    {
+      "class": "grip_pads",
+      "focus_colors_per_style": 1.7,
+      "focus_styles": 16,
+      "leader": "bear_grips",
+      "leader_colors_per_style": 5.6,
+      "delta": 3.9,
+      "peer_breakdown": {
+        "bear_grips": {
+          "colors_per_style": 5.6,
+          "styles": 2433
+        }
+      }
+    },
+    {
+      "class": "tank_tops",
+      "focus_colors_per_style": 1.23,
+      "focus_styles": 35,
+      "leader": "gymshark",
+      "leader_colors_per_style": 4.9,
+      "delta": 3.67,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 4.9,
+          "styles": 53
+        },
+        "sbd": {
+          "colors_per_style": 2.0,
+          "styles": 7
+        }
+      }
+    },
+    {
+      "class": "long_sleeves",
+      "focus_colors_per_style": 1.17,
+      "focus_styles": 6,
+      "leader": "gymshark",
+      "leader_colors_per_style": 4.21,
+      "delta": 3.04,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 4.21,
+          "styles": 19
+        }
+      }
+    },
+    {
+      "class": "shorts",
+      "focus_colors_per_style": 1.93,
+      "focus_styles": 121,
+      "leader": "gymshark",
+      "leader_colors_per_style": 4.77,
+      "delta": 2.84,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 4.77,
+          "styles": 141
+        },
+        "sbd": {
+          "colors_per_style": 2.0,
+          "styles": 13
+        }
+      }
+    },
+    {
+      "class": "hoodies",
+      "focus_colors_per_style": 1.38,
+      "focus_styles": 53,
+      "leader": "gymshark",
+      "leader_colors_per_style": 3.96,
+      "delta": 2.58,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 3.96,
+          "styles": 30
+        }
+      }
+    },
+    {
+      "class": "caps",
+      "focus_colors_per_style": 1.36,
+      "focus_styles": 28,
+      "leader": "gymshark",
+      "leader_colors_per_style": 3.86,
+      "delta": 2.5,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 3.86,
+          "styles": 7
+        }
+      }
+    },
+    {
+      "class": "athletic_socks",
+      "focus_colors_per_style": 1.0,
+      "focus_styles": 6,
+      "leader": "gymshark",
+      "leader_colors_per_style": 3.33,
+      "delta": 2.33,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 3.33,
+          "styles": 25
+        },
+        "sbd": {
+          "colors_per_style": 0,
+          "styles": 27
+        }
+      }
+    },
+    {
+      "class": "wrist_wraps",
+      "focus_colors_per_style": 1.12,
+      "focus_styles": 34,
+      "leader": "schiek",
+      "leader_colors_per_style": 3.33,
+      "delta": 2.21,
+      "peer_breakdown": {
+        "sbd": {
+          "colors_per_style": 2.0,
+          "styles": 10
+        },
+        "schiek": {
+          "colors_per_style": 3.33,
+          "styles": 12
+        }
+      }
+    },
+    {
+      "class": "leggings",
+      "focus_colors_per_style": 2.4,
+      "focus_styles": 45,
+      "leader": "gymshark",
+      "leader_colors_per_style": 4.59,
+      "delta": 2.19,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 4.59,
+          "styles": 56
+        }
+      }
+    },
+    {
+      "class": "joggers",
+      "focus_colors_per_style": 1.79,
+      "focus_styles": 24,
+      "leader": "gymshark",
+      "leader_colors_per_style": 3.66,
+      "delta": 1.87,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 3.66,
+          "styles": 48
+        }
+      }
+    }
+  ],
+  "size_coverage_gaps": [
+    {
+      "class": "tank_tops",
+      "focus_extended_pct": 54.3,
+      "focus_styles": 35,
+      "leader": "sbd",
+      "leader_extended_pct": 100.0,
+      "delta": 45.7,
+      "peer_breakdown": {
+        "gymshark": {
+          "extended_pct": 0.0,
+          "styles": 53
+        },
+        "sbd": {
+          "extended_pct": 100.0,
+          "styles": 7
+        }
+      }
+    },
+    {
+      "class": "grip_pads",
+      "focus_extended_pct": 43.8,
+      "focus_styles": 16,
+      "leader": "bear_grips",
+      "leader_extended_pct": 67.8,
+      "delta": 24.0,
+      "peer_breakdown": {
+        "bear_grips": {
+          "extended_pct": 67.8,
+          "styles": 2433
+        }
+      }
+    }
+  ],
+  "summary": {
+    "class_gap_count": 11,
+    "color_gap_count": 16,
+    "size_gap_count": 2
+  }
+}

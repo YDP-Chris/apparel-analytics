@@ -1,0 +1,496 @@
+{
+  "generated_at": "2026-04-24T20:53:17.023410",
+  "focus_brand": "gymreapers",
+  "peers": [
+    "gymshark",
+    "sbd",
+    "schiek",
+    "harbinger",
+    "bear_grips"
+  ],
+  "class_pricing": [
+    {
+      "class": "tshirts",
+      "class_name": "T-Shirts",
+      "department": "tops",
+      "division": "apparel",
+      "focus_styles": 172,
+      "focus_median": 40.0,
+      "focus_avg": 39.94,
+      "peer_median": 32.0,
+      "gap_vs_peer_median_pct": 25.0,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 31.08,
+          "median": 27.8,
+          "min": 10.4,
+          "max": 78.0,
+          "styles": 106
+        },
+        "sbd": {
+          "avg": 36.65,
+          "median": 32.99,
+          "min": 17.99,
+          "max": 74.99,
+          "styles": 50
+        },
+        "schiek": {
+          "avg": 36.0,
+          "median": 30.0,
+          "min": 30.0,
+          "max": 65.0,
+          "styles": 10
+        }
+      }
+    },
+    {
+      "class": "shorts",
+      "class_name": "Shorts",
+      "department": "bottoms",
+      "division": "apparel",
+      "focus_styles": 121,
+      "focus_median": 45.0,
+      "focus_avg": 45.72,
+      "peer_median": 28.0,
+      "gap_vs_peer_median_pct": 60.7,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 29.02,
+          "median": 24.0,
+          "min": 6.6,
+          "max": 80.0,
+          "styles": 141
+        },
+        "sbd": {
+          "avg": 54.45,
+          "median": 54.99,
+          "min": 47.99,
+          "max": 59.99,
+          "styles": 13
+        }
+      }
+    },
+    {
+      "class": "sports_bras",
+      "class_name": "Sports Bras",
+      "department": "tops",
+      "division": "apparel",
+      "focus_styles": 67,
+      "focus_median": 40.0,
+      "focus_avg": 40.27,
+      "peer_median": 26.4,
+      "gap_vs_peer_median_pct": 51.5,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 28.6,
+          "median": 26.4,
+          "min": 15.2,
+          "max": 58.0,
+          "styles": 66
+        }
+      }
+    },
+    {
+      "class": "hoodies",
+      "class_name": "Hoodies",
+      "department": "outerwear",
+      "division": "apparel",
+      "focus_styles": 53,
+      "focus_median": 90.0,
+      "focus_avg": 125.47,
+      "peer_median": 44.1,
+      "gap_vs_peer_median_pct": 104.1,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 44.95,
+          "median": 44.1,
+          "min": 19.2,
+          "max": 90.0,
+          "styles": 30
+        }
+      }
+    },
+    {
+      "class": "leggings",
+      "class_name": "Leggings",
+      "department": "bottoms",
+      "division": "apparel",
+      "focus_styles": 45,
+      "focus_median": 50.0,
+      "focus_avg": 54.0,
+      "peer_median": 41.0,
+      "gap_vs_peer_median_pct": 22.0,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 41.76,
+          "median": 41.0,
+          "min": 18.0,
+          "max": 64.0,
+          "styles": 56
+        }
+      }
+    },
+    {
+      "class": "tank_tops",
+      "class_name": "Tank Tops",
+      "department": "tops",
+      "division": "apparel",
+      "focus_styles": 35,
+      "focus_median": 35.0,
+      "focus_avg": 37.4,
+      "peer_median": 29.99,
+      "gap_vs_peer_median_pct": 16.7,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 30.66,
+          "median": 28.0,
+          "min": 12.8,
+          "max": 60.0,
+          "styles": 53
+        },
+        "sbd": {
+          "avg": 29.99,
+          "median": 29.99,
+          "min": 29.99,
+          "max": 29.99,
+          "styles": 7
+        }
+      }
+    },
+    {
+      "class": "wrist_wraps",
+      "class_name": "Wrist Wraps",
+      "department": "wraps",
+      "division": "equipment_gear",
+      "focus_styles": 34,
+      "focus_median": 19.99,
+      "focus_avg": 19.99,
+      "peer_median": 36.22,
+      "gap_vs_peer_median_pct": -44.8,
+      "position": "discount",
+      "per_brand": {
+        "sbd": {
+          "avg": 38.74,
+          "median": 39.99,
+          "min": 29.99,
+          "max": 39.99,
+          "styles": 10
+        },
+        "schiek": {
+          "avg": 29.55,
+          "median": 30.0,
+          "min": 22.95,
+          "max": 39.95,
+          "styles": 12
+        }
+      }
+    },
+    {
+      "class": "caps",
+      "class_name": "Caps & Hats",
+      "department": "headwear",
+      "division": "accessories",
+      "focus_styles": 28,
+      "focus_median": 35.0,
+      "focus_avg": 35.0,
+      "peer_median": 24.0,
+      "gap_vs_peer_median_pct": 45.8,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 27.26,
+          "median": 24.0,
+          "min": 12.8,
+          "max": 52.8,
+          "styles": 7
+        }
+      }
+    },
+    {
+      "class": "lever_belts",
+      "class_name": "Lever Belts",
+      "department": "belts",
+      "division": "equipment_gear",
+      "focus_styles": 27,
+      "focus_median": 150.0,
+      "focus_avg": 167.18,
+      "peer_median": 229.99,
+      "gap_vs_peer_median_pct": -34.8,
+      "position": "discount",
+      "per_brand": {
+        "sbd": {
+          "avg": 229.99,
+          "median": 229.99,
+          "min": 229.99,
+          "max": 229.99,
+          "styles": 5
+        }
+      }
+    },
+    {
+      "class": "lifting_straps",
+      "class_name": "Lifting Straps",
+      "department": "straps_grips",
+      "division": "equipment_gear",
+      "focus_styles": 27,
+      "focus_median": 14.99,
+      "focus_avg": 18.4,
+      "peer_median": 25.0,
+      "gap_vs_peer_median_pct": -40.0,
+      "position": "discount",
+      "per_brand": {
+        "gymshark": {
+          "avg": 14.26,
+          "median": 14.0,
+          "min": 8.0,
+          "max": 19.6,
+          "styles": 7
+        },
+        "sbd": {
+          "avg": 31.66,
+          "median": 31.24,
+          "min": 27.49,
+          "max": 34.99,
+          "styles": 6
+        },
+        "schiek": {
+          "avg": 24.75,
+          "median": 30.0,
+          "min": 10.0,
+          "max": 30.0,
+          "styles": 12
+        },
+        "bear_grips": {
+          "avg": 21.5,
+          "median": 19.9,
+          "min": 14.9,
+          "max": 29.9,
+          "styles": 5
+        }
+      }
+    },
+    {
+      "class": "joggers",
+      "class_name": "Joggers",
+      "department": "bottoms",
+      "division": "apparel",
+      "focus_styles": 24,
+      "focus_median": 80.0,
+      "focus_avg": 82.08,
+      "peer_median": 32.5,
+      "gap_vs_peer_median_pct": 146.2,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 34.98,
+          "median": 32.5,
+          "min": 13.2,
+          "max": 90.0,
+          "styles": 48
+        }
+      }
+    },
+    {
+      "class": "training_belts",
+      "class_name": "Training Belts",
+      "department": "belts",
+      "division": "equipment_gear",
+      "focus_styles": 20,
+      "focus_median": 34.97,
+      "focus_avg": 43.48,
+      "peer_median": 75.0,
+      "gap_vs_peer_median_pct": -53.4,
+      "position": "discount",
+      "per_brand": {
+        "gymshark": {
+          "avg": 68.28,
+          "median": 88.2,
+          "min": 16.0,
+          "max": 105.6,
+          "styles": 5
+        },
+        "schiek": {
+          "avg": 77.49,
+          "median": 75.0,
+          "min": 30.0,
+          "max": 115.0,
+          "styles": 18
+        }
+      }
+    },
+    {
+      "class": "crops",
+      "class_name": "Crops & Crop Tops",
+      "department": "tops",
+      "division": "apparel",
+      "focus_styles": 17,
+      "focus_median": 65.0,
+      "focus_avg": 80.88,
+      "peer_median": 27.49,
+      "gap_vs_peer_median_pct": 136.4,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 25.12,
+          "median": 25.2,
+          "min": 9.6,
+          "max": 44.0,
+          "styles": 12
+        },
+        "sbd": {
+          "avg": 27.49,
+          "median": 27.49,
+          "min": 27.49,
+          "max": 27.49,
+          "styles": 6
+        }
+      }
+    },
+    {
+      "class": "grip_pads",
+      "class_name": "Grip Pads",
+      "department": "straps_grips",
+      "division": "equipment_gear",
+      "focus_styles": 16,
+      "focus_median": 52.0,
+      "focus_avg": 55.75,
+      "peer_median": 39.9,
+      "gap_vs_peer_median_pct": 30.3,
+      "position": "premium",
+      "per_brand": {
+        "bear_grips": {
+          "avg": 41.19,
+          "median": 39.9,
+          "min": 10.4,
+          "max": 299.0,
+          "styles": 2431
+        }
+      }
+    },
+    {
+      "class": "water_bottles",
+      "class_name": "Water Bottles",
+      "department": "hydration",
+      "division": "accessories",
+      "focus_styles": 15,
+      "focus_median": 35.0,
+      "focus_avg": 31.86,
+      "peer_median": 14.0,
+      "gap_vs_peer_median_pct": 150.0,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 16.12,
+          "median": 14.0,
+          "min": 12.0,
+          "max": 28.0,
+          "styles": 5
+        }
+      }
+    },
+    {
+      "class": "beanies",
+      "class_name": "Beanies",
+      "department": "headwear",
+      "division": "accessories",
+      "focus_styles": 12,
+      "focus_median": 29.99,
+      "focus_avg": 29.99,
+      "peer_median": 22.99,
+      "gap_vs_peer_median_pct": 30.4,
+      "position": "premium",
+      "per_brand": {
+        "sbd": {
+          "avg": 22.85,
+          "median": 22.99,
+          "min": 21.99,
+          "max": 22.99,
+          "styles": 7
+        }
+      }
+    },
+    {
+      "class": "athletic_socks",
+      "class_name": "Athletic Socks",
+      "department": "personal_care",
+      "division": "accessories",
+      "focus_styles": 6,
+      "focus_median": 19.99,
+      "focus_avg": 19.99,
+      "peer_median": 10.99,
+      "gap_vs_peer_median_pct": 81.9,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 15.02,
+          "median": 16.0,
+          "min": 5.6,
+          "max": 22.0,
+          "styles": 25
+        },
+        "sbd": {
+          "avg": 10.8,
+          "median": 10.99,
+          "min": 7.99,
+          "max": 10.99,
+          "styles": 27
+        }
+      }
+    },
+    {
+      "class": "long_sleeves",
+      "class_name": "Long Sleeves",
+      "department": "tops",
+      "division": "apparel",
+      "focus_styles": 6,
+      "focus_median": 55.0,
+      "focus_avg": 56.67,
+      "peer_median": 32.0,
+      "gap_vs_peer_median_pct": 71.9,
+      "position": "premium",
+      "per_brand": {
+        "gymshark": {
+          "avg": 30.74,
+          "median": 32.0,
+          "min": 13.2,
+          "max": 44.0,
+          "styles": 19
+        }
+      }
+    },
+    {
+      "class": "knee_sleeves",
+      "class_name": "Knee Sleeves",
+      "department": "sleeves",
+      "division": "equipment_gear",
+      "focus_styles": 5,
+      "focus_median": 59.99,
+      "focus_avg": 57.99,
+      "peer_median": 79.99,
+      "gap_vs_peer_median_pct": -25.0,
+      "position": "discount",
+      "per_brand": {
+        "sbd": {
+          "avg": 87.31,
+          "median": 79.99,
+          "min": 59.99,
+          "max": 114.99,
+          "styles": 28
+        }
+      }
+    }
+  ],
+  "summary": {
+    "classes_analyzed": 19,
+    "positions": {
+      "premium": 14,
+      "discount": 5
+    }
+  }
+}

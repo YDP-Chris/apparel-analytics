@@ -6,11 +6,14 @@ import { usePathname } from 'next/navigation';
 
 const navItems = [
   { href: '/', label: 'Overview' },
+  { href: '/gymreapers', label: 'Gymreapers' },
+  { href: '/gaps', label: 'Gaps' },
+  { href: '/pricing', label: 'Pricing' },
+  { href: '/taxonomy', label: 'Taxonomy' },
   { href: '/briefs', label: 'Daily Brief' },
   { href: '/meta', label: 'Brief Analysis' },
   { href: '/trends', label: 'Trends' },
   { href: '/vuori', label: 'Vuori Scorecard' },
-  { href: '/gymreapers', label: 'Gymreapers' },
   { href: '/launches', label: 'Launches' },
   { href: '/inventory', label: 'Inventory' },
   { href: '/social', label: 'Social' },
