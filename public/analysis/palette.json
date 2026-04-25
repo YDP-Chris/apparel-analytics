@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-04-24T22:41:13.824316",
+  "generated_at": "2026-04-25T00:16:39.162570",
   "focus_brand": "gymreapers",
   "peers": [
     "gymshark",
     "sbd",
     "schiek",
     "harbinger",
-    "bear_grips"
+    "bear_grips",
+    "slingshot",
+    "inzer",
+    "twopood"
   ],
   "palette_order": [
     "neutral",
@@ -130,33 +133,90 @@
         "other": 40.6,
         "unknown": 0.1
       }
+    },
+    "slingshot": {
+      "sku_count": 218,
+      "distribution": {
+        "neutral": 160,
+        "earth": 0,
+        "bright": 30,
+        "print": 0,
+        "other": 11,
+        "unknown": 17
+      },
+      "pct": {
+        "neutral": 73.4,
+        "earth": 0.0,
+        "bright": 13.8,
+        "print": 0.0,
+        "other": 5.0,
+        "unknown": 7.8
+      }
+    },
+    "inzer": {
+      "sku_count": 9265,
+      "distribution": {
+        "neutral": 1967,
+        "earth": 870,
+        "bright": 1802,
+        "print": 42,
+        "other": 4350,
+        "unknown": 234
+      },
+      "pct": {
+        "neutral": 21.2,
+        "earth": 9.4,
+        "bright": 19.4,
+        "print": 0.5,
+        "other": 47.0,
+        "unknown": 2.5
+      }
+    },
+    "twopood": {
+      "sku_count": 1884,
+      "distribution": {
+        "neutral": 125,
+        "earth": 20,
+        "bright": 21,
+        "print": 8,
+        "other": 884,
+        "unknown": 826
+      },
+      "pct": {
+        "neutral": 6.6,
+        "earth": 1.1,
+        "bright": 1.1,
+        "print": 0.4,
+        "other": 46.9,
+        "unknown": 43.8
+      }
     }
   },
   "peers_combined": {
-    "sku_count": 119410,
+    "sku_count": 130777,
     "distribution": {
-      "neutral": 41896,
-      "earth": 2671,
-      "bright": 30181,
-      "print": 482,
-      "other": 42971,
-      "unknown": 1209
+      "neutral": 44148,
+      "earth": 3561,
+      "bright": 32034,
+      "print": 532,
+      "other": 48216,
+      "unknown": 2286
     },
     "pct": {
-      "neutral": 35.1,
-      "earth": 2.2,
-      "bright": 25.3,
+      "neutral": 33.8,
+      "earth": 2.7,
+      "bright": 24.5,
       "print": 0.4,
-      "other": 36.0,
-      "unknown": 1.0
+      "other": 36.9,
+      "unknown": 1.7
     }
   },
   "focus_vs_peer_delta_pp": {
-    "neutral": 20.1,
-    "earth": 3.1,
-    "bright": -10.8,
+    "neutral": 21.4,
+    "earth": 2.6,
+    "bright": -10.0,
     "print": 2.4,
-    "other": -14.2,
-    "unknown": -0.6
+    "other": -15.1,
+    "unknown": -1.3
   }
 }

@@ -17,6 +17,7 @@ const navItems = [
   { href: '/whitespace', label: 'White Space' },
   { href: '/landscape', label: 'Landscape' },
   { href: '/radar', label: 'Radar' },
+  { href: '/guideposts', label: 'Guideposts' },
   { href: '/gymreapers/launches', label: 'Launches' },
   { href: '/gymreapers/social', label: 'Social' },
   { href: '/gymreapers/jobs', label: 'Jobs' },

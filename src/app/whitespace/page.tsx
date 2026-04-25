@@ -44,6 +44,9 @@ const BRAND_FULL: Record<string, string> = {
   schiek: 'Schiek',
   harbinger: 'Harbinger',
   bear_grips: 'Bear Grips',
+  twopood: '2POOD',
+  inzer: 'Inzer',
+  slingshot: 'Mark Bell Slingshot',
 };
 
 const CATEGORY_LABELS: Record<string, string> = {

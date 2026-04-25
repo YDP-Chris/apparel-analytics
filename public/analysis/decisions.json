@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24T22:43:11.492767",
-  "count": 47,
+  "generated_at": "2026-04-25T00:16:48.507561",
+  "count": 51,
   "decisions": [
     {
       "id": "cls_gap_pants",
@@ -36,6 +36,24 @@
         "class": "jackets",
         "gap_size": 24,
         "peer_brand": "gymshark"
+      }
+    },
+    {
+      "id": "color_tshirts",
+      "source": "gap_analyzer",
+      "type": "color_depth",
+      "title": "Tshirts color depth: peer offers 19.0/style vs our 1.7",
+      "observation": "In tshirts, inzer averages 19.0 colors per style. We average 1.7. Gap of +17.3.",
+      "recommendation": "Either commit to deepening the colorway count on existing tshirts hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain.",
+      "severity": 5,
+      "actionability": 3,
+      "freshness": 5,
+      "priority": 75,
+      "evidence_url": "/gaps",
+      "metadata": {
+        "class": "tshirts",
+        "delta": 17.28,
+        "leader": "inzer"
       }
     },
     {
@@ -75,21 +93,39 @@
       }
     },
     {
-      "id": "color_tshirts",
+      "id": "color_knee_sleeves",
       "source": "gap_analyzer",
       "type": "color_depth",
-      "title": "Tshirts color depth: peer offers 8.8/style vs our 1.7",
-      "observation": "In tshirts, schiek averages 8.8 colors per style. We average 1.7. Gap of +7.0.",
-      "recommendation": "Either commit to deepening the colorway count on existing tshirts hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain.",
+      "title": "Knee Sleeves color depth: peer offers 13.1/style vs our 3.4",
+      "observation": "In knee sleeves, inzer averages 13.1 colors per style. We average 3.4. Gap of +9.7.",
+      "recommendation": "Either commit to deepening the colorway count on existing knee sleeves hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain.",
       "severity": 5,
       "actionability": 3,
       "freshness": 5,
       "priority": 75,
       "evidence_url": "/gaps",
       "metadata": {
-        "class": "tshirts",
-        "delta": 7.03,
-        "leader": "schiek"
+        "class": "knee_sleeves",
+        "delta": 9.74,
+        "leader": "inzer"
+      }
+    },
+    {
+      "id": "color_knee_wraps",
+      "source": "gap_analyzer",
+      "type": "color_depth",
+      "title": "Knee Wraps color depth: peer offers 6.3/style vs our 1.2",
+      "observation": "In knee wraps, inzer averages 6.3 colors per style. We average 1.2. Gap of +5.1.",
+      "recommendation": "Either commit to deepening the colorway count on existing knee wraps hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain.",
+      "severity": 5,
+      "actionability": 3,
+      "freshness": 5,
+      "priority": 75,
+      "evidence_url": "/gaps",
+      "metadata": {
+        "class": "knee_wraps",
+        "delta": 5.13,
+        "leader": "inzer"
       }
     },
     {
@@ -108,6 +144,24 @@
         "class": "crops",
         "delta": 4.93,
         "leader": "gymshark"
+      }
+    },
+    {
+      "id": "color_wrist_wraps",
+      "source": "gap_analyzer",
+      "type": "color_depth",
+      "title": "Wrist Wraps color depth: peer offers 6.0/style vs our 1.1",
+      "observation": "In wrist wraps, inzer averages 6.0 colors per style. We average 1.1. Gap of +4.9.",
+      "recommendation": "Either commit to deepening the colorway count on existing wrist wraps hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain.",
+      "severity": 5,
+      "actionability": 3,
+      "freshness": 5,
+      "priority": 75,
+      "evidence_url": "/gaps",
+      "metadata": {
+        "class": "wrist_wraps",
+        "delta": 4.88,
+        "leader": "inzer"
       }
     },
     {
@@ -183,24 +237,6 @@
       }
     },
     {
-      "id": "price_premium_shorts",
-      "source": "pricing_analyzer",
-      "type": "price_premium",
-      "title": "Shorts premium: +61% above peer median",
-      "observation": "Our median shorts sits at $45 vs peer median $28 (+61%). 120 of our styles in this class.",
-      "recommendation": "Audit the top-traffic Shorts SKU's PDP for whether the premium reason (fit, durability, certification, athlete) is visible above the fold. If not, either tighten the price or improve the messaging.",
-      "severity": 5,
-      "actionability": 3,
-      "freshness": 5,
-      "priority": 75,
-      "evidence_url": "/pricing",
-      "metadata": {
-        "class": "shorts",
-        "gap_pct": 60.7,
-        "position": "premium"
-      }
-    },
-    {
       "id": "price_premium_hoodies",
       "source": "pricing_analyzer",
       "type": "price_premium",
@@ -241,7 +277,7 @@
       "source": "pricing_analyzer",
       "type": "price_premium",
       "title": "Crops & Crop Tops premium: +136% above peer median",
-      "observation": "Our median crops sits at $65 vs peer median $27 (+136%). 15 of our styles in this class.",
+      "observation": "Our median crops sits at $65 vs peer median $28 (+136%). 15 of our styles in this class.",
       "recommendation": "Audit the top-traffic Crops & Crop Tops SKU's PDP for whether the premium reason (fit, durability, certification, athlete) is visible above the fold. If not, either tighten the price or improve the messaging.",
       "severity": 5,
       "actionability": 3,
@@ -250,7 +286,7 @@
       "evidence_url": "/pricing",
       "metadata": {
         "class": "crops",
-        "gap_pct": 136.4,
+        "gap_pct": 135.9,
         "position": "premium"
       }
     },
@@ -345,6 +381,24 @@
       }
     },
     {
+      "id": "price_premium_shorts",
+      "source": "pricing_analyzer",
+      "type": "price_premium",
+      "title": "Shorts premium: +50% above peer median",
+      "observation": "Our median shorts sits at $45 vs peer median $30 (+50%). 120 of our styles in this class.",
+      "recommendation": "Audit the top-traffic Shorts SKU's PDP for whether the premium reason (fit, durability, certification, athlete) is visible above the fold. If not, either tighten the price or improve the messaging.",
+      "severity": 4,
+      "actionability": 3,
+      "freshness": 5,
+      "priority": 60,
+      "evidence_url": "/pricing",
+      "metadata": {
+        "class": "shorts",
+        "gap_pct": 50.0,
+        "position": "premium"
+      }
+    },
+    {
       "id": "price_premium_caps",
       "source": "pricing_analyzer",
       "type": "price_premium",
@@ -384,8 +438,8 @@
       "id": "price_discount_training_belts",
       "source": "pricing_analyzer",
       "type": "price_discount",
-      "title": "Training Belts discount: -52% below peer median",
-      "observation": "Our median training_belts sits at $35 vs peer median $72 (-52%). 20 of our styles in this class.",
+      "title": "Training Belts discount: -46% below peer median",
+      "observation": "Our median training_belts sits at $35 vs peer median $65 (-46%). 20 of our styles in this class.",
       "recommendation": "Decide whether Training Belts is a deliberate value position or money left on the table. If margin allows, a price-up test on the top SKU gives a quick read.",
       "severity": 4,
       "actionability": 3,
@@ -394,7 +448,7 @@
       "evidence_url": "/pricing",
       "metadata": {
         "class": "training_belts",
-        "gap_pct": -51.7,
+        "gap_pct": -46.2,
         "position": "discount"
       }
     },
@@ -402,8 +456,8 @@
       "id": "palette_neutral",
       "source": "palette_analyzer",
       "type": "palette",
-      "title": "Palette skew: we over-index on neutral by +20pp",
-      "observation": "Gymreapers SKUs are 55.2% neutral, peers are 35.1%. Delta +20.1pp.",
+      "title": "Palette skew: we over-index on neutral by +21pp",
+      "observation": "Gymreapers SKUs are 55.2% neutral, peers are 33.8%. Delta +21.4pp.",
       "recommendation": "Audit whether neutral-heavy assortment is brand-deliberate or a backlog of similar SKUs. If deliberate, lean into it in marketing copy. If not, plan a rotation toward underrepresented palette families.",
       "severity": 4,
       "actionability": 3,
@@ -412,7 +466,7 @@
       "evidence_url": "/",
       "metadata": {
         "family": "neutral",
-        "delta_pp": 20.1
+        "delta_pp": 21.4
       }
     },
     {
@@ -560,24 +614,6 @@
       }
     },
     {
-      "id": "color_wrist_wraps",
-      "source": "gap_analyzer",
-      "type": "color_depth",
-      "title": "Wrist Wraps color depth: peer offers 3.3/style vs our 1.1",
-      "observation": "In wrist wraps, schiek averages 3.3 colors per style. We average 1.1. Gap of +2.2.",
-      "recommendation": "Either commit to deepening the colorway count on existing wrist wraps hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain.",
-      "severity": 3,
-      "actionability": 3,
-      "freshness": 5,
-      "priority": 45,
-      "evidence_url": "/gaps",
-      "metadata": {
-        "class": "wrist_wraps",
-        "delta": 2.21,
-        "leader": "schiek"
-      }
-    },
-    {
       "id": "color_leggings",
       "source": "gap_analyzer",
       "type": "color_depth",
@@ -599,8 +635,8 @@
       "id": "price_discount_wrist_wraps",
       "source": "pricing_analyzer",
       "type": "price_discount",
-      "title": "Wrist Wraps discount: -43% below peer median",
-      "observation": "Our median wrist_wraps sits at $20 vs peer median $35 (-43%). 34 of our styles in this class.",
+      "title": "Wrist Wraps discount: -33% below peer median",
+      "observation": "Our median wrist_wraps sits at $20 vs peer median $30 (-33%). 34 of our styles in this class.",
       "recommendation": "Decide whether Wrist Wraps is a deliberate value position or money left on the table. If margin allows, a price-up test on the top SKU gives a quick read.",
       "severity": 3,
       "actionability": 3,
@@ -609,7 +645,7 @@
       "evidence_url": "/pricing",
       "metadata": {
         "class": "wrist_wraps",
-        "gap_pct": -42.8,
+        "gap_pct": -33.4,
         "position": "discount"
       }
     },
@@ -704,6 +740,24 @@
       }
     },
     {
+      "id": "price_premium_tshirts",
+      "source": "pricing_analyzer",
+      "type": "price_premium",
+      "title": "T-Shirts premium: +17% above peer median",
+      "observation": "Our median tshirts sits at $35 vs peer median $30 (+17%). 186 of our styles in this class.",
+      "recommendation": "Audit the top-traffic T-Shirts SKU's PDP for whether the premium reason (fit, durability, certification, athlete) is visible above the fold. If not, either tighten the price or improve the messaging.",
+      "severity": 2,
+      "actionability": 3,
+      "freshness": 5,
+      "priority": 30,
+      "evidence_url": "/pricing",
+      "metadata": {
+        "class": "tshirts",
+        "gap_pct": 16.7,
+        "position": "premium"
+      }
+    },
+    {
       "id": "price_premium_leggings",
       "source": "pricing_analyzer",
       "type": "price_premium",
@@ -743,8 +797,8 @@
       "id": "price_discount_knee_sleeves",
       "source": "pricing_analyzer",
       "type": "price_discount",
-      "title": "Knee Sleeves discount: -25% below peer median",
-      "observation": "Our median knee_sleeves sits at $60 vs peer median $80 (-25%). 5 of our styles in this class.",
+      "title": "Knee Sleeves discount: -24% below peer median",
+      "observation": "Our median knee_sleeves sits at $60 vs peer median $79 (-24%). 5 of our styles in this class.",
       "recommendation": "Decide whether Knee Sleeves is a deliberate value position or money left on the table. If margin allows, a price-up test on the top SKU gives a quick read.",
       "severity": 2,
       "actionability": 3,
@@ -753,7 +807,7 @@
       "evidence_url": "/pricing",
       "metadata": {
         "class": "knee_sleeves",
-        "gap_pct": -25.0,
+        "gap_pct": -23.8,
         "position": "discount"
       }
     },
@@ -761,8 +815,8 @@
       "id": "palette_bright",
       "source": "palette_analyzer",
       "type": "palette",
-      "title": "Palette gap: we under-index on bright by -11pp",
-      "observation": "Gymreapers SKUs are 14.5% bright, peers are 25.3%. Delta -10.8pp.",
+      "title": "Palette gap: we under-index on bright by -10pp",
+      "observation": "Gymreapers SKUs are 14.5% bright, peers are 24.5%. Delta -10.0pp.",
       "recommendation": "Peers offer materially more bright colorways. Decide whether to add bright to top-traffic styles or stay in our current palette zone.",
       "severity": 2,
       "actionability": 3,
@@ -771,7 +825,7 @@
       "evidence_url": "/",
       "metadata": {
         "family": "bright",
-        "delta_pp": -10.8
+        "delta_pp": -10.0
       }
     },
     {
@@ -845,6 +899,24 @@
         "gap_size": 2,
         "peer_brand": "gymshark"
       }
+    },
+    {
+      "id": "cls_gap_thumb_tape",
+      "source": "gap_analyzer",
+      "type": "class_gap",
+      "title": "Thumb & Athletic Tape: peers carry 5, we carry 3",
+      "observation": "In the Thumb & Athletic Tape class (specialty / equipment_gear), twopood carries 5 styles. We carry 3.",
+      "recommendation": "Close the gap by adding 2 more styles, or accept the position and decide whether the 2 extra styles twopood carries are unique value or commodity volume.",
+      "severity": 1,
+      "actionability": 3,
+      "freshness": 5,
+      "priority": 15,
+      "evidence_url": "/gaps",
+      "metadata": {
+        "class": "thumb_tape",
+        "gap_size": 2,
+        "peer_brand": "twopood"
+      }
     }
   ],
   "top_3_summary": [
@@ -857,8 +929,8 @@
       "recommendation": "Decide whether Jackets is in scope for Gymreapers. If yes, scope a small launch (3-5 SKUs) for the next drop. If no, document the deliberate omission so it stops surfacing in gap reports."
     },
     {
-      "title": "Lifting Straps color depth: peer offers 12.8/style vs our 2.2",
-      "recommendation": "Either commit to deepening the colorway count on existing lifting straps hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain."
+      "title": "Tshirts color depth: peer offers 19.0/style vs our 1.7",
+      "recommendation": "Either commit to deepening the colorway count on existing tshirts hero SKUs, or accept the lean palette as a deliberate brand choice. Pilot 2-3 hero SKUs with extra colors and watch sell-through if uncertain."
     }
   ]
 }

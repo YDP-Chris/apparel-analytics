@@ -24,10 +24,13 @@ const BRAND_LABELS: Record<string, string> = {
   schiek: 'Schiek',
   harbinger: 'Harbinger',
   bear_grips: 'Bear Grips',
+  twopood: '2POOD',
+  inzer: 'Inzer',
+  slingshot: 'Mark Bell Slingshot',
 };
 
 const FOCUS = 'gymreapers';
-const ALL_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger'];
+const ALL_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger', 'slingshot', 'inzer', 'twopood'];
 
 // Brand color when overlaid on the radar
 const BRAND_COLOR: Record<string, string> = {
@@ -37,6 +40,9 @@ const BRAND_COLOR: Record<string, string> = {
   bear_grips: '#f59e0b',
   schiek: '#22c55e',
   harbinger: '#06b6d4',
+  slingshot: '#ef4444',
+  inzer: '#94a3b8',
+  twopood: '#14b8a6',
 };
 
 // Five axes: catalog size, color depth, size inclusivity, premium, palette diversity

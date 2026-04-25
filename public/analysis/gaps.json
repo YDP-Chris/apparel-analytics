@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-04-24T22:39:45.236475",
+  "generated_at": "2026-04-25T00:16:28.767048",
   "focus_brand": "gymreapers",
   "peers": [
     "gymshark",
     "sbd",
     "schiek",
     "harbinger",
-    "bear_grips"
+    "bear_grips",
+    "slingshot",
+    "inzer",
+    "twopood"
   ],
   "class_gaps": [
     {
@@ -24,6 +27,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 2,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -42,6 +48,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -60,6 +69,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 2,
+        "inzer": 2,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -78,6 +90,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 1,
+        "inzer": 0,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -96,6 +111,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -114,6 +132,9 @@
         "schiek": 8,
         "harbinger": 10,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -132,6 +153,9 @@
         "schiek": 1,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 1,
         "gymreapers": 1
       }
     },
@@ -150,6 +174,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -168,6 +195,9 @@
         "schiek": 1,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 5,
+        "inzer": 3,
+        "twopood": 0,
         "gymreapers": 4
       }
     },
@@ -186,6 +216,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -204,6 +237,9 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0,
         "gymreapers": 0
       }
     },
@@ -222,11 +258,69 @@
         "schiek": 0,
         "harbinger": 0,
         "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0,
+        "gymreapers": 3
+      }
+    },
+    {
+      "class": "thumb_tape",
+      "class_name": "Thumb & Athletic Tape",
+      "department": "specialty",
+      "division": "equipment_gear",
+      "we_have": 3,
+      "peer_max_brand": "twopood",
+      "peer_max_styles": 5,
+      "gap_size": 2,
+      "all_brands": {
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 5,
         "gymreapers": 3
       }
     }
   ],
   "color_depth_gaps": [
+    {
+      "class": "tshirts",
+      "focus_colors_per_style": 1.72,
+      "focus_styles": 186,
+      "leader": "inzer",
+      "leader_colors_per_style": 19.0,
+      "delta": 17.28,
+      "peer_breakdown": {
+        "gymshark": {
+          "colors_per_style": 5.51,
+          "styles": 109
+        },
+        "sbd": {
+          "colors_per_style": 2.0,
+          "styles": 51
+        },
+        "schiek": {
+          "colors_per_style": 8.75,
+          "styles": 10
+        },
+        "slingshot": {
+          "colors_per_style": 1.31,
+          "styles": 17
+        },
+        "inzer": {
+          "colors_per_style": 19.0,
+          "styles": 24
+        },
+        "twopood": {
+          "colors_per_style": 3.25,
+          "styles": 29
+        }
+      }
+    },
     {
       "class": "lifting_straps",
       "focus_colors_per_style": 2.19,
@@ -272,28 +366,50 @@
         "harbinger": {
           "colors_per_style": 1.57,
           "styles": 7
+        },
+        "twopood": {
+          "colors_per_style": 9.5,
+          "styles": 98
         }
       }
     },
     {
-      "class": "tshirts",
-      "focus_colors_per_style": 1.72,
-      "focus_styles": 186,
-      "leader": "schiek",
-      "leader_colors_per_style": 8.75,
-      "delta": 7.03,
+      "class": "knee_sleeves",
+      "focus_colors_per_style": 3.4,
+      "focus_styles": 5,
+      "leader": "inzer",
+      "leader_colors_per_style": 13.14,
+      "delta": 9.74,
       "peer_breakdown": {
-        "gymshark": {
-          "colors_per_style": 5.51,
-          "styles": 109
-        },
         "sbd": {
-          "colors_per_style": 2.0,
-          "styles": 51
+          "colors_per_style": 0,
+          "styles": 28
         },
-        "schiek": {
-          "colors_per_style": 8.75,
-          "styles": 10
+        "slingshot": {
+          "colors_per_style": 1.71,
+          "styles": 9
+        },
+        "inzer": {
+          "colors_per_style": 13.14,
+          "styles": 13
+        },
+        "twopood": {
+          "colors_per_style": 5.7,
+          "styles": 12
+        }
+      }
+    },
+    {
+      "class": "knee_wraps",
+      "focus_colors_per_style": 1.2,
+      "focus_styles": 10,
+      "leader": "inzer",
+      "leader_colors_per_style": 6.33,
+      "delta": 5.13,
+      "peer_breakdown": {
+        "inzer": {
+          "colors_per_style": 6.33,
+          "styles": 7
         }
       }
     },
@@ -312,6 +428,36 @@
         "sbd": {
           "colors_per_style": 0,
           "styles": 6
+        },
+        "twopood": {
+          "colors_per_style": 0,
+          "styles": 10
+        }
+      }
+    },
+    {
+      "class": "wrist_wraps",
+      "focus_colors_per_style": 1.12,
+      "focus_styles": 34,
+      "leader": "inzer",
+      "leader_colors_per_style": 6.0,
+      "delta": 4.88,
+      "peer_breakdown": {
+        "sbd": {
+          "colors_per_style": 2.0,
+          "styles": 10
+        },
+        "schiek": {
+          "colors_per_style": 3.33,
+          "styles": 12
+        },
+        "harbinger": {
+          "colors_per_style": 1.8,
+          "styles": 7
+        },
+        "inzer": {
+          "colors_per_style": 6.0,
+          "styles": 12
         }
       }
     },
@@ -404,6 +550,10 @@
         "sbd": {
           "colors_per_style": 2.0,
           "styles": 13
+        },
+        "twopood": {
+          "colors_per_style": 0,
+          "styles": 8
         }
       }
     },
@@ -449,28 +599,6 @@
       "peer_breakdown": {
         "gymshark": {
           "colors_per_style": 3.86,
-          "styles": 7
-        }
-      }
-    },
-    {
-      "class": "wrist_wraps",
-      "focus_colors_per_style": 1.12,
-      "focus_styles": 34,
-      "leader": "schiek",
-      "leader_colors_per_style": 3.33,
-      "delta": 2.21,
-      "peer_breakdown": {
-        "sbd": {
-          "colors_per_style": 2.0,
-          "styles": 10
-        },
-        "schiek": {
-          "colors_per_style": 3.33,
-          "styles": 12
-        },
-        "harbinger": {
-          "colors_per_style": 1.8,
           "styles": 7
         }
       }
@@ -522,11 +650,59 @@
           "styles": 6
         }
       }
+    },
+    {
+      "class": "shorts",
+      "focus_extended_pct": 59.2,
+      "focus_styles": 120,
+      "leader": "twopood",
+      "leader_extended_pct": 100.0,
+      "delta": 40.8,
+      "peer_breakdown": {
+        "gymshark": {
+          "extended_pct": 0.0,
+          "styles": 141
+        },
+        "sbd": {
+          "extended_pct": 53.8,
+          "styles": 13
+        },
+        "twopood": {
+          "extended_pct": 100.0,
+          "styles": 8
+        }
+      }
+    },
+    {
+      "class": "knee_sleeves",
+      "focus_extended_pct": 20.0,
+      "focus_styles": 5,
+      "leader": "slingshot",
+      "leader_extended_pct": 44.4,
+      "delta": 24.4,
+      "peer_breakdown": {
+        "sbd": {
+          "extended_pct": 0.0,
+          "styles": 28
+        },
+        "slingshot": {
+          "extended_pct": 44.4,
+          "styles": 9
+        },
+        "inzer": {
+          "extended_pct": 0.0,
+          "styles": 13
+        },
+        "twopood": {
+          "extended_pct": 0.0,
+          "styles": 12
+        }
+      }
     }
   ],
   "summary": {
-    "class_gap_count": 12,
-    "color_gap_count": 16,
-    "size_gap_count": 1
+    "class_gap_count": 13,
+    "color_gap_count": 18,
+    "size_gap_count": 3
   }
 }

@@ -26,12 +26,15 @@ const BRAND_LABELS: Record<string, string> = {
   schiek: 'Schiek',
   harbinger: 'Harbinger',
   bear_grips: 'Bear Grips',
+  twopood: '2POOD',
+  inzer: 'Inzer',
+  slingshot: 'Mark Bell Slingshot',
 };
 
 // Brands rendered in order of catalog size (largest peer first), with focus
 // brand pinned to the front for visual continuity.
 const FOCUS_BRAND = 'gymreapers';
-const KNOWN_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger'];
+const KNOWN_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger', 'slingshot', 'inzer', 'twopood'];
 const PALETTE_FAMILIES = ['neutral', 'bright', 'earth', 'print', 'other'];
 const PALETTE_HEX: Record<string, string> = {
   neutral: '#6b6b6b',

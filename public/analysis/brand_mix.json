@@ -1,15 +1,153 @@
 {
   "brands_analyzed": [
+    "slingshot",
     "gymshark",
     "bear_grips",
     "gymreapers",
+    "inzer",
     "schiek",
+    "twopood",
     "tenthousand",
     "sbd",
     "harbinger",
     "outdoor_voices"
   ],
   "analyses": {
+    "slingshot": {
+      "total_products": 102,
+      "category_mix": {
+        "tops": {
+          "count": 17,
+          "pct": 16.7
+        },
+        "sleeves": {
+          "count": 14,
+          "pct": 13.7
+        },
+        "hip circles\u00ae": {
+          "count": 10,
+          "pct": 9.8
+        },
+        "straps": {
+          "count": 9,
+          "pct": 8.8
+        },
+        "accessories": {
+          "count": 8,
+          "pct": 7.8
+        },
+        "sling shots\u00ae": {
+          "count": 7,
+          "pct": 6.9
+        },
+        "protein": {
+          "count": 6,
+          "pct": 5.9
+        },
+        "wraps": {
+          "count": 6,
+          "pct": 5.9
+        },
+        "cuffs": {
+          "count": 5,
+          "pct": 4.9
+        },
+        "resistance bands": {
+          "count": 3,
+          "pct": 2.9
+        },
+        "hydration": {
+          "count": 2,
+          "pct": 2.0
+        },
+        "sample": {
+          "count": 2,
+          "pct": 2.0
+        },
+        "singlets": {
+          "count": 2,
+          "pct": 2.0
+        },
+        "book": {
+          "count": 2,
+          "pct": 2.0
+        },
+        "package_protection": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "return": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "return,package_protection": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "shaker cup": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "seasoning": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "shin savers": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "belts": {
+          "count": 1,
+          "pct": 1.0
+        },
+        "gift cards": {
+          "count": 1,
+          "pct": 1.0
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 1.1,
+        "max_colors": 12,
+        "total_unique": 34,
+        "palette_breakdown": {
+          "neutrals": 42.7,
+          "other": 21.8,
+          "brights": 20.0,
+          "blues": 13.6,
+          "earth_tones": 1.8
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "S-3XL": 10,
+          "M-3XL": 9,
+          "S-M": 1,
+          "S": 5,
+          "4XL": 2,
+          "XS": 1,
+          "XS-3XL": 4,
+          "S-L": 1,
+          "XL": 2,
+          "M-XL": 7,
+          "S-4XL": 5,
+          "XS-2XL": 1,
+          "XS-S": 1,
+          "L-3XL": 2,
+          "XS-4XL": 1
+        },
+        "extended_size_pct": 33.3
+      },
+      "price_stats": {
+        "min": 0.98,
+        "max": 89.0,
+        "avg": 34.5,
+        "median": 30.0
+      }
+    },
     "gymshark": {
       "total_products": 749,
       "category_mix": {
@@ -398,6 +536,73 @@
         "median": 40.0
       }
     },
+    "inzer": {
+      "total_products": 141,
+      "category_mix": {
+        "": {
+          "count": 115,
+          "pct": 81.6
+        },
+        "knee sleeves": {
+          "count": 8,
+          "pct": 5.7
+        },
+        "power wrist wrap": {
+          "count": 6,
+          "pct": 4.3
+        },
+        "power knee sleeves": {
+          "count": 4,
+          "pct": 2.8
+        },
+        "power elbow sleeves": {
+          "count": 2,
+          "pct": 1.4
+        },
+        "power shoes": {
+          "count": 2,
+          "pct": 1.4
+        },
+        "tops": {
+          "count": 2,
+          "pct": 1.4
+        },
+        "gift card": {
+          "count": 1,
+          "pct": 0.7
+        },
+        "clothing": {
+          "count": 1,
+          "pct": 0.7
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 6.0,
+        "max_colors": 32,
+        "total_unique": 249,
+        "palette_breakdown": {
+          "other": 70.0,
+          "brights": 6.5,
+          "neutrals": 13.4,
+          "blues": 5.7,
+          "earth_tones": 3.7,
+          "pastels": 0.7
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "XL": 3,
+          "M-4XL": 1
+        },
+        "extended_size_pct": 0.7
+      },
+      "price_stats": {
+        "min": 5.0,
+        "max": 395.0,
+        "avg": 66.7,
+        "median": 35.0
+      }
+    },
     "schiek": {
       "total_products": 112,
       "category_mix": {
@@ -468,6 +673,139 @@
         "max": 199.95,
         "avg": 52.0,
         "median": 40.0
+      }
+    },
+    "twopood": {
+      "total_products": 337,
+      "category_mix": {
+        "bundles": {
+          "count": 128,
+          "pct": 38.0
+        },
+        "official lifting belts of usaw": {
+          "count": 70,
+          "pct": 20.8
+        },
+        "tops": {
+          "count": 43,
+          "pct": 12.8
+        },
+        "3 inch belt": {
+          "count": 21,
+          "pct": 6.2
+        },
+        "patches": {
+          "count": 17,
+          "pct": 5.0
+        },
+        "knee sleeves": {
+          "count": 10,
+          "pct": 3.0
+        },
+        "bottoms": {
+          "count": 9,
+          "pct": 2.7
+        },
+        "": {
+          "count": 8,
+          "pct": 2.4
+        },
+        "weightlifting tape": {
+          "count": 5,
+          "pct": 1.5
+        },
+        "10mm lever belt": {
+          "count": 4,
+          "pct": 1.2
+        },
+        "flags": {
+          "count": 4,
+          "pct": 1.2
+        },
+        "accessories": {
+          "count": 3,
+          "pct": 0.9
+        },
+        "backpacks": {
+          "count": 3,
+          "pct": 0.9
+        },
+        "wrist straps": {
+          "count": 2,
+          "pct": 0.6
+        },
+        "lifting straps": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "vify gift card": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "shipping insurance": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "kt tape": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "resistance bands": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "headbands": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "insurance": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "hip bands": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "chalk": {
+          "count": 1,
+          "pct": 0.3
+        },
+        "rope gators": {
+          "count": 1,
+          "pct": 0.3
+        }
+      },
+      "color_stats": {
+        "avg_per_style": 1.7,
+        "max_colors": 12,
+        "total_unique": 56,
+        "palette_breakdown": {
+          "other": 92.5,
+          "brights": 0.7,
+          "neutrals": 5.3,
+          "earth_tones": 0.7,
+          "blues": 0.7,
+          "pastels": 0.2
+        }
+      },
+      "size_stats": {
+        "ranges": {
+          "XXS-XL": 114,
+          "XXS-XXL": 4,
+          "S-XL": 25,
+          "S-XXL": 37,
+          "XXS-M": 42,
+          "XS-XL": 4,
+          "XS-XXL": 1,
+          "XXS-XXXL": 1
+        },
+        "extended_size_pct": 12.8
+      },
+      "price_stats": {
+        "min": 0.75,
+        "max": 134.99,
+        "avg": 74.49,
+        "median": 64.99
       }
     },
     "tenthousand": {
@@ -778,7 +1116,7 @@
     }
   },
   "insights": [
-    "Color depth: bear_grips leads with 5.5 colors/style vs sbd's 0.8",
+    "Color depth: inzer leads with 6.0 colors/style vs sbd's 0.8",
     "Extended sizes: tenthousand offers 2XL+ in 83.3% of styles",
     "Price positioning: tenthousand ($102.35) to gymshark ($33.61)",
     "bear_grips focuses on tops (48.1% of assortment)",
@@ -786,5 +1124,5 @@
     "harbinger focuses on fitness (71.7% of assortment)",
     "outdoor_voices focuses on bottoms (48.4% of assortment)"
   ],
-  "generated_at": "2026-04-24T20:51:27.110501"
+  "generated_at": "2026-04-25T00:16:19.864177"
 }

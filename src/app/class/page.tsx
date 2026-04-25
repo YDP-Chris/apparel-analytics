@@ -36,10 +36,13 @@ const BRAND_LABELS: Record<string, string> = {
   schiek: 'Schiek',
   harbinger: 'Harbinger',
   bear_grips: 'Bear Grips',
+  twopood: '2POOD',
+  inzer: 'Inzer',
+  slingshot: 'Mark Bell Slingshot',
 };
 
 const FOCUS = 'gymreapers';
-const ALL_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger'];
+const ALL_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger', 'slingshot', 'inzer', 'twopood'];
 
 function priceFmt(min: number, max: number): string {
   if (!min && !max) return '—';

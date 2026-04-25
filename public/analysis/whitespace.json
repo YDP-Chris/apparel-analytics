@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-04-24T23:21:12.814404",
+  "generated_at": "2026-04-25T00:16:42.592083",
   "focus_brand": "gymreapers",
   "peers": [
     "gymshark",
     "sbd",
     "schiek",
     "harbinger",
-    "bear_grips"
+    "bear_grips",
+    "slingshot",
+    "inzer",
+    "twopood"
   ],
   "all_brands": [
     "gymreapers",
@@ -14,14 +17,18 @@
     "sbd",
     "schiek",
     "harbinger",
-    "bear_grips"
+    "bear_grips",
+    "slingshot",
+    "inzer",
+    "twopood"
   ],
-  "total_classes": 58,
-  "we_absent_count": 20,
-  "we_absent_with_peers_count": 20,
+  "total_classes": 62,
+  "we_absent_count": 24,
+  "we_absent_with_peers_count": 24,
   "by_category": {
-    "niche": 34,
-    "contested": 18,
+    "niche": 31,
+    "contested": 17,
+    "universal": 8,
     "crowded": 6
   },
   "rows": [
@@ -36,10 +43,13 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 2,
+        "twopood": 0
       },
-      "brands_present": 1,
-      "total_styles": 37,
+      "brands_present": 2,
+      "total_styles": 39,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -55,7 +65,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 24,
@@ -74,29 +87,13 @@
         "sbd": 0,
         "schiek": 8,
         "harbinger": 10,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 2,
       "total_styles": 18,
-      "focus_styles": 0,
-      "category": "niche",
-      "we_in": false
-    },
-    {
-      "class": "singlets",
-      "class_name": "Singlets",
-      "department": "competition",
-      "division": "apparel",
-      "cells": {
-        "gymreapers": 0,
-        "gymshark": 1,
-        "sbd": 12,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 13,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -112,10 +109,13 @@
         "sbd": 12,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 1,
+        "inzer": 0,
+        "twopood": 0
       },
-      "brands_present": 1,
-      "total_styles": 12,
+      "brands_present": 2,
+      "total_styles": 13,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -131,7 +131,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 11,
@@ -150,48 +153,13 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 8,
-      "focus_styles": 0,
-      "category": "niche",
-      "we_in": false
-    },
-    {
-      "class": "beanies",
-      "class_name": "Beanies",
-      "department": "headwear",
-      "division": "accessories",
-      "cells": {
-        "gymreapers": 0,
-        "gymshark": 2,
-        "sbd": 5,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 7,
-      "focus_styles": 0,
-      "category": "niche",
-      "we_in": false
-    },
-    {
-      "class": "full_zips",
-      "class_name": "Full Zips",
-      "department": "outerwear",
-      "division": "apparel",
-      "cells": {
-        "gymreapers": 0,
-        "gymshark": 5,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 1,
-      "total_styles": 5,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -207,10 +175,35 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 1
+      },
+      "brands_present": 2,
+      "total_styles": 5,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "full_zips",
+      "class_name": "Full Zips",
+      "department": "outerwear",
+      "division": "apparel",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 5,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
-      "total_styles": 4,
+      "total_styles": 5,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -226,10 +219,79 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 0
+      },
+      "brands_present": 2,
+      "total_styles": 4,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "squat_shoes",
+      "class_name": "Squat Shoes",
+      "department": "lifting_shoes",
+      "division": "footwear",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 4,
+        "twopood": 0
+      },
+      "brands_present": 1,
+      "total_styles": 4,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "protein_powders",
+      "class_name": "Protein Powders",
+      "department": "supplements",
+      "division": "nutrition",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 3,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 3,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "polos",
+      "class_name": "Polos",
+      "department": "tops",
+      "division": "apparel",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 1,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 0
+      },
+      "brands_present": 2,
+      "total_styles": 2,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -245,9 +307,34 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 2,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
+      "total_styles": 2,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "velcro_belts",
+      "class_name": "Velcro Belts",
+      "department": "belts",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 1,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 1
+      },
+      "brands_present": 2,
       "total_styles": 2,
       "focus_styles": 0,
       "category": "niche",
@@ -264,7 +351,32 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 2,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
+      },
+      "brands_present": 1,
+      "total_styles": 2,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "smelling_salts",
+      "class_name": "Smelling Salts",
+      "department": "specialty",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 2,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 2,
@@ -283,67 +395,13 @@
         "sbd": 0,
         "schiek": 2,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 2,
-      "focus_styles": 0,
-      "category": "niche",
-      "we_in": false
-    },
-    {
-      "class": "duffel_bags",
-      "class_name": "Duffel Bags",
-      "department": "bags",
-      "division": "accessories",
-      "cells": {
-        "gymreapers": 0,
-        "gymshark": 1,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 1,
-      "total_styles": 1,
-      "focus_styles": 0,
-      "category": "niche",
-      "we_in": false
-    },
-    {
-      "class": "polos",
-      "class_name": "Polos",
-      "department": "tops",
-      "division": "apparel",
-      "cells": {
-        "gymreapers": 0,
-        "gymshark": 1,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 1,
-      "total_styles": 1,
-      "focus_styles": 0,
-      "category": "niche",
-      "we_in": false
-    },
-    {
-      "class": "velcro_belts",
-      "class_name": "Velcro Belts",
-      "department": "belts",
-      "division": "equipment_gear",
-      "cells": {
-        "gymreapers": 0,
-        "gymshark": 0,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 1,
-        "bear_grips": 0
-      },
-      "brands_present": 1,
-      "total_styles": 1,
       "focus_styles": 0,
       "category": "niche",
       "we_in": false
@@ -359,7 +417,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 1,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 1,
@@ -378,7 +439,10 @@
         "sbd": 0,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 1,
@@ -397,12 +461,103 @@
         "sbd": 0,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 1,
       "focus_styles": 0,
       "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "amino_acids",
+      "class_name": "Amino Acids",
+      "department": "supplements",
+      "division": "nutrition",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 1,
+        "inzer": 0,
+        "twopood": 0
+      },
+      "brands_present": 1,
+      "total_styles": 1,
+      "focus_styles": 0,
+      "category": "niche",
+      "we_in": false
+    },
+    {
+      "class": "singlets",
+      "class_name": "Singlets",
+      "department": "competition",
+      "division": "apparel",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 1,
+        "sbd": 12,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 2,
+        "inzer": 2,
+        "twopood": 0
+      },
+      "brands_present": 4,
+      "total_styles": 17,
+      "focus_styles": 0,
+      "category": "contested",
+      "we_in": false
+    },
+    {
+      "class": "beanies",
+      "class_name": "Beanies",
+      "department": "headwear",
+      "division": "accessories",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 2,
+        "sbd": 5,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 0
+      },
+      "brands_present": 3,
+      "total_styles": 8,
+      "focus_styles": 0,
+      "category": "contested",
+      "we_in": false
+    },
+    {
+      "class": "duffel_bags",
+      "class_name": "Duffel Bags",
+      "department": "bags",
+      "division": "accessories",
+      "cells": {
+        "gymreapers": 0,
+        "gymshark": 1,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 1
+      },
+      "brands_present": 3,
+      "total_styles": 3,
+      "focus_styles": 0,
+      "category": "contested",
       "we_in": false
     },
     {
@@ -416,7 +571,10 @@
         "sbd": 0,
         "schiek": 3,
         "harbinger": 1,
-        "bear_grips": 2433
+        "bear_grips": 2433,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 4,
       "total_styles": 2453,
@@ -435,12 +593,15 @@
         "sbd": 51,
         "schiek": 10,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 17,
+        "inzer": 24,
+        "twopood": 29
       },
-      "brands_present": 4,
-      "total_styles": 356,
+      "brands_present": 7,
+      "total_styles": 426,
       "focus_styles": 186,
-      "category": "contested",
+      "category": "universal",
       "we_in": true
     },
     {
@@ -454,12 +615,59 @@
         "sbd": 13,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 3,
+        "twopood": 8
+      },
+      "brands_present": 5,
+      "total_styles": 285,
+      "focus_styles": 120,
+      "category": "crowded",
+      "we_in": true
+    },
+    {
+      "class": "bundles",
+      "class_name": "Bundles & Kits",
+      "department": "specialty",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 68,
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 3,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 125
       },
       "brands_present": 3,
-      "total_styles": 274,
-      "focus_styles": 120,
+      "total_styles": 196,
+      "focus_styles": 68,
       "category": "contested",
+      "we_in": true
+    },
+    {
+      "class": "training_belts",
+      "class_name": "Training Belts",
+      "department": "belts",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 20,
+        "gymshark": 5,
+        "sbd": 0,
+        "schiek": 18,
+        "harbinger": 7,
+        "bear_grips": 2,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 98
+      },
+      "brands_present": 6,
+      "total_styles": 150,
+      "focus_styles": 20,
+      "category": "crowded",
       "we_in": true
     },
     {
@@ -473,7 +681,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 2,
       "total_styles": 133,
@@ -492,7 +703,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 2,
       "total_styles": 101,
@@ -511,12 +725,15 @@
         "sbd": 6,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 4
       },
-      "brands_present": 3,
-      "total_styles": 94,
+      "brands_present": 5,
+      "total_styles": 99,
       "focus_styles": 35,
-      "category": "contested",
+      "category": "crowded",
       "we_in": true
     },
     {
@@ -530,12 +747,15 @@
         "sbd": 2,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 2,
+        "inzer": 3,
+        "twopood": 1
       },
-      "brands_present": 4,
-      "total_styles": 89,
+      "brands_present": 7,
+      "total_styles": 95,
       "focus_styles": 79,
-      "category": "contested",
+      "category": "universal",
       "we_in": true
     },
     {
@@ -549,50 +769,15 @@
         "sbd": 4,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 0
       },
-      "brands_present": 4,
-      "total_styles": 88,
+      "brands_present": 5,
+      "total_styles": 89,
       "focus_styles": 53,
-      "category": "contested",
-      "we_in": true
-    },
-    {
-      "class": "joggers",
-      "class_name": "Joggers",
-      "department": "bottoms",
-      "division": "apparel",
-      "cells": {
-        "gymreapers": 24,
-        "gymshark": 48,
-        "sbd": 4,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 3,
-      "total_styles": 76,
-      "focus_styles": 24,
-      "category": "contested",
-      "we_in": true
-    },
-    {
-      "class": "bundles",
-      "class_name": "Bundles & Kits",
-      "department": "specialty",
-      "division": "equipment_gear",
-      "cells": {
-        "gymreapers": 68,
-        "gymshark": 0,
-        "sbd": 0,
-        "schiek": 3,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 71,
-      "focus_styles": 68,
-      "category": "niche",
+      "category": "crowded",
       "we_in": true
     },
     {
@@ -606,69 +791,37 @@
         "sbd": 10,
         "schiek": 12,
         "harbinger": 7,
-        "bear_grips": 2
+        "bear_grips": 2,
+        "slingshot": 3,
+        "inzer": 12,
+        "twopood": 2
       },
-      "brands_present": 5,
-      "total_styles": 65,
+      "brands_present": 8,
+      "total_styles": 82,
       "focus_styles": 34,
-      "category": "crowded",
+      "category": "universal",
       "we_in": true
     },
     {
-      "class": "lifting_straps",
-      "class_name": "Lifting Straps",
-      "department": "straps_grips",
-      "division": "equipment_gear",
+      "class": "joggers",
+      "class_name": "Joggers",
+      "department": "bottoms",
+      "division": "apparel",
       "cells": {
-        "gymreapers": 27,
-        "gymshark": 7,
-        "sbd": 6,
-        "schiek": 12,
-        "harbinger": 4,
-        "bear_grips": 5
-      },
-      "brands_present": 6,
-      "total_styles": 61,
-      "focus_styles": 27,
-      "category": "crowded",
-      "we_in": true
-    },
-    {
-      "class": "athletic_socks",
-      "class_name": "Athletic Socks",
-      "department": "personal_care",
-      "division": "accessories",
-      "cells": {
-        "gymreapers": 6,
-        "gymshark": 25,
-        "sbd": 27,
+        "gymreapers": 24,
+        "gymshark": 48,
+        "sbd": 4,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 1
       },
-      "brands_present": 3,
-      "total_styles": 58,
-      "focus_styles": 6,
+      "brands_present": 4,
+      "total_styles": 77,
+      "focus_styles": 24,
       "category": "contested",
-      "we_in": true
-    },
-    {
-      "class": "training_belts",
-      "class_name": "Training Belts",
-      "department": "belts",
-      "division": "equipment_gear",
-      "cells": {
-        "gymreapers": 20,
-        "gymshark": 5,
-        "sbd": 0,
-        "schiek": 18,
-        "harbinger": 7,
-        "bear_grips": 2
-      },
-      "brands_present": 5,
-      "total_styles": 52,
-      "focus_styles": 20,
-      "category": "crowded",
       "we_in": true
     },
     {
@@ -682,12 +835,59 @@
         "sbd": 28,
         "schiek": 4,
         "harbinger": 1,
-        "bear_grips": 1
+        "bear_grips": 1,
+        "slingshot": 9,
+        "inzer": 13,
+        "twopood": 12
       },
-      "brands_present": 5,
-      "total_styles": 39,
+      "brands_present": 8,
+      "total_styles": 73,
       "focus_styles": 5,
-      "category": "crowded",
+      "category": "universal",
+      "we_in": true
+    },
+    {
+      "class": "lifting_straps",
+      "class_name": "Lifting Straps",
+      "department": "straps_grips",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 27,
+        "gymshark": 7,
+        "sbd": 6,
+        "schiek": 12,
+        "harbinger": 4,
+        "bear_grips": 5,
+        "slingshot": 3,
+        "inzer": 1,
+        "twopood": 1
+      },
+      "brands_present": 9,
+      "total_styles": 66,
+      "focus_styles": 27,
+      "category": "universal",
+      "we_in": true
+    },
+    {
+      "class": "athletic_socks",
+      "class_name": "Athletic Socks",
+      "department": "personal_care",
+      "division": "accessories",
+      "cells": {
+        "gymreapers": 6,
+        "gymshark": 25,
+        "sbd": 27,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 3,
+        "twopood": 0
+      },
+      "brands_present": 4,
+      "total_styles": 61,
+      "focus_styles": 6,
+      "category": "contested",
       "we_in": true
     },
     {
@@ -701,31 +901,15 @@
         "sbd": 5,
         "schiek": 2,
         "harbinger": 1,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 3,
+        "twopood": 4
       },
-      "brands_present": 5,
-      "total_styles": 39,
+      "brands_present": 7,
+      "total_styles": 46,
       "focus_styles": 29,
-      "category": "crowded",
-      "we_in": true
-    },
-    {
-      "class": "specialty_other",
-      "class_name": "Other Specialty",
-      "department": "specialty",
-      "division": "equipment_gear",
-      "cells": {
-        "gymreapers": 36,
-        "gymshark": 1,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 37,
-      "focus_styles": 36,
-      "category": "niche",
+      "category": "universal",
       "we_in": true
     },
     {
@@ -739,11 +923,36 @@
         "sbd": 6,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 10
       },
-      "brands_present": 3,
-      "total_styles": 33,
+      "brands_present": 4,
+      "total_styles": 43,
       "focus_styles": 15,
+      "category": "contested",
+      "we_in": true
+    },
+    {
+      "class": "specialty_other",
+      "class_name": "Other Specialty",
+      "department": "specialty",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 36,
+        "gymshark": 1,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 2,
+        "inzer": 0,
+        "twopood": 2
+      },
+      "brands_present": 4,
+      "total_styles": 41,
+      "focus_styles": 36,
       "category": "contested",
       "we_in": true
     },
@@ -758,49 +967,14 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 25,
-      "focus_styles": 6,
-      "category": "niche",
-      "we_in": true
-    },
-    {
-      "class": "vests",
-      "class_name": "Vests",
-      "department": "outerwear",
-      "division": "apparel",
-      "cells": {
-        "gymreapers": 20,
-        "gymshark": 2,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 22,
-      "focus_styles": 20,
-      "category": "niche",
-      "we_in": true
-    },
-    {
-      "class": "water_bottles",
-      "class_name": "Water Bottles",
-      "department": "hydration",
-      "division": "accessories",
-      "cells": {
-        "gymreapers": 15,
-        "gymshark": 5,
-        "sbd": 0,
-        "schiek": 1,
-        "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 2,
+        "twopood": 0
       },
       "brands_present": 3,
-      "total_styles": 21,
-      "focus_styles": 15,
+      "total_styles": 27,
+      "focus_styles": 6,
       "category": "contested",
       "we_in": true
     },
@@ -815,31 +989,15 @@
         "sbd": 2,
         "schiek": 3,
         "harbinger": 1,
-        "bear_grips": 1
+        "bear_grips": 1,
+        "slingshot": 2,
+        "inzer": 7,
+        "twopood": 0
       },
-      "brands_present": 5,
-      "total_styles": 17,
+      "brands_present": 7,
+      "total_styles": 26,
       "focus_styles": 10,
-      "category": "crowded",
-      "we_in": true
-    },
-    {
-      "class": "prong_belts",
-      "class_name": "Prong Belts",
-      "department": "belts",
-      "division": "equipment_gear",
-      "cells": {
-        "gymreapers": 12,
-        "gymshark": 1,
-        "sbd": 0,
-        "schiek": 2,
-        "harbinger": 0,
-        "bear_grips": 2
-      },
-      "brands_present": 4,
-      "total_styles": 17,
-      "focus_styles": 12,
-      "category": "contested",
+      "category": "universal",
       "we_in": true
     },
     {
@@ -853,12 +1011,81 @@
         "sbd": 11,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 5,
+        "inzer": 3,
+        "twopood": 0
       },
-      "brands_present": 3,
-      "total_styles": 16,
+      "brands_present": 5,
+      "total_styles": 24,
       "focus_styles": 4,
+      "category": "crowded",
+      "we_in": true
+    },
+    {
+      "class": "water_bottles",
+      "class_name": "Water Bottles",
+      "department": "hydration",
+      "division": "accessories",
+      "cells": {
+        "gymreapers": 15,
+        "gymshark": 5,
+        "sbd": 0,
+        "schiek": 1,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 2,
+        "inzer": 0,
+        "twopood": 0
+      },
+      "brands_present": 4,
+      "total_styles": 23,
+      "focus_styles": 15,
       "category": "contested",
+      "we_in": true
+    },
+    {
+      "class": "vests",
+      "class_name": "Vests",
+      "department": "outerwear",
+      "division": "apparel",
+      "cells": {
+        "gymreapers": 20,
+        "gymshark": 2,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
+      },
+      "brands_present": 2,
+      "total_styles": 22,
+      "focus_styles": 20,
+      "category": "niche",
+      "we_in": true
+    },
+    {
+      "class": "prong_belts",
+      "class_name": "Prong Belts",
+      "department": "belts",
+      "division": "equipment_gear",
+      "cells": {
+        "gymreapers": 12,
+        "gymshark": 1,
+        "sbd": 0,
+        "schiek": 2,
+        "harbinger": 0,
+        "bear_grips": 2,
+        "slingshot": 0,
+        "inzer": 3,
+        "twopood": 0
+      },
+      "brands_present": 5,
+      "total_styles": 20,
+      "focus_styles": 12,
+      "category": "crowded",
       "we_in": true
     },
     {
@@ -872,10 +1099,13 @@
         "sbd": 0,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 1
       },
-      "brands_present": 3,
-      "total_styles": 12,
+      "brands_present": 4,
+      "total_styles": 13,
       "focus_styles": 1,
       "category": "contested",
       "we_in": true
@@ -891,7 +1121,10 @@
         "sbd": 0,
         "schiek": 1,
         "harbinger": 2,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 3,
       "total_styles": 12,
@@ -910,7 +1143,10 @@
         "sbd": 0,
         "schiek": 3,
         "harbinger": 1,
-        "bear_grips": 1
+        "bear_grips": 1,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 4,
       "total_styles": 11,
@@ -929,7 +1165,10 @@
         "sbd": 0,
         "schiek": 1,
         "harbinger": 3,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 3,
       "total_styles": 10,
@@ -948,7 +1187,10 @@
         "sbd": 0,
         "schiek": 1,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 2,
       "total_styles": 10,
@@ -967,7 +1209,10 @@
         "sbd": 0,
         "schiek": 2,
         "harbinger": 1,
-        "bear_grips": 1
+        "bear_grips": 1,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 4,
       "total_styles": 9,
@@ -986,30 +1231,14 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 2,
       "total_styles": 8,
       "focus_styles": 3,
-      "category": "niche",
-      "we_in": true
-    },
-    {
-      "class": "hair_accessories",
-      "class_name": "Hair Accessories",
-      "department": "personal_care",
-      "division": "accessories",
-      "cells": {
-        "gymreapers": 4,
-        "gymshark": 1,
-        "sbd": 0,
-        "schiek": 0,
-        "harbinger": 0,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 5,
-      "focus_styles": 4,
       "category": "niche",
       "we_in": true
     },
@@ -1024,30 +1253,14 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 1,
-        "bear_grips": 0
-      },
-      "brands_present": 2,
-      "total_styles": 5,
-      "focus_styles": 4,
-      "category": "niche",
-      "we_in": true
-    },
-    {
-      "class": "gift_cards",
-      "class_name": "Gift Cards",
-      "department": "personal_care",
-      "division": "accessories",
-      "cells": {
-        "gymreapers": 1,
-        "gymshark": 1,
-        "sbd": 1,
-        "schiek": 1,
-        "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 1,
+        "twopood": 2
       },
       "brands_present": 4,
-      "total_styles": 4,
-      "focus_styles": 1,
+      "total_styles": 8,
+      "focus_styles": 4,
       "category": "contested",
       "we_in": true
     },
@@ -1062,11 +1275,58 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 5
       },
-      "brands_present": 1,
-      "total_styles": 3,
+      "brands_present": 2,
+      "total_styles": 8,
       "focus_styles": 3,
+      "category": "niche",
+      "we_in": true
+    },
+    {
+      "class": "gift_cards",
+      "class_name": "Gift Cards",
+      "department": "personal_care",
+      "division": "accessories",
+      "cells": {
+        "gymreapers": 1,
+        "gymshark": 1,
+        "sbd": 1,
+        "schiek": 1,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 1,
+        "inzer": 1,
+        "twopood": 1
+      },
+      "brands_present": 7,
+      "total_styles": 7,
+      "focus_styles": 1,
+      "category": "universal",
+      "we_in": true
+    },
+    {
+      "class": "hair_accessories",
+      "class_name": "Hair Accessories",
+      "department": "personal_care",
+      "division": "accessories",
+      "cells": {
+        "gymreapers": 4,
+        "gymshark": 1,
+        "sbd": 0,
+        "schiek": 0,
+        "harbinger": 0,
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
+      },
+      "brands_present": 2,
+      "total_styles": 5,
+      "focus_styles": 4,
       "category": "niche",
       "we_in": true
     },
@@ -1081,7 +1341,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 1,
@@ -1100,7 +1363,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 1,
@@ -1119,7 +1385,10 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0
+        "bear_grips": 0,
+        "slingshot": 0,
+        "inzer": 0,
+        "twopood": 0
       },
       "brands_present": 1,
       "total_styles": 1,
@@ -1141,10 +1410,13 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 2,
+          "twopood": 0
         },
-        "brands_present": 1,
-        "total_styles": 37,
+        "brands_present": 2,
+        "total_styles": 39,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
@@ -1160,12 +1432,15 @@
           "sbd": 13,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 3,
+          "twopood": 8
         },
-        "brands_present": 3,
-        "total_styles": 274,
+        "brands_present": 5,
+        "total_styles": 285,
         "focus_styles": 120,
-        "category": "contested",
+        "category": "crowded",
         "we_in": true
       },
       {
@@ -1179,7 +1454,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
         "total_styles": 101,
@@ -1198,10 +1476,13 @@
           "sbd": 4,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 1
         },
-        "brands_present": 3,
-        "total_styles": 76,
+        "brands_present": 4,
+        "total_styles": 77,
         "focus_styles": 24,
         "category": "contested",
         "we_in": true
@@ -1219,7 +1500,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 24,
@@ -1238,7 +1522,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 11,
@@ -1257,7 +1544,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 8,
@@ -1276,7 +1566,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 5,
@@ -1295,10 +1588,13 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 0
         },
-        "brands_present": 1,
-        "total_styles": 3,
+        "brands_present": 2,
+        "total_styles": 4,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
@@ -1314,12 +1610,15 @@
           "sbd": 4,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 0
         },
-        "brands_present": 4,
-        "total_styles": 88,
+        "brands_present": 5,
+        "total_styles": 89,
         "focus_styles": 53,
-        "category": "contested",
+        "category": "crowded",
         "we_in": true
       },
       {
@@ -1333,7 +1632,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
         "total_styles": 22,
@@ -1354,7 +1656,10 @@
           "sbd": 0,
           "schiek": 8,
           "harbinger": 10,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
         "total_styles": 18,
@@ -1373,7 +1678,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 2,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 2,
@@ -1392,31 +1700,15 @@
           "sbd": 27,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 3,
+          "twopood": 0
         },
-        "brands_present": 3,
-        "total_styles": 58,
+        "brands_present": 4,
+        "total_styles": 61,
         "focus_styles": 6,
         "category": "contested",
-        "we_in": true
-      },
-      {
-        "class": "hair_accessories",
-        "class_name": "Hair Accessories",
-        "department": "personal_care",
-        "division": "accessories",
-        "cells": {
-          "gymreapers": 4,
-          "gymshark": 1,
-          "sbd": 0,
-          "schiek": 0,
-          "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 2,
-        "total_styles": 5,
-        "focus_styles": 4,
-        "category": "niche",
         "we_in": true
       },
       {
@@ -1430,12 +1722,37 @@
           "sbd": 1,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 1,
+          "inzer": 1,
+          "twopood": 1
         },
-        "brands_present": 4,
-        "total_styles": 4,
+        "brands_present": 7,
+        "total_styles": 7,
         "focus_styles": 1,
-        "category": "contested",
+        "category": "universal",
+        "we_in": true
+      },
+      {
+        "class": "hair_accessories",
+        "class_name": "Hair Accessories",
+        "department": "personal_care",
+        "division": "accessories",
+        "cells": {
+          "gymreapers": 4,
+          "gymshark": 1,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 2,
+        "total_styles": 5,
+        "focus_styles": 4,
+        "category": "niche",
         "we_in": true
       },
       {
@@ -1449,7 +1766,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 1,
@@ -1468,7 +1788,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 1,
@@ -1478,25 +1801,6 @@
       }
     ],
     "competition": [
-      {
-        "class": "singlets",
-        "class_name": "Singlets",
-        "department": "competition",
-        "division": "apparel",
-        "cells": {
-          "gymreapers": 0,
-          "gymshark": 1,
-          "sbd": 12,
-          "schiek": 0,
-          "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 2,
-        "total_styles": 13,
-        "focus_styles": 0,
-        "category": "niche",
-        "we_in": false
-      },
       {
         "class": "deadlift_socks",
         "class_name": "Deadlift Socks",
@@ -1508,35 +1812,41 @@
           "sbd": 12,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 1,
-        "total_styles": 12,
-        "focus_styles": 0,
-        "category": "niche",
-        "we_in": false
-      }
-    ],
-    "headwear": [
-      {
-        "class": "beanies",
-        "class_name": "Beanies",
-        "department": "headwear",
-        "division": "accessories",
-        "cells": {
-          "gymreapers": 0,
-          "gymshark": 2,
-          "sbd": 5,
-          "schiek": 0,
-          "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 1,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
-        "total_styles": 7,
+        "total_styles": 13,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
       },
+      {
+        "class": "singlets",
+        "class_name": "Singlets",
+        "department": "competition",
+        "division": "apparel",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 1,
+          "sbd": 12,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 2,
+          "inzer": 2,
+          "twopood": 0
+        },
+        "brands_present": 4,
+        "total_styles": 17,
+        "focus_styles": 0,
+        "category": "contested",
+        "we_in": false
+      }
+    ],
+    "headwear": [
       {
         "class": "headbands",
         "class_name": "Headbands & Sweatbands",
@@ -1548,12 +1858,37 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 1
         },
-        "brands_present": 1,
-        "total_styles": 4,
+        "brands_present": 2,
+        "total_styles": 5,
         "focus_styles": 0,
         "category": "niche",
+        "we_in": false
+      },
+      {
+        "class": "beanies",
+        "class_name": "Beanies",
+        "department": "headwear",
+        "division": "accessories",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 2,
+          "sbd": 5,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 0
+        },
+        "brands_present": 3,
+        "total_styles": 8,
+        "focus_styles": 0,
+        "category": "contested",
         "we_in": false
       },
       {
@@ -1567,245 +1902,86 @@
           "sbd": 2,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 2,
+          "inzer": 3,
+          "twopood": 1
         },
-        "brands_present": 4,
-        "total_styles": 89,
+        "brands_present": 7,
+        "total_styles": 95,
         "focus_styles": 79,
-        "category": "contested",
+        "category": "universal",
         "we_in": true
       }
     ],
-    "specialty": [
+    "lifting_shoes": [
       {
-        "class": "multi_gyms",
-        "class_name": "Multi-Gyms & Pull-Up Bars",
-        "department": "specialty",
-        "division": "equipment_gear",
+        "class": "squat_shoes",
+        "class_name": "Squat Shoes",
+        "department": "lifting_shoes",
+        "division": "footwear",
         "cells": {
           "gymreapers": 0,
           "gymshark": 0,
           "sbd": 0,
           "schiek": 0,
-          "harbinger": 2,
-          "bear_grips": 0
-        },
-        "brands_present": 1,
-        "total_styles": 2,
-        "focus_styles": 0,
-        "category": "niche",
-        "we_in": false
-      },
-      {
-        "class": "replacement_parts",
-        "class_name": "Replacement Parts",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 0,
-          "gymshark": 0,
-          "sbd": 0,
-          "schiek": 2,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 4,
+          "twopood": 0
         },
         "brands_present": 1,
-        "total_styles": 2,
+        "total_styles": 4,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
-      },
+      }
+    ],
+    "supplements": [
       {
-        "class": "grip_strengtheners",
-        "class_name": "Grip Strengtheners",
-        "department": "specialty",
-        "division": "equipment_gear",
+        "class": "protein_powders",
+        "class_name": "Protein Powders",
+        "department": "supplements",
+        "division": "nutrition",
         "cells": {
           "gymreapers": 0,
           "gymshark": 0,
           "sbd": 0,
           "schiek": 0,
-          "harbinger": 1,
-          "bear_grips": 0
-        },
-        "brands_present": 1,
-        "total_styles": 1,
-        "focus_styles": 0,
-        "category": "niche",
-        "we_in": false
-      },
-      {
-        "class": "bundles",
-        "class_name": "Bundles & Kits",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 68,
-          "gymshark": 0,
-          "sbd": 0,
-          "schiek": 3,
           "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 2,
-        "total_styles": 71,
-        "focus_styles": 68,
-        "category": "niche",
-        "we_in": true
-      },
-      {
-        "class": "specialty_other",
-        "class_name": "Other Specialty",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 36,
-          "gymshark": 1,
-          "sbd": 0,
-          "schiek": 0,
-          "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 2,
-        "total_styles": 37,
-        "focus_styles": 36,
-        "category": "niche",
-        "we_in": true
-      },
-      {
-        "class": "bar_pads",
-        "class_name": "Bar Pads",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 9,
-          "gymshark": 0,
-          "sbd": 0,
-          "schiek": 1,
-          "harbinger": 2,
-          "bear_grips": 0
-        },
-        "brands_present": 3,
-        "total_styles": 12,
-        "focus_styles": 9,
-        "category": "contested",
-        "we_in": true
-      },
-      {
-        "class": "cable_attachments",
-        "class_name": "Cable Attachments",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 6,
-          "gymshark": 0,
-          "sbd": 0,
-          "schiek": 1,
-          "harbinger": 3,
-          "bear_grips": 0
-        },
-        "brands_present": 3,
-        "total_styles": 10,
-        "focus_styles": 6,
-        "category": "contested",
-        "we_in": true
-      },
-      {
-        "class": "chalk",
-        "class_name": "Chalk",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 4,
-          "gymshark": 0,
-          "sbd": 0,
-          "schiek": 0,
-          "harbinger": 1,
-          "bear_grips": 0
-        },
-        "brands_present": 2,
-        "total_styles": 5,
-        "focus_styles": 4,
-        "category": "niche",
-        "we_in": true
-      },
-      {
-        "class": "thumb_tape",
-        "class_name": "Thumb & Athletic Tape",
-        "department": "specialty",
-        "division": "equipment_gear",
-        "cells": {
-          "gymreapers": 3,
-          "gymshark": 0,
-          "sbd": 0,
-          "schiek": 0,
-          "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 3,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 3,
-        "focus_styles": 3,
-        "category": "niche",
-        "we_in": true
-      }
-    ],
-    "bags": [
-      {
-        "class": "duffel_bags",
-        "class_name": "Duffel Bags",
-        "department": "bags",
-        "division": "accessories",
-        "cells": {
-          "gymreapers": 0,
-          "gymshark": 1,
-          "sbd": 0,
-          "schiek": 0,
-          "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 1,
-        "total_styles": 1,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
       },
       {
-        "class": "gym_bags",
-        "class_name": "Gym Bags",
-        "department": "bags",
-        "division": "accessories",
+        "class": "amino_acids",
+        "class_name": "Amino Acids",
+        "department": "supplements",
+        "division": "nutrition",
         "cells": {
           "gymreapers": 0,
           "gymshark": 0,
           "sbd": 0,
-          "schiek": 1,
+          "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 1,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 1,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
-      },
-      {
-        "class": "backpacks",
-        "class_name": "Backpacks",
-        "department": "bags",
-        "division": "accessories",
-        "cells": {
-          "gymreapers": 1,
-          "gymshark": 10,
-          "sbd": 0,
-          "schiek": 1,
-          "harbinger": 0,
-          "bear_grips": 0
-        },
-        "brands_present": 3,
-        "total_styles": 12,
-        "focus_styles": 1,
-        "category": "contested",
-        "we_in": true
       }
     ],
     "tops": [
@@ -1820,10 +1996,13 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 0
         },
-        "brands_present": 1,
-        "total_styles": 1,
+        "brands_present": 2,
+        "total_styles": 2,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
@@ -1839,12 +2018,15 @@
           "sbd": 51,
           "schiek": 10,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 17,
+          "inzer": 24,
+          "twopood": 29
         },
-        "brands_present": 4,
-        "total_styles": 356,
+        "brands_present": 7,
+        "total_styles": 426,
         "focus_styles": 186,
-        "category": "contested",
+        "category": "universal",
         "we_in": true
       },
       {
@@ -1858,7 +2040,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
         "total_styles": 133,
@@ -1877,12 +2062,15 @@
           "sbd": 6,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 4
         },
-        "brands_present": 3,
-        "total_styles": 94,
+        "brands_present": 5,
+        "total_styles": 99,
         "focus_styles": 35,
-        "category": "contested",
+        "category": "crowded",
         "we_in": true
       },
       {
@@ -1896,10 +2084,13 @@
           "sbd": 6,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 10
         },
-        "brands_present": 3,
-        "total_styles": 33,
+        "brands_present": 4,
+        "total_styles": 43,
         "focus_styles": 15,
         "category": "contested",
         "we_in": true
@@ -1915,12 +2106,15 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 2,
+          "twopood": 0
         },
-        "brands_present": 2,
-        "total_styles": 25,
+        "brands_present": 3,
+        "total_styles": 27,
         "focus_styles": 6,
-        "category": "niche",
+        "category": "contested",
         "we_in": true
       }
     ],
@@ -1936,10 +2130,13 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 1,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 1
         },
-        "brands_present": 1,
-        "total_styles": 1,
+        "brands_present": 2,
+        "total_styles": 2,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
@@ -1955,10 +2152,13 @@
           "sbd": 0,
           "schiek": 18,
           "harbinger": 7,
-          "bear_grips": 2
+          "bear_grips": 2,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 98
         },
-        "brands_present": 5,
-        "total_styles": 52,
+        "brands_present": 6,
+        "total_styles": 150,
         "focus_styles": 20,
         "category": "crowded",
         "we_in": true
@@ -1974,12 +2174,15 @@
           "sbd": 5,
           "schiek": 2,
           "harbinger": 1,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 3,
+          "twopood": 4
         },
-        "brands_present": 5,
-        "total_styles": 39,
+        "brands_present": 7,
+        "total_styles": 46,
         "focus_styles": 29,
-        "category": "crowded",
+        "category": "universal",
         "we_in": true
       },
       {
@@ -1993,12 +2196,15 @@
           "sbd": 0,
           "schiek": 2,
           "harbinger": 0,
-          "bear_grips": 2
+          "bear_grips": 2,
+          "slingshot": 0,
+          "inzer": 3,
+          "twopood": 0
         },
-        "brands_present": 4,
-        "total_styles": 17,
+        "brands_present": 5,
+        "total_styles": 20,
         "focus_styles": 12,
-        "category": "contested",
+        "category": "crowded",
         "we_in": true
       },
       {
@@ -2012,12 +2218,237 @@
           "sbd": 0,
           "schiek": 2,
           "harbinger": 1,
-          "bear_grips": 1
+          "bear_grips": 1,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 4,
         "total_styles": 9,
         "focus_styles": 5,
         "category": "contested",
+        "we_in": true
+      }
+    ],
+    "specialty": [
+      {
+        "class": "multi_gyms",
+        "class_name": "Multi-Gyms & Pull-Up Bars",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 2,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 1,
+        "total_styles": 2,
+        "focus_styles": 0,
+        "category": "niche",
+        "we_in": false
+      },
+      {
+        "class": "smelling_salts",
+        "class_name": "Smelling Salts",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 2,
+          "twopood": 0
+        },
+        "brands_present": 1,
+        "total_styles": 2,
+        "focus_styles": 0,
+        "category": "niche",
+        "we_in": false
+      },
+      {
+        "class": "replacement_parts",
+        "class_name": "Replacement Parts",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 2,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 1,
+        "total_styles": 2,
+        "focus_styles": 0,
+        "category": "niche",
+        "we_in": false
+      },
+      {
+        "class": "grip_strengtheners",
+        "class_name": "Grip Strengtheners",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 1,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 1,
+        "total_styles": 1,
+        "focus_styles": 0,
+        "category": "niche",
+        "we_in": false
+      },
+      {
+        "class": "bundles",
+        "class_name": "Bundles & Kits",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 68,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 3,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 125
+        },
+        "brands_present": 3,
+        "total_styles": 196,
+        "focus_styles": 68,
+        "category": "contested",
+        "we_in": true
+      },
+      {
+        "class": "specialty_other",
+        "class_name": "Other Specialty",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 36,
+          "gymshark": 1,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 2,
+          "inzer": 0,
+          "twopood": 2
+        },
+        "brands_present": 4,
+        "total_styles": 41,
+        "focus_styles": 36,
+        "category": "contested",
+        "we_in": true
+      },
+      {
+        "class": "bar_pads",
+        "class_name": "Bar Pads",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 9,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 1,
+          "harbinger": 2,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 3,
+        "total_styles": 12,
+        "focus_styles": 9,
+        "category": "contested",
+        "we_in": true
+      },
+      {
+        "class": "cable_attachments",
+        "class_name": "Cable Attachments",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 6,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 1,
+          "harbinger": 3,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 3,
+        "total_styles": 10,
+        "focus_styles": 6,
+        "category": "contested",
+        "we_in": true
+      },
+      {
+        "class": "chalk",
+        "class_name": "Chalk",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 4,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 1,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 2
+        },
+        "brands_present": 4,
+        "total_styles": 8,
+        "focus_styles": 4,
+        "category": "contested",
+        "we_in": true
+      },
+      {
+        "class": "thumb_tape",
+        "class_name": "Thumb & Athletic Tape",
+        "department": "specialty",
+        "division": "equipment_gear",
+        "cells": {
+          "gymreapers": 3,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 5
+        },
+        "brands_present": 2,
+        "total_styles": 8,
+        "focus_styles": 3,
+        "category": "niche",
         "we_in": true
       }
     ],
@@ -2033,13 +2464,84 @@
           "sbd": 0,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 1,
         "focus_styles": 0,
         "category": "niche",
         "we_in": false
+      }
+    ],
+    "bags": [
+      {
+        "class": "gym_bags",
+        "class_name": "Gym Bags",
+        "department": "bags",
+        "division": "accessories",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 0,
+          "sbd": 0,
+          "schiek": 1,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
+        },
+        "brands_present": 1,
+        "total_styles": 1,
+        "focus_styles": 0,
+        "category": "niche",
+        "we_in": false
+      },
+      {
+        "class": "duffel_bags",
+        "class_name": "Duffel Bags",
+        "department": "bags",
+        "division": "accessories",
+        "cells": {
+          "gymreapers": 0,
+          "gymshark": 1,
+          "sbd": 0,
+          "schiek": 0,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 1,
+          "twopood": 1
+        },
+        "brands_present": 3,
+        "total_styles": 3,
+        "focus_styles": 0,
+        "category": "contested",
+        "we_in": false
+      },
+      {
+        "class": "backpacks",
+        "class_name": "Backpacks",
+        "department": "bags",
+        "division": "accessories",
+        "cells": {
+          "gymreapers": 1,
+          "gymshark": 10,
+          "sbd": 0,
+          "schiek": 1,
+          "harbinger": 0,
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 1
+        },
+        "brands_present": 4,
+        "total_styles": 13,
+        "focus_styles": 1,
+        "category": "contested",
+        "we_in": true
       }
     ],
     "straps_grips": [
@@ -2054,7 +2556,10 @@
           "sbd": 0,
           "schiek": 3,
           "harbinger": 1,
-          "bear_grips": 2433
+          "bear_grips": 2433,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 4,
         "total_styles": 2453,
@@ -2073,12 +2578,15 @@
           "sbd": 6,
           "schiek": 12,
           "harbinger": 4,
-          "bear_grips": 5
+          "bear_grips": 5,
+          "slingshot": 3,
+          "inzer": 1,
+          "twopood": 1
         },
-        "brands_present": 6,
-        "total_styles": 61,
+        "brands_present": 9,
+        "total_styles": 66,
         "focus_styles": 27,
-        "category": "crowded",
+        "category": "universal",
         "we_in": true
       },
       {
@@ -2092,7 +2600,10 @@
           "sbd": 0,
           "schiek": 3,
           "harbinger": 1,
-          "bear_grips": 1
+          "bear_grips": 1,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 4,
         "total_styles": 11,
@@ -2113,12 +2624,15 @@
           "sbd": 10,
           "schiek": 12,
           "harbinger": 7,
-          "bear_grips": 2
+          "bear_grips": 2,
+          "slingshot": 3,
+          "inzer": 12,
+          "twopood": 2
         },
-        "brands_present": 5,
-        "total_styles": 65,
+        "brands_present": 8,
+        "total_styles": 82,
         "focus_styles": 34,
-        "category": "crowded",
+        "category": "universal",
         "we_in": true
       },
       {
@@ -2132,12 +2646,15 @@
           "sbd": 2,
           "schiek": 3,
           "harbinger": 1,
-          "bear_grips": 1
+          "bear_grips": 1,
+          "slingshot": 2,
+          "inzer": 7,
+          "twopood": 0
         },
-        "brands_present": 5,
-        "total_styles": 17,
+        "brands_present": 7,
+        "total_styles": 26,
         "focus_styles": 10,
-        "category": "crowded",
+        "category": "universal",
         "we_in": true
       },
       {
@@ -2151,7 +2668,10 @@
           "sbd": 0,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
         "total_styles": 10,
@@ -2172,12 +2692,15 @@
           "sbd": 28,
           "schiek": 4,
           "harbinger": 1,
-          "bear_grips": 1
+          "bear_grips": 1,
+          "slingshot": 9,
+          "inzer": 13,
+          "twopood": 12
         },
-        "brands_present": 5,
-        "total_styles": 39,
+        "brands_present": 8,
+        "total_styles": 73,
         "focus_styles": 5,
-        "category": "crowded",
+        "category": "universal",
         "we_in": true
       },
       {
@@ -2191,12 +2714,15 @@
           "sbd": 11,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 5,
+          "inzer": 3,
+          "twopood": 0
         },
-        "brands_present": 3,
-        "total_styles": 16,
+        "brands_present": 5,
+        "total_styles": 24,
         "focus_styles": 4,
-        "category": "contested",
+        "category": "crowded",
         "we_in": true
       },
       {
@@ -2210,7 +2736,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 1,
         "total_styles": 1,
@@ -2231,10 +2760,13 @@
           "sbd": 0,
           "schiek": 1,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 2,
+          "inzer": 0,
+          "twopood": 0
         },
-        "brands_present": 3,
-        "total_styles": 21,
+        "brands_present": 4,
+        "total_styles": 23,
         "focus_styles": 15,
         "category": "contested",
         "we_in": true
@@ -2252,7 +2784,10 @@
           "sbd": 0,
           "schiek": 0,
           "harbinger": 0,
-          "bear_grips": 0
+          "bear_grips": 0,
+          "slingshot": 0,
+          "inzer": 0,
+          "twopood": 0
         },
         "brands_present": 2,
         "total_styles": 8,
