@@ -25,7 +25,15 @@ export default function GymreapersMixPage() {
   if (!data) return null;
 
   const focus = data.focus_brand;
-  const mixOrder = data.brand_order.filter((s) => data.mix[s]);
+  // Sort by total products desc so the largest catalog reads first; focus
+  // brand stays pinned to the front for visual continuity.
+  const mixOrder = (() => {
+    const all = data.brand_order.filter((s) => data.mix[s]);
+    const peers = all.filter((s) => s !== focus).sort(
+      (a, b) => (data.mix[b]?.totalProducts || 0) - (data.mix[a]?.totalProducts || 0),
+    );
+    return all.includes(focus) ? [focus, ...peers] : peers;
+  })();
 
   // Aggregate price ranges across all categories for the comparison matrix
   const allCategories = new Set<string>();

@@ -10,16 +10,23 @@ export default function GymreapersJobsPage() {
   if (!data) return null;
 
   const focus = data.focus_brand;
+  // Sort by total_jobs desc — top hiring brand reads first
   const jobsBrands = data.brand_order
     .map((slug) => ({ slug, j: data.jobs[slug] }))
-    .filter((b) => b.j && (b.j.total_jobs ?? 0) > 0);
+    .filter((b) => b.j && (b.j.total_jobs ?? 0) > 0)
+    .sort((a, b) => (b.j!.total_jobs || 0) - (a.j!.total_jobs || 0));
 
   const totalJobs = jobsBrands.reduce((sum, b) => sum + (b.j!.total_jobs || 0), 0);
   const focusJobs = data.jobs[focus]?.total_jobs || 0;
 
-  // Combine all recent postings across in-scope brands
+  // Combine all recent postings across in-scope brands, newest first
   const recentPostings = jobsBrands
     .flatMap((b) => (b.j!.jobs || []).map((p) => ({ ...p, brand: b.slug })))
+    .sort((a, b) => {
+      const ta = new Date(a.posted_at || a.date || 0).getTime();
+      const tb = new Date(b.posted_at || b.date || 0).getTime();
+      return tb - ta;
+    })
     .slice(0, 30);
 
   // Brands without integration

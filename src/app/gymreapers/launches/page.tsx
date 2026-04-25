@@ -93,7 +93,9 @@ export default function GymreapersLaunchesPage() {
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
         <h2 className="text-xl font-bold text-gr-text mb-6">30-day Velocity by Brand</h2>
         <div className="space-y-4">
-          {data.brand_order.map((slug) => {
+          {[...data.brand_order]
+            .sort((a, b) => (section.summary[b]?.last_7d || 0) - (section.summary[a]?.last_7d || 0))
+            .map((slug) => {
             const summary = section.summary[slug] || { last_7d: 0, last_14d: 0, last_30d: 0 };
             const isFocus = slug === focus;
             const baseline = section.baselineDates[slug];
@@ -157,7 +159,9 @@ export default function GymreapersLaunchesPage() {
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
           <h2 className="text-xl font-bold text-gr-text mb-6">Recent Drops (last 14 days)</h2>
           <ul className="space-y-3">
-            {section.recentDrops.slice(0, 30).map((d, i) => (
+            {[...section.recentDrops]
+              .sort((a, b) => new Date(b.first_seen || b.date || 0).getTime() - new Date(a.first_seen || a.date || 0).getTime())
+              .slice(0, 30).map((d, i) => (
               <li key={i} className="flex items-start gap-3 border-b border-gr-border pb-3 last:border-0">
                 <span
                   className={`text-xs px-2 py-0.5 rounded-full font-medium flex-shrink-0 mt-0.5 ${

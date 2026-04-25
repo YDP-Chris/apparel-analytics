@@ -28,7 +28,10 @@ const BRAND_LABELS: Record<string, string> = {
   bear_grips: 'Bear Grips',
 };
 
-const ORDER = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger'];
+// Brands rendered in order of catalog size (largest peer first), with focus
+// brand pinned to the front for visual continuity.
+const FOCUS_BRAND = 'gymreapers';
+const KNOWN_BRANDS = ['gymreapers', 'sbd', 'gymshark', 'bear_grips', 'schiek', 'harbinger'];
 const PALETTE_FAMILIES = ['neutral', 'bright', 'earth', 'print', 'other'];
 const PALETTE_HEX: Record<string, string> = {
   neutral: '#6b6b6b',
@@ -66,16 +69,23 @@ export default function BrandsPage() {
     return <div className="text-center py-20 text-gr-subtle">Loading strength market...</div>;
   }
 
-  const focus = 'gymreapers';
+  const focus = FOCUS_BRAND;
   const focusData = brandMix.analyses[focus];
-  const peerBrands = ORDER.filter((b) => b !== focus && brandMix.analyses[b]);
+  // Sort peers by catalog size desc so biggest competitor reads first
+  const peerBrands = KNOWN_BRANDS
+    .filter((b) => b !== focus && brandMix.analyses[b])
+    .sort(
+      (a, b) =>
+        (brandMix.analyses[b]?.total_products || 0) - (brandMix.analyses[a]?.total_products || 0),
+    );
+  const sortedBrands = [focus, ...peerBrands];
 
   // Synthesize the read across peers
   const peerPriceAvgs = peerBrands.map((b) => brandMix.analyses[b]?.price_stats?.avg || 0).filter(Boolean);
   const peerMedianPrice =
     peerPriceAvgs.length > 0 ? peerPriceAvgs.reduce((s, n) => s + n, 0) / peerPriceAvgs.length : 0;
   const focusPrice = focusData?.price_stats?.avg || 0;
-  const richest = ORDER.map((b) => ({
+  const richest = sortedBrands.map((b) => ({
     slug: b,
     n: brandMix.analyses[b]?.total_products || 0,
   })).sort((a, b) => b.n - a.n)[0];
@@ -129,7 +139,7 @@ export default function BrandsPage() {
         <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
         <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">Brand Profiles</h2>
         <div className="grid md:grid-cols-2 gap-4">
-          {ORDER.filter((b) => brandMix.analyses[b]).map((slug) => {
+          {sortedBrands.filter((b) => brandMix.analyses[b]).map((slug) => {
             const a = brandMix.analyses[slug];
             const p = palette?.by_brand[slug];
             const isFocus = slug === focus;
