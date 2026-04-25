@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 type ClassGap = {
   class: string;
@@ -212,7 +213,12 @@ export default function GapsPage() {
               <div key={g.class} className="bg-gr-surface border border-gr-border rounded-md p-5">
                 <div className="flex items-baseline justify-between gap-4">
                   <div>
-                    <div className="text-xl font-bold">{g.class_name}</div>
+                    <Link
+                      href={`/class?slug=${g.class}`}
+                      className="text-xl font-bold hover:text-gr-accent transition"
+                    >
+                      {g.class_name}
+                    </Link>
                     <div className="text-xs font-mono text-gr-subtle uppercase tracking-wider mt-1">
                       {g.division} / {g.department}
                     </div>

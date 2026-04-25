@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import Link from 'next/link';
 
 type Row = {
   class: string;
@@ -213,7 +214,12 @@ export default function WhitespacePage() {
                     className={`hover:bg-gr-raised transition ${!r.we_in ? 'border-l-2 border-gr-accent' : ''}`}
                   >
                     <td className="p-3 sticky left-0 bg-gr-surface hover:bg-gr-raised transition z-10">
-                      <div className="font-bold text-gr-text">{r.class_name}</div>
+                      <Link
+                        href={`/class?slug=${r.class}`}
+                        className="font-bold text-gr-text hover:text-gr-accent transition"
+                      >
+                        {r.class_name}
+                      </Link>
                       <div className="text-xs text-gr-subtle font-mono">{r.department}</div>
                     </td>
                     <td className="p-3">
