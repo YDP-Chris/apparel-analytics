@@ -75,6 +75,16 @@ export default function GapsPage() {
     { id: 'size' as const, label: 'Size coverage', count: data.size_coverage_gaps.length },
   ];
 
+  // The Read — synthesize the gap landscape into one narrative
+  const totalEmptyClasses = data.class_gaps.filter((g) => g.we_have === 0).length;
+  const biggestGap = data.class_gaps[0];
+  const colorLeader = data.color_depth_gaps[0];
+  const colorAvgDelta =
+    data.color_depth_gaps.length > 0
+      ? (data.color_depth_gaps.reduce((s, g) => s + g.delta, 0) / data.color_depth_gaps.length).toFixed(1)
+      : '0';
+  const sizeWorst = data.size_coverage_gaps[0];
+
   return (
     <div className="min-h-screen bg-gr-bg text-gr-text -mx-4 sm:-mx-6 lg:-mx-8 -my-8 px-4 sm:px-6 lg:px-8 py-12">
       <div className="space-y-8 max-w-6xl mx-auto">
@@ -84,11 +94,34 @@ export default function GapsPage() {
           </p>
           <h1 className="text-4xl font-bold tracking-tight">Where Peers Have Assortment And We Don&apos;t</h1>
           <p className="text-gr-muted mt-3 max-w-3xl">
-            Three angles on competitive gaps: where we&apos;re missing classes outright, where peers offer more
-            colorways per style, and where peers cover extended sizes more aggressively. Sourced from the
-            SKU cube. Updated {new Date(data.generated_at).toLocaleDateString()}.
+            Three angles on competitive gaps. Sourced from the SKU cube. Updated{' '}
+            {new Date(data.generated_at).toLocaleDateString()}.
           </p>
         </header>
+
+        <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
+          <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
+          <p className="text-lg text-gr-text leading-relaxed">
+            {totalEmptyClasses > 0 && (
+              <>
+                Peers carry meaningful assortment in <b className="text-gr-accent">{data.class_gaps.length} classes where we have under five styles</b>
+                {totalEmptyClasses > 0 && <>, and <b className="text-gr-accent">{totalEmptyClasses} where we have zero</b></>}
+                {biggestGap && <>. Biggest opening: <b>{biggestGap.class_name}</b> ({biggestGap.peer_max_brand} {biggestGap.peer_max_styles} vs us {biggestGap.we_have})</>}.
+              </>
+            )}
+            {colorLeader && (
+              <> On color depth in apparel we trail the leader by an average of <b className="text-gr-accent">+{colorAvgDelta} colors per style</b> across {data.color_depth_gaps.length} classes; widest gap is {colorLeader.class.replace(/_/g, ' ')} where {colorLeader.leader} runs {colorLeader.leader_colors_per_style.toFixed(1)} vs our {colorLeader.focus_colors_per_style.toFixed(1)}.</>
+            )}
+            {sizeWorst && (
+              <> Size coverage is mostly defended, but {sizeWorst.class.replace(/_/g, ' ')} shows {sizeWorst.leader} at {sizeWorst.leader_extended_pct.toFixed(0)}% extended sizes vs our {sizeWorst.focus_extended_pct.toFixed(0)}%.</>
+            )}
+          </p>
+          <p className="text-gr-muted text-base mt-3 leading-relaxed">
+            <span className="text-gr-text font-bold">Decision lens:</span> for each empty-class gap, ask whether
+            it&apos;s a deliberate "not our category" call or an oversight. Every &quot;oversight&quot; is roadmap
+            input.
+          </p>
+        </section>
 
         <div className="flex gap-2 border-b border-gr-border">
           {tabs.map((t) => (

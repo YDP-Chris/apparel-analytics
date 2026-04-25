@@ -61,6 +61,16 @@ export default function PricingPage() {
   const rows = data.class_pricing.filter((r) => (filter === 'all' ? true : r.position === filter));
   const summary = data.summary.positions;
 
+  // The Read
+  const sortedPremium = [...data.class_pricing]
+    .filter((r) => r.position === 'premium')
+    .sort((a, b) => b.gap_vs_peer_median_pct - a.gap_vs_peer_median_pct);
+  const sortedDiscount = [...data.class_pricing]
+    .filter((r) => r.position === 'discount')
+    .sort((a, b) => a.gap_vs_peer_median_pct - b.gap_vs_peer_median_pct);
+  const widestPremium = sortedPremium[0];
+  const widestDiscount = sortedDiscount[0];
+
   return (
     <div className="min-h-screen bg-gr-bg text-gr-text -mx-4 sm:-mx-6 lg:-mx-8 -my-8 px-4 sm:px-6 lg:px-8 py-12">
       <div className="space-y-8 max-w-6xl mx-auto">
@@ -70,11 +80,31 @@ export default function PricingPage() {
           </p>
           <h1 className="text-4xl font-bold tracking-tight">Where We Sit Above Or Below The Strength Market</h1>
           <p className="text-gr-muted mt-3 max-w-3xl">
-            Per-class median price compared to the strength-market median (across SBD, Schiek, Harbinger,
-            Bear Grips, Gymshark). Premium = ours is &gt;15% above peer median. Discount = ours is &gt;15%
-            below. Updated {new Date(data.generated_at).toLocaleDateString()}.
+            Per-class median price vs the strength-market median (SBD, Schiek, Harbinger, Bear Grips, Gymshark).
+            Premium = over 15% above peer median. Discount = over 15% below. Updated{' '}
+            {new Date(data.generated_at).toLocaleDateString()}.
           </p>
         </header>
+
+        <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
+          <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
+          <p className="text-lg text-gr-text leading-relaxed">
+            <b className="text-gr-accent">{summary.premium ?? 0} classes premium</b>
+            , <b className="text-gr-warning">{summary.discount ?? 0} discount</b>, {summary.parity ?? 0} at parity.
+            {widestPremium && (
+              <> Our most aggressive premium is <b>{widestPremium.class_name || widestPremium.class}</b> at +{widestPremium.gap_vs_peer_median_pct.toFixed(0)}% above peer median (${widestPremium.focus_median.toFixed(0)} vs ${widestPremium.peer_median.toFixed(0)}).</>
+            )}
+            {widestDiscount && (
+              <> Our deepest discount is <b>{widestDiscount.class_name || widestDiscount.class}</b> at {widestDiscount.gap_vs_peer_median_pct.toFixed(0)}% below peer median (${widestDiscount.focus_median.toFixed(0)} vs ${widestDiscount.peer_median.toFixed(0)}).</>
+            )}
+          </p>
+          <p className="text-gr-muted text-base mt-3 leading-relaxed">
+            <span className="text-gr-text font-bold">Decision lens:</span> premium is fine when the PDP earns it
+            (fit, durability, certification, athlete usage). For each premium class, audit the top-traffic SKU
+            for whether the premium reason is visible above the fold. For each discount class, ask if we&apos;re
+            leaving money on the table or signaling value position deliberately.
+          </p>
+        </section>
 
         <div className="grid grid-cols-3 gap-4">
           <button
