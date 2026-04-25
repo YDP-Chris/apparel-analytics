@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation';
 // /meta, /inventory, /mix, /brands) still exist as files but are not in nav.
 const navItems = [
   { href: '/', label: 'Overview' },
+  { href: '/decisions', label: 'Decisions' },
   { href: '/gymreapers', label: 'Scorecard' },
   { href: '/gymreapers/mix', label: 'Mix' },
   { href: '/gaps', label: 'Gaps' },
