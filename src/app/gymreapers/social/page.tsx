@@ -39,12 +39,12 @@ export default function GymreapersSocialPage() {
 
   return (
     <div className="space-y-10">
-      <header className="text-center max-w-3xl mx-auto">
-        <p className="text-gr-accent font-medium text-sm uppercase tracking-wide mb-2">
-          Conversation Volume
+      <header>
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">
+          Gymreapers / Conversation Volume
         </p>
-        <h1 className="text-4xl font-bold text-gr-text mb-3">Social</h1>
-        <p className="text-gr-muted">
+        <h1 className="text-4xl font-bold tracking-tight">Social</h1>
+        <p className="text-gr-muted mt-3 max-w-3xl">
           Reddit mentions and X/Twitter intelligence across the strength &amp; powerlifting set.
         </p>
       </header>

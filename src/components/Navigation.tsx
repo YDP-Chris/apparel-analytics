@@ -10,6 +10,7 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { href: '/', label: 'Overview' },
   { href: '/gymreapers', label: 'Scorecard' },
+  { href: '/gymreapers/mix', label: 'Mix' },
   { href: '/gaps', label: 'Gaps' },
   { href: '/pricing', label: 'Pricing' },
   { href: '/gymreapers/launches', label: 'Launches' },

@@ -33,16 +33,13 @@ export default function GymreapersScorecardPage() {
     .filter((t) => typeof t.current === 'number');
 
   return (
-    <div className="space-y-12">
-      {/* Hero */}
-      <header className="text-center max-w-3xl mx-auto">
-        <p className="text-gr-accent font-medium text-sm uppercase tracking-wide mb-2">
-          Private — Strength &amp; Powerlifting Intelligence
+    <div className="space-y-10">
+      <header>
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">
+          Gymreapers / Catalog Scorecard
         </p>
-        <h1 className="text-4xl font-bold text-gr-text mb-4">
-          Where Does Gymreapers Stand?
-        </h1>
-        <p className="text-lg text-gr-muted leading-relaxed">
+        <h1 className="text-4xl font-bold tracking-tight">Where Does Gymreapers Stand?</h1>
+        <p className="text-gr-muted mt-3 max-w-3xl text-lg leading-relaxed">
           Tracking{' '}
           <span className="font-semibold text-gr-text">
             {focusBrand?.total.toLocaleString() || 0}
