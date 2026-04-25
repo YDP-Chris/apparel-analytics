@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T21:36:30.974586",
+  "generated_at": "2026-04-24T22:36:07.611409",
   "focus_brand": "gymreapers",
   "peers": [
     "gymshark",
@@ -41,24 +41,6 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
-        "bear_grips": 0,
-        "gymreapers": 0
-      }
-    },
-    {
-      "class": "gloves",
-      "class_name": "Gloves",
-      "department": "personal_care",
-      "division": "accessories",
-      "we_have": 0,
-      "peer_max_brand": "harbinger",
-      "peer_max_styles": 14,
-      "gap_size": 14,
-      "all_brands": {
-        "gymshark": 0,
-        "sbd": 0,
-        "schiek": 8,
-        "harbinger": 14,
         "bear_grips": 0,
         "gymreapers": 0
       }
@@ -113,6 +95,24 @@
         "sbd": 0,
         "schiek": 0,
         "harbinger": 0,
+        "bear_grips": 0,
+        "gymreapers": 0
+      }
+    },
+    {
+      "class": "gloves",
+      "class_name": "Gloves",
+      "department": "personal_care",
+      "division": "accessories",
+      "we_have": 0,
+      "peer_max_brand": "harbinger",
+      "peer_max_styles": 10,
+      "gap_size": 10,
+      "all_brands": {
+        "gymshark": 0,
+        "sbd": 0,
+        "schiek": 8,
+        "harbinger": 10,
         "bear_grips": 0,
         "gymreapers": 0
       }
@@ -250,6 +250,10 @@
         "schiek": {
           "colors_per_style": 11.25,
           "styles": 18
+        },
+        "harbinger": {
+          "colors_per_style": 1.57,
+          "styles": 7
         }
       }
     },
@@ -446,6 +450,10 @@
         "schiek": {
           "colors_per_style": 3.33,
           "styles": 12
+        },
+        "harbinger": {
+          "colors_per_style": 1.8,
+          "styles": 7
         }
       }
     },
