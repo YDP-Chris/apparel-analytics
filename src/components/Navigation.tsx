@@ -12,10 +12,9 @@ const navItems = [
   { href: '/gymreapers', label: 'Scorecard' },
   { href: '/gaps', label: 'Gaps' },
   { href: '/pricing', label: 'Pricing' },
-  { href: '/launches', label: 'Launches' },
-  { href: '/social', label: 'Social' },
-  { href: '/trends', label: 'Trends' },
-  { href: '/jobs', label: 'Jobs' },
+  { href: '/gymreapers/launches', label: 'Launches' },
+  { href: '/gymreapers/social', label: 'Social' },
+  { href: '/gymreapers/jobs', label: 'Jobs' },
   { href: '/taxonomy', label: 'Taxonomy' },
 ];
 

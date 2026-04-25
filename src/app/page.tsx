@@ -78,6 +78,13 @@ export default function OverviewPage() {
       0,
     ) || 0;
 
+  // Synthesize "The Read" — derive a narrative from the actual data.
+  const totalGaps = gaps?.class_gaps.length || 0;
+  const biggestGap = topGaps[0];
+  const widestPremium = premiumPositions[0];
+  const widestDiscount = discountPositions[0];
+  const biggestColorGap = topColorGaps[0];
+
   return (
     <div className="space-y-12">
       <header className="text-center pt-6">
@@ -88,10 +95,37 @@ export default function OverviewPage() {
           Win the Customer. Win the Market.
         </h1>
         <p className="text-lg text-gr-muted mt-4 max-w-3xl mx-auto leading-relaxed">
-          Where Gymreapers stands today, what changed this week, and the decisions to make this Monday. One
-          source of truth for catalog, pricing, gaps, and competitive moves in the strength market.
+          Where Gymreapers stands today, what changed this week, and the decisions to make this Monday.
         </p>
       </header>
+
+      {/* THE READ — narrative-first interpretation of the data. Everything below supports it. */}
+      <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-8">
+        <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-4">
+          The Read
+        </div>
+        {!gaps || !pricing ? (
+          <p className="text-gr-muted">Loading the synthesis...</p>
+        ) : (
+          <div className="space-y-4 text-gr-text leading-relaxed">
+            <p className="text-xl">
+              We charge a premium in the strength market without the assortment depth to fully justify it.
+              {widestPremium && (
+                <> Our <b className="text-gr-accent">{widestPremium.class_name?.toLowerCase() || widestPremium.class}</b> sit <b>{widestPremium.gap_vs_peer_median_pct.toFixed(0)}% above peer median</b>{widestDiscount && <>, while our <b className="text-gr-accent">{widestDiscount.class_name?.toLowerCase() || widestDiscount.class}</b> trail at <b>{Math.abs(widestDiscount.gap_vs_peer_median_pct).toFixed(0)}% below</b></>}.</>
+              )}
+              {totalGaps > 0 && (
+                <> Peers carry meaningful assortment in <b className="text-gr-accent">{totalGaps} classes where we have under five styles</b>{biggestGap && <>, biggest being <b>{biggestGap.class_name}</b> ({biggestGap.peer_max_brand} {biggestGap.peer_max_styles} vs us {biggestGap.we_have})</>}.</>
+              )}
+              {biggestColorGap && (
+                <> On color depth in apparel we trail leaders by <b className="text-gr-accent">+{biggestColorGap.delta.toFixed(1)} colors per style</b> in {biggestColorGap.class.replace(/_/g, ' ')}.</>
+              )}
+            </p>
+            <p className="text-gr-muted text-base">
+              <span className="text-gr-text font-bold">The decision this week:</span> close the assortment gaps where our pricing already validates premium demand, audit the discount-priced classes for either price-up or differentiation, and decide whether color depth is a deliberate inventory restraint or an oversight.
+            </p>
+          </div>
+        )}
+      </section>
 
       <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <Link
@@ -146,9 +180,12 @@ export default function OverviewPage() {
 
       <section>
         <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
-            Where Peers Are Eating Us
-          </h2>
+          <div>
+            <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
+            <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+              Where Peers Are Eating Us
+            </h2>
+          </div>
           <Link href="/gaps" className="text-xs text-gr-muted hover:text-gr-accent uppercase tracking-wider">
             All gaps &rarr;
           </Link>
@@ -175,9 +212,12 @@ export default function OverviewPage() {
 
       <section>
         <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
-            Pricing Position vs Strength Market
-          </h2>
+          <div>
+            <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
+            <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+              Pricing Position vs Strength Market
+            </h2>
+          </div>
           <Link
             href="/pricing"
             className="text-xs text-gr-muted hover:text-gr-accent uppercase tracking-wider"
@@ -235,9 +275,12 @@ export default function OverviewPage() {
 
       <section>
         <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
-            Color Depth Gaps
-          </h2>
+          <div>
+            <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
+            <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+              Color Depth Gaps (apparel only)
+            </h2>
+          </div>
           <Link href="/gaps" className="text-xs text-gr-muted hover:text-gr-accent uppercase tracking-wider">
             Detail &rarr;
           </Link>
@@ -264,27 +307,9 @@ export default function OverviewPage() {
         </div>
       </section>
 
-      <section className="bg-gr-surface border border-gr-border rounded-md p-8">
-        <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">
-          What This Dashboard Is For
-        </h2>
-        <div className="space-y-3 text-gr-muted leading-relaxed">
-          <p>
-            One question:{' '}
-            <span className="text-gr-text font-semibold">
-              how do we make Gymreapers better and win the customer and the market?
-            </span>{' '}
-            Every page on this site exists to answer some piece of that.
-          </p>
-          <p>
-            Catalog scorecard, gap analysis, pricing position, taxonomy, launch tracker, social signal, hiring
-            signal, search trends. Each is a single lens on the strength market and where we sit in it.
-          </p>
-          <p className="text-sm text-gr-subtle">
-            Internal only. Built and maintained by the data team. Questions: ping Chris.
-          </p>
-        </div>
-      </section>
+      <div className="text-center text-xs text-gr-subtle uppercase tracking-[0.2em] font-mono pt-4">
+        Internal only &middot; Built by the data team &middot; Questions: ping Chris
+      </div>
     </div>
   );
 }

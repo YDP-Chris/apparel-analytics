@@ -124,15 +124,78 @@ export default function TaxonomyPage() {
           <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-3">
             How to read this
           </h2>
-          <div className="bg-gr-surface border border-gr-border rounded-md p-6 space-y-3 text-gr-muted leading-relaxed">
+          <div className="bg-gr-surface border border-gr-border rounded-md p-6 space-y-4 text-gr-muted leading-relaxed">
             <p>
-              Five levels of structure, top to bottom:{' '}
-              <span className="font-mono text-gr-text">
-                Division &raquo; Department &raquo; Class &raquo; Style &raquo; SKU
-              </span>
-              . Every product fits exactly one path. Variations like gender, tier, and material live in{' '}
+              Every product follows the same path. Above the line is the hierarchy: how we organize. Below the
+              line is the SKU: the orderable unit. Variations like gender, tier, and material live in{' '}
               <span className="font-semibold text-gr-text">facets</span>, never in the hierarchy.
             </p>
+
+            <div className="bg-gr-bg border border-gr-border rounded-md p-5 font-mono text-sm">
+              <div className="space-y-2">
+                <div className="flex items-baseline gap-3">
+                  <span className="text-gr-accent font-bold w-24 inline-block uppercase tracking-wider text-xs">
+                    Division
+                  </span>
+                  <span className="text-gr-text">Equipment &amp; Gear</span>
+                </div>
+                <div className="flex items-baseline gap-3 pl-4">
+                  <span className="text-gr-subtle">└─</span>
+                  <span className="text-gr-accent font-bold w-20 uppercase tracking-wider text-xs">
+                    Department
+                  </span>
+                  <span className="text-gr-text">Belts</span>
+                </div>
+                <div className="flex items-baseline gap-3 pl-8">
+                  <span className="text-gr-subtle">└─</span>
+                  <span className="text-gr-accent font-bold w-16 uppercase tracking-wider text-xs">
+                    Class
+                  </span>
+                  <span className="text-gr-text">Lever Belts</span>
+                </div>
+                <div className="flex items-baseline gap-3 pl-12">
+                  <span className="text-gr-subtle">└─</span>
+                  <span className="text-gr-accent font-bold w-16 uppercase tracking-wider text-xs">
+                    Style
+                  </span>
+                  <span className="text-gr-text">Crest Lever Belt</span>
+                </div>
+              </div>
+
+              <div className="border-t border-dashed border-gr-border my-4 -mx-5"></div>
+
+              <div className="space-y-2">
+                <div className="text-xs text-gr-subtle uppercase tracking-[0.2em] mb-2 font-mono">
+                  SKU = Style &times; Color &times; Size
+                </div>
+                <div className="flex items-baseline gap-3 pl-16">
+                  <span className="text-gr-subtle">└─</span>
+                  <span className="text-gr-accent font-bold w-12 uppercase tracking-wider text-xs">SKU</span>
+                  <span className="text-gr-text">Crest Lever Belt &middot; Black &middot; 32in</span>
+                </div>
+                <div className="flex items-baseline gap-3 pl-16">
+                  <span className="text-gr-subtle">└─</span>
+                  <span className="text-gr-accent font-bold w-12 uppercase tracking-wider text-xs">SKU</span>
+                  <span className="text-gr-text">Crest Lever Belt &middot; Black &middot; 36in</span>
+                </div>
+                <div className="flex items-baseline gap-3 pl-16">
+                  <span className="text-gr-subtle">└─</span>
+                  <span className="text-gr-accent font-bold w-12 uppercase tracking-wider text-xs">SKU</span>
+                  <span className="text-gr-text">Crest Lever Belt &middot; Brown &middot; 32in</span>
+                </div>
+                <div className="flex items-baseline gap-3 pl-16 text-gr-subtle">
+                  <span>...</span>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-sm">
+              <span className="text-gr-text font-semibold">Color</span> and{' '}
+              <span className="text-gr-text font-semibold">Size</span> are the two dimensions that turn a Style
+              into orderable inventory. Color isn&apos;t in the hierarchy because a Style usually comes in many
+              colors. Size isn&apos;t either, for the same reason.
+            </p>
+
             <p>
               Channels (Shopify, Amazon, GNC) <em>map into</em> this hierarchy. They never own it. Adding a
               new channel later is a one-table change, not a re-org.
