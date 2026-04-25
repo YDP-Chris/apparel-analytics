@@ -7,23 +7,23 @@ interface InsightCardProps {
 
 const typeStyles: Record<string, { bg: string; border: string; icon: string }> = {
   leader: {
-    bg: 'from-socal-sage-50 to-socal-sand-50',
-    border: 'border-socal-sage-200',
+    bg: 'from-gr-success to-gr-raised',
+    border: 'border-gr-success',
     icon: '👑',
   },
   gap: {
-    bg: 'from-socal-sunset-50 to-socal-sand-50',
-    border: 'border-socal-sunset-200',
+    bg: 'from-gr-accent-soft to-gr-raised',
+    border: 'border-gr-accent-soft',
     icon: '📊',
   },
   trend: {
-    bg: 'from-socal-ocean-50 to-socal-sand-50',
-    border: 'border-socal-ocean-200',
+    bg: 'from-gr-accent-soft to-gr-raised',
+    border: 'border-gr-accent-soft',
     icon: '📈',
   },
   comparison: {
-    bg: 'from-socal-sand-100 to-socal-sand-50',
-    border: 'border-socal-sand-200',
+    bg: 'from-gr-border to-gr-raised',
+    border: 'border-gr-border',
     icon: '⚖️',
   },
 };
@@ -33,17 +33,17 @@ export default function InsightCard({ insight }: InsightCardProps) {
 
   return (
     <Card
-      className={`bg-gradient-to-br ${style.bg} border ${style.border} ring-0 shadow-soft`}
+      className={`bg-gradient-to-br ${style.bg} border ${style.border} ring-0`}
     >
       <div className="flex items-start gap-3">
         <span className="text-2xl">{style.icon}</span>
         <div>
-          <Text className="text-xs uppercase tracking-wider text-socal-stone-400 mb-1">
+          <Text className="text-xs uppercase tracking-wider text-gr-subtle mb-1">
             {insight.type === 'leader' ? 'Category Leader' :
              insight.type === 'gap' ? 'Market Gap' :
              insight.type === 'trend' ? 'Trend' : 'Comparison'}
           </Text>
-          <Text className="text-socal-stone-600 leading-relaxed">
+          <Text className="text-gr-muted leading-relaxed">
             {insight.text}
           </Text>
         </div>

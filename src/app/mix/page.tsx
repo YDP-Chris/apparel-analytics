@@ -131,36 +131,36 @@ export default function MixPage() {
     <div className="space-y-12">
       {/* Context */}
       <div className="max-w-3xl">
-        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-gr-accent uppercase tracking-wider text-sm mb-2">
           Product Mix Analysis
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-gr-text mb-4">
           Compare Brand Positioning
         </h1>
-        <p className="text-socal-stone-500 text-lg leading-relaxed">
-          Explore how <span className="text-socal-stone-700 font-semibold">{brands.length} brands</span> position their{' '}
-          <span className="text-socal-stone-700 font-semibold">{totalProducts.toLocaleString()} products</span> across{' '}
-          <span className="text-socal-stone-700 font-semibold">{totalStyles.toLocaleString()} unique styles</span>.
+        <p className="text-gr-muted text-lg leading-relaxed">
+          Explore how <span className="text-gr-text font-semibold">{brands.length} brands</span> position their{' '}
+          <span className="text-gr-text font-semibold">{totalProducts.toLocaleString()} products</span> across{' '}
+          <span className="text-gr-text font-semibold">{totalStyles.toLocaleString()} unique styles</span>.
           Select a dimension to compare.
         </p>
       </div>
 
       {/* Dimension Selector */}
       <div>
-        <Text className="text-socal-stone-500 mb-3">Select dimension to analyze</Text>
+        <Text className="text-gr-muted mb-3">Select dimension to analyze</Text>
         <div className="flex flex-wrap gap-3">
           {DIMENSIONS.map((dim) => (
             <button
               key={dim.id}
               onClick={() => setDimension(dim.id)}
-              className={`px-5 py-3 rounded-xl text-sm font-medium transition-all ${
+              className={`px-5 py-3 rounded-md text-sm font-medium transition-all ${
                 dimension === dim.id
-                  ? 'bg-socal-ocean-600 text-white shadow-md'
-                  : 'bg-white border border-socal-sand-200 text-socal-stone-600 hover:border-socal-ocean-300 hover:text-socal-ocean-700'
+                  ? 'bg-gr-accent text-gr-text shadow-md'
+                  : 'bg-gr-surface border border-gr-border text-gr-muted hover:border-gr-accent-soft hover:text-gr-accent'
               }`}
             >
               <span className="block">{dim.label}</span>
-              <span className={`block text-xs mt-0.5 ${dimension === dim.id ? 'text-socal-ocean-100' : 'text-socal-stone-400'}`}>
+              <span className={`block text-xs mt-0.5 ${dimension === dim.id ? 'text-gr-accent-soft' : 'text-gr-subtle'}`}>
                 {dim.desc}
               </span>
             </button>
@@ -169,40 +169,40 @@ export default function MixPage() {
       </div>
 
       {/* Key Insight */}
-      <Card className="bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 border-socal-ocean-200 ring-0 p-8">
+      <Card className="bg-gradient-to-r from-gr-accent-soft to-gr-raised border-gr-accent-soft ring-0 p-8">
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           <div className="flex-1">
-            <Text className="text-socal-stone-400 mb-2">
+            <Text className="text-gr-subtle mb-2">
               Top {dimension === 'gender' ? 'segment' : dimension}
             </Text>
-            <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
-              <span className="text-socal-ocean-600">{formatValue(topValue)}</span> dominates
+            <h2 className="text-2xl md:text-3xl font-bold text-gr-text mb-3">
+              <span className="text-gr-accent">{formatValue(topValue)}</span> dominates
               with {topPct}% of all products
             </h2>
-            <p className="text-socal-stone-500">
+            <p className="text-gr-muted">
               {topTotal.toLocaleString()} products across all brands.
               See how each brand compares below.
             </p>
           </div>
           <div className="text-center md:text-right">
-            <Metric className="text-socal-ocean-600 text-5xl font-bold">
+            <Metric className="text-gr-accent text-5xl font-bold">
               {topPct}%
             </Metric>
-            <Text className="text-socal-stone-400">of total</Text>
+            <Text className="text-gr-subtle">of total</Text>
           </div>
         </div>
       </Card>
 
       {/* Stacked Bar Chart - Percentage Mix */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           {dimension === 'gender' ? 'Gender' : dimension === 'category' ? 'Category' : dimension === 'subcategory' ? 'Subcategory' : 'Color'} Mix by Brand
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Percentage of each brand&apos;s catalog (stacked to 100%)
         </Text>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <Card className="bg-gr-surface border-gr-border ring-0">
           <BarChart
             data={stackedData}
             index="name"
@@ -237,32 +237,32 @@ export default function MixPage() {
 
       {/* Detailed Comparison Table */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           Detailed Comparison
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Product counts by {dimension} across all brands
         </Text>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft overflow-hidden">
+        <Card className="bg-gr-surface border-gr-border ring-0 overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b-2 border-socal-sand-200">
-                  <th className="text-left py-3 px-4 font-semibold text-socal-stone-700 sticky left-0 bg-white">
+                <tr className="border-b-2 border-gr-border">
+                  <th className="text-left py-3 px-4 font-semibold text-gr-text sticky left-0 bg-gr-surface">
                     {dimension === 'gender' ? 'Segment' : formatCategory(dimension)}
                   </th>
                   {brands.map((brand) => (
                     <th
                       key={brand.slug}
                       className={`text-right py-3 px-4 font-medium ${
-                        brand.slug === 'vuori' ? 'text-socal-ocean-600 bg-socal-ocean-50' : 'text-socal-stone-500'
+                        brand.slug === 'vuori' ? 'text-gr-accent bg-gr-accent-soft' : 'text-gr-muted'
                       }`}
                     >
                       {brand.name}
                     </th>
                   ))}
-                  <th className="text-right py-3 px-4 font-semibold text-socal-stone-700 bg-socal-sand-50">
+                  <th className="text-right py-3 px-4 font-semibold text-gr-text bg-gr-raised">
                     Total
                   </th>
                 </tr>
@@ -271,13 +271,13 @@ export default function MixPage() {
                 {tableData.map((row, i) => (
                   <tr
                     key={row.value as string}
-                    className={`border-b border-socal-sand-100 ${i === 0 ? 'bg-socal-sage-50' : ''}`}
+                    className={`border-b border-gr-border ${i === 0 ? 'bg-gr-success' : ''}`}
                   >
-                    <td className="py-3 px-4 font-medium text-socal-stone-700 sticky left-0 bg-inherit">
+                    <td className="py-3 px-4 font-medium text-gr-text sticky left-0 bg-inherit">
                       <div className="flex items-center gap-2">
                         {dimension === 'color' && (
                           <div
-                            className="w-3 h-3 rounded-full border border-socal-sand-200"
+                            className="w-3 h-3 rounded-full border border-gr-border"
                             style={{ backgroundColor: COLOR_FAMILY_COLORS[values[i]] || '#6b7280' }}
                           />
                         )}
@@ -291,15 +291,15 @@ export default function MixPage() {
                         <td
                           key={brand.slug}
                           className={`py-3 px-4 text-right ${
-                            brand.slug === 'vuori' ? 'bg-socal-ocean-50' : ''
+                            brand.slug === 'vuori' ? 'bg-gr-accent-soft' : ''
                           }`}
                         >
-                          <span className="text-socal-stone-700">{count.toLocaleString()}</span>
-                          <span className="text-socal-stone-400 text-xs ml-1">({pct}%)</span>
+                          <span className="text-gr-text">{count.toLocaleString()}</span>
+                          <span className="text-gr-subtle text-xs ml-1">({pct}%)</span>
                         </td>
                       );
                     })}
-                    <td className="py-3 px-4 text-right font-semibold text-socal-stone-700 bg-socal-sand-50">
+                    <td className="py-3 px-4 text-right font-semibold text-gr-text bg-gr-raised">
                       {(row.total as number).toLocaleString()}
                     </td>
                   </tr>
@@ -312,7 +312,7 @@ export default function MixPage() {
 
       {/* Brand Cards with Dimension Focus */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-6">
+        <h2 className="text-xl font-semibold text-gr-text mb-6">
           Brand {dimension === 'gender' ? 'Segment' : formatCategory(dimension)} Profiles
         </h2>
 
@@ -333,17 +333,17 @@ export default function MixPage() {
             return (
               <Card
                 key={brand.slug}
-                className={`ring-0 shadow-soft ${
+                className={`ring-0 ${
                   isVuori
-                    ? 'bg-gradient-to-br from-socal-ocean-50 to-white border-socal-ocean-200'
-                    : 'bg-white border-socal-sand-100'
+                    ? 'bg-gradient-to-br from-gr-accent-soft to-white border-gr-accent-soft'
+                    : 'bg-gr-surface border-gr-border'
                 }`}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className={`font-bold text-lg ${isVuori ? 'text-socal-ocean-700' : 'text-socal-stone-700'}`}>
+                  <h3 className={`font-bold text-lg ${isVuori ? 'text-gr-accent' : 'text-gr-text'}`}>
                     {brand.name}
                   </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-socal-sand-100 text-socal-stone-500">
+                  <span className="text-xs px-2 py-1 rounded-full bg-gr-border text-gr-muted">
                     {brand.total.toLocaleString()} products
                   </span>
                 </div>
@@ -352,7 +352,7 @@ export default function MixPage() {
                 <div className="flex h-4 rounded-lg overflow-hidden mb-4">
                   {sorted.map(([key, count]) => {
                     const pct = (count / brand.total) * 100;
-                    let bgColor = 'bg-socal-stone-300';
+                    let bgColor = 'bg-gr-subtle';
 
                     if (dimension === 'color') {
                       const colorMap: Record<string, string> = {
@@ -376,7 +376,7 @@ export default function MixPage() {
                       bgColor = key === 'womens' ? 'bg-rose-400' : key === 'mens' ? 'bg-blue-500' : 'bg-violet-400';
                     } else {
                       const idx = sorted.findIndex(([k]) => k === key);
-                      const colors = ['bg-socal-ocean-500', 'bg-socal-sage-500', 'bg-socal-sand-400', 'bg-socal-sunset-400', 'bg-socal-stone-300'];
+                      const colors = ['bg-gr-accent-hover', 'bg-gr-success', 'bg-gr-subtle', 'bg-gr-accent-hover', 'bg-gr-subtle'];
                       bgColor = colors[idx] || 'bg-gray-300';
                     }
 
@@ -404,9 +404,9 @@ export default function MixPage() {
                               style={{ backgroundColor: COLOR_FAMILY_COLORS[key] || '#6b7280' }}
                             />
                           )}
-                          <span className="text-socal-stone-600">{formatValue(key)}</span>
+                          <span className="text-gr-muted">{formatValue(key)}</span>
                         </div>
-                        <span className="text-socal-stone-400 font-mono text-xs">
+                        <span className="text-gr-subtle font-mono text-xs">
                           {count.toLocaleString()} ({pct}%)
                         </span>
                       </div>
@@ -420,24 +420,24 @@ export default function MixPage() {
       </div>
 
       {/* Insight */}
-      <Card className="bg-gradient-to-br from-socal-ocean-600 to-socal-ocean-800 rounded-2xl p-8 text-white">
+      <Card className="bg-gradient-to-br from-gr-accent to-gr-accent rounded-md p-8 text-gr-text">
         <h2 className="text-xl font-bold mb-4">Reading the Mix</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div>
-            <p className="text-socal-ocean-200 text-sm font-medium mb-1">Percentage view</p>
-            <p className="text-white">
+            <p className="text-gr-accent-soft text-sm font-medium mb-1">Percentage view</p>
+            <p className="text-gr-text">
               Stacked bars show mix regardless of catalog size—compare strategy, not scale.
             </p>
           </div>
           <div>
-            <p className="text-socal-ocean-200 text-sm font-medium mb-1">Count view</p>
-            <p className="text-white">
+            <p className="text-gr-accent-soft text-sm font-medium mb-1">Count view</p>
+            <p className="text-gr-text">
               The table shows absolute numbers—useful for understanding market share.
             </p>
           </div>
           <div>
-            <p className="text-socal-ocean-200 text-sm font-medium mb-1">Vuori highlight</p>
-            <p className="text-white">
+            <p className="text-gr-accent-soft text-sm font-medium mb-1">Vuori highlight</p>
+            <p className="text-gr-text">
               Vuori columns are highlighted throughout to quickly spot competitive position.
             </p>
           </div>

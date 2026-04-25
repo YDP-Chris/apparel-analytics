@@ -31,12 +31,12 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
     return (
       <div className="space-y-8">
         <div>
-          <Link href="/launches" className="text-socal-ocean-600 hover:text-socal-ocean-700 text-sm">
+          <Link href="/launches" className="text-gr-accent hover:text-gr-accent text-sm">
             ← Back to Launch Calendar
           </Link>
         </div>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <p className="text-socal-stone-400 text-center py-8">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <p className="text-gr-subtle text-center py-8">
             No recent launches found for {data.brands[brandSlug]?.name || brandSlug}.
             Check back after the next sitemap scan.
           </p>
@@ -66,7 +66,7 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
     <div className="space-y-8">
       {/* Back link */}
       <div>
-        <Link href="/launches" className="text-socal-ocean-600 hover:text-socal-ocean-700 text-sm">
+        <Link href="/launches" className="text-gr-accent hover:text-gr-accent text-sm">
           ← Back to Launch Calendar
         </Link>
       </div>
@@ -80,10 +80,10 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
           {brandName}
         </Badge>
         <div>
-          <h1 className="text-2xl md:text-3xl font-bold text-socal-stone-800">
+          <h1 className="text-2xl md:text-3xl font-bold text-gr-text">
             New Launches
           </h1>
-          <Text className="text-socal-stone-500">
+          <Text className="text-gr-muted">
             {totalProducts} products across {totalDays} {totalDays === 1 ? 'day' : 'days'}
           </Text>
         </div>
@@ -91,19 +91,19 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
 
       {/* Summary Stats */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Total New Products</Text>
-          <Metric className="text-socal-stone-800">{totalProducts}</Metric>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Total New Products</Text>
+          <Metric className="text-gr-text">{totalProducts}</Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Latest Launch</Text>
-          <Metric className="text-socal-stone-800 text-xl">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Latest Launch</Text>
+          <Metric className="text-gr-text text-xl">
             {brandLaunches[0]?.date || 'N/A'}
           </Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Avg per Day</Text>
-          <Metric className="text-socal-stone-800">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Avg per Day</Text>
+          <Metric className="text-gr-text">
             {Math.round(totalProducts / totalDays)}
           </Metric>
         </Card>
@@ -113,13 +113,13 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
       {brandLaunches
         .sort((a, b) => b.date.localeCompare(a.date))
         .map((launch) => (
-          <Card key={launch.date} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-            <div className="flex items-center justify-between mb-4 pb-4 border-b border-socal-sand-100">
+          <Card key={launch.date} className="bg-gr-surface border-gr-border ring-0">
+            <div className="flex items-center justify-between mb-4 pb-4 border-b border-gr-border">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">📅</span>
                 <div>
-                  <h2 className="font-semibold text-socal-stone-800">{formatDate(launch.date)}</h2>
-                  <Text className="text-socal-stone-400 text-sm">
+                  <h2 className="font-semibold text-gr-text">{formatDate(launch.date)}</h2>
+                  <Text className="text-gr-subtle text-sm">
                     {launch.count} new products
                   </Text>
                 </div>
@@ -134,31 +134,31 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
                   href={product.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3 bg-socal-sand-50 rounded-lg border border-socal-sand-100 hover:border-socal-ocean-300 transition-colors group"
+                  className="flex items-center justify-between p-3 bg-gr-raised rounded-lg border border-gr-border hover:border-gr-accent-soft transition-colors group"
                 >
                   <div className="flex-1 min-w-0">
-                    <p className="text-socal-stone-700 group-hover:text-socal-ocean-700 transition-colors truncate">
+                    <p className="text-gr-text group-hover:text-gr-accent transition-colors truncate">
                       {product.name}
                     </p>
                     <div className="flex items-center gap-2 mt-1">
                       {formatCategory(product.category) && (
-                        <span className="text-xs text-socal-stone-400 bg-socal-sand-100 px-2 py-0.5 rounded">
+                        <span className="text-xs text-gr-subtle bg-gr-border px-2 py-0.5 rounded">
                           {formatCategory(product.category)}
                         </span>
                       )}
-                      <span className="text-xs text-socal-stone-400 bg-socal-sand-100 px-2 py-0.5 rounded">
+                      <span className="text-xs text-gr-subtle bg-gr-border px-2 py-0.5 rounded">
                         {product.gender}
                       </span>
                     </div>
                   </div>
-                  <span className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors ml-2">
+                  <span className="text-gr-subtle group-hover:text-gr-accent transition-colors ml-2">
                     →
                   </span>
                 </a>
               ))}
 
               {launch.count > launch.products.length && (
-                <p className="text-sm text-socal-stone-400 text-center py-2">
+                <p className="text-sm text-gr-subtle text-center py-2">
                   Showing {launch.products.length} of {launch.count} products
                 </p>
               )}
@@ -168,7 +168,7 @@ export default async function BrandLaunchesPage({ params }: BrandLaunchesPagePro
 
       {/* Back link at bottom */}
       <div className="pt-4">
-        <Link href="/launches" className="text-socal-ocean-600 hover:text-socal-ocean-700">
+        <Link href="/launches" className="text-gr-accent hover:text-gr-accent">
           ← Back to Launch Calendar
         </Link>
       </div>

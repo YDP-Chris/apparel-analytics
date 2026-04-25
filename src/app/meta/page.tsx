@@ -48,7 +48,7 @@ function BulletList({ content, accent }: { content: string; accent: string }) {
       {lines.map((line, i) => {
         const cleaned = line.replace(/^[\u2022\-\*]\s*/, '');
         return (
-          <div key={i} className="flex gap-3 text-sm text-socal-stone-700 leading-relaxed">
+          <div key={i} className="flex gap-3 text-sm text-gr-text leading-relaxed">
             <span className={`mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${accent}`} />
             <span>{cleaned}</span>
           </div>
@@ -144,54 +144,54 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
     <div className="space-y-8">
       {/* Stats Row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Total Claims</Text>
-          <Metric className="text-socal-stone-800">{claims.length}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">{assessed.length} assessed</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Total Claims</Text>
+          <Metric className="text-gr-text">{claims.length}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">{assessed.length} assessed</Text>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Overall Rate</Text>
-          <Metric className="text-socal-ocean-600">{leadTimeBuckets.all.rate}%</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">All lead times</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Overall Rate</Text>
+          <Metric className="text-gr-accent">{leadTimeBuckets.all.rate}%</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">All lead times</Text>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">5+ Day Rate</Text>
-          <Metric className="text-socal-sage-700">{leadTimeBuckets.d5.rate}%</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">{leadTimeBuckets.d5.confirmed} of {leadTimeBuckets.d5.assessed} confirmed</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">5+ Day Rate</Text>
+          <Metric className="text-gr-success">{leadTimeBuckets.d5.rate}%</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">{leadTimeBuckets.d5.confirmed} of {leadTimeBuckets.d5.assessed} confirmed</Text>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">7+ Day Rate</Text>
-          <Metric className="text-socal-sage-700">{leadTimeBuckets.d7.rate}%</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">{leadTimeBuckets.d7.confirmed} of {leadTimeBuckets.d7.assessed} confirmed</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">7+ Day Rate</Text>
+          <Metric className="text-gr-success">{leadTimeBuckets.d7.rate}%</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">{leadTimeBuckets.d7.confirmed} of {leadTimeBuckets.d7.assessed} confirmed</Text>
         </Card>
       </div>
 
       {/* Lead Time + Type Breakdown */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* By Claim Type */}
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">By Claim Type</h3>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">By Claim Type</h3>
           <div className="space-y-4">
             {typeBreakdown.map(t => (
-              <div key={t.type} className="border-b border-socal-sand-50 pb-3 last:border-0">
+              <div key={t.type} className="border-b border-gr-raised pb-3 last:border-0">
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm font-medium text-socal-stone-700 capitalize">{t.type}s</span>
-                  <span className="text-sm text-socal-stone-500">{t.total} claims</span>
+                  <span className="text-sm font-medium text-gr-text capitalize">{t.type}s</span>
+                  <span className="text-sm text-gr-muted">{t.total} claims</span>
                 </div>
                 <div className="grid grid-cols-3 gap-2 text-xs">
-                  <div className="bg-socal-sand-50 rounded px-2 py-1.5">
-                    <span className="text-socal-stone-400">All: </span>
-                    <span className="font-semibold text-socal-stone-700">{t.rate}%</span>
+                  <div className="bg-gr-raised rounded px-2 py-1.5">
+                    <span className="text-gr-subtle">All: </span>
+                    <span className="font-semibold text-gr-text">{t.rate}%</span>
                   </div>
-                  <div className="bg-socal-sand-50 rounded px-2 py-1.5">
-                    <span className="text-socal-stone-400">5d+: </span>
-                    <span className="font-semibold text-socal-stone-700">
+                  <div className="bg-gr-raised rounded px-2 py-1.5">
+                    <span className="text-gr-subtle">5d+: </span>
+                    <span className="font-semibold text-gr-text">
                       {t.d5.assessed > 0 ? `${t.d5.rate}%` : '--'}
                     </span>
                   </div>
-                  <div className="bg-socal-sand-50 rounded px-2 py-1.5">
-                    <span className="text-socal-stone-400">7d+: </span>
-                    <span className="font-semibold text-socal-stone-700">
+                  <div className="bg-gr-raised rounded px-2 py-1.5">
+                    <span className="text-gr-subtle">7d+: </span>
+                    <span className="font-semibold text-gr-text">
                       {t.d7.assessed > 0 ? `${t.d7.rate}%` : '--'}
                     </span>
                   </div>
@@ -202,8 +202,8 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
         </Card>
 
         {/* Outcome Distribution */}
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">Outcome Distribution</h3>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">Outcome Distribution</h3>
           <DonutChart
             data={donutData}
             category="value"
@@ -216,7 +216,7 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
             {Object.entries(STATUS_LABELS).map(([key, label]) => (
               <div key={key} className="flex items-center justify-between">
                 <Badge color={STATUS_COLORS[key]} size="xs">{label}</Badge>
-                <span className="text-sm font-medium text-socal-stone-700">{statusCounts[key] || 0}</span>
+                <span className="text-sm font-medium text-gr-text">{statusCounts[key] || 0}</span>
               </div>
             ))}
           </div>
@@ -224,26 +224,26 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
       </div>
 
       {/* By Section */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-        <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">By Section</h3>
+      <Card className="bg-gr-surface border-gr-border ring-0">
+        <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">By Section</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {sectionBreakdown.map(s => (
-            <div key={s.section} className="p-4 bg-socal-sand-50 rounded-xl">
+            <div key={s.section} className="p-4 bg-gr-raised rounded-md">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm font-semibold text-socal-stone-800 capitalize">{s.section}</span>
-                <span className="text-xs text-socal-stone-400">{s.total} claims</span>
+                <span className="text-sm font-semibold text-gr-text capitalize">{s.section}</span>
+                <span className="text-xs text-gr-subtle">{s.total} claims</span>
               </div>
               <div className="flex items-center gap-4">
                 <div>
-                  <p className="text-2xl font-bold text-socal-ocean-600">{s.rate}%</p>
-                  <p className="text-xs text-socal-stone-400">all lead times</p>
+                  <p className="text-2xl font-bold text-gr-accent">{s.rate}%</p>
+                  <p className="text-xs text-gr-subtle">all lead times</p>
                 </div>
-                <div className="w-px h-10 bg-socal-sand-200" />
+                <div className="w-px h-10 bg-gr-border" />
                 <div>
-                  <p className="text-2xl font-bold text-socal-sage-700">
+                  <p className="text-2xl font-bold text-gr-success">
                     {s.d5.assessed > 0 ? `${s.d5.rate}%` : '--'}
                   </p>
-                  <p className="text-xs text-socal-stone-400">5+ day lead time</p>
+                  <p className="text-xs text-gr-subtle">5+ day lead time</p>
                 </div>
               </div>
             </div>
@@ -252,13 +252,13 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
       </Card>
 
       {/* Filters + Claim List */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+      <Card className="bg-gr-surface border-gr-border ring-0">
         <div className="flex flex-wrap items-center gap-3 mb-6">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider">Claims</h3>
+          <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider">Claims</h3>
           <select
             value={filterType}
             onChange={(e) => setFilterType(e.target.value)}
-            className="text-sm border border-socal-sand-200 rounded-lg px-3 py-1.5 text-socal-stone-600 bg-white"
+            className="text-sm border border-gr-border rounded-lg px-3 py-1.5 text-gr-muted bg-gr-surface"
           >
             <option value="all">All Types</option>
             {claimTypes.map(t => (
@@ -268,7 +268,7 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
           <select
             value={filterBrand}
             onChange={(e) => setFilterBrand(e.target.value)}
-            className="text-sm border border-socal-sand-200 rounded-lg px-3 py-1.5 text-socal-stone-600 bg-white"
+            className="text-sm border border-gr-border rounded-lg px-3 py-1.5 text-gr-muted bg-gr-surface"
           >
             <option value="all">All Brands</option>
             {brands.map(b => (
@@ -278,38 +278,38 @@ function ScorecardTab({ claims }: { claims: BriefClaim[] }) {
           <select
             value={filterStatus}
             onChange={(e) => setFilterStatus(e.target.value)}
-            className="text-sm border border-socal-sand-200 rounded-lg px-3 py-1.5 text-socal-stone-600 bg-white"
+            className="text-sm border border-gr-border rounded-lg px-3 py-1.5 text-gr-muted bg-gr-surface"
           >
             <option value="all">All Statuses</option>
             {Object.entries(STATUS_LABELS).map(([key, label]) => (
               <option key={key} value={key}>{label}</option>
             ))}
           </select>
-          <span className="text-xs text-socal-stone-400 ml-auto">{filteredClaims.length} claims</span>
+          <span className="text-xs text-gr-subtle ml-auto">{filteredClaims.length} claims</span>
         </div>
         <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
           {filteredClaims.map((claim) => (
-            <div key={claim.id} className="border-b border-socal-sand-50 pb-4 last:border-0">
+            <div key={claim.id} className="border-b border-gr-raised pb-4 last:border-0">
               <div className="flex items-start gap-3">
                 <Badge color={STATUS_COLORS[claim.outcome_status]} size="xs">
                   {STATUS_LABELS[claim.outcome_status] || claim.outcome_status}
                 </Badge>
                 <div className="flex-1">
-                  <p className="text-sm text-socal-stone-700">{claim.claim_text}</p>
+                  <p className="text-sm text-gr-text">{claim.claim_text}</p>
                   <div className="flex flex-wrap gap-2 mt-2">
-                    <span className="text-xs text-socal-stone-400">{formatDate(claim.brief_date)}</span>
+                    <span className="text-xs text-gr-subtle">{formatDate(claim.brief_date)}</span>
                     {claim.subject_brand && (
-                      <span className="text-xs text-socal-ocean-600">{BRAND_NAMES[claim.subject_brand] || claim.subject_brand}</span>
+                      <span className="text-xs text-gr-accent">{BRAND_NAMES[claim.subject_brand] || claim.subject_brand}</span>
                     )}
                     {claim.subject_category && (
-                      <span className="text-xs text-socal-sage-600">{claim.subject_category}</span>
+                      <span className="text-xs text-gr-success">{claim.subject_category}</span>
                     )}
                     {claim.days_to_outcome && (
-                      <span className="text-xs text-socal-stone-400">{claim.days_to_outcome}d to confirm</span>
+                      <span className="text-xs text-gr-subtle">{claim.days_to_outcome}d to confirm</span>
                     )}
                   </div>
                   {claim.outcome_evidence && (
-                    <p className="text-xs text-socal-stone-500 mt-2 italic border-l-2 border-socal-sand-200 pl-3">
+                    <p className="text-xs text-gr-muted mt-2 italic border-l-2 border-gr-border pl-3">
                       {claim.outcome_evidence}
                     </p>
                   )}
@@ -334,28 +334,28 @@ function TrendsTab({ trends }: { trends: TrendTimeline[] }) {
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Trends Tracked</Text>
-          <Metric className="text-socal-stone-800">{trends.length}</Metric>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Trends Tracked</Text>
+          <Metric className="text-gr-text">{trends.length}</Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Category Trends</Text>
-          <Metric className="text-socal-ocean-600">{categories.length}</Metric>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Category Trends</Text>
+          <Metric className="text-gr-accent">{categories.length}</Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Brand Trends</Text>
-          <Metric className="text-socal-stone-800">{brandTrends.length}</Metric>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Brand Trends</Text>
+          <Metric className="text-gr-text">{brandTrends.length}</Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Most Mentioned</Text>
-          <Metric className="text-socal-stone-800 text-lg">{sorted[0]?.keyword || '-'}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">{sorted[0]?.mention_count || 0} briefs</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Most Mentioned</Text>
+          <Metric className="text-gr-text text-lg">{sorted[0]?.keyword || '-'}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">{sorted[0]?.mention_count || 0} briefs</Text>
         </Card>
       </div>
 
       {/* Category Trends Chart */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-        <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">Category Trend Frequency</h3>
+      <Card className="bg-gr-surface border-gr-border ring-0">
+        <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">Category Trend Frequency</h3>
         <BarChart
           data={categories.slice(0, 12).map(t => ({
             keyword: t.keyword,
@@ -374,28 +374,28 @@ function TrendsTab({ trends }: { trends: TrendTimeline[] }) {
       {/* Trend Details */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {sorted.slice(0, 10).map((trend) => (
-          <Card key={trend.id} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Card key={trend.id} className="bg-gr-surface border-gr-border ring-0">
             <div className="flex items-start justify-between">
               <div>
-                <h4 className="font-semibold text-socal-stone-800 capitalize">{trend.keyword}</h4>
+                <h4 className="font-semibold text-gr-text capitalize">{trend.keyword}</h4>
                 <Badge color={trend.keyword_type === 'category' ? 'cyan' : 'violet'} size="xs" className="mt-1">
                   {trend.keyword_type}
                 </Badge>
               </div>
               <div className="text-right">
-                <p className="text-2xl font-bold text-socal-ocean-600">{trend.mention_count}</p>
-                <p className="text-xs text-socal-stone-400">mentions</p>
+                <p className="text-2xl font-bold text-gr-accent">{trend.mention_count}</p>
+                <p className="text-xs text-gr-subtle">mentions</p>
               </div>
             </div>
-            <div className="mt-3 text-xs text-socal-stone-500 space-y-1">
+            <div className="mt-3 text-xs text-gr-muted space-y-1">
               <p>First mentioned: {formatDate(trend.first_mention_date)}</p>
               {trend.search_growth_pct !== null && (
-                <p className={trend.search_growth_pct > 0 ? 'text-emerald-600' : 'text-rose-600'}>
+                <p className={trend.search_growth_pct > 0 ? 'text-emerald-600' : 'text-gr-danger'}>
                   Search growth: {trend.search_growth_pct > 0 ? '+' : ''}{trend.search_growth_pct}%
                 </p>
               )}
               {trend.mention_dates && (
-                <p className="text-socal-stone-400">
+                <p className="text-gr-subtle">
                   Active: {formatDate(trend.mention_dates[0])} - {formatDate(trend.mention_dates[trend.mention_dates.length - 1])}
                 </p>
               )}
@@ -451,24 +451,24 @@ function ThemesTab({ mentions }: { mentions: BrandMention[] }) {
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Total Mentions</Text>
-          <Metric className="text-socal-stone-800">{mentions.length}</Metric>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Total Mentions</Text>
+          <Metric className="text-gr-text">{mentions.length}</Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Brands Tracked</Text>
-          <Metric className="text-socal-ocean-600">{brandCounts.length}</Metric>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Brands Tracked</Text>
+          <Metric className="text-gr-accent">{brandCounts.length}</Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Most Mentioned</Text>
-          <Metric className="text-socal-stone-800 text-lg">{brandCounts[0]?.name || '-'}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">{brandCounts[0]?.total || 0} mentions</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Most Mentioned</Text>
+          <Metric className="text-gr-text text-lg">{brandCounts[0]?.name || '-'}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">{brandCounts[0]?.total || 0} mentions</Text>
         </Card>
       </div>
 
       {/* Brand Mentions by Sentiment */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-        <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">Brand Mentions by Sentiment</h3>
+      <Card className="bg-gr-surface border-gr-border ring-0">
+        <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">Brand Mentions by Sentiment</h3>
         <BarChart
           data={brandCounts.map(b => ({
             brand: b.name,
@@ -488,8 +488,8 @@ function ThemesTab({ mentions }: { mentions: BrandMention[] }) {
       </Card>
 
       {/* Sentiment Over Time */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-        <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">Weekly Sentiment Trend</h3>
+      <Card className="bg-gr-surface border-gr-border ring-0">
+        <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">Weekly Sentiment Trend</h3>
         <AreaChart
           data={sentimentOverTime}
           index="week"
@@ -503,8 +503,8 @@ function ThemesTab({ mentions }: { mentions: BrandMention[] }) {
       </Card>
 
       {/* Section Distribution */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-        <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">Mentions by Section</h3>
+      <Card className="bg-gr-surface border-gr-border ring-0">
+        <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">Mentions by Section</h3>
         <DonutChart
           data={sectionCounts}
           category="value"
@@ -541,41 +541,41 @@ function SignalMapTab({ claims }: { claims: BriefClaim[] }) {
 
   return (
     <div className="space-y-8">
-      <Card className="bg-gradient-to-r from-socal-sand-50 to-socal-ocean-50 border-socal-sand-200 ring-0 p-6">
-        <Text className="text-socal-stone-400 mb-1">Validated Intelligence Chains</Text>
-        <h2 className="text-2xl font-bold text-socal-stone-800">
+      <Card className="bg-gradient-to-r from-gr-raised to-gr-accent-soft border-gr-border ring-0 p-6">
+        <Text className="text-gr-subtle mb-1">Validated Intelligence Chains</Text>
+        <h2 className="text-2xl font-bold text-gr-text">
           {confirmed.length} signals confirmed across {byBrand.length} subjects
         </h2>
-        <p className="text-sm text-socal-stone-500 mt-2">
+        <p className="text-sm text-gr-muted mt-2">
           Each chain shows: signal detected in brief, action recommended, and outcome confirmed by subsequent data.
         </p>
       </Card>
 
       {byBrand.map(([brand, brandClaims]) => (
-        <Card key={brand} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <div className="flex items-center gap-3 mb-4 pb-3 border-b border-socal-sand-100">
-            <div className="w-1 h-8 rounded-full bg-socal-ocean-500" />
-            <h3 className="font-semibold text-socal-stone-800">
+        <Card key={brand} className="bg-gr-surface border-gr-border ring-0">
+          <div className="flex items-center gap-3 mb-4 pb-3 border-b border-gr-border">
+            <div className="w-1 h-8 rounded-full bg-gr-accent-hover" />
+            <h3 className="font-semibold text-gr-text">
               {BRAND_NAMES[brand] || (brand === 'market' ? 'Market-Wide' : brand)}
             </h3>
             <Badge color="cyan" size="xs">{brandClaims.length} signals</Badge>
           </div>
           <div className="space-y-4">
             {brandClaims.map((claim) => (
-              <div key={claim.id} className="relative pl-6 border-l-2 border-socal-sand-200">
-                <div className="absolute left-[-5px] top-1 w-2 h-2 rounded-full bg-socal-ocean-500" />
+              <div key={claim.id} className="relative pl-6 border-l-2 border-gr-border">
+                <div className="absolute left-[-5px] top-1 w-2 h-2 rounded-full bg-gr-accent-hover" />
                 <div className="flex items-start gap-2">
                   <Badge color={STATUS_COLORS[claim.outcome_status]} size="xs">
                     {STATUS_LABELS[claim.outcome_status]}
                   </Badge>
-                  <span className="text-xs text-socal-stone-400">{formatDate(claim.brief_date)}</span>
+                  <span className="text-xs text-gr-subtle">{formatDate(claim.brief_date)}</span>
                   {claim.days_to_outcome && (
-                    <span className="text-xs text-socal-ocean-600">{claim.days_to_outcome}d</span>
+                    <span className="text-xs text-gr-accent">{claim.days_to_outcome}d</span>
                   )}
                 </div>
-                <p className="text-sm text-socal-stone-700 mt-1">{claim.claim_text}</p>
+                <p className="text-sm text-gr-text mt-1">{claim.claim_text}</p>
                 {claim.outcome_evidence && (
-                  <p className="text-xs text-socal-stone-500 mt-1 italic">
+                  <p className="text-xs text-gr-muted mt-1 italic">
                     {claim.outcome_evidence}
                   </p>
                 )}
@@ -608,8 +608,8 @@ function RollupsTab({ rollups }: { rollups: BriefRollup[] }) {
           onClick={() => setPeriodType('weekly')}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
             periodType === 'weekly'
-              ? 'bg-socal-ocean-600 text-white'
-              : 'bg-socal-sand-100 text-socal-stone-500 hover:bg-socal-sand-200'
+              ? 'bg-gr-accent text-gr-text'
+              : 'bg-gr-border text-gr-muted hover:bg-gr-border'
           }`}
         >
           Weekly
@@ -618,8 +618,8 @@ function RollupsTab({ rollups }: { rollups: BriefRollup[] }) {
           onClick={() => setPeriodType('monthly')}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
             periodType === 'monthly'
-              ? 'bg-socal-ocean-600 text-white'
-              : 'bg-socal-sand-100 text-socal-stone-500 hover:bg-socal-sand-200'
+              ? 'bg-gr-accent text-gr-text'
+              : 'bg-gr-border text-gr-muted hover:bg-gr-border'
           }`}
         >
           Monthly
@@ -627,54 +627,54 @@ function RollupsTab({ rollups }: { rollups: BriefRollup[] }) {
       </div>
 
       {filtered.map((rollup) => (
-        <Card key={rollup.id} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <Card key={rollup.id} className="bg-gr-surface border-gr-border ring-0">
           <div
             className="cursor-pointer"
             onClick={() => setExpanded(expanded === rollup.id ? null : rollup.id)}
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="font-semibold text-socal-stone-800">
+                <h3 className="font-semibold text-gr-text">
                   {formatDate(rollup.period_start)} - {formatDate(rollup.period_end)}
                 </h3>
                 <div className="flex gap-3 mt-1">
-                  <span className="text-xs text-socal-stone-400">{rollup.brief_count} briefs</span>
-                  <span className="text-xs text-socal-stone-400">{rollup.article_count_total} articles</span>
+                  <span className="text-xs text-gr-subtle">{rollup.brief_count} briefs</span>
+                  <span className="text-xs text-gr-subtle">{rollup.article_count_total} articles</span>
                 </div>
               </div>
-              <span className="text-socal-stone-400 text-lg">{expanded === rollup.id ? '-' : '+'}</span>
+              <span className="text-gr-subtle text-lg">{expanded === rollup.id ? '-' : '+'}</span>
             </div>
             {rollup.executive_summary && (
-              <p className="text-sm text-socal-stone-600 mt-3 leading-relaxed">
+              <p className="text-sm text-gr-muted mt-3 leading-relaxed">
                 {rollup.executive_summary}
               </p>
             )}
           </div>
 
           {expanded === rollup.id && (
-            <div className="mt-6 space-y-5 border-t border-socal-sand-100 pt-5">
+            <div className="mt-6 space-y-5 border-t border-gr-border pt-5">
               {rollup.top_threats && (
                 <div>
-                  <h4 className="text-xs font-semibold text-socal-sunset-600 uppercase tracking-wider mb-2">Top Threats</h4>
-                  <BulletList content={rollup.top_threats} accent="bg-socal-sunset-400" />
+                  <h4 className="text-xs font-semibold text-gr-accent uppercase tracking-wider mb-2">Top Threats</h4>
+                  <BulletList content={rollup.top_threats} accent="bg-gr-accent-hover" />
                 </div>
               )}
               {rollup.key_trends && (
                 <div>
-                  <h4 className="text-xs font-semibold text-socal-ocean-600 uppercase tracking-wider mb-2">Key Trends</h4>
-                  <BulletList content={rollup.key_trends} accent="bg-socal-ocean-400" />
+                  <h4 className="text-xs font-semibold text-gr-accent uppercase tracking-wider mb-2">Key Trends</h4>
+                  <BulletList content={rollup.key_trends} accent="bg-gr-accent-hover" />
                 </div>
               )}
               {rollup.notable_launches && (
                 <div>
-                  <h4 className="text-xs font-semibold text-socal-sage-600 uppercase tracking-wider mb-2">Notable Launches</h4>
-                  <BulletList content={rollup.notable_launches} accent="bg-socal-sage-400" />
+                  <h4 className="text-xs font-semibold text-gr-success uppercase tracking-wider mb-2">Notable Launches</h4>
+                  <BulletList content={rollup.notable_launches} accent="bg-gr-success" />
                 </div>
               )}
               {rollup.recommended_actions && (
                 <div>
-                  <h4 className="text-xs font-semibold text-socal-ocean-700 uppercase tracking-wider mb-2">Recommended Actions</h4>
-                  <BulletList content={rollup.recommended_actions} accent="bg-socal-ocean-600" />
+                  <h4 className="text-xs font-semibold text-gr-accent uppercase tracking-wider mb-2">Recommended Actions</h4>
+                  <BulletList content={rollup.recommended_actions} accent="bg-gr-accent" />
                 </div>
               )}
             </div>
@@ -683,7 +683,7 @@ function RollupsTab({ rollups }: { rollups: BriefRollup[] }) {
       ))}
 
       {filtered.length === 0 && (
-        <div className="text-center text-socal-stone-400 text-sm py-12">
+        <div className="text-center text-gr-subtle text-sm py-12">
           No {periodType} rollups available yet.
         </div>
       )}
@@ -734,7 +734,7 @@ export default function MetaAnalysisPage() {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
-        <div className="text-socal-stone-400 text-sm">Loading analysis data...</div>
+        <div className="text-gr-subtle text-sm">Loading analysis data...</div>
       </div>
     );
   }
@@ -742,7 +742,7 @@ export default function MetaAnalysisPage() {
   if (error) {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
-        <div className="text-socal-sunset-600 text-sm">{error}</div>
+        <div className="text-gr-accent text-sm">{error}</div>
       </div>
     );
   }
@@ -751,17 +751,17 @@ export default function MetaAnalysisPage() {
     <div className="space-y-8">
       {/* Header */}
       <div>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 tracking-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gr-text tracking-tight">
           Brief Analysis
         </h1>
-        <p className="mt-2 text-socal-stone-500 max-w-2xl">
+        <p className="mt-2 text-gr-muted max-w-2xl">
           Meta-analysis of {claims.length} extracted claims across {briefCount} daily intelligence briefs.
           Tracking prediction accuracy, trend lead times, and competitive themes.
         </p>
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 border-b border-socal-sand-200 overflow-x-auto" role="tablist">
+      <div className="flex gap-1 border-b border-gr-border overflow-x-auto" role="tablist">
         {TABS.map((tab) => (
           <button
             key={tab.id}
@@ -770,8 +770,8 @@ export default function MetaAnalysisPage() {
             aria-selected={activeTab === tab.id}
             className={`px-4 py-3 text-sm font-medium transition-all whitespace-nowrap ${
               activeTab === tab.id
-                ? 'text-socal-ocean-700 border-b-2 border-socal-ocean-500'
-                : 'text-socal-stone-500 hover:text-socal-stone-800'
+                ? 'text-gr-accent border-b-2 border-gr-accent-hover'
+                : 'text-gr-muted hover:text-gr-text'
             }`}
           >
             {tab.label}

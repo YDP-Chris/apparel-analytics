@@ -1,303 +1,290 @@
 'use client';
 
-import { Card, BarChart, Text, Metric, Badge } from '@tremor/react';
-import { getData, getBrands } from '@/lib/data';
-import InsightCard from '@/components/InsightCard';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import socialData from '@/data/social.json';
-import jobsData from '@/data/jobs.json';
-import pinterestData from '@/data/pinterest.json';
 
-/**
- * Home Page - Following Cole Nussbaumer Knaflic's "Storytelling with Data" principles:
- * 1. Understand context - Who is the audience? What do they need to know?
- * 2. Choose appropriate visuals - Simple charts that serve the story
- * 3. Eliminate clutter - Remove chartjunk, unnecessary elements
- * 4. Focus attention - Use preattentive attributes strategically
- * 5. Tell a story - Clear narrative arc with beginning, middle, end
- */
+type ClassGap = {
+  class: string;
+  class_name: string;
+  we_have: number;
+  peer_max_brand: string;
+  peer_max_styles: number;
+  gap_size: number;
+};
 
-export default function HomePage() {
-  const data = getData();
-  const brands = getBrands();
+type ColorGap = {
+  class: string;
+  focus_colors_per_style: number;
+  leader: string;
+  leader_colors_per_style: number;
+  delta: number;
+};
 
-  // Single focused chart: Who has the largest catalog?
-  // Sorted horizontal bar - easy to compare, no legend needed
-  const catalogData = brands
-    .sort((a, b) => b.total - a.total)
-    .map((brand) => ({
-      name: brand.name,
-      'Products': brand.total,
-    }));
+type Gaps = {
+  generated_at: string;
+  class_gaps: ClassGap[];
+  color_depth_gaps: ColorGap[];
+};
 
-  // The "big number" that matters
-  const totalProducts = data.totals.products;
-  const brandCount = brands.length;
+type ClassPricing = {
+  class: string;
+  class_name: string;
+  focus_styles: number;
+  focus_median: number;
+  peer_median: number;
+  gap_vs_peer_median_pct: number;
+  position: string;
+};
 
-  // Social/Jobs/Pinterest quick stats
-  const social = socialData as { reddit?: { mentions_total?: number }; youtube?: { video_count?: number }; velocity?: Record<string, { mentions_7d?: number }> };
-  const jobs = jobsData as { brands?: Record<string, { total_jobs?: number; name?: string }> };
-  const pinterest = pinterestData as { brands?: Record<string, { total_pins?: number }> };
+type Pricing = {
+  class_pricing: ClassPricing[];
+};
 
-  const totalJobs = Object.values(jobs.brands || {}).reduce((sum, b) => sum + (b.total_jobs || 0), 0);
-  const totalMentions = social.reddit?.mentions_total || 0;
-  const totalPins = Object.values(pinterest.brands || {}).reduce((sum, b) => sum + (b.total_pins || 0), 0);
+type Canonical = {
+  divisions: Array<{ departments: Array<{ classes: unknown[] }> }>;
+};
 
-  // Top hiring brand
-  const topHiring = Object.entries(jobs.brands || {})
-    .map(([id, b]) => ({ id, jobs: b.total_jobs || 0, name: b.name || id }))
-    .sort((a, b) => b.jobs - a.jobs)[0];
+export default function OverviewPage() {
+  const [gaps, setGaps] = useState<Gaps | null>(null);
+  const [pricing, setPricing] = useState<Pricing | null>(null);
+  const [canonical, setCanonical] = useState<Canonical | null>(null);
 
-  // Top social brand
-  const topSocial = Object.entries(social.velocity || {})
-    .map(([id, v]) => ({ id, mentions: v.mentions_7d || 0 }))
-    .sort((a, b) => b.mentions - a.mentions)[0];
+  useEffect(() => {
+    Promise.all([
+      fetch('/analysis/gaps.json').then((r) => r.json()).catch(() => null),
+      fetch('/analysis/pricing.json').then((r) => r.json()).catch(() => null),
+      fetch('/canonical.json').then((r) => r.json()).catch(() => null),
+    ]).then(([g, p, c]) => {
+      setGaps(g);
+      setPricing(p);
+      setCanonical(c);
+    });
+  }, []);
+
+  const topGaps = gaps?.class_gaps.slice(0, 3) || [];
+  const topColorGaps = gaps?.color_depth_gaps.slice(0, 3) || [];
+  const premiumPositions = (pricing?.class_pricing || [])
+    .filter((r) => r.position === 'premium')
+    .sort((a, b) => b.gap_vs_peer_median_pct - a.gap_vs_peer_median_pct)
+    .slice(0, 3);
+  const discountPositions = (pricing?.class_pricing || [])
+    .filter((r) => r.position === 'discount')
+    .sort((a, b) => a.gap_vs_peer_median_pct - b.gap_vs_peer_median_pct)
+    .slice(0, 3);
+
+  const totalClasses =
+    canonical?.divisions.reduce(
+      (s, d) => s + d.departments.reduce((s2, dept) => s2 + dept.classes.length, 0),
+      0,
+    ) || 0;
 
   return (
     <div className="space-y-12">
-      {/* Context: What is this and why should I care? */}
-      <div className="max-w-3xl">
-        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
-          Competitive Intelligence Report
-        </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
-          The Premium Athleisure Landscape
-        </h1>
-        <p className="text-socal-stone-500 text-lg leading-relaxed">
-          We tracked <span className="text-socal-stone-700 font-semibold">{totalProducts.toLocaleString()} products</span> across{' '}
-          <span className="text-socal-stone-700 font-semibold">{brandCount} premium athleisure brands</span> to understand
-          how competitors position their assortments. Here&apos;s what the data reveals.
+      <header className="text-center pt-6">
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">
+          Gymreapers / Data &amp; Analytics
         </p>
-      </div>
+        <h1 className="text-5xl font-bold tracking-tight text-gr-text">
+          Win the Customer. Win the Market.
+        </h1>
+        <p className="text-lg text-gr-muted mt-4 max-w-3xl mx-auto leading-relaxed">
+          Where Gymreapers stands today, what changed this week, and the decisions to make this Monday. One
+          source of truth for catalog, pricing, gaps, and competitive moves in the strength market.
+        </p>
+      </header>
 
-      {/* The Big Insight - Vuori's category strength */}
-      <Card className="bg-gradient-to-r from-socal-sand-50 to-socal-ocean-50 border-socal-sand-200 ring-0 p-8">
-        <div className="flex flex-col md:flex-row md:items-center gap-6">
-          <div className="flex-1">
-            <Text className="text-socal-stone-400 mb-2">The headline</Text>
-            <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
-              Vuori dominates{' '}
-              <span className="text-socal-ocean-600">bottoms and outerwear</span>
-            </h2>
-            <p className="text-socal-stone-500">
-              With <span className="text-socal-stone-700">1,268 bottoms</span> (vs Lululemon&apos;s 819) and
-              <span className="text-socal-stone-700"> 386 outerwear</span> pieces (vs Lululemon&apos;s 204),
-              Vuori has built category depth where it matters most.
-            </p>
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <Link
+          href="/gymreapers"
+          className="bg-gr-surface border border-gr-border rounded-md p-6 hover:border-gr-accent transition group"
+        >
+          <div className="text-3xl font-bold text-gr-text">1,047</div>
+          <div className="text-xs text-gr-muted uppercase tracking-[0.2em] mt-2 font-mono">
+            Active Styles
           </div>
-          <div className="text-center md:text-right">
-            <Metric className="text-socal-ocean-600 text-5xl md:text-6xl font-bold">
-              {Math.round(totalProducts / 1000)}K+
-            </Metric>
-            <Text className="text-socal-stone-400">products tracked</Text>
+          <div className="text-xs text-gr-subtle mt-3 group-hover:text-gr-accent transition">
+            Scorecard &rarr;
           </div>
-        </div>
-      </Card>
+        </Link>
+        <Link
+          href="/gaps"
+          className="bg-gr-surface border border-gr-border rounded-md p-6 hover:border-gr-accent transition group"
+        >
+          <div className="text-3xl font-bold text-gr-text">{gaps ? gaps.class_gaps.length : '-'}</div>
+          <div className="text-xs text-gr-muted uppercase tracking-[0.2em] mt-2 font-mono">Class Gaps</div>
+          <div className="text-xs text-gr-subtle mt-3 group-hover:text-gr-accent transition">
+            Where peers eat us &rarr;
+          </div>
+        </Link>
+        <Link
+          href="/pricing"
+          className="bg-gr-surface border border-gr-border rounded-md p-6 hover:border-gr-accent transition group"
+        >
+          <div className="text-3xl font-bold text-gr-text">
+            {pricing ? pricing.class_pricing.length : '-'}
+          </div>
+          <div className="text-xs text-gr-muted uppercase tracking-[0.2em] mt-2 font-mono">
+            Priced Classes
+          </div>
+          <div className="text-xs text-gr-subtle mt-3 group-hover:text-gr-accent transition">
+            Premium / discount mix &rarr;
+          </div>
+        </Link>
+        <Link
+          href="/taxonomy"
+          className="bg-gr-surface border border-gr-border rounded-md p-6 hover:border-gr-accent transition group"
+        >
+          <div className="text-3xl font-bold text-gr-text">{totalClasses}</div>
+          <div className="text-xs text-gr-muted uppercase tracking-[0.2em] mt-2 font-mono">
+            Canonical Classes
+          </div>
+          <div className="text-xs text-gr-subtle mt-3 group-hover:text-gr-accent transition">
+            How we organize products &rarr;
+          </div>
+        </Link>
+      </section>
 
-      {/* Live Intelligence Pulse */}
-      <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
-          Live Intelligence
-        </h2>
-        <Text className="text-socal-stone-500 mb-6">
-          Real-time signals from social, hiring, and visual trends
-        </Text>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <Link href="/social">
-            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
-              <Text className="text-socal-stone-400">Reddit Buzz</Text>
-              <Metric className="text-socal-stone-800">{totalMentions.toLocaleString()}</Metric>
-              <Text className="text-xs text-socal-stone-400 mt-1">mentions this month</Text>
-              {topSocial && (
-                <Badge color="cyan" size="sm" className="mt-2">
-                  {topSocial.id === 'outdoor_voices' ? 'Outdoor Voices' : topSocial.id} leading
-                </Badge>
-              )}
-            </Card>
-          </Link>
-
-          <Link href="/jobs">
-            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
-              <Text className="text-socal-stone-400">Open Roles</Text>
-              <Metric className="text-socal-stone-800">{totalJobs.toLocaleString()}</Metric>
-              <Text className="text-xs text-socal-stone-400 mt-1">jobs across brands</Text>
-              {topHiring && topHiring.jobs > 0 && (
-                <Badge color="emerald" size="sm" className="mt-2">
-                  {topHiring.name}: {topHiring.jobs}
-                </Badge>
-              )}
-            </Card>
-          </Link>
-
-          <Link href="/social">
-            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
-              <Text className="text-socal-stone-400">Pinterest Pins</Text>
-              <Metric className="text-socal-stone-800">{totalPins}</Metric>
-              <Text className="text-xs text-socal-stone-400 mt-1">visual trends tracked</Text>
-              <Badge color="rose" size="sm" className="mt-2">
-                8 brands
-              </Badge>
-            </Card>
-          </Link>
-
-          <Link href="/social">
-            <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors">
-              <Text className="text-socal-stone-400">YouTube</Text>
-              <Metric className="text-socal-stone-800">{social.youtube?.video_count || 0}</Metric>
-              <Text className="text-xs text-socal-stone-400 mt-1">recent videos</Text>
-              <Badge color="violet" size="sm" className="mt-2">
-                Last 12 months
-              </Badge>
-            </Card>
+      <section>
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+            Where Peers Are Eating Us
+          </h2>
+          <Link href="/gaps" className="text-xs text-gr-muted hover:text-gr-accent uppercase tracking-wider">
+            All gaps &rarr;
           </Link>
         </div>
-      </div>
-
-      {/* Primary Visual: Simple horizontal bar chart */}
-      {/* Cole's principle: Let the data speak, remove gridlines and chartjunk */}
-      <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
-          Catalog Size Comparison
-        </h2>
-        <Text className="text-socal-stone-500 mb-6">
-          Products tracked from each brand&apos;s sitemap
-        </Text>
-
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <BarChart
-            data={catalogData}
-            index="name"
-            categories={['Products']}
-            colors={['cyan']}
-            layout="vertical"
-            className="h-80"
-            showAnimation
-            showGridLines={false}
-            showLegend={false}
-            valueFormatter={(v) => v.toLocaleString()}
-          />
-        </Card>
-      </div>
-
-      {/* Strategic Insights - What actions should this inform? */}
-      <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
-          What This Means
-        </h2>
-        <Text className="text-socal-stone-500 mb-6">
-          Key patterns that inform competitive strategy
-        </Text>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {data.insights.slice(0, 4).map((insight, i) => (
-            <InsightCard key={i} insight={insight} />
+        <div className="grid md:grid-cols-3 gap-4">
+          {topGaps.length === 0 && (
+            <div className="md:col-span-3 bg-gr-surface border border-gr-border rounded-md p-6 text-gr-muted">
+              No gap data loaded yet. Run the pipeline.
+            </div>
+          )}
+          {topGaps.map((g) => (
+            <div key={g.class} className="bg-gr-surface border border-gr-border rounded-md p-5">
+              <div className="text-lg font-bold text-gr-text">{g.class_name}</div>
+              <div className="mt-3 text-3xl font-bold text-gr-accent">+{g.gap_size}</div>
+              <div className="text-xs text-gr-muted mt-1">styles to close</div>
+              <div className="text-sm text-gr-muted mt-3">
+                We have <b className="text-gr-text">{g.we_have}</b>. {g.peer_max_brand} has{' '}
+                <b className="text-gr-text">{g.peer_max_styles}</b>.
+              </div>
+            </div>
           ))}
         </div>
-      </div>
+      </section>
 
-      {/* Call to Action: Where to go deeper */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Link href="/brands" className="group">
-          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
-            <Text className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors">
-              Next: Compare Brands
-            </Text>
-            <h3 className="text-socal-stone-700 font-semibold mt-1 group-hover:text-socal-ocean-700 transition-colors">
-              See how brands allocate across categories →
-            </h3>
-            <Text className="text-socal-stone-400 mt-2 text-sm">
-              Who focuses on bottoms? Who leads in outerwear?
-            </Text>
-          </Card>
-        </Link>
-
-        <Link href="/categories" className="group">
-          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
-            <Text className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors">
-              Dive Deeper
-            </Text>
-            <h3 className="text-socal-stone-700 font-semibold mt-1 group-hover:text-socal-ocean-700 transition-colors">
-              Explore by category →
-            </h3>
-            <Text className="text-socal-stone-400 mt-2 text-sm">
-              Bottoms, tops, outerwear, and more
-            </Text>
-          </Card>
-        </Link>
-
-        <Link href="/subcategories" className="group">
-          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
-            <Text className="text-socal-stone-400 group-hover:text-socal-ocean-600 transition-colors">
-              Get Specific
-            </Text>
-            <h3 className="text-socal-stone-700 font-semibold mt-1 group-hover:text-socal-ocean-700 transition-colors">
-              Subcategory battles →
-            </h3>
-            <Text className="text-socal-stone-400 mt-2 text-sm">
-              Joggers vs leggings, tanks vs tees
-            </Text>
-          </Card>
-        </Link>
-      </div>
-
-      {/* Data Table - For those who want the details */}
-      <details className="group">
-        <summary className="cursor-pointer text-socal-stone-500 hover:text-socal-stone-700 transition-colors flex items-center gap-2">
-          <span>View detailed brand data</span>
-          <span className="text-xs">▼</span>
-        </summary>
-
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft mt-4">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead>
-                <tr className="border-b border-socal-sand-200">
-                  <th className="text-left py-3 px-4 text-socal-stone-500 font-medium">Brand</th>
-                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Total</th>
-                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Men&apos;s</th>
-                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Women&apos;s</th>
-                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Bottoms</th>
-                  <th className="text-right py-3 px-4 text-socal-stone-500 font-medium">Tops</th>
-                </tr>
-              </thead>
-              <tbody>
-                {brands.map((brand) => {
-                  const mensPct = Math.round(((brand.genders?.mens || 0) / brand.total) * 100);
-                  const womensPct = Math.round(((brand.genders?.womens || 0) / brand.total) * 100);
-                  return (
-                    <tr key={brand.slug} className={`border-b border-socal-sand-100 ${brand.slug === 'vuori' ? 'bg-socal-ocean-50' : ''}`}>
-                      <td className="py-3 px-4">
-                        <Link
-                          href={`/brand/${brand.slug}`}
-                          className={`hover:text-socal-ocean-600 transition-colors ${brand.slug === 'vuori' ? 'text-socal-ocean-700 font-semibold' : 'text-socal-stone-700'}`}
-                        >
-                          {brand.name}
-                        </Link>
-                      </td>
-                      <td className="py-3 px-4 text-right font-medium text-socal-stone-700">
-                        {brand.total.toLocaleString()}
-                      </td>
-                      <td className="py-3 px-4 text-right text-socal-stone-500">
-                        {mensPct}%
-                      </td>
-                      <td className="py-3 px-4 text-right text-socal-stone-500">
-                        {womensPct}%
-                      </td>
-                      <td className="py-3 px-4 text-right text-socal-stone-500">
-                        {(brand.categories.bottoms || 0).toLocaleString()}
-                      </td>
-                      <td className="py-3 px-4 text-right text-socal-stone-500">
-                        {(brand.categories.tops || 0).toLocaleString()}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+      <section>
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+            Pricing Position vs Strength Market
+          </h2>
+          <Link
+            href="/pricing"
+            className="text-xs text-gr-muted hover:text-gr-accent uppercase tracking-wider"
+          >
+            All classes &rarr;
+          </Link>
+        </div>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <div className="text-sm text-gr-muted mb-2 uppercase tracking-wider font-mono">
+              Most premium (over peer median)
+            </div>
+            <div className="space-y-2">
+              {premiumPositions.map((r) => (
+                <div key={r.class} className="bg-gr-surface border border-gr-border rounded-md p-4">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="font-bold text-gr-text">{r.class_name || r.class}</div>
+                    <div className="text-xl font-bold text-gr-accent">
+                      +{r.gap_vs_peer_median_pct.toFixed(0)}%
+                    </div>
+                  </div>
+                  <div className="text-xs text-gr-muted mt-1">
+                    ${r.focus_median.toFixed(0)} vs peer ${r.peer_median.toFixed(0)} &middot; {r.focus_styles}{' '}
+                    styles
+                  </div>
+                </div>
+              ))}
+              {premiumPositions.length === 0 && <div className="text-sm text-gr-subtle">No data.</div>}
+            </div>
           </div>
-        </Card>
-      </details>
+          <div>
+            <div className="text-sm text-gr-muted mb-2 uppercase tracking-wider font-mono">
+              Most discount (under peer median)
+            </div>
+            <div className="space-y-2">
+              {discountPositions.map((r) => (
+                <div key={r.class} className="bg-gr-surface border border-gr-border rounded-md p-4">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="font-bold text-gr-text">{r.class_name || r.class}</div>
+                    <div className="text-xl font-bold text-gr-warning">
+                      {r.gap_vs_peer_median_pct.toFixed(0)}%
+                    </div>
+                  </div>
+                  <div className="text-xs text-gr-muted mt-1">
+                    ${r.focus_median.toFixed(0)} vs peer ${r.peer_median.toFixed(0)} &middot; {r.focus_styles}{' '}
+                    styles
+                  </div>
+                </div>
+              ))}
+              {discountPositions.length === 0 && <div className="text-sm text-gr-subtle">No data.</div>}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold">
+            Color Depth Gaps
+          </h2>
+          <Link href="/gaps" className="text-xs text-gr-muted hover:text-gr-accent uppercase tracking-wider">
+            Detail &rarr;
+          </Link>
+        </div>
+        <div className="grid md:grid-cols-3 gap-4">
+          {topColorGaps.length === 0 && (
+            <div className="md:col-span-3 bg-gr-surface border border-gr-border rounded-md p-6 text-gr-muted">
+              No color depth data loaded yet.
+            </div>
+          )}
+          {topColorGaps.map((g) => (
+            <div key={g.class} className="bg-gr-surface border border-gr-border rounded-md p-5">
+              <div className="text-lg font-bold text-gr-text">
+                {g.class.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+              </div>
+              <div className="mt-3 text-3xl font-bold text-gr-accent">+{g.delta.toFixed(1)}</div>
+              <div className="text-xs text-gr-muted mt-1">colors/style behind</div>
+              <div className="text-sm text-gr-muted mt-3">
+                We: <b className="text-gr-text">{g.focus_colors_per_style.toFixed(1)}</b> &middot; {g.leader}:{' '}
+                <b className="text-gr-text">{g.leader_colors_per_style.toFixed(1)}</b>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-gr-surface border border-gr-border rounded-md p-8">
+        <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">
+          What This Dashboard Is For
+        </h2>
+        <div className="space-y-3 text-gr-muted leading-relaxed">
+          <p>
+            One question:{' '}
+            <span className="text-gr-text font-semibold">
+              how do we make Gymreapers better and win the customer and the market?
+            </span>{' '}
+            Every page on this site exists to answer some piece of that.
+          </p>
+          <p>
+            Catalog scorecard, gap analysis, pricing position, taxonomy, launch tracker, social signal, hiring
+            signal, search trends. Each is a single lens on the strength market and where we sit in it.
+          </p>
+          <p className="text-sm text-gr-subtle">
+            Internal only. Built and maintained by the data team. Questions: ping Chris.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

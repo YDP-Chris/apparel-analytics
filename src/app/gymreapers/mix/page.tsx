@@ -72,7 +72,7 @@ export default function GymreapersMixPage() {
                     return (
                       <div
                         key={cat}
-                        className="flex items-center justify-center text-xs text-white font-medium"
+                        className="flex items-center justify-center text-xs text-gr-text font-medium"
                         style={{ width: `${pct}%`, background: CATEGORY_COLORS[cat] }}
                         title={`${cat}: ${pct}%`}
                       >
@@ -264,7 +264,7 @@ export default function GymreapersMixPage() {
         </section>
       )}
 
-      <section className="bg-gradient-to-br from-gr-accent to-gr-accent rounded-md p-8 text-white">
+      <section className="bg-gradient-to-br from-gr-accent to-gr-accent rounded-md p-8 text-gr-text">
         <h2 className="text-xl font-bold mb-3">Read of the data</h2>
         <ul className="space-y-2 text-sm text-gr-accent-soft">
           {(() => {

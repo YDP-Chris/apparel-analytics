@@ -181,7 +181,7 @@ export function GymreapersProvider({ children }: { children: ReactNode }) {
             <button
               type="submit"
               disabled={authenticating || !password}
-              className="w-full py-3 rounded bg-gr-accent text-white font-bold uppercase tracking-[0.2em] text-sm hover:bg-gr-accent-hover disabled:opacity-50 transition"
+              className="w-full py-3 rounded bg-gr-accent text-gr-text font-bold uppercase tracking-[0.2em] text-sm hover:bg-gr-accent-hover disabled:opacity-50 transition"
             >
               {authenticating ? 'Signing in...' : 'Enter'}
             </button>

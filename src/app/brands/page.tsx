@@ -47,53 +47,53 @@ export default function BrandsPage() {
     <div className="space-y-12">
       {/* Context */}
       <div className="max-w-3xl">
-        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-gr-accent uppercase tracking-wider text-sm mb-2">
           Brand Comparison
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-gr-text mb-4">
           How Brands Position Their Assortments
         </h1>
-        <p className="text-socal-stone-500 text-lg leading-relaxed">
+        <p className="text-gr-muted text-lg leading-relaxed">
           Catalog size tells you how big a brand is. Category mix tells you{' '}
-          <span className="text-socal-stone-700">what they prioritize</span>.
+          <span className="text-gr-text">what they prioritize</span>.
           Here&apos;s how the top athleisure brands allocate their product investments.
         </p>
       </div>
 
       {/* Lead Insight */}
-      <Card className="bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 border-socal-ocean-200 ring-0 p-8">
+      <Card className="bg-gradient-to-r from-gr-accent-soft to-gr-raised border-gr-accent-soft ring-0 p-8">
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           <div className="flex-1">
-            <Text className="text-socal-stone-400 mb-2">The key finding</Text>
-            <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
+            <Text className="text-gr-subtle mb-2">The key finding</Text>
+            <h2 className="text-2xl md:text-3xl font-bold text-gr-text mb-3">
               Bottoms dominate every brand&apos;s catalog
             </h2>
-            <p className="text-socal-stone-500">
-              <span className="text-socal-stone-700 font-semibold">{bottomsFocused.name}</span> is most
-              bottoms-focused at <span className="text-socal-ocean-600 font-semibold">{bottomsPct}%</span> of
+            <p className="text-gr-muted">
+              <span className="text-gr-text font-semibold">{bottomsFocused.name}</span> is most
+              bottoms-focused at <span className="text-gr-accent font-semibold">{bottomsPct}%</span> of
               their catalog. Across all brands, bottoms average 40% of assortment—
               the biggest category investment.
             </p>
           </div>
           <div className="text-center md:text-right">
-            <Metric className="text-socal-ocean-600 text-5xl font-bold">
+            <Metric className="text-gr-accent text-5xl font-bold">
               {bottomsPct}%
             </Metric>
-            <Text className="text-socal-stone-400">bottoms focus</Text>
+            <Text className="text-gr-subtle">bottoms focus</Text>
           </div>
         </div>
       </Card>
 
       {/* Main Comparison Chart */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           Category Mix by Brand
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Percentage of catalog in each category (stacked to 100%)
         </Text>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <Card className="bg-gr-surface border-gr-border ring-0">
           <BarChart
             data={categoryMixData}
             index="name"
@@ -119,8 +119,8 @@ export default function BrandsPage() {
           ].map(({ label, color, desc }) => (
             <div key={label} className="flex items-center gap-2">
               <div className={`w-3 h-3 rounded ${color}`} />
-              <span className="text-socal-stone-600 text-sm">{label}</span>
-              <span className="text-socal-stone-400 text-xs">({desc})</span>
+              <span className="text-gr-muted text-sm">{label}</span>
+              <span className="text-gr-subtle text-xs">({desc})</span>
             </div>
           ))}
         </div>
@@ -128,7 +128,7 @@ export default function BrandsPage() {
 
       {/* Brand-specific callouts */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-6">
+        <h2 className="text-xl font-semibold text-gr-text mb-6">
           Brand Positioning Highlights
         </h2>
 
@@ -148,19 +148,19 @@ export default function BrandsPage() {
 
             return (
               <Link key={brand.slug} href={`/brand/${brand.slug}`}>
-                <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft hover:border-socal-ocean-300 transition-colors h-full">
-                  <Text className="text-socal-stone-400 text-sm">{brand.total.toLocaleString()} products</Text>
-                  <h3 className="text-socal-stone-700 font-semibold text-lg mt-1">{brand.name}</h3>
+                <Card className="bg-gr-surface border-gr-border ring-0 hover:border-gr-accent-soft transition-colors h-full">
+                  <Text className="text-gr-subtle text-sm">{brand.total.toLocaleString()} products</Text>
+                  <h3 className="text-gr-text font-semibold text-lg mt-1">{brand.name}</h3>
                   <div className="mt-4 space-y-2">
                     <div className="flex justify-between text-sm">
-                      <span className="text-socal-stone-400">Strongest:</span>
-                      <span className="text-socal-sage-600">
+                      <span className="text-gr-subtle">Strongest:</span>
+                      <span className="text-gr-success">
                         {formatCategory(topCat)} ({topPct}%)
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-socal-stone-400">Gap:</span>
-                      <span className="text-socal-stone-400">
+                      <span className="text-gr-subtle">Gap:</span>
+                      <span className="text-gr-subtle">
                         {formatCategory(weakCat)} ({weakPct}%)
                       </span>
                     </div>
@@ -173,19 +173,19 @@ export default function BrandsPage() {
       </div>
 
       {/* Strategic Takeaway */}
-      <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-        <h3 className="text-socal-stone-700 font-semibold text-lg mb-3">What this means for strategy</h3>
-        <div className="space-y-3 text-socal-stone-500">
+      <Card className="bg-gr-surface border-gr-border ring-0">
+        <h3 className="text-gr-text font-semibold text-lg mb-3">What this means for strategy</h3>
+        <div className="space-y-3 text-gr-muted">
           <p>
-            <span className="text-socal-stone-700">Bottoms are table stakes.</span> Every brand invests heavily
+            <span className="text-gr-text">Bottoms are table stakes.</span> Every brand invests heavily
             here because it&apos;s where customers start their athleisure journey.
           </p>
           <p>
-            <span className="text-socal-stone-700">Tops and outerwear differentiate.</span> Brands like Gymshark
+            <span className="text-gr-text">Tops and outerwear differentiate.</span> Brands like Gymshark
             lean into tops (28% of catalog) while Vuori invests more in outerwear.
           </p>
           <p>
-            <span className="text-socal-stone-700">Sports bras signal womens&apos; focus.</span> Alo and Lululemon
+            <span className="text-gr-text">Sports bras signal womens&apos; focus.</span> Alo and Lululemon
             show higher sports bra allocations, reflecting their womens-first positioning.
           </p>
         </div>

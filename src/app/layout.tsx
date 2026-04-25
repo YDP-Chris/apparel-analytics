@@ -17,7 +17,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Gymreapers Data & Analytics",
-  description: "Internal competitive intelligence and product analytics for Gymreapers.",
+  description: "Internal data, analytics, and competitive intelligence for Gymreapers. How we win the customer and the strength market.",
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({
@@ -28,15 +29,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-socal-stone-50 text-socal-stone-800 min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gr-bg text-gr-text min-h-screen`}
       >
         <SiteAuthProvider>
           <Navigation />
           <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             {children}
           </main>
-          <footer className="border-t border-socal-sand-200 py-8 mt-12 bg-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-socal-stone-400 text-sm">
+          <footer className="border-t border-gr-border py-8 mt-12 bg-gr-surface">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gr-subtle text-sm">
               <p>Internal — Gymreapers Data &amp; Analytics. Unauthorized access prohibited.</p>
             </div>
           </footer>

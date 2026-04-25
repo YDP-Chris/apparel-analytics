@@ -13,7 +13,7 @@ export default function StatsCard({ title, value, subtitle, icon }: StatsCardPro
       <div className="flex items-start justify-between">
         <div>
           <Text className="text-gray-400">{title}</Text>
-          <Metric className="text-white mt-1">
+          <Metric className="text-gr-text mt-1">
             {typeof value === 'number' ? value.toLocaleString() : value}
           </Metric>
           {subtitle && (

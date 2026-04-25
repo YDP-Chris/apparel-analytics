@@ -298,7 +298,7 @@ export default function TaxonomyPage() {
             Want to dig deeper?
           </h2>
           <p className="text-gr-muted text-sm leading-relaxed">
-            The full reference docs live in the data team's repo:
+            The full reference docs live in the data team&apos;s repo:
           </p>
           <ul className="mt-3 space-y-1.5 text-sm text-gr-muted">
             <li>

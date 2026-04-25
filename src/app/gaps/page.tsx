@@ -110,7 +110,7 @@ export default function GapsPage() {
           <div className="space-y-3">
             {data.class_gaps.length === 0 && (
               <div className="bg-gr-surface border border-gr-border rounded p-6 text-gr-muted">
-                No class-level gaps meet the threshold (peer >= 5 styles, focus &lt; 5).
+                No class-level gaps meet the threshold (peer with 5+ styles, focus under 5).
               </div>
             )}
             {data.class_gaps.map((g) => (

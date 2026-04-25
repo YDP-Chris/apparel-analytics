@@ -27,7 +27,7 @@ export default function SubNav() {
               href={item.href}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition ${
                 isActive
-                  ? 'bg-gr-accent text-white'
+                  ? 'bg-gr-accent text-gr-text'
                   : 'text-gr-muted hover:bg-gr-raised'
               }`}
             >

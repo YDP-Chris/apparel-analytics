@@ -102,13 +102,13 @@ export default function InventoryPage() {
     <div className="space-y-12">
       {/* Header */}
       <div className="max-w-3xl">
-        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-gr-accent uppercase tracking-wider text-sm mb-2">
           Demand Intelligence
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-gr-text mb-4">
           Inventory Tracker
         </h1>
-        <p className="text-socal-stone-500 text-lg leading-relaxed">
+        <p className="text-gr-muted text-lg leading-relaxed">
           Monitor product availability to identify high-demand items.
           Sell-outs reveal what customers actually want.
         </p>
@@ -116,41 +116,41 @@ export default function InventoryPage() {
 
       {/* Key Metrics */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Total Products</Text>
-          <Metric className="text-socal-stone-800">{totalProducts}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Shopify stores only</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Total Products</Text>
+          <Metric className="text-gr-text">{totalProducts}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">Shopify stores only</Text>
         </Card>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">In Stock</Text>
-          <Metric className="text-socal-sage-600">{totalInStock}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">{stockRate}% availability</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">In Stock</Text>
+          <Metric className="text-gr-success">{totalInStock}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">{stockRate}% availability</Text>
         </Card>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Sold Out</Text>
-          <Metric className="text-socal-sunset-600">{totalSoldOut}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Demand signals</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Sold Out</Text>
+          <Metric className="text-gr-accent">{totalSoldOut}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">Demand signals</Text>
         </Card>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Hot Products</Text>
-          <Metric className="text-socal-ocean-600">{sellouts.hot_products.length}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Fast sellouts (&lt;7 days)</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Hot Products</Text>
+          <Metric className="text-gr-accent">{sellouts.hot_products.length}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">Fast sellouts (&lt;7 days)</Text>
         </Card>
       </div>
 
       {/* Stock by Brand */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           Stock Status by Brand
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Product availability across tracked Shopify stores
         </Text>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <Card className="bg-gr-surface border-gr-border ring-0">
           <BarChart
             data={stockChartData}
             index="brand"
@@ -169,11 +169,11 @@ export default function InventoryPage() {
         <div>
           <div className="flex items-center gap-2 mb-2">
             <span className="text-2xl">🔥</span>
-            <h2 className="text-xl font-semibold text-socal-stone-800">
+            <h2 className="text-xl font-semibold text-gr-text">
               Hot Products
             </h2>
           </div>
-          <Text className="text-socal-stone-500 mb-6">
+          <Text className="text-gr-muted mb-6">
             Sold out within 7 days of launch - strong demand signals
           </Text>
 
@@ -181,14 +181,14 @@ export default function InventoryPage() {
             {sellouts.hot_products.slice(0, 6).map((product, i) => {
               const brand = BRAND_NAMES[product.product_id.split(':')[0]] || product.product_id.split(':')[0];
               return (
-                <Card key={i} className="bg-gradient-to-r from-socal-sunset-50 to-socal-sand-50 border-socal-sunset-200 ring-0">
+                <Card key={i} className="bg-gradient-to-r from-gr-accent-soft to-gr-raised border-gr-accent-soft ring-0">
                   <div className="flex items-start justify-between">
                     <div>
                       <Badge color="rose" size="sm">{brand}</Badge>
-                      <p className="text-lg font-semibold text-socal-stone-800 mt-2">
+                      <p className="text-lg font-semibold text-gr-text mt-2">
                         {product.title}
                       </p>
-                      <p className="text-sm text-socal-stone-500 mt-1">
+                      <p className="text-sm text-gr-muted mt-1">
                         Sold out in {product.days_since_launch} days
                       </p>
                     </div>
@@ -203,28 +203,28 @@ export default function InventoryPage() {
 
       {/* Currently Sold Out */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           Currently Sold Out
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Products with zero inventory - indicates high demand or discontinuation
         </Text>
 
         {soldOutProducts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {soldOutProducts.slice(0, 12).map((product, i) => (
-              <Card key={i} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+              <Card key={i} className="bg-gr-surface border-gr-border ring-0">
                 <Badge color="rose" size="sm">{product.brand}</Badge>
-                <p className="font-medium text-socal-stone-700 mt-2">{product.title}</p>
-                <p className="text-xs text-socal-stone-400 mt-1">
+                <p className="font-medium text-gr-text mt-2">{product.title}</p>
+                <p className="text-xs text-gr-subtle mt-1">
                   {product.product_type || 'Uncategorized'} • 0/{product.total_variants} variants
                 </p>
               </Card>
             ))}
           </div>
         ) : (
-          <Card className="bg-socal-sage-50 border-socal-sage-200 ring-0">
-            <p className="text-socal-sage-700 text-center py-4">
+          <Card className="bg-gr-success border-gr-success ring-0">
+            <p className="text-gr-success text-center py-4">
               All products currently in stock!
             </p>
           </Card>
@@ -234,21 +234,21 @@ export default function InventoryPage() {
       {/* Low Stock Warning */}
       {lowStockProducts.length > 0 && (
         <div>
-          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+          <h2 className="text-xl font-semibold text-gr-text mb-2">
             Low Stock Warning
           </h2>
-          <Text className="text-socal-stone-500 mb-6">
+          <Text className="text-gr-muted mb-6">
             Products with less than 30% of variants available - may sell out soon
           </Text>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {lowStockProducts.slice(0, 9).map((product, i) => (
-              <Card key={i} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+              <Card key={i} className="bg-gr-surface border-gr-border ring-0">
                 <div className="flex items-start justify-between">
                   <div>
                     <Badge color="amber" size="sm">{product.brand}</Badge>
-                    <p className="font-medium text-socal-stone-700 mt-2">{product.title}</p>
-                    <p className="text-xs text-socal-stone-400 mt-1">
+                    <p className="font-medium text-gr-text mt-2">{product.title}</p>
+                    <p className="text-xs text-gr-subtle mt-1">
                       {product.available_count}/{product.total_variants} variants left
                     </p>
                   </div>
@@ -265,18 +265,18 @@ export default function InventoryPage() {
       )}
 
       {/* Data Quality Note */}
-      <Card className="bg-socal-sand-50 border-socal-sand-200 ring-0">
+      <Card className="bg-gr-raised border-gr-border ring-0">
         <div className="flex items-start gap-4">
           <span className="text-2xl">📊</span>
           <div>
-            <h3 className="font-semibold text-socal-stone-700">About This Data</h3>
-            <p className="text-sm text-socal-stone-500 mt-1">
+            <h3 className="font-semibold text-gr-text">About This Data</h3>
+            <p className="text-sm text-gr-muted mt-1">
               Inventory tracking is available for <strong>Shopify stores</strong> (Ten Thousand, Outdoor Voices)
               that expose product availability in their API. Data updates every 4 hours.
               Sell-outs are detected when products go from available to unavailable.
             </p>
             {inventory.last_check && (
-              <p className="text-xs text-socal-stone-400 mt-2">
+              <p className="text-xs text-gr-subtle mt-2">
                 Last updated: {new Date(inventory.last_check).toLocaleString()}
               </p>
             )}

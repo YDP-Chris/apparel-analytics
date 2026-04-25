@@ -2,8 +2,8 @@ import { getColorMix, getBrands, formatColor } from '@/lib/data';
 import { COLOR_FAMILY_COLORS } from '@/lib/types';
 
 export const metadata = {
-  title: 'Color Analysis | Apparel Intel',
-  description: 'Color strategy breakdown across premium athleisure brands',
+  title: 'Color Analysis | Gymreapers Data & Analytics',
+  description: 'Color strategy breakdown across strength market brands',
 };
 
 export default function ColorsPage() {
@@ -32,23 +32,23 @@ export default function ColorsPage() {
     <div className="space-y-12">
       {/* Hero: The Color Story */}
       <header className="text-center max-w-3xl mx-auto">
-        <p className="text-socal-ocean-600 font-medium text-sm uppercase tracking-wide mb-2">
+        <p className="text-gr-accent font-medium text-sm uppercase tracking-wide mb-2">
           Color Strategy Analysis
         </p>
-        <h1 className="text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-4xl font-bold text-gr-text mb-4">
           How Brands Use Color
         </h1>
-        <p className="text-lg text-socal-stone-500 leading-relaxed">
-          <span className="font-semibold text-socal-stone-700">{topThreePct}%</span> of all products
+        <p className="text-lg text-gr-muted leading-relaxed">
+          <span className="font-semibold text-gr-text">{topThreePct}%</span> of all products
           are {topThreeColors.map(([c]) => formatColor(c)).join(', ')} — the foundation colors of athleisure.
           But strategic differentiation happens in how brands deploy accent colors.
         </p>
       </header>
 
       {/* Industry Color Distribution */}
-      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-        <h2 className="text-xl font-bold text-socal-stone-800 mb-2">Industry Color Palette</h2>
-        <p className="text-socal-stone-500 mb-6">
+      <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+        <h2 className="text-xl font-bold text-gr-text mb-2">Industry Color Palette</h2>
+        <p className="text-gr-muted mb-6">
           Total products by color family across {brands.length} brands
         </p>
 
@@ -60,16 +60,16 @@ export default function ColorsPage() {
             return (
               <div key={color} className="flex flex-col items-center">
                 <div
-                  className={`w-16 h-16 rounded-xl shadow-soft transition-transform hover:scale-105 ${
-                    isTopThree ? 'ring-2 ring-socal-ocean-200 ring-offset-2' : ''
+                  className={`w-16 h-16 rounded-md transition-transform hover:scale-105 ${
+                    isTopThree ? 'ring-2 ring-gr-accent-soft ring-offset-2' : ''
                   }`}
                   style={{ backgroundColor: COLOR_FAMILY_COLORS[color] || '#6b7280' }}
                   role="img"
                   aria-label={`${formatColor(color)}: ${count.toLocaleString()} products (${pct}%)`}
                 />
-                <span className="text-sm font-medium text-socal-stone-700 mt-2">{formatColor(color)}</span>
-                <span className="text-xs text-socal-stone-400">{count.toLocaleString()}</span>
-                <span className={`text-xs font-medium mt-0.5 ${isTopThree ? 'text-socal-ocean-600' : 'text-socal-stone-400'}`}>
+                <span className="text-sm font-medium text-gr-text mt-2">{formatColor(color)}</span>
+                <span className="text-xs text-gr-subtle">{count.toLocaleString()}</span>
+                <span className={`text-xs font-medium mt-0.5 ${isTopThree ? 'text-gr-accent' : 'text-gr-subtle'}`}>
                   {pct}%
                 </span>
               </div>
@@ -79,32 +79,32 @@ export default function ColorsPage() {
       </section>
 
       {/* The Key Insight */}
-      <section className="bg-gradient-to-r from-socal-sand-100 to-socal-ocean-50 rounded-2xl p-8 border border-socal-sand-200">
+      <section className="bg-gradient-to-r from-gr-border to-gr-accent-soft rounded-md p-8 border border-gr-border">
         <div className="max-w-2xl">
-          <p className="text-socal-stone-400 text-sm font-medium uppercase tracking-wide mb-2">Key Insight</p>
-          <p className="text-xl text-socal-stone-700 leading-relaxed">
+          <p className="text-gr-subtle text-sm font-medium uppercase tracking-wide mb-2">Key Insight</p>
+          <p className="text-xl text-gr-text leading-relaxed">
             Neutrals dominate for good reason — they&apos;re versatile and sell.
-            But brands differentiate through <span className="font-semibold text-socal-ocean-700">heather</span> (performance),
-            <span className="font-semibold text-socal-sage-600"> earth tones</span> (lifestyle),
-            and <span className="font-semibold text-socal-sunset-600">bold colors</span> (fashion-forward).
+            But brands differentiate through <span className="font-semibold text-gr-accent">heather</span> (performance),
+            <span className="font-semibold text-gr-success"> earth tones</span> (lifestyle),
+            and <span className="font-semibold text-gr-accent">bold colors</span> (fashion-forward).
           </p>
         </div>
       </section>
 
       {/* Color Mix Comparison Table */}
-      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-        <h2 className="text-xl font-bold text-socal-stone-800 mb-2">Brand Color Strategies</h2>
-        <p className="text-socal-stone-500 mb-6">
+      <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+        <h2 className="text-xl font-bold text-gr-text mb-2">Brand Color Strategies</h2>
+        <p className="text-gr-muted mb-6">
           Percentage of each brand&apos;s catalog by color family
         </p>
 
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b-2 border-socal-sand-200">
-                <th className="text-left py-3 px-4 font-semibold text-socal-stone-700">Brand</th>
+              <tr className="border-b-2 border-gr-border">
+                <th className="text-left py-3 px-4 font-semibold text-gr-text">Brand</th>
                 {['black', 'white', 'gray', 'blue', 'heather', 'green'].map((color) => (
-                  <th key={color} className="text-right py-3 px-4 font-medium text-socal-stone-500">
+                  <th key={color} className="text-right py-3 px-4 font-medium text-gr-muted">
                     <div className="flex items-center justify-end gap-2">
                       <div
                         className="w-3 h-3 rounded-full"
@@ -120,25 +120,25 @@ export default function ColorsPage() {
               {colorMix.map((row, index) => (
                 <tr
                   key={row.brand}
-                  className={`border-b border-socal-sand-100 ${
-                    row.brand === 'Vuori' ? 'bg-socal-ocean-50' : index % 2 === 0 ? 'bg-white' : 'bg-socal-stone-50'
+                  className={`border-b border-gr-border ${
+                    row.brand === 'Vuori' ? 'bg-gr-accent-soft' : index % 2 === 0 ? 'bg-gr-surface' : 'bg-gr-bg'
                   }`}
                 >
-                  <td className={`py-4 px-4 font-semibold ${row.brand === 'Vuori' ? 'text-socal-ocean-700' : 'text-socal-stone-700'}`}>
+                  <td className={`py-4 px-4 font-semibold ${row.brand === 'Vuori' ? 'text-gr-accent' : 'text-gr-text'}`}>
                     {row.brand === 'Vuori' && '→ '}{row.brand}
                   </td>
-                  <td className="py-4 px-4 text-right text-socal-stone-600">{row.black > 0 ? `${row.black}%` : '—'}</td>
-                  <td className="py-4 px-4 text-right text-socal-stone-600">{row.white > 0 ? `${row.white}%` : '—'}</td>
-                  <td className="py-4 px-4 text-right text-socal-stone-600">{row.gray > 0 ? `${row.gray}%` : '—'}</td>
-                  <td className="py-4 px-4 text-right text-socal-stone-600">{row.blue > 0 ? `${row.blue}%` : '—'}</td>
-                  <td className="py-4 px-4 text-right text-socal-stone-600">
+                  <td className="py-4 px-4 text-right text-gr-muted">{row.black > 0 ? `${row.black}%` : '—'}</td>
+                  <td className="py-4 px-4 text-right text-gr-muted">{row.white > 0 ? `${row.white}%` : '—'}</td>
+                  <td className="py-4 px-4 text-right text-gr-muted">{row.gray > 0 ? `${row.gray}%` : '—'}</td>
+                  <td className="py-4 px-4 text-right text-gr-muted">{row.blue > 0 ? `${row.blue}%` : '—'}</td>
+                  <td className="py-4 px-4 text-right text-gr-muted">
                     {row.heather > 0 ? (
-                      <span className={row.heather > 10 ? 'font-semibold text-socal-ocean-600' : ''}>
+                      <span className={row.heather > 10 ? 'font-semibold text-gr-accent' : ''}>
                         {row.heather}%
                       </span>
                     ) : '—'}
                   </td>
-                  <td className="py-4 px-4 text-right text-socal-stone-600">{row.green > 0 ? `${row.green}%` : '—'}</td>
+                  <td className="py-4 px-4 text-right text-gr-muted">{row.green > 0 ? `${row.green}%` : '—'}</td>
                 </tr>
               ))}
             </tbody>
@@ -148,7 +148,7 @@ export default function ColorsPage() {
 
       {/* Brand Color Profiles */}
       <section>
-        <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Brand Color Profiles</h2>
+        <h2 className="text-xl font-bold text-gr-text mb-6">Brand Color Profiles</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {brands.map((brand) => {
             const sortedBrandColors = Object.entries(brand.colors || {})
@@ -165,17 +165,17 @@ export default function ColorsPage() {
             return (
               <div
                 key={brand.slug}
-                className={`rounded-2xl p-6 shadow-soft border ${
+                className={`rounded-md p-6 border ${
                   isVuori
-                    ? 'bg-gradient-to-br from-socal-ocean-50 to-white border-socal-ocean-200'
-                    : 'bg-white border-socal-sand-100'
+                    ? 'bg-gradient-to-br from-gr-accent-soft to-white border-gr-accent-soft'
+                    : 'bg-gr-surface border-gr-border'
                 }`}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className={`font-bold text-lg ${isVuori ? 'text-socal-ocean-700' : 'text-socal-stone-700'}`}>
+                  <h3 className={`font-bold text-lg ${isVuori ? 'text-gr-accent' : 'text-gr-text'}`}>
                     {brand.name}
                   </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-socal-sand-100 text-socal-stone-500">
+                  <span className="text-xs px-2 py-1 rounded-full bg-gr-border text-gr-muted">
                     {brand.colorCoverage}% coverage
                   </span>
                 </div>
@@ -199,7 +199,7 @@ export default function ColorsPage() {
                   })}
                   {brand.colorCoverage < 100 && (
                     <div
-                      className="h-full bg-socal-stone-200"
+                      className="h-full bg-gr-border"
                       style={{ width: `${100 - brand.colorCoverage}%` }}
                       title="No color data"
                     />
@@ -217,17 +217,17 @@ export default function ColorsPage() {
                             className="w-3 h-3 rounded-full"
                             style={{ backgroundColor: COLOR_FAMILY_COLORS[color] || '#6b7280' }}
                           />
-                          <span className="text-socal-stone-600">{formatColor(color)}</span>
+                          <span className="text-gr-muted">{formatColor(color)}</span>
                         </div>
-                        <span className="text-socal-stone-400 font-mono text-xs">{pct.toFixed(1)}%</span>
+                        <span className="text-gr-subtle font-mono text-xs">{pct.toFixed(1)}%</span>
                       </div>
                     );
                   })}
                 </div>
 
                 {/* Insight tag */}
-                <div className="mt-4 pt-4 border-t border-socal-sand-100">
-                  <p className="text-xs text-socal-stone-400">
+                <div className="mt-4 pt-4 border-t border-gr-border">
+                  <p className="text-xs text-gr-subtle">
                     {neutralPct}% neutrals •
                     {brand.avgColorsPerStyle.toFixed(1)} colors/style
                   </p>
@@ -239,7 +239,7 @@ export default function ColorsPage() {
       </section>
 
       {/* Strategic Insights */}
-      <section className="bg-gradient-to-br from-socal-ocean-600 to-socal-ocean-800 rounded-2xl p-8 text-white">
+      <section className="bg-gradient-to-br from-gr-accent to-gr-accent rounded-md p-8 text-gr-text">
         <h2 className="text-xl font-bold mb-6">Strategic Insights</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {brands
@@ -262,9 +262,9 @@ export default function ColorsPage() {
               }
 
               return (
-                <div key={brand.slug} className="bg-white/10 rounded-xl p-4">
-                  <p className="font-semibold text-white">{brand.name}</p>
-                  <p className="text-socal-ocean-200 text-sm mt-1">{insight}</p>
+                <div key={brand.slug} className="bg-gr-surface/10 rounded-md p-4">
+                  <p className="font-semibold text-gr-text">{brand.name}</p>
+                  <p className="text-gr-accent-soft text-sm mt-1">{insight}</p>
                 </div>
               );
             })}

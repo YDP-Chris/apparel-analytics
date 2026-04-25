@@ -104,13 +104,13 @@ export default function TrendsPage() {
     <div className="space-y-12">
       {/* Header */}
       <div className="max-w-3xl">
-        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-gr-accent uppercase tracking-wider text-sm mb-2">
           Competitive Momentum
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-gr-text mb-4">
           Trends Over Time
         </h1>
-        <p className="text-socal-stone-500 text-lg leading-relaxed">
+        <p className="text-gr-muted text-lg leading-relaxed">
           {snapshots.length} days of daily snapshots tracking competitive signals across
           Reddit velocity, job postings, review ratings, and catalog size.
         </p>
@@ -118,28 +118,28 @@ export default function TrendsPage() {
 
       {/* Key Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Days Tracked</Text>
-          <Metric className="text-socal-stone-800">{snapshots.length}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Days Tracked</Text>
+          <Metric className="text-gr-text">{snapshots.length}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">
             {snapshots.length > 0 ? `${formatDate(snapshots[0].date)} - ${formatDate(snapshots[snapshots.length - 1].date)}` : ''}
           </Text>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Reddit Total (7d)</Text>
-          <Metric className="text-socal-stone-800">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Reddit Total (7d)</Text>
+          <Metric className="text-gr-text">
             {((latestSnapshot.reddit as Record<string, number>)?._total || 0).toLocaleString()}
           </Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Open Jobs</Text>
-          <Metric className="text-socal-stone-800">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Open Jobs</Text>
+          <Metric className="text-gr-text">
             {((latestSnapshot.jobs as Record<string, number>)?._total || 0).toLocaleString()}
           </Metric>
         </Card>
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Products Tracked</Text>
-          <Metric className="text-socal-stone-800">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Products Tracked</Text>
+          <Metric className="text-gr-text">
             {Object.entries((latestSnapshot.products as Record<string, number>) || {})
               .reduce((sum, [, v]) => sum + v, 0).toLocaleString()}
           </Metric>
@@ -157,8 +157,8 @@ export default function TrendsPage() {
               aria-selected={activeChart === chart.id}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all whitespace-nowrap ${
                 activeChart === chart.id
-                  ? 'bg-socal-ocean-600 text-white'
-                  : 'bg-socal-sand-100 text-socal-stone-500 hover:bg-socal-sand-200'
+                  ? 'bg-gr-accent text-gr-text'
+                  : 'bg-gr-border text-gr-muted hover:bg-gr-border'
               }`}
             >
               {chart.label}
@@ -166,8 +166,8 @@ export default function TrendsPage() {
           ))}
         </div>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">
             {CHARTS.find(c => c.id === activeChart)?.label} Over Time
           </h3>
           <AreaChart
@@ -185,18 +185,18 @@ export default function TrendsPage() {
 
       {/* Momentum Cards */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-4">7-Day Momentum</h2>
+        <h2 className="text-xl font-semibold text-gr-text mb-4">7-Day Momentum</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
           {getBrands(activeChart).map(brand => {
             const momentum = calcMomentum(activeChart, brand);
             const latest = (latestSnapshot[activeChart as keyof Snapshot] as Record<string, number>)?.[brand] || 0;
             return (
-              <Card key={brand} className="bg-white border-socal-sand-100 ring-0 shadow-soft p-4">
+              <Card key={brand} className="bg-gr-surface border-gr-border ring-0 p-4">
                 <Badge color={momentum !== null && momentum > 0 ? 'emerald' : momentum !== null && momentum < 0 ? 'rose' : 'gray'} size="xs">
                   {momentum !== null ? `${momentum > 0 ? '+' : ''}${momentum}%` : '--'}
                 </Badge>
-                <p className="text-sm font-medium text-socal-stone-700 mt-2">{BRAND_NAMES[brand]}</p>
-                <p className="text-lg font-bold text-socal-stone-800">
+                <p className="text-sm font-medium text-gr-text mt-2">{BRAND_NAMES[brand]}</p>
+                <p className="text-lg font-bold text-gr-text">
                   {activeChart === 'trustpilot' ? latest.toFixed(1) : latest.toLocaleString()}
                 </p>
               </Card>
@@ -207,8 +207,8 @@ export default function TrendsPage() {
 
       {/* Trustpilot Current Ratings */}
       {trustpilotCurrent.length > 0 && (
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">
             Current Trustpilot Ratings
           </h3>
           <BarChart
@@ -227,8 +227,8 @@ export default function TrendsPage() {
 
       {/* Facebook Followers */}
       {fbData.length > 0 && (
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <h3 className="text-sm font-semibold text-socal-stone-500 uppercase tracking-wider mb-4">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <h3 className="text-sm font-semibold text-gr-muted uppercase tracking-wider mb-4">
             Facebook Followers
           </h3>
           <BarChart

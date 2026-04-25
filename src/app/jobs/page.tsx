@@ -55,7 +55,7 @@ const BRAND_COLORS: Record<string, 'cyan' | 'rose' | 'violet' | 'amber' | 'emera
 };
 
 const DEPT_COLORS: Record<string, string> = {
-  retail: 'bg-rose-500',
+  retail: 'bg-gr-bg0',
   operations: 'bg-amber-500',
   engineering: 'bg-blue-500',
   design: 'bg-violet-500',
@@ -121,13 +121,13 @@ export default function JobsPage() {
     <div className="space-y-12">
       {/* Header */}
       <div className="max-w-3xl">
-        <Text className="text-socal-ocean-600 uppercase tracking-wider text-sm mb-2">
+        <Text className="text-gr-accent uppercase tracking-wider text-sm mb-2">
           Hiring Intelligence
         </Text>
-        <h1 className="text-3xl md:text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-gr-text mb-4">
           Job Postings
         </h1>
-        <p className="text-socal-stone-500 text-lg leading-relaxed">
+        <p className="text-gr-muted text-lg leading-relaxed">
           Track hiring activity across athleisure brands. Job counts signal growth,
           department breakdown reveals strategic priorities.
         </p>
@@ -135,52 +135,52 @@ export default function JobsPage() {
 
       {/* Key Metrics */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Total Open Roles</Text>
-          <Metric className="text-socal-stone-800">{totalJobs}</Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Across {brandsWithJobs.length} brands</Text>
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Total Open Roles</Text>
+          <Metric className="text-gr-text">{totalJobs}</Metric>
+          <Text className="text-xs text-gr-subtle mt-1">Across {brandsWithJobs.length} brands</Text>
         </Card>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Top Hiring</Text>
-          <Metric className="text-socal-ocean-600">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Top Hiring</Text>
+          <Metric className="text-gr-accent">
             {topBrand ? BRAND_NAMES[topBrand[0]] || topBrand[1].name : '-'}
           </Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">
+          <Text className="text-xs text-gr-subtle mt-1">
             {topBrand ? `${topBrand[1].total_jobs} open roles` : ''}
           </Text>
         </Card>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Top Department</Text>
-          <Metric className="text-socal-stone-800">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Top Department</Text>
+          <Metric className="text-gr-text">
             {deptChartData[0]?.name || '-'}
           </Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">
+          <Text className="text-xs text-gr-subtle mt-1">
             {deptChartData[0] ? `${deptChartData[0].value} roles` : ''}
           </Text>
         </Card>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
-          <Text className="text-socal-stone-400">Avg per Brand</Text>
-          <Metric className="text-socal-stone-800">
+        <Card className="bg-gr-surface border-gr-border ring-0">
+          <Text className="text-gr-subtle">Avg per Brand</Text>
+          <Metric className="text-gr-text">
             {brandsWithJobs.length > 0 ? Math.round(totalJobs / brandsWithJobs.length) : 0}
           </Metric>
-          <Text className="text-xs text-socal-stone-400 mt-1">Open positions</Text>
+          <Text className="text-xs text-gr-subtle mt-1">Open positions</Text>
         </Card>
       </div>
 
       {/* Key Insight */}
       {topBrand && (
-        <Card className="bg-gradient-to-r from-socal-sand-50 to-socal-ocean-50 border-socal-sand-200 ring-0 p-8">
+        <Card className="bg-gradient-to-r from-gr-raised to-gr-accent-soft border-gr-border ring-0 p-8">
           <div className="flex flex-col md:flex-row md:items-center gap-6">
             <div className="flex-1">
-              <Text className="text-socal-stone-400 mb-2">Growth Signal</Text>
-              <h2 className="text-2xl md:text-3xl font-bold text-socal-stone-800 mb-3">
-                <span className="text-socal-ocean-600">{BRAND_NAMES[topBrand[0]] || topBrand[1].name}</span>{' '}
+              <Text className="text-gr-subtle mb-2">Growth Signal</Text>
+              <h2 className="text-2xl md:text-3xl font-bold text-gr-text mb-3">
+                <span className="text-gr-accent">{BRAND_NAMES[topBrand[0]] || topBrand[1].name}</span>{' '}
                 is hiring aggressively
               </h2>
-              <p className="text-socal-stone-500">
+              <p className="text-gr-muted">
                 With {topBrand[1].total_jobs} open roles, that&apos;s{' '}
                 {brandsWithJobs[1] && (
                   <>{Math.round(topBrand[1].total_jobs / brandsWithJobs[1][1].total_jobs * 10) / 10}x more than {BRAND_NAMES[brandsWithJobs[1][0]] || brandsWithJobs[1][1].name}</>
@@ -189,10 +189,10 @@ export default function JobsPage() {
               </p>
             </div>
             <div className="text-center md:text-right">
-              <Metric className="text-socal-ocean-600 text-5xl md:text-6xl font-bold">
+              <Metric className="text-gr-accent text-5xl md:text-6xl font-bold">
                 {topBrand[1].total_jobs}
               </Metric>
-              <Text className="text-socal-stone-400">open roles</Text>
+              <Text className="text-gr-subtle">open roles</Text>
             </div>
           </div>
         </Card>
@@ -200,14 +200,14 @@ export default function JobsPage() {
 
       {/* Jobs by Brand */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           Open Roles by Brand
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Current job postings across tracked companies
         </Text>
 
-        <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+        <Card className="bg-gr-surface border-gr-border ring-0">
           <BarChart
             data={jobCountData}
             index="brand"
@@ -224,14 +224,14 @@ export default function JobsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Department Breakdown */}
         <div>
-          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+          <h2 className="text-xl font-semibold text-gr-text mb-2">
             Hiring by Department
           </h2>
-          <Text className="text-socal-stone-500 mb-6">
+          <Text className="text-gr-muted mb-6">
             Where brands are investing in talent
           </Text>
 
-          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Card className="bg-gr-surface border-gr-border ring-0">
             <DonutChart
               data={deptChartData}
               category="value"
@@ -243,7 +243,7 @@ export default function JobsPage() {
             <div className="mt-4 grid grid-cols-2 gap-2">
               {deptChartData.slice(0, 6).map((dept) => (
                 <div key={dept.name} className="flex items-center justify-between text-sm">
-                  <span className="text-socal-stone-600">{dept.name}</span>
+                  <span className="text-gr-muted">{dept.name}</span>
                   <span className="font-medium">{dept.value}</span>
                 </div>
               ))}
@@ -253,14 +253,14 @@ export default function JobsPage() {
 
         {/* Seniority Breakdown */}
         <div>
-          <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+          <h2 className="text-xl font-semibold text-gr-text mb-2">
             Hiring by Seniority
           </h2>
-          <Text className="text-socal-stone-500 mb-6">
+          <Text className="text-gr-muted mb-6">
             Experience levels being recruited
           </Text>
 
-          <Card className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+          <Card className="bg-gr-surface border-gr-border ring-0">
             <DonutChart
               data={seniorityData}
               category="value"
@@ -272,7 +272,7 @@ export default function JobsPage() {
             <div className="mt-4 grid grid-cols-2 gap-2">
               {seniorityData.slice(0, 6).map((level) => (
                 <div key={level.name} className="flex items-center justify-between text-sm">
-                  <span className="text-socal-stone-600">{level.name}</span>
+                  <span className="text-gr-muted">{level.name}</span>
                   <span className="font-medium">{level.value}</span>
                 </div>
               ))}
@@ -283,21 +283,21 @@ export default function JobsPage() {
 
       {/* Brand Details */}
       <div>
-        <h2 className="text-xl font-semibold text-socal-stone-800 mb-2">
+        <h2 className="text-xl font-semibold text-gr-text mb-2">
           Brand Breakdown
         </h2>
-        <Text className="text-socal-stone-500 mb-6">
+        <Text className="text-gr-muted mb-6">
           Department focus and recent postings by brand
         </Text>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {brandsWithJobs.map(([brandId, brand]) => (
-            <Card key={brandId} className="bg-white border-socal-sand-100 ring-0 shadow-soft">
+            <Card key={brandId} className="bg-gr-surface border-gr-border ring-0">
               <div className="flex items-center justify-between mb-4">
                 <Badge color={BRAND_COLORS[brandId] || 'gray'} size="lg">
                   {BRAND_NAMES[brandId] || brand.name}
                 </Badge>
-                <span className="text-2xl font-bold text-socal-stone-800">
+                <span className="text-2xl font-bold text-gr-text">
                   {brand.total_jobs}
                 </span>
               </div>
@@ -310,10 +310,10 @@ export default function JobsPage() {
                   .map(([dept, count]) => (
                     <div key={dept}>
                       <div className="flex justify-between text-xs mb-1">
-                        <span className="text-socal-stone-500 capitalize">{dept}</span>
-                        <span className="text-socal-stone-600">{count}</span>
+                        <span className="text-gr-muted capitalize">{dept}</span>
+                        <span className="text-gr-muted">{count}</span>
                       </div>
-                      <div className="w-full bg-socal-stone-100 rounded-full h-2">
+                      <div className="w-full bg-gr-raised rounded-full h-2">
                         <div
                           className={`${DEPT_COLORS[dept] || 'bg-gray-400'} h-2 rounded-full`}
                           style={{ width: `${(count / brand.total_jobs) * 100}%` }}
@@ -324,8 +324,8 @@ export default function JobsPage() {
               </div>
 
               {/* Sample jobs */}
-              <div className="border-t border-socal-sand-100 pt-3">
-                <p className="text-xs text-socal-stone-400 mb-2">Recent postings:</p>
+              <div className="border-t border-gr-border pt-3">
+                <p className="text-xs text-gr-subtle mb-2">Recent postings:</p>
                 <div className="space-y-1">
                   {brand.jobs?.slice(0, 3).map((job) => (
                     <a
@@ -333,7 +333,7 @@ export default function JobsPage() {
                       href={job.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block text-xs text-socal-stone-600 hover:text-socal-ocean-600 truncate"
+                      className="block text-xs text-gr-muted hover:text-gr-accent truncate"
                     >
                       • {job.title}
                     </a>
@@ -341,7 +341,7 @@ export default function JobsPage() {
                 </div>
               </div>
 
-              <p className="text-xs text-socal-stone-400 mt-3">
+              <p className="text-xs text-gr-subtle mt-3">
                 Platform: {brand.platform}
               </p>
             </Card>
@@ -350,19 +350,19 @@ export default function JobsPage() {
       </div>
 
       {/* Data Quality Note */}
-      <Card className="bg-socal-sand-50 border-socal-sand-200 ring-0">
+      <Card className="bg-gr-raised border-gr-border ring-0">
         <div className="flex items-start gap-4">
           <span className="text-2xl">💼</span>
           <div>
-            <h3 className="font-semibold text-socal-stone-700">About This Data</h3>
-            <p className="text-sm text-socal-stone-500 mt-1">
+            <h3 className="font-semibold text-gr-text">About This Data</h3>
+            <p className="text-sm text-gr-muted mt-1">
               Job postings are collected from Greenhouse, Lever, and Ashby job boards.
               Department and seniority are estimated from job titles using keyword analysis.
               Some brands (Vuori, Lululemon, Rhone) are pending integration.
               Data updates every 4 hours.
             </p>
             {data.generated_at && (
-              <p className="text-xs text-socal-stone-400 mt-2">
+              <p className="text-xs text-gr-subtle mt-2">
                 Last updated: {new Date(data.generated_at).toLocaleString()}
               </p>
             )}
