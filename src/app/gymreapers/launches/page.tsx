@@ -49,6 +49,31 @@ export default function GymreapersLaunchesPage() {
         </p>
       </header>
 
+      {(() => {
+        const ranked = data.brand_order
+          .map((slug) => ({ slug, last7: section.summary[slug]?.last_7d || 0, last30: section.summary[slug]?.last_30d || 0 }))
+          .sort((a, b) => b.last7 - a.last7);
+        const top = ranked[0];
+        const focusRow = ranked.find((r) => r.slug === focus);
+        return (
+          <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
+            <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
+            <p className="text-lg text-gr-text leading-relaxed">
+              The strength market shipped <b className="text-gr-accent">{totalLast7d}</b> new SKUs in the last 7 days, <b>{totalLast30d}</b> in the last 30.
+              {top && top.last7 > 0 && (
+                <> <b>{data.brand_names[top.slug] || top.slug}</b> led the week with <b>{top.last7}</b> drops.</>
+              )}
+              {focusRow && (
+                <> Gymreapers contributed <b className="text-gr-accent">{focusRow.last7}</b> ({focusShare}% of weekly volume).</>
+              )}
+            </p>
+            <p className="text-gr-muted text-base mt-3 leading-relaxed">
+              <span className="text-gr-text font-bold">What to watch:</span> if a peer&apos;s daily cadence breaks 5+ for several days running, that&apos;s a launch signal worth investigating before the press pickup.
+            </p>
+          </section>
+        );
+      })()}
+
       <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
           { label: 'New (7d)', value: totalLast7d, context: 'across all 7 brands' },

@@ -45,6 +45,38 @@ export default function GymreapersMixPage() {
         </p>
       </header>
 
+      {(() => {
+        const focusMix = data.mix[focus];
+        const topCat = focusMix?.categoryMix
+          ? Object.entries(focusMix.categoryMix).sort((a, b) => b[1] - a[1])[0]
+          : null;
+        const focusExt = focusMix?.sizeStrategy?.extendedSizePct ?? 0;
+        const focusColors = focusMix?.colorStrategy?.avgColorsPerStyle ?? 0;
+        // Find peer with deepest color depth for comparison
+        const peerColors = mixOrder
+          .filter((s) => s !== focus)
+          .map((s) => ({ slug: s, val: data.mix[s]?.colorStrategy?.avgColorsPerStyle || 0 }))
+          .sort((a, b) => b.val - a.val);
+        const colorLeader = peerColors[0];
+        return (
+          <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
+            <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
+            <p className="text-lg text-gr-text leading-relaxed">
+              {topCat && (
+                <>Our biggest category is <b className="text-gr-accent">{topCat[0]}</b> at <b>{topCat[1].toFixed(0)}%</b> of catalog. </>
+              )}
+              We offer <b className="text-gr-accent">{focusExt.toFixed(0)}%</b> extended sizes (2XL+) and average <b className="text-gr-accent">{focusColors.toFixed(1)}</b> colors per style.
+              {colorLeader && colorLeader.val > focusColors && (
+                <> {data.brand_names[colorLeader.slug] || colorLeader.slug} runs <b>{colorLeader.val.toFixed(1)}</b> colors per style — a measurable depth gap.</>
+              )}
+            </p>
+            <p className="text-gr-muted text-base mt-3 leading-relaxed">
+              <span className="text-gr-text font-bold">Decision lens:</span> mix is the merchandising fingerprint. Compare each row below to ask whether we&apos;re leaning where the strength athlete spends or where we want them to spend.
+            </p>
+          </section>
+        );
+      })()}
+
       {/* Category mix — stacked bars */}
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
         <h2 className="text-xl font-bold text-gr-text mb-2">Category Mix</h2>

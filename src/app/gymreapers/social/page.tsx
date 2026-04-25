@@ -49,6 +49,27 @@ export default function GymreapersSocialPage() {
         </p>
       </header>
 
+      {(() => {
+        const topBrand = rankedBrands[0];
+        const focusShare = totalMentions7d > 0 ? Math.round((focusMentions / totalMentions7d) * 100) : 0;
+        const topShare = topBrand && totalMentions7d > 0 ? Math.round(((topBrand.v?.mentions_7d || 0) / totalMentions7d) * 100) : 0;
+        return (
+          <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
+            <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
+            <p className="text-lg text-gr-text leading-relaxed">
+              The strength market is talking <b className="text-gr-accent">{totalMentions7d.toLocaleString()}</b> times this week on Reddit alone.
+              {topBrand && (
+                <> <b>{data.brand_names[topBrand.slug] || topBrand.slug}</b> dominates with <b>{topBrand.v?.mentions_7d}</b> mentions ({topShare}% of share).</>
+              )}
+              {' '}Gymreapers sits at <b className="text-gr-accent">{focusMentions}</b> mentions ({focusShare}% of share).
+            </p>
+            <p className="text-gr-muted text-base mt-3 leading-relaxed">
+              <span className="text-gr-text font-bold">Decision lens:</span> share-of-conversation is a leading indicator for share-of-revenue at this scale. If our share is below catalog share, we&apos;re under-marketing. If above, we&apos;re punching above weight on content.
+            </p>
+          </section>
+        );
+      })()}
+
       <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
           { label: 'Reddit mentions (7d)', value: totalMentions7d.toLocaleString(), context: 'across 7 brands' },

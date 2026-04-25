@@ -39,6 +39,34 @@ export default function GymreapersJobsPage() {
         </p>
       </header>
 
+      {(() => {
+        const ranked = jobsBrands.slice().sort((a, b) => (b.j!.total_jobs || 0) - (a.j!.total_jobs || 0));
+        const topBrand = ranked[0];
+        const noDataCount = noDataBrands.length;
+        return (
+          <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
+            <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
+            <p className="text-lg text-gr-text leading-relaxed">
+              <b className="text-gr-accent">{totalJobs.toLocaleString()}</b> open roles across {jobsBrands.length} strength brands we track via ATS feeds.
+              {topBrand && (
+                <> <b>{data.brand_names[topBrand.slug] || topBrand.slug}</b> is hiring most aggressively with <b>{topBrand.j!.total_jobs}</b> roles open</>
+              )}
+              {focusJobs > 0 ? (
+                <> &middot; Gymreapers has <b className="text-gr-accent">{focusJobs}</b> open roles.</>
+              ) : (
+                <> &middot; Gymreapers has no public ATS feed integrated yet.</>
+              )}
+              {noDataCount > 0 && (
+                <> {noDataCount} brand{noDataCount === 1 ? '' : 's'} not yet integrated into the hiring tracker.</>
+              )}
+            </p>
+            <p className="text-gr-muted text-base mt-3 leading-relaxed">
+              <span className="text-gr-text font-bold">What hiring tells us:</span> aggressive role openings often follow a funding round or a strategic push (new category, new region, new channel). Watch what roles a competitor opens — engineering vs marketing vs ops tells you their next move.
+            </p>
+          </section>
+        );
+      })()}
+
       <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
           { label: 'Total openings', value: totalJobs.toLocaleString(), context: 'across tracked brands' },
