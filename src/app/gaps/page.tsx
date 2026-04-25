@@ -123,6 +123,68 @@ export default function GapsPage() {
           </p>
         </section>
 
+        {(() => {
+          // Horizontal bar chart of class gaps, sorted by gap_size desc
+          const sorted = [...data.class_gaps].sort((a, b) => b.gap_size - a.gap_size);
+          if (sorted.length === 0) return null;
+          const max = Math.max(...sorted.map((g) => g.peer_max_styles), 1);
+          return (
+            <section>
+              <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
+              <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">
+                Class Gaps (peer max vs ours, sorted by gap)
+              </h2>
+              <div className="bg-gr-surface border border-gr-border rounded-md p-5">
+                <div className="space-y-2">
+                  {sorted.map((g) => {
+                    const peerW = (g.peer_max_styles / max) * 100;
+                    const ourW = (g.we_have / max) * 100;
+                    return (
+                      <div key={g.class} className="flex items-center gap-3 text-xs">
+                        <div className="w-40 truncate text-right text-gr-text" title={g.class_name}>
+                          {g.class_name}
+                        </div>
+                        <div className="flex-1 relative">
+                          <div className="h-6 bg-gr-bg rounded-sm border border-gr-border relative overflow-hidden">
+                            <div
+                              className="absolute top-0 bottom-0 left-0 bg-gr-muted opacity-80"
+                              style={{ width: `${peerW}%` }}
+                              title={`${g.peer_max_brand}: ${g.peer_max_styles} styles`}
+                            />
+                            <div
+                              className="absolute top-0 bottom-0 left-0 bg-gr-accent"
+                              style={{ width: `${ourW}%` }}
+                              title={`Gymreapers: ${g.we_have} styles`}
+                            />
+                            <div className="absolute inset-0 flex items-center justify-end pr-2 font-mono font-bold text-gr-text">
+                              {g.we_have} / {g.peer_max_styles}
+                            </div>
+                          </div>
+                        </div>
+                        <div className="w-32 truncate text-gr-subtle font-mono text-xs">
+                          vs {g.peer_max_brand}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="mt-4 flex items-center gap-4 text-xs text-gr-muted font-mono pt-3 border-t border-gr-border">
+                  <span>
+                    <span className="inline-block w-3 h-3 bg-gr-muted opacity-80 align-middle mr-1.5" />
+                    Peer max styles
+                  </span>
+                  <span>
+                    <span className="inline-block w-3 h-3 bg-gr-accent align-middle mr-1.5" />
+                    Gymreapers styles
+                  </span>
+                  <span className="text-gr-subtle">·</span>
+                  <span>Read: longer the bar, bigger the assortment opportunity</span>
+                </div>
+              </div>
+            </section>
+          );
+        })()}
+
         <div className="flex gap-2 border-b border-gr-border">
           {tabs.map((t) => (
             <button

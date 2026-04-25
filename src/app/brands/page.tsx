@@ -137,6 +137,46 @@ export default function BrandsPage() {
 
       <section>
         <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
+        <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">
+          Catalog Size — Sorted Largest First
+        </h2>
+        <div className="bg-gr-surface border border-gr-border rounded-md p-5 mb-6">
+          <div className="space-y-2">
+            {(() => {
+              const sortedAll = [...sortedBrands]
+                .map((slug) => ({ slug, n: brandMix.analyses[slug]?.total_products || 0 }))
+                .sort((a, b) => b.n - a.n);
+              const max = sortedAll[0]?.n || 1;
+              return sortedAll.map((row) => {
+                const w = (row.n / max) * 100;
+                const isFocus = row.slug === FOCUS_BRAND;
+                return (
+                  <div key={row.slug} className="flex items-center gap-3 text-sm">
+                    <div className="w-32 truncate text-right text-gr-text font-bold">
+                      {BRAND_LABELS[row.slug]}
+                    </div>
+                    <div className="flex-1">
+                      <div className="h-7 bg-gr-bg rounded-sm border border-gr-border relative overflow-hidden">
+                        <div
+                          className={`absolute top-0 bottom-0 left-0 ${isFocus ? 'bg-gr-accent' : 'bg-gr-muted opacity-70'}`}
+                          style={{ width: `${w}%` }}
+                        />
+                        <div className="absolute inset-0 flex items-center justify-end pr-2 font-mono font-bold text-gr-text">
+                          {row.n.toLocaleString()}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="w-12 text-right text-xs text-gr-subtle font-mono">
+                      {((row.n / sortedAll.reduce((s, r) => s + r.n, 0)) * 100).toFixed(0)}%
+                    </div>
+                  </div>
+                );
+              });
+            })()}
+          </div>
+        </div>
+
+        <div className="text-xs uppercase tracking-[0.2em] text-gr-subtle font-mono mb-1">Evidence</div>
         <h2 className="text-xs uppercase tracking-[0.25em] text-gr-accent font-bold mb-4">Brand Profiles</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {sortedBrands.filter((b) => brandMix.analyses[b]).map((slug) => {
