@@ -152,16 +152,16 @@ export function GymreapersProvider({ children }: { children: ReactNode }) {
   }
 
   if (!authReady) {
-    return <div className="text-center py-20 text-socal-stone-400">Loading...</div>;
+    return <div className="text-center py-20 text-gr-subtle">Loading...</div>;
   }
 
   if (!token) {
     return (
       <div className="max-w-md mx-auto py-20">
-        <div className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <h1 className="text-2xl font-bold text-socal-stone-800 mb-2">Gymreapers Scorecard</h1>
-          <p className="text-sm text-socal-stone-500 mb-6">
-            This report is private. Sign in with your YDP Pulse password to view.
+        <div className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <h1 className="text-2xl font-bold text-gr-text mb-2">Gymreapers Scorecard</h1>
+          <p className="text-sm text-gr-muted mb-6">
+            This report is private. Sign in with your password to view.
           </p>
           <form onSubmit={handleLogin} className="space-y-4">
             <input
@@ -170,20 +170,20 @@ export function GymreapersProvider({ children }: { children: ReactNode }) {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
-              className="w-full px-4 py-3 rounded-lg border border-socal-sand-200 focus:outline-none focus:ring-2 focus:ring-socal-ocean-300"
+              className="w-full px-4 py-3 rounded bg-gr-bg border border-gr-border text-gr-text font-mono focus:outline-none focus:border-gr-accent transition"
               disabled={authenticating}
             />
             {authError && (
-              <div className="text-sm text-rose-600 bg-rose-50 border border-rose-100 rounded-lg px-3 py-2">
+              <div className="text-sm text-gr-danger bg-gr-bg border border-gr-danger rounded px-3 py-2">
                 {authError}
               </div>
             )}
             <button
               type="submit"
               disabled={authenticating || !password}
-              className="w-full py-3 rounded-lg bg-socal-ocean-600 text-white font-semibold hover:bg-socal-ocean-700 disabled:opacity-50 transition"
+              className="w-full py-3 rounded bg-gr-accent text-white font-bold uppercase tracking-[0.2em] text-sm hover:bg-gr-accent-hover disabled:opacity-50 transition"
             >
-              {authenticating ? 'Signing in...' : 'Sign in'}
+              {authenticating ? 'Signing in...' : 'Enter'}
             </button>
           </form>
         </div>

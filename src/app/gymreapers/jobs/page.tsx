@@ -5,8 +5,8 @@ import { useGymreapersData } from '../_lib/GymreapersProvider';
 export default function GymreapersJobsPage() {
   const { data, loading, error } = useGymreapersData();
 
-  if (loading && !data) return <div className="text-center py-20 text-socal-stone-400">Loading jobs...</div>;
-  if (error && !data) return <div className="text-center py-20 text-rose-600">{error}</div>;
+  if (loading && !data) return <div className="text-center py-20 text-gr-subtle">Loading jobs...</div>;
+  if (error && !data) return <div className="text-center py-20 text-gr-danger">{error}</div>;
   if (!data) return null;
 
   const focus = data.focus_brand;
@@ -30,11 +30,11 @@ export default function GymreapersJobsPage() {
   return (
     <div className="space-y-10">
       <header className="text-center max-w-3xl mx-auto">
-        <p className="text-socal-ocean-600 font-medium text-sm uppercase tracking-wide mb-2">
+        <p className="text-gr-accent font-medium text-sm uppercase tracking-wide mb-2">
           Hiring Activity
         </p>
-        <h1 className="text-4xl font-bold text-socal-stone-800 mb-3">Jobs</h1>
-        <p className="text-socal-stone-500">
+        <h1 className="text-4xl font-bold text-gr-text mb-3">Jobs</h1>
+        <p className="text-gr-muted">
           Open headcount by brand. A growing team is a growth signal.
         </p>
       </header>
@@ -54,10 +54,10 @@ export default function GymreapersJobsPage() {
             context: 'need ATS integration',
           },
         ].map((s) => (
-          <div key={s.label} className="bg-white rounded-2xl p-6 shadow-soft border border-socal-sand-100">
-            <p className="text-sm text-socal-stone-400 font-medium">{s.label}</p>
-            <p className="text-3xl font-bold text-socal-stone-800 mt-1">{s.value}</p>
-            <p className="text-xs text-socal-stone-400 mt-1">{s.context}</p>
+          <div key={s.label} className="bg-gr-surface rounded-md p-6 border border-gr-border">
+            <p className="text-sm text-gr-subtle font-medium">{s.label}</p>
+            <p className="text-3xl font-bold text-gr-text mt-1">{s.value}</p>
+            <p className="text-xs text-gr-subtle mt-1">{s.context}</p>
           </div>
         ))}
       </section>
@@ -74,20 +74,20 @@ export default function GymreapersJobsPage() {
             return (
               <div
                 key={slug}
-                className={`bg-white rounded-2xl p-6 shadow-soft border ${
-                  isFocus ? 'border-socal-ocean-200 ring-2 ring-socal-ocean-100' : 'border-socal-sand-100'
+                className={`bg-gr-surface rounded-md p-6 border ${
+                  isFocus ? 'border-gr-accent-soft ring-2 ring-gr-accent-soft' : 'border-gr-border'
                 }`}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className={`text-lg font-bold ${isFocus ? 'text-socal-ocean-700' : 'text-socal-stone-800'}`}>
+                  <h3 className={`text-lg font-bold ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
                     {data.brand_names[slug]}
                   </h3>
-                  <span className="text-2xl font-bold text-socal-stone-800">
+                  <span className="text-2xl font-bold text-gr-text">
                     {j!.total_jobs}
                     {typeof j!.change_from_last === 'number' && j!.change_from_last !== 0 && (
                       <span
                         className={`ml-2 text-sm font-medium ${
-                          j!.change_from_last > 0 ? 'text-socal-sage-600' : 'text-rose-600'
+                          j!.change_from_last > 0 ? 'text-gr-success' : 'text-gr-danger'
                         }`}
                       >
                         {j!.change_from_last > 0 ? '+' : ''}
@@ -98,12 +98,12 @@ export default function GymreapersJobsPage() {
                 </div>
                 {topDepts.length > 0 && (
                   <div className="mb-4">
-                    <p className="text-xs text-socal-stone-400 uppercase tracking-wide mb-2">Top departments</p>
+                    <p className="text-xs text-gr-subtle uppercase tracking-wide mb-2">Top departments</p>
                     <div className="space-y-1">
                       {topDepts.map(([dept, n]) => (
                         <div key={dept} className="flex items-center justify-between text-sm">
-                          <span className="text-socal-stone-600 capitalize">{dept}</span>
-                          <span className="text-socal-stone-800 font-medium">{n}</span>
+                          <span className="text-gr-muted capitalize">{dept}</span>
+                          <span className="text-gr-text font-medium">{n}</span>
                         </div>
                       ))}
                     </div>
@@ -111,8 +111,8 @@ export default function GymreapersJobsPage() {
                 )}
                 {topLocations.length > 0 && (
                   <div>
-                    <p className="text-xs text-socal-stone-400 uppercase tracking-wide mb-2">Top locations</p>
-                    <ul className="text-sm text-socal-stone-600 space-y-1">
+                    <p className="text-xs text-gr-subtle uppercase tracking-wide mb-2">Top locations</p>
+                    <ul className="text-sm text-gr-muted space-y-1">
                       {topLocations.map((loc, i) => (
                         <li key={i} className="truncate">{loc}</li>
                       ))}
@@ -124,8 +124,8 @@ export default function GymreapersJobsPage() {
           })}
         </section>
       ) : (
-        <section className="bg-white rounded-2xl p-12 shadow-soft border border-socal-sand-100 text-center">
-          <p className="text-socal-stone-500">
+        <section className="bg-gr-surface rounded-md p-12 border border-gr-border text-center">
+          <p className="text-gr-muted">
             No hiring data collected for any of the strength brands yet.
           </p>
         </section>
@@ -133,12 +133,12 @@ export default function GymreapersJobsPage() {
 
       {/* Recent postings feed */}
       {recentPostings.length > 0 && (
-        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Recent Postings</h2>
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <h2 className="text-xl font-bold text-gr-text mb-6">Recent Postings</h2>
           <ul className="space-y-3">
             {recentPostings.map((p, i) => (
-              <li key={i} className="flex items-start gap-3 border-b border-socal-sand-100 pb-3 last:border-0">
-                <span className="text-xs px-2 py-0.5 rounded-full font-medium flex-shrink-0 mt-0.5 bg-socal-stone-100 text-socal-stone-600">
+              <li key={i} className="flex items-start gap-3 border-b border-gr-border pb-3 last:border-0">
+                <span className="text-xs px-2 py-0.5 rounded-full font-medium flex-shrink-0 mt-0.5 bg-gr-raised text-gr-muted">
                   {data.brand_names[p.brand]}
                 </span>
                 <div className="flex-1 min-w-0">
@@ -146,11 +146,11 @@ export default function GymreapersJobsPage() {
                     href={p.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-socal-stone-700 hover:text-socal-ocean-700 font-medium block"
+                    className="text-gr-text hover:text-gr-accent font-medium block"
                   >
                     {p.title}
                   </a>
-                  <div className="text-xs text-socal-stone-400 mt-0.5">
+                  <div className="text-xs text-gr-subtle mt-0.5">
                     {p.department || p.category}
                     {p.location && ` · ${p.location}`}
                     {p.seniority && ` · ${p.seniority}`}
@@ -164,9 +164,9 @@ export default function GymreapersJobsPage() {
 
       {/* No-data brands */}
       {noDataBrands.length > 0 && (
-        <section className="bg-socal-sand-50 rounded-2xl p-6 border border-socal-sand-200">
-          <h3 className="text-sm font-semibold text-socal-stone-700 mb-3">No hiring signal yet</h3>
-          <p className="text-xs text-socal-stone-500 mb-4">
+        <section className="bg-gr-raised rounded-md p-6 border border-gr-border">
+          <h3 className="text-sm font-semibold text-gr-text mb-3">No hiring signal yet</h3>
+          <p className="text-xs text-gr-muted mb-4">
             These brands don&apos;t use a known applicant tracking system (Greenhouse, Lever, Workday, Ashby).
             Add their careers page to <code>job_monitor.py</code> to enable tracking.
           </p>
@@ -174,7 +174,7 @@ export default function GymreapersJobsPage() {
             {noDataBrands.map((slug) => (
               <span
                 key={slug}
-                className="px-3 py-1 rounded-full text-xs bg-white border border-socal-sand-200 text-socal-stone-500"
+                className="px-3 py-1 rounded-full text-xs bg-gr-surface border border-gr-border text-gr-muted"
               >
                 {data.brand_names[slug]}
               </span>

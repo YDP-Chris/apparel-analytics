@@ -9,8 +9,8 @@ function dateLabel(iso: string): string {
 export default function GymreapersLaunchesPage() {
   const { data, loading, error } = useGymreapersData();
 
-  if (loading && !data) return <div className="text-center py-20 text-socal-stone-400">Loading launches...</div>;
-  if (error && !data) return <div className="text-center py-20 text-rose-600">{error}</div>;
+  if (loading && !data) return <div className="text-center py-20 text-gr-subtle">Loading launches...</div>;
+  if (error && !data) return <div className="text-center py-20 text-gr-danger">{error}</div>;
   if (!data) return null;
 
   const focus = data.focus_brand;
@@ -40,11 +40,11 @@ export default function GymreapersLaunchesPage() {
   return (
     <div className="space-y-10">
       <header className="text-center max-w-3xl mx-auto">
-        <p className="text-socal-ocean-600 font-medium text-sm uppercase tracking-wide mb-2">
+        <p className="text-gr-accent font-medium text-sm uppercase tracking-wide mb-2">
           Product Velocity
         </p>
-        <h1 className="text-4xl font-bold text-socal-stone-800 mb-3">Launches</h1>
-        <p className="text-socal-stone-500">
+        <h1 className="text-4xl font-bold text-gr-text mb-3">Launches</h1>
+        <p className="text-gr-muted">
           New products detected via brand sitemaps, scoped to the strength &amp; powerlifting set.
         </p>
       </header>
@@ -56,17 +56,17 @@ export default function GymreapersLaunchesPage() {
           { label: 'Gymreapers (7d)', value: focusLast7d, context: 'last week' },
           { label: 'Gymreapers share', value: `${focusShare}%`, context: 'of weekly drops' },
         ].map((s) => (
-          <div key={s.label} className="bg-white rounded-2xl p-6 shadow-soft border border-socal-sand-100">
-            <p className="text-sm text-socal-stone-400 font-medium">{s.label}</p>
-            <p className="text-3xl font-bold text-socal-stone-800 mt-1">{s.value}</p>
-            <p className="text-xs text-socal-stone-400 mt-1">{s.context}</p>
+          <div key={s.label} className="bg-gr-surface rounded-md p-6 border border-gr-border">
+            <p className="text-sm text-gr-subtle font-medium">{s.label}</p>
+            <p className="text-3xl font-bold text-gr-text mt-1">{s.value}</p>
+            <p className="text-xs text-gr-subtle mt-1">{s.context}</p>
           </div>
         ))}
       </section>
 
       {/* Per-brand sparklines */}
-      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-        <h2 className="text-xl font-bold text-socal-stone-800 mb-6">30-day Velocity by Brand</h2>
+      <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+        <h2 className="text-xl font-bold text-gr-text mb-6">30-day Velocity by Brand</h2>
         <div className="space-y-4">
           {data.brand_order.map((slug) => {
             const summary = section.summary[slug] || { last_7d: 0, last_14d: 0, last_30d: 0 };
@@ -75,25 +75,25 @@ export default function GymreapersLaunchesPage() {
             return (
               <div
                 key={slug}
-                className={`p-4 rounded-xl ${
+                className={`p-4 rounded-md ${
                   isFocus
-                    ? 'bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 border-2 border-socal-ocean-200'
-                    : 'bg-socal-stone-50'
+                    ? 'bg-gradient-to-r from-gr-accent-soft to-gr-raised border-2 border-gr-accent-soft'
+                    : 'bg-gr-bg'
                 }`}
               >
                 <div className="flex items-center justify-between mb-2">
                   <span
-                    className={`font-semibold ${isFocus ? 'text-socal-ocean-700' : 'text-socal-stone-700'}`}
+                    className={`font-semibold ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}
                   >
                     {isFocus && '→ '}
                     {data.brand_names[slug]}
                   </span>
-                  <span className="text-xs text-socal-stone-500">
-                    7d: <strong className="text-socal-stone-800">{summary.last_7d}</strong>
+                  <span className="text-xs text-gr-muted">
+                    7d: <strong className="text-gr-text">{summary.last_7d}</strong>
                     {' · '}
-                    14d: <strong className="text-socal-stone-800">{summary.last_14d}</strong>
+                    14d: <strong className="text-gr-text">{summary.last_14d}</strong>
                     {' · '}
-                    30d: <strong className="text-socal-stone-800">{summary.last_30d}</strong>
+                    30d: <strong className="text-gr-text">{summary.last_30d}</strong>
                   </span>
                 </div>
                 <div className="flex items-end gap-px h-12">
@@ -108,7 +108,7 @@ export default function GymreapersLaunchesPage() {
                       >
                         <div
                           className={`w-full rounded-sm ${
-                            isFocus ? 'bg-socal-ocean-500' : 'bg-socal-stone-300'
+                            isFocus ? 'bg-gr-accent-hover' : 'bg-gr-subtle'
                           }`}
                           style={{ height: `${Math.max(h, n > 0 ? 4 : 0)}%`, marginTop: 'auto' }}
                         />
@@ -117,7 +117,7 @@ export default function GymreapersLaunchesPage() {
                   })}
                 </div>
                 {summary.last_30d === 0 && baseline && (
-                  <p className="text-xs text-socal-stone-400 mt-2 italic">
+                  <p className="text-xs text-gr-subtle mt-2 italic">
                     No drops detected yet. Tracking since {dateLabel(baseline)}.
                   </p>
                 )}
@@ -129,16 +129,16 @@ export default function GymreapersLaunchesPage() {
 
       {/* Recent drops feed */}
       {section.recentDrops.length > 0 ? (
-        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Recent Drops (last 14 days)</h2>
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <h2 className="text-xl font-bold text-gr-text mb-6">Recent Drops (last 14 days)</h2>
           <ul className="space-y-3">
             {section.recentDrops.slice(0, 30).map((d, i) => (
-              <li key={i} className="flex items-start gap-3 border-b border-socal-sand-100 pb-3 last:border-0">
+              <li key={i} className="flex items-start gap-3 border-b border-gr-border pb-3 last:border-0">
                 <span
                   className={`text-xs px-2 py-0.5 rounded-full font-medium flex-shrink-0 mt-0.5 ${
                     d.brand === focus
-                      ? 'bg-socal-ocean-100 text-socal-ocean-700'
-                      : 'bg-socal-stone-100 text-socal-stone-600'
+                      ? 'bg-gr-accent-soft text-gr-accent'
+                      : 'bg-gr-raised text-gr-muted'
                   }`}
                 >
                   {d.brandName}
@@ -148,11 +148,11 @@ export default function GymreapersLaunchesPage() {
                     href={d.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-socal-stone-700 hover:text-socal-ocean-700 font-medium block truncate"
+                    className="text-gr-text hover:text-gr-accent font-medium block truncate"
                   >
                     {d.product_name || d.url}
                   </a>
-                  <div className="text-xs text-socal-stone-400 mt-0.5">
+                  <div className="text-xs text-gr-subtle mt-0.5">
                     {dateLabel(d.first_seen)}
                     {d.category && ` · ${d.category}`}
                     {d.gender && ` · ${d.gender}`}
@@ -163,8 +163,8 @@ export default function GymreapersLaunchesPage() {
           </ul>
         </section>
       ) : (
-        <section className="bg-white rounded-2xl p-12 shadow-soft border border-socal-sand-100 text-center">
-          <p className="text-socal-stone-500">
+        <section className="bg-gr-surface rounded-md p-12 border border-gr-border text-center">
+          <p className="text-gr-muted">
             No new product drops detected in the last 14 days. We just started tracking some of these brands —
             check back tomorrow.
           </p>

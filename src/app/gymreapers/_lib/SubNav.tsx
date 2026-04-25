@@ -17,7 +17,7 @@ export default function SubNav() {
   const { signOut, data } = useGymreapersData();
 
   return (
-    <div className="bg-white rounded-2xl border border-socal-sand-100 shadow-soft px-4 py-2 mb-8 flex flex-wrap items-center justify-between gap-3">
+    <div className="bg-gr-surface rounded-md border border-gr-border px-4 py-2 mb-8 flex flex-wrap items-center justify-between gap-3">
       <div className="flex flex-wrap gap-1">
         {items.map((item) => {
           const isActive = pathname === item.href;
@@ -27,8 +27,8 @@ export default function SubNav() {
               href={item.href}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition ${
                 isActive
-                  ? 'bg-socal-ocean-600 text-white shadow-sm'
-                  : 'text-socal-stone-600 hover:bg-socal-sand-50'
+                  ? 'bg-gr-accent text-white'
+                  : 'text-gr-muted hover:bg-gr-raised'
               }`}
             >
               {item.label}
@@ -38,13 +38,13 @@ export default function SubNav() {
       </div>
       <div className="flex items-center gap-3">
         {data?.generated_at && (
-          <span className="text-xs text-socal-stone-400 hidden sm:inline">
+          <span className="text-xs text-gr-subtle hidden sm:inline">
             Updated {new Date(data.generated_at).toLocaleString()}
           </span>
         )}
         <button
           onClick={signOut}
-          className="text-xs text-socal-stone-500 hover:text-socal-stone-800 underline"
+          className="text-xs text-gr-muted hover:text-gr-text underline"
         >
           Sign out
         </button>

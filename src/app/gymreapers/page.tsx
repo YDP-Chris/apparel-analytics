@@ -5,12 +5,12 @@ import { useGymreapersData } from './_lib/GymreapersProvider';
 export default function GymreapersScorecardPage() {
   const { data, loading, error } = useGymreapersData();
 
-  if (loading && !data) return <div className="text-center py-20 text-socal-stone-400">Loading scorecard...</div>;
+  if (loading && !data) return <div className="text-center py-20 text-gr-subtle">Loading scorecard...</div>;
   if (error && !data) {
     return (
       <div className="max-w-2xl mx-auto py-20 text-center">
-        <h1 className="text-2xl font-bold text-socal-stone-800 mb-3">Could not load report</h1>
-        <p className="text-socal-stone-500">{error}</p>
+        <h1 className="text-2xl font-bold text-gr-text mb-3">Could not load report</h1>
+        <p className="text-gr-muted">{error}</p>
       </div>
     );
   }
@@ -36,23 +36,23 @@ export default function GymreapersScorecardPage() {
     <div className="space-y-12">
       {/* Hero */}
       <header className="text-center max-w-3xl mx-auto">
-        <p className="text-socal-ocean-600 font-medium text-sm uppercase tracking-wide mb-2">
+        <p className="text-gr-accent font-medium text-sm uppercase tracking-wide mb-2">
           Private — Strength &amp; Powerlifting Intelligence
         </p>
-        <h1 className="text-4xl font-bold text-socal-stone-800 mb-4">
+        <h1 className="text-4xl font-bold text-gr-text mb-4">
           Where Does Gymreapers Stand?
         </h1>
-        <p className="text-lg text-socal-stone-500 leading-relaxed">
+        <p className="text-lg text-gr-muted leading-relaxed">
           Tracking{' '}
-          <span className="font-semibold text-socal-stone-700">
+          <span className="font-semibold text-gr-text">
             {focusBrand?.total.toLocaleString() || 0}
           </span>{' '}
           Gymreapers products against{' '}
-          <span className="font-semibold text-socal-stone-700">
+          <span className="font-semibold text-gr-text">
             {data.totals.competitor_products.toLocaleString()}
           </span>{' '}
           from {competitors.length} strength competitors. Gymreapers represents{' '}
-          <span className="font-semibold text-socal-ocean-600">
+          <span className="font-semibold text-gr-accent">
             {data.totals.gymreapers_share_pct}%
           </span>{' '}
           of the strength apparel landscape we track.
@@ -67,17 +67,17 @@ export default function GymreapersScorecardPage() {
             { label: 'Color Coverage', value: `${focusBrand.colorCoverage}%`, context: 'products with color data' },
             { label: 'Colors/Style', value: focusBrand.avgColorsPerStyle.toFixed(1), context: 'avg variants' },
           ].map((stat) => (
-            <div key={stat.label} className="bg-white rounded-2xl p-6 shadow-soft border border-socal-sand-100">
-              <p className="text-sm text-socal-stone-400 font-medium">{stat.label}</p>
-              <p className="text-3xl font-bold text-socal-stone-800 mt-1">{stat.value}</p>
-              <p className="text-xs text-socal-stone-400 mt-1">{stat.context}</p>
+            <div key={stat.label} className="bg-gr-surface rounded-md p-6 border border-gr-border">
+              <p className="text-sm text-gr-subtle font-medium">{stat.label}</p>
+              <p className="text-3xl font-bold text-gr-text mt-1">{stat.value}</p>
+              <p className="text-xs text-gr-subtle mt-1">{stat.context}</p>
             </div>
           ))}
         </section>
       )}
 
-      <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-        <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Catalog Size — Head to Head</h2>
+      <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+        <h2 className="text-xl font-bold text-gr-text mb-6">Catalog Size — Head to Head</h2>
         <div className="space-y-3">
           {[focusBrand, ...sortedCompetitors].filter(Boolean).map((brand) => {
             const max = Math.max(...data.brand_order.map((s) => data.brands[s]?.total || 0), 1);
@@ -86,32 +86,32 @@ export default function GymreapersScorecardPage() {
             return (
               <div
                 key={brand.slug}
-                className={`flex items-center gap-4 p-4 rounded-xl ${
+                className={`flex items-center gap-4 p-4 rounded-md ${
                   isFocus
-                    ? 'bg-gradient-to-r from-socal-ocean-50 to-socal-sand-50 border-2 border-socal-ocean-200'
-                    : 'bg-socal-stone-50'
+                    ? 'bg-gradient-to-r from-gr-accent-soft to-gr-raised border-2 border-gr-accent-soft'
+                    : 'bg-gr-bg'
                 }`}
               >
                 <div className="w-36 flex-shrink-0">
-                  <span className={`font-semibold ${isFocus ? 'text-socal-ocean-700' : 'text-socal-stone-600'}`}>
+                  <span className={`font-semibold ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
                     {isFocus && '→ '}
                     {brand.name}
                   </span>
                 </div>
                 <div className="flex-1">
-                  <div className="h-8 bg-socal-stone-100 rounded-lg overflow-hidden">
+                  <div className="h-8 bg-gr-raised rounded-lg overflow-hidden">
                     <div
                       className={`h-full rounded-lg ${
                         isFocus
-                          ? 'bg-gradient-to-r from-socal-ocean-400 to-socal-ocean-600'
-                          : 'bg-socal-stone-300'
+                          ? 'bg-gradient-to-r from-gr-accent-hover to-gr-accent'
+                          : 'bg-gr-subtle'
                       }`}
                       style={{ width: `${width}%` }}
                     />
                   </div>
                 </div>
                 <div className="w-24 text-right">
-                  <span className={`text-lg font-bold ${isFocus ? 'text-socal-ocean-600' : 'text-socal-stone-600'}`}>
+                  <span className={`text-lg font-bold ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
                     {brand.total.toLocaleString()}
                   </span>
                 </div>
@@ -122,18 +122,18 @@ export default function GymreapersScorecardPage() {
       </section>
 
       {topCategories.length > 0 && (
-        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Category Mix Across Brands</h2>
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <h2 className="text-xl font-bold text-gr-text mb-6">Category Mix Across Brands</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-socal-sand-200 text-socal-stone-500 text-left">
+                <tr className="border-b border-gr-border text-gr-muted text-left">
                   <th className="py-2 pr-4 font-medium">Category</th>
                   {data.brand_order.map((slug) => (
                     <th
                       key={slug}
                       className={`py-2 px-2 text-right font-medium ${
-                        slug === data.focus_brand ? 'text-socal-ocean-700' : ''
+                        slug === data.focus_brand ? 'text-gr-accent' : ''
                       }`}
                     >
                       {data.brand_names[slug]}
@@ -143,15 +143,15 @@ export default function GymreapersScorecardPage() {
               </thead>
               <tbody>
                 {topCategories.map(({ cat, brands }) => (
-                  <tr key={cat} className="border-b border-socal-sand-100">
-                    <td className="py-2 pr-4 text-socal-stone-700 font-medium capitalize">{cat}</td>
+                  <tr key={cat} className="border-b border-gr-border">
+                    <td className="py-2 pr-4 text-gr-text font-medium capitalize">{cat}</td>
                     {data.brand_order.map((slug) => (
                       <td
                         key={slug}
                         className={`py-2 px-2 text-right ${
                           slug === data.focus_brand
-                            ? 'font-bold text-socal-ocean-700'
-                            : 'text-socal-stone-500'
+                            ? 'font-bold text-gr-accent'
+                            : 'text-gr-muted'
                         }`}
                       >
                         {brands[slug] || 0}
@@ -166,8 +166,8 @@ export default function GymreapersScorecardPage() {
       )}
 
       {trendsList.length > 0 && (
-        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Search Interest (Google Trends)</h2>
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <h2 className="text-xl font-bold text-gr-text mb-6">Search Interest (Google Trends)</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {trendsList.map((t) => {
               const wow = t.wow_change ?? 0;
@@ -175,21 +175,21 @@ export default function GymreapersScorecardPage() {
               return (
                 <div
                   key={t.slug}
-                  className={`p-4 rounded-xl border ${
+                  className={`p-4 rounded-md border ${
                     isFocus
-                      ? 'bg-gradient-to-br from-socal-ocean-50 to-socal-sand-50 border-socal-ocean-200'
-                      : 'bg-socal-stone-50 border-socal-sand-100'
+                      ? 'bg-gradient-to-br from-gr-accent-soft to-gr-raised border-gr-accent-soft'
+                      : 'bg-gr-bg border-gr-border'
                   }`}
                 >
                   <div className="flex items-center justify-between">
-                    <span className={`font-semibold ${isFocus ? 'text-socal-ocean-700' : 'text-socal-stone-700'}`}>
+                    <span className={`font-semibold ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
                       {t.name}
                     </span>
-                    <span className="text-2xl font-bold text-socal-stone-800">{t.current ?? '—'}</span>
+                    <span className="text-2xl font-bold text-gr-text">{t.current ?? '—'}</span>
                   </div>
-                  <div className="mt-2 text-xs text-socal-stone-500">
+                  <div className="mt-2 text-xs text-gr-muted">
                     WoW{' '}
-                    <span className={wow >= 0 ? 'text-socal-sage-600' : 'text-rose-600'}>
+                    <span className={wow >= 0 ? 'text-gr-success' : 'text-gr-danger'}>
                       {wow >= 0 ? '+' : ''}
                       {wow.toFixed(1)}%
                     </span>
@@ -197,7 +197,7 @@ export default function GymreapersScorecardPage() {
                       <>
                         {'  ·  '}
                         MoM{' '}
-                        <span className={t.mom_change >= 0 ? 'text-socal-sage-600' : 'text-rose-600'}>
+                        <span className={t.mom_change >= 0 ? 'text-gr-success' : 'text-gr-danger'}>
                           {t.mom_change >= 0 ? '+' : ''}
                           {t.mom_change.toFixed(1)}%
                         </span>
@@ -212,20 +212,20 @@ export default function GymreapersScorecardPage() {
       )}
 
       {data.news && data.news.length > 0 && (
-        <section className="bg-white rounded-2xl p-8 shadow-soft border border-socal-sand-100">
-          <h2 className="text-xl font-bold text-socal-stone-800 mb-6">Recent News</h2>
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <h2 className="text-xl font-bold text-gr-text mb-6">Recent News</h2>
           <ul className="space-y-3">
             {data.news.slice(-15).reverse().map((item, i) => (
-              <li key={i} className="border-b border-socal-sand-100 pb-3 last:border-0">
+              <li key={i} className="border-b border-gr-border pb-3 last:border-0">
                 <a
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-socal-stone-700 hover:text-socal-ocean-700 font-medium"
+                  className="text-gr-text hover:text-gr-accent font-medium"
                 >
                   {item.title}
                 </a>
-                <div className="text-xs text-socal-stone-400 mt-1">
+                <div className="text-xs text-gr-subtle mt-1">
                   {item.company || item.company_id}
                   {item.date && ` · ${item.date}`}
                 </div>
