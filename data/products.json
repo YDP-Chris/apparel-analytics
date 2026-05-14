@@ -299,21 +299,21 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 8260,
+      "total": 8272,
       "categories": {
         "bottoms": 3034,
         "tops": 2648,
-        "other": 577,
+        "other": 585,
         "accessories": 494,
         "outerwear": 851,
-        "sports_bras": 652,
+        "sports_bras": 656,
         "dresses": 4
       },
       "subcategories": {
         "shorts": 1226,
         "leggings": 723,
         "crop_tops": 152,
-        "other": 2692,
+        "other": 2702,
         "long_sleeve": 467,
         "socks": 212,
         "tanks": 726,
@@ -322,7 +322,7 @@
         "jackets": 174,
         "pants": 292,
         "pullovers": 140,
-        "high_support": 24,
+        "high_support": 26,
         "bags": 66,
         "bralette": 62,
         "tees": 62,
@@ -337,17 +337,17 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 3787,
-        "womens": 2746,
+        "unisex": 3795,
+        "womens": 2750,
         "mens": 1727
       },
       "colors": {
         "green": 421,
-        "pink": 591,
-        "black": 1986,
+        "pink": 597,
+        "black": 1990,
         "white": 622,
         "navy": 70,
-        "gray": 1029,
+        "gray": 1031,
         "brown": 596,
         "blue": 1335,
         "red": 263,
@@ -359,7 +359,7 @@
       },
       "colorCoverage": 89.7,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2205
+      "uniqueStyles": 2207
     },
     "on_running": {
       "name": "On Running",
@@ -641,12 +641,92 @@
     }
   },
   "totals": {
-    "products": 34929,
+    "products": 34941,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-14",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 12,
+      "products": [
+        {
+          "name": "gymshark sharkhead gymsack bags",
+          "url": "https://www.gymshark.com/products/gymshark-sharkhead-gymsack-bags-black-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark sharkhead gymsack bags",
+          "url": "https://www.gymshark.com/products/gymshark-sharkhead-gymsack-bags-grey-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark active mini backpack bags",
+          "url": "https://www.gymshark.com/products/gymshark-active-mini-backpack-bags-black-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark active mini backpack bags",
+          "url": "https://www.gymshark.com/products/gymshark-active-mini-backpack-bags-pink-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ruched strappy sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-ruched-strappy-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark high support ruched sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-high-support-ruched-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark sharkhead gymsack bags",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sharkhead-gymsack-bags-black-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark sharkhead gymsack bags",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sharkhead-gymsack-bags-grey-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark active mini backpack bags",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-active-mini-backpack-bags-black-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark active mini backpack bags",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-active-mini-backpack-bags-pink-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ruched strappy sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-ruched-strappy-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark high support ruched sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-high-support-ruched-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-05-13",
       "brand": "Lululemon",
@@ -5344,500 +5424,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-04-28",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 70,
-      "products": [
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-form-long-sleeve-t-shirt-ls-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-tank-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-short-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-form-long-sleeve-t-shirt-ls-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-form-long-sleeve-t-shirt-ls-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cotton racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-racerback-sports-bra-sports-bras-blue-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-tank-sleeveless-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pant-long-leg-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-form-long-sleeve-t-shirt-ls-tops-blue-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pant-long-leg-pants-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-pants-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-tank-sleeveless-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-short-pants-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cotton racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-racerback-sports-bra-sports-bras-white-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-pants-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pant-long-leg-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-short-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pant-long-leg-pants-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants ss26 b6b8f uctm",
-          "url": "https://www.gymshark.com/products/gymshark-form-wide-leg-pants-short-pants-blue-ss26-b6b8f-uctm",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark feather form v neck bralette underwear",
-          "url": "https://www.gymshark.com/products/gymshark-feather-form-v-neck-bralette-underwear-brown-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark feather form v neck bralette underwear",
-          "url": "https://www.gymshark.com/products/gymshark-feather-form-v-neck-bralette-underwear-grey-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-long-sleeve-t-shirt-ls-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-tank-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-short-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-long-sleeve-t-shirt-ls-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-long-sleeve-t-shirt-ls-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cotton racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cotton-racerback-sports-bra-sports-bras-blue-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-tank-sleeveless-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pant-long-leg-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-long-sleeve-t-shirt-ls-tops-blue-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pant-long-leg-pants-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-pants-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-tank-sleeveless-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-short-pants-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cotton racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cotton-racerback-sports-bra-sports-bras-white-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark form wide leg pants pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-pants-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pant-long-leg-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-short-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pant long leg pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pant-long-leg-pants-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bareform short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bareform-short-sleeve-t-shirt-ss-tops-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form wide leg pants short pants ss26 b6b8f uctm",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-form-wide-leg-pants-short-pants-blue-ss26-b6b8f-uctm",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark feather form v neck bralette underwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-feather-form-v-neck-bralette-underwear-brown-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark feather form v neck bralette underwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-feather-form-v-neck-bralette-underwear-grey-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday mini holdall pebble",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-mini-holdall-pebble-grey-ss24",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday holdall medium pebble",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-holdall-medium-pebble-grey-aw23",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday camera bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-camera-bag-bags",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday mini gym bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-mini-gym-bag-bags",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crew socks 6pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-crew-socks-6pk-socks-white-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark midi socks 3pk socks ss26 i2c5e wfpk",
-          "url": "https://www.gymshark.com/products/gymshark-midi-socks-3pk-socks-white-ss26-i2c5e-wfpk",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting belt keyring misc",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-belt-keyring-misc-red-ss26",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark everyday mini holdall pebble",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-mini-holdall-pebble-grey-ss24",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday holdall medium pebble",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-holdall-medium-pebble-grey-aw23",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday camera bag bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-camera-bag-bags",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday mini gym bag bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-mini-gym-bag-bags",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crew socks 6pk socks",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crew-socks-6pk-socks-white-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark midi socks 3pk socks ss26 i2c5e wfpk",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-midi-socks-3pk-socks-white-ss26-i2c5e-wfpk",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting belt keyring misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-belt-keyring-misc-red-ss26",
-          "category": "accessories",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "brand": "Ten Thousand",
-      "brandSlug": "tenthousand",
-      "count": 3,
-      "products": [
-        {
-          "name": "little x interval short 7 inch",
-          "url": "https://www.tenthousand.cc/products/little-x-interval-short-7-inch",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "little x interval short 5 inch",
-          "url": "https://www.tenthousand.cc/products/little-x-interval-short-5-inch",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "little x interval short 9 inch",
-          "url": "https://www.tenthousand.cc/products/little-x-interval-short-9-inch",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "halo mini full zip hoodie long sunset",
-          "url": "https://vuoriclothing.com/products/womens-halo-mini-full-zip-hoodie-long-sunset-pink-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "short sleeve seamless surge tee french roast",
-          "url": "https://vuoriclothing.com/products/short-sleeve-seamless-surge-tee-french-roast",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 2,
-      "products": [
-        {
-          "name": "e33xnt310o md",
-          "url": "https://shop.lululemon.com/p/fast-and-free-high-rise-tight-25-drawcord/e33xnt310o-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "e33xnt310o",
-          "url": "https://shop.lululemon.com/p/fast-and-free-high-rise-tight-25-drawcord/e33xnt310o",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6126,7 +5712,8 @@
       "2026-05-08": 2,
       "2026-05-11": 8,
       "2026-05-12": 2,
-      "2026-05-13": 2
+      "2026-05-13": 2,
+      "2026-05-14": 12
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6198,7 +5785,7 @@
       "tenthousand": 10,
       "lululemon": 1717,
       "alo": 807,
-      "gymshark": 577,
+      "gymshark": 585,
       "on_running": 2735,
       "gymreapers": 304,
       "sbd": 70,
@@ -6211,7 +5798,7 @@
       "outdoor_voices": 30,
       "lululemon": 102,
       "alo": 319,
-      "gymshark": 652,
+      "gymshark": 656,
       "on_running": 177,
       "gymreapers": 65,
       "bear_grips": 9
@@ -6309,7 +5896,7 @@
       "tenthousand": 28,
       "lululemon": 2144,
       "alo": 1633,
-      "gymshark": 2692,
+      "gymshark": 2702,
       "on_running": 3083,
       "gymreapers": 509,
       "sbd": 124,
@@ -6516,7 +6103,7 @@
     "high_support": {
       "lululemon": 3,
       "alo": 3,
-      "gymshark": 24,
+      "gymshark": 26,
       "gymreapers": 1
     },
     "lifestyle": {
@@ -6531,7 +6118,7 @@
       "vuori": 534,
       "outdoor_voices": 26,
       "alo": 490,
-      "gymshark": 1029,
+      "gymshark": 1031,
       "on_running": 317,
       "gymreapers": 71,
       "sbd": 16,
@@ -6550,7 +6137,7 @@
       "vuori": 712,
       "outdoor_voices": 60,
       "alo": 1019,
-      "gymshark": 1986,
+      "gymshark": 1990,
       "on_running": 1494,
       "gymreapers": 119,
       "sbd": 2,
@@ -6663,7 +6250,7 @@
       "vuori": 75,
       "outdoor_voices": 7,
       "alo": 225,
-      "gymshark": 591,
+      "gymshark": 597,
       "on_running": 184,
       "gymreapers": 15,
       "sbd": 2,
@@ -6704,12 +6291,12 @@
     {
       "brand": "Gymshark",
       "bottoms": 36.7,
-      "tops": 32.1,
+      "tops": 32,
       "outerwear": 10.3,
       "dresses": 0,
       "sports_bras": 7.9,
       "accessories": 6,
-      "other": 7
+      "other": 7.1
     },
     {
       "brand": "Alo Yoga",
@@ -6832,11 +6419,11 @@
     },
     {
       "brand": "Gymshark",
-      "black": 24,
+      "black": 24.1,
       "white": 7.5,
       "gray": 12.5,
       "navy": 0.8,
-      "blue": 16.2,
+      "blue": 16.1,
       "green": 5.1,
       "khaki": 0,
       "brown": 7.2,
@@ -7066,7 +6653,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 31,169 competitor products tracked. Vuori's 3,760 = 11% share of tracked catalog."
+      "text": "Market context: 31,181 competitor products tracked. Vuori's 3,760 = 11% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -7220,5 +6807,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-14T05:08:11.584Z"
+  "generated_at": "2026-05-14T13:15:21.419Z"
 }
