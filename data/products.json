@@ -166,14 +166,14 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4439,
+      "total": 4441,
       "categories": {
         "tops": 512,
         "bottoms": 1120,
         "outerwear": 470,
         "sports_bras": 102,
         "accessories": 433,
-        "other": 1717,
+        "other": 1719,
         "dresses": 41,
         "footwear": 44
       },
@@ -181,7 +181,7 @@
         "tanks": 152,
         "shorts": 344,
         "hoodies": 97,
-        "other": 2144,
+        "other": 2146,
         "medium_support": 9,
         "leggings": 153,
         "polos": 33,
@@ -213,7 +213,7 @@
       "genders": {
         "womens": 1413,
         "mens": 1179,
-        "unisex": 1847
+        "unisex": 1849
       },
       "colors": {
         "multi": 2,
@@ -229,9 +229,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4693,
+      "total": 4694,
       "categories": {
-        "other": 807,
+        "other": 808,
         "bottoms": 1765,
         "tops": 562,
         "sports_bras": 319,
@@ -241,7 +241,7 @@
         "dresses": 120
       },
       "subcategories": {
-        "other": 1633,
+        "other": 1634,
         "leggings": 360,
         "tanks": 260,
         "shorts": 412,
@@ -269,13 +269,13 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 1162,
+        "unisex": 1163,
         "womens": 2501,
         "mens": 1030
       },
       "colors": {
         "navy": 193,
-        "black": 1019,
+        "black": 1020,
         "white": 907,
         "gray": 490,
         "khaki": 132,
@@ -294,7 +294,7 @@
       },
       "colorCoverage": 88.2,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2919
+      "uniqueStyles": 2920
     },
     "gymshark": {
       "name": "Gymshark",
@@ -641,7 +641,7 @@
     }
   },
   "totals": {
-    "products": 34941,
+    "products": 34944,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
@@ -724,6 +724,40 @@
           "url": "https://www.gymshark.com/es-US/products/gymshark-high-support-ruched-sports-bra-sports-bras-pink-ss26",
           "category": "sports_bras",
           "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 2,
+      "products": [
+        {
+          "name": "pjd0znwcsd",
+          "url": "https://shop.lululemon.com/p/court-rival-wide-leg-track-pant-reg-contrast-dr/pjd0znwcsd",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "pjd0znwcsd md",
+          "url": "https://shop.lululemon.com/p/court-rival-wide-leg-track-pant-reg-contrast-dr/pjd0znwcsd-md",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "a0304u mindful meditation bolster",
+          "url": "https://www.aloyoga.com/products/a0304u-mindful-meditation-bolster-black",
+          "category": "other",
+          "gender": "unisex"
         }
       ]
     },
@@ -5571,7 +5605,8 @@
       "2026-05-07": 28,
       "2026-05-08": 2,
       "2026-05-12": 4,
-      "2026-05-13": 40
+      "2026-05-13": 40,
+      "2026-05-14": 2
     },
     "alo": {
       "2026-02-03": 3396,
@@ -5640,7 +5675,8 @@
       "2026-05-02": 21,
       "2026-05-06": 70,
       "2026-05-08": 2,
-      "2026-05-11": 6
+      "2026-05-11": 6,
+      "2026-05-14": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5783,8 +5819,8 @@
       "vuori": 547,
       "outdoor_voices": 44,
       "tenthousand": 10,
-      "lululemon": 1717,
-      "alo": 807,
+      "lululemon": 1719,
+      "alo": 808,
       "gymshark": 585,
       "on_running": 2735,
       "gymreapers": 304,
@@ -5894,8 +5930,8 @@
       "vuori": 1110,
       "outdoor_voices": 131,
       "tenthousand": 28,
-      "lululemon": 2144,
-      "alo": 1633,
+      "lululemon": 2146,
+      "alo": 1634,
       "gymshark": 2702,
       "on_running": 3083,
       "gymreapers": 509,
@@ -6136,7 +6172,7 @@
     "black": {
       "vuori": 712,
       "outdoor_voices": 60,
-      "alo": 1019,
+      "alo": 1020,
       "gymshark": 1990,
       "on_running": 1494,
       "gymreapers": 119,
@@ -6653,7 +6689,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 31,181 competitor products tracked. Vuori's 3,760 = 11% share of tracked catalog."
+      "text": "Market context: 31,184 competitor products tracked. Vuori's 3,760 = 11% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6807,5 +6843,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-14T13:15:21.419Z"
+  "generated_at": "2026-05-15T13:15:19.947Z"
 }
