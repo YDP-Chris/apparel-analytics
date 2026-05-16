@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 // Endpoint backed by Supabase (gymreapers_bsr schema). Always reflects the
 // latest snapshot — no JSON rebuild required.
@@ -211,13 +213,14 @@ export default function GymreapersAmazonPage() {
           Where the buyers are
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
-          Daily popularity-rank snapshots across{' '}
+          Daily <GlossaryTerm id="bsr">popularity-rank</GlossaryTerm> snapshots across{' '}
           <span className="font-semibold text-gr-text">{totals.categories_tracked}</span> Amazon
           categories aligned to the Gymreapers + Victory Grips assortment. We rank in the top 100 of{' '}
           <span className="font-semibold text-gr-accent">
             {totals.categories_with_gymreapers}/{totals.categories_tracked}
           </span>{' '}
-          categories.
+          categories. <GlossaryTerm id="whitespace">Whitespace</GlossaryTerm> opportunities are
+          ranked by <GlossaryTerm id="opportunity-score">opportunity score</GlossaryTerm>.
         </p>
       </header>
 
@@ -311,6 +314,13 @@ export default function GymreapersAmazonPage() {
               )}
             </p>
           </div>
+          <div className="mb-5">
+            <SectionExplainer
+              what="Each row is one Amazon search where Gymreapers is absent from the top 20 but the top 20 collectively have a lot of reviews — meaning real demand exists."
+              howToRead="Demand is total reviews across the top 20 (a sales proxy). Avg $ is what the leaders charge. HHI 0 to 1 measures concentration — fragmented (<0.2) means many brands split the share, entrenched (>0.4) means one player dominates."
+              whatToDo="Low HHI + high demand = build a product or run ads here. High HHI = study the leader's playbook before committing — entry is expensive."
+            />
+          </div>
           <div className="space-y-3">
             {opps.map((op, i) => (
               <div key={`${op.category_slug}-${op.query}`} className="bg-gr-bg rounded-md p-5 border border-gr-border hover:border-gr-accent/40 transition">
@@ -364,6 +374,13 @@ export default function GymreapersAmazonPage() {
             Best rank in each tracked Amazon category. Top 5 by popularity shown for context. Victory
             Grips products count as Gymreapers presence.
           </p>
+        </div>
+        <div className="mb-5">
+          <SectionExplainer
+            what="Every row is one Amazon search Gymreapers competes on, with our best product's rank and the top 5 sellers for context."
+            howToRead={'Rank 1 means we own the search. "Not in top 100" means we\'re invisible there. The "bought/mo" column is Amazon\'s monthly volume bucket — the closest public proxy to unit sales.'}
+            whatToDo="Top-5 rows are positions to defend. Absent rows are either to invest in (if the search has real volume) or to deliberately skip — write down which."
+          />
         </div>
         <div className="space-y-4">
           {data.categories.map((cat) => {

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 const cards = [
   {
@@ -63,8 +64,10 @@ export default function ForProductPage() {
           Build what the market wants.
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
-          Demand signals, competitive whitespace, and assortment gaps. Daily snapshots from Amazon
-          BSR, competitor catalogs, and Google Trends so product decisions are evidence-led.
+          Demand signals, competitive <GlossaryTerm id="whitespace">whitespace</GlossaryTerm>, and
+          assortment gaps. Daily snapshots from{' '}
+          <GlossaryTerm id="bsr">Amazon BSR</GlossaryTerm>, competitor catalogs, and Google Trends
+          so product decisions are evidence-led.
         </p>
       </header>
 

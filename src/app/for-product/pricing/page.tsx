@@ -2,6 +2,8 @@
 
 import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 function fmtPrice(p: number | null | undefined): string {
   if (p == null || isNaN(p)) return '—';
@@ -37,9 +39,16 @@ export default function PricingMapPage() {
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Average price by category for every brand we scrape Shopify catalogs from. Higher numbers
           mean premium positioning. Empty cells mean the brand doesn&apos;t carry that category or
-          we can&apos;t scrape their pricing yet.
+          we can&apos;t scrape their pricing yet (some use <GlossaryTerm id="akamai">Akamai</GlossaryTerm> bot
+          detection).
         </p>
       </header>
+
+      <SectionExplainer
+        what="A grid of average price per category for every brand we can scrape pricing from."
+        howToRead="Read across a row to compare brands inside one category. Hover a cell to see the min/max/sample size behind the average. The Gymreapers column is highlighted in accent red."
+        whatToDo="If we're materially below a peer we consider a direct competitor, ask whether we're discounting unnecessarily. If we're above, the assortment had better earn the premium."
+      />
 
       {brands.length === 0 ? (
         <div className="bg-gr-surface rounded-md p-8 border border-gr-border text-center text-gr-muted">

@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useGymreapersData } from '../gymreapers/_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -289,7 +291,9 @@ export default function TodayPage() {
         </h1>
         <p className="text-gr-muted mt-3 max-w-2xl leading-relaxed">
           The 3-5 things to know across the Gymreapers competitive set. Built for marketing and
-          product to scan in under a minute — drill into the audience tabs above for depth.
+          product to scan in under a minute — drill into the audience tabs above for depth. Every
+          card carries a <GlossaryTerm id="confidence-rating">confidence rating</GlossaryTerm> so
+          you know how much weight to put on the number before acting.
         </p>
       </header>
 
@@ -313,6 +317,14 @@ export default function TodayPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-gr-text tracking-tight font-mono leading-tight mb-6">
             &ldquo;{topOpp.query}&rdquo;
           </h2>
+          <div className="mb-6">
+            <SectionExplainer
+              collapsed
+              what="The single highest-leverage Amazon search where Gymreapers has no presence and the field is fragmented enough to enter."
+              howToRead="Demand = total reviews across the top 20 (sales proxy). Avg price = where the leaders price. Top brand + HHI tells you whether one player owns the search or it's wide open."
+              whatToDo="If demand is high and HHI is below 0.25, this is a category to build into or run ads against. If HHI is above 0.4, you'd be fighting an entrenched leader."
+            />
+          </div>
           <div className="grid sm:grid-cols-3 gap-6 mb-6 pb-6 border-b border-gr-border">
             <div>
               <div className="text-[11px] uppercase tracking-wider text-gr-subtle font-semibold">Demand</div>
@@ -358,6 +370,14 @@ export default function TodayPage() {
               {wins.length} <span className="text-gr-success">top-5</span> positions
             </h3>
           </div>
+          <div className="mb-4">
+            <SectionExplainer
+              collapsed
+              what="Amazon categories where a Gymreapers or Victory Grips product ranks in the top 5 by popularity right now."
+              howToRead="The number after each category is our best product's rank in that Amazon search. #1 = Amazon's top result."
+              whatToDo="These are the spots to defend — keep the listing healthy, sustain ad spend, watch for movers eating into our position."
+            />
+          </div>
           {wins.length === 0 ? (
             <p className="text-sm text-gr-muted">No top-5 positions in today&apos;s Amazon snapshot.</p>
           ) : (
@@ -388,6 +408,14 @@ export default function TodayPage() {
               {topVulns.length} <span className="text-gr-danger">flagged</span>
             </h3>
           </div>
+          <div className="mb-4">
+            <SectionExplainer
+              collapsed
+              what="Categories where we're either absent from the top 100 or a competitor just jumped 10+ ranks overnight."
+              howToRead="An absence means we're invisible to that Amazon search. A big rank jump from a peer means somebody is gaining traction fast."
+              whatToDo="Decide per row: enter the category, defend with ads, or document why we're choosing not to play there."
+            />
+          </div>
           {topVulns.length === 0 ? (
             <p className="text-sm text-gr-muted">No critical vulnerabilities flagged today.</p>
           ) : (
@@ -415,6 +443,14 @@ export default function TodayPage() {
           <div className="flex items-baseline justify-between gap-3 mb-5">
             <h3 className="text-xl font-bold text-gr-text">Recent drops</h3>
             <Link href="/gymreapers/launches" className="text-[11px] text-gr-accent hover:text-gr-accent-hover font-semibold uppercase tracking-wider">All →</Link>
+          </div>
+          <div className="mb-4">
+            <SectionExplainer
+              collapsed
+              what="New products from competitor brands detected via their sitemaps in the last few days."
+              howToRead="Brand · date · product. Click through to see the live PDP."
+              whatToDo="Scan for products in categories we play in — those are candidates for a counter-launch, ride-along content, or a competitive ad pivot."
+            />
           </div>
           {recentLaunches.length === 0 ? (
             <p className="text-sm text-gr-muted">No recent competitor launches detected.</p>
@@ -444,8 +480,16 @@ export default function TodayPage() {
             <ConfidenceBadge source="google_trends_brand" />
           </div>
           <div className="flex items-baseline justify-between gap-3 mb-5">
-            <h3 className="text-xl font-bold text-gr-text">Brand WoW</h3>
+            <h3 className="text-xl font-bold text-gr-text">Brand <GlossaryTerm id="wow">WoW</GlossaryTerm></h3>
             <Link href="/for-marketing/trending" className="text-[11px] text-gr-accent hover:text-gr-accent-hover font-semibold uppercase tracking-wider">Category →</Link>
+          </div>
+          <div className="mb-4">
+            <SectionExplainer
+              collapsed
+              what="The brand whose Google search interest rose or fell the most versus the same day last week."
+              howToRead="Google Trends is a normalized 0-100 score, not raw volume. A big WoW swing on a low-volume brand can be noise — read as direction, not magnitude."
+              whatToDo="A rising peer means their audience is heating up. A falling peer is a window to take share of voice."
+            />
           </div>
           <div className="space-y-4">
             {topTrendUp && topTrendUp.wow_change !== undefined && topTrendUp.wow_change !== null && (

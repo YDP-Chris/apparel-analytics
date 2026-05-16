@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -82,9 +84,10 @@ export default function DemandSignalsPage() {
           What&apos;s actually selling
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
-          Top products in our tracked Amazon categories sorted by Amazon&apos;s &ldquo;bought in
-          past month&rdquo; volume bucket. This is the closest public proxy to monthly unit sales —
-          a 3K+ label means at least 3,000 bought in the last month.
+          Top products in our tracked Amazon categories sorted by Amazon&apos;s{' '}
+          <GlossaryTerm id="bought-past-month">bought-in-past-month</GlossaryTerm> volume bucket. This
+          is the closest public proxy to monthly unit sales — a 3K+ label means at least 3,000
+          bought in the last month.
         </p>
       </header>
 
@@ -94,6 +97,13 @@ export default function DemandSignalsPage() {
           <h2 className="text-2xl font-bold text-gr-text tracking-tight">
             Top sellers across categories <span className="text-gr-muted font-normal tabular-nums">({topVolume.length})</span>
           </h2>
+        </div>
+        <div className="mb-6">
+          <SectionExplainer
+            what="The single highest-volume products in our tracked Amazon categories, ranked by Amazon's monthly bought-band label."
+            howToRead="The label on the left is Amazon's band — 10K+ beats 5K+ beats 3K+. Gymreapers/Victory Grips rows render in accent red. The category column tells you which Amazon search the product is winning."
+            whatToDo="Treat each non-Gymreapers entry as a category-defining product to study — what's their hook, price, review count, image style. If we don't have a comparable SKU in a 5K+ category, that's a build-or-defer call."
+          />
         </div>
         {topVolume.length === 0 ? (
           <p className="text-sm text-gr-muted">No products with volume data captured yet. Amazon shows this on most cards once a product has &gt;500/month.</p>

@@ -2,6 +2,8 @@
 
 import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 function dateLabel(iso: string): string {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -50,6 +52,8 @@ export default function GymreapersLaunchesPage() {
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">Launches</h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           New products detected via brand sitemaps, scoped to the strength &amp; powerlifting set.
+          Cadence by brand is the cleanest read of{' '}
+          <GlossaryTerm id="velocity">launch velocity</GlossaryTerm>.
         </p>
       </header>
 
@@ -78,6 +82,13 @@ export default function GymreapersLaunchesPage() {
         );
       })()}
 
+      <SectionExplainer
+        collapsed
+        what="Four headline numbers: total drops in the last 7d and 30d across all 7 tracked brands, plus Gymreapers' weekly contribution and share."
+        howToRead="A high share means we're outpacing peers on launch cadence; a low share means peers are shipping faster than us this week."
+        whatToDo="If our share is under 10% and the market is shipping aggressively, ask product whether we're paced too conservatively for the moment."
+      />
+
       <section className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {[
           { label: 'New (7d)', value: totalLast7d, context: 'across all 7 brands' },
@@ -98,6 +109,13 @@ export default function GymreapersLaunchesPage() {
         <div className="mb-6">
           <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Time series</p>
           <h2 className="text-2xl font-bold text-gr-text tracking-tight">30-day Velocity by Brand</h2>
+        </div>
+        <div className="mb-5">
+          <SectionExplainer
+            what="One sparkline per brand showing the count of new products dropped each day over the last 30 days, with 7d/14d/30d totals."
+            howToRead="Tall bars are heavy-launch days. A series of tall bars usually signals a coordinated drop or a seasonal release. Gymreapers' lane is highlighted in accent red."
+            whatToDo="When a peer's bars suddenly grow taller for several days running, that's a launch event worth investigating before it shows up in trade press."
+          />
         </div>
         <div className="space-y-4">
           {[...data.brand_order]
@@ -167,6 +185,13 @@ export default function GymreapersLaunchesPage() {
           <div className="mb-6">
             <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Feed</p>
             <h2 className="text-2xl font-bold text-gr-text tracking-tight">Recent Drops <span className="text-gr-muted font-normal text-base">(last 14 days)</span></h2>
+          </div>
+          <div className="mb-5">
+            <SectionExplainer
+              what="Every new product URL detected across the competitive set in the last 14 days, newest first."
+              howToRead="Brand tag · product name · date · category/gender (when classifier can tell). Click a row to open the live PDP. Gymreapers drops use the accent pill."
+              whatToDo="Scan for products in categories we play in. Those are candidates for a counter-launch, an ad pivot, or a price test."
+            />
           </div>
           <ul className="space-y-3">
             {[...section.recentDrops]

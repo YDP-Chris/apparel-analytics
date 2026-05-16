@@ -2,6 +2,8 @@
 
 import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 export default function ShareOfVoicePage() {
   const { data } = useGymreapersData();
@@ -34,8 +36,9 @@ export default function ShareOfVoicePage() {
           Who&apos;s owning the conversation
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
-          Reddit mention volume across the Gymreapers competitive set, last 7 days. The wider the
-          bar, the more share of conversation that brand owns. Reddit&apos;s fitness community
+          Reddit mention volume across the Gymreapers competitive set, last 7 days — our current
+          best public proxy for <GlossaryTerm id="share-of-voice">share of voice</GlossaryTerm>. The
+          wider the bar, the more conversation that brand owns. Reddit&apos;s fitness community
           skews male/powerlifting — read directionally, not as ground truth.
         </p>
       </header>
@@ -49,6 +52,13 @@ export default function ShareOfVoicePage() {
           <div className="mb-6">
             <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">7-day window</p>
             <h2 className="text-2xl font-bold text-gr-text tracking-tight">Mention volume by brand</h2>
+          </div>
+          <div className="mb-5">
+            <SectionExplainer
+              what="Each bar = one brand's total Reddit mentions across powerlifting/fitness subreddits in the last 7 days."
+              howToRead="Wider bar = more share of the conversation. The % share number is that brand's slice of total mentions across the whole competitive set. Sample is thin — treat as directional, not statistically robust."
+              whatToDo="If a peer's share is spiking, dig into the threads — usually a new product, a viral creator post, or a controversy. Either ride along or defend."
+            />
           </div>
           <div className="space-y-4">
             {brands.map((b) => {

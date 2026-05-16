@@ -2,6 +2,7 @@
 
 import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
 
 const CATEGORY_ORDER = ['bottoms', 'tops', 'outerwear', 'sports_bras', 'dresses', 'accessories', 'other'];
 const CATEGORY_COLORS: Record<string, string> = {
@@ -96,6 +97,13 @@ export default function GymreapersMixPage() {
           <h2 className="text-2xl font-bold text-gr-text tracking-tight">Category Mix</h2>
           <p className="text-sm text-gr-muted mt-1.5">% of catalog by category, normalized per brand.</p>
         </div>
+        <div className="mb-5">
+          <SectionExplainer
+            what="Each bar shows one brand's full catalog broken into category slices that add up to 100%."
+            howToRead="Wider slice = that brand leans more on that category. Compare across brands to see who's a generalist vs who's concentrated in one or two categories."
+            whatToDo="If a peer has a category we don't carry but they've staked 15%+ of catalog on it, ask whether we're conceding strategy or whether it's a gap to close."
+          />
+        </div>
         <div className="space-y-4">
           {mixOrder.map((slug) => {
             const m = data.mix[slug];
@@ -146,7 +154,14 @@ export default function GymreapersMixPage() {
       <section className="grid md:grid-cols-2 gap-5">
         <div className="bg-gr-surface rounded-md p-8 border border-gr-border">
           <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Assortment depth</p>
-          <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-6">Color Depth</h2>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-4">Color Depth</h2>
+          <div className="mb-5">
+            <SectionExplainer
+              what="How many distinct colorways the average style ships in, by brand."
+              howToRead="Higher = more customer choice per style. A brand at 4.0 is offering twice as many color options per product as a brand at 2.0."
+              whatToDo="If peers are running 3+ colors and we're at 1-2, our SKU productivity may be ceilinged by lack of choice — worth testing color expansion on best-sellers."
+            />
+          </div>
           <div className="space-y-3">
             {mixOrder
               .filter((slug) => data.mix[slug].colorDepth)
@@ -186,7 +201,14 @@ export default function GymreapersMixPage() {
 
         <div className="bg-gr-surface rounded-md p-8 border border-gr-border">
           <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Assortment depth</p>
-          <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-6">Size Inclusivity</h2>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-4">Size Inclusivity</h2>
+          <div className="mb-5">
+            <SectionExplainer
+              what="The percent of each brand's catalog that's offered in extended sizes (2XL or larger)."
+              howToRead="A brand at 80% offers extended sizes on nearly every style; one at 20% reserves extended sizing for a small subset. Strength sports skew larger — this matters more here than in athleisure."
+              whatToDo="If competitors are dressing the entire weight room and we're not, that's a customer segment they own. Worth a sizing audit on our best-sellers."
+            />
+          </div>
           <div className="space-y-3">
             {mixOrder
               .filter((slug) => data.mix[slug].sizeRange)
@@ -222,7 +244,14 @@ export default function GymreapersMixPage() {
       {/* Gender split */}
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
         <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Audience split</p>
-        <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-6">Gender Split</h2>
+        <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-4">Gender Split</h2>
+        <div className="mb-5">
+          <SectionExplainer
+            what="Each brand's catalog by inferred gender — men's, women's, unisex — summed to 100%."
+            howToRead="Splits come from product URLs and tags, so unisex catches everything that isn't explicitly labeled. Strength sets typically run heavier men's than the athleisure average."
+            whatToDo="If we're 80% men's and the market's growing women's strength, that's either an audience to invest in or a deliberate focus to confirm."
+          />
+        </div>
         <div className="grid md:grid-cols-3 gap-4">
           {mixOrder.map((slug) => {
             const m = data.mix[slug];
@@ -261,7 +290,14 @@ export default function GymreapersMixPage() {
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
           <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Positioning</p>
           <h2 className="text-2xl font-bold text-gr-text tracking-tight">Price Positioning</h2>
-          <p className="text-sm text-gr-muted mt-1.5 mb-6">Average price by category, per brand.</p>
+          <p className="text-sm text-gr-muted mt-1.5 mb-5">Average price by category, per brand.</p>
+          <div className="mb-6">
+            <SectionExplainer
+              what="A grid of average price per category for each brand we can scrape pricing from."
+              howToRead="Read across a row to compare brands within one category. Empty cells mean the brand doesn't carry that category or the catalog is proxy-blocked."
+              whatToDo="If we're priced 20%+ below the leader in a category we want to own, we may be leaving margin on the table. If we're priced above, the assortment had better justify it."
+            />
+          </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>

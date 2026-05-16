@@ -1,3 +1,7 @@
+'use client';
+
+import { GlossaryTerm } from '@/components/GlossaryTerm';
+
 // Per-source confidence ratings live here as the single source of truth.
 // The ConfidenceBadge component (in components/ConfidenceBadge.tsx) imports
 // from this same registry so every page renders consistent badges.
@@ -238,9 +242,11 @@ export default function MethodologyPage() {
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">How to read this dashboard</h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Every number on every page comes from one of the data sources below. Each source is
-          rated HIGH, MEDIUM, or LOW confidence based on its sample size, freshness, and known
-          biases. If you&apos;re going to make a decision off a number, scan its source&apos;s
-          confidence rating first.
+          rated HIGH, MEDIUM, or LOW{' '}
+          <GlossaryTerm id="confidence-rating">confidence</GlossaryTerm> based on its sample size,
+          freshness, and known biases. If you&apos;re going to make a decision off a number, scan
+          its source&apos;s confidence rating first — and for strategic moves, look for{' '}
+          <GlossaryTerm id="triangulation">triangulation</GlossaryTerm> across sources.
         </p>
       </header>
 

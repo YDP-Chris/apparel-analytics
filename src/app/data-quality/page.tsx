@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -127,7 +128,9 @@ export default function DataQualityPage() {
         <h2 className="text-xl font-bold text-gr-text mb-2">About these checks</h2>
         <p className="text-sm text-gr-muted leading-relaxed">
           The data-qa agent runs every 30 minutes against the Supabase tables that back this
-          dashboard. Each check is one of:
+          dashboard. Every check is{' '}
+          <GlossaryTerm id="idempotent">idempotent</GlossaryTerm> — re-running never duplicates a
+          finding. Each check is one of:
         </p>
         <ul className="mt-3 space-y-1 text-sm text-gr-muted">
           <li>· <b className="text-gr-text">Freshness</b> — is the latest row newer than its SLA?</li>

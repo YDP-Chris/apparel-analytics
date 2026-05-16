@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 const cards = [
   {
@@ -82,9 +83,10 @@ export default function ForMarketingPage() {
       <div className="bg-gr-surface rounded-md border border-gr-border p-6">
         <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">New here?</p>
         <p className="text-sm text-gr-muted leading-relaxed max-w-3xl">
-          Every page anchors on a <strong className="text-gr-text">snapshot date</strong> at the
-          top — that&apos;s the day the data was captured. Most pages refresh daily around 5 AM ET.
-          To query the raw tables yourself, head to{' '}
+          Every page anchors on a{' '}
+          <GlossaryTerm id="snapshot-date">snapshot date</GlossaryTerm> at the top — that&apos;s the
+          day the data was captured. Most pages refresh daily around 5 AM ET. To query the raw
+          tables yourself, head to{' '}
           <Link href="/data-explorer" className="text-gr-accent hover:text-gr-accent-hover font-semibold">Data Explorer</Link>.
         </p>
       </div>

@@ -3,6 +3,8 @@
 import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
 import Link from 'next/link';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { SectionExplainer } from '@/components/SectionExplainer';
+import { GlossaryTerm } from '@/components/GlossaryTerm';
 
 export default function CompetitorBeatsPage() {
   const { data } = useGymreapersData();
@@ -22,7 +24,9 @@ export default function CompetitorBeatsPage() {
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Recent launches and news from the competitive set, organized so you can spot the move
-          worth countering. Click through to the product page or article.
+          worth countering. Click through to the product page or article. Launches come from daily
+          sitemap diffs; news from RSS + Google News with{' '}
+          <GlossaryTerm id="triangulation">triangulation</GlossaryTerm> where possible.
         </p>
       </header>
 
@@ -37,6 +41,14 @@ export default function CompetitorBeatsPage() {
           <div className="flex items-baseline justify-between gap-3 mb-5">
             <h2 className="text-2xl font-bold text-gr-text tracking-tight">Drops to react to</h2>
             <Link href="/gymreapers/launches" className="text-[11px] text-gr-accent hover:text-gr-accent-hover font-semibold uppercase tracking-wider">All →</Link>
+          </div>
+          <div className="mb-4">
+            <SectionExplainer
+              collapsed
+              what="New products each competitor brand has added to their site, detected by diffing their sitemap day-over-day."
+              howToRead="Brand · date · product. Click a row to see the PDP. We catch the URL the moment it lands; press coverage usually trails by 1-3 days."
+              whatToDo="Pick the one or two drops worth a counter-campaign, a ride-along post, or an internal heads-up to the merchandising team."
+            />
           </div>
           {launches.length === 0 ? (
             <p className="text-sm text-gr-muted">No new launches detected today.</p>
@@ -67,6 +79,14 @@ export default function CompetitorBeatsPage() {
           </div>
           <div className="flex items-baseline justify-between gap-3 mb-5">
             <h2 className="text-2xl font-bold text-gr-text tracking-tight">Headlines in the set</h2>
+          </div>
+          <div className="mb-4">
+            <SectionExplainer
+              collapsed
+              what="Recent press and trade-media coverage of any brand in the competitive set, from RSS feeds and Google News."
+              howToRead="Brand · date · headline. Trade press skews toward larger brands with PR budgets — strength peers may show up rarely."
+              whatToDo="If a peer just got a big PR placement, they'll see a search-interest bump for 1-2 weeks. Decide whether to outbid on their brand terms or stay quiet."
+            />
           </div>
           {news.length === 0 ? (
             <p className="text-sm text-gr-muted">No competitor news captured recently.</p>
