@@ -19,6 +19,7 @@ const navItems = [
   { href: '/radar', label: 'Radar' },
   { href: '/guideposts', label: 'Guideposts' },
   { href: '/gymreapers/launches', label: 'Launches' },
+  { href: '/gymreapers/amazon', label: 'Amazon' },
   { href: '/gymreapers/social', label: 'Social' },
   { href: '/gymreapers/jobs', label: 'Jobs' },
   { href: '/brands', label: 'Brands' },

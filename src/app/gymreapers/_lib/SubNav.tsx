@@ -8,6 +8,7 @@ const items = [
   { href: '/gymreapers', label: 'Scorecard' },
   { href: '/gymreapers/mix', label: 'Product Mix' },
   { href: '/gymreapers/launches', label: 'Launches' },
+  { href: '/gymreapers/amazon', label: 'Amazon BSR' },
   { href: '/gymreapers/social', label: 'Social' },
   { href: '/gymreapers/jobs', label: 'Jobs' },
 ];

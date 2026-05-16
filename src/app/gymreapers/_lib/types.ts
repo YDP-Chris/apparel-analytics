@@ -120,6 +120,84 @@ export interface JobsBrandData {
   checked_at?: string;
 }
 
+// Amazon BSR section — populated by agents/amazon-bsr
+export interface AmazonProduct {
+  rank: number | null;
+  asin: string;
+  title: string;
+  price: number | null;
+  reviews: number | null;
+  rating: number | null;
+  bought_past_month_label?: string | null;
+  bought_past_month_est?: number | null;
+  url: string;
+}
+
+export interface AmazonBrandShare {
+  brand: string;
+  count: number;
+  share_pct: number;
+}
+
+export interface AmazonGymreapersPosition {
+  present: boolean;
+  top_rank: number | null;
+  asin?: string;
+  title?: string;
+  price?: number | null;
+  reviews?: number | null;
+  url?: string;
+}
+
+export interface AmazonCategoryRollup {
+  slug: string;
+  name: string;
+  keyword: string;
+  organic_count: number;
+  gymreapers: AmazonGymreapersPosition;
+  brand_share_top30: AmazonBrandShare[];
+  top_5: AmazonProduct[];
+  diff?: {
+    movers_up: Array<{ asin: string; title: string; rank_prev: number; rank_curr: number; delta: number; url: string }>;
+    movers_down: Array<{ asin: string; title: string; rank_prev: number; rank_curr: number; delta: number; url: string }>;
+    new_entrants: Array<{ asin: string; title: string; rank: number; price: number | null; reviews: number | null; url: string }>;
+  } | null;
+}
+
+export interface AmazonOpportunity {
+  query: string;
+  category_slug: string;
+  category_name: string;
+  top_n_size: number;
+  gymreapers_present: boolean;
+  total_reviews_in_top_n: number;
+  avg_price: number | null;
+  price_range: { min: number | null; max: number | null };
+  top_brands: AmazonBrandShare[];
+  concentration_hhi: number;
+  opportunity_score: number;
+  leaders: AmazonProduct[];
+}
+
+export interface AmazonSection {
+  lastUpdated?: string;
+  totals?: {
+    categories_tracked?: number;
+    categories_with_gymreapers?: number;
+    whitespace_queries_run?: number;
+    whitespace_gaps?: number;
+  };
+  categories?: AmazonCategoryRollup[];
+  topOpportunities?: AmazonOpportunity[];
+  whitespaceByCategory?: Array<{
+    slug: string;
+    name: string;
+    queries_run: number;
+    gaps: number;
+    opportunities: AmazonOpportunity[];
+  }>;
+}
+
 export interface GymreapersReport {
   generated_at: string;
   focus_brand: string;
@@ -144,4 +222,5 @@ export interface GymreapersReport {
   mix: Record<string, MixBrand>;
   launchesSection: LaunchesSection;
   social: SocialSection;
+  amazon?: AmazonSection;
 }
