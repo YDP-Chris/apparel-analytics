@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -30,6 +31,9 @@ interface Stage {
   label: string;
   story: string;
   gymreapers_total: number;
+  gymreapers_total_lw?: number | null;
+  peer_total?: number;
+  peer_total_lw?: number | null;
   peer_top: PeerSummary[];
   top_entry_candidates: SubcategoryRow[];
   subcategories: SubcategoryRow[];
@@ -38,6 +42,7 @@ interface Stage {
 interface Payload {
   available: boolean;
   snapshot_date: string | null;
+  previous_snapshot_date?: string | null;
   tier: string;
   brand_names: Record<string, string>;
   stages: Stage[];
@@ -136,7 +141,14 @@ export default function JourneyPage() {
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Gymreapers apparel SKUs</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{totals.grTotal}</div>
-          <div className="text-xs text-gr-subtle mt-1">across journey stages</div>
+          <div className="text-xs text-gr-subtle mt-1 flex items-baseline gap-2">
+            <span>across journey stages</span>
+            <MetricDelta
+              current={totals.grTotal}
+              previous={stages.reduce((s, x) => s + (x.gymreapers_total_lw ?? 0), 0) || (data?.previous_snapshot_date ? 0 : null)}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Entry candidates</div>
@@ -191,7 +203,14 @@ export default function JourneyPage() {
                 <div className="bg-gr-bg rounded p-3 border border-gr-border/60">
                   <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Gymreapers SKUs</div>
                   <div className="text-2xl font-bold text-gr-text tabular-nums">{stage.gymreapers_total}</div>
-                  <div className="text-xs text-gr-subtle mt-0.5">in this stage</div>
+                  <div className="text-xs text-gr-subtle mt-0.5 flex items-baseline gap-1.5">
+                    <span>in this stage</span>
+                    <MetricDelta
+                      current={stage.gymreapers_total}
+                      previous={stage.gymreapers_total_lw}
+                      compact
+                    />
+                  </div>
                 </div>
 
                 <div className="bg-gr-bg rounded p-3 border border-gr-border/60">

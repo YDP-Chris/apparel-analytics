@@ -12,6 +12,17 @@ const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
 
+// Apparel-tier peer slugs — mirrors GAP_TIER_BRANDS['apparel'] on the webhook
+// server. Gymreapers is the focus brand and is excluded from peer tallies.
+const APPAREL_TIER_PEERS = new Set<string>([
+  'gymshark', 'vuori', 'alo', 'lululemon',
+  'rhone', 'outdoor_voices', 'tenthousand', 'athleta',
+]);
+
+function prettySub(s: string): string {
+  return s.replace(/_/g, ' ');
+}
+
 interface AmazonCategory {
   slug: string;
   name: string;
@@ -85,12 +96,54 @@ interface QaPayload {
   }>;
 }
 
+// --- Apparel-direction tile state -----------------------------------------
+// All three tiles degrade gracefully: if any fetch fails or the field is
+// missing, that single tile is skipped — the page never errors.
+
+interface JourneyEntryCandidate {
+  subcategory: string;
+  gymreapers_count: number;
+  peer_max: number;
+  peer_max_brand_name: string | null;
+  delta_vs_avg: number;
+  stage_label: string;
+}
+
+interface JourneyPayload {
+  available: boolean;
+  stages?: Array<{
+    label: string;
+    top_entry_candidates: Array<{
+      subcategory: string;
+      gymreapers_count: number;
+      peer_max: number;
+      peer_max_brand_name: string | null;
+      delta_vs_avg: number;
+    }>;
+  }>;
+}
+
+interface PromoTodayEvent {
+  brand_slug: string;
+  product_title: string;
+  category: string | null;
+  discount_pct: number | null;
+}
+
+interface PromoPayload {
+  available: boolean;
+  today_events?: PromoTodayEvent[];
+  brand_names?: Record<string, string>;
+}
+
 export default function TodayPage() {
   const { data: comp } = useGymreapersData();
   const [amz, setAmz] = useState<AmazonPayload | null>(null);
   const [qa, setQa] = useState<QaPayload | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [qaExpanded, setQaExpanded] = useState(false);   // collapsed by default
+  const [journey, setJourney] = useState<JourneyPayload | null>(null);
+  const [promo, setPromo] = useState<PromoPayload | null>(null);
 
   useEffect(() => {
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
@@ -108,6 +161,16 @@ export default function TodayPage() {
       .then((j) => j && setQa(j))
       .catch(() => {})
       .finally(() => clearTimeout(qaTimeout));
+    // Apparel-direction tiles. Fetched in parallel with the rest; each tile
+    // is independently optional, so a failure just hides that tile.
+    fetch(`${PULSE_API}/pulse/journey`, { headers: { Authorization: `Bearer ${token}` } })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => j && setJourney(j))
+      .catch(() => {});
+    fetch(`${PULSE_API}/pulse/promo`, { headers: { Authorization: `Bearer ${token}` } })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => j && setPromo(j))
+      .catch(() => {});
   }, []);
 
   if (!comp && !amz) {
@@ -165,6 +228,75 @@ export default function TodayPage() {
     .filter((t) => typeof t.wow_change === 'number');
   const topTrendUp = trendList.sort((a, b) => (b.wow_change || 0) - (a.wow_change || 0))[0];
   const topTrendDown = trendList.sort((a, b) => (a.wow_change || 0) - (b.wow_change || 0))[0];
+
+  // === Apparel-direction tile values ===
+  // Tile 1: top apparel entry candidate today — biggest deficit (most negative
+  // delta_vs_avg) across all journey stages.
+  let topEntryCandidate: JourneyEntryCandidate | null = null;
+  if (journey?.available && journey.stages) {
+    const all: JourneyEntryCandidate[] = [];
+    for (const stage of journey.stages) {
+      for (const c of stage.top_entry_candidates || []) {
+        all.push({
+          subcategory: c.subcategory,
+          gymreapers_count: c.gymreapers_count,
+          peer_max: c.peer_max,
+          peer_max_brand_name: c.peer_max_brand_name,
+          delta_vs_avg: c.delta_vs_avg,
+          stage_label: stage.label,
+        });
+      }
+    }
+    all.sort((a, b) => a.delta_vs_avg - b.delta_vs_avg);
+    topEntryCandidate = all[0] || null;
+  }
+
+  // Tile 2: most active apparel-tier launcher this week. Sum recentDrops by
+  // brand, restricted to apparel-tier peers (excludes Gymreapers + strength
+  // peers). recentDrops in /pulse/competitive is the ~14-day window the agent
+  // surfaces; we treat it as "this week" for the at-a-glance read.
+  let topApparelLauncher: { slug: string; name: string; count: number } | null = null;
+  if (comp?.launchesSection?.recentDrops?.length) {
+    const counts: Record<string, number> = {};
+    for (const drop of comp.launchesSection.recentDrops) {
+      if (!APPAREL_TIER_PEERS.has(drop.brand)) continue;
+      counts[drop.brand] = (counts[drop.brand] || 0) + 1;
+    }
+    const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    if (ranked.length > 0) {
+      const [slug, count] = ranked[0];
+      topApparelLauncher = {
+        slug,
+        name: comp.brand_names[slug] || slug,
+        count,
+      };
+    }
+  }
+
+  // Tile 3: apparel-tier promo activity right now — count of SKUs on sale
+  // today across apparel-tier peers. We also surface the top brand by SKU
+  // count so the tile says something more concrete than "N on sale".
+  let apparelPromoToday: { skus: number; topBrand: string | null; brands: number } | null = null;
+  if (promo?.available && promo.today_events) {
+    const apparelEvents = promo.today_events.filter((e) => APPAREL_TIER_PEERS.has(e.brand_slug));
+    if (apparelEvents.length > 0) {
+      const byBrand: Record<string, number> = {};
+      for (const e of apparelEvents) {
+        byBrand[e.brand_slug] = (byBrand[e.brand_slug] || 0) + 1;
+      }
+      const ranked = Object.entries(byBrand).sort((a, b) => b[1] - a[1]);
+      const topSlug = ranked[0][0];
+      apparelPromoToday = {
+        skus: apparelEvents.length,
+        topBrand: promo.brand_names?.[topSlug] || topSlug,
+        brands: Object.keys(byBrand).length,
+      };
+    } else {
+      apparelPromoToday = { skus: 0, topBrand: null, brands: 0 };
+    }
+  }
+
+  const hasAnyApparelTile = topEntryCandidate || topApparelLauncher || apparelPromoToday;
 
   return (
     /* ------------------------------------------------------------------ *
@@ -352,6 +484,121 @@ export default function TodayPage() {
           <Link href="/gymreapers/amazon" className="inline-block mt-5 text-sm text-gr-accent hover:text-gr-accent-hover font-semibold">
             See all whitespace opportunities →
           </Link>
+        </section>
+      )}
+
+      {/* APPAREL DIRECTION — Gymreapers apparel thesis. 3-tile mini-strip.
+          Positioned under the focal opportunity and above the supporting
+          grid so the apparel frame is the second thing the reader sees.
+          Each tile degrades independently if its fetch fails. */}
+      {hasAnyApparelTile && (
+        <section className="bg-gr-surface rounded-md border border-gr-border p-6">
+          <div className="flex items-baseline justify-between gap-3 mb-1">
+            <p className="text-[11px] uppercase tracking-[0.15em] text-gr-subtle font-bold">
+              Apparel direction
+            </p>
+            <ConfidenceBadge source="brand_mix" />
+          </div>
+          <div className="flex items-baseline justify-between gap-3 mb-4">
+            <h3 className="text-xl font-bold text-gr-text">
+              Gymreapers apparel thesis
+            </h3>
+            <div className="flex gap-3 text-[11px] uppercase tracking-wider font-semibold">
+              <Link
+                href="/journey"
+                onClick={() => trackEvent('click', { label: 'apparel_direction_link', metadata: { dest: 'journey' } })}
+                className="text-gr-accent hover:text-gr-accent-hover"
+              >
+                Journey →
+              </Link>
+              <Link
+                href="/apparel-entry-candidates"
+                onClick={() => trackEvent('click', { label: 'apparel_direction_link', metadata: { dest: 'apparel_entry_candidates' } })}
+                className="text-gr-accent hover:text-gr-accent-hover"
+              >
+                Entry candidates →
+              </Link>
+            </div>
+          </div>
+          <div className="mb-5">
+            <SectionExplainer
+              collapsed
+              what="Today's read on Gymreapers' steer into apparel. Top entry candidate is the subcategory where peer apparel majors are deepest and Gymreapers is thinnest. Most active launcher = where the apparel-tier set is shipping right now. Promo activity = how many of those peers have SKUs on sale today."
+              howToRead="Tile 1 is a product sequencing signal — what to enter first. Tile 2 is a market-direction signal — what peers are betting on. Tile 3 is a timing signal — when peer demand is being pulled into promos vs. holding full price."
+              whatToDo="Use the entry candidate as a starting brief for the next apparel scoping conversation, cross-checked against the use-case story (training, between-sets, recovery, identity, meet-day). Skip subcategories that don't map to the strength-athlete frame even if peers are deep there."
+            />
+          </div>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {/* Tile 1: Top apparel entry candidate */}
+            {topEntryCandidate && (
+              <div className="bg-gr-bg rounded p-4 border border-gr-border/60">
+                <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">
+                  Top entry candidate
+                </div>
+                <div className="text-lg font-bold text-gr-text capitalize leading-tight">
+                  {prettySub(topEntryCandidate.subcategory)}
+                </div>
+                <div className="text-xs text-gr-muted mt-1">
+                  Stage &middot; <span className="text-gr-text">{topEntryCandidate.stage_label}</span>
+                </div>
+                <div className="text-xs text-gr-muted mt-2 leading-snug">
+                  Gymreapers has{' '}
+                  <span className="font-bold text-gr-text tabular-nums">{topEntryCandidate.gymreapers_count}</span>
+                  {' '}SKUs vs{' '}
+                  <span className="font-bold text-gr-text tabular-nums">{topEntryCandidate.peer_max}</span>
+                  {' '}at{' '}
+                  <span className="text-gr-text">{topEntryCandidate.peer_max_brand_name || 'top peer'}</span>.
+                </div>
+                <div className="text-[11px] text-gr-subtle mt-2 italic leading-snug">
+                  Biggest peer-vs-Gymreapers gap in the apparel set today.
+                </div>
+              </div>
+            )}
+
+            {/* Tile 2: Most active apparel-tier launcher */}
+            {topApparelLauncher && (
+              <div className="bg-gr-bg rounded p-4 border border-gr-border/60">
+                <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">
+                  Most active apparel launcher
+                </div>
+                <div className="text-lg font-bold text-gr-text leading-tight">
+                  {topApparelLauncher.name}
+                </div>
+                <div className="text-xs text-gr-muted mt-1">
+                  <span className="font-bold text-gr-text tabular-nums">{topApparelLauncher.count}</span>
+                  {' '}recent drops in the apparel set
+                </div>
+                <div className="text-[11px] text-gr-subtle mt-2 italic leading-snug">
+                  Who&apos;s shipping into apparel hardest right now &middot; market-direction signal.
+                </div>
+              </div>
+            )}
+
+            {/* Tile 3: Apparel-tier promo activity */}
+            {apparelPromoToday && (
+              <div className="bg-gr-bg rounded p-4 border border-gr-border/60">
+                <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">
+                  Apparel promo activity
+                </div>
+                <div className="text-lg font-bold text-gr-text leading-tight">
+                  {apparelPromoToday.skus > 0
+                    ? `${apparelPromoToday.skus} SKUs on sale`
+                    : 'No apparel-tier promos today'}
+                </div>
+                {apparelPromoToday.skus > 0 && (
+                  <div className="text-xs text-gr-muted mt-1">
+                    across <span className="font-bold text-gr-text tabular-nums">{apparelPromoToday.brands}</span> brands
+                    {apparelPromoToday.topBrand && (
+                      <> &middot; led by <span className="text-gr-text">{apparelPromoToday.topBrand}</span></>
+                    )}
+                  </div>
+                )}
+                <div className="text-[11px] text-gr-subtle mt-2 italic leading-snug">
+                  How much of the apparel set is pulling demand with discount today.
+                </div>
+              </div>
+            )}
+          </div>
         </section>
       )}
 

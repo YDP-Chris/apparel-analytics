@@ -27,6 +27,42 @@ interface Playbook {
 
 const PLAYBOOKS: Playbook[] = [
   {
+    id: 'apparel-entry-opportunity',
+    audience: 'Both',
+    title: 'An apparel entry opportunity surfaces',
+    signal: '/journey or /apparel-entry-candidates flags a subcategory where Gymreapers is at 0 SKUs, an apparel-tier peer (Vuori, Alo, Lululemon, Gymshark, Rhone, Athleta, Outdoor Voices, Ten Thousand) has deep inventory, and the use-case stage maps to a strength-athlete moment (training, between-sets, recovery, identity, meet-day).',
+    meaning: (
+      <>
+        Gymreapers is steering into apparel. Entry candidates that map to a strength-customer
+        story close the gap with peer apparel majors while staying authentic to the brand.
+        Off-thesis categories (yoga-pure, high-fashion drops, tennis dresses) should not be
+        entered just because peers are deep in them. The five use-case stages
+        on <Link href="/journey" className="text-gr-accent hover:text-gr-accent-hover underline">/journey</Link> are
+        the filter: training is closest to the strength-accessories core, identity is where
+        existing brand equity already converts, recovery and between-sets are the largest
+        apparel pools but need sustained investment, meet day is niche credibility.
+      </>
+    ),
+    actions: [
+      'Confirm the candidate is on-thesis. Cross-reference with the use-case taxonomy: would a Gymreapers customer tell a training, between-sets, recovery, identity, or meet-day story about wearing this? If none fit, deprioritize.',
+      'Pull demand evidence. Check /for-product/demand (Amazon BSR) for the subcategory or its closest proxy. Confirm there is real consumer pull, not just peer-side supply.',
+      'Study the top peer\'s offering. Open /for-product/pricing and /gymreapers/mix and note: price tier, fit story, materials, color depth, size range. The peer max brand in the entry-candidate row is the right starting comparison.',
+      'Sketch the Gymreapers angle. How does this subcategory specifically fit the strength-customer story (not generic athleisure)? What is the brand voice on this category? Avoid mimicking the apparel-majors\' yoga-pure aesthetic.',
+      'Time the launch against peer promo cadence. Cross-check /promo-calendar for when the apparel-tier set discounts this subcategory and time the launch into a full-price window, not into someone else\'s sale.',
+      'Flag the candidate via the "Add to apparel roadmap" button on /apparel-entry-candidates, or annotate via /log so the rationale is captured next to the data.',
+      'Don\'t enter a subcategory just because Vuori or Alo are deep in it. Confirm it maps to the strength-athlete story first.',
+      'Don\'t launch into recovery and identity simultaneously. Sequence by use-case stage: training is closest to the core; identity is where existing brand equity converts.',
+      'Don\'t replicate the apparel-majors\' yoga-pure aesthetic. The Gymreapers customer is reading "performance + I lift," not "studio."',
+    ],
+    wherePages: [
+      { href: '/journey', label: 'Customer Journey' },
+      { href: '/apparel-entry-candidates', label: 'Apparel Entry Candidates' },
+      { href: '/for-product/demand', label: 'Demand Signals' },
+      { href: '/for-product/pricing', label: 'Pricing Map' },
+      { href: '/promo-calendar', label: 'Promo Calendar' },
+    ],
+  },
+  {
     id: 'whitespace-opportunity',
     audience: 'Both',
     title: 'A whitespace opportunity surfaces',
