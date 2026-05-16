@@ -86,6 +86,7 @@ export default function TodayPage() {
   const [amz, setAmz] = useState<AmazonPayload | null>(null);
   const [qa, setQa] = useState<QaPayload | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [qaExpanded, setQaExpanded] = useState(false);   // collapsed by default
 
   useEffect(() => {
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
@@ -163,20 +164,26 @@ export default function TodayPage() {
 
   return (
     <div className="space-y-8">
-      {/* DATA-QA STATUS BANNER — bold red on FAIL, bold yellow on WARN, hidden on green. */}
+      {/* DATA-QA STATUS BANNER — collapsed by default. Click the header to expand.
+          Stays bold red on FAIL, bold yellow on WARN. Hidden entirely on green. */}
       {qa && qa.available && qa.status_color !== 'green' && (
         <section
-          className={`rounded-md p-5 border-2 font-semibold ${
+          className={`rounded-md border-2 ${
             qa.status_color === 'red'
-              ? 'bg-gr-danger/15 border-gr-danger text-gr-text'
-              : 'bg-gr-accent-soft border-gr-accent text-gr-text'
+              ? 'bg-gr-danger/15 border-gr-danger'
+              : 'bg-gr-accent-soft border-gr-accent'
           }`}
         >
-          <div className="flex items-start gap-4">
-            <div className={`text-3xl ${qa.status_color === 'red' ? 'animate-pulse' : ''}`}>
-              {qa.status_color === 'red' ? '⚠' : '⚠'}
+          <button
+            type="button"
+            onClick={() => setQaExpanded((v) => !v)}
+            className="w-full px-5 py-4 flex items-center gap-4 text-left hover:bg-black/5 transition rounded-md"
+            aria-expanded={qaExpanded}
+          >
+            <div className={`text-3xl flex-shrink-0 ${qa.status_color === 'red' ? 'animate-pulse' : ''}`}>
+              ⚠
             </div>
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <div className={`text-lg font-bold uppercase tracking-wider ${
                 qa.status_color === 'red' ? 'text-gr-danger' : 'text-gr-accent'
               }`}>
@@ -184,7 +191,22 @@ export default function TodayPage() {
                   ? `${qa.fail_count} data integrity FAIL — read carefully`
                   : `${qa.warn_count} data warning${(qa.warn_count || 0) > 1 ? 's' : ''} — heads up`}
               </div>
-              <div className="text-sm mt-1 leading-relaxed">
+              <div className="text-sm text-gr-muted mt-0.5">
+                {qaExpanded ? 'Click to collapse' : 'Click to see what\'s affected'}
+              </div>
+            </div>
+            <svg
+              className={`w-5 h-5 flex-shrink-0 text-gr-muted transition-transform ${qaExpanded ? 'rotate-180' : ''}`}
+              fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          {qaExpanded && (
+            <div className="px-5 pb-5 pt-1 font-semibold">
+              <div className="text-sm leading-relaxed text-gr-text">
                 The dashboard is still showing the latest data we have, but some of it may be stale
                 or incomplete. Verify any number before acting on it.
               </div>
@@ -203,7 +225,7 @@ export default function TodayPage() {
                 </div>
               )}
             </div>
-          </div>
+          )}
         </section>
       )}
 
