@@ -127,7 +127,7 @@ export default function ClusterMatrixPage() {
       <SectionExplainer
         what={`${data.clusters.length} clusters across ${Object.keys(byBrand).length} brands. ${data.overlaps.length} pairs scored above ${data.min_score}.`}
         howToRead='Color intensity is the similarity score. Diagonal cells (same brand) are blank. Use the score-floor slider to surface only the strongest matches.'
-        whatToDo='Strong overlap pairs are exactly where you can borrow positioning - the same hook resonates with both brands' customers. Weaker overlaps reveal where customer types are distinct enough that you need bespoke messaging.'
+        whatToDo="Strong overlap pairs are exactly where you can borrow positioning - the same hook resonates with both brand customer bases. Weaker overlaps reveal where customer types are distinct enough that you need bespoke messaging."
       />
 
       <section className="flex items-center gap-4 flex-wrap">
