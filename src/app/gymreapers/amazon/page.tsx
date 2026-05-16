@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+import { Annotations } from '@/components/Annotations';
+import { InterestSignal } from '@/components/InterestSignal';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
 
@@ -360,6 +362,24 @@ export default function GymreapersAmazonPage() {
                     </div>
                   </div>
                 </div>
+
+                {/* Team feedback layer — pin intent + notes to this specific
+                    whitespace opp so the next reviewer sees prior context. */}
+                <div className="mt-4 pt-4 border-t border-gr-border/60 space-y-3">
+                  <div className="flex items-center justify-between gap-3 flex-wrap">
+                    <span className="text-[11px] uppercase tracking-wider font-bold text-gr-subtle">Team intent</span>
+                    <InterestSignal
+                      entityKind="whitespace_query"
+                      entityKey={`${op.category_slug}|${op.query}`}
+                      entityLabel={op.query}
+                    />
+                  </div>
+                  <Annotations
+                    entityKind="whitespace_query"
+                    entityKey={`${op.category_slug}|${op.query}`}
+                    entityLabel={op.query}
+                  />
+                </div>
               </div>
             ))}
           </div>
@@ -386,7 +406,14 @@ export default function GymreapersAmazonPage() {
           {data.categories.map((cat) => {
             const gr = cat.gymreapers;
             return (
-              <div key={cat.slug} className="bg-gr-bg rounded-md p-5 border border-gr-border">
+              <div key={cat.slug} className="bg-gr-bg rounded-md p-5 border border-gr-border space-y-3">
+                <div className="flex items-center justify-end">
+                  <InterestSignal
+                    entityKind="amazon_category"
+                    entityKey={cat.slug}
+                    entityLabel={cat.name}
+                  />
+                </div>
                 <div className="flex items-baseline justify-between gap-4 mb-4">
                   <div>
                     <h3 className="text-lg font-bold text-gr-text tracking-tight">{cat.name}</h3>

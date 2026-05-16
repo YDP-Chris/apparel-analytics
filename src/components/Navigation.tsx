@@ -48,6 +48,7 @@ const NAV_SECTIONS: NavSection[] = [
     label: 'Data Explorer',
     children: [
       { href: '/playbooks', label: 'Playbooks', status: 'live', description: 'What to do when each signal fires — scenario-driven guide' },
+      { href: '/log', label: 'Decisions Log', status: 'live', description: 'Every intent the team has set + notes attached to findings' },
       { href: '/methodology', label: 'Methodology', status: 'live', description: 'How every source is captured, sampled, biased — confidence ratings' },
       { href: '/glossary', label: 'Glossary', status: 'live', description: 'Every term defined — HHI, BSR, bought-past-month, etc.' },
       { href: '/data-quality', label: 'Data Quality', status: 'live', description: 'Live data-qa run status — freshness, volume, consistency' },
