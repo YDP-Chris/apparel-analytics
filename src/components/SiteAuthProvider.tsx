@@ -64,8 +64,34 @@ export function SiteAuthProvider({ children }: { children: ReactNode }) {
   const [authenticating, setAuthenticating] = useState(false);
 
   useEffect(() => {
-    setToken(readStoredToken());
-    setAuthReady(true);
+    // Read locally-stored token, then verify it's still valid server-side.
+    // The server's token store lives in memory + a disk snapshot; if the
+    // disk snapshot is stale (e.g. very old restart), we'd see persistent
+    // 401s with no UI recovery. /pulse/verify gives us a clean "is this
+    // token live?" check, and we clear the stale token so the login form
+    // renders cleanly.
+    const stored = readStoredToken();
+    if (!stored) {
+      setAuthReady(true);
+      return;
+    }
+    fetch(`${PULSE_API}/pulse/verify`, {
+      headers: { Authorization: `Bearer ${stored}` },
+    })
+      .then((r) => {
+        if (r.ok) {
+          setToken(stored);
+        } else {
+          clearAuth();
+          setToken(null);
+        }
+      })
+      .catch(() => {
+        // Network blip - keep the token; fail open. If the API is genuinely
+        // down, every page will show its own load error.
+        setToken(stored);
+      })
+      .finally(() => setAuthReady(true));
   }, []);
 
   async function handleLogin(e: FormEvent) {
