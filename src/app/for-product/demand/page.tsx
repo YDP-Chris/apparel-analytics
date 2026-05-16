@@ -70,44 +70,51 @@ export default function DemandSignalsPage() {
   );
 
   return (
-    <div className="space-y-6">
-      <header>
-        <div className="flex items-baseline justify-between gap-3 mb-2">
+    <div className="space-y-12">
+      <header className="pb-2">
+        <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
             For Product · Demand Signals
           </p>
           <ConfidenceBadge source="amazon_bsr" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">What&apos;s actually selling</h1>
-        <p className="text-gr-muted mt-2 max-w-3xl">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
+          What&apos;s actually selling
+        </h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Top products in our tracked Amazon categories sorted by Amazon&apos;s &ldquo;bought in
           past month&rdquo; volume bucket. This is the closest public proxy to monthly unit sales —
           a 3K+ label means at least 3,000 bought in the last month.
         </p>
       </header>
 
-      <section className="bg-gr-surface rounded-md border border-gr-border p-6">
-        <h2 className="text-lg font-bold text-gr-text mb-4">Top sellers across categories ({topVolume.length})</h2>
+      <section className="bg-gr-surface rounded-md border border-gr-border p-8">
+        <div className="mb-6">
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Velocity leaders</p>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight">
+            Top sellers across categories <span className="text-gr-muted font-normal tabular-nums">({topVolume.length})</span>
+          </h2>
+        </div>
         {topVolume.length === 0 ? (
           <p className="text-sm text-gr-muted">No products with volume data captured yet. Amazon shows this on most cards once a product has &gt;500/month.</p>
         ) : (
-          <div className="space-y-2">
+          <div className="space-y-1 -mx-2">
             {topVolume.slice(0, 30).map((p, i) => (
               <a
                 key={`${p.asin}-${i}`}
                 href={p.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`flex items-baseline gap-3 text-sm hover:bg-gr-bg rounded p-2 -m-2 ${
+                className={`flex items-baseline gap-3 text-sm hover:bg-gr-bg rounded px-2 py-2 ${
                   p.is_gymreapers ? 'text-gr-accent' : 'text-gr-muted'
                 }`}
                 title={p.title}
               >
-                <span className="w-10 text-right font-bold">{p.bought_past_month_label}</span>
-                <span className="w-32 text-xs text-gr-subtle truncate flex-shrink-0">{p.category}</span>
+                <span className="w-12 text-right font-bold tabular-nums font-mono">{p.bought_past_month_label}</span>
+                <span className="w-32 text-[11px] uppercase tracking-wider text-gr-subtle truncate flex-shrink-0">{p.category}</span>
                 <span className="flex-1 truncate">{p.title}</span>
-                <span className="text-xs">{fmtPrice(p.price)}</span>
-                <span className="text-xs text-gr-subtle w-14 text-right">{fmtReviews(p.reviews)}r</span>
+                <span className="text-xs tabular-nums">{fmtPrice(p.price)}</span>
+                <span className="text-xs text-gr-subtle w-14 text-right tabular-nums">{fmtReviews(p.reviews)}r</span>
               </a>
             ))}
           </div>

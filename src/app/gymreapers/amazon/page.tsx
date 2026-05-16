@@ -197,32 +197,20 @@ export default function GymreapersAmazonPage() {
   })();
 
   return (
-    <div className="space-y-10">
-      {/* Prominent snapshot date banner — anchors the whole page in time so a
-          team member knows exactly which day they're looking at. */}
-      <section className="bg-gradient-to-r from-gr-accent-soft to-gr-raised border border-gr-accent-soft rounded-md p-5 flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <div className="text-xs text-gr-subtle uppercase tracking-wider font-semibold">Snapshot date</div>
-          <div className="text-2xl font-bold text-gr-text mt-1">{snapshotDateLabel}</div>
-          <div className="text-xs text-gr-muted mt-1">Last captured {lastUpdatedLabel}</div>
-        </div>
-        <button
-          onClick={refresh}
-          className="px-4 py-2 rounded-md bg-gr-accent text-gr-text font-semibold text-sm hover:bg-gr-accent-hover transition"
-        >
-          Refresh from Supabase
-        </button>
-      </section>
-
-      <header>
-        <div className="flex items-baseline justify-between gap-3 mb-2">
+    <div className="space-y-12">
+      {/* PAGE HEADER — eyebrow + h1 + lede. Confidence badge inline with
+          eyebrow per cross-page rhythm. */}
+      <header className="pb-2">
+        <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
-            Gymreapers / Amazon Demand Signal
+            For Product · Whitespace
           </p>
           <ConfidenceBadge source="amazon_bsr" />
         </div>
-        <h1 className="text-4xl font-bold tracking-tight">Where the buyers are</h1>
-        <p className="text-gr-muted mt-3 max-w-3xl text-lg leading-relaxed">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
+          Where the buyers are
+        </h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Daily popularity-rank snapshots across{' '}
           <span className="font-semibold text-gr-text">{totals.categories_tracked}</span> Amazon
           categories aligned to the Gymreapers + Victory Grips assortment. We rank in the top 100 of{' '}
@@ -233,13 +221,36 @@ export default function GymreapersAmazonPage() {
         </p>
       </header>
 
-      {/* How-to-read explainer — collapses for power users, expands for new
-          teammates who need the context. */}
-      <details className="bg-gr-surface rounded-md p-5 border border-gr-border">
-        <summary className="cursor-pointer text-gr-text font-semibold text-sm flex items-center gap-2">
-          <span className="text-gr-accent">📖</span> How to read this page
+      {/* Snapshot anchor — quieter chrome. Date typography is the focal
+          point, refresh recedes to a secondary button. */}
+      <section className="bg-gr-surface border border-gr-border rounded-md px-6 py-5 flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <div className="text-[11px] text-gr-subtle uppercase tracking-[0.2em] font-bold">Snapshot date</div>
+          <div className="text-xl font-bold text-gr-text mt-1 font-mono">{snapshotDateLabel}</div>
+          <div className="text-xs text-gr-muted mt-1">Last captured {lastUpdatedLabel}</div>
+        </div>
+        <button
+          onClick={refresh}
+          className="px-3.5 py-2 rounded-md border border-gr-border bg-gr-bg text-gr-muted font-semibold text-xs uppercase tracking-[0.15em] hover:bg-gr-raised hover:text-gr-text hover:border-gr-accent/60 transition"
+        >
+          Refresh
+        </button>
+      </section>
+
+      {/* How-to-read explainer — collapsed by default. Removed the emoji
+          for a tighter, more professional look. */}
+      <details className="bg-gr-surface rounded-md border border-gr-border group">
+        <summary className="cursor-pointer text-gr-text text-sm flex items-center justify-between gap-3 px-6 py-4 list-none">
+          <span className="font-semibold uppercase tracking-[0.15em] text-xs text-gr-muted group-hover:text-gr-text transition">
+            How to read this page
+          </span>
+          <svg className="w-4 h-4 text-gr-subtle transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
         </summary>
-        <div className="mt-4 space-y-3 text-sm text-gr-muted leading-relaxed">
+        <div className="px-6 pb-6 pt-1 space-y-3 text-sm text-gr-muted leading-relaxed border-t border-gr-border/50">
+          <div className="h-1" />
+
           <p>
             <span className="font-semibold text-gr-text">What this is.</span> Every day at 5 AM ET
             we scrape Amazon&apos;s popularity rankings for product categories that match
@@ -274,9 +285,10 @@ export default function GymreapersAmazonPage() {
       </details>
 
       {opps.length === 0 && pendingCount > 0 && (
-        <section className="bg-gr-surface rounded-md p-8 border border-gr-border border-l-4 border-l-gr-accent-soft">
+        <section className="bg-gr-surface rounded-md p-7 border border-gr-border border-l-2 border-l-gr-accent/60">
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Status</p>
           <h2 className="text-xl font-bold text-gr-text mb-2">Whitespace data still being collected</h2>
-          <p className="text-sm text-gr-muted">
+          <p className="text-sm text-gr-muted leading-relaxed max-w-3xl">
             {pendingCount} whitespace sub-queries are still pending — Amazon rate-limited today&apos;s
             requests. Tonight&apos;s batched run + tomorrow&apos;s 5 AM cron will produce a full
             report. Per-category Gymreapers position below is accurate.
@@ -286,49 +298,53 @@ export default function GymreapersAmazonPage() {
 
       {opps.length > 0 && (
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-          <h2 className="text-xl font-bold text-gr-text mb-2">Top Whitespace Opportunities</h2>
-          <p className="text-sm text-gr-subtle mb-6">
-            Sub-queries with real demand where Gymreapers has no presence. Score = total reviews
-            in top 20 × (1 − brand concentration).
-            {pendingCount > 0 && (
-              <span className="block mt-1 italic">
-                {pendingCount} additional queries still pending Amazon cooldown.
-              </span>
-            )}
-          </p>
+          <div className="mb-6">
+            <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Focal insight</p>
+            <h2 className="text-2xl font-bold text-gr-text mb-2 tracking-tight">Top Whitespace Opportunities</h2>
+            <p className="text-sm text-gr-muted leading-relaxed max-w-3xl">
+              Sub-queries with real demand where Gymreapers has no presence. Score = total reviews
+              in top 20 × (1 − brand concentration).
+              {pendingCount > 0 && (
+                <span className="block mt-1 italic">
+                  {pendingCount} additional queries still pending Amazon cooldown.
+                </span>
+              )}
+            </p>
+          </div>
           <div className="space-y-3">
             {opps.map((op, i) => (
-              <div key={`${op.category_slug}-${op.query}`} className="bg-gr-bg rounded-md p-4 border border-gr-border">
-                <div className="flex items-start justify-between gap-4">
-                  <div className="flex-1">
+              <div key={`${op.category_slug}-${op.query}`} className="bg-gr-bg rounded-md p-5 border border-gr-border hover:border-gr-accent/40 transition">
+                <div className="flex items-start justify-between gap-6">
+                  <div className="flex-1 min-w-0">
                     <div className="flex items-baseline gap-3">
-                      <span className="text-gr-accent font-bold text-sm">#{i + 1}</span>
-                      <span className="text-gr-text font-semibold">&ldquo;{op.query}&rdquo;</span>
+                      <span className="text-gr-accent font-bold text-sm font-mono tabular-nums">#{i + 1}</span>
+                      <span className="text-gr-text font-semibold text-base font-mono truncate">&ldquo;{op.query}&rdquo;</span>
                     </div>
-                    <div className="text-xs text-gr-muted mt-1">
-                      in {op.category_name} ·{' '}
-                      {op.top_brands[0]?.brand ?? '?'} leads
+                    <div className="text-xs text-gr-muted mt-1.5">
+                      in {op.category_name}{' '}
+                      <span className="text-gr-subtle">·</span>{' '}
+                      <span className="text-gr-text">{op.top_brands[0]?.brand ?? '?'}</span> leads
                     </div>
                   </div>
-                  <div className="grid grid-cols-3 gap-4 text-right">
+                  <div className="grid grid-cols-3 gap-5 text-right flex-shrink-0">
                     <div>
-                      <div className="text-xs text-gr-subtle">demand</div>
-                      <div className="text-lg font-bold text-gr-text">
+                      <div className="text-[10px] uppercase tracking-wider text-gr-subtle font-bold">Demand</div>
+                      <div className="text-lg font-bold text-gr-text tabular-nums mt-0.5">
                         {op.total_reviews_in_top_n.toLocaleString()}
                       </div>
-                      <div className="text-xs text-gr-subtle">reviews</div>
+                      <div className="text-[10px] text-gr-subtle">reviews</div>
                     </div>
                     <div>
-                      <div className="text-xs text-gr-subtle">avg $</div>
-                      <div className="text-lg font-bold text-gr-text">{fmtPrice(op.avg_price)}</div>
-                      <div className="text-xs text-gr-subtle">
+                      <div className="text-[10px] uppercase tracking-wider text-gr-subtle font-bold">Avg $</div>
+                      <div className="text-lg font-bold text-gr-text tabular-nums mt-0.5">{fmtPrice(op.avg_price)}</div>
+                      <div className="text-[10px] text-gr-subtle tabular-nums">
                         {fmtPrice(op.price_range.min)}–{fmtPrice(op.price_range.max)}
                       </div>
                     </div>
                     <div>
-                      <div className="text-xs text-gr-subtle">HHI</div>
-                      <div className="text-lg font-bold text-gr-text">{op.concentration_hhi.toFixed(2)}</div>
-                      <div className="text-xs text-gr-subtle">
+                      <div className="text-[10px] uppercase tracking-wider text-gr-subtle font-bold">HHI</div>
+                      <div className="text-lg font-bold text-gr-text tabular-nums mt-0.5">{op.concentration_hhi.toFixed(2)}</div>
+                      <div className="text-[10px] text-gr-subtle">
                         {op.concentration_hhi < 0.2 ? 'fragmented' : op.concentration_hhi < 0.4 ? 'mid' : 'entrenched'}
                       </div>
                     </div>
@@ -341,34 +357,32 @@ export default function GymreapersAmazonPage() {
       )}
 
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-        <h2 className="text-xl font-bold text-gr-text mb-2">Gymreapers Position by Category</h2>
-        <p className="text-sm text-gr-subtle mb-6">
-          Best rank in each tracked Amazon category. Top 5 by popularity shown for context. Victory
-          Grips products count as Gymreapers presence.
-        </p>
-        <div className="space-y-6">
+        <div className="mb-6">
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Coverage</p>
+          <h2 className="text-2xl font-bold text-gr-text mb-2 tracking-tight">Gymreapers Position by Category</h2>
+          <p className="text-sm text-gr-muted leading-relaxed max-w-3xl">
+            Best rank in each tracked Amazon category. Top 5 by popularity shown for context. Victory
+            Grips products count as Gymreapers presence.
+          </p>
+        </div>
+        <div className="space-y-4">
           {data.categories.map((cat) => {
             const gr = cat.gymreapers;
             return (
-              <div key={cat.slug} className="bg-gr-bg rounded-md p-4 border border-gr-border">
-                <div className="flex items-baseline justify-between gap-4 mb-3">
+              <div key={cat.slug} className="bg-gr-bg rounded-md p-5 border border-gr-border">
+                <div className="flex items-baseline justify-between gap-4 mb-4">
                   <div>
-                    <h3 className="text-lg font-semibold text-gr-text">{cat.name}</h3>
-                    <div className="text-xs text-gr-subtle">
-                      &ldquo;{cat.keyword}&rdquo; · {cat.organic_count} organic results
+                    <h3 className="text-lg font-bold text-gr-text tracking-tight">{cat.name}</h3>
+                    <div className="text-xs text-gr-subtle mt-0.5">
+                      <span className="font-mono">&ldquo;{cat.keyword}&rdquo;</span> · {cat.organic_count} organic results
                     </div>
                   </div>
                   <div className="text-right">
+                    <div className="text-[10px] uppercase tracking-wider text-gr-subtle font-bold">Gymreapers</div>
                     {gr.present ? (
-                      <>
-                        <div className="text-xs text-gr-subtle">Gymreapers</div>
-                        <div className="text-2xl font-bold text-gr-accent">#{gr.top_rank}</div>
-                      </>
+                      <div className="text-3xl font-bold text-gr-accent font-mono tabular-nums leading-none mt-1">#{gr.top_rank}</div>
                     ) : (
-                      <>
-                        <div className="text-xs text-gr-subtle">Gymreapers</div>
-                        <div className="text-lg font-bold text-gr-muted">not in top 100</div>
-                      </>
+                      <div className="text-sm font-semibold text-gr-subtle mt-1.5">not in top 100</div>
                     )}
                   </div>
                 </div>

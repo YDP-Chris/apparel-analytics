@@ -231,12 +231,12 @@ const CONFIDENCE_STYLES = {
 export default function MethodologyPage() {
   return (
     <div className="space-y-10">
-      <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
+      <header className="pb-2">
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">
           Methodology
         </p>
-        <h1 className="text-4xl font-bold tracking-tight">How to read this dashboard</h1>
-        <p className="text-gr-muted mt-3 max-w-3xl text-lg leading-relaxed">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">How to read this dashboard</h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Every number on every page comes from one of the data sources below. Each source is
           rated HIGH, MEDIUM, or LOW confidence based on its sample size, freshness, and known
           biases. If you&apos;re going to make a decision off a number, scan its source&apos;s

@@ -39,16 +39,16 @@ export default function GymreapersLaunchesPage() {
     totalLast7d > 0 ? Math.round((focusLast7d / totalLast7d) * 100) : 0;
 
   return (
-    <div className="space-y-10">
-      <header>
+    <div className="space-y-12">
+      <header className="pb-2">
         <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
-            Gymreapers / Product Velocity
+            For Product · Launch Velocity
           </p>
           <ConfidenceBadge source="launches" />
         </div>
-        <h1 className="text-4xl font-bold tracking-tight">Launches</h1>
-        <p className="text-gr-muted mt-3 max-w-3xl">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">Launches</h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           New products detected via brand sitemaps, scoped to the strength &amp; powerlifting set.
         </p>
       </header>
@@ -60,9 +60,9 @@ export default function GymreapersLaunchesPage() {
         const top = ranked[0];
         const focusRow = ranked.find((r) => r.slug === focus);
         return (
-          <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
-            <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
-            <p className="text-lg text-gr-text leading-relaxed">
+          <section className="bg-gr-surface border border-gr-border border-l-2 border-l-gr-accent rounded-md p-8">
+            <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-4">The Read</p>
+            <p className="text-lg md:text-xl text-gr-text leading-relaxed font-medium">
               The strength market shipped <b className="text-gr-accent">{totalLast7d}</b> new SKUs in the last 7 days, <b>{totalLast30d}</b> in the last 30.
               {top && top.last7 > 0 && (
                 <> <b>{data.brand_names[top.slug] || top.slug}</b> led the week with <b>{top.last7}</b> drops.</>
@@ -71,14 +71,14 @@ export default function GymreapersLaunchesPage() {
                 <> Gymreapers contributed <b className="text-gr-accent">{focusRow.last7}</b> ({focusShare}% of weekly volume).</>
               )}
             </p>
-            <p className="text-gr-muted text-base mt-3 leading-relaxed">
-              <span className="text-gr-text font-bold">What to watch:</span> if a peer&apos;s daily cadence breaks 5+ for several days running, that&apos;s a launch signal worth investigating before the press pickup.
+            <p className="text-gr-muted text-sm mt-4 leading-relaxed max-w-3xl">
+              <span className="text-gr-text font-semibold">What to watch —</span> if a peer&apos;s daily cadence breaks 5+ for several days running, that&apos;s a launch signal worth investigating before the press pickup.
             </p>
           </section>
         );
       })()}
 
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {[
           { label: 'New (7d)', value: totalLast7d, context: 'across all 7 brands' },
           { label: 'New (30d)', value: totalLast30d, context: 'across all 7 brands' },
@@ -86,8 +86,8 @@ export default function GymreapersLaunchesPage() {
           { label: 'Gymreapers share', value: `${focusShare}%`, context: 'of weekly drops' },
         ].map((s) => (
           <div key={s.label} className="bg-gr-surface rounded-md p-6 border border-gr-border">
-            <p className="text-sm text-gr-subtle font-medium">{s.label}</p>
-            <p className="text-3xl font-bold text-gr-text mt-1">{s.value}</p>
+            <p className="text-[11px] uppercase tracking-[0.15em] text-gr-subtle font-bold">{s.label}</p>
+            <p className="text-3xl md:text-4xl font-bold text-gr-text mt-1.5 tabular-nums tracking-tight">{s.value}</p>
             <p className="text-xs text-gr-subtle mt-1">{s.context}</p>
           </div>
         ))}
@@ -95,7 +95,10 @@ export default function GymreapersLaunchesPage() {
 
       {/* Per-brand sparklines */}
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-        <h2 className="text-xl font-bold text-gr-text mb-6">30-day Velocity by Brand</h2>
+        <div className="mb-6">
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Time series</p>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight">30-day Velocity by Brand</h2>
+        </div>
         <div className="space-y-4">
           {[...data.brand_order]
             .sort((a, b) => (section.summary[b]?.last_7d || 0) - (section.summary[a]?.last_7d || 0))
@@ -161,7 +164,10 @@ export default function GymreapersLaunchesPage() {
       {/* Recent drops feed */}
       {section.recentDrops.length > 0 ? (
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-          <h2 className="text-xl font-bold text-gr-text mb-6">Recent Drops (last 14 days)</h2>
+          <div className="mb-6">
+            <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Feed</p>
+            <h2 className="text-2xl font-bold text-gr-text tracking-tight">Recent Drops <span className="text-gr-muted font-normal text-base">(last 14 days)</span></h2>
+          </div>
           <ul className="space-y-3">
             {[...section.recentDrops]
               .sort((a, b) => new Date(b.first_seen || b.date || 0).getTime() - new Date(a.first_seen || a.date || 0).getTime())

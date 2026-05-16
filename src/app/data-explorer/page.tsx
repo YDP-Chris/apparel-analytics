@@ -106,12 +106,14 @@ ORDER BY bottoms_avg_price NULLS LAST;`,
 export default function DataExplorerPage() {
   return (
     <div className="space-y-10">
-      <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
+      <header className="pb-2">
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">
           Data Explorer
         </p>
-        <h1 className="text-4xl font-bold tracking-tight">Query the underlying data.</h1>
-        <p className="text-gr-muted mt-3 max-w-3xl text-lg">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
+          Query the underlying data.
+        </h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Every page in this dashboard reads from Supabase tables. If you want to slice the data
           your own way — Looker, Retool, Metabase, raw SQL in the Supabase studio — here&apos;s
           the map.

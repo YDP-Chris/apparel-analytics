@@ -43,16 +43,16 @@ export default function GymreapersMixPage() {
   });
 
   return (
-    <div className="space-y-10">
-      <header>
+    <div className="space-y-12">
+      <header className="pb-2">
         <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
-            Gymreapers / Assortment Strategy
+            For Product · Mix Gaps
           </p>
           <ConfidenceBadge source="shopify_catalog" />
         </div>
-        <h1 className="text-4xl font-bold tracking-tight">Product Mix</h1>
-        <p className="text-gr-muted mt-3 max-w-3xl">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">Product Mix</h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           How Gymreapers&apos; catalog compares to competitors across categories, colors, sizes, and price.
         </p>
       </header>
@@ -71,9 +71,9 @@ export default function GymreapersMixPage() {
           .sort((a, b) => b.val - a.val);
         const colorLeader = peerColors[0];
         return (
-          <section className="bg-gr-surface border-l-4 border-gr-accent rounded-md p-6">
-            <div className="text-gr-accent font-bold text-xs uppercase tracking-[0.3em] mb-3">The Read</div>
-            <p className="text-lg text-gr-text leading-relaxed">
+          <section className="bg-gr-surface border border-gr-border border-l-2 border-l-gr-accent rounded-md p-8">
+            <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-4">The Read</p>
+            <p className="text-lg md:text-xl text-gr-text leading-relaxed font-medium">
               {topCat && (
                 <>Our biggest category is <b className="text-gr-accent">{topCat[0]}</b> at <b>{topCat[1].toFixed(0)}%</b> of catalog. </>
               )}
@@ -82,8 +82,8 @@ export default function GymreapersMixPage() {
                 <> {data.brand_names[colorLeader.slug] || colorLeader.slug} runs <b>{colorLeader.val.toFixed(1)}</b> colors per style — a measurable depth gap.</>
               )}
             </p>
-            <p className="text-gr-muted text-base mt-3 leading-relaxed">
-              <span className="text-gr-text font-bold">Decision lens:</span> mix is the merchandising fingerprint. Compare each row below to ask whether we&apos;re leaning where the strength athlete spends or where we want them to spend.
+            <p className="text-gr-muted text-sm mt-4 leading-relaxed max-w-3xl">
+              <span className="text-gr-text font-semibold">Decision lens —</span> mix is the merchandising fingerprint. Compare each row below to ask whether we&apos;re leaning where the strength athlete spends or where we want them to spend.
             </p>
           </section>
         );
@@ -91,8 +91,11 @@ export default function GymreapersMixPage() {
 
       {/* Category mix — stacked bars */}
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-        <h2 className="text-xl font-bold text-gr-text mb-2">Category Mix</h2>
-        <p className="text-sm text-gr-subtle mb-6">% of catalog by category, normalized per brand.</p>
+        <div className="mb-6">
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Composition</p>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight">Category Mix</h2>
+          <p className="text-sm text-gr-muted mt-1.5">% of catalog by category, normalized per brand.</p>
+        </div>
         <div className="space-y-4">
           {mixOrder.map((slug) => {
             const m = data.mix[slug];
@@ -140,9 +143,10 @@ export default function GymreapersMixPage() {
       </section>
 
       {/* Color depth + size inclusivity */}
-      <section className="grid md:grid-cols-2 gap-6">
+      <section className="grid md:grid-cols-2 gap-5">
         <div className="bg-gr-surface rounded-md p-8 border border-gr-border">
-          <h2 className="text-xl font-bold text-gr-text mb-6">Color Depth</h2>
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Assortment depth</p>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-6">Color Depth</h2>
           <div className="space-y-3">
             {mixOrder
               .filter((slug) => data.mix[slug].colorDepth)
@@ -181,7 +185,8 @@ export default function GymreapersMixPage() {
         </div>
 
         <div className="bg-gr-surface rounded-md p-8 border border-gr-border">
-          <h2 className="text-xl font-bold text-gr-text mb-6">Size Inclusivity</h2>
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Assortment depth</p>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-6">Size Inclusivity</h2>
           <div className="space-y-3">
             {mixOrder
               .filter((slug) => data.mix[slug].sizeRange)
@@ -216,7 +221,8 @@ export default function GymreapersMixPage() {
 
       {/* Gender split */}
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-        <h2 className="text-xl font-bold text-gr-text mb-6">Gender Split</h2>
+        <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Audience split</p>
+        <h2 className="text-2xl font-bold text-gr-text tracking-tight mb-6">Gender Split</h2>
         <div className="grid md:grid-cols-3 gap-4">
           {mixOrder.map((slug) => {
             const m = data.mix[slug];
@@ -253,8 +259,9 @@ export default function GymreapersMixPage() {
       {/* Price positioning */}
       {allCategories.size > 0 && (
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-          <h2 className="text-xl font-bold text-gr-text mb-2">Price Positioning</h2>
-          <p className="text-sm text-gr-subtle mb-6">Average price by category, per brand.</p>
+          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Positioning</p>
+          <h2 className="text-2xl font-bold text-gr-text tracking-tight">Price Positioning</h2>
+          <p className="text-sm text-gr-muted mt-1.5 mb-6">Average price by category, per brand.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -308,12 +315,12 @@ export default function GymreapersMixPage() {
         </section>
       )}
 
-      <section className="bg-gradient-to-br from-gr-accent to-gr-accent rounded-md p-8 text-gr-text">
-        <h2 className="text-xl font-bold mb-3">Read of the data</h2>
-        <ul className="space-y-2 text-sm text-gr-accent-soft">
+      <section className="bg-gr-surface border border-gr-border border-l-2 border-l-gr-accent rounded-md p-8">
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-4">Read of the data</p>
+        <ul className="space-y-2.5 text-base text-gr-text leading-relaxed">
           {(() => {
             const focusMix = data.mix[focus];
-            if (!focusMix) return <li>No data yet for {focus}.</li>;
+            if (!focusMix) return <li className="text-gr-muted">No data yet for {focus}.</li>;
             const lines: string[] = [];
             const sr = focusMix.sizeRange;
             const cd = focusMix.colorDepth;
@@ -321,7 +328,12 @@ export default function GymreapersMixPage() {
             if (cd) lines.push(`Avg ${cd.avgColorsPerStyle.toFixed(1)} colors per style across ${cd.uniqueColors} unique colors.`);
             const topCat = Object.entries(focusMix.categoryMix).sort((a, b) => b[1] - a[1])[0];
             if (topCat) lines.push(`Heaviest in ${topCat[0].replace('_', ' ')} at ${topCat[1]}% of catalog.`);
-            return lines.map((l, i) => <li key={i}>· {l}</li>);
+            return lines.map((l, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="text-gr-accent mt-0.5">—</span>
+                <span>{l}</span>
+              </li>
+            ));
           })()}
         </ul>
       </section>

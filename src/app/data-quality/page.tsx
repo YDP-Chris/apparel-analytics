@@ -85,18 +85,18 @@ export default function DataQualityPage() {
   const checkOrder = ['freshness', 'volume', 'endpoint', 'cron_health', 'consistency', 'outliers'];
 
   return (
-    <div className="space-y-8">
-      <header className={`rounded-md p-6 border-2 ${
-        qa.status_color === 'red' ? 'bg-gr-danger/10 border-gr-danger' :
-        qa.status_color === 'yellow' ? 'bg-gr-accent-soft border-gr-accent-soft' :
-        'bg-gr-success/10 border-gr-success'
+    <div className="space-y-10">
+      <header className={`rounded-md p-7 border ${
+        qa.status_color === 'red' ? 'bg-gr-danger/10 border-gr-danger/60' :
+        qa.status_color === 'yellow' ? 'bg-gr-accent-soft/40 border-gr-accent/60' :
+        'bg-gr-success/10 border-gr-success/60'
       }`}>
-        <div className="flex items-baseline justify-between gap-4 mb-2">
+        <div className="flex items-baseline justify-between gap-4 mb-3">
           <div>
-            <p className="text-xs uppercase tracking-[0.25em] font-bold mb-1">
+            <p className="text-xs uppercase tracking-[0.25em] font-bold mb-2 text-gr-muted">
               Data Quality
             </p>
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-gr-text">
               {qa.status_color === 'red' && 'Issues need attention'}
               {qa.status_color === 'yellow' && 'Warnings active'}
               {qa.status_color === 'green' && 'All systems green'}
@@ -104,21 +104,21 @@ export default function DataQualityPage() {
           </div>
           <div className="text-right text-sm">
             <div className="text-gr-muted">Last run {fmtAgo(qa.finished_at)}</div>
-            <div className="text-gr-subtle text-xs">{qa.checks_total} checks · {qa.duration_ms}ms</div>
+            <div className="text-gr-subtle text-xs mt-0.5">{qa.checks_total} checks · {qa.duration_ms}ms</div>
           </div>
         </div>
-        <div className="flex gap-6 mt-3 text-sm">
+        <div className="flex gap-8 mt-5 text-sm border-t border-gr-border/40 pt-4">
           <div>
-            <span className="text-gr-danger font-bold">{qa.fail_count || 0}</span>{' '}
-            <span className="text-gr-muted">FAIL</span>
+            <span className="text-gr-danger font-bold text-xl tabular-nums">{qa.fail_count || 0}</span>{' '}
+            <span className="text-gr-muted text-xs uppercase tracking-wider font-semibold ml-1">FAIL</span>
           </div>
           <div>
-            <span className="text-gr-accent font-bold">{qa.warn_count || 0}</span>{' '}
-            <span className="text-gr-muted">WARN</span>
+            <span className="text-gr-accent font-bold text-xl tabular-nums">{qa.warn_count || 0}</span>{' '}
+            <span className="text-gr-muted text-xs uppercase tracking-wider font-semibold ml-1">WARN</span>
           </div>
           <div>
-            <span className="text-gr-success font-bold">{(qa.checks_total || 0) - (qa.findings_total || 0)}</span>{' '}
-            <span className="text-gr-muted">PASS</span>
+            <span className="text-gr-success font-bold text-xl tabular-nums">{(qa.checks_total || 0) - (qa.findings_total || 0)}</span>{' '}
+            <span className="text-gr-muted text-xs uppercase tracking-wider font-semibold ml-1">PASS</span>
           </div>
         </div>
       </header>
@@ -140,10 +140,10 @@ export default function DataQualityPage() {
       </section>
 
       {findings.length === 0 ? (
-        <div className="bg-gr-surface rounded-md p-8 border border-gr-border text-center">
-          <div className="text-4xl mb-3">✓</div>
+        <div className="bg-gr-surface rounded-md p-10 border border-gr-border text-center">
+          <div className="inline-flex w-12 h-12 rounded-full bg-gr-success/15 text-gr-success items-center justify-center text-2xl font-bold mb-4">✓</div>
           <h2 className="text-xl font-bold text-gr-text mb-2">No findings</h2>
-          <p className="text-gr-muted">Every tracked table and endpoint passed its checks.</p>
+          <p className="text-gr-muted text-sm">Every tracked table and endpoint passed its checks.</p>
         </div>
       ) : (
         checkOrder.filter((c) => byCheck[c]).map((c) => (

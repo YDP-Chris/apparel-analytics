@@ -22,16 +22,18 @@ export default function ShareOfVoicePage() {
   const max = brands[0]?.mentions_7d || 1;
 
   return (
-    <div className="space-y-6">
-      <header>
-        <div className="flex items-baseline justify-between gap-3 mb-2">
+    <div className="space-y-12">
+      <header className="pb-2">
+        <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
             For Marketing · Share of Voice
           </p>
           <ConfidenceBadge source="reddit" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">Who&apos;s owning the conversation</h1>
-        <p className="text-gr-muted mt-2 max-w-3xl">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
+          Who&apos;s owning the conversation
+        </h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
           Reddit mention volume across the Gymreapers competitive set, last 7 days. The wider the
           bar, the more share of conversation that brand owns. Reddit&apos;s fitness community
           skews male/powerlifting — read directionally, not as ground truth.
@@ -43,31 +45,37 @@ export default function ShareOfVoicePage() {
           No Reddit mention data captured today. The social monitor runs every 4 hours.
         </div>
       ) : (
-        <section className="bg-gr-surface rounded-md p-6 border border-gr-border space-y-3">
-          {brands.map((b) => {
-            const width = (b.mentions_7d / max) * 100;
-            const share = ((b.mentions_7d / total) * 100).toFixed(1);
-            const isGR = b.slug === 'gymreapers';
-            return (
-              <div key={b.slug}>
-                <div className="flex items-baseline justify-between mb-1 text-sm">
-                  <span className={isGR ? 'text-gr-accent font-bold' : 'text-gr-text font-semibold'}>
-                    {isGR && '→ '}{b.name}
-                  </span>
-                  <span className="text-gr-muted">
-                    {b.mentions_7d} mentions · {share}% share
-                    {typeof b.positive_pct === 'number' && ` · ${b.positive_pct.toFixed(0)}% positive`}
-                  </span>
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
+          <div className="mb-6">
+            <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">7-day window</p>
+            <h2 className="text-2xl font-bold text-gr-text tracking-tight">Mention volume by brand</h2>
+          </div>
+          <div className="space-y-4">
+            {brands.map((b) => {
+              const width = (b.mentions_7d / max) * 100;
+              const share = ((b.mentions_7d / total) * 100).toFixed(1);
+              const isGR = b.slug === 'gymreapers';
+              return (
+                <div key={b.slug}>
+                  <div className="flex items-baseline justify-between mb-1.5 text-sm">
+                    <span className={isGR ? 'text-gr-accent font-bold' : 'text-gr-text font-semibold'}>
+                      {isGR && '→ '}{b.name}
+                    </span>
+                    <span className="text-gr-muted text-xs tabular-nums">
+                      {b.mentions_7d} mentions · {share}% share
+                      {typeof b.positive_pct === 'number' && ` · ${b.positive_pct.toFixed(0)}% positive`}
+                    </span>
+                  </div>
+                  <div className="h-2.5 bg-gr-bg rounded">
+                    <div
+                      className={`h-full rounded ${isGR ? 'bg-gradient-to-r from-gr-accent-hover to-gr-accent' : 'bg-gr-subtle'}`}
+                      style={{ width: `${width}%` }}
+                    />
+                  </div>
                 </div>
-                <div className="h-3 bg-gr-bg rounded">
-                  <div
-                    className={`h-full rounded ${isGR ? 'bg-gradient-to-r from-gr-accent-hover to-gr-accent' : 'bg-gr-subtle'}`}
-                    style={{ width: `${width}%` }}
-                  />
-                </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </section>
       )}
 

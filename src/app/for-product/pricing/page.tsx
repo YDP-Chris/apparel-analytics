@@ -23,17 +23,19 @@ export default function PricingMapPage() {
   const brands = data.brand_order.filter((s) => data.mix?.[s]?.pricePositioning);
 
   return (
-    <div className="space-y-8">
-      <header>
-        <div className="flex items-baseline justify-between gap-3 mb-2">
+    <div className="space-y-12">
+      <header className="pb-2">
+        <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
             For Product · Pricing Map
           </p>
           <ConfidenceBadge source="shopify_catalog" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">Where each brand prices across categories</h1>
-        <p className="text-gr-muted mt-2 max-w-3xl">
-          Average price by category for every brand we scrape Shopify catalogs from. Bigger numbers
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
+          Where each brand prices
+        </h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
+          Average price by category for every brand we scrape Shopify catalogs from. Higher numbers
           mean premium positioning. Empty cells mean the brand doesn&apos;t carry that category or
           we can&apos;t scrape their pricing yet.
         </p>
@@ -44,16 +46,16 @@ export default function PricingMapPage() {
           No pricing data captured yet today. Most strength brands sync at the 4 AM Tue-Sat cron.
         </div>
       ) : (
-        <section className="bg-gr-surface rounded-md p-6 border border-gr-border overflow-x-auto">
+        <section className="bg-gr-surface rounded-md border border-gr-border overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-gr-border text-left">
-                <th className="py-2 pr-4 font-medium text-gr-muted">Category</th>
+              <tr className="border-b border-gr-border text-left bg-gr-bg/40">
+                <th className="py-3 px-6 font-bold text-[11px] uppercase tracking-[0.15em] text-gr-subtle">Category</th>
                 {brands.map((slug) => (
                   <th
                     key={slug}
-                    className={`py-2 px-3 text-right font-medium ${
-                      slug === 'gymreapers' ? 'text-gr-accent' : 'text-gr-muted'
+                    className={`py-3 px-3 text-right font-bold text-[11px] uppercase tracking-[0.15em] ${
+                      slug === 'gymreapers' ? 'text-gr-accent' : 'text-gr-subtle'
                     }`}
                   >
                     {data.brand_names[slug]}
@@ -62,19 +64,19 @@ export default function PricingMapPage() {
               </tr>
             </thead>
             <tbody>
-              {categories.map((cat) => (
-                <tr key={cat} className="border-b border-gr-border">
-                  <td className="py-2 pr-4 text-gr-text capitalize font-medium">{cat.replace('_', ' ')}</td>
+              {categories.map((cat, i) => (
+                <tr key={cat} className={`border-b border-gr-border last:border-0 ${i % 2 === 1 ? 'bg-gr-bg/20' : ''}`}>
+                  <td className="py-3 px-6 text-gr-text capitalize font-semibold">{cat.replace('_', ' ')}</td>
                   {brands.map((slug) => {
                     const pp = data.mix[slug]?.pricePositioning?.[cat];
                     const isGR = slug === 'gymreapers';
                     if (!pp) {
-                      return <td key={slug} className="py-2 px-3 text-right text-gr-subtle">—</td>;
+                      return <td key={slug} className="py-3 px-3 text-right text-gr-subtle">—</td>;
                     }
                     return (
                       <td
                         key={slug}
-                        className={`py-2 px-3 text-right ${isGR ? 'font-bold text-gr-accent' : 'text-gr-muted'}`}
+                        className={`py-3 px-3 text-right tabular-nums ${isGR ? 'font-bold text-gr-accent' : 'text-gr-muted'}`}
                         title={`min ${fmtPrice(pp.min)} · max ${fmtPrice(pp.max)} · n=${pp.count}`}
                       >
                         {fmtPrice(pp.avg)}
@@ -88,7 +90,7 @@ export default function PricingMapPage() {
         </section>
       )}
 
-      <div className="text-xs text-gr-subtle">
+      <div className="text-xs text-gr-subtle leading-relaxed">
         Source: <code className="bg-gr-bg px-1.5 py-0.5 rounded">gymreapers_competitive.brand_mix.price_positioning</code> · Updated daily.
         Lululemon, Alo, Vuori show sitemap-only data (no pricing) — their Shopify is proxy-blocked.
       </div>
