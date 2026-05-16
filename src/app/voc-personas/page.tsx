@@ -300,7 +300,7 @@ export default function VocPersonasPage() {
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
             For Marketing · Who Buys What
           </p>
-          <ConfidenceBadge source="review_themes" />
+          <ConfidenceBadge source="dtc_voc_personas" />
         </div>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
           Customer personas by brand

@@ -37,6 +37,9 @@ export type DataSourceId =
   | 'paid_classifier'
   | 'uspto_trademarks'
   | 'uspto_patents'
+  | 'dtc_voc_personas'
+  | 'dtc_voc_complaints'
+  | 'voice_clusters'
   | 'composite';
 
 interface SourceMeta {
@@ -68,6 +71,9 @@ const SOURCES: Record<DataSourceId, SourceMeta> = {
   paid_classifier:        { label: 'Paid classifier',         confidence: 'MEDIUM', blurb: 'Hashtag rules are HIGH confidence; LLM-inferred signal is MEDIUM. FTC disclosure compliance varies by creator.' },
   uspto_trademarks:       { label: 'USPTO trademarks',        confidence: 'HIGH',   blurb: 'Direct from USPTO public records. Filing date is exact; "leak signal" lead time is heuristic.' },
   uspto_patents:          { label: 'USPTO patents',           confidence: 'HIGH',   blurb: 'Direct from USPTO public records. Publication lag ~18 months from filing.' },
+  dtc_voc_personas:       { label: 'DTC review NLP - personas', confidence: 'MEDIUM', blurb: 'Captured DTC reviews (Vuori Yotpo / Gymshark Bazaarvoice / Alo Bazaarvoice / Gymreapers Okendo / SBD + Harbinger Judge.me) classified by Claude. Voice fields + use_cases are HIGH confidence (direct text). Demographic hints are MEDIUM and conservatively return unknown when not explicit.' },
+  dtc_voc_complaints:     { label: 'DTC review NLP - complaints', confidence: 'HIGH',   blurb: 'Same DTC review corpus filtered to rating <= 3 OR negative-keyword matches. Claude multi-label categorization across 11 complaint kinds. Quotes are verbatim.' },
+  voice_clusters:         { label: 'Emergent voice clusters',  confidence: 'MEDIUM', blurb: 'Bottom-up cluster discovery from voice signatures. Cluster LABELS are Claude-generated from the data itself; per-review cluster assignments are MEDIUM confidence and vary with corpus size.' },
   composite:              { label: 'Composite',              confidence: 'MEDIUM', blurb: 'Synthesizes multiple sources; see methodology for the blend.' },
 };
 

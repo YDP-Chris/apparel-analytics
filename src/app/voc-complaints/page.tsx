@@ -178,7 +178,7 @@ export default function VocComplaintsPage() {
             <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
               For Product · VoC Complaints
             </p>
-            <ConfidenceBadge source="review_themes" />
+            <ConfidenceBadge source="dtc_voc_complaints" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
             What customers complain about, by brand
@@ -208,7 +208,7 @@ export default function VocComplaintsPage() {
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
             For Product · VoC Complaints
           </p>
-          <ConfidenceBadge source="review_themes" />
+          <ConfidenceBadge source="dtc_voc_complaints" />
         </div>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
           What customers complain about, by brand
