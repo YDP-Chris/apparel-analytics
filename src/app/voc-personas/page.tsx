@@ -38,8 +38,19 @@ interface VoiceSample {
   product_relationship: string;
   rating?: number | null;
   product_name?: string | null;
+  cluster_label?: string | null;
 }
 interface LifeContextPhrase { phrase: string; count: number }
+interface ClusterSampleQuote { quoted_phrase: string; voice_signature: string }
+interface VoiceCluster {
+  id: number;
+  label: string;
+  description: string;
+  distinctive_phrases: string[];
+  size: number;
+  share_pct: number;
+  sample_quotes: ClusterSampleQuote[];
+}
 
 interface Payload {
   available: boolean;
@@ -50,8 +61,11 @@ interface Payload {
   voice_samples_by_brand?: Record<string, VoiceSample[]>;
   life_context_top_phrases?: Record<string, LifeContextPhrase[]>;
   product_relationship_distribution?: Record<string, Record<string, number>>;
+  clusters_by_brand?: Record<string, VoiceCluster[]>;
   reason?: string;
 }
+
+const MIN_CLUSTER_SIGNATURES = 30;
 
 const GENDER_ORDER     = ['female', 'male', 'non-binary', 'unknown'];
 const EXPERIENCE_ORDER = ['novice', 'intermediate', 'advanced', 'pro', 'unknown'];
@@ -302,6 +316,8 @@ function VoiceBrandSection({
   lifePhrases,
   relationshipDist,
   isFocus,
+  filterClusterLabel,
+  onClearFilter,
 }: {
   brandSlug: string;
   brandName: string;
@@ -309,6 +325,8 @@ function VoiceBrandSection({
   lifePhrases: LifeContextPhrase[];
   relationshipDist: Record<string, number>;
   isFocus: boolean;
+  filterClusterLabel?: string | null;
+  onClearFilter?: () => void;
 }) {
   const [idx, setIdx] = useState(0);
   if (!samples || samples.length === 0) return null;
@@ -345,6 +363,24 @@ function VoiceBrandSection({
           {samples.length} voice sample{samples.length === 1 ? '' : 's'}
         </span>
       </header>
+
+      {filterClusterLabel && (
+        <div className="mb-3 flex items-center justify-between gap-3 bg-gr-bg border border-gr-accent/40 rounded px-3 py-2">
+          <span className="text-xs text-gr-muted">
+            Filtered to cluster:{' '}
+            <span className="font-bold text-gr-accent">{filterClusterLabel}</span>
+          </span>
+          {onClearFilter && (
+            <button
+              type="button"
+              onClick={onClearFilter}
+              className="text-[11px] uppercase tracking-wider font-bold text-gr-accent hover:text-gr-accent-hover"
+            >
+              Clear
+            </button>
+          )}
+        </div>
+      )}
 
       <div className="mb-4">
         <VoiceCard sample={cur} brandName={brandName} />
@@ -418,11 +454,197 @@ function VoiceBrandSection({
   );
 }
 
+function ClusterCard({
+  cluster,
+  isActive,
+  onClick,
+}: {
+  cluster: VoiceCluster;
+  isActive: boolean;
+  onClick: () => void;
+}) {
+  const phrases = (cluster.distinctive_phrases || []).slice(0, 2);
+  const sample = (cluster.sample_quotes || [])[0];
+  const baseRing = isActive ? 'ring-2 ring-gr-accent' : 'ring-1 ring-transparent hover:ring-gr-border';
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={isActive}
+      className={`shrink-0 w-72 text-left bg-gr-surface rounded-md border border-gr-border p-4 flex flex-col gap-2 transition ${baseRing}`}
+    >
+      <div className="flex items-baseline justify-between gap-2">
+        <h3 className="text-sm font-bold text-gr-text leading-tight">
+          {cluster.label}
+        </h3>
+        <span className="text-[11px] text-gr-subtle tabular-nums shrink-0">
+          {cluster.share_pct.toFixed(0)}% · n={cluster.size}
+        </span>
+      </div>
+      {cluster.description && (
+        <p className="italic text-xs text-gr-muted leading-relaxed line-clamp-3">
+          {cluster.description}
+        </p>
+      )}
+      {phrases.length > 0 && (
+        <div className="flex flex-wrap gap-1.5 mt-1">
+          {phrases.map((p) => (
+            <span
+              key={p}
+              className="px-1.5 py-0.5 rounded text-[10px] bg-gr-bg border border-gr-border text-gr-muted"
+            >
+              {p}
+            </span>
+          ))}
+        </div>
+      )}
+      {sample && (sample.quoted_phrase || sample.voice_signature) && (
+        <blockquote className="mt-2 text-[11px] leading-relaxed text-gr-subtle border-l-2 border-gr-border pl-2 line-clamp-3">
+          {sample.quoted_phrase || sample.voice_signature}
+        </blockquote>
+      )}
+    </button>
+  );
+}
+
+function ClustersTopSection({
+  clustersByBrand,
+  brandNames,
+  voiceSampleCounts,
+  activeFilter,
+  onSelect,
+  onClear,
+}: {
+  clustersByBrand: Record<string, VoiceCluster[]>;
+  brandNames: Record<string, string>;
+  voiceSampleCounts: Record<string, number>;
+  activeFilter: { brandSlug: string; label: string } | null;
+  onSelect: (brandSlug: string, label: string) => void;
+  onClear: () => void;
+}) {
+  // Brand display order: focus first, then by cluster count DESC.
+  const slugs = Object.keys(clustersByBrand)
+    .filter((s) => (clustersByBrand[s] || []).length > 0);
+  const focus = slugs.filter((s) => s === FOCUS_BRAND);
+  const rest = slugs
+    .filter((s) => s !== FOCUS_BRAND)
+    .sort((a, b) => (clustersByBrand[b]?.length || 0) - (clustersByBrand[a]?.length || 0));
+  const orderedSlugs = [...focus, ...rest];
+
+  // Brands with voice signatures present but below threshold or without clusters yet.
+  const lowCoverageBrands = Object.entries(voiceSampleCounts)
+    .filter(([slug, n]) => n < MIN_CLUSTER_SIGNATURES && !(clustersByBrand[slug] && clustersByBrand[slug].length))
+    .sort((a, b) => b[1] - a[1]);
+
+  if (orderedSlugs.length === 0 && lowCoverageBrands.length === 0) return null;
+
+  return (
+    <section className="space-y-5">
+      <header className="flex items-baseline justify-between gap-3">
+        <div>
+          <p className="text-[11px] uppercase tracking-[0.22em] font-bold text-gr-accent">
+            Emergent
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-gr-text mt-1">
+            Customer clusters per brand
+          </h2>
+          <p className="text-gr-muted text-sm mt-2 max-w-2xl leading-relaxed">
+            No predefined buckets. For each brand, Claude reads the voice signatures
+            and proposes the customer clusters that actually appear in the data.
+            Click a card to filter the voice carousel below.
+          </p>
+        </div>
+        {activeFilter && (
+          <button
+            type="button"
+            onClick={onClear}
+            className="text-[11px] uppercase tracking-wider font-bold text-gr-accent hover:text-gr-accent-hover shrink-0"
+          >
+            Clear filter
+          </button>
+        )}
+      </header>
+
+      <div className="space-y-6">
+        {orderedSlugs.map((slug) => {
+          const clusters = clustersByBrand[slug] || [];
+          const isFocus = slug === FOCUS_BRAND;
+          const ring = isFocus ? 'ring-2 ring-gr-accent' : '';
+          return (
+            <div
+              key={slug}
+              className={`bg-gr-surface rounded-md border border-gr-border p-5 ${ring}`}
+            >
+              <div className="flex items-baseline justify-between gap-3 mb-3">
+                <div>
+                  <h3 className="text-lg font-bold text-gr-text tracking-tight">
+                    {brandNames[slug] || slug}
+                  </h3>
+                  {isFocus && (
+                    <span className="inline-block mt-1 px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wider bg-gr-accent-soft text-gr-accent">
+                      FOCUS BRAND
+                    </span>
+                  )}
+                </div>
+                <span className="text-xs text-gr-subtle tabular-nums">
+                  {clusters.length} cluster{clusters.length === 1 ? '' : 's'}
+                </span>
+              </div>
+              <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1">
+                {clusters.map((c) => {
+                  const isActive =
+                    activeFilter?.brandSlug === slug && activeFilter?.label === c.label;
+                  return (
+                    <ClusterCard
+                      key={c.id}
+                      cluster={c}
+                      isActive={isActive}
+                      onClick={() => {
+                        if (isActive) {
+                          onClear();
+                        } else {
+                          onSelect(slug, c.label);
+                          trackEvent('click', {
+                            label: 'voc_cluster_select',
+                            metadata: { brand: slug, cluster: c.label },
+                          });
+                        }
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+
+        {lowCoverageBrands.length > 0 && (
+          <div className="bg-gr-bg rounded-md border border-dashed border-gr-border p-4">
+            <p className="text-[11px] uppercase tracking-[0.18em] font-bold text-gr-subtle mb-2">
+              Awaiting more voice signatures
+            </p>
+            <ul className="text-xs text-gr-muted space-y-1">
+              {lowCoverageBrands.map(([slug, n]) => (
+                <li key={slug}>
+                  <span className="font-bold text-gr-text">{brandNames[slug] || slug}</span>
+                  {' '}- need at least {MIN_CLUSTER_SIGNATURES} voice signatures for clusters,
+                  currently {n}. Will surface when next classifier pass completes.
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
 export default function VocPersonasPage() {
   const [data, setData] = useState<Payload | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showDemographics, setShowDemographics] = useState(false);
+  const [clusterFilter, setClusterFilter] = useState<{ brandSlug: string; label: string } | null>(null);
 
   useEffect(() => {
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
@@ -441,6 +663,15 @@ export default function VocPersonasPage() {
       .filter((b) => b.brand_slug !== FOCUS_BRAND)
       .sort((a, b) => (b.sample_size || 0) - (a.sample_size || 0));
     return [...focus, ...rest];
+  }, [data]);
+
+  const voiceSampleCounts = useMemo(() => {
+    const out: Record<string, number> = {};
+    const bag = data?.voice_samples_by_brand || {};
+    for (const k of Object.keys(bag)) {
+      out[k] = (bag[k] || []).length;
+    }
+    return out;
   }, [data]);
 
   const voiceBrandsOrdered = useMemo(() => {
@@ -504,6 +735,17 @@ export default function VocPersonasPage() {
         </section>
       ) : (
         <>
+          <ClustersTopSection
+            clustersByBrand={data?.clusters_by_brand || {}}
+            brandNames={brandNames}
+            voiceSampleCounts={voiceSampleCounts}
+            activeFilter={clusterFilter}
+            onSelect={(brandSlug, label) =>
+              setClusterFilter({ brandSlug, label })
+            }
+            onClear={() => setClusterFilter(null)}
+          />
+
           <SectionExplainer
             what="Each card is one brand. The carousel inside shows up to 12 voice samples Claude pulled from real reviews. Voice signature is the third-person observation. The italic quote is verbatim from the reviewer. The chips beneath are incidental life details. The pill at the bottom tags the customer relationship (new, repeat, gifting, etc.)."
             howToRead="Read the quotes first. They are how your customers actually talk. The life-context chips show the patterns the classifier sees across all of a brand's reviews. The relationship mix tells you what stage of the customer journey is loudest in the review corpus."
@@ -512,17 +754,30 @@ export default function VocPersonasPage() {
 
           {hasVoice ? (
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              {voiceBrandsOrdered.map((slug) => (
-                <VoiceBrandSection
-                  key={slug}
-                  brandSlug={slug}
-                  brandName={brandNames[slug] || slug}
-                  samples={data?.voice_samples_by_brand?.[slug] || []}
-                  lifePhrases={data?.life_context_top_phrases?.[slug] || []}
-                  relationshipDist={data?.product_relationship_distribution?.[slug] || {}}
-                  isFocus={slug === FOCUS_BRAND}
-                />
-              ))}
+              {voiceBrandsOrdered.map((slug) => {
+                const allSamples = data?.voice_samples_by_brand?.[slug] || [];
+                const isFiltered = clusterFilter?.brandSlug === slug;
+                const samples = isFiltered
+                  ? allSamples.filter((s) => s.cluster_label === clusterFilter?.label)
+                  : allSamples;
+                // If a filter is active but for ANOTHER brand, hide this brand entirely so
+                // the focus stays on the filtered brand.
+                if (clusterFilter && clusterFilter.brandSlug !== slug) return null;
+                if (samples.length === 0) return null;
+                return (
+                  <VoiceBrandSection
+                    key={slug}
+                    brandSlug={slug}
+                    brandName={brandNames[slug] || slug}
+                    samples={samples}
+                    lifePhrases={data?.life_context_top_phrases?.[slug] || []}
+                    relationshipDist={data?.product_relationship_distribution?.[slug] || {}}
+                    isFocus={slug === FOCUS_BRAND}
+                    filterClusterLabel={isFiltered ? clusterFilter?.label : null}
+                    onClearFilter={() => setClusterFilter(null)}
+                  />
+                );
+              })}
             </div>
           ) : (
             <section className="bg-gr-surface rounded-md border border-gr-border p-8">

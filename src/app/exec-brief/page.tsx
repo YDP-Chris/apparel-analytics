@@ -57,6 +57,27 @@ interface NoteworthyFiling {
   highlighted: boolean;
 }
 
+interface DigestStory {
+  rank: number;
+  title: string;
+  summary: string;
+  evidence: string;
+  so_what: string;
+  audience: string;
+  tags: string[];
+}
+
+interface DailyDigestPayload {
+  available: boolean;
+  digest_date?: string;
+  generated_at?: string;
+  headline?: string;
+  stories?: DigestStory[];
+  brand_focus?: string;
+  apparel_thesis_flag?: boolean;
+  history?: { digest_date: string; headline: string }[];
+}
+
 interface ExecBriefPayload {
   available: boolean;
   generated_at: string;
@@ -154,17 +175,130 @@ function PanelCard({
   );
 }
 
+function audiencePillClass(audience: string): string {
+  const a = (audience || '').toLowerCase();
+  if (a === 'marketing') return 'bg-gr-accent-soft/40 text-gr-accent';
+  if (a === 'product') return 'bg-blue-500/15 text-blue-300';
+  if (a === 'ceo') return 'bg-purple-500/15 text-purple-300';
+  return 'bg-gr-border/50 text-gr-muted';
+}
+
+function DailyDigestPanel({ digest }: { digest: DailyDigestPayload | null }) {
+  const hasStories = !!(digest && digest.available && digest.stories && digest.stories.length > 0);
+  return (
+    <section className="rounded-lg border border-gr-border bg-gr-card p-6 space-y-4">
+      <header className="flex items-baseline justify-between gap-3 flex-wrap">
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-gr-subtle">
+            Today&apos;s 5 stories
+          </p>
+          <h2 className="text-2xl font-extrabold tracking-tight text-gr-text mt-1">
+            {hasStories ? digest!.headline : 'Today’s digest generates at 7 AM ET'}
+          </h2>
+          {hasStories && (
+            <p className="text-[11px] text-gr-subtle mt-2">
+              Digest date <span className="font-semibold text-gr-text">{fmtDate(digest!.digest_date)}</span>
+              {digest!.apparel_thesis_flag && (
+                <span className="ml-3 text-[10px] uppercase tracking-wider font-bold text-gr-accent">
+                  Apparel thesis in play
+                </span>
+              )}
+              {digest!.brand_focus && (
+                <span className="ml-3 text-[10px] uppercase tracking-wider text-gr-muted">
+                  brand focus: <span className="text-gr-text font-semibold">{digest!.brand_focus}</span>
+                </span>
+              )}
+            </p>
+          )}
+        </div>
+      </header>
+
+      {hasStories ? (
+        <div className="space-y-3">
+          {digest!.stories!.map((s) => (
+            <article
+              key={s.rank}
+              className="rounded-md border border-gr-border/60 bg-gr-bg/40 p-4 flex gap-4"
+            >
+              <div className="shrink-0">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gr-accent-soft/40 text-gr-accent font-bold text-sm tabular-nums">
+                  {s.rank}
+                </span>
+              </div>
+              <div className="flex-1 min-w-0 space-y-2">
+                <div className="flex items-baseline justify-between gap-3 flex-wrap">
+                  <h3 className="text-base font-bold text-gr-text leading-snug">{s.title}</h3>
+                  <span
+                    className={`text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded ${audiencePillClass(
+                      s.audience,
+                    )}`}
+                  >
+                    {s.audience || 'both'}
+                  </span>
+                </div>
+                <p className="text-sm text-gr-text leading-relaxed">{s.summary}</p>
+                {s.evidence && (
+                  <p className="text-[12px] text-gr-muted leading-relaxed">
+                    <span className="font-bold uppercase tracking-wider text-[10px] text-gr-subtle mr-1">
+                      Evidence
+                    </span>
+                    {s.evidence}
+                  </p>
+                )}
+                {s.so_what && (
+                  <p className="text-[12px] text-gr-text leading-relaxed">
+                    <span className="font-bold uppercase tracking-wider text-[10px] text-gr-accent mr-1">
+                      So what
+                    </span>
+                    {s.so_what}
+                  </p>
+                )}
+                {s.tags && s.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    {s.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="text-[10px] uppercase tracking-wider font-semibold text-gr-subtle bg-gr-border/30 px-1.5 py-0.5 rounded"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <p className="text-sm text-gr-subtle leading-relaxed">
+          The daily intel digest will appear here once it generates at 7 AM ET. It pulls the top
+          signals from promos, launches, trademarks, complaints, social, and FB ads, then ranks the
+          5 most-important stories for the day with marketing/product action items.
+        </p>
+      )}
+    </section>
+  );
+}
+
 export default function ExecBriefPage() {
   const [data, setData] = useState<ExecBriefPayload | null>(null);
+  const [digest, setDigest] = useState<DailyDigestPayload | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
     if (!token) { setError('Sign in first.'); setLoading(false); return; }
-    fetch(`${PULSE_API}/pulse/exec-brief`, { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`)))
-      .then((j: ExecBriefPayload) => setData(j))
+    Promise.all([
+      fetch(`${PULSE_API}/pulse/exec-brief`, { headers: { Authorization: `Bearer ${token}` } })
+        .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`))),
+      fetch(`${PULSE_API}/pulse/daily-digest`, { headers: { Authorization: `Bearer ${token}` } })
+        .then((r) => (r.ok ? r.json() : { available: false })),
+    ])
+      .then(([brief, dig]) => {
+        setData(brief as ExecBriefPayload);
+        setDigest(dig as DailyDigestPayload);
+      })
       .catch((e) => setError(String(e)))
       .finally(() => setLoading(false));
   }, []);
@@ -213,6 +347,9 @@ export default function ExecBriefPage() {
           Week ending <span className="font-semibold text-gr-text">{fmtDate(data.week_ending)}</span>
         </p>
       </header>
+
+      {/* Today's 5 stories - daily intel digest */}
+      <DailyDigestPanel digest={digest} />
 
       <SectionExplainer
         what="Four panels: apparel thesis, competitive pressure, brand health, leak radar. Each panel is the single most-important signal from a major dashboard rolled up for a CEO 1:1."
