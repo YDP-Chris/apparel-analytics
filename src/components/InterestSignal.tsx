@@ -17,6 +17,7 @@
  */
 
 import { useCallback, useEffect, useState } from 'react';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -97,6 +98,10 @@ export function InterestSignal({ entityKind, entityKey, entityLabel }: Props) {
           reason: reason.trim() || null,
           submitted_by: submitter.trim() || null,
         }),
+      });
+      trackEvent('submit', {
+        label: `interest:${pendingSignal}`,
+        metadata: { entity_kind: entityKind, entity_key: entityKey, kind: pendingSignal },
       });
       await refresh();
       setOpen(false);

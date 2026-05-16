@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import { SiteAuthProvider } from "@/components/SiteAuthProvider";
 import { GymreapersProvider } from "./gymreapers/_lib/GymreapersProvider";
+import { UsageTracker } from "@/components/UsageTracker";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gr-bg text-gr-text min-h-screen`}
       >
         <SiteAuthProvider>
+          <UsageTracker />
           <GymreapersProvider>
             <Navigation />
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

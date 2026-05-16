@@ -17,6 +17,7 @@
  */
 
 import { useCallback, useEffect, useState } from 'react';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -118,6 +119,10 @@ export function Annotations({ entityKind, entityKey, entityLabel }: Props) {
         }),
       });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      trackEvent('submit', {
+        label: `annotation:${noteKind}`,
+        metadata: { entity_kind: entityKind, entity_key: entityKey, kind: noteKind },
+      });
       setNote('');
       await fetchAnnotations();
       setOpen(false);

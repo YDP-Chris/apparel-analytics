@@ -17,6 +17,7 @@
  */
 
 import { useEffect, useState } from 'react';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -108,6 +109,10 @@ export function SuggestInput({ kind, parentSlug, parentLabel }: Props) {
       });
       const data = await r.json();
       if (!r.ok) throw new Error(data.error || `HTTP ${r.status}`);
+      trackEvent('submit', {
+        label: `suggest:${kind}`,
+        metadata: { kind, entity_kind: parentSlug || undefined, success: true },
+      });
       setResult({
         ok: true,
         auto: data.auto_applied,
