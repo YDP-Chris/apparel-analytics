@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 669,
-      "change_from_last": 2,
+      "total_jobs": 684,
+      "change_from_last": 15,
       "departments": {
         "engineering": 32,
-        "design": 82,
-        "operations": 174,
-        "other": 110,
-        "retail": 229,
+        "design": 87,
+        "operations": 177,
+        "other": 114,
+        "retail": 232,
         "marketing": 14,
         "finance": 6,
         "executive": 13,
@@ -18,35 +18,35 @@
         "hr": 4
       },
       "seniority": {
-        "mid": 30,
-        "manager": 151,
-        "junior": 304,
-        "c-suite": 31,
+        "mid": 31,
+        "manager": 158,
+        "junior": 309,
+        "c-suite": 29,
         "intern": 15,
         "senior": 22,
-        "lead": 116
+        "lead": 120
       },
       "locations": [
-        "Paramus, NJ",
-        "Tampa, FL",
-        "Alexandria, Virginia, United States",
-        "Bridgewater, New Jersey, United States",
-        "San Diego, California, United States",
+        "Hong Kong",
+        "Bethesda, Maryland, United States",
+        "Walnut Creek, California, United States",
+        "Pasadena, California, United States",
+        "Ashburn, Virginia, United States",
+        "Alpharetta, Georgia, United States",
+        "Alys Beach, Florida, United States",
+        "Naperville, Illinois, United States",
+        "Orange Village, OH",
+        "Calgary, AB",
+        "Manhasset, NY",
+        "Houston, TX",
+        "Palm Beach Gardens, FL",
         "Chicago, Illinois, United States",
-        "Etobicoke, Ontario, Canada",
-        "Venice, California, United States",
-        "Dallas",
-        "Boulder, Colorado, United States",
-        "North East, Maryland, United States",
-        "Dallas, TX",
-        "Manhattan Beach, California, United States",
-        "Scottsdale, Arizona, United States",
-        "Palo Alto, California, United States",
-        "The Woodlands, Texas, United States",
-        "Murray, UT",
-        "Aspen, CO",
-        "San Antonio, TX",
-        "Garden City, New York, United States"
+        "Honolulu, HI",
+        "Metairie, Louisiana",
+        "Oakbrook, IL",
+        "Skokie, IL",
+        "Schaumburg, IL",
+        "McLean, Virginia, United States"
       ],
       "jobs": [
         {
@@ -310,6 +310,16 @@
           "seniority": "junior"
         },
         {
+          "id": "5995978004",
+          "title": "Brand Marketing Manager, AWC Digital Studios",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5995978004?gh_jid=5995978004",
+          "posted_at": "2026-05-15T20:32:01-04:00",
+          "category": "marketing",
+          "seniority": "manager"
+        },
+        {
           "id": "5838665004",
           "title": "Brand Protection Manager, APAC",
           "location": "Hong Kong",
@@ -325,16 +335,6 @@
           "location": "Paris, Paris, France",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5840449004?gh_jid=5840449004",
-          "posted_at": "2026-05-06T17:54:11-04:00",
-          "category": "marketing",
-          "seniority": "manager"
-        },
-        {
-          "id": "5972757004",
-          "title": "Brand Protection Manager, Online",
-          "location": "Paris, Paris, France",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5972757004?gh_jid=5972757004",
           "posted_at": "2026-05-06T17:54:11-04:00",
           "category": "marketing",
           "seniority": "manager"
@@ -396,6 +396,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5816887004?gh_jid=5816887004",
           "posted_at": "2026-05-06T17:54:11-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "5997442004",
+          "title": "Corporate Attorneys",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5997442004?gh_jid=5997442004",
+          "posted_at": "2026-05-15T18:43:48-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -538,25 +548,15 @@
           "posted_at": "2026-05-06T17:54:11-04:00",
           "category": "finance",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5807789004",
-          "title": "Director of Enterprise Architecture ",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5807789004?gh_jid=5807789004",
-          "posted_at": "2026-05-06T17:54:11-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-05-15T05:30:09.164319"
+      "checked_at": "2026-05-16T05:30:08.786398"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 17,
-      "change_from_last": -2,
+      "change_from_last": 0,
       "departments": {
         "retail": 9,
         "engineering": 2,
@@ -571,13 +571,13 @@
         "senior": 1
       },
       "locations": [
-        "New York, New York, United States",
-        "London",
-        "Solihull, England, United Kingdom",
-        "Roosevelt, New York, United States",
         "Manchester, England, United Kingdom",
         "Miami, Florida, United States",
-        "Amsterdam, North Holland, Netherlands"
+        "Amsterdam, North Holland, Netherlands",
+        "Solihull, England, United Kingdom",
+        "Roosevelt, New York, United States",
+        "London",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -751,7 +751,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-05-15T05:30:11.314644"
+      "checked_at": "2026-05-16T05:30:10.944829"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -809,51 +809,61 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 295,
-      "change_from_last": -2,
+      "total_jobs": 300,
+      "change_from_last": 5,
       "departments": {
+        "other": 55,
         "retail": 141,
-        "other": 54,
-        "engineering": 43,
-        "marketing": 17,
+        "engineering": 46,
+        "marketing": 18,
         "product": 8,
-        "executive": 13,
-        "design": 14,
+        "executive": 12,
+        "design": 15,
         "operations": 2,
         "finance": 1,
         "hr": 2
       },
       "seniority": {
+        "lead": 161,
         "senior": 38,
-        "lead": 158,
         "mid": 81,
-        "c-suite": 10,
+        "c-suite": 12,
         "manager": 3,
         "intern": 5
       },
       "locations": [
-        "Stockholm",
-        "Atlanta",
-        "Mexico City",
-        "Madrid",
-        "Newport Beach",
-        "Montreal",
-        "Beijing",
-        "Auckland",
-        "Woodbury",
-        "Seoul",
-        "New York City",
-        "Sydney",
-        "Ho Chi Minh City",
-        "Boston",
-        "Munich",
-        "Brooklyn",
-        "Guangzhou",
+        "Wuhan",
+        "Hong Kong",
+        "Zurich",
         "Macao",
+        "London; Zurich",
+        "Atlanta",
+        "Palo Alto",
+        "Stockholm",
+        "Shanghai",
+        "Cirebon",
+        "Seoul",
+        "Busan",
+        "Ho Chi Minh City",
+        "San Francisco",
+        "Chicago",
+        "Melbourne",
+        "Beijing",
         "Paris",
-        "Cirebon"
+        "Brooklyn",
+        "Newport Beach"
       ],
       "jobs": [
+        {
+          "id": "7931324",
+          "title": "260035 - Senior Lead - Sales Planning",
+          "location": "New York City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7931324?gh_jid=7931324",
+          "posted_at": "2026-05-15T15:08:04-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
         {
           "id": "7908575",
           "title": "260048 - Sr Specialist - Retail Merchandising Planner, AMER",
@@ -1045,6 +1055,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7929715",
+          "title": "Chief of Staff - Retail Strategy ",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7929715?gh_jid=7929715",
+          "posted_at": "2026-05-15T10:28:02-04:00",
+          "category": "retail",
+          "seniority": "c-suite"
+        },
+        {
           "id": "7924988",
           "title": "Contractor - Material Planning Specialist (Trim and Packaging)",
           "location": "Hanoi",
@@ -1205,6 +1225,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7452087",
+          "title": "Head of Data Science (Commercial AI)",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7452087?gh_jid=7452087",
+          "posted_at": "2026-05-15T09:58:42-04:00",
+          "category": "engineering",
+          "seniority": "lead"
+        },
+        {
           "id": "7770169",
           "title": "Head of Digital Commercial - China",
           "location": "Shanghai",
@@ -1242,16 +1272,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7528858?gh_jid=7528858",
           "posted_at": "2026-04-28T04:51:42-04:00",
           "category": "engineering",
-          "seniority": "lead"
-        },
-        {
-          "id": "7859804",
-          "title": "Head of Events, North America",
-          "location": "New York City; Portland",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7859804?gh_jid=7859804",
-          "posted_at": "2026-04-29T19:09:20-04:00",
-          "category": "executive",
           "seniority": "lead"
         },
         {
@@ -1333,30 +1353,10 @@
           "posted_at": "2026-04-28T04:51:42-04:00",
           "category": "operations",
           "seniority": "lead"
-        },
-        {
-          "id": "7681813",
-          "title": "Innovation Footwear Developer Coordinator (1-year-contractor)",
-          "location": "Ho Chi Minh City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7681813?gh_jid=7681813",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "engineering",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "7768527",
-          "title": "Integrations Engineering Specialist ",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7768527?gh_jid=7768527",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "engineering",
-          "seniority": "mid"
         }
       ],
-      "checked_at": "2026-05-15T05:30:20.520810"
+      "checked_at": "2026-05-16T05:30:20.244165"
     }
   },
-  "generated_at": "2026-05-15T05:30:22.520965"
+  "generated_at": "2026-05-16T05:30:22.244319"
 }
