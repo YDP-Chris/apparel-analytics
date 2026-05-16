@@ -46,6 +46,11 @@ const NAV_SECTIONS: NavSection[] = [
   {
     href: '/data-explorer',
     label: 'Data Explorer',
+    children: [
+      { href: '/methodology', label: 'Methodology', status: 'live', description: 'How every source is captured, sampled, biased — confidence ratings' },
+      { href: '/data-quality', label: 'Data Quality', status: 'live', description: 'Live data-qa run status — freshness, volume, consistency' },
+      { href: '/data-explorer', label: 'SQL Reference', status: 'live', description: 'Schema map + starter queries for analyst self-service' },
+    ],
   },
 ];
 
