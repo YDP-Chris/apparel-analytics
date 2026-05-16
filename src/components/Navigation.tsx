@@ -33,6 +33,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/for-marketing/trending', label: 'Trending Terms', status: 'beta', description: 'Rising searches by category (Google + Amazon)' },
       { href: '/for-marketing/voice', label: 'Share of Voice', status: 'live', description: 'Mentions across news + Reddit + reviews' },
       { href: '/for-marketing/sentiment', label: 'Sentiment Pulse', status: 'beta', description: 'What people love and hate by brand' },
+      { href: '/voc-personas', label: 'VoC Personas', status: 'beta', description: 'Inferred customer profile per brand from D2C reviews' },
       { href: '/for-marketing/beats', label: 'Competitor Beats', status: 'live', description: 'Launches + news to react to' },
       { href: '/promo-calendar', label: 'Promo Calendar', status: 'beta', description: 'When competitors discount, how deep, and what categories' },
       { href: '/email-intel', label: 'Email Intel', status: 'beta', description: 'Captured competitor newsletter cadence + offers' },
