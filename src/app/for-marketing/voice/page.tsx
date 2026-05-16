@@ -1,6 +1,7 @@
 'use client';
 
 import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 export default function ShareOfVoicePage() {
   const { data } = useGymreapersData();
@@ -23,13 +24,17 @@ export default function ShareOfVoicePage() {
   return (
     <div className="space-y-6">
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
-          For Marketing · Share of Voice
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-2">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            For Marketing · Share of Voice
+          </p>
+          <ConfidenceBadge source="reddit" />
+        </div>
         <h1 className="text-3xl font-bold tracking-tight">Who&apos;s owning the conversation</h1>
         <p className="text-gr-muted mt-2 max-w-3xl">
           Reddit mention volume across the Gymreapers competitive set, last 7 days. The wider the
-          bar, the more share of conversation that brand owns.
+          bar, the more share of conversation that brand owns. Reddit&apos;s fitness community
+          skews male/powerlifting — read directionally, not as ground truth.
         </p>
       </header>
 

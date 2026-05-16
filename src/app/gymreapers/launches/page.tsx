@@ -1,6 +1,7 @@
 'use client';
 
 import { useGymreapersData } from '../_lib/GymreapersProvider';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 function dateLabel(iso: string): string {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -40,9 +41,12 @@ export default function GymreapersLaunchesPage() {
   return (
     <div className="space-y-10">
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">
-          Gymreapers / Product Velocity
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-3">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            Gymreapers / Product Velocity
+          </p>
+          <ConfidenceBadge source="launches" />
+        </div>
         <h1 className="text-4xl font-bold tracking-tight">Launches</h1>
         <p className="text-gr-muted mt-3 max-w-3xl">
           New products detected via brand sitemaps, scoped to the strength &amp; powerlifting set.

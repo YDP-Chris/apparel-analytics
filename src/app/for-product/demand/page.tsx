@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -71,9 +72,12 @@ export default function DemandSignalsPage() {
   return (
     <div className="space-y-6">
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
-          For Product · Demand Signals
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-2">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            For Product · Demand Signals
+          </p>
+          <ConfidenceBadge source="amazon_bsr" />
+        </div>
         <h1 className="text-3xl font-bold tracking-tight">What&apos;s actually selling</h1>
         <p className="text-gr-muted mt-2 max-w-3xl">
           Top products in our tracked Amazon categories sorted by Amazon&apos;s &ldquo;bought in

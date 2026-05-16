@@ -1,6 +1,7 @@
 'use client';
 
 import { useGymreapersData } from '../_lib/GymreapersProvider';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 const CATEGORY_ORDER = ['bottoms', 'tops', 'outerwear', 'sports_bras', 'dresses', 'accessories', 'other'];
 const CATEGORY_COLORS: Record<string, string> = {
@@ -44,9 +45,12 @@ export default function GymreapersMixPage() {
   return (
     <div className="space-y-10">
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">
-          Gymreapers / Assortment Strategy
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-3">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            Gymreapers / Assortment Strategy
+          </p>
+          <ConfidenceBadge source="shopify_catalog" />
+        </div>
         <h1 className="text-4xl font-bold tracking-tight">Product Mix</h1>
         <p className="text-gr-muted mt-3 max-w-3xl">
           How Gymreapers&apos; catalog compares to competitors across categories, colors, sizes, and price.

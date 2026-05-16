@@ -2,6 +2,7 @@
 
 import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
 import Link from 'next/link';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 export default function CompetitorBeatsPage() {
   const { data } = useGymreapersData();
@@ -25,10 +26,11 @@ export default function CompetitorBeatsPage() {
 
       <div className="grid lg:grid-cols-2 gap-6">
         <section className="bg-gr-surface rounded-md border border-gr-border p-6">
-          <div className="flex items-baseline justify-between mb-4">
+          <div className="flex items-baseline justify-between mb-2">
             <h2 className="text-xl font-bold text-gr-text">Recent launches</h2>
             <Link href="/gymreapers/launches" className="text-xs text-gr-accent hover:underline">All →</Link>
           </div>
+          <div className="mb-3"><ConfidenceBadge source="launches" /></div>
           {launches.length === 0 ? (
             <p className="text-sm text-gr-muted">No new launches detected today.</p>
           ) : (
@@ -50,7 +52,10 @@ export default function CompetitorBeatsPage() {
         </section>
 
         <section className="bg-gr-surface rounded-md border border-gr-border p-6">
-          <h2 className="text-xl font-bold text-gr-text mb-4">Recent news</h2>
+          <div className="flex items-baseline justify-between mb-2">
+            <h2 className="text-xl font-bold text-gr-text">Recent news</h2>
+            <ConfidenceBadge source="news" />
+          </div>
           {news.length === 0 ? (
             <p className="text-sm text-gr-muted">No competitor news captured recently.</p>
           ) : (

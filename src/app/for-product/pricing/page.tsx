@@ -1,6 +1,7 @@
 'use client';
 
 import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 function fmtPrice(p: number | null | undefined): string {
   if (p == null || isNaN(p)) return '—';
@@ -24,9 +25,12 @@ export default function PricingMapPage() {
   return (
     <div className="space-y-8">
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
-          For Product · Pricing Map
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-2">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            For Product · Pricing Map
+          </p>
+          <ConfidenceBadge source="shopify_catalog" />
+        </div>
         <h1 className="text-3xl font-bold tracking-tight">Where each brand prices across categories</h1>
         <p className="text-gr-muted mt-2 max-w-3xl">
           Average price by category for every brand we scrape Shopify catalogs from. Bigger numbers

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useGymreapersData } from '../gymreapers/_lib/GymreapersProvider';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -254,10 +255,11 @@ export default function TodayPage() {
       <div className="grid lg:grid-cols-2 gap-6">
         {/* Where we're winning */}
         <section className="bg-gr-surface rounded-md p-6 border border-gr-border">
-          <div className="flex items-baseline justify-between mb-4">
+          <div className="flex items-baseline justify-between mb-2">
             <h2 className="text-xl font-bold text-gr-text">Where we&apos;re winning</h2>
             <span className="text-xs text-gr-success font-semibold">{wins.length} wins</span>
           </div>
+          <div className="mb-3"><ConfidenceBadge source="amazon_bsr" /></div>
           {wins.length === 0 ? (
             <p className="text-sm text-gr-muted">No top-5 positions in today&apos;s Amazon snapshot.</p>
           ) : (
@@ -277,10 +279,11 @@ export default function TodayPage() {
 
         {/* Where we're vulnerable */}
         <section className="bg-gr-surface rounded-md p-6 border border-gr-border">
-          <div className="flex items-baseline justify-between mb-4">
+          <div className="flex items-baseline justify-between mb-2">
             <h2 className="text-xl font-bold text-gr-text">Where we&apos;re vulnerable</h2>
             <span className="text-xs text-gr-danger font-semibold">{topVulns.length} flagged</span>
           </div>
+          <div className="mb-3"><ConfidenceBadge source="amazon_bsr" /></div>
           {topVulns.length === 0 ? (
             <p className="text-sm text-gr-muted">No critical vulnerabilities flagged today.</p>
           ) : (
@@ -301,7 +304,10 @@ export default function TodayPage() {
       {/* Biggest opportunity */}
       {topOpp && (
         <section className="bg-gradient-to-br from-gr-bg to-gr-surface rounded-md p-6 border-l-4 border-gr-accent border-y border-r border-gr-border">
-          <div className="text-xs text-gr-accent uppercase tracking-wider font-bold mb-2">Biggest opportunity</div>
+          <div className="flex items-baseline justify-between mb-2">
+            <div className="text-xs text-gr-accent uppercase tracking-wider font-bold">Biggest opportunity</div>
+            <ConfidenceBadge source="amazon_bsr" />
+          </div>
           <h2 className="text-2xl font-bold text-gr-text mb-3">&ldquo;{topOpp.query}&rdquo;</h2>
           <p className="text-sm text-gr-muted mb-4">
             In <span className="font-semibold text-gr-text">{topOpp.category_name}</span> —{' '}
@@ -319,10 +325,11 @@ export default function TodayPage() {
       <div className="grid lg:grid-cols-2 gap-6">
         {/* Competitor moves */}
         <section className="bg-gr-surface rounded-md p-6 border border-gr-border">
-          <div className="flex items-baseline justify-between mb-4">
+          <div className="flex items-baseline justify-between mb-2">
             <h2 className="text-xl font-bold text-gr-text">Competitor moves</h2>
             <Link href="/gymreapers/launches" className="text-xs text-gr-accent hover:underline">All launches →</Link>
           </div>
+          <div className="mb-3"><ConfidenceBadge source="launches" /></div>
           {recentLaunches.length === 0 ? (
             <p className="text-sm text-gr-muted">No recent competitor launches detected.</p>
           ) : (
@@ -344,10 +351,11 @@ export default function TodayPage() {
 
         {/* Search interest */}
         <section className="bg-gr-surface rounded-md p-6 border border-gr-border">
-          <div className="flex items-baseline justify-between mb-4">
+          <div className="flex items-baseline justify-between mb-2">
             <h2 className="text-xl font-bold text-gr-text">Search interest (brand WoW)</h2>
             <Link href="/for-marketing/trending" className="text-xs text-gr-accent hover:underline">Category terms →</Link>
           </div>
+          <div className="mb-3"><ConfidenceBadge source="google_trends_brand" /></div>
           {topTrendUp && topTrendUp.wow_change !== undefined && topTrendUp.wow_change !== null && (
             <div className="mb-3">
               <div className="text-xs text-gr-subtle">Biggest riser</div>

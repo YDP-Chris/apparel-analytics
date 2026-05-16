@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useGymreapersData } from '../_lib/GymreapersProvider';
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 
 // Endpoint backed by Supabase (gymreapers_bsr schema). Always reflects the
 // latest snapshot — no JSON rebuild required.
@@ -214,9 +215,12 @@ export default function GymreapersAmazonPage() {
       </section>
 
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
-          Gymreapers / Amazon Demand Signal
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-2">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            Gymreapers / Amazon Demand Signal
+          </p>
+          <ConfidenceBadge source="amazon_bsr" />
+        </div>
         <h1 className="text-4xl font-bold tracking-tight">Where the buyers are</h1>
         <p className="text-gr-muted mt-3 max-w-3xl text-lg leading-relaxed">
           Daily popularity-rank snapshots across{' '}

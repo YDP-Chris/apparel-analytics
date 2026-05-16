@@ -1,10 +1,15 @@
+import { ConfidenceBadge } from '@/components/ConfidenceBadge';
+
 export default function SentimentPulsePage() {
   return (
     <div className="space-y-6">
       <header>
-        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-2">
-          For Marketing · Sentiment Pulse
-        </p>
+        <div className="flex items-baseline justify-between gap-3 mb-2">
+          <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
+            For Marketing · Sentiment Pulse
+          </p>
+          <ConfidenceBadge source="review_themes" />
+        </div>
         <h1 className="text-3xl font-bold tracking-tight">What people love and hate by brand</h1>
       </header>
 
