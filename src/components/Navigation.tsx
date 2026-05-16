@@ -44,6 +44,9 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/gymreapers/mix', label: 'Mix Gaps', status: 'live', description: 'Color, size, and price tier deltas' },
       { href: '/gymreapers/launches', label: 'Launch Velocity', status: 'live', description: 'What competitors are dropping' },
       { href: '/for-product/demand', label: 'Demand Signals', status: 'live', description: 'Amazon bought-past-month winners + risers' },
+      { href: '/for-product/gaps', label: 'Coverage Gaps', status: 'beta', description: 'Where Gymreapers under- or over-indexes vs the field on color, size, price tier' },
+      { href: '/bundles', label: 'Bundles', status: 'beta', description: 'Multi-pack and bundle strategy across brands' },
+      { href: '/policies', label: 'Policies', status: 'beta', description: 'Free shipping, returns, subscriptions, made-in-USA per brand' },
     ],
   },
   {

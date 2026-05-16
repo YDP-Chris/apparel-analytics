@@ -31,6 +31,8 @@ export type DataSourceId =
   | 'creator_posts'
   | 'promo_tracker'
   | 'trends_explorer'
+  | 'policies'
+  | 'brand_mix'
   | 'composite';
 
 interface SourceMeta {
@@ -56,6 +58,8 @@ const SOURCES: Record<DataSourceId, SourceMeta> = {
   creator_posts:          { label: 'Creator monitor',        confidence: 'MEDIUM', blurb: 'YouTube via HTML scrape; TikTok currently blocked.' },
   promo_tracker:          { label: 'Promo tracker',          confidence: 'HIGH',   blurb: 'Shopify compare_at_price is authoritative; Amazon uses 28-day trailing median.' },
   trends_explorer:        { label: 'Trends explorer',        confidence: 'HIGH',   blurb: 'Reads canonical Supabase tables; same source as every other dashboard page.' },
+  policies:               { label: 'Brand policies',         confidence: 'MEDIUM', blurb: 'Manually curated as of 2026-05-16. Spot-check quarterly. Some fields are best-effort and may lag actual policy changes.' },
+  brand_mix:              { label: 'Brand mix',               confidence: 'HIGH',   blurb: 'Reads brand_subcategories from canonical sitemap classification.' },
   composite:              { label: 'Composite',              confidence: 'MEDIUM', blurb: 'Synthesizes multiple sources — see methodology for the blend.' },
 };
 
