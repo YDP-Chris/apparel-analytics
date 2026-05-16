@@ -67,9 +67,24 @@ function fmtPrice(p: number | null | undefined): string {
   return `$${p.toFixed(0)}`;
 }
 
+interface QaPayload {
+  available: boolean;
+  status_color?: 'green' | 'yellow' | 'red';
+  fail_count?: number;
+  warn_count?: number;
+  finished_at?: string;
+  findings?: Array<{
+    check_name: string;
+    scope: string;
+    severity: 'PASS' | 'WARN' | 'FAIL';
+    message: string;
+  }>;
+}
+
 export default function TodayPage() {
   const { data: comp } = useGymreapersData();
   const [amz, setAmz] = useState<AmazonPayload | null>(null);
+  const [qa, setQa] = useState<QaPayload | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -79,6 +94,15 @@ export default function TodayPage() {
       .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`)))
       .then((j) => setAmz(j))
       .catch((e) => setError(String(e)));
+    // Fetch QA status with a 1s timeout so a slow QA endpoint never degrades
+    // the page it's protecting (per the Plan agent's last guardrail).
+    const qaController = new AbortController();
+    const qaTimeout = setTimeout(() => qaController.abort(), 1500);
+    fetch(`${PULSE_API}/pulse/qa`, { headers: { Authorization: `Bearer ${token}` }, signal: qaController.signal })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => j && setQa(j))
+      .catch(() => {})
+      .finally(() => clearTimeout(qaTimeout));
   }, []);
 
   if (!comp && !amz) {
@@ -139,8 +163,58 @@ export default function TodayPage() {
 
   return (
     <div className="space-y-8">
+      {/* DATA-QA STATUS BANNER — bold red on FAIL, bold yellow on WARN, hidden on green. */}
+      {qa && qa.available && qa.status_color !== 'green' && (
+        <section
+          className={`rounded-md p-5 border-2 font-semibold ${
+            qa.status_color === 'red'
+              ? 'bg-gr-danger/15 border-gr-danger text-gr-text'
+              : 'bg-gr-accent-soft border-gr-accent text-gr-text'
+          }`}
+        >
+          <div className="flex items-start gap-4">
+            <div className={`text-3xl ${qa.status_color === 'red' ? 'animate-pulse' : ''}`}>
+              {qa.status_color === 'red' ? '⚠' : '⚠'}
+            </div>
+            <div className="flex-1">
+              <div className={`text-lg font-bold uppercase tracking-wider ${
+                qa.status_color === 'red' ? 'text-gr-danger' : 'text-gr-accent'
+              }`}>
+                {qa.status_color === 'red'
+                  ? `${qa.fail_count} data integrity FAIL — read carefully`
+                  : `${qa.warn_count} data warning${(qa.warn_count || 0) > 1 ? 's' : ''} — heads up`}
+              </div>
+              <div className="text-sm mt-1 leading-relaxed">
+                The dashboard is still showing the latest data we have, but some of it may be stale
+                or incomplete. Verify any number before acting on it.
+              </div>
+              {(qa.findings || []).slice(0, 5).map((f, i) => (
+                <div key={i} className="text-sm mt-2 font-mono">
+                  <span className={`font-bold ${f.severity === 'FAIL' ? 'text-gr-danger' : 'text-gr-accent'}`}>
+                    [{f.severity}]
+                  </span>{' '}
+                  <code className="text-xs">{f.scope}</code> — {f.message}
+                </div>
+              ))}
+              {(qa.findings || []).length > 5 && (
+                <div className="text-xs mt-2 text-gr-muted">
+                  +{qa.findings!.length - 5} more · see /data-explorer for the full QA history
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       <header className="bg-gradient-to-r from-gr-accent-soft to-gr-raised border border-gr-accent-soft rounded-md p-6">
-        <div className="text-xs text-gr-subtle uppercase tracking-wider font-semibold">Today&apos;s brief</div>
+        <div className="flex items-baseline justify-between mb-1">
+          <div className="text-xs text-gr-subtle uppercase tracking-wider font-semibold">Today&apos;s brief</div>
+          {qa && qa.available && qa.status_color === 'green' && (
+            <div className="text-xs text-gr-success font-semibold uppercase tracking-wider">
+              ✓ All data fresh
+            </div>
+          )}
+        </div>
         <h1 className="text-3xl font-bold text-gr-text mt-1">{fmtDate(amz?.snapshot_date || comp?.generated_at?.slice(0, 10))}</h1>
         <p className="text-gr-muted mt-2">
           The 3-5 things to know across the Gymreapers competitive set. Built for marketing and
