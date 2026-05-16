@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -32,9 +33,15 @@ interface PromoEvent {
 interface PromoResponse {
   available: boolean;
   snapshot_date: string;
+  previous_snapshot_date?: string | null;
   calendar_30d: CalendarCell[];
   today_events: PromoEvent[];
   brand_names: Record<string, string>;
+  lw_summary?: {
+    skus_on_sale: number;
+    brands_active: number;
+    max_discount_pct: number;
+  } | null;
 }
 
 const TODAY_ROW_LIMIT = 50;
@@ -230,17 +237,26 @@ export default function PromoCalendarPage() {
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Today&apos;s promos</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{todayKpis.totalSkus}</div>
-          <div className="text-xs text-gr-muted mt-1">SKUs on sale across the set</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-2">
+            <span>SKUs on sale across the set</span>
+            <MetricDelta current={todayKpis.totalSkus} previous={data.lw_summary?.skus_on_sale ?? null} compact />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Brands active today</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{todayKpis.activeBrands}</div>
-          <div className="text-xs text-gr-muted mt-1">running at least one promo</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-2">
+            <span>running at least one promo</span>
+            <MetricDelta current={todayKpis.activeBrands} previous={data.lw_summary?.brands_active ?? null} compact />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Deepest discount today</div>
           <div className="text-3xl font-bold text-gr-accent tabular-nums">{fmtPct(todayKpis.deepest)}</div>
-          <div className="text-xs text-gr-muted mt-1">max single-SKU markdown</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-2">
+            <span>max single-SKU markdown</span>
+            <MetricDelta current={todayKpis.deepest} previous={data.lw_summary?.max_discount_pct ?? null} unit="%" compact />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Most active brand (30d)</div>

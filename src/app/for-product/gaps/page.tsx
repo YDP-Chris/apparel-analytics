@@ -3,6 +3,7 @@
 import { Fragment, useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -24,10 +25,17 @@ interface Gap {
 interface GapsPayload {
   available: boolean;
   snapshot_date: string | null;
+  previous_snapshot_date?: string | null;
   tier?: PeerTier;
   tier_brands?: string[] | null;
   brand_names: Record<string, string>;
   gaps: Gap[];
+  lw_summary?: {
+    tracked: number;
+    under: number;
+    over: number;
+    worst_delta: number;
+  } | null;
 }
 
 type SortKey = 'subcategory' | 'gymreapers_count' | 'peer_avg' | 'peer_max' | 'delta_vs_avg';
@@ -189,16 +197,25 @@ export default function CoverageGapsPage() {
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Subcategories tracked</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{kpis.tracked}</div>
+          <div className="mt-1">
+            <MetricDelta current={kpis.tracked} previous={data?.lw_summary?.tracked ?? null} compact />
+          </div>
         </div>
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Underweight</div>
           <div className="text-3xl font-bold text-gr-danger tabular-nums">{kpis.underCount}</div>
-          <div className="text-[11px] text-gr-subtle mt-0.5">delta &lt; -0.5</div>
+          <div className="text-[11px] text-gr-subtle mt-0.5 flex items-baseline gap-2">
+            <span>delta &lt; -0.5</span>
+            <MetricDelta current={kpis.underCount} previous={data?.lw_summary?.under ?? null} invertColors compact />
+          </div>
         </div>
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Overweight</div>
           <div className="text-3xl font-bold text-gr-success tabular-nums">{kpis.overCount}</div>
-          <div className="text-[11px] text-gr-subtle mt-0.5">delta &gt; 0.5</div>
+          <div className="text-[11px] text-gr-subtle mt-0.5 flex items-baseline gap-2">
+            <span>delta &gt; 0.5</span>
+            <MetricDelta current={kpis.overCount} previous={data?.lw_summary?.over ?? null} compact />
+          </div>
         </div>
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Worst gap</div>

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -28,6 +29,10 @@ interface ApiResponse {
   days: number;
   filings: Filing[];
   brand_names: Record<string, string>;
+  lw_summary?: {
+    last_7d_filings: number;
+    prior_7d_filings: number;
+  } | null;
   error?: string;
 }
 
@@ -245,7 +250,14 @@ export default function TrademarksPage() {
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Filings (7d)</div>
           <div className="text-3xl font-bold text-gr-accent tabular-nums">{kpis.total7}</div>
-          <div className="text-xs text-gr-muted mt-1">just-landed, react now</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-2">
+            <span>just-landed, react now</span>
+            <MetricDelta
+              current={data?.lw_summary?.last_7d_filings ?? kpis.total7}
+              previous={data?.lw_summary?.prior_7d_filings ?? null}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">New today</div>
