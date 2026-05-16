@@ -5,6 +5,7 @@ import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { Annotations } from '@/components/Annotations';
 import { InterestSignal } from '@/components/InterestSignal';
+import { useInterestSignals } from '@/components/useInterestSignals';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
 
@@ -176,10 +177,21 @@ export default function GymreapersAmazonPage() {
   }
 
   const totals = data.totals;
-  const opps = (data.top_opportunities || []).filter(
+  const allOpps = (data.top_opportunities || []).filter(
     (o) => (o.top_n_size || 0) > 0 && (o.total_reviews_in_top_n || 0) > 0,
   );
   const pendingCount = totals.whitespace_queries_run - totals.whitespace_queries_with_data;
+
+  // Apply team interest signals — default-hide anything the team has marked
+  // 'passing'. The toggle inside <PassingFilter/> below lets them bring
+  // passed items back into view when reviewing.
+  const wsSignals = useInterestSignals('whitespace_query');
+  const opps = allOpps.filter((o) => !wsSignals.filterOut(`${o.category_slug}|${o.query}`));
+  const hiddenOppsCount = allOpps.length - opps.length;
+
+  const catSignals = useInterestSignals('amazon_category');
+  const visibleCategories = data.categories.filter((c) => !catSignals.filterOut(c.slug));
+  const hiddenCatsCount = data.categories.length - visibleCategories.length;
 
   const snapshotDateLabel = (() => {
     try {
@@ -304,11 +316,25 @@ export default function GymreapersAmazonPage() {
       {opps.length > 0 && (
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
           <div className="mb-6">
-            <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Focal insight</p>
+            <div className="flex items-baseline justify-between gap-3 mb-2">
+              <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle">Focal insight</p>
+              {hiddenOppsCount > 0 && (
+                <button
+                  type="button"
+                  onClick={() => wsSignals.setShowPassing(!wsSignals.showPassing)}
+                  className="text-xs text-gr-accent hover:text-gr-accent-hover font-semibold transition"
+                >
+                  {wsSignals.showPassing
+                    ? `Hide passed (${wsSignals.passingCount})`
+                    : `${hiddenOppsCount} hidden — show passed`}
+                </button>
+              )}
+            </div>
             <h2 className="text-2xl font-bold text-gr-text mb-2 tracking-tight">Top Whitespace Opportunities</h2>
             <p className="text-sm text-gr-muted leading-relaxed max-w-3xl">
               Sub-queries with real demand where Gymreapers has no presence. Score = total reviews
-              in top 20 × (1 − brand concentration).
+              in top 20 × (1 − brand concentration). Items the team has marked &ldquo;Passing&rdquo;
+              are hidden by default.
               {pendingCount > 0 && (
                 <span className="block mt-1 italic">
                   {pendingCount} additional queries still pending Amazon cooldown.
@@ -388,11 +414,25 @@ export default function GymreapersAmazonPage() {
 
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
         <div className="mb-6">
-          <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle mb-2">Coverage</p>
+          <div className="flex items-baseline justify-between gap-3 mb-2">
+            <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-subtle">Coverage</p>
+            {hiddenCatsCount > 0 && (
+              <button
+                type="button"
+                onClick={() => catSignals.setShowPassing(!catSignals.showPassing)}
+                className="text-xs text-gr-accent hover:text-gr-accent-hover font-semibold transition"
+              >
+                {catSignals.showPassing
+                  ? `Hide passed (${catSignals.passingCount})`
+                  : `${hiddenCatsCount} hidden — show passed`}
+              </button>
+            )}
+          </div>
           <h2 className="text-2xl font-bold text-gr-text mb-2 tracking-tight">Gymreapers Position by Category</h2>
           <p className="text-sm text-gr-muted leading-relaxed max-w-3xl">
             Best rank in each tracked Amazon category. Top 5 by popularity shown for context. Victory
-            Grips products count as Gymreapers presence.
+            Grips products count as Gymreapers presence. Categories the team has marked &ldquo;Passing&rdquo;
+            are hidden by default.
           </p>
         </div>
         <div className="mb-5">
@@ -403,7 +443,7 @@ export default function GymreapersAmazonPage() {
           />
         </div>
         <div className="space-y-4">
-          {data.categories.map((cat) => {
+          {visibleCategories.map((cat) => {
             const gr = cat.gymreapers;
             return (
               <div key={cat.slug} className="bg-gr-bg rounded-md p-5 border border-gr-border space-y-3">
