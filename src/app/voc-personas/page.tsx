@@ -30,12 +30,26 @@ interface SampleReview {
   product_handle?: string;
   rating?: number;
 }
+interface VoiceSample {
+  source_id?: number;
+  voice_signature: string;
+  quoted_phrase: string;
+  life_context: string[];
+  product_relationship: string;
+  rating?: number | null;
+  product_name?: string | null;
+}
+interface LifeContextPhrase { phrase: string; count: number }
+
 interface Payload {
   available: boolean;
   snapshot_date?: string;
   by_brand: BrandRow[];
   sample_reviews: SampleReview[];
   brand_names: Record<string, string>;
+  voice_samples_by_brand?: Record<string, VoiceSample[]>;
+  life_context_top_phrases?: Record<string, LifeContextPhrase[]>;
+  product_relationship_distribution?: Record<string, Record<string, number>>;
   reason?: string;
 }
 
@@ -72,6 +86,30 @@ const SEGMENT_COLORS: Record<string, string> = {
   general_gym: 'bg-gr-raised',
 };
 
+const PRODUCT_RELATIONSHIP_LABELS: Record<string, string> = {
+  new_customer: 'New customer',
+  repeat_buyer: 'Repeat buyer',
+  gifting: 'Gifting',
+  comparing_brands: 'Comparing brands',
+  replacing_competitor: 'Replacing competitor',
+  dissatisfied: 'Dissatisfied',
+  evangelist: 'Evangelist',
+  lapsed: 'Lapsed',
+  unknown: 'Unknown',
+};
+
+const PRODUCT_RELATIONSHIP_COLORS: Record<string, string> = {
+  new_customer: 'bg-gr-success/30 text-gr-success border-gr-success/40',
+  repeat_buyer: 'bg-gr-accent/20 text-gr-accent border-gr-accent/40',
+  gifting: 'bg-gr-accent-soft text-gr-accent border-gr-accent/30',
+  comparing_brands: 'bg-gr-raised text-gr-text border-gr-border',
+  replacing_competitor: 'bg-gr-accent-hover/20 text-gr-accent-hover border-gr-accent-hover/40',
+  dissatisfied: 'bg-gr-danger/20 text-gr-danger border-gr-danger/40',
+  evangelist: 'bg-gr-success/30 text-gr-success border-gr-success/50',
+  lapsed: 'bg-gr-raised text-gr-subtle border-gr-border',
+  unknown: 'bg-gr-bg text-gr-subtle border-gr-border',
+};
+
 function colorFor(key: string): string {
   return SEGMENT_COLORS[key] || 'bg-gr-raised';
 }
@@ -81,13 +119,20 @@ function prettyLabel(s: string): string {
   return s.replace(/_/g, ' ');
 }
 
+function relationshipLabel(key: string): string {
+  return PRODUCT_RELATIONSHIP_LABELS[key] || prettyLabel(key || 'unknown');
+}
+
+function relationshipPill(key: string): string {
+  return PRODUCT_RELATIONSHIP_COLORS[key] || 'bg-gr-bg text-gr-subtle border-gr-border';
+}
+
 function DistBar({ title, dist, order, total }: {
   title: string;
   dist: Record<string, number>;
   order: string[];
   total: number;
 }) {
-  // Build a single stacked bar with all known segments in fixed order
   if (!total) {
     return (
       <div>
@@ -97,7 +142,6 @@ function DistBar({ title, dist, order, total }: {
       </div>
     );
   }
-  // Include any keys we did not anticipate (defensive)
   const allKeys = Array.from(new Set<string>([...order, ...Object.keys(dist)]));
   const segments = allKeys
     .map((k) => ({ key: k, count: dist[k] || 0 }))
@@ -197,34 +241,119 @@ function BrandCard({ row }: { row: BrandRow }) {
   );
 }
 
-function SampleCarousel({ samples, brandNames }: { samples: SampleReview[]; brandNames: Record<string, string> }) {
+function VoiceCard({ sample, brandName }: { sample: VoiceSample; brandName: string }) {
+  const lc = (sample.life_context || []).filter((x) => x && x.trim());
+  return (
+    <article className="bg-gr-surface rounded-md border border-gr-border p-5 flex flex-col h-full">
+      <header className="flex items-baseline justify-between gap-2 mb-3">
+        <span className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-accent">
+          {brandName}
+        </span>
+        {sample.rating !== undefined && sample.rating !== null && (
+          <span className="text-[11px] text-gr-subtle tabular-nums">
+            {Number(sample.rating).toFixed(1)} stars
+          </span>
+        )}
+      </header>
+
+      <p className="text-gr-text text-sm leading-relaxed">
+        {sample.voice_signature || 'No voice signature available.'}
+      </p>
+
+      {sample.quoted_phrase && (
+        <blockquote className="mt-3 text-gr-accent italic text-sm leading-relaxed border-l-2 border-gr-accent pl-3">
+          &ldquo;{sample.quoted_phrase}&rdquo;
+        </blockquote>
+      )}
+
+      {lc.length > 0 && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {lc.map((phrase) => (
+            <span
+              key={phrase}
+              className="px-2 py-0.5 rounded text-[11px] bg-gr-bg border border-gr-border text-gr-muted"
+            >
+              {phrase}
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-auto pt-3 flex items-center justify-between gap-2">
+        <span
+          className={`px-2 py-0.5 rounded-full text-[10px] uppercase tracking-wider font-bold border ${relationshipPill(sample.product_relationship)}`}
+        >
+          {relationshipLabel(sample.product_relationship)}
+        </span>
+        {sample.product_name && (
+          <code className="text-[10px] text-gr-subtle bg-gr-bg px-1.5 py-0.5 rounded truncate max-w-[55%]">
+            {sample.product_name}
+          </code>
+        )}
+      </div>
+    </article>
+  );
+}
+
+function VoiceBrandSection({
+  brandSlug,
+  brandName,
+  samples,
+  lifePhrases,
+  relationshipDist,
+  isFocus,
+}: {
+  brandSlug: string;
+  brandName: string;
+  samples: VoiceSample[];
+  lifePhrases: LifeContextPhrase[];
+  relationshipDist: Record<string, number>;
+  isFocus: boolean;
+}) {
   const [idx, setIdx] = useState(0);
-  if (!samples.length) return null;
+  if (!samples || samples.length === 0) return null;
+
+  const ring = isFocus ? 'ring-2 ring-gr-accent' : '';
   const cur = samples[idx];
-  const brand = brandNames[cur.brand] || cur.brand;
+  const total = Object.values(relationshipDist || {}).reduce((a, b) => a + b, 0);
+  const sortedRel = Object.entries(relationshipDist || {})
+    .filter(([k]) => k !== 'unknown')
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 4);
 
   function go(delta: number) {
     const next = (idx + delta + samples.length) % samples.length;
     setIdx(next);
     trackEvent('click', {
-      label: 'voc_persona_carousel',
-      metadata: { direction: delta > 0 ? 'next' : 'prev', new_index: next, brand: cur.brand },
+      label: 'voc_voice_carousel',
+      metadata: { direction: delta > 0 ? 'next' : 'prev', new_index: next, brand: brandSlug },
     });
   }
 
   return (
-    <section className="bg-gr-surface rounded-md border border-gr-border p-6">
-      <div className="flex items-baseline justify-between mb-4 gap-3">
+    <section className={`bg-gr-surface rounded-md border border-gr-border p-6 ${ring}`}>
+      <header className="flex items-baseline justify-between gap-3 mb-5">
         <div>
-          <p className="text-[11px] uppercase tracking-[0.22em] font-bold text-gr-accent">Evidence</p>
-          <h3 className="text-lg font-bold text-gr-text tracking-tight mt-0.5">Quote behind a persona inference</h3>
+          <h2 className="text-xl font-bold text-gr-text tracking-tight">{brandName}</h2>
+          {isFocus && (
+            <span className="inline-block mt-1 px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wider bg-gr-accent-soft text-gr-accent">
+              FOCUS BRAND
+            </span>
+          )}
         </div>
-        <div className="flex items-center gap-2">
+        <span className="text-xs text-gr-subtle tabular-nums">
+          {samples.length} voice sample{samples.length === 1 ? '' : 's'}
+        </span>
+      </header>
+
+      <div className="mb-4">
+        <VoiceCard sample={cur} brandName={brandName} />
+        <div className="flex items-center justify-between mt-3">
           <button
             type="button"
             onClick={() => go(-1)}
             className="px-2.5 py-1 rounded text-xs font-bold uppercase tracking-wider bg-gr-bg border border-gr-border text-gr-muted hover:text-gr-text hover:bg-gr-raised"
-            aria-label="Previous sample"
+            aria-label="Previous voice sample"
           >
             Prev
           </button>
@@ -233,34 +362,58 @@ function SampleCarousel({ samples, brandNames }: { samples: SampleReview[]; bran
             type="button"
             onClick={() => go(1)}
             className="px-2.5 py-1 rounded text-xs font-bold uppercase tracking-wider bg-gr-bg border border-gr-border text-gr-muted hover:text-gr-text hover:bg-gr-raised"
-            aria-label="Next sample"
+            aria-label="Next voice sample"
           >
             Next
           </button>
         </div>
       </div>
 
-      <div className="text-xs text-gr-subtle mb-2">
-        <span className="font-semibold text-gr-text">{brand}</span>
-        <span className="mx-2">·</span>
-        <span>{cur.persona_summary}</span>
-        {cur.rating !== undefined && cur.rating !== null && (
-          <>
-            <span className="mx-2">·</span>
-            <span className="tabular-nums">{Number(cur.rating).toFixed(1)} stars</span>
-          </>
-        )}
-      </div>
-
-      <blockquote className="text-gr-muted leading-relaxed italic">
-        &ldquo;{cur.quote || 'no quote captured'}&rdquo;
-      </blockquote>
-
-      {cur.product_handle && (
-        <div className="text-[11px] uppercase tracking-[0.18em] text-gr-subtle mt-3">
-          product: <code className="bg-gr-bg px-1.5 py-0.5 rounded normal-case tracking-normal">{cur.product_handle}</code>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-4 border-t border-gr-border">
+        <div>
+          <div className="text-[11px] uppercase tracking-[0.18em] font-bold text-gr-subtle mb-2">
+            Top life-context phrases
+          </div>
+          {lifePhrases.length === 0 ? (
+            <span className="text-xs text-gr-subtle italic">no recurring phrases yet</span>
+          ) : (
+            <div className="flex flex-wrap gap-1.5">
+              {lifePhrases.slice(0, 12).map((p) => (
+                <span
+                  key={p.phrase}
+                  className="px-2 py-1 rounded text-xs bg-gr-bg border border-gr-border text-gr-text"
+                >
+                  {p.phrase} <span className="text-gr-subtle tabular-nums">{p.count}</span>
+                </span>
+              ))}
+            </div>
+          )}
         </div>
-      )}
+        <div>
+          <div className="text-[11px] uppercase tracking-[0.18em] font-bold text-gr-subtle mb-2">
+            Product relationship mix
+          </div>
+          {sortedRel.length === 0 ? (
+            <span className="text-xs text-gr-subtle italic">mostly unknown</span>
+          ) : (
+            <div className="flex flex-col gap-1.5">
+              {sortedRel.map(([k, v]) => {
+                const pct = total ? ((v / total) * 100).toFixed(0) : '0';
+                return (
+                  <div key={k} className="flex items-center gap-2 text-xs">
+                    <span
+                      className={`px-2 py-0.5 rounded-full text-[10px] uppercase tracking-wider font-bold border ${relationshipPill(k)}`}
+                    >
+                      {relationshipLabel(k)}
+                    </span>
+                    <span className="text-gr-subtle tabular-nums">{v} ({pct}%)</span>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </div>
     </section>
   );
 }
@@ -269,6 +422,7 @@ export default function VocPersonasPage() {
   const [data, setData] = useState<Payload | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [showDemographics, setShowDemographics] = useState(false);
 
   useEffect(() => {
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
@@ -282,7 +436,6 @@ export default function VocPersonasPage() {
 
   const ordered = useMemo(() => {
     if (!data?.by_brand) return [];
-    // Pin focus brand to top regardless of sample size
     const focus = data.by_brand.filter((b) => b.brand_slug === FOCUS_BRAND);
     const rest  = data.by_brand
       .filter((b) => b.brand_slug !== FOCUS_BRAND)
@@ -290,26 +443,45 @@ export default function VocPersonasPage() {
     return [...focus, ...rest];
   }, [data]);
 
+  const voiceBrandsOrdered = useMemo(() => {
+    if (!data?.voice_samples_by_brand) return [] as string[];
+    const slugs = Object.keys(data.voice_samples_by_brand).filter(
+      (s) => (data.voice_samples_by_brand?.[s] || []).length > 0,
+    );
+    const focus = slugs.filter((s) => s === FOCUS_BRAND);
+    const rest = slugs
+      .filter((s) => s !== FOCUS_BRAND)
+      .sort((a, b) => {
+        const ca = (data.voice_samples_by_brand?.[a] || []).length;
+        const cb = (data.voice_samples_by_brand?.[b] || []).length;
+        return cb - ca;
+      });
+    return [...focus, ...rest];
+  }, [data]);
+
   if (loading) return <div className="text-center py-20 text-gr-subtle">Loading personas...</div>;
   if (error)   return <div className="text-center py-20 text-gr-danger">{error}</div>;
+
+  const brandNames = data?.brand_names || {};
+  const hasVoice = voiceBrandsOrdered.length > 0;
 
   return (
     <div className="space-y-12">
       <header className="pb-2">
         <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">
-            For Marketing · Who Buys What
+            For Marketing · Voice of the Customer
           </p>
           <ConfidenceBadge source="dtc_voc_personas" />
         </div>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">
-          Customer personas by brand
+          The customer voice behind each brand
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
-          Claude reads each D2C review and infers the customer behind it: gender, experience level,
-          age band, discipline, and what they use the product for. Confidence is MEDIUM. The honest
-          read is that most reviewers do not tell you who they are. That is why the &quot;unknown&quot;
-          slices are large by design. Do not over-read tight differences between brands.
+          Claude reads every D2C review and captures the reviewer&apos;s voice: who they are,
+          what they care about, and what they actually said in their own words. Demographic
+          distributions are still here, but they sit below the voice samples because the
+          quotes are the story.
         </p>
       </header>
 
@@ -333,18 +505,92 @@ export default function VocPersonasPage() {
       ) : (
         <>
           <SectionExplainer
-            what="One card per brand. Each card shows four distribution bars (gender, experience, age, discipline) plus the top use cases customers actually mention and the top customer segments Claude inferred."
-            howToRead="Big 'unknown' slices are intentional. The classifier is told to leave fields blank when the review does not say. A brand showing 70% unknown gender means the reviewers did not self-identify, not that the brand has a mystery audience. Sample size matters more than precise percentages."
-            whatToDo="Use this to scope marketing copy and creator briefs. If 'powerlifting / competitor' is a meaningful slice for a competitor, that is a brief direction. Bring the quotes (in the carousel below) to the team so they can hear the actual voice instead of just the percentages."
+            what="Each card is one brand. The carousel inside shows up to 12 voice samples Claude pulled from real reviews. Voice signature is the third-person observation. The italic quote is verbatim from the reviewer. The chips beneath are incidental life details. The pill at the bottom tags the customer relationship (new, repeat, gifting, etc.)."
+            howToRead="Read the quotes first. They are how your customers actually talk. The life-context chips show the patterns the classifier sees across all of a brand's reviews. The relationship mix tells you what stage of the customer journey is loudest in the review corpus."
+            whatToDo="Use the verbatim quotes in creator briefs and ad copy. Mine the recurring life-context phrases for landing-page headlines. If repeat_buyer or evangelist dominates a brand, that is a retention story. If replacing_competitor or new_customer spikes, that is acquisition."
           />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {ordered.map((row) => (
-              <BrandCard key={row.brand_slug} row={row} />
-            ))}
-          </div>
+          {hasVoice ? (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {voiceBrandsOrdered.map((slug) => (
+                <VoiceBrandSection
+                  key={slug}
+                  brandSlug={slug}
+                  brandName={brandNames[slug] || slug}
+                  samples={data?.voice_samples_by_brand?.[slug] || []}
+                  lifePhrases={data?.life_context_top_phrases?.[slug] || []}
+                  relationshipDist={data?.product_relationship_distribution?.[slug] || {}}
+                  isFocus={slug === FOCUS_BRAND}
+                />
+              ))}
+            </div>
+          ) : (
+            <section className="bg-gr-surface rounded-md border border-gr-border p-8">
+              <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-gr-accent mb-2">
+                Voice extraction in progress
+              </p>
+              <p className="text-gr-muted leading-relaxed">
+                The voice classifier has not finished tagging reviews yet. Demographics are
+                shown below in the meantime.
+              </p>
+            </section>
+          )}
 
-          <SampleCarousel samples={data.sample_reviews || []} brandNames={data.brand_names || {}} />
+          <section className="border-t border-gr-border pt-6">
+            <button
+              type="button"
+              onClick={() => {
+                const next = !showDemographics;
+                setShowDemographics(next);
+                trackEvent('click', {
+                  label: 'voc_demographics_toggle',
+                  metadata: { open: next },
+                });
+              }}
+              className="w-full flex items-center justify-between gap-3 py-2 text-left"
+              aria-expanded={showDemographics}
+            >
+              <div>
+                <p className="text-[11px] uppercase tracking-[0.22em] font-bold text-gr-subtle">
+                  Optional context
+                </p>
+                <h2 className="text-2xl font-bold tracking-tight text-gr-text mt-0.5">
+                  Demographic distributions by brand
+                </h2>
+                <p className="text-gr-subtle text-sm mt-1">
+                  Big &quot;unknown&quot; slices are intentional. Sample size matters more than precise percentages.
+                </p>
+              </div>
+              <span
+                className="text-xs uppercase tracking-wider font-bold text-gr-accent shrink-0"
+                aria-hidden="true"
+              >
+                {showDemographics ? 'Hide' : 'Show'}
+              </span>
+            </button>
+
+            {showDemographics && (
+              <div className="mt-6 space-y-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  {ordered.map((row) => (
+                    <BrandCard key={row.brand_slug} row={row} />
+                  ))}
+                </div>
+
+                <details className="bg-gr-surface rounded-md border border-gr-border p-5">
+                  <summary className="cursor-pointer text-sm font-bold text-gr-text">
+                    Legacy persona-evidence carousel
+                  </summary>
+                  <div className="mt-4">
+                    <LegacySampleCarousel
+                      samples={data?.sample_reviews || []}
+                      brandNames={brandNames}
+                    />
+                  </div>
+                </details>
+              </div>
+            )}
+          </section>
         </>
       )}
 
@@ -364,6 +610,67 @@ export default function VocPersonasPage() {
           </>
         )}
       </div>
+    </div>
+  );
+}
+
+function LegacySampleCarousel({ samples, brandNames }: { samples: SampleReview[]; brandNames: Record<string, string> }) {
+  const [idx, setIdx] = useState(0);
+  if (!samples.length) {
+    return <div className="text-gr-subtle text-sm italic">No evidence quotes captured yet.</div>;
+  }
+  const cur = samples[idx];
+  const brand = brandNames[cur.brand] || cur.brand;
+
+  function go(delta: number) {
+    const next = (idx + delta + samples.length) % samples.length;
+    setIdx(next);
+  }
+
+  return (
+    <div>
+      <div className="flex items-baseline justify-between mb-3 gap-3">
+        <div className="text-xs text-gr-subtle">
+          <span className="font-semibold text-gr-text">{brand}</span>
+          <span className="mx-2">·</span>
+          <span>{cur.persona_summary}</span>
+          {cur.rating !== undefined && cur.rating !== null && (
+            <>
+              <span className="mx-2">·</span>
+              <span className="tabular-nums">{Number(cur.rating).toFixed(1)} stars</span>
+            </>
+          )}
+        </div>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => go(-1)}
+            className="px-2.5 py-1 rounded text-xs font-bold uppercase tracking-wider bg-gr-bg border border-gr-border text-gr-muted hover:text-gr-text hover:bg-gr-raised"
+            aria-label="Previous sample"
+          >
+            Prev
+          </button>
+          <span className="text-xs text-gr-subtle tabular-nums">{idx + 1} / {samples.length}</span>
+          <button
+            type="button"
+            onClick={() => go(1)}
+            className="px-2.5 py-1 rounded text-xs font-bold uppercase tracking-wider bg-gr-bg border border-gr-border text-gr-muted hover:text-gr-text hover:bg-gr-raised"
+            aria-label="Next sample"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+
+      <blockquote className="text-gr-muted leading-relaxed italic">
+        &ldquo;{cur.quote || 'no quote captured'}&rdquo;
+      </blockquote>
+
+      {cur.product_handle && (
+        <div className="text-[11px] uppercase tracking-[0.18em] text-gr-subtle mt-3">
+          product: <code className="bg-gr-bg px-1.5 py-0.5 rounded normal-case tracking-normal">{cur.product_handle}</code>
+        </div>
+      )}
     </div>
   );
 }
