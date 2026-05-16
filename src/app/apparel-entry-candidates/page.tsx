@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -34,9 +35,16 @@ interface StageSubtotal {
   score_sum_in_top_15: number;
 }
 
+interface ApparelCandidatesLwSummary {
+  top_candidate_score: number;
+  total_deficit_score_sum: number;
+  biggest_deficit_stage: string | null;
+}
+
 interface Payload {
   available: boolean;
   snapshot_date: string | null;
+  previous_snapshot_date?: string | null;
   tier: string;
   tier_brands: string[];
   brand_names: Record<string, string>;
@@ -49,6 +57,7 @@ interface Payload {
   candidates: Candidate[];
   stage_subtotals: StageSubtotal[];
   total_candidates_evaluated: number;
+  lw_summary?: ApparelCandidatesLwSummary | null;
 }
 
 type SortKey = 'total_score' | 'deficit_score';
@@ -184,21 +193,47 @@ export default function ApparelEntryCandidatesPage() {
           {kpis.top ? (
             <>
               <div className="text-xl font-bold text-gr-accent capitalize truncate">{prettySub(kpis.top.subcategory)}</div>
-              <div className="text-xs text-gr-subtle mt-0.5">{kpis.top.stage_label} &middot; score {kpis.top.total_score}</div>
+              <div className="text-xs text-gr-subtle mt-0.5 flex items-baseline gap-1.5">
+                <span>{kpis.top.stage_label} &middot; score {kpis.top.total_score}</span>
+                <MetricDelta
+                  current={kpis.top.total_score}
+                  previous={data.lw_summary?.top_candidate_score ?? null}
+                  compact
+                />
+              </div>
             </>
           ) : <div className="text-gr-subtle">-</div>}
         </div>
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Total deficit across top 15</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{kpis.totalDeficit}</div>
-          <div className="text-xs text-gr-subtle mt-1">summed deficit-score points (max 750)</div>
+          <div className="text-xs text-gr-subtle mt-1 flex items-baseline gap-1.5">
+            <span>summed deficit-score points (max 750)</span>
+            <MetricDelta
+              current={kpis.totalDeficit}
+              previous={data.lw_summary?.total_deficit_score_sum ?? null}
+              invertColors
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Stage with most candidates</div>
           {kpis.leaderStage && kpis.leaderStage.count_in_top_15 > 0 ? (
             <>
               <div className="text-xl font-bold text-gr-text truncate">{kpis.leaderStage.label}</div>
-              <div className="text-xs text-gr-subtle mt-0.5">{kpis.leaderStage.count_in_top_15} of 15</div>
+              <div className="text-xs text-gr-subtle mt-0.5 flex items-baseline gap-1.5">
+                <span>{kpis.leaderStage.count_in_top_15} of 15</span>
+                {data.lw_summary?.biggest_deficit_stage ? (
+                  data.lw_summary.biggest_deficit_stage === kpis.leaderStage.stage ? (
+                    <span className="text-[10px] text-gr-subtle italic">same as LW</span>
+                  ) : (
+                    <span className="text-[10px] text-gr-accent italic">was {data.lw_summary.biggest_deficit_stage.replace(/_/g, ' ')} LW</span>
+                  )
+                ) : (
+                  <span className="text-[10px] text-gr-subtle italic">no LW data yet</span>
+                )}
+              </div>
             </>
           ) : <div className="text-gr-subtle">-</div>}
         </div>

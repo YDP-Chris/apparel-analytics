@@ -36,6 +36,7 @@ export type DataSourceId =
   | 'email_intel'
   | 'paid_classifier'
   | 'uspto_trademarks'
+  | 'uspto_patents'
   | 'composite';
 
 interface SourceMeta {
@@ -66,6 +67,7 @@ const SOURCES: Record<DataSourceId, SourceMeta> = {
   email_intel:            { label: 'Email intel',             confidence: 'HIGH',   blurb: 'Captured emails are exact source-of-truth. Claude-extracted offers are MEDIUM; verify codes before quoting.' },
   paid_classifier:        { label: 'Paid classifier',         confidence: 'MEDIUM', blurb: 'Hashtag rules are HIGH confidence; LLM-inferred signal is MEDIUM. FTC disclosure compliance varies by creator.' },
   uspto_trademarks:       { label: 'USPTO trademarks',        confidence: 'HIGH',   blurb: 'Direct from USPTO public records. Filing date is exact; "leak signal" lead time is heuristic.' },
+  uspto_patents:          { label: 'USPTO patents',           confidence: 'HIGH',   blurb: 'Direct from USPTO public records. Publication lag ~18 months from filing.' },
   composite:              { label: 'Composite',              confidence: 'MEDIUM', blurb: 'Synthesizes multiple sources; see methodology for the blend.' },
 };
 

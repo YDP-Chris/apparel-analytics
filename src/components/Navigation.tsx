@@ -22,6 +22,7 @@ type NavSection = {
 
 const NAV_SECTIONS: NavSection[] = [
   { href: '/today', label: 'Today' },
+  { href: '/exec-brief', label: 'Exec Brief' },
   { href: '/journey', label: 'Journey' },
   { href: '/apparel-entry-candidates', label: 'Entry Candidates' },
   {
@@ -35,7 +36,9 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/promo-calendar', label: 'Promo Calendar', status: 'beta', description: 'When competitors discount, how deep, and what categories' },
       { href: '/email-intel', label: 'Email Intel', status: 'beta', description: 'Captured competitor newsletter cadence + offers' },
       { href: '/paid-creators', label: 'Paid Creators', status: 'beta', description: 'Sponsored vs organic UGC velocity per brand' },
-      { href: '/trademarks', label: 'Trademark Radar', status: 'beta', description: 'USPTO filings as pre-launch leak signal' },
+      { href: '/trademarks', label: 'Trademark Radar', status: 'beta', description: 'USPTO trademark filings as pre-launch leak signal' },
+      { href: '/patents', label: 'Patent Radar', status: 'beta', description: 'USPTO patents and applications - material + construction innovations' },
+      { href: '/prelaunch-radar', label: 'Pre-launch Radar', status: 'beta', description: 'Search autocomplete + image CDN + sitemap inserts before products go live' },
       { href: '/athletes', label: 'Athletes', status: 'soon', description: 'Sponsored athlete roster comparison (planned)' },
     ],
   },
@@ -191,8 +194,11 @@ export default function Navigation() {
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-gr-border bg-gr-surface/95 backdrop-blur-md">
-          <div className="px-4 py-3 space-y-3">
+        <div
+          className="md:hidden border-t border-gr-border bg-gr-surface/95 backdrop-blur-md overflow-y-auto overscroll-contain"
+          style={{ maxHeight: 'calc(100vh - 4rem)' }}
+        >
+          <div className="px-4 py-3 space-y-2 pb-[env(safe-area-inset-bottom)]">
             {NAV_SECTIONS.map((section) => (
               <div key={section.href}>
                 <Link

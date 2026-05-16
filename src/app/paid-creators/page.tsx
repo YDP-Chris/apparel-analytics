@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -38,11 +39,19 @@ interface RecentPost {
   posted_at: string | null;
 }
 
+interface PaidCreatorsLwSummary {
+  total_classified_30d: number;
+  paid_posts_30d: number;
+  brands_with_paid_signal: number;
+}
+
 interface ApiResponse {
   available: boolean;
   velocity_30d: VelocityRow[];
   recent_posts: RecentPost[];
   brand_names: Record<string, string>;
+  previous_snapshot_date?: string | null;
+  lw_summary?: PaidCreatorsLwSummary | null;
   error?: string;
 }
 
@@ -277,17 +286,38 @@ export default function PaidCreatorsPage() {
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Posts classified</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{fmtInt(kpis.totalClassified)}</div>
-          <div className="text-xs text-gr-muted mt-1">over the last 30 days</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-1.5">
+            <span>over the last 30 days</span>
+            <MetricDelta
+              current={kpis.totalClassified}
+              previous={data.lw_summary?.total_classified_30d ?? null}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Paid posts (30d)</div>
           <div className="text-3xl font-bold text-gr-accent tabular-nums">{fmtInt(kpis.totalPaid)}</div>
-          <div className="text-xs text-gr-muted mt-1">ad + partner + gifted + affiliate</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-1.5">
+            <span>ad + partner + gifted + affiliate</span>
+            <MetricDelta
+              current={kpis.totalPaid}
+              previous={data.lw_summary?.paid_posts_30d ?? null}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Brands with paid signal</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{kpis.brandsWithPaid}</div>
-          <div className="text-xs text-gr-muted mt-1">at least one paid post detected</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-1.5">
+            <span>at least one paid post detected</span>
+            <MetricDelta
+              current={kpis.brandsWithPaid}
+              previous={data.lw_summary?.brands_with_paid_signal ?? null}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Top paid spender</div>

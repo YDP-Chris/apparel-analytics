@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { MetricDelta } from '@/components/MetricDelta';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -28,10 +29,18 @@ interface BundleBrand {
   sample_bundles: SampleBundle[];
 }
 
+interface BundlesLwSummary {
+  total_brands_with_bundles: number;
+  total_bundle_skus: number;
+  gymreapers_bundle_pct: number | null;
+}
+
 interface BundlesResponse {
   available: boolean;
   snapshot_date: string;
+  previous_snapshot_date?: string | null;
   brands: BundleBrand[];
+  lw_summary?: BundlesLwSummary | null;
 }
 
 function fmtPrice(p: number | null | undefined): string {
@@ -168,20 +177,42 @@ export default function BundlesPage() {
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Brands running bundles</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{kpi.activeBrands}</div>
-          <div className="text-xs text-gr-muted mt-1">at least one bundle SKU today</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-1.5">
+            <span>at least one bundle SKU today</span>
+            <MetricDelta
+              current={kpi.activeBrands}
+              previous={data.lw_summary?.total_brands_with_bundles ?? null}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Total bundle SKUs</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{kpi.totalBundleSkus}</div>
-          <div className="text-xs text-gr-muted mt-1">across the brand set</div>
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-1.5">
+            <span>across the brand set</span>
+            <MetricDelta
+              current={kpi.totalBundleSkus}
+              previous={data.lw_summary?.total_bundle_skus ?? null}
+              compact
+            />
+          </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Gymreapers bundle pct</div>
           <div className="text-3xl font-bold text-gr-accent tabular-nums">{fmtPct(kpi.grPct)}</div>
-          <div className="text-xs text-gr-muted mt-1">
-            {kpi.grRank && kpi.peerCount
-              ? `${ordinal(kpi.grRank)} of ${kpi.peerCount} brands by share`
-              : 'not in current set'}
+          <div className="text-xs text-gr-muted mt-1 flex items-baseline gap-1.5">
+            <span>
+              {kpi.grRank && kpi.peerCount
+                ? `${ordinal(kpi.grRank)} of ${kpi.peerCount} brands by share`
+                : 'not in current set'}
+            </span>
+            <MetricDelta
+              current={kpi.grPct}
+              previous={data.lw_summary?.gymreapers_bundle_pct ?? null}
+              unit="pp"
+              compact
+            />
           </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
