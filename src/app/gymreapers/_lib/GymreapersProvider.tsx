@@ -86,7 +86,10 @@ export function GymreapersProvider({ children }: { children: ReactNode }) {
     if (data && refreshTick === 0) return; // already cached
     setLoading(true);
     setError(null);
-    fetch(`${PULSE_API}/pulse/gymreapers`, { headers: { Authorization: `Bearer ${token}` } })
+    // /pulse/competitive is the new Supabase-backed endpoint (mirrors the old
+    // /pulse/gymreapers JSON shape). Migrated 2026-05-15 — all tabs that read
+    // from this provider now show live DB data without a JSON rebuild.
+    fetch(`${PULSE_API}/pulse/competitive`, { headers: { Authorization: `Bearer ${token}` } })
       .then(async (r) => {
         if (r.status === 401) {
           clearAuth();
