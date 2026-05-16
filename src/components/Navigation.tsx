@@ -27,6 +27,7 @@ const NAV_SECTIONS: NavSection[] = [
   { href: '/journey', label: 'Journey' },
   { href: '/apparel-entry-candidates', label: 'Entry Candidates' },
   { href: '/entry-opportunities', label: 'Entry Opportunities' },
+  { href: '/next-skus', label: 'Next 5 SKUs' },
   { href: '/compare', label: 'Compare' },
   {
     href: '/for-marketing',
