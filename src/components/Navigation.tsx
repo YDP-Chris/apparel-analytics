@@ -36,6 +36,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/for-marketing/voice', label: 'Share of Voice', status: 'live', description: 'Mentions across news + Reddit + reviews' },
       { href: '/for-marketing/sentiment', label: 'Sentiment Pulse', status: 'live', description: 'What people love and hate by brand' },
       { href: '/voc-personas', label: 'VoC Personas', status: 'beta', description: 'Customer voice + life context per brand from 1,785 D2C reviews' },
+      { href: '/cluster-matrix', label: 'Cluster Matrix', status: 'beta', description: 'Cross-brand customer voice overlap heatmap - 116 cluster pairs scored' },
       { href: '/for-marketing/beats', label: 'Competitor Beats', status: 'live', description: 'Launches + news to react to' },
       { href: '/promo-calendar', label: 'Promo Calendar', status: 'live', description: 'When competitors discount, how deep, and what categories' },
       { href: '/email-intel', label: 'Email Intel', status: 'soon', description: 'Captured competitor newsletter cadence + offers - waiting on Gmail OAuth setup' },
