@@ -22,6 +22,7 @@ type NavSection = {
 
 const NAV_SECTIONS: NavSection[] = [
   { href: '/today', label: 'Today' },
+  { href: '/roadmap', label: 'Roadmap' },
   { href: '/exec-brief', label: 'Exec Brief' },
   { href: '/journey', label: 'Journey' },
   { href: '/apparel-entry-candidates', label: 'Entry Candidates' },
@@ -52,6 +53,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/gymreapers/launches', label: 'Launch Velocity', status: 'live', description: 'What competitors are dropping' },
       { href: '/for-product/demand', label: 'Demand Signals', status: 'live', description: 'Amazon bought-past-month winners + risers' },
       { href: '/for-product/gaps', label: 'Coverage Gaps', status: 'beta', description: 'Where Gymreapers under- or over-indexes vs the field on color, size, price tier' },
+      { href: '/voc-complaints', label: 'VoC Complaints', status: 'beta', description: 'Claude-categorized complaint distribution across competitor and own D2C reviews' },
       { href: '/bundles', label: 'Bundles', status: 'beta', description: 'Multi-pack and bundle strategy across brands' },
       { href: '/policies', label: 'Policies', status: 'beta', description: 'Free shipping, returns, subscriptions, made-in-USA per brand' },
     ],
