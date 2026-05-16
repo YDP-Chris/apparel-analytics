@@ -24,6 +24,7 @@ const NAV_SECTIONS: NavSection[] = [
   { href: '/today', label: 'Today' },
   { href: '/roadmap', label: 'Roadmap' },
   { href: '/exec-brief', label: 'Exec Brief' },
+  { href: '/anomalies', label: 'Anomalies' },
   { href: '/journey', label: 'Journey' },
   { href: '/apparel-entry-candidates', label: 'Entry Candidates' },
   { href: '/entry-opportunities', label: 'Entry Opportunities' },
