@@ -198,7 +198,8 @@ export default function TodayPage() {
               ))}
               {(qa.findings || []).length > 5 && (
                 <div className="text-xs mt-2 text-gr-muted">
-                  +{qa.findings!.length - 5} more · see /data-explorer for the full QA history
+                  +{qa.findings!.length - 5} more · see{' '}
+                  <a href="/data-quality" className="underline font-semibold">Data Quality</a> for the full breakdown
                 </div>
               )}
             </div>
