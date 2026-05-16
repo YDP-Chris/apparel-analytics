@@ -39,7 +39,15 @@ export default function GymreapersAmazonPage() {
   const gaps = totals.whitespace_gaps ?? 0;
   const queriesRun = totals.whitespace_queries_run ?? 0;
 
-  const opps = amz.topOpportunities || [];
+  // Only show opportunities that actually have data. A row with top_n_size=0
+  // means Amazon blocked us on that sub-query — it's a failed scrape, not a
+  // real opportunity, and showing it as "0 reviews, $0 avg, HHI 0" is
+  // worse than showing nothing.
+  const allOpps = amz.topOpportunities || [];
+  const opps = allOpps.filter(
+    (o) => (o.top_n_size || 0) > 0 && (o.total_reviews_in_top_n || 0) > 0,
+  );
+  const pendingCount = allOpps.length - opps.length;
 
   return (
     <div className="space-y-10">
@@ -60,6 +68,20 @@ export default function GymreapersAmazonPage() {
       </header>
 
       {/* Top whitespace opportunities */}
+      {opps.length === 0 && pendingCount > 0 && (
+        <section className="bg-gr-surface rounded-md p-8 border border-gr-border border-l-4 border-l-gr-accent-soft">
+          <h2 className="text-xl font-bold text-gr-text mb-2">Whitespace data still being collected</h2>
+          <p className="text-sm text-gr-muted">
+            We attempted{' '}
+            <span className="font-semibold text-gr-text">{pendingCount}</span> whitespace
+            sub-queries today but Amazon rate-limited the requests. The next overnight pass
+            is firing now (4 batches × 90 min) and tomorrow&apos;s 5 AM run will produce a
+            full whitespace report. Per-category Gymreapers position below is from the
+            successful main snapshots and is accurate.
+          </p>
+        </section>
+      )}
+
       {opps.length > 0 && (
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
           <h2 className="text-xl font-bold text-gr-text mb-2">Top Whitespace Opportunities</h2>
@@ -67,6 +89,12 @@ export default function GymreapersAmazonPage() {
             Sub-queries with real demand (high review counts in the top 20) where Gymreapers has
             no presence. Score = total reviews × (1 − brand concentration). High score = real
             demand + fragmented competition = room to enter.
+            {pendingCount > 0 && (
+              <span className="block mt-1 italic">
+                {pendingCount} additional queries are still pending — Amazon rate-limit
+                cooldown is in progress.
+              </span>
+            )}
           </p>
           <div className="space-y-3">
             {opps.map((op: AmazonOpportunity, i: number) => (
