@@ -24,6 +24,8 @@ interface Gap {
 interface GapsPayload {
   available: boolean;
   snapshot_date: string | null;
+  tier?: PeerTier;
+  tier_brands?: string[] | null;
   brand_names: Record<string, string>;
   gaps: Gap[];
 }
@@ -31,6 +33,13 @@ interface GapsPayload {
 type SortKey = 'subcategory' | 'gymreapers_count' | 'peer_avg' | 'peer_max' | 'delta_vs_avg';
 type SortDir = 'asc' | 'desc';
 type FilterMode = 'all' | 'under' | 'over';
+type PeerTier = 'strength' | 'apparel' | 'all';
+
+const PEER_TIER_META: Record<PeerTier, { label: string; help: string }> = {
+  strength: { label: 'Strength accessories', help: 'Gymreapers vs SBD, Rogue, Harbinger, Schiek, Bear Grips, Inzer, Slingshot, 2POOD' },
+  apparel:  { label: 'Apparel majors',       help: 'Gymreapers vs Gymshark, Vuori, Alo, Lululemon, Rhone, Athleta' },
+  all:      { label: 'All tracked brands',   help: 'Full peer universe (strength + apparel + niche)' },
+};
 
 const DIRECTION_STYLES: Record<Direction, { row: string; pill: string; label: string }> = {
   under:  { row: 'bg-gr-danger/5',  pill: 'bg-gr-danger/15 text-gr-danger',  label: 'UNDER' },
@@ -60,6 +69,11 @@ export default function CoverageGapsPage() {
   const [error, setError] = useState<string | null>(null);
 
   const [filter, setFilter] = useState<FilterMode>('all');
+  // Default to 'apparel' peer set. Gymreapers is steering into apparel
+  // (joggers, leggings, tops, hoodies), so the Vuori/Alo/Lulu/Gymshark
+  // baseline is the strategically actionable view. Strength accessories
+  // peer set remains available for accessory-deepening analysis.
+  const [tier, setTier] = useState<PeerTier>('apparel');
   const [search, setSearch] = useState('');
   const [sortKey, setSortKey] = useState<SortKey>('delta_vs_avg');
   const [sortDir, setSortDir] = useState<SortDir>('asc');
@@ -72,12 +86,13 @@ export default function CoverageGapsPage() {
       setLoading(false);
       return;
     }
-    fetch(`${PULSE_API}/pulse/gaps`, { headers: { Authorization: `Bearer ${token}` } })
+    setLoading(true);
+    fetch(`${PULSE_API}/pulse/gaps?tier=${tier}`, { headers: { Authorization: `Bearer ${token}` } })
       .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`)))
       .then((j: GapsPayload) => setData(j))
       .catch((e) => setError(String(e)))
       .finally(() => setLoading(false));
-  }, []);
+  }, [tier]);
 
   const gaps = data?.gaps ?? [];
   const brandNames = data?.brand_names ?? {};
@@ -165,9 +180,9 @@ export default function CoverageGapsPage() {
       </header>
 
       <SectionExplainer
-        what="Each row is one subcategory. Sorted by largest underweight (Gymreapers SKU count minus peer average). The most-underserved pocket where peers are deep but Gymreapers is thin sits at the top."
-        howToRead="Negative delta in red means Gymreapers needs more SKUs. Positive in green means Gymreapers has more than peers (possibly overweight). 'Top peer' shows who is leading the pocket so you know who to study."
-        whatToDo="Top 5 underweights are immediate range-extension candidates. Top 5 overweights are pruning candidates if those SKUs aren't selling. Cross-reference against /for-product/demand to confirm whether the under-served pocket has real demand."
+        what='Each row is one subcategory. Sorted by largest underweight (Gymreapers SKU count minus peer average). Default peer set is "Apparel majors" because Gymreapers is steering into apparel. Switch to "Strength accessories" for accessory-deepening analysis.'
+        howToRead="Negative delta in red means Gymreapers needs more SKUs in that pocket. Positive in green means overweight (possibly prune candidate). 'Top peer' shows who's leading so you know who to study."
+        whatToDo='With "Apparel majors" peer set: the top underweights are entry candidates for the apparel push. With "Strength accessories" peer set: top underweights are accessory range-extension. Cross-reference /for-product/demand to confirm real demand before extending range.'
       />
 
       <section className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -199,6 +214,31 @@ export default function CoverageGapsPage() {
       </section>
 
       <section className="space-y-4">
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle">Peer set</span>
+          <div className="inline-flex rounded-md border border-gr-border bg-gr-surface p-0.5" title={PEER_TIER_META[tier].help}>
+            {(['strength', 'apparel', 'all'] as PeerTier[]).map((t) => {
+              const active = tier === t;
+              return (
+                <button
+                  key={t}
+                  type="button"
+                  onClick={() => {
+                    setTier(t);
+                    trackEvent('change', { label: 'gap_tier', metadata: { tier: t } });
+                  }}
+                  title={PEER_TIER_META[t].help}
+                  className={`px-3 py-1.5 text-xs font-semibold rounded transition ${
+                    active ? 'bg-gr-accent text-white' : 'text-gr-muted hover:text-gr-text'
+                  }`}
+                >
+                  {PEER_TIER_META[t].label}
+                </button>
+              );
+            })}
+          </div>
+          <span className="text-xs text-gr-subtle italic">{PEER_TIER_META[tier].help}</span>
+        </div>
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="inline-flex rounded-md border border-gr-border bg-gr-surface p-0.5">
             {(['all', 'under', 'over'] as FilterMode[]).map((m) => {

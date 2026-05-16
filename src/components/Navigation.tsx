@@ -22,6 +22,7 @@ type NavSection = {
 
 const NAV_SECTIONS: NavSection[] = [
   { href: '/today', label: 'Today' },
+  { href: '/journey', label: 'Journey' },
   {
     href: '/for-marketing',
     label: 'For Marketing',
@@ -31,7 +32,9 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/for-marketing/sentiment', label: 'Sentiment Pulse', status: 'beta', description: 'What people love and hate by brand' },
       { href: '/for-marketing/beats', label: 'Competitor Beats', status: 'live', description: 'Launches + news to react to' },
       { href: '/promo-calendar', label: 'Promo Calendar', status: 'beta', description: 'When competitors discount, how deep, and what categories' },
-      { href: '/email-intel', label: 'Email Intel', status: 'soon', description: 'Captured competitor newsletter cadence + offers' },
+      { href: '/email-intel', label: 'Email Intel', status: 'beta', description: 'Captured competitor newsletter cadence + offers' },
+      { href: '/paid-creators', label: 'Paid Creators', status: 'beta', description: 'Sponsored vs organic UGC velocity per brand' },
+      { href: '/trademarks', label: 'Trademark Radar', status: 'beta', description: 'USPTO filings as pre-launch leak signal' },
       { href: '/athletes', label: 'Athletes', status: 'soon', description: 'Sponsored athlete roster comparison (planned)' },
     ],
   },

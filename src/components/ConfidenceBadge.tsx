@@ -33,6 +33,9 @@ export type DataSourceId =
   | 'trends_explorer'
   | 'policies'
   | 'brand_mix'
+  | 'email_intel'
+  | 'paid_classifier'
+  | 'uspto_trademarks'
   | 'composite';
 
 interface SourceMeta {
@@ -60,7 +63,10 @@ const SOURCES: Record<DataSourceId, SourceMeta> = {
   trends_explorer:        { label: 'Trends explorer',        confidence: 'HIGH',   blurb: 'Reads canonical Supabase tables; same source as every other dashboard page.' },
   policies:               { label: 'Brand policies',         confidence: 'MEDIUM', blurb: 'Manually curated as of 2026-05-16. Spot-check quarterly. Some fields are best-effort and may lag actual policy changes.' },
   brand_mix:              { label: 'Brand mix',               confidence: 'HIGH',   blurb: 'Reads brand_subcategories from canonical sitemap classification.' },
-  composite:              { label: 'Composite',              confidence: 'MEDIUM', blurb: 'Synthesizes multiple sources — see methodology for the blend.' },
+  email_intel:            { label: 'Email intel',             confidence: 'HIGH',   blurb: 'Captured emails are exact source-of-truth. Claude-extracted offers are MEDIUM; verify codes before quoting.' },
+  paid_classifier:        { label: 'Paid classifier',         confidence: 'MEDIUM', blurb: 'Hashtag rules are HIGH confidence; LLM-inferred signal is MEDIUM. FTC disclosure compliance varies by creator.' },
+  uspto_trademarks:       { label: 'USPTO trademarks',        confidence: 'HIGH',   blurb: 'Direct from USPTO public records. Filing date is exact; "leak signal" lead time is heuristic.' },
+  composite:              { label: 'Composite',              confidence: 'MEDIUM', blurb: 'Synthesizes multiple sources; see methodology for the blend.' },
 };
 
 const STYLES = {
