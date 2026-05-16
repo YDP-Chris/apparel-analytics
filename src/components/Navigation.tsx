@@ -4,70 +4,153 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-// Gymreapers-focused IA. Every route serves a question about winning the
-// Gymreapers customer or market. Old apparel-intel routes (/vuori, /briefs,
-// /meta, /inventory, /mix, /brands) still exist as files but are not in nav.
-const navItems = [
-  { href: '/', label: 'Overview' },
-  { href: '/decisions', label: 'Decisions' },
-  { href: '/gymreapers', label: 'Scorecard' },
-  { href: '/gymreapers/mix', label: 'Mix' },
-  { href: '/gaps', label: 'Gaps' },
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/whitespace', label: 'White Space' },
-  { href: '/landscape', label: 'Landscape' },
-  { href: '/radar', label: 'Radar' },
-  { href: '/guideposts', label: 'Guideposts' },
-  { href: '/gymreapers/launches', label: 'Launches' },
-  { href: '/gymreapers/amazon', label: 'Amazon' },
-  { href: '/gymreapers/social', label: 'Social' },
-  { href: '/gymreapers/jobs', label: 'Jobs' },
-  { href: '/brands', label: 'Brands' },
-  { href: '/taxonomy', label: 'Taxonomy' },
+// Audience-grouped IA (rebuilt 2026-05-15). Top nav has four sections — one
+// daily landing, two audiences (Marketing + Product), and an analyst escape
+// hatch. Each section's sub-pages live in a dropdown.
+type NavChild = {
+  href: string;
+  label: string;
+  status?: 'live' | 'beta' | 'soon';
+  description?: string;
+};
+
+type NavSection = {
+  href: string;     // landing page for the section
+  label: string;
+  children?: NavChild[];
+};
+
+const NAV_SECTIONS: NavSection[] = [
+  { href: '/today', label: 'Today' },
+  {
+    href: '/for-marketing',
+    label: 'For Marketing',
+    children: [
+      { href: '/for-marketing/trending', label: 'Trending Terms', status: 'beta', description: 'Rising searches by category (Google + Amazon)' },
+      { href: '/for-marketing/voice', label: 'Share of Voice', status: 'live', description: 'Mentions across news + Reddit + reviews' },
+      { href: '/for-marketing/sentiment', label: 'Sentiment Pulse', status: 'beta', description: 'What people love and hate by brand' },
+      { href: '/for-marketing/beats', label: 'Competitor Beats', status: 'live', description: 'Launches + news to react to' },
+    ],
+  },
+  {
+    href: '/for-product',
+    label: 'For Product',
+    children: [
+      { href: '/gymreapers/amazon', label: 'Whitespace', status: 'live', description: 'Sub-segments where Gymreapers is absent + has demand' },
+      { href: '/for-product/pricing', label: 'Pricing Map', status: 'beta', description: 'Competitor pricing by category and tier' },
+      { href: '/gymreapers/mix', label: 'Mix Gaps', status: 'live', description: 'Color, size, and price tier deltas' },
+      { href: '/gymreapers/launches', label: 'Launch Velocity', status: 'live', description: 'What competitors are dropping' },
+      { href: '/for-product/demand', label: 'Demand Signals', status: 'live', description: 'Amazon bought-past-month winners + risers' },
+    ],
+  },
+  {
+    href: '/data-explorer',
+    label: 'Data Explorer',
+  },
 ];
+
+// Legacy routes still accessible directly but no longer in the primary nav
+// (Decisions, Gaps, Pricing, Whitespace, Landscape, Radar, Guideposts, Brands,
+// Taxonomy, Scorecard, Social, Jobs). Linked from /data-explorer.
+
+const STATUS_BADGES: Record<NonNullable<NavChild['status']>, { label: string; cls: string }> = {
+  live: { label: 'LIVE', cls: 'bg-gr-success/20 text-gr-success' },
+  beta: { label: 'BETA', cls: 'bg-gr-accent-soft text-gr-accent' },
+  soon: { label: 'SOON', cls: 'bg-gr-raised text-gr-subtle' },
+};
 
 export default function Navigation() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [openSection, setOpenSection] = useState<string | null>(null);
+
+  const isSectionActive = (s: NavSection) =>
+    pathname === s.href ||
+    pathname.startsWith(s.href + '/') ||
+    (s.children?.some((c) => pathname === c.href || pathname.startsWith(c.href + '/')) ?? false);
 
   return (
     <nav className="border-b border-gr-border bg-gr-surface/80 backdrop-blur-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/today" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-md bg-gradient-to-br from-gr-accent-hover to-gr-accent flex items-center justify-center">
               <span className="text-gr-text font-bold text-sm tracking-wider">GR</span>
             </div>
             <div className="hidden sm:block">
               <span className="text-base font-bold text-gr-text uppercase tracking-wider">Gymreapers</span>
-              <span className="block text-xs text-gr-subtle -mt-0.5 uppercase tracking-[0.2em]">Data &amp; Analytics</span>
+              <span className="block text-xs text-gr-subtle -mt-0.5 uppercase tracking-[0.2em]">Competitive Intel</span>
             </div>
           </Link>
 
-          {/* Desktop Nav Links */}
           <div className="hidden md:flex items-center gap-1">
-            {navItems.map((item) => {
-              const isActive = pathname === item.href ||
-                (item.href !== '/' && pathname.startsWith(item.href));
+            {NAV_SECTIONS.map((section) => {
+              const active = isSectionActive(section);
+              const isOpen = openSection === section.label;
+              const hasChildren = !!section.children?.length;
 
               return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`px-3 py-2 rounded text-xs font-bold uppercase tracking-[0.15em] transition-all ${
-                    isActive
-                      ? 'bg-gr-accent-soft text-gr-accent'
-                      : 'text-gr-muted hover:text-gr-text hover:bg-gr-raised'
-                  }`}
+                <div
+                  key={section.href}
+                  className="relative"
+                  onMouseEnter={() => hasChildren && setOpenSection(section.label)}
+                  onMouseLeave={() => setOpenSection(null)}
                 >
-                  {item.label}
-                </Link>
+                  <Link
+                    href={section.href}
+                    className={`px-3 py-2 rounded text-xs font-bold uppercase tracking-[0.15em] transition-all flex items-center gap-1 ${
+                      active
+                        ? 'bg-gr-accent-soft text-gr-accent'
+                        : 'text-gr-muted hover:text-gr-text hover:bg-gr-raised'
+                    }`}
+                  >
+                    {section.label}
+                    {hasChildren && (
+                      <svg className="w-3 h-3 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    )}
+                  </Link>
+
+                  {hasChildren && isOpen && (
+                    <div className="absolute left-0 top-full pt-1 min-w-[320px]">
+                      <div className="bg-gr-surface border border-gr-border rounded-md shadow-xl p-2 space-y-1">
+                        {section.children!.map((c) => {
+                          const cActive = pathname === c.href || pathname.startsWith(c.href + '/');
+                          const badge = c.status ? STATUS_BADGES[c.status] : null;
+                          return (
+                            <Link
+                              key={c.href}
+                              href={c.href}
+                              className={`block px-3 py-2 rounded transition-all ${
+                                cActive ? 'bg-gr-accent-soft' : 'hover:bg-gr-raised'
+                              }`}
+                              onClick={() => setOpenSection(null)}
+                            >
+                              <div className="flex items-center justify-between gap-2">
+                                <span className={`text-sm font-semibold ${cActive ? 'text-gr-accent' : 'text-gr-text'}`}>
+                                  {c.label}
+                                </span>
+                                {badge && (
+                                  <span className={`px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wider ${badge.cls}`}>
+                                    {badge.label}
+                                  </span>
+                                )}
+                              </div>
+                              {c.description && (
+                                <p className="text-xs text-gr-muted mt-0.5">{c.description}</p>
+                              )}
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
               );
             })}
           </div>
 
-          {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 rounded text-gr-muted hover:text-gr-text hover:bg-gr-raised"
@@ -86,29 +169,30 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-gr-border bg-gr-surface/95 backdrop-blur-md">
-          <div className="px-4 py-3 space-y-1">
-            {navItems.map((item) => {
-              const isActive = pathname === item.href ||
-                (item.href !== '/' && pathname.startsWith(item.href));
-
-              return (
+          <div className="px-4 py-3 space-y-3">
+            {NAV_SECTIONS.map((section) => (
+              <div key={section.href}>
                 <Link
-                  key={item.href}
-                  href={item.href}
+                  href={section.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`block px-3 py-2 rounded text-sm font-bold uppercase tracking-[0.15em] transition-all ${
-                    isActive
-                      ? 'bg-gr-accent-soft text-gr-accent'
-                      : 'text-gr-muted hover:text-gr-text hover:bg-gr-raised'
-                  }`}
+                  className="block px-3 py-2 rounded text-sm font-bold uppercase tracking-[0.15em] text-gr-text hover:bg-gr-raised"
                 >
-                  {item.label}
+                  {section.label}
                 </Link>
-              );
-            })}
+                {section.children?.map((c) => (
+                  <Link
+                    key={c.href}
+                    href={c.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="block px-6 py-1.5 rounded text-sm text-gr-muted hover:text-gr-text hover:bg-gr-raised"
+                  >
+                    {c.label}
+                  </Link>
+                ))}
+              </div>
+            ))}
           </div>
         </div>
       )}

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import { SiteAuthProvider } from "@/components/SiteAuthProvider";
+import { GymreapersProvider } from "./gymreapers/_lib/GymreapersProvider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,15 +33,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gr-bg text-gr-text min-h-screen`}
       >
         <SiteAuthProvider>
-          <Navigation />
-          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            {children}
-          </main>
-          <footer className="border-t border-gr-border py-8 mt-12 bg-gr-surface">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gr-subtle text-sm">
-              <p>Internal — Gymreapers Data &amp; Analytics. Unauthorized access prohibited.</p>
-            </div>
-          </footer>
+          <GymreapersProvider>
+            <Navigation />
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+              {children}
+            </main>
+            <footer className="border-t border-gr-border py-8 mt-12 bg-gr-surface">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gr-subtle text-sm">
+                <p>Internal — Gymreapers Data &amp; Analytics. Unauthorized access prohibited.</p>
+              </div>
+            </footer>
+          </GymreapersProvider>
         </SiteAuthProvider>
       </body>
     </html>
