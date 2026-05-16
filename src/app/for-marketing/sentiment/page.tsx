@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { Sparkline } from '@/components/Sparkline';
 import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -113,7 +114,10 @@ export default function SentimentPulsePage() {
               <section key={slug} className="bg-gr-surface rounded-md border border-gr-border p-6">
                 <div className="flex items-baseline justify-between mb-5">
                   <h2 className="text-xl font-bold text-gr-text tracking-tight">{name}</h2>
-                  <span className="text-xs text-gr-subtle">{themeCount} theme{themeCount !== 1 ? 's' : ''}</span>
+                  <div className="flex items-center gap-3">
+                    <Sparkline metric="social_positive_pct" brandSlug={slug} days={60} label="positive %" />
+                    <span className="text-xs text-gr-subtle">{themeCount} theme{themeCount !== 1 ? 's' : ''}</span>
+                  </div>
                 </div>
                 <div className="space-y-2">
                   {list.map((t, i) => {

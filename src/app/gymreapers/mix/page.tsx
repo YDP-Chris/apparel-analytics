@@ -5,6 +5,7 @@ import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { useHiddenBrands } from '@/components/useHiddenBrands';
 import { BrandHideButton, HiddenBrandsBanner } from '@/components/BrandVisibilityControls';
+import { Sparkline } from '@/components/Sparkline';
 
 const CATEGORY_ORDER = ['bottoms', 'tops', 'outerwear', 'sports_bras', 'dresses', 'accessories', 'other'];
 const CATEGORY_COLORS: Record<string, string> = {
@@ -279,6 +280,7 @@ export default function GymreapersMixPage() {
               >
                 <div className={`text-sm font-semibold mb-2 flex items-center gap-1.5 ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
                   {data.brand_names[slug]}
+                  <Sparkline metric="product_count" brandSlug={slug} days={30} label="SKUs" />
                   {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                 </div>
                 <div className="flex h-6 rounded overflow-hidden">

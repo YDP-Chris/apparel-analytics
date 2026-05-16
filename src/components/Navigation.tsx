@@ -30,6 +30,9 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/for-marketing/voice', label: 'Share of Voice', status: 'live', description: 'Mentions across news + Reddit + reviews' },
       { href: '/for-marketing/sentiment', label: 'Sentiment Pulse', status: 'beta', description: 'What people love and hate by brand' },
       { href: '/for-marketing/beats', label: 'Competitor Beats', status: 'live', description: 'Launches + news to react to' },
+      { href: '/promo-calendar', label: 'Promo Calendar', status: 'beta', description: 'When competitors discount, how deep, and what categories' },
+      { href: '/email-intel', label: 'Email Intel', status: 'soon', description: 'Captured competitor newsletter cadence + offers' },
+      { href: '/athletes', label: 'Athletes', status: 'soon', description: 'Sponsored athlete roster comparison (planned)' },
     ],
   },
   {
@@ -54,6 +57,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/glossary', label: 'Glossary', status: 'live', description: 'Every term defined — HHI, BSR, bought-past-month, etc.' },
       { href: '/data-quality', label: 'Data Quality', status: 'live', description: 'Live data-qa run status — freshness, volume, consistency' },
       { href: '/inputs', label: 'Team Inputs', status: 'beta', description: 'Approve, reject, and audit team-submitted keywords + queries' },
+      { href: '/trends', label: 'Trends Explorer', status: 'beta', description: 'Chart any metric, any brands, any window' },
       { href: '/data-explorer', label: 'SQL Reference', status: 'live', description: 'Schema map + starter queries for analyst self-service' },
     ],
   },

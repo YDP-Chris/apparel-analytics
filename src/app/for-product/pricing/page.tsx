@@ -6,6 +6,7 @@ import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
 import { useHiddenBrands } from '@/components/useHiddenBrands';
 import { BrandHideButton, HiddenBrandsBanner } from '@/components/BrandVisibilityControls';
+import { Sparkline } from '@/components/Sparkline';
 
 function fmtPrice(p: number | null | undefined): string {
   if (p == null || isNaN(p)) return '—';
@@ -75,9 +76,12 @@ export default function PricingMapPage() {
                       slug === 'gymreapers' ? 'text-gr-accent' : 'text-gr-subtle'
                     }`}
                   >
-                    <span className="inline-flex items-center gap-1 justify-end">
-                      {data.brand_names[slug]}
-                      {slug !== 'gymreapers' && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
+                    <span className="inline-flex flex-col items-end gap-1">
+                      <span className="inline-flex items-center gap-1 justify-end">
+                        {data.brand_names[slug]}
+                        {slug !== 'gymreapers' && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
+                      </span>
+                      <Sparkline metric="price_avg" brandSlug={slug} days={30} width={60} height={18} label="avg" />
                     </span>
                   </th>
                 ))}
