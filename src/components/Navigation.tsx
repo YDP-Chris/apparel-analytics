@@ -48,6 +48,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/trademarks', label: 'Trademark Radar', status: 'live', description: 'USPTO trademark filings as pre-launch leak signal' },
       { href: '/patents', label: 'Patent Radar', status: 'live', description: 'USPTO patents - material + construction leak signal' },
       { href: '/competitive-response', label: 'Competitive Response', status: 'beta', description: 'Who reacts when Gymreapers moves - sparse until 14d+ history accumulates' },
+      { href: '/gymshark-vulnerability', label: 'Gymshark Dossier', status: 'live', description: '18 vulnerable Gymshark SKUs, 254 captured complaints - focused brand-attack map' },
       { href: '/prelaunch-radar', label: 'Pre-launch Radar', status: 'beta', description: 'Search autocomplete + image CDN + sitemap inserts - 9 brands captured, 4 v2-blocked' },
       { href: '/athletes', label: 'Athletes', status: 'soon', description: 'Sponsored athlete roster comparison - proposal written, awaiting decision' },
     ],
