@@ -1,6 +1,7 @@
 'use client';
 
 import { useGymreapersData } from './_lib/GymreapersProvider';
+import { trackEvent } from '@/lib/usage';
 
 export default function GymreapersScorecardPage() {
   const { data, loading, error } = useGymreapersData();
@@ -218,6 +219,7 @@ export default function GymreapersScorecardPage() {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackEvent('outbound', { label: 'review_link', metadata: { href: (item.url || '').slice(0, 200) } })}
                   className="text-gr-text hover:text-gr-accent font-medium"
                 >
                   {item.title}

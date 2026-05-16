@@ -11,6 +11,7 @@
  */
 
 import { useEffect, useMemo, useState } from 'react';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -117,6 +118,18 @@ export default function LogPage() {
     pursuing: 0, exploring: 0, monitoring: 0, passing: 0, not_now: 0,
   };
   for (const s of signals) signalCounts[s.signal]++;
+
+  // Debounced search-event emit — fires 1s after the user stops typing.
+  useEffect(() => {
+    if (!search.trim()) return;
+    const t = setTimeout(() => {
+      trackEvent('search', {
+        label: 'log_search',
+        metadata: { results_count: filteredSignals.length + filteredAnnotations.length },
+      });
+    }, 1000);
+    return () => clearTimeout(t);
+  }, [search, filteredSignals.length, filteredAnnotations.length]);
 
   return (
     <div className="space-y-12">

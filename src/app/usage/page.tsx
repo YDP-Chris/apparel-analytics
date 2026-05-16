@@ -3,18 +3,13 @@
 /**
  * /usage — dashboard usage analytics for the team to see what's actually used.
  *
- * Per the hardened Plan agent spec: top pages, event mix, daily activity.
- * Distinct-actor counting via submitter_token_hash (no PII). Visible to
- * the whole team — transparency about what we measure builds trust.
- *
- * "Yesterday fallback": if no events captured today yet (e.g. first
- * thing in the morning before anyone's logged in), the summary endpoint
- * already returns trailing 30 days — but the daily activity chart will
- * show 0 events for today. We highlight the most recent day with data
- * so the eye lands there.
+ * Default view: top pages + event mix + daily activity. Visible to whole team.
+ * Drill-in view: `/usage?admin=1` shows the raw events firehose. Undocumented
+ * (Plan-agent's "discoverable not promoted" guidance).
  */
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -37,18 +32,125 @@ function fmtDate(d: string): string {
   } catch { return d; }
 }
 
-export default function UsagePage() {
+interface FirehoseRow {
+  id: number;
+  event_kind: string;
+  path: string | null;
+  route_template: string | null;
+  label: string | null;
+  metadata: Record<string, unknown> | null;
+  submitter: string | null;
+  submitter_token_hash: string | null;
+  occurred_at: string;
+  duration_ms: number | null;
+  status_code: number | null;
+}
+
+function FirehoseView() {
+  const [rows, setRows] = useState<FirehoseRow[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const [kindFilter, setKindFilter] = useState<string>('');
+  const [refresh, setRefresh] = useState(0);
+
+  useEffect(() => {
+    const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
+    if (!token) { setError('Sign in first.'); return; }
+    const params = new URLSearchParams({ limit: '200' });
+    if (kindFilter) params.set('kind', kindFilter);
+    fetch(`${PULSE_API}/pulse/usage/firehose?${params}`, { headers: { Authorization: `Bearer ${token}` } })
+      .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`)))
+      .then((j) => setRows(j.items || []))
+      .catch((e) => setError(String(e)));
+  }, [kindFilter, refresh]);
+
+  return (
+    <div className="space-y-6">
+      <header className="pb-2">
+        <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em] mb-3">Usage · Firehose</p>
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gr-text">Raw event stream</h1>
+        <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
+          Latest 200 events from <code className="bg-gr-bg px-1.5 py-0.5 rounded text-sm">gymreapers_usage.events</code>.
+          For drill-in only — return to <a href="/usage" className="text-gr-accent hover:underline">/usage</a> for the team view.
+        </p>
+      </header>
+
+      <div className="bg-gr-surface border border-gr-border rounded-md p-4 flex flex-wrap items-center gap-2 text-sm">
+        <span className="text-xs text-gr-subtle uppercase tracking-wider font-bold mr-2">Filter kind:</span>
+        {['', 'page_view', 'api_hit', 'submit', 'click', 'expand', 'search', 'outbound', 'error'].map((k) => (
+          <button
+            key={k || 'all'}
+            onClick={() => setKindFilter(k)}
+            className={`px-2 py-0.5 rounded text-xs font-bold uppercase tracking-wider transition ${
+              kindFilter === k ? 'bg-gr-accent text-gr-text' : 'bg-gr-bg text-gr-muted hover:text-gr-text'
+            }`}
+          >
+            {k || 'all'}
+          </button>
+        ))}
+        <button
+          onClick={() => setRefresh((n) => n + 1)}
+          className="ml-auto px-3 py-1 rounded text-xs font-bold uppercase tracking-wider bg-gr-raised text-gr-muted hover:text-gr-text"
+        >
+          Refresh
+        </button>
+      </div>
+
+      {error && <p className="text-sm text-gr-danger">{error}</p>}
+
+      <section className="bg-gr-surface border border-gr-border rounded-md overflow-x-auto">
+        <table className="w-full text-xs font-mono">
+          <thead>
+            <tr className="border-b border-gr-border text-left">
+              <th className="px-3 py-2 font-bold text-[10px] uppercase tracking-wider text-gr-subtle">When</th>
+              <th className="px-3 py-2 font-bold text-[10px] uppercase tracking-wider text-gr-subtle">Kind</th>
+              <th className="px-3 py-2 font-bold text-[10px] uppercase tracking-wider text-gr-subtle">Path</th>
+              <th className="px-3 py-2 font-bold text-[10px] uppercase tracking-wider text-gr-subtle">Label</th>
+              <th className="px-3 py-2 font-bold text-[10px] uppercase tracking-wider text-gr-subtle">Actor</th>
+              <th className="px-3 py-2 font-bold text-[10px] uppercase tracking-wider text-gr-subtle">Meta</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr key={r.id} className="border-b border-gr-border/60 last:border-0 hover:bg-gr-bg/40">
+                <td className="px-3 py-1.5 text-gr-subtle whitespace-nowrap">{r.occurred_at.slice(11, 19)}</td>
+                <td className="px-3 py-1.5 text-gr-accent">{r.event_kind}</td>
+                <td className="px-3 py-1.5 text-gr-text truncate max-w-[200px]">{r.route_template || r.path || '—'}</td>
+                <td className="px-3 py-1.5 text-gr-muted truncate max-w-[200px]">{r.label || '—'}</td>
+                <td className="px-3 py-1.5 text-gr-subtle">{r.submitter || r.submitter_token_hash?.slice(0, 6) || '—'}</td>
+                <td className="px-3 py-1.5 text-gr-subtle truncate max-w-[200px]">
+                  {r.metadata && Object.keys(r.metadata).length > 0 ? JSON.stringify(r.metadata) : '—'}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <p className="text-xs text-gr-subtle">
+        {rows.length} events shown. Filter by kind to drill in. This view is undocumented in nav and intended for analyst troubleshooting only.
+      </p>
+    </div>
+  );
+}
+
+function UsagePageInner() {
+  const params = useSearchParams();
+  const isAdmin = params.get('admin') === '1';
+
   const [data, setData] = useState<Summary | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (isAdmin) return;
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
     if (!token) { setError('Sign in first.'); return; }
     fetch(`${PULSE_API}/pulse/usage/summary`, { headers: { Authorization: `Bearer ${token}` } })
       .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`)))
       .then(setData)
       .catch((e) => setError(String(e)));
-  }, []);
+  }, [isAdmin]);
+
+  if (isAdmin) return <FirehoseView />;
 
   if (error) return <div className="text-center py-20 text-gr-danger">{error}</div>;
   if (!data) return <div className="text-center py-20 text-gr-subtle">Loading…</div>;
@@ -169,5 +271,14 @@ export default function UsagePage() {
         </p>
       </section>
     </div>
+  );
+}
+
+export default function UsagePage() {
+  // Suspense wrap required by Next 15's useSearchParams in client components.
+  return (
+    <Suspense fallback={<div className="text-center py-20 text-gr-subtle">Loading…</div>}>
+      <UsagePageInner />
+    </Suspense>
   );
 }

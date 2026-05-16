@@ -4,6 +4,9 @@ import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { useHiddenBrands } from '@/components/useHiddenBrands';
+import { BrandHideButton, HiddenBrandsBanner } from '@/components/BrandVisibilityControls';
+import { trackEvent } from '@/lib/usage';
 
 function dateLabel(iso: string): string {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -11,6 +14,7 @@ function dateLabel(iso: string): string {
 
 export default function GymreapersLaunchesPage() {
   const { data, loading, error } = useGymreapersData();
+  const { isHidden } = useHiddenBrands();
 
   if (loading && !data) return <div className="text-center py-20 text-gr-subtle">Loading launches...</div>;
   if (error && !data) return <div className="text-center py-20 text-gr-danger">{error}</div>;
@@ -18,6 +22,10 @@ export default function GymreapersLaunchesPage() {
 
   const focus = data.focus_brand;
   const section = data.launchesSection;
+
+  // Focus brand stays visible; everyone else respects hide list.
+  const visibleBrandOrder = data.brand_order.filter((s) => s === focus || !isHidden(s));
+  const allBrandsForBanner = data.brand_order.map((slug) => ({ slug, name: data.brand_names[slug] || slug }));
 
   // Build a 30-day date axis
   const days: string[] = [];
@@ -27,18 +35,20 @@ export default function GymreapersLaunchesPage() {
     days.push(d.toISOString().slice(0, 10));
   }
 
-  // Find max daily count for sparkline normalization
-  const allCounts = data.brand_order.flatMap((slug) =>
+  // Find max daily count for sparkline normalization (visible brands only)
+  const allCounts = visibleBrandOrder.flatMap((slug) =>
     days.map((d) => section.velocity[slug]?.[d] || 0)
   );
   const maxDaily = Math.max(...allCounts, 1);
 
-  // Brand summary totals
-  const totalLast7d = Object.values(section.summary).reduce((sum, b) => sum + (b.last_7d || 0), 0);
-  const totalLast30d = Object.values(section.summary).reduce((sum, b) => sum + (b.last_30d || 0), 0);
+  // Brand summary totals — restrict to visible brands so the KPI tiles reflect
+  // the user's curated competitive set, not the full ingested set.
+  const totalLast7d = visibleBrandOrder.reduce((sum, slug) => sum + (section.summary[slug]?.last_7d || 0), 0);
+  const totalLast30d = visibleBrandOrder.reduce((sum, slug) => sum + (section.summary[slug]?.last_30d || 0), 0);
   const focusLast7d = section.summary[focus]?.last_7d || 0;
   const focusShare =
     totalLast7d > 0 ? Math.round((focusLast7d / totalLast7d) * 100) : 0;
+  const visibleBrandCount = visibleBrandOrder.length;
 
   return (
     <div className="space-y-12">
@@ -57,8 +67,10 @@ export default function GymreapersLaunchesPage() {
         </p>
       </header>
 
+      <HiddenBrandsBanner brands={allBrandsForBanner} />
+
       {(() => {
-        const ranked = data.brand_order
+        const ranked = visibleBrandOrder
           .map((slug) => ({ slug, last7: section.summary[slug]?.last_7d || 0, last30: section.summary[slug]?.last_30d || 0 }))
           .sort((a, b) => b.last7 - a.last7);
         const top = ranked[0];
@@ -84,15 +96,15 @@ export default function GymreapersLaunchesPage() {
 
       <SectionExplainer
         collapsed
-        what="Four headline numbers: total drops in the last 7d and 30d across all 7 tracked brands, plus Gymreapers' weekly contribution and share."
+        what="Four headline numbers: total drops in the last 7d and 30d across your visible competitive set, plus Gymreapers' weekly contribution and share."
         howToRead="A high share means we're outpacing peers on launch cadence; a low share means peers are shipping faster than us this week."
         whatToDo="If our share is under 10% and the market is shipping aggressively, ask product whether we're paced too conservatively for the moment."
       />
 
       <section className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {[
-          { label: 'New (7d)', value: totalLast7d, context: 'across all 7 brands' },
-          { label: 'New (30d)', value: totalLast30d, context: 'across all 7 brands' },
+          { label: 'New (7d)', value: totalLast7d, context: `across ${visibleBrandCount} brand${visibleBrandCount === 1 ? '' : 's'}` },
+          { label: 'New (30d)', value: totalLast30d, context: `across ${visibleBrandCount} brand${visibleBrandCount === 1 ? '' : 's'}` },
           { label: 'Gymreapers (7d)', value: focusLast7d, context: 'last week' },
           { label: 'Gymreapers share', value: `${focusShare}%`, context: 'of weekly drops' },
         ].map((s) => (
@@ -118,7 +130,7 @@ export default function GymreapersLaunchesPage() {
           />
         </div>
         <div className="space-y-4">
-          {[...data.brand_order]
+          {[...visibleBrandOrder]
             .sort((a, b) => (section.summary[b]?.last_7d || 0) - (section.summary[a]?.last_7d || 0))
             .map((slug) => {
             const summary = section.summary[slug] || { last_7d: 0, last_14d: 0, last_30d: 0 };
@@ -135,10 +147,11 @@ export default function GymreapersLaunchesPage() {
               >
                 <div className="flex items-center justify-between mb-2">
                   <span
-                    className={`font-semibold ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}
+                    className={`font-semibold inline-flex items-center gap-1.5 ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}
                   >
                     {isFocus && '→ '}
                     {data.brand_names[slug]}
+                    {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                   </span>
                   <span className="text-xs text-gr-muted">
                     7d: <strong className="text-gr-text">{summary.last_7d}</strong>
@@ -212,6 +225,7 @@ export default function GymreapersLaunchesPage() {
                     href={d.url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (d.url || '').slice(0, 200) } })}
                     className="text-gr-text hover:text-gr-accent font-medium block truncate"
                   >
                     {d.product_name || d.url}

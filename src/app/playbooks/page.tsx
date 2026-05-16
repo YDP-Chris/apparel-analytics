@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { trackEvent } from '@/lib/usage';
 
 /**
  * Playbooks — the educational layer that bridges DATA → DECISION.
@@ -229,6 +232,7 @@ export default function PlaybooksPage() {
           <Link
             key={p.id}
             href={`#${p.id}`}
+            onClick={() => trackEvent('click', { label: 'playbook_jump', metadata: { name: p.id } })}
             className="px-2 py-0.5 rounded bg-gr-bg text-gr-muted hover:text-gr-accent hover:bg-gr-raised transition font-semibold"
           >
             {p.title}

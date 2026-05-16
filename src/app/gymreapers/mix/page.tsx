@@ -3,6 +3,8 @@
 import { useGymreapersData } from '../_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
+import { useHiddenBrands } from '@/components/useHiddenBrands';
+import { BrandHideButton, HiddenBrandsBanner } from '@/components/BrandVisibilityControls';
 
 const CATEGORY_ORDER = ['bottoms', 'tops', 'outerwear', 'sports_bras', 'dresses', 'accessories', 'other'];
 const CATEGORY_COLORS: Record<string, string> = {
@@ -21,6 +23,7 @@ function formatMoney(n: number): string {
 
 export default function GymreapersMixPage() {
   const { data, loading, error } = useGymreapersData();
+  const { isHidden } = useHiddenBrands();
 
   if (loading && !data) return <div className="text-center py-20 text-gr-subtle">Loading product mix...</div>;
   if (error && !data) return <div className="text-center py-20 text-gr-danger">{error}</div>;
@@ -29,13 +32,16 @@ export default function GymreapersMixPage() {
   const focus = data.focus_brand;
   // Sort by total products desc so the largest catalog reads first; focus
   // brand stays pinned to the front for visual continuity.
-  const mixOrder = (() => {
+  const mixOrderAll = (() => {
     const all = data.brand_order.filter((s) => data.mix[s]);
     const peers = all.filter((s) => s !== focus).sort(
       (a, b) => (data.mix[b]?.totalProducts || 0) - (data.mix[a]?.totalProducts || 0),
     );
     return all.includes(focus) ? [focus, ...peers] : peers;
   })();
+  // Focus brand stays visible regardless of hidden state — hiding yourself is a footgun.
+  const mixOrder = mixOrderAll.filter((s) => s === focus || !isHidden(s));
+  const allBrandsForBanner = mixOrderAll.map((slug) => ({ slug, name: data.brand_names[slug] || slug }));
 
   // Aggregate price ranges across all categories for the comparison matrix
   const allCategories = new Set<string>();
@@ -57,6 +63,8 @@ export default function GymreapersMixPage() {
           How Gymreapers&apos; catalog compares to competitors across categories, colors, sizes, and price.
         </p>
       </header>
+
+      <HiddenBrandsBanner brands={allBrandsForBanner} />
 
       {(() => {
         const focusMix = data.mix[focus];
@@ -111,9 +119,10 @@ export default function GymreapersMixPage() {
             return (
               <div key={slug}>
                 <div className="flex items-center justify-between mb-1">
-                  <span className={`text-sm font-medium ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
+                  <span className={`text-sm font-medium inline-flex items-center gap-1.5 ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
                     {isFocus && '→ '}
                     {data.brand_names[slug]}
+                    {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                   </span>
                   <span className="text-xs text-gr-subtle">
                     {m.totalProducts.toLocaleString()} products{' '}
@@ -178,8 +187,9 @@ export default function GymreapersMixPage() {
                 const width = (cd.avgColorsPerStyle / max) * 100;
                 return (
                   <div key={slug} className="flex items-center gap-3">
-                    <div className={`w-32 text-sm font-medium ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
+                    <div className={`w-32 text-sm font-medium inline-flex items-center gap-1 ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
                       {isFocus && '→ '}{data.brand_names[slug]}
+                      {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                     </div>
                     <div className="flex-1 h-6 bg-gr-raised rounded">
                       <div
@@ -219,8 +229,9 @@ export default function GymreapersMixPage() {
                 const isFocus = slug === focus;
                 return (
                   <div key={slug} className="flex items-center gap-3">
-                    <div className={`w-32 text-sm font-medium ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
+                    <div className={`w-32 text-sm font-medium inline-flex items-center gap-1 ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
                       {isFocus && '→ '}{data.brand_names[slug]}
+                      {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                     </div>
                     <div className="flex-1 h-6 bg-gr-raised rounded">
                       <div
@@ -266,8 +277,9 @@ export default function GymreapersMixPage() {
                     : 'bg-gr-bg border-gr-border'
                 }`}
               >
-                <div className={`text-sm font-semibold mb-2 ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
+                <div className={`text-sm font-semibold mb-2 flex items-center gap-1.5 ${isFocus ? 'text-gr-accent' : 'text-gr-text'}`}>
                   {data.brand_names[slug]}
+                  {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                 </div>
                 <div className="flex h-6 rounded overflow-hidden">
                   <div className="bg-blue-400" style={{ width: `${g.mens || 0}%` }} title={`mens ${g.mens || 0}%`} />
@@ -310,7 +322,10 @@ export default function GymreapersMixPage() {
                         slug === focus ? 'text-gr-accent' : ''
                       }`}
                     >
-                      {data.brand_names[slug]}
+                      <span className="inline-flex items-center gap-1 justify-end">
+                        {data.brand_names[slug]}
+                        {slug !== focus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
+                      </span>
                     </th>
                   ))}
                 </tr>

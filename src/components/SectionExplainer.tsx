@@ -18,6 +18,7 @@
  */
 
 import { useState } from 'react';
+import { trackEvent } from '@/lib/usage';
 
 interface Props {
   what: string;
@@ -33,7 +34,10 @@ export function SectionExplainer({ what, howToRead, whatToDo, collapsed = false 
     return (
       <button
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          trackEvent('expand', { label: 'section_explainer', metadata: { kind: 'open' } });
+          setOpen(true);
+        }}
         className="inline-flex items-center gap-1.5 text-xs text-gr-accent hover:text-gr-accent-hover font-semibold transition"
       >
         <span className="text-base leading-none">ⓘ</span>
@@ -67,7 +71,10 @@ export function SectionExplainer({ what, howToRead, whatToDo, collapsed = false 
         {collapsed && (
           <button
             type="button"
-            onClick={() => setOpen(false)}
+            onClick={() => {
+              trackEvent('expand', { label: 'section_explainer', metadata: { kind: 'close' } });
+              setOpen(false);
+            }}
             className="text-xs text-gr-subtle hover:text-gr-text"
             aria-label="Collapse"
           >

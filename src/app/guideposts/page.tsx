@@ -1,5 +1,7 @@
 'use client';
 
+import { trackEvent } from '@/lib/usage';
+
 // Curated content. Manually maintained. Update as the team's thinking evolves.
 
 type Guidepost = {
@@ -186,6 +188,7 @@ export default function GuidepostsPage() {
                         href={gp.url}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (gp.url || '').slice(0, 200) } })}
                         className="hover:text-gr-accent transition"
                       >
                         {gp.name}

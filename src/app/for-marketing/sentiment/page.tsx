@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -137,6 +138,7 @@ export default function SentimentPulsePage() {
                                 href={ex.url || '#'}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                onClick={() => trackEvent('outbound', { label: 'review_link', metadata: { href: (ex.url || '').slice(0, 200) } })}
                                 className="block text-xs text-gr-muted hover:text-gr-accent italic"
                               >
                                 &ldquo;{ex.snippet || ex.title || 'example'}&rdquo;

@@ -3,6 +3,7 @@
 import { Suspense, useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import { trackEvent } from '@/lib/usage';
 
 type Style = {
   brand: string;
@@ -274,6 +275,7 @@ function ClassPageInner() {
                           href={s.url}
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (s.url || '').slice(0, 200) } })}
                           className="hover:text-gr-accent hover:underline"
                         >
                           {s.style_title || s.product_type || '(unnamed)'}

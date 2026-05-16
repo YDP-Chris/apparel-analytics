@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * ConfidenceBadge — surfaces the confidence rating of the data source backing
  * a particular insight/section. The registry below is the single source of
@@ -11,6 +13,7 @@
  */
 
 import Link from 'next/link';
+import { trackEvent } from '@/lib/usage';
 
 export type DataSourceId =
   | 'amazon_bsr'
@@ -76,6 +79,7 @@ export function ConfidenceBadge({ source, size = 'sm', inline = false, pillOnly 
   return (
     <Link
       href="/methodology"
+      onClick={() => trackEvent('click', { label: 'confidence_badge', metadata: { source } })}
       className={`inline-flex items-center gap-1.5 rounded ring-1 ${s.bg} ${s.ring} ${px} ${txt} font-bold uppercase tracking-wider hover:opacity-80 transition ${inline ? '' : 'align-middle'}`}
       title={`${meta.label} — ${meta.confidence} confidence. ${meta.blurb} Click for methodology.`}
     >

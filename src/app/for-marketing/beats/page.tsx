@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { trackEvent } from '@/lib/usage';
 
 export default function CompetitorBeatsPage() {
   const { data } = useGymreapersData();
@@ -56,7 +57,13 @@ export default function CompetitorBeatsPage() {
             <ul className="space-y-1 -mx-2">
               {launches.slice(0, 12).map((l, i) => (
                 <li key={i}>
-                  <a href={l.url} target="_blank" rel="noopener noreferrer" className="block hover:bg-gr-bg rounded px-2 py-2">
+                  <a
+                    href={l.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (l.url || '').slice(0, 200) } })}
+                    className="block hover:bg-gr-bg rounded px-2 py-2"
+                  >
                     <div className="flex items-baseline gap-2 mb-0.5 text-[11px]">
                       <span className="text-gr-accent font-bold uppercase tracking-wider">{l.brandName}</span>
                       <span className="text-gr-subtle">{l.date}</span>
@@ -94,7 +101,13 @@ export default function CompetitorBeatsPage() {
             <ul className="space-y-1 -mx-2">
               {news.slice(0, 12).map((n, i) => (
                 <li key={i}>
-                  <a href={n.url} target="_blank" rel="noopener noreferrer" className="block hover:bg-gr-bg rounded px-2 py-2">
+                  <a
+                    href={n.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => trackEvent('outbound', { label: 'review_link', metadata: { href: (n.url || '').slice(0, 200) } })}
+                    className="block hover:bg-gr-bg rounded px-2 py-2"
+                  >
                     <div className="flex items-baseline gap-2 mb-0.5 text-[11px]">
                       <span className="text-gr-accent font-bold uppercase tracking-wider">
                         {data.brand_names[n.company_id || ''] || n.company || n.company_id}

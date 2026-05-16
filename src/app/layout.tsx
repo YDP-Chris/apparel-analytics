@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import { SiteAuthProvider } from "@/components/SiteAuthProvider";
 import { GymreapersProvider } from "./gymreapers/_lib/GymreapersProvider";
 import { UsageTracker } from "@/components/UsageTracker";
+import { ErrorCapture } from "@/components/ErrorCapture";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <SiteAuthProvider>
           <UsageTracker />
+          <ErrorCapture />
           <GymreapersProvider>
             <Navigation />
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

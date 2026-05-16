@@ -1,6 +1,7 @@
 'use client';
 
 import { useGymreapersData } from '../_lib/GymreapersProvider';
+import { trackEvent } from '@/lib/usage';
 
 export default function GymreapersJobsPage() {
   const { data, loading, error } = useGymreapersData();
@@ -181,6 +182,7 @@ export default function GymreapersJobsPage() {
                     href={p.url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (p.url || '').slice(0, 200) } })}
                     className="text-gr-text hover:text-gr-accent font-medium block"
                   >
                     {p.title}

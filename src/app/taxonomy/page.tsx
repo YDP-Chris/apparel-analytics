@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { trackEvent } from '@/lib/usage';
 
 type Cls = {
   slug: string;
@@ -346,6 +347,7 @@ export default function TaxonomyPage() {
                     href={c.url_root}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (c.url_root || '').slice(0, 200) } })}
                     className="text-xs text-gr-accent mt-3 inline-block hover:text-gr-accent-hover hover:underline font-mono"
                   >
                     {c.url_root}

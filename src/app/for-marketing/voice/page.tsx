@@ -4,13 +4,16 @@ import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { useHiddenBrands } from '@/components/useHiddenBrands';
+import { BrandHideButton, HiddenBrandsBanner } from '@/components/BrandVisibilityControls';
 
 export default function ShareOfVoicePage() {
   const { data } = useGymreapersData();
+  const { isHidden } = useHiddenBrands();
   if (!data) return <div className="text-center py-20 text-gr-subtle">Loading…</div>;
 
   const social = data.social || { redditVelocity: {} };
-  const brands = data.brand_order
+  const allBrands = data.brand_order
     .map((slug) => ({
       slug,
       name: data.brand_names[slug] || slug,
@@ -19,6 +22,9 @@ export default function ShareOfVoicePage() {
     }))
     .filter((b) => b.mentions_7d > 0)
     .sort((a, b) => b.mentions_7d - a.mentions_7d);
+  // Focus brand (gymreapers) is always visible regardless of hidden state.
+  const brands = allBrands.filter((b) => b.slug === 'gymreapers' || !isHidden(b.slug));
+  const allBrandsForBanner = data.brand_order.map((slug) => ({ slug, name: data.brand_names[slug] || slug }));
 
   const total = brands.reduce((s, b) => s + b.mentions_7d, 0) || 1;
   const max = brands[0]?.mentions_7d || 1;
@@ -42,6 +48,8 @@ export default function ShareOfVoicePage() {
           skews male/powerlifting — read directionally, not as ground truth.
         </p>
       </header>
+
+      <HiddenBrandsBanner brands={allBrandsForBanner} />
 
       {brands.length === 0 ? (
         <div className="bg-gr-surface rounded-md p-8 border border-gr-border text-center text-gr-muted">
@@ -68,8 +76,9 @@ export default function ShareOfVoicePage() {
               return (
                 <div key={b.slug}>
                   <div className="flex items-baseline justify-between mb-1.5 text-sm">
-                    <span className={isGR ? 'text-gr-accent font-bold' : 'text-gr-text font-semibold'}>
+                    <span className={`inline-flex items-center gap-1.5 ${isGR ? 'text-gr-accent font-bold' : 'text-gr-text font-semibold'}`}>
                       {isGR && '→ '}{b.name}
+                      {!isGR && <BrandHideButton slug={b.slug} name={b.name} />}
                     </span>
                     <span className="text-gr-muted text-xs tabular-nums">
                       {b.mentions_7d} mentions · {share}% share

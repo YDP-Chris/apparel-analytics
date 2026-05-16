@@ -17,6 +17,7 @@
 
 import Link from 'next/link';
 import { findTerm } from './glossary';
+import { trackEvent } from '@/lib/usage';
 
 interface Props {
   id: string;
@@ -33,6 +34,7 @@ export function GlossaryTerm({ id, children, subtle }: Props) {
   return (
     <Link
       href={`/glossary#${id}`}
+      onClick={() => trackEvent('click', { label: 'glossary_term', metadata: { source: id } })}
       title={term.short}
       className={`text-gr-text underline decoration-dotted decoration-gr-muted underline-offset-2 hover:decoration-gr-accent hover:text-gr-accent transition cursor-help ${
         subtle ? 'no-underline border-b border-dotted border-gr-muted/50' : ''

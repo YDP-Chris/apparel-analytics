@@ -4,6 +4,8 @@ import { useGymreapersData } from '../../gymreapers/_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { useHiddenBrands } from '@/components/useHiddenBrands';
+import { BrandHideButton, HiddenBrandsBanner } from '@/components/BrandVisibilityControls';
 
 function fmtPrice(p: number | null | undefined): string {
   if (p == null || isNaN(p)) return '—';
@@ -12,6 +14,7 @@ function fmtPrice(p: number | null | undefined): string {
 
 export default function PricingMapPage() {
   const { data } = useGymreapersData();
+  const { isHidden } = useHiddenBrands();
   if (!data) return <div className="text-center py-20 text-gr-subtle">Loading…</div>;
 
   // Collect every category that has price positioning data for any brand
@@ -21,8 +24,11 @@ export default function PricingMapPage() {
   });
   const categories = Array.from(allCategories).sort();
 
-  // Brands sorted: focus first, then by total products desc
-  const brands = data.brand_order.filter((s) => data.mix?.[s]?.pricePositioning);
+  // Brands sorted: focus first, then by total products desc.
+  // Focus brand (gymreapers) is always visible regardless of hidden state.
+  const brandsAll = data.brand_order.filter((s) => data.mix?.[s]?.pricePositioning);
+  const brands = brandsAll.filter((s) => s === 'gymreapers' || !isHidden(s));
+  const allBrandsForBanner = brandsAll.map((slug) => ({ slug, name: data.brand_names[slug] || slug }));
 
   return (
     <div className="space-y-12">
@@ -43,6 +49,8 @@ export default function PricingMapPage() {
           detection).
         </p>
       </header>
+
+      <HiddenBrandsBanner brands={allBrandsForBanner} />
 
       <SectionExplainer
         what="A grid of average price per category for every brand we can scrape pricing from."
@@ -67,7 +75,10 @@ export default function PricingMapPage() {
                       slug === 'gymreapers' ? 'text-gr-accent' : 'text-gr-subtle'
                     }`}
                   >
-                    {data.brand_names[slug]}
+                    <span className="inline-flex items-center gap-1 justify-end">
+                      {data.brand_names[slug]}
+                      {slug !== 'gymreapers' && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
+                    </span>
                   </th>
                 ))}
               </tr>

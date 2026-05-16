@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -115,6 +116,7 @@ export default function DemandSignalsPage() {
                 href={p.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: p.url.slice(0, 200) } })}
                 className={`flex items-baseline gap-3 text-sm hover:bg-gr-bg rounded px-2 py-2 ${
                   p.is_gymreapers ? 'text-gr-accent' : 'text-gr-muted'
                 }`}

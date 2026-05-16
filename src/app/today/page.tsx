@@ -6,6 +6,7 @@ import { useGymreapersData } from '../gymreapers/_lib/GymreapersProvider';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { trackEvent } from '@/lib/usage';
 
 const PULSE_API =
   process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
@@ -458,7 +459,13 @@ export default function TodayPage() {
             <ul className="space-y-1 -mx-2">
               {recentLaunches.map((l, i) => (
                 <li key={i} className="text-sm">
-                  <a href={l.url} target="_blank" rel="noopener noreferrer" className="block hover:bg-gr-bg rounded px-2 py-1.5">
+                  <a
+                    href={l.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: (l.url || '').slice(0, 200) } })}
+                    className="block hover:bg-gr-bg rounded px-2 py-1.5"
+                  >
                     <div className="flex items-baseline gap-2 text-[11px]">
                       <span className="text-gr-accent font-bold uppercase tracking-wider">{l.brandName}</span>
                       <span className="text-gr-subtle">{l.date}</span>

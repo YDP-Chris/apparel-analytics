@@ -8,6 +8,7 @@ import { InterestSignal } from '@/components/InterestSignal';
 import { useInterestSignals } from '@/components/useInterestSignals';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { GlossaryTerm } from '@/components/GlossaryTerm';
+import { trackEvent } from '@/lib/usage';
 
 // Endpoint backed by Supabase (gymreapers_bsr schema). Always reflects the
 // latest snapshot — no JSON rebuild required.
@@ -247,7 +248,7 @@ export default function GymreapersAmazonPage() {
           <div className="text-xs text-gr-muted mt-1">Last captured {lastUpdatedLabel}</div>
         </div>
         <button
-          onClick={refresh}
+          onClick={() => { trackEvent('click', { label: 'refresh', metadata: { source: 'amazon' } }); refresh(); }}
           className="px-3.5 py-2 rounded-md border border-gr-border bg-gr-bg text-gr-muted font-semibold text-xs uppercase tracking-[0.15em] hover:bg-gr-raised hover:text-gr-text hover:border-gr-accent/60 transition"
         >
           Refresh
@@ -321,7 +322,10 @@ export default function GymreapersAmazonPage() {
               {hiddenOppsCount > 0 && (
                 <button
                   type="button"
-                  onClick={() => wsSignals.setShowPassing(!wsSignals.showPassing)}
+                  onClick={() => {
+                    trackEvent('click', { label: 'show_passed_toggle', metadata: { kind: 'whitespace' } });
+                    wsSignals.setShowPassing(!wsSignals.showPassing);
+                  }}
                   className="text-xs text-gr-accent hover:text-gr-accent-hover font-semibold transition"
                 >
                   {wsSignals.showPassing
@@ -419,7 +423,10 @@ export default function GymreapersAmazonPage() {
             {hiddenCatsCount > 0 && (
               <button
                 type="button"
-                onClick={() => catSignals.setShowPassing(!catSignals.showPassing)}
+                onClick={() => {
+                  trackEvent('click', { label: 'show_passed_toggle', metadata: { kind: 'category' } });
+                  catSignals.setShowPassing(!catSignals.showPassing);
+                }}
                 className="text-xs text-gr-accent hover:text-gr-accent-hover font-semibold transition"
               >
                 {catSignals.showPassing
@@ -478,6 +485,7 @@ export default function GymreapersAmazonPage() {
                         href={p.url}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: p.url.slice(0, 200) } })}
                         className="flex items-baseline gap-3 text-sm hover:text-gr-text text-gr-muted"
                         title={p.title}
                       >
@@ -500,6 +508,7 @@ export default function GymreapersAmazonPage() {
                       href={cat.diff.movers_up[0].url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={() => trackEvent('outbound', { label: 'product_link', metadata: { href: cat.diff!.movers_up[0].url.slice(0, 200) } })}
                       className="text-xs text-gr-text hover:text-gr-accent"
                     >
                       <span className="text-gr-success">↑{cat.diff.movers_up[0].delta}</span>{' '}
