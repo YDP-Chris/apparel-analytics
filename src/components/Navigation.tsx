@@ -67,6 +67,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/for-product/demand', label: 'Demand Signals', status: 'live', description: 'Amazon bought-past-month winners + risers' },
       { href: '/for-product/gaps', label: 'Coverage Gaps', status: 'live', description: 'Where Gymreapers under- or over-indexes vs peers on subcategory depth' },
       { href: '/competitive-response', label: 'Competitive Response', status: 'beta', description: 'Who reacts when Gymreapers moves - sparse until 14d+ history accumulates' },
+      { href: '/reposition-radar', label: 'Reposition Radar', status: 'beta', description: 'Free-revenue lens — for each existing Gymreapers SKU, the recommended rename / re-merchandise / re-photograph / re-bundle action to align with the voice cluster actually buying it' },
       { href: '/gr-sku-tracker', label: 'Apparel SKU Tracker', status: 'beta', description: '456 GR apparel SKUs tracked, 100% peer-benchmarked. Review velocity lights up as Okendo backfill deepens' },
       { href: '/voc-complaints', label: 'VoC Complaints', status: 'live', description: 'Claude-categorized complaints across 1,388 D2C reviews. 376 complaint rows captured' },
       { href: '/competitor-weakness', label: 'Competitor Weakness', status: 'live', description: 'Specific peer SKUs with concentrated complaints - directly-attackable products' },
