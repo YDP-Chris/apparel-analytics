@@ -66,6 +66,7 @@ export const NAV_SECTIONS_MIRROR: NavSectionMirror[] = [
   { href: '/today', label: 'Today', status: 'live', description: 'Daily landing brief with the single biggest opportunity at the top.' },
   { href: '/roadmap', label: 'Roadmap', status: 'live', description: 'This page. Trajectory plus status across all dashboards.' },
   { href: '/exec-brief', label: 'Exec Brief', status: 'live', description: 'Weekly exec-level summary for Chris and the CEO.' },
+  { href: '/three-horizons', label: 'Horizons', status: 'beta', description: 'CEO conversation document: Now (next 90 days), Next (next 365 days), Then (1-3 years) with the apparel thesis in the middle.' },
   { href: '/anomalies', label: 'Anomalies', status: 'live', description: 'Auto-detected unusual deltas across every time-series metric.' },
   { href: '/leak-radar', label: 'Leak Radar', status: 'live', description: 'Fused pre-launch leak signals: trademark, prelaunch radar, sitemap inserts.' },
   { href: '/journey', label: 'Journey', status: 'live', description: 'Strength athlete journey map with apparel touchpoints.' },
@@ -106,6 +107,7 @@ export const NAV_SECTIONS_MIRROR: NavSectionMirror[] = [
       { href: '/gymreapers/launches', label: 'Launch Velocity', status: 'live', description: 'What competitors are dropping' },
       { href: '/for-product/demand', label: 'Demand Signals', status: 'live', description: 'Amazon bought-past-month winners plus risers' },
       { href: '/for-product/gaps', label: 'Coverage Gaps', status: 'live', description: 'Where Gymreapers under- or over-indexes vs peers on subcategory depth' },
+      { href: '/reposition-radar', label: 'Reposition Radar', status: 'beta', description: 'Free-revenue lens. For each existing Gymreapers SKU, the recommended rename, re-merchandise, re-photograph, or re-bundle action to align with the cluster actually buying it.' },
       { href: '/gr-sku-tracker', label: 'Apparel SKU Tracker', status: 'beta', description: '456 GR apparel SKUs tracked, 100 percent peer-benchmarked. Review velocity lights up as Okendo backfill deepens.' },
       { href: '/voc-complaints', label: 'VoC Complaints', status: 'live', description: 'Claude-categorized complaints across 1,388 D2C reviews. 376 complaint rows captured.' },
       { href: '/competitor-weakness', label: 'Competitor Weakness', status: 'live', description: 'Specific peer SKUs with concentrated complaints. Directly-attackable products.' },
@@ -176,11 +178,13 @@ export const LANE_MAP: Record<string, Lane> = {
   '/voc-complaints': 'product',
   '/competitor-weakness': 'product',
   '/gr-sku-tracker': 'product',
+  '/reposition-radar': 'product',
   '/site-ux': 'product',
 
   // Cross-cutting lane
   '/today': 'cross_cutting',
   '/exec-brief': 'cross_cutting',
+  '/three-horizons': 'cross_cutting',
   '/roadmap': 'cross_cutting',
   '/compare': 'cross_cutting',
   '/anomalies': 'cross_cutting',
@@ -237,6 +241,8 @@ export const OVERRIDE_DESCRIPTIONS: Record<string, string> = {
 
   '/today': 'Daily landing brief with the single biggest opportunity at the top.',
   '/exec-brief': 'Weekly exec-level summary for Chris and the CEO.',
+  '/three-horizons': 'CEO conversation document. Three horizons: Now (next 90 days), Next (next 365 days), Then (1-3 years). Apparel thesis in the middle.',
+  '/reposition-radar': 'Free-revenue lens. For each existing Gymreapers SKU, the recommended rename, re-merchandise, re-photograph, or re-bundle action to align with the cluster actually buying it.',
   '/trends': 'Chart any metric, any brands, any window.',
   '/usage': 'What the team actually uses. Anonymous, aggregated.',
   '/log': 'Every intent the team has set plus notes attached to findings.',
