@@ -52,6 +52,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/gymshark-vulnerability', label: 'Gymshark Dossier', status: 'live', description: '18 vulnerable Gymshark SKUs, 254 captured complaints - focused brand-attack map' },
       { href: '/prelaunch-radar', label: 'Pre-launch Radar', status: 'beta', description: 'Search autocomplete + image CDN + sitemap inserts - 9 brands captured, 4 v2-blocked' },
       { href: '/earnings', label: 'Earnings Intel', status: 'beta', description: 'Quarterly earnings transcripts for LULU, GAP, NKE, UAA - Claude-extracted strategic signals and category calls' },
+      { href: '/international', label: 'International', status: 'beta', description: 'Where competitors operate - country-level presence per brand from TLDs, hreflang, locale paths, currency switchers, geo landing pages' },
       { href: '/athletes', label: 'Athletes', status: 'soon', description: 'Sponsored athlete roster comparison - proposal written, awaiting decision' },
     ],
   },
