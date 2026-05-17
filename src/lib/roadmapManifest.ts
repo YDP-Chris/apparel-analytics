@@ -298,6 +298,8 @@ export const BLOCKED_ITEMS: RoadmapItem[] = [
   // Product-lane blocked
   { title: 'Customer journey mapping (own data)',      status: 'blocked', lane: 'product',       description: 'Needs Shopify plus Klaviyo plus CDP integration. Deferred until trust is established.' },
   { title: 'SEO competitive landscape',                status: 'blocked', lane: 'product',       description: 'Needs DataForSEO or Ahrefs subscription decision before we light up keyword coverage.' },
+  { title: 'Amazon reviews ingestion (GR ASINs)',      status: 'blocked', lane: 'product',       description: 'Scraper built and parked. Amazon rate-limits the Pi IP; would also unlock the full Reposition Radar SKU coverage. Needs Gymreapers Amazon SP-API credentials from the GR team (legit path), or a residential proxy service ($10-50/mo).' },
+  { title: 'Reddit API (PRAW) switch + SKU matcher',   status: 'blocked', lane: 'product',       description: 'Reddit RSS pipeline fixed (OV-wildcard bug killed; word-boundary matching live). Switching to PRAW unlocks post bodies, higher post limits, and clean fingerprinting. Once 1 week of real GR posts accumulates, build SKU fuzzy-matcher to write cluster_product_affinity rows from Reddit. Needs REDDIT_CLIENT_ID + REDDIT_CLIENT_SECRET in env (5 min app registration at reddit.com/prefs/apps).' },
 
   // Cross-cutting blocked
   { title: 'Own-data integration (Shopify + Klaviyo + CDP)', status: 'blocked', lane: 'cross_cutting', description: 'Gymreapers internal data. Chris said "once we have built trust" so this stays parked.' },
