@@ -25,6 +25,7 @@ const NAV_SECTIONS: NavSection[] = [
   { href: '/roadmap', label: 'Roadmap' },
   { href: '/exec-brief', label: 'Exec Brief' },
   { href: '/anomalies', label: 'Anomalies' },
+  { href: '/leak-radar', label: 'Leak Radar' },
   { href: '/journey', label: 'Journey' },
   { href: '/apparel-entry-candidates', label: 'Entry Candidates' },
   { href: '/entry-opportunities', label: 'Entry Opportunities' },
