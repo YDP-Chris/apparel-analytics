@@ -3,7 +3,7 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 3760,
+      "total": 3762,
       "categories": {
         "bottoms": 1762,
         "tops": 580,
@@ -11,7 +11,7 @@
         "other": 547,
         "sports_bras": 116,
         "footwear": 16,
-        "accessories": 193,
+        "accessories": 195,
         "dresses": 39
       },
       "subcategories": {
@@ -28,7 +28,7 @@
         "jackets": 156,
         "long_sleeve": 29,
         "hoodies": 197,
-        "hats": 81,
+        "hats": 83,
         "skirts": 34,
         "vests": 35,
         "crop_tops": 10,
@@ -45,15 +45,15 @@
       "genders": {
         "mens": 1401,
         "womens": 1704,
-        "unisex": 655
+        "unisex": 657
       },
       "colors": {
         "gray": 534,
         "navy": 104,
-        "black": 712,
+        "black": 713,
         "khaki": 178,
         "red": 25,
-        "white": 363,
+        "white": 364,
         "blue": 481,
         "green": 194,
         "brown": 172,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 86,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2153
+      "uniqueStyles": 2154
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -643,12 +643,32 @@
     }
   },
   "totals": {
-    "products": 34968,
+    "products": 34970,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-17",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 2,
+      "products": [
+        {
+          "name": "magnitude hat 2 0",
+          "url": "https://vuoriclothing.com/products/magnitude-hat-2-0-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "magnitude hat 2 0",
+          "url": "https://vuoriclothing.com/products/magnitude-hat-2-0-white",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-05-16",
       "brand": "gymreapers",
@@ -3638,608 +3658,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-05-01",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 76,
-      "products": [
-        {
-          "name": "gymshark light hold flared legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-light-hold-flared-legging-leggings-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark light hold flared legging leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-light-hold-flared-legging-leggings-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark jumbo scrunchie",
-          "url": "https://www.gymshark.com/products/gymshark-jumbo-scrunchie-black-aw24",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark forged by iron t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-forged-by-iron-t-shirt-ss-tops-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark heavyweight hoodie",
-          "url": "https://www.gymshark.com/products/gymshark-heavyweight-hoodie-black-ss25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark jumbo scrunchie",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-jumbo-scrunchie-black-aw24",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark forged by iron t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-forged-by-iron-t-shirt-ss-tops-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark heavyweight hoodie",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-heavyweight-hoodie-black-ss25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark minimal halterneck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-halterneck-sports-bra-sports-bras-pink-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs x cbum t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-t-shirt-ss-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-washed-hoodie-pullovers-black-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum essential t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-essential-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-washed-hoodie-pullovers-grey-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum essential t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-essential-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum straight leg jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-straight-leg-jogger-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum socks socks",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-socks-socks-white-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-short-shorts-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum straight leg jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-straight-leg-jogger-pants-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed sleeveless t shirt sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-washed-sleeveless-t-shirt-sleeveless-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum socks socks",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-socks-socks-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-short-shorts-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed sleeveless t shirt sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-washed-sleeveless-t-shirt-sleeveless-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum ribbed tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-ribbed-tank-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum lightweight jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-lightweight-jogger-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum ribbed tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-ribbed-tank-sleeveless-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum hockey jersey ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-hockey-jersey-ls-tops-black-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum ribbed tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-ribbed-tank-sleeveless-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-cap-headwear-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed sleeveless t shirt sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-washed-sleeveless-t-shirt-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-short-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum hockey jersey ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-hockey-jersey-ls-tops-red-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-washed-hoodie-pullovers-purple-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum straight leg jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-straight-leg-jogger-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum workwear jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-gs-x-cbum-workwear-jacket-jackets-outerwear-black-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark minimal halterneck sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-halterneck-sports-bra-sports-bras-pink-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs x cbum t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-t-shirt-ss-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-washed-hoodie-pullovers-black-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum essential t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-essential-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-washed-hoodie-pullovers-grey-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum essential t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-essential-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum straight leg jogger pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-straight-leg-jogger-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum socks socks",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-socks-socks-white-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum short shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-short-shorts-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum straight leg jogger pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-straight-leg-jogger-pants-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed sleeveless t shirt sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-washed-sleeveless-t-shirt-sleeveless-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum socks socks",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-socks-socks-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum short shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-short-shorts-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed sleeveless t shirt sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-washed-sleeveless-t-shirt-sleeveless-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum ribbed tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-ribbed-tank-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum lightweight jogger pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-lightweight-jogger-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum ribbed tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-ribbed-tank-sleeveless-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum hockey jersey ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-hockey-jersey-ls-tops-black-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum ribbed tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-ribbed-tank-sleeveless-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-cap-headwear-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed sleeveless t shirt sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-washed-sleeveless-t-shirt-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum short shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-short-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum hockey jersey ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-hockey-jersey-ls-tops-red-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum washed hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-washed-hoodie-pullovers-purple-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum straight leg jogger pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-straight-leg-jogger-pants-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs x cbum workwear jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-x-cbum-workwear-jacket-jackets-outerwear-black-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt camo seamless ribbed long sleeve crop top midnight ash",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-camo-seamless-ribbed-long-sleeve-crop-top-midnight-blue-ash-blue-aw23",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark phys ed graphic t shirt archive",
-          "url": "https://www.gymshark.com/products/gymshark-phys-ed-graphic-t-shirt-archive-brown-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark contour stitch tank with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-contour-stitch-tank-with-shelf-sleeveless-tops-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark light hold flared leggings super set",
-          "url": "https://www.gymshark.com/products/gymshark-light-hold-flared-leggings-super-set-pink",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark light hold shorts super set",
-          "url": "https://www.gymshark.com/products/gymshark-light-hold-shorts-super-set-pink",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark light hold leggings super set",
-          "url": "https://www.gymshark.com/products/gymshark-light-hold-leggings-super-set-pink",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt camo seamless ribbed long sleeve crop top midnight ash",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-camo-seamless-ribbed-long-sleeve-crop-top-midnight-blue-ash-blue-aw23",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark phys ed graphic t shirt archive",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-phys-ed-graphic-t-shirt-archive-brown-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark contour stitch tank with shelf sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-contour-stitch-tank-with-shelf-sleeveless-tops-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark light hold flared leggings super set",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-light-hold-flared-leggings-super-set-pink",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark light hold shorts super set",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-light-hold-shorts-super-set-pink",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark light hold leggings super set",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-light-hold-leggings-super-set-pink",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 7,
-      "products": [
-        {
-          "name": "banks resort short",
-          "url": "https://vuoriclothing.com/products/banks-resort-short-abyss",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks resort short greyhound",
-          "url": "https://vuoriclothing.com/products/banks-resort-short-greyhound",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks resort short herb micro",
-          "url": "https://vuoriclothing.com/products/banks-resort-short-herb-micro-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks resort short spice",
-          "url": "https://vuoriclothing.com/products/banks-resort-short-spice",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks resort short sandalwood",
-          "url": "https://vuoriclothing.com/products/banks-resort-short-sandalwood-stripe",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "fletcher elastic waist pant athletic slim fit 30",
-          "url": "https://vuoriclothing.com/products/fletcher-elastic-waist-pant-athletic-slim-fit-30-bark",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "fletcher elastic waist pant athletic slim fit 30 ocean",
-          "url": "https://vuoriclothing.com/products/fletcher-elastic-waist-pant-athletic-slim-fit-30-ocean-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 6,
-      "products": [
-        {
-          "name": "the game days snapback golf",
-          "url": "https://shop.lululemon.com/p/the-game-days-snapback-golf/uij71rfaba",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "wundermost adjustable t shirt bra add cups",
-          "url": "https://shop.lululemon.com/p/women-sports-bras/Wundermost-Adjustable-T-Shirt-Bra-ADD-Cups-MD/_/prod20005958",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "define high rise swift jogger short",
-          "url": "https://shop.lululemon.com/p/define-high-rise-swift-jogger-short/zangba71zw-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "wundermost adjustable t shirt bra add cups",
-          "url": "https://shop.lululemon.com/p/women-sports-bras/Wundermost-Adjustable-T-Shirt-Bra-ADD-Cups/_/prod20005959",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "the game days snapback golf",
-          "url": "https://shop.lululemon.com/p/the-game-days-snapback-golf/uij71rfaba-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "define high rise swift jogger short",
-          "url": "https://shop.lululemon.com/p/define-high-rise-swift-jogger-short/zangba71zw",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 6,
-      "products": [
-        {
-          "name": "airlift high waist suit up legging lilac blue",
-          "url": "https://www.aloyoga.com/products/w51428r-airlift-high-waist-suit-up-legging-lilac-blue-white",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "90s claw clip smoky crystal",
-          "url": "https://www.aloyoga.com/products/a0286w-90s-claw-clip-smoky-rose-crystal",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ribbed stardust jacket",
-          "url": "https://www.aloyoga.com/products/w4488r-ribbed-stardust-jacket-navy",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "edition sueded pant",
-          "url": "https://www.aloyoga.com/products/m5177r-edition-sueded-pant-navy",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "w2675rg aspire tank taupe",
-          "url": "https://www.aloyoga.com/products/w2675rg-aspire-tank-taupe-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "match point short",
-          "url": "https://www.aloyoga.com/products/w6334r-match-point-short-taupe",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4307,7 +3725,8 @@
       "2026-04-30": 3,
       "2026-05-01": 7,
       "2026-05-06": 7,
-      "2026-05-09": 1
+      "2026-05-09": 1,
+      "2026-05-17": 2
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -4634,7 +4053,7 @@
       "schiek": 1
     },
     "accessories": {
-      "vuori": 193,
+      "vuori": 195,
       "outdoor_voices": 34,
       "tenthousand": 2,
       "lululemon": 595,
@@ -4795,7 +4214,7 @@
       "bear_grips": 259
     },
     "hats": {
-      "vuori": 81,
+      "vuori": 83,
       "outdoor_voices": 12,
       "lululemon": 131,
       "alo": 142,
@@ -4957,7 +4376,7 @@
       "sbd": 5
     },
     "black": {
-      "vuori": 712,
+      "vuori": 713,
       "outdoor_voices": 60,
       "alo": 1020,
       "gymshark": 1992,
@@ -4987,7 +4406,7 @@
       "harbinger": 2
     },
     "white": {
-      "vuori": 363,
+      "vuori": 364,
       "outdoor_voices": 17,
       "lululemon": 15,
       "alo": 907,
@@ -5145,12 +4564,12 @@
     },
     {
       "brand": "Vuori",
-      "bottoms": 46.9,
+      "bottoms": 46.8,
       "tops": 15.4,
       "outerwear": 13.5,
       "dresses": 1,
       "sports_bras": 3.1,
-      "accessories": 5.1,
+      "accessories": 5.2,
       "other": 14.5
     },
     {
@@ -5295,7 +4714,7 @@
     },
     {
       "brand": "Vuori",
-      "black": 18.9,
+      "black": 19,
       "white": 9.7,
       "gray": 14.2,
       "navy": 2.8,
@@ -5634,5 +5053,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-17T00:33:18.334Z"
+  "generated_at": "2026-05-17T13:15:21.731Z"
 }
