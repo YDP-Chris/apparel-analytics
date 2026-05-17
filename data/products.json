@@ -433,24 +433,24 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1019,
+      "total": 1034,
       "categories": {
-        "other": 304,
-        "accessories": 174,
-        "tops": 219,
-        "bottoms": 200,
+        "other": 309,
+        "accessories": 179,
+        "tops": 223,
+        "bottoms": 201,
         "sports_bras": 65,
         "outerwear": 57
       },
       "subcategories": {
-        "other": 509,
-        "tees": 109,
-        "shorts": 127,
-        "hats": 73,
+        "other": 516,
+        "tees": 110,
+        "shorts": 128,
+        "hats": 74,
         "leggings": 42,
-        "tanks": 30,
+        "tanks": 33,
         "crop_tops": 16,
-        "socks": 6,
+        "socks": 8,
         "joggers": 24,
         "hoodies": 25,
         "long_sleeve": 14,
@@ -463,17 +463,17 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 860,
-        "womens": 140,
-        "mens": 19
+        "unisex": 872,
+        "womens": 141,
+        "mens": 21
       },
       "colors": {
         "green": 97,
-        "black": 119,
+        "black": 123,
         "red": 59,
         "khaki": 59,
-        "white": 87,
-        "gray": 71,
+        "white": 90,
+        "gray": 72,
         "blue": 31,
         "camo": 33,
         "navy": 37,
@@ -484,23 +484,23 @@
         "yellow": 5,
         "orange": 1
       },
-      "colorCoverage": 62.6,
+      "colorCoverage": 62.5,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 394
+      "uniqueStyles": 399
     },
     "sbd": {
       "name": "sbd",
       "slug": "sbd",
-      "total": 205,
+      "total": 206,
       "categories": {
-        "tops": 60,
+        "tops": 61,
         "other": 70,
         "accessories": 51,
         "outerwear": 4,
         "bottoms": 20
       },
       "subcategories": {
-        "other": 124,
+        "other": 125,
         "socks": 39,
         "hats": 7,
         "tanks": 7,
@@ -511,7 +511,7 @@
         "long_sleeve": 1
       },
       "genders": {
-        "unisex": 193,
+        "unisex": 194,
         "womens": 9,
         "mens": 3
       },
@@ -527,7 +527,7 @@
         "purple": 2,
         "pink": 2
       },
-      "colorCoverage": 24.4,
+      "colorCoverage": 24.3,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 30
     },
@@ -597,19 +597,19 @@
     "bear_grips": {
       "name": "bear_grips",
       "slug": "bear_grips",
-      "total": 2448,
+      "total": 2452,
       "categories": {
-        "other": 253,
+        "other": 254,
         "accessories": 164,
-        "tops": 1241,
-        "bottoms": 328,
+        "tops": 1242,
+        "bottoms": 330,
         "outerwear": 453,
         "sports_bras": 9
       },
       "subcategories": {
-        "other": 468,
+        "other": 471,
         "hats": 157,
-        "tees": 566,
+        "tees": 567,
         "hoodies": 259,
         "long_sleeve": 97,
         "tanks": 469,
@@ -624,8 +624,8 @@
         "skirts": 3
       },
       "genders": {
-        "unisex": 1512,
-        "womens": 695,
+        "unisex": 1515,
+        "womens": 696,
         "mens": 241
       },
       "colors": {
@@ -643,12 +643,156 @@
     }
   },
   "totals": {
-    "products": 34948,
+    "products": 34968,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-16",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 15,
+      "products": [
+        {
+          "name": "apex freedom",
+          "url": "https://www.gymreapers.com/products/womens-apex-freedom",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "stryda run gloves",
+          "url": "https://www.gymreapers.com/products/stryda-run-gloves-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "stryda run gloves",
+          "url": "https://www.gymreapers.com/products/stryda-run-gloves-charcoal",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "stryda balaclava",
+          "url": "https://www.gymreapers.com/products/stryda-balaclava",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "stryda snood",
+          "url": "https://www.gymreapers.com/products/stryda-snood",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "stryda skull cap",
+          "url": "https://www.gymreapers.com/products/stryda-skull-cap",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost oversized tee",
+          "url": "https://www.gymreapers.com/products/ghost-oversized-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost racer tank",
+          "url": "https://www.gymreapers.com/products/ghost-racer-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost 5 run shorts",
+          "url": "https://www.gymreapers.com/products/ghost-5-run-shorts",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "stryda crew run socks",
+          "url": "https://www.gymreapers.com/products/stryda-crew-run-socks-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "stryda crew run socks",
+          "url": "https://www.gymreapers.com/products/stryda-crew-run-socks-white",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "stainless steel shaker",
+          "url": "https://www.gymreapers.com/products/stainless-steel-shaker-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "stainless steel shaker",
+          "url": "https://www.gymreapers.com/products/stainless-steel-shaker-white",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ribbed tank 3 pack",
+          "url": "https://www.gymreapers.com/products/mens-ribbed-tank-3-pack-black",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "ribbed tank 3 pack black gray",
+          "url": "https://www.gymreapers.com/products/mens-ribbed-tank-3-pack-black-gray-white",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "brand": "bear_grips",
+      "brandSlug": "bear_grips",
+      "count": 4,
+      "products": [
+        {
+          "name": "creatine monohydrate",
+          "url": "https://www.beargrips.com/products/creatine-monohydrate",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "s oversized boxy tee spring k fit body",
+          "url": "https://www.beargrips.com/products/women-s-oversized-boxy-tee-spring-k-fit-body",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "comfort colors lightweight crewneck sweatshirt spring k fit body",
+          "url": "https://www.beargrips.com/products/comfort-colors-lightweight-crewneck-sweatshirt-spring-k-fit-body",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "50 50 hooded sweatshirt spring k fit body",
+          "url": "https://www.beargrips.com/products/50-50-hooded-sweatshirt-spring-k-fit-body",
+          "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "brand": "sbd",
+      "brandSlug": "sbd",
+      "count": 1,
+      "products": [
+        {
+          "name": "the worlds strongest man t shirt",
+          "url": "https://sbdapparel.com/products/the-worlds-strongest-man-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-05-15",
       "brand": "Gymshark",
@@ -4096,1276 +4240,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-04-30",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 380,
-      "products": [
-        {
-          "name": "gymshark graphic patch misc",
-          "url": "https://www.gymshark.com/products/gymshark-graphic-patch-misc-blue-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark graphic patch misc",
-          "url": "https://www.gymshark.com/products/gymshark-graphic-patch-misc-white-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark graphic patch misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-graphic-patch-misc-blue-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark graphic patch misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-graphic-patch-misc-white-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training tank",
-          "url": "https://www.gymshark.com/products/gymshark-training-tank-black",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival marl t shirt celeste blue",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-marl-t-shirt-celeste-blue-white-marl-ss25",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark legacy stringer stone",
-          "url": "https://www.gymshark.com/products/gymshark-legacy-stringer-stone-grey-ss25",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark x saalt studios seamless jersey ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-x-saalt-studios-seamless-jersey-ss-tops",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark x saalt studios jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-x-saalt-studios-jacket-jackets-outerwear",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark x saalt studios ss tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-x-saalt-studios-ss-tee-ss-tops",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark x saalt studios knitted hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-x-saalt-studios-knitted-hoodie-pullovers",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark x saalt studios ss tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-x-saalt-studios-ss-tee-ss-tops-brown-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pin misc",
-          "url": "https://www.gymshark.com/products/gymshark-coffee-pin-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running pin misc",
-          "url": "https://www.gymshark.com/products/gymshark-running-pin-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifter pin misc",
-          "url": "https://www.gymshark.com/products/gymshark-lifter-pin-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark donut pin misc",
-          "url": "https://www.gymshark.com/products/gymshark-donut-pin-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark strength stars washed graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-strength-stars-washed-graphic-t-shirt-ss-tops-pink-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark large pleat crossbody bags",
-          "url": "https://www.gymshark.com/products/gymshark-large-pleat-crossbody-bags-black-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark off duty long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-long-sleeve-t-shirt-ls-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival oversized t shirt ss tops ss26 a6a4w ud6z",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-oversized-t-shirt-ss-tops-blue-ss26-a6a4w-ud6z",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark pumper pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-pumper-pants-pants-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lightweight seamless tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-lightweight-seamless-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark arrival 7 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-7-shorts-shorts-blue-ss26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-brown-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark off duty long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-long-sleeve-t-shirt-ls-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form 2 in 1 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-form-2-in-1-short-shorts-pink-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark evolve 5 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-5-short-shorts-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival 5 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-5-shorts-shorts-pink-ss26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark evolve 5 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-5-short-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark lifting mesh 5 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-mesh-5-shorts-shorts-pink-ss26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark lightweight seamless tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-lightweight-seamless-tank-sleeveless-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark lifting mesh 5 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-mesh-5-shorts-shorts-grey-ss26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark script embroidery jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-script-embroidery-jogger-pants-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vital tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-vital-tank-sleeveless-tops-red-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark off duty tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless shorts 2 0 shorts",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shorts-2-0-shorts-pink-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gsrc stencil graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gsrc-stencil-graphic-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power stringer sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-power-stringer-sleeveless-tops-red-ss26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark off duty tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-tank-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark chainstitch graphic wide leg jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-chainstitch-graphic-wide-leg-jogger-pants-pink-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pumper pants pants ss26 a6a3r kdh1",
-          "url": "https://www.gymshark.com/products/gymshark-pumper-pants-pants-pink-ss26-a6a3r-kdh1",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pumper shorts 5 shorts",
-          "url": "https://www.gymshark.com/products/gymshark-pumper-shorts-5-shorts-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark versatile seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-versatile-seamless-t-shirt-ss-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark vital tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-vital-tank-sleeveless-tops-black-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark power t shirt ss tops ss26 a4b9w ucvg",
-          "url": "https://www.gymshark.com/products/gymshark-power-t-shirt-ss-tops-blue-ss26-a4b9w-ucvg",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark off duty long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-long-sleeve-t-shirt-ls-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lightweight seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-lightweight-seamless-t-shirt-ss-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark power cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-power-cut-off-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark evolve 5 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-5-short-shorts-green-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark evolve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark off duty tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-tank-sleeveless-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival 7 shorts shorts ss26 a2a1l ucvg",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-7-shorts-shorts-blue-ss26-a2a1l-ucvg",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark off duty t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark evolve t shirt ss tops ss26 a4c4s gcqs",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-t-shirt-ss-tops-grey-ss26-a4c4s-gcqs",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark strength stars washed graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-strength-stars-washed-graphic-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark trophy graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-trophy-graphic-t-shirt-ss-tops-blue-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival 7 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-7-shorts-shorts-grey-ss26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark straight leg pumper pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-straight-leg-pumper-pants-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form flared leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-form-flared-leggings-leggings-purple-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark pumper pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-pumper-pants-pants-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark trophy graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-trophy-graphic-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark evolve lightweight short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-lightweight-short-shorts-grey-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-power-cut-off-tank-sleeveless-tops-red-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops ss26 a2b5y ud78",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-blue-ss26-a2b5y-ud78",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lucky graphic lifting belt equipment",
-          "url": "https://www.gymshark.com/products/gymshark-lucky-graphic-lifting-belt-equipment-white-ss26",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark trophy graphic stringer sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-trophy-graphic-stringer-sleeveless-tops-black-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pumper shorts 5 shorts ss26 a3b9h gdz1",
-          "url": "https://www.gymshark.com/products/gymshark-pumper-shorts-5-shorts-grey-ss26-a3b9h-gdz1",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power t shirt ss tops ss26 a4b9w ud6z",
-          "url": "https://www.gymshark.com/products/gymshark-power-t-shirt-ss-tops-blue-ss26-a4b9w-ud6z",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark form legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-form-legging-leggings-purple-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark boxer brief 3pk underwear",
-          "url": "https://www.gymshark.com/products/gymshark-boxer-brief-3pk-underwear-black-ss26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark lifting mesh 5 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-mesh-5-shorts-shorts-blue-ss26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark evolve lightweight short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-lightweight-short-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark evolve lightweight zip through hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-lightweight-zip-through-hoodie-pullovers-grey-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark off duty tank sleeveless tops ss26 a4c1j gb7r",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-tank-sleeveless-tops-grey-ss26-a4c1j-gb7r",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-t-shirt-ss-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark trophy graphic stringer sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-trophy-graphic-stringer-sleeveless-tops-white-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crest oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-crest-oversized-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark everyday seamless graphic short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-graphic-short-sleeve-top-ss-tops-red-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark script embroidery short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-script-embroidery-short-shorts-black-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark form 2 in 1 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-form-2-in-1-short-shorts-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lightweight seamless t shirt ss tops ss26 a2c7m ucw7",
-          "url": "https://www.gymshark.com/products/gymshark-lightweight-seamless-t-shirt-ss-tops-blue-ss26-a2c7m-ucw7",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark evolve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-t-shirt-ss-tops-red-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark small sleek backpack bags",
-          "url": "https://www.gymshark.com/products/gymshark-small-sleek-backpack-bags-black-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless graphic legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-graphic-legging-leggings-black-ss26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark off duty t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifestyle club graphic sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-lifestyle-club-graphic-sweatshirt-pullovers-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark versatile seamless tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-versatile-seamless-tank-sleeveless-tops-brown-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark script embroidery oversized zip through pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-script-embroidery-oversized-zip-through-pullovers-grey-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crest oversized t shirt ss tops ss26 a4c5a ud6z",
-          "url": "https://www.gymshark.com/products/gymshark-crest-oversized-t-shirt-ss-tops-blue-ss26-a4c5a-ud6z",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark arrival tank sleeveless tops ss26 a2a1o kdfw",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-tank-sleeveless-tops-pink-ss26-a2a1o-kdfw",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark off duty 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-off-duty-1-4-zip-pullovers-black-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark chainstitch graphic short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-chainstitch-graphic-short-sleeve-t-shirt-ss-tops-pink-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-vital-tank-sleeveless-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark evolve 5 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-evolve-5-short-shorts-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark trophy graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-trophy-graphic-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power t shirt ss tops ss26 a4b9w rbwv",
-          "url": "https://www.gymshark.com/products/gymshark-power-t-shirt-ss-tops-red-ss26-a4b9w-rbwv",
-          "category": "tops",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 176,
-      "products": [
-        {
-          "name": "daily essential quarter socks 6 pack",
-          "url": "https://shop.lululemon.com/p/unisex-daily-essential-quarter-socks-6-pack/mlcl3732jn-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight softstreme ruched t shirt dress",
-          "url": "https://shop.lululemon.com/p/lightweight-softstreme-ruched-t-shirt-dress/m0ggl40yb5",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "everlux contour seam high rise training tight",
-          "url": "https://shop.lululemon.com/p/everlux-contour-seam-high-rise-training-tight-25/u278o3e33g",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "license to train textured high rise short",
-          "url": "https://shop.lululemon.com/p/license-to-train-textured-high-rise-short-4/qhg7jgba2a",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "easyfive relaxed fit short",
-          "url": "https://shop.lululemon.com/p/easyfive-relaxed-fit-short-9/skbjokk6p8-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "define hooded track jacket swift",
-          "url": "https://shop.lululemon.com/p/define-hooded-track-jacket-swift/rehy8ishgb",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "jersey training super cropped t shirt",
-          "url": "https://shop.lululemon.com/p/jersey-training-super-cropped-t-shirt/gu85clniol",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "define oversized pullover swift",
-          "url": "https://shop.lululemon.com/p/define-oversized-pullover-swift/t6cmr3771v",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "classic ball cap cotton canvas",
-          "url": "https://shop.lululemon.com/p/classic-ball-cap-cotton-canvas/miqzvwphg5-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "slacker loose straight trouser 32l light",
-          "url": "https://shop.lululemon.com/p/slacker-loose-straight-trouser-32l-light/u41i3lz587-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "dance studio mid rise classic fit pant reg",
-          "url": "https://shop.lululemon.com/p/dance-studio-mid-rise-classic-fit-pant-reg/igyryclcrs-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "find your balance grip socks",
-          "url": "https://shop.lululemon.com/p/find-your-balance-grip-socks-stripe/s16sejhqru-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "convertible pouch mini",
-          "url": "https://shop.lululemon.com/p/convertible-pouch-mini/mjvh4vacas",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "tc align pant 25 coc",
-          "url": "https://shop.lululemon.com/p/tc-align-pant-25-coc/e3tub26esj-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "define oversized jacket swift",
-          "url": "https://shop.lululemon.com/p/define-oversized-jacket-swift/bz8swaroaj-md",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique performance camp collar shirt",
-          "url": "https://shop.lululemon.com/p/pique-performance-camp-collar-shirt/trzuz64cfb-md",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "power stride cushion crew socks",
-          "url": "https://shop.lululemon.com/p/unisex-power-stride-cushion-crew-socks/n3mxtymlhx-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "daily pocket zip top tote bag 18l",
-          "url": "https://shop.lululemon.com/p/daily-multi-pocket-zip-top-tote-bag-18l/mpnbz5kkc3",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "court champ pleated high rise tennis skirt",
-          "url": "https://shop.lululemon.com/p/court-champ-pleated-high-rise-tennis-skirt/xam94nccx7",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "beach to trail lined short",
-          "url": "https://shop.lululemon.com/p/beach-to-trail-lined-short-7/s82swr65kc",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "removable sweatband cotton canvas visor",
-          "url": "https://shop.lululemon.com/p/removable-sweatband-cotton-canvas-visor/n5y3nirf0x",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "removable sweatband visor mesh",
-          "url": "https://shop.lululemon.com/p/removable-sweatband-visor-mesh/n8og352whq",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "nulux running half tight",
-          "url": "https://shop.lululemon.com/p/nulux-running-half-tight-8/tn4xoani4q-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "always in motion boxer brief 7 5 pack",
-          "url": "https://shop.lululemon.com/p/always-in-motion-boxer-brief-7-5-pack/rib3fpdf6m-md",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "tc align pant 25 coc",
-          "url": "https://shop.lululemon.com/p/tc-align-pant-25-coc/e3tub26esj",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "crinkle nylon swim short 7 linerless",
-          "url": "https://shop.lululemon.com/p/crinkle-nylon-swim-short-7-linerless/sew7qix5hc",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "tc swift hr short 6 cpc",
-          "url": "https://shop.lululemon.com/p/tc-swift-hr-short-6-cpc/e7xlyxjn31-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "daily pocket small zip top tote 5l",
-          "url": "https://shop.lululemon.com/p/daily-multi-pocket-small-zip-top-tote-5l/motnr6t4dv",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "slacker loose straight trouser 32l light",
-          "url": "https://shop.lululemon.com/p/slacker-loose-straight-trouser-32l-light/u41i3lz587",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "soft jersey classic fit pant shorter",
-          "url": "https://shop.lululemon.com/p/soft-jersey-classic-fit-pant-shorter/t223r4uyvk",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "license to train super high rise lined short 3",
-          "url": "https://shop.lululemon.com/p/license-to-train-super-high-rise-lined-short-3-5/lgcfo40mn7-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "define hooded track jacket swift",
-          "url": "https://shop.lululemon.com/p/define-hooded-track-jacket-swift/rehy8ishgb-md",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "license to train textured nylon jacket",
-          "url": "https://shop.lululemon.com/p/license-to-train-textured-nylon-jacket/pe23drbezh",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "balancer relaxed fit short",
-          "url": "https://shop.lululemon.com/p/balancer-relaxed-fit-short-7/vleag0v01k-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "court champ pleated high rise tennis skirt",
-          "url": "https://shop.lululemon.com/p/court-champ-pleated-high-rise-tennis-skirt/xam94nccx7-md",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "find your balance grip socks",
-          "url": "https://shop.lululemon.com/p/find-your-balance-grip-socks-stripe/s16sejhqru",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "soft jersey classic fit pant tall",
-          "url": "https://shop.lululemon.com/p/soft-jersey-classic-fit-pant-tall/swnjvwfsjz",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight pleated track jacket",
-          "url": "https://shop.lululemon.com/p/lightweight-pleated-track-jacket/gawsqbqhii-md",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "convertible pouch mini",
-          "url": "https://shop.lululemon.com/p/convertible-pouch-mini/mjvh4vacas-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight camp collar shirt",
-          "url": "https://shop.lululemon.com/p/lightweight-camp-collar-shirt/sovo2rswar-md",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique performance short sleeve polo shirt",
-          "url": "https://shop.lululemon.com/p/pique-performance-short-sleeve-polo-shirt/tvcihoyync",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "bend this mesh bandeau and v neck bra light ac",
-          "url": "https://shop.lululemon.com/p/bend-this-mesh-bandeau-and-v-neck-bra-light-ac/fj9xvewziw",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "tc swift hr short 6 co",
-          "url": "https://shop.lululemon.com/p/tc-swift-hr-short-6-co/e78mklhxfu",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "daily essential quarter socks 6 pack",
-          "url": "https://shop.lululemon.com/p/unisex-daily-essential-quarter-socks-6-pack/mlcl3732jn",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "unshaken relaxed pull on pant regular",
-          "url": "https://shop.lululemon.com/p/unshaken-relaxed-pull-on-pant-regular/v3gwtrgtgs",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "tc swift hr short 6 cpc",
-          "url": "https://shop.lululemon.com/p/tc-swift-hr-short-6-cpc/e7xlyxjn31",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique performance relaxed t shirt",
-          "url": "https://shop.lululemon.com/p/pique-performance-relaxed-t-shirt/tuutm7mi7o",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "back to life clear bottle 18oz straw lid",
-          "url": "https://shop.lululemon.com/p/back-to-life-clear-bottle-18oz-straw-lid/m7it79tvzf-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "lululemon lightlift open back bra light support bc",
-          "url": "https://shop.lululemon.com/p/lululemon-lightlift-open-back-bra-light-support-bc/e4wpprt5p0-md",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "power stride ankle socks lettuce edge",
-          "url": "https://shop.lululemon.com/p/power-stride-ankle-socks-lettuce-edge/u1seqmo1bw-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "large slouchy sling bag 13l paracord",
-          "url": "https://shop.lululemon.com/p/large-slouchy-sling-bag-13l-paracord/mtvrjff2io-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "daily pocket small zip top tote 5l",
-          "url": "https://shop.lululemon.com/p/daily-multi-pocket-small-zip-top-tote-5l/motnr6t4dv-md",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight softstreme ruched t shirt dress",
-          "url": "https://shop.lululemon.com/p/lightweight-softstreme-ruched-t-shirt-dress/m0ggl40yb5-md",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "define high rise swift jogger regular",
-          "url": "https://shop.lululemon.com/p/define-high-rise-swift-jogger-regular/w7d11qhhq2",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "warm up unlined gym short",
-          "url": "https://shop.lululemon.com/p/warm-up-unlined-gym-short-7/vmhao757xv",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "lettuce edge quarter socks 3 pack",
-          "url": "https://shop.lululemon.com/p/unisex-lettuce-edge-quarter-socks-3-pack/muf4m0xtqz",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "crinkle nylon swim short 7 linerless",
-          "url": "https://shop.lululemon.com/p/crinkle-nylon-swim-short-7-linerless/sew7qix5hc-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "tc swift hr short 6 co",
-          "url": "https://shop.lululemon.com/p/tc-swift-hr-short-6-co/e78mklhxfu-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "daily pocket zip top tote bag 18l",
-          "url": "https://shop.lululemon.com/p/daily-multi-pocket-zip-top-tote-bag-18l/mpnbz5kkc3-md",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "u power stride ankle sock 3p lettuce",
-          "url": "https://shop.lululemon.com/p/u-power-stride-ankle-sock-3p-lettuce/r63gndfctb",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "flexyflex strappy long yoga bra light supp d ddd",
-          "url": "https://shop.lululemon.com/p/flexyflex-strappy-long-yoga-bra-light-supp-d-ddd/g29fec98wy-md",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "always in motion mesh boxer brief 5 3 pack",
-          "url": "https://shop.lululemon.com/p/always-in-motion-mesh-boxer-brief-5-3-pack/s7doj8vp4y-md",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "back to life clear bottle 18oz straw lid ombre",
-          "url": "https://shop.lululemon.com/p/back-to-life-clear-bottle-18oz-straw-lid-ombre/qvxr6hha4d",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "weightlifting linerless short",
-          "url": "https://shop.lululemon.com/p/weightlifting-linerless-short-7/vrg4ula1kc-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "removable sweatband visor mesh",
-          "url": "https://shop.lululemon.com/p/removable-sweatband-visor-mesh/n8og352whq-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "license to train textured nylon mid rise pant",
-          "url": "https://shop.lululemon.com/p/license-to-train-textured-nylon-mid-rise-pant/ctf9zobtc2",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "airing easy relaxed short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/airing-easy-relaxed-short-sleeve-shirt/s4va09su8q-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "power stride cushion crew socks",
-          "url": "https://shop.lululemon.com/p/unisex-power-stride-cushion-crew-socks/n3mxtymlhx",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "uplifting scrunchie ruffle",
-          "url": "https://shop.lululemon.com/p/uplifting-scrunchie-ruffle/m9nuskzs7i-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "airing easy relaxed short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/airing-easy-relaxed-short-sleeve-shirt/s4va09su8q",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "easyfive loose straight pant 32l light",
-          "url": "https://shop.lululemon.com/p/easyfive-loose-straight-pant-32l-light/sid4fgwzqk-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "swift ultra light button up short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/swift-ultra-light-button-up-short-sleeve-shirt/ua7r8kz5em",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "engineered warmth long sleeve crew",
-          "url": "https://shop.lululemon.com/p/mens-jackets-and-hoodies-hoodies/Engineered-Warmth-Long-Sleeve-Crew/_/prod10641633",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "easyfive mid rise short 4",
-          "url": "https://shop.lululemon.com/p/easyfive-mid-rise-short-4-5/z7hr67eu1a",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "easyfive relaxed fit short",
-          "url": "https://shop.lululemon.com/p/easyfive-relaxed-fit-short-7/siptrxss2t-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "unshaken relaxed pull on pant regular",
-          "url": "https://shop.lululemon.com/p/unshaken-relaxed-pull-on-pant-regular/v3gwtrgtgs-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "flow y ruched bra light support bc cup",
-          "url": "https://shop.lululemon.com/p/flow-y-ruched-bra-light-support-bc-cup/ykqe72op5v-md",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "power stride cushion tab socks 3 pack",
-          "url": "https://shop.lululemon.com/p/unisex-power-stride-cushion-tab-socks-3-pack/n3xa3jlmdg",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "convertible ruched crossbody bag",
-          "url": "https://shop.lululemon.com/p/convertible-ruched-crossbody-bag/r4wedraiia",
-          "category": "accessories",
-          "gender": "womens"
-        },
-        {
-          "name": "flexyflex strappy long yoga bra light supp d ddd",
-          "url": "https://shop.lululemon.com/p/flexyflex-strappy-long-yoga-bra-light-supp-d-ddd/g29fec98wy",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "zero tucks short",
-          "url": "https://shop.lululemon.com/p/zero-tucks-short-5/vthd8hq4kw",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "warm up unlined gym short",
-          "url": "https://shop.lululemon.com/p/warm-up-unlined-gym-short-7/vmhao757xv-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "pace breaker reflective linerless knit short",
-          "url": "https://shop.lululemon.com/p/men-shorts/Pace-Breaker-Reflective-Linerless-Knit-Short-7/_/prod20001643",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "a line side pleat tennis skirt long",
-          "url": "https://shop.lululemon.com/p/a-line-side-pleat-tennis-skirt-long/bauqoagxoz",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "power stride cushion crew socks 3p",
-          "url": "https://shop.lululemon.com/p/unisex-power-stride-cushion-crew-socks-3p/n5gc98pcmn-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "always in motion mesh boxer brief",
-          "url": "https://shop.lululemon.com/p/always-in-motion-mesh-boxer-brief-5/vvr3uii5kt-md",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "flow y ruched bra light support bc cup",
-          "url": "https://shop.lululemon.com/p/flow-y-ruched-bra-light-support-bc-cup/ykqe72op5v",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "pace breaker reflective linerless knit short",
-          "url": "https://shop.lululemon.com/p/men-shorts/Pace-Breaker-Reflective-Linerless-Knit-Short-7-MD/_/prod20001642",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "nulu mesh back tie front cropped cardigan",
-          "url": "https://shop.lululemon.com/p/nulu-mesh-back-tie-front-cropped-cardigan/ep9uidyowq",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "bend this mesh bandeau and v neck bra light ac",
-          "url": "https://shop.lululemon.com/p/bend-this-mesh-bandeau-and-v-neck-bra-light-ac/fj9xvewziw-md",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "classic ball cap cotton canvas",
-          "url": "https://shop.lululemon.com/p/classic-ball-cap-cotton-canvas/miqzvwphg5",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "large slouchy sling bag 13l paracord",
-          "url": "https://shop.lululemon.com/p/large-slouchy-sling-bag-13l-paracord/mtvrjff2io",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "power stride cushion tab socks 3 pack",
-          "url": "https://shop.lululemon.com/p/unisex-power-stride-cushion-tab-socks-3-pack/n3xa3jlmdg-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "power stride cushion tab socks",
-          "url": "https://shop.lululemon.com/p/unisex-power-stride-cushion-tab-socks/rl95w6syaj-md",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "beach to trail lined short",
-          "url": "https://shop.lululemon.com/p/beach-to-trail-lined-short-7/s82swr65kc-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "mesh gym linerless short",
-          "url": "https://shop.lululemon.com/p/mesh-gym-linerless-short-4/swyre834pa-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "heavyweight classic fit cotton t shirt golf flag",
-          "url": "https://shop.lululemon.com/p/heavyweight-classic-fit-cotton-t-shirt-golf-flag/skx5ingdv1",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "dance studio evovle high rise relax line short 3",
-          "url": "https://shop.lululemon.com/p/dance-studio-evovle-high-rise-relax-line-short-3-5/imzb3jrygl-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "slouchy sling bag 6l paracord",
-          "url": "https://shop.lululemon.com/p/slouchy-sling-bag-6l-paracord/qt7ae22smz",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "define oversized jacket swift",
-          "url": "https://shop.lululemon.com/p/define-oversized-jacket-swift/bz8swaroaj",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 3,
-      "products": [
-        {
-          "name": "sleeveless terrain tank",
-          "url": "https://vuoriclothing.com/products/sleeveless-terrain-tank-carbon",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "sleeveless terrain tank sandalwood",
-          "url": "https://vuoriclothing.com/products/sleeveless-terrain-tank-sandalwood",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori alltheform pocket short 6 dark jade",
-          "url": "https://vuoriclothing.com/products/womens-vuori-alltheform-pocket-short-6-dark-jade",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "brand": "Ten Thousand",
-      "brandSlug": "tenthousand",
-      "count": 1,
-      "products": [
-        {
-          "name": "distance short",
-          "url": "https://www.tenthousand.cc/products/distance-short",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 1,
-      "products": [
-        {
-          "name": "conquer muscle tank",
-          "url": "https://www.aloyoga.com/products/m2066r-conquer-muscle-tank-bone",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5670,10 +4544,12 @@
       "2026-05-15": 2
     },
     "gymreapers": {
-      "2026-04-07": 1020
+      "2026-04-07": 1020,
+      "2026-05-16": 15
     },
     "sbd": {
-      "2026-04-07": 206
+      "2026-04-07": 206,
+      "2026-05-16": 1
     },
     "harbinger": {
       "2026-04-07": 46
@@ -5682,7 +4558,8 @@
       "2026-04-07": 112
     },
     "bear_grips": {
-      "2026-04-07": 2448
+      "2026-04-07": 2448,
+      "2026-05-16": 4
     }
   },
   "byCategory": {
@@ -5694,10 +4571,10 @@
       "alo": 1765,
       "gymshark": 3034,
       "on_running": 1571,
-      "gymreapers": 200,
+      "gymreapers": 201,
       "sbd": 20,
       "schiek": 2,
-      "bear_grips": 328
+      "bear_grips": 330
     },
     "tops": {
       "vuori": 580,
@@ -5707,10 +4584,10 @@
       "alo": 562,
       "gymshark": 2648,
       "on_running": 622,
-      "gymreapers": 219,
-      "sbd": 60,
+      "gymreapers": 223,
+      "sbd": 61,
       "schiek": 7,
-      "bear_grips": 1241
+      "bear_grips": 1242
     },
     "outerwear": {
       "vuori": 507,
@@ -5733,11 +4610,11 @@
       "alo": 808,
       "gymshark": 585,
       "on_running": 2737,
-      "gymreapers": 304,
+      "gymreapers": 309,
       "sbd": 70,
       "harbinger": 22,
       "schiek": 56,
-      "bear_grips": 253
+      "bear_grips": 254
     },
     "sports_bras": {
       "vuori": 116,
@@ -5764,7 +4641,7 @@
       "alo": 403,
       "gymshark": 494,
       "on_running": 671,
-      "gymreapers": 174,
+      "gymreapers": 179,
       "sbd": 51,
       "harbinger": 24,
       "schiek": 44,
@@ -5799,7 +4676,7 @@
       "alo": 412,
       "gymshark": 1226,
       "on_running": 687,
-      "gymreapers": 127,
+      "gymreapers": 128,
       "sbd": 13,
       "bear_grips": 40
     },
@@ -5811,7 +4688,7 @@
       "alo": 260,
       "gymshark": 726,
       "on_running": 288,
-      "gymreapers": 30,
+      "gymreapers": 33,
       "sbd": 7,
       "bear_grips": 469
     },
@@ -5822,8 +4699,8 @@
       "lululemon": 12,
       "alo": 52,
       "gymshark": 62,
-      "gymreapers": 109,
-      "bear_grips": 566
+      "gymreapers": 110,
+      "bear_grips": 567
     },
     "leggings": {
       "vuori": 171,
@@ -5844,11 +4721,11 @@
       "alo": 1634,
       "gymshark": 2702,
       "on_running": 3085,
-      "gymreapers": 509,
-      "sbd": 124,
+      "gymreapers": 516,
+      "sbd": 125,
       "harbinger": 46,
       "schiek": 105,
-      "bear_grips": 468
+      "bear_grips": 471
     },
     "pants": {
       "vuori": 374,
@@ -5924,7 +4801,7 @@
       "alo": 142,
       "gymshark": 86,
       "on_running": 215,
-      "gymreapers": 73,
+      "gymreapers": 74,
       "sbd": 7,
       "schiek": 1,
       "bear_grips": 157
@@ -6005,7 +4882,7 @@
       "alo": 178,
       "gymshark": 212,
       "on_running": 420,
-      "gymreapers": 6,
+      "gymreapers": 8,
       "sbd": 39
     },
     "headwear": {
@@ -6066,7 +4943,7 @@
       "alo": 490,
       "gymshark": 1031,
       "on_running": 317,
-      "gymreapers": 71,
+      "gymreapers": 72,
       "sbd": 16,
       "schiek": 5
     },
@@ -6085,7 +4962,7 @@
       "alo": 1020,
       "gymshark": 1992,
       "on_running": 1494,
-      "gymreapers": 119,
+      "gymreapers": 123,
       "sbd": 2,
       "schiek": 8,
       "bear_grips": 4
@@ -6116,7 +4993,7 @@
       "alo": 907,
       "gymshark": 622,
       "on_running": 1453,
-      "gymreapers": 87,
+      "gymreapers": 90,
       "sbd": 2,
       "harbinger": 1,
       "bear_grips": 2
@@ -6278,23 +5155,23 @@
     },
     {
       "brand": "bear_grips",
-      "bottoms": 13.4,
+      "bottoms": 13.5,
       "tops": 50.7,
       "outerwear": 18.5,
       "dresses": 0,
       "sports_bras": 0.4,
       "accessories": 6.7,
-      "other": 10.3
+      "other": 10.4
     },
     {
       "brand": "gymreapers",
-      "bottoms": 19.6,
-      "tops": 21.5,
-      "outerwear": 5.6,
+      "bottoms": 19.4,
+      "tops": 21.6,
+      "outerwear": 5.5,
       "dresses": 0,
-      "sports_bras": 6.4,
-      "accessories": 17.1,
-      "other": 29.8
+      "sports_bras": 6.3,
+      "accessories": 17.3,
+      "other": 29.9
     },
     {
       "brand": "Outdoor Voices",
@@ -6308,13 +5185,13 @@
     },
     {
       "brand": "sbd",
-      "bottoms": 9.8,
-      "tops": 29.3,
-      "outerwear": 2,
+      "bottoms": 9.7,
+      "tops": 29.6,
+      "outerwear": 1.9,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 24.9,
-      "other": 34.1
+      "accessories": 24.8,
+      "other": 34
     },
     {
       "brand": "Ten Thousand",
@@ -6452,18 +5329,18 @@
     },
     {
       "brand": "gymreapers",
-      "black": 11.7,
-      "white": 8.5,
+      "black": 11.9,
+      "white": 8.7,
       "gray": 7,
       "navy": 3.6,
       "blue": 3,
-      "green": 9.5,
-      "khaki": 5.8,
+      "green": 9.4,
+      "khaki": 5.7,
       "brown": 0.9,
       "purple": 1.2,
       "pink": 1.5,
       "orange": 0.1,
-      "red": 5.8,
+      "red": 5.7,
       "yellow": 0.5,
       "other": 3.5
     },
@@ -6491,7 +5368,7 @@
       "gray": 7.8,
       "navy": 2.4,
       "blue": 2.9,
-      "green": 2,
+      "green": 1.9,
       "khaki": 0,
       "brown": 0,
       "purple": 1,
@@ -6757,5 +5634,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-16T13:15:22.228Z"
+  "generated_at": "2026-05-17T00:33:18.334Z"
 }
