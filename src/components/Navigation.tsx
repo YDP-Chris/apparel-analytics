@@ -85,6 +85,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/methodology', label: 'Methodology', status: 'live', description: 'How every source is captured, sampled, biased — confidence ratings' },
       { href: '/glossary', label: 'Glossary', status: 'live', description: 'Every term defined — HHI, BSR, bought-past-month, etc.' },
       { href: '/data-quality', label: 'Data Quality', status: 'live', description: 'Live data-qa run status — freshness, volume, consistency' },
+      { href: '/cron-health', label: 'Cron Health', status: 'live', description: 'Which agents ran today, which failed, which are stale - central cron-healer log' },
       { href: '/inputs', label: 'Team Inputs', status: 'live', description: 'Approve, reject, and audit team-submitted keywords + queries' },
       { href: '/trends', label: 'Trends Explorer', status: 'live', description: 'Chart any metric, any brands, any window' },
       { href: '/data-explorer', label: 'SQL Reference', status: 'live', description: 'Schema map + starter queries for analyst self-service' },
