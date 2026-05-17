@@ -67,6 +67,57 @@ interface DigestStory {
   tags: string[];
 }
 
+interface NextSkuRec {
+  rank: number | null;
+  product_name: string | null;
+  category: string | null;
+  subcategory: string | null;
+  journey_stage: string | null;
+  target_cluster_label: string | null;
+  score: number | null;
+}
+
+interface NextSkusPayload {
+  available: boolean;
+  iteration?: number;
+  recommendations?: NextSkuRec[];
+  computed_at?: string | null;
+}
+
+interface ClusterOverlap {
+  brand_a: string | null;
+  brand_b: string | null;
+  similarity_score: number | null;
+  similarity_kind: string | null;
+  shared_phrases: string[] | string | null;
+  reasoning: string | null;
+  cluster_a_id: number | null;
+  cluster_b_id: number | null;
+}
+
+interface ClusterMatrixPayload {
+  available: boolean;
+  clusters?: { id: number; brand_slug: string; cluster_label: string }[];
+  overlaps?: ClusterOverlap[];
+  brand_names?: Record<string, string>;
+}
+
+interface EntryOpportunity {
+  score: number | null;
+  peer_brand: string | null;
+  peer_brand_name: string | null;
+  recommended_category: string | null;
+  recommended_subcategory: string | null;
+  rationale: string | null;
+  gymreapers_cluster_label: string | null;
+  peer_cluster_label: string | null;
+}
+
+interface EntryOpportunitiesPayload {
+  available: boolean;
+  opportunities?: EntryOpportunity[];
+}
+
 interface DailyDigestPayload {
   available: boolean;
   digest_date?: string;
@@ -183,6 +234,218 @@ function audiencePillClass(audience: string): string {
   return 'bg-gr-border/50 text-gr-muted';
 }
 
+function SynthesisTile({
+  eyebrow,
+  href,
+  headline,
+  sub,
+  scoreLabel,
+  scoreValue,
+  body,
+}: {
+  eyebrow: string;
+  href: string;
+  headline: string;
+  sub?: string | null;
+  scoreLabel?: string;
+  scoreValue?: number | string | null;
+  body?: React.ReactNode;
+}) {
+  return (
+    <Link
+      href={href}
+      onClick={() => trackEvent('click', { label: 'exec_brief_synthesis_tile', metadata: { href } })}
+      className="block rounded-lg border border-gr-border bg-gr-card p-5 hover:border-gr-accent/60 transition group"
+    >
+      <div className="flex items-baseline justify-between gap-3 mb-2">
+        <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-gr-subtle">{eyebrow}</p>
+        <span className="text-[11px] font-semibold uppercase tracking-wider text-gr-accent group-hover:text-gr-accent-hover">
+          Open {'->'}
+        </span>
+      </div>
+      <h3 className="text-lg font-bold text-gr-text leading-snug mb-1">{headline}</h3>
+      {sub && <p className="text-xs text-gr-muted leading-snug">{sub}</p>}
+      {scoreValue != null && scoreValue !== '' && (
+        <div className="mt-3 flex items-baseline gap-2">
+          <span className="text-2xl font-bold text-gr-text tabular-nums">
+            {typeof scoreValue === 'number' ? scoreValue.toFixed(scoreValue > 1 ? 0 : 2) : scoreValue}
+          </span>
+          {scoreLabel && (
+            <span className="text-[10px] uppercase tracking-wider text-gr-subtle font-bold">{scoreLabel}</span>
+          )}
+        </div>
+      )}
+      {body && <div className="mt-3 text-xs text-gr-muted leading-relaxed">{body}</div>}
+    </Link>
+  );
+}
+
+function SynthesisStrip({
+  nextSkus,
+  matrix,
+  entries,
+}: {
+  nextSkus: NextSkusPayload | null;
+  matrix: ClusterMatrixPayload | null;
+  entries: EntryOpportunitiesPayload | null;
+}) {
+  // Top next-SKU rec (rank 1 if present, else first)
+  const topRec =
+    nextSkus?.recommendations?.find((r) => r.rank === 1) ||
+    (nextSkus?.recommendations && nextSkus.recommendations[0]) ||
+    null;
+
+  // Top cluster overlap involving gymreapers — fall back to top overall if none
+  const overlaps = matrix?.overlaps || [];
+  const grOverlap =
+    overlaps.find((o) => o.brand_a === 'gymreapers' || o.brand_b === 'gymreapers') || overlaps[0] || null;
+
+  // Top entry opportunity by score
+  const topEntry = entries?.opportunities && entries.opportunities[0] ? entries.opportunities[0] : null;
+
+  // Decorate the overlap headline so gymreapers is always the left side
+  const overlapLeft = grOverlap
+    ? grOverlap.brand_a === 'gymreapers'
+      ? grOverlap.brand_a
+      : grOverlap.brand_b
+    : null;
+  const overlapRight = grOverlap
+    ? grOverlap.brand_a === 'gymreapers'
+      ? grOverlap.brand_b
+      : grOverlap.brand_a
+    : null;
+
+  const sharedPhrases = (() => {
+    if (!grOverlap?.shared_phrases) return [];
+    if (Array.isArray(grOverlap.shared_phrases)) return grOverlap.shared_phrases.slice(0, 3);
+    return [String(grOverlap.shared_phrases)];
+  })();
+
+  const brandPretty = (slug: string | null) => {
+    if (!slug) return '-';
+    const name = matrix?.brand_names?.[slug];
+    return name || slug;
+  };
+
+  return (
+    <section className="space-y-3">
+      <div className="flex items-baseline justify-between gap-3 flex-wrap">
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-gr-accent">Synthesis layer</p>
+          <h2 className="text-xl font-extrabold tracking-tight text-gr-text mt-0.5">
+            What the data says to ship, who it serves, where to plant the flag
+          </h2>
+        </div>
+        <ConfidenceBadge source="composite" />
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {topRec ? (
+          <SynthesisTile
+            eyebrow="Top next-SKU rec"
+            href="/next-skus"
+            headline={topRec.product_name || 'Next SKU'}
+            sub={
+              [
+                topRec.category && prettySub(topRec.category),
+                topRec.subcategory && prettySub(topRec.subcategory),
+                topRec.journey_stage && prettySub(topRec.journey_stage),
+              ]
+                .filter(Boolean)
+                .join(' / ') || null
+            }
+            scoreLabel="score"
+            scoreValue={topRec.score ?? null}
+            body={
+              topRec.target_cluster_label ? (
+                <>
+                  Target customer voice:{' '}
+                  <span className="text-gr-text font-semibold">{topRec.target_cluster_label}</span>
+                </>
+              ) : null
+            }
+          />
+        ) : (
+          <div className="rounded-lg border border-gr-border bg-gr-card p-5 text-xs text-gr-subtle">
+            No next-SKU recommendations yet. Run the synth agent.
+          </div>
+        )}
+
+        {grOverlap ? (
+          <SynthesisTile
+            eyebrow="Top cluster overlap"
+            href="/cluster-matrix"
+            headline={`${brandPretty(overlapLeft)} <-> ${brandPretty(overlapRight)}`}
+            sub={grOverlap.similarity_kind ? `kind: ${grOverlap.similarity_kind}` : null}
+            scoreLabel="similarity"
+            scoreValue={grOverlap.similarity_score ?? null}
+            body={
+              sharedPhrases.length > 0 ? (
+                <>
+                  Shared voice:{' '}
+                  <span className="text-gr-text">{sharedPhrases.join(', ')}</span>
+                </>
+              ) : grOverlap.reasoning ? (
+                <span className="line-clamp-2">{grOverlap.reasoning}</span>
+              ) : null
+            }
+          />
+        ) : (
+          <div className="rounded-lg border border-gr-border bg-gr-card p-5 text-xs text-gr-subtle">
+            No cluster overlaps computed yet.
+          </div>
+        )}
+
+        {topEntry ? (
+          <SynthesisTile
+            eyebrow="Top entry opportunity"
+            href="/entry-opportunities"
+            headline={
+              [
+                topEntry.recommended_category && prettySub(topEntry.recommended_category),
+                topEntry.recommended_subcategory && prettySub(topEntry.recommended_subcategory),
+              ]
+                .filter(Boolean)
+                .join(' / ') || 'Entry opportunity'
+            }
+            sub={
+              topEntry.peer_brand_name ? `via ${topEntry.peer_brand_name}` : null
+            }
+            scoreLabel="score"
+            scoreValue={topEntry.score ?? null}
+            body={
+              topEntry.gymreapers_cluster_label || topEntry.peer_cluster_label ? (
+                <>
+                  {topEntry.gymreapers_cluster_label && (
+                    <>
+                      GR:{' '}
+                      <span className="text-gr-text font-semibold">{topEntry.gymreapers_cluster_label}</span>
+                    </>
+                  )}
+                  {topEntry.gymreapers_cluster_label && topEntry.peer_cluster_label && (
+                    <span className="text-gr-subtle"> &middot; </span>
+                  )}
+                  {topEntry.peer_cluster_label && (
+                    <>
+                      peer:{' '}
+                      <span className="text-gr-text">{topEntry.peer_cluster_label}</span>
+                    </>
+                  )}
+                </>
+              ) : topEntry.rationale ? (
+                <span className="line-clamp-2">{topEntry.rationale}</span>
+              ) : null
+            }
+          />
+        ) : (
+          <div className="rounded-lg border border-gr-border bg-gr-card p-5 text-xs text-gr-subtle">
+            No entry opportunities computed yet.
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
 function DailyDigestPanel({ digest }: { digest: DailyDigestPayload | null }) {
   const hasStories = !!(digest && digest.available && digest.stories && digest.stories.length > 0);
   return (
@@ -283,21 +546,31 @@ function DailyDigestPanel({ digest }: { digest: DailyDigestPayload | null }) {
 export default function ExecBriefPage() {
   const [data, setData] = useState<ExecBriefPayload | null>(null);
   const [digest, setDigest] = useState<DailyDigestPayload | null>(null);
+  const [nextSkus, setNextSkus] = useState<NextSkusPayload | null>(null);
+  const [matrix, setMatrix] = useState<ClusterMatrixPayload | null>(null);
+  const [entries, setEntries] = useState<EntryOpportunitiesPayload | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const token = typeof window !== 'undefined' ? sessionStorage.getItem(TOKEN_KEY) : null;
     if (!token) { setError('Sign in first.'); setLoading(false); return; }
+    const h = { headers: { Authorization: `Bearer ${token}` } };
+    const safe = <T,>(url: string, fallback: T): Promise<T> =>
+      fetch(url, h).then((r) => (r.ok ? (r.json() as Promise<T>) : (fallback as T)));
     Promise.all([
-      fetch(`${PULSE_API}/pulse/exec-brief`, { headers: { Authorization: `Bearer ${token}` } })
-        .then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`))),
-      fetch(`${PULSE_API}/pulse/daily-digest`, { headers: { Authorization: `Bearer ${token}` } })
-        .then((r) => (r.ok ? r.json() : { available: false })),
+      fetch(`${PULSE_API}/pulse/exec-brief`, h).then((r) => (r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`))),
+      safe<DailyDigestPayload>(`${PULSE_API}/pulse/daily-digest`, { available: false }),
+      safe<NextSkusPayload>(`${PULSE_API}/pulse/next-skus`, { available: false }),
+      safe<ClusterMatrixPayload>(`${PULSE_API}/pulse/cluster-matrix?min_score=0.5`, { available: false }),
+      safe<EntryOpportunitiesPayload>(`${PULSE_API}/pulse/entry-opportunities`, { available: false }),
     ])
-      .then(([brief, dig]) => {
+      .then(([brief, dig, skus, mat, ent]) => {
         setData(brief as ExecBriefPayload);
-        setDigest(dig as DailyDigestPayload);
+        setDigest(dig);
+        setNextSkus(skus);
+        setMatrix(mat);
+        setEntries(ent);
       })
       .catch((e) => setError(String(e)))
       .finally(() => setLoading(false));
@@ -350,6 +623,9 @@ export default function ExecBriefPage() {
 
       {/* Today's 5 stories - daily intel digest */}
       <DailyDigestPanel digest={digest} />
+
+      {/* Synthesis layer: the three highest-confidence outputs as quick-scan tiles */}
+      <SynthesisStrip nextSkus={nextSkus} matrix={matrix} entries={entries} />
 
       <SectionExplainer
         what="Four panels: apparel thesis, competitive pressure, brand health, leak radar. Each panel is the single most-important signal from a major dashboard rolled up for a CEO 1:1."
