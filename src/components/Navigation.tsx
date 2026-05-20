@@ -161,7 +161,10 @@ export default function Navigation() {
 
                   {hasChildren && isOpen && (
                     <div className="absolute left-0 top-full pt-1 min-w-[320px]">
-                      <div className="bg-gr-surface border border-gr-border rounded-md shadow-xl p-2 space-y-1">
+                      <div
+                        className="bg-gr-surface border border-gr-border rounded-md shadow-xl p-2 space-y-1 overflow-y-auto overscroll-contain"
+                        style={{ maxHeight: 'calc(100vh - 5rem)' }}
+                      >
                         {section.children!.map((c) => {
                           const cActive = pathname === c.href || pathname.startsWith(c.href + '/');
                           const badge = c.status ? STATUS_BADGES[c.status] : null;

@@ -54,6 +54,37 @@ interface CronHealthPayload {
   error?: string;
 }
 
+// Only show agents that feed this apparel-analytics site. Everything else
+// (ValleySomm, Masonic, Memex, Crop Circles, Gmail, etc.) shares the same
+// /mnt/data/agents/cron-healer/logs/health.log but is out of scope here.
+const APPAREL_AGENT_PATTERNS: RegExp[] = [
+  /^amazon-/,
+  /^apparel-/,
+  /^anomaly-detector$/,
+  /^brand-mix-analyzer$/,
+  /^brief-analyzer$/,
+  /^category-trends$/,
+  /^compintel-/,
+  /^creator-monitor$/,
+  /^daily-intel-digest$/,
+  /^data-qa$/,
+  /^dtc-reviews$/,
+  /^fb-ad-library$/,
+  /^gymreapers-/,
+  /^launch-calendar$/,
+  /^patent-monitor$/,
+  /^prelaunch-radar$/,
+  /^promo-tracker$/,
+  /^review-themes$/,
+  /^sku-repositioner$/,
+  /^tm-monitor$/,
+  /^vuori-/,
+];
+
+function isApparelAgent(name: string): boolean {
+  return APPAREL_AGENT_PATTERNS.some((p) => p.test(name));
+}
+
 function fmtAgo(iso: string | null | undefined): string {
   if (!iso) return 'never';
   try {
@@ -128,43 +159,79 @@ export default function CronHealthPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  const successRate = useMemo(() => {
-    if (!data) return 0;
-    const t = data.today_summary.total_runs;
-    if (!t) return 0;
-    return Math.round((data.today_summary.success / t) * 1000) / 10;
+  // Narrow the payload to agents that feed this site before any UI math runs.
+  const scopedData = useMemo<CronHealthPayload | null>(() => {
+    if (!data) return null;
+    const scheduled = data.scheduled_agents.filter((s) => isApparelAgent(s.name));
+    const todays = data.todays_runs.filter((r) => isApparelAgent(r.agent));
+    const fails = data.recent_failures.filter((f) => isApparelAgent(f.agent));
+    const logTail = data.log_tail.filter((ln) => {
+      const parts = ln.split('\t');
+      const agent = parts[1] || '';
+      return agent ? isApparelAgent(agent) : false;
+    });
+    const success = todays.filter((r) => r.status === 'SUCCESS').length;
+    const fail = todays.filter((r) => r.status === 'FAIL').length;
+    const healed = todays.filter((r) => r.status === 'HEALED').length;
+    const agentsRunToday = Array.from(new Set(todays.map((r) => r.agent))).sort();
+    const scheduledNames = new Set(scheduled.map((s) => s.name));
+    const agentsMissingToday = data.today_summary.agents_missing_today.filter((n) =>
+      scheduledNames.has(n),
+    );
+    return {
+      ...data,
+      scheduled_agents: scheduled,
+      todays_runs: todays,
+      recent_failures: fails,
+      log_tail: logTail,
+      today_summary: {
+        total_runs: todays.length,
+        success,
+        fail,
+        healed,
+        agents_run_today: agentsRunToday,
+        agents_missing_today: agentsMissingToday,
+      },
+    };
   }, [data]);
+
+  const successRate = useMemo(() => {
+    if (!scopedData) return 0;
+    const t = scopedData.today_summary.total_runs;
+    if (!t) return 0;
+    return Math.round((scopedData.today_summary.success / t) * 1000) / 10;
+  }, [scopedData]);
 
   const recentFailures24h = useMemo(() => {
-    if (!data) return 0;
-    return data.recent_failures.length;
-  }, [data]);
+    if (!scopedData) return 0;
+    return scopedData.recent_failures.length;
+  }, [scopedData]);
 
   const filteredScheduled = useMemo<ScheduledAgent[]>(() => {
-    if (!data) return [];
-    if (!agentFilter) return data.scheduled_agents;
+    if (!scopedData) return [];
+    if (!agentFilter) return scopedData.scheduled_agents;
     const f = agentFilter.toLowerCase();
-    return data.scheduled_agents.filter((s) => s.name.toLowerCase().includes(f));
-  }, [data, agentFilter]);
+    return scopedData.scheduled_agents.filter((s) => s.name.toLowerCase().includes(f));
+  }, [scopedData, agentFilter]);
 
   const filteredLogTail = useMemo<string[]>(() => {
-    if (!data) return [];
-    if (!agentFilter) return data.log_tail;
-    return data.log_tail.filter((ln) => ln.includes(`\t${agentFilter}\t`) || ln.toLowerCase().includes(agentFilter.toLowerCase()));
-  }, [data, agentFilter]);
+    if (!scopedData) return [];
+    if (!agentFilter) return scopedData.log_tail;
+    return scopedData.log_tail.filter((ln) => ln.includes(`\t${agentFilter}\t`) || ln.toLowerCase().includes(agentFilter.toLowerCase()));
+  }, [scopedData, agentFilter]);
 
   const todaysRunsSorted = useMemo<TodayRun[]>(() => {
-    if (!data) return [];
-    const arr = [...data.todays_runs];
+    if (!scopedData) return [];
+    const arr = [...scopedData.todays_runs];
     arr.sort((a, b) => (a.timestamp < b.timestamp ? -1 : 1));
     return arr;
-  }, [data]);
+  }, [scopedData]);
 
   if (loading) return <div className="text-center py-20 text-gr-subtle">Loading cron health...</div>;
   if (error) return <div className="text-center py-20 text-gr-danger">{error}</div>;
-  if (!data) return <div className="text-center py-20 text-gr-subtle">No data.</div>;
+  if (!data || !scopedData) return <div className="text-center py-20 text-gr-subtle">No data.</div>;
 
-  if (!data.available || !data.log_exists) {
+  if (!scopedData.available || !scopedData.log_exists) {
     return (
       <div className="space-y-12">
         <header className="pb-2">
@@ -189,7 +256,7 @@ export default function CronHealthPage() {
     );
   }
 
-  const missingCount = data.today_summary.agents_missing_today.length;
+  const missingCount = scopedData.today_summary.agents_missing_today.length;
 
   return (
     <div className="space-y-12">
@@ -204,10 +271,10 @@ export default function CronHealthPage() {
           Agent run health
         </h1>
         <p className="text-gr-muted mt-4 max-w-3xl text-lg leading-relaxed">
-          Every cron-scheduled agent passes through the cron-healer wrapper. This page surfaces which ran today, which failed, which are stale, and the central healing log.
+          Every cron-scheduled agent passes through the cron-healer wrapper. This page is scoped to the agents that feed this apparel-analytics site (competitive-intel, gymreapers, amazon, vuori, prelaunch, patents, trademarks, dtc-reviews and related jobs).
         </p>
         <p className="text-xs text-gr-subtle mt-2 tabular-nums">
-          As of {data.as_of} &middot; {data.scheduled_agents.length} agents scheduled
+          As of {scopedData.as_of} &middot; {scopedData.scheduled_agents.length} agents scheduled
         </p>
       </header>
 
@@ -221,9 +288,9 @@ export default function CronHealthPage() {
       <section className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
           <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-2">Runs today</div>
-          <div className="text-3xl font-bold text-gr-text tabular-nums">{data.today_summary.total_runs}</div>
+          <div className="text-3xl font-bold text-gr-text tabular-nums">{scopedData.today_summary.total_runs}</div>
           <div className="text-xs text-gr-muted mt-1 tabular-nums">
-            {data.today_summary.success} ok &middot; {data.today_summary.healed} healed &middot; {data.today_summary.fail} fail
+            {scopedData.today_summary.success} ok &middot; {scopedData.today_summary.healed} healed &middot; {scopedData.today_summary.fail} fail
           </div>
         </div>
         <div className="bg-gr-surface rounded-md border border-gr-border p-5">
@@ -270,7 +337,7 @@ export default function CronHealthPage() {
             </button>
           )}
           <span className="text-xs text-gr-subtle ml-auto tabular-nums">
-            {filteredScheduled.length} of {data.scheduled_agents.length} agents shown
+            {filteredScheduled.length} of {scopedData.scheduled_agents.length} agents shown
           </span>
         </div>
       </section>
@@ -282,7 +349,7 @@ export default function CronHealthPage() {
             Scheduled agents missing today ({missingCount})
           </div>
           <div className="flex flex-wrap gap-1.5">
-            {data.today_summary.agents_missing_today.map((name) => (
+            {scopedData.today_summary.agents_missing_today.map((name) => (
               <button
                 key={name}
                 type="button"
@@ -405,7 +472,7 @@ export default function CronHealthPage() {
       {/* Recent failures */}
       <section>
         <h2 className="text-2xl font-bold text-gr-text mb-2">Recent failures (last 24h)</h2>
-        {data.recent_failures.length === 0 ? (
+        {scopedData.recent_failures.length === 0 ? (
           <div className="bg-gr-surface rounded-md border border-gr-border p-6 text-center text-sm text-gr-muted">
             No failures in the last 24 hours. Everything green.
           </div>
@@ -422,7 +489,7 @@ export default function CronHealthPage() {
                 </tr>
               </thead>
               <tbody>
-                {data.recent_failures.slice(0, 10).map((f, idx) => (
+                {scopedData.recent_failures.slice(0, 10).map((f, idx) => (
                   <tr key={`${f.timestamp}-${f.agent}-${idx}`} className="border-b border-gr-border last:border-0">
                     <td className="px-4 py-2 font-mono font-semibold text-gr-text break-all">{f.agent}</td>
                     <td className="px-4 py-2 text-gr-muted tabular-nums">{fmtAgo(f.timestamp)}</td>
