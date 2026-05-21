@@ -1,23 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "outdoor_voices:m-solarcool-camp-collar-reservoir",
-      "title": "SolarCool Camp Collar",
-      "product_type": "Shortsleeve",
-      "detected_at": "2026-02-20T04:42:44.651055",
-      "partial": true,
-      "old_pct": 75,
-      "new_pct": 12
-    },
-    {
-      "product_id": "outdoor_voices:w-rectrek-cargo-pant-milk-stone",
-      "title": "RecTrek Cargo Pant",
-      "product_type": "Pants",
-      "detected_at": "2026-02-20T04:42:44.651380",
-      "days_since_launch": 339,
-      "is_fast_sellout": false
-    },
-    {
       "product_id": "outdoor_voices:w-cloudknit-boxy-longsleeve-balsam",
       "title": "CloudKnit Boxy Longsleeve",
       "product_type": "Longsleeve",
@@ -3150,6 +3133,15 @@
       "detected_at": "2026-05-19T08:40:51.344940",
       "days_since_launch": 294,
       "is_fast_sellout": false
+    },
+    {
+      "product_id": "tenthousand:rep-short-sale",
+      "title": "Output Short | 7-inch",
+      "product_type": "Rep Short",
+      "detected_at": "2026-05-20T15:08:48.900509",
+      "partial": true,
+      "old_pct": 50,
+      "new_pct": 17
     }
   ],
   "restocks": [
