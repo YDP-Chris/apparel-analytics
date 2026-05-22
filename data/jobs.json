@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 678,
+      "total_jobs": 674,
       "change_from_last": -4,
       "departments": {
         "engineering": 29,
         "design": 87,
-        "operations": 173,
-        "other": 116,
-        "retail": 232,
+        "operations": 170,
+        "other": 117,
+        "retail": 230,
         "marketing": 13,
         "finance": 6,
         "executive": 12,
@@ -19,34 +19,34 @@
       },
       "seniority": {
         "mid": 29,
-        "manager": 160,
-        "junior": 305,
-        "c-suite": 29,
+        "manager": 161,
+        "junior": 300,
         "intern": 12,
+        "c-suite": 29,
         "senior": 21,
         "lead": 122
       },
       "locations": [
-        "Naples, FL",
-        "Los Angeles, California, United States",
-        "Orlando, Florida, United States",
-        "Washington, DC",
-        "Berkeley, California, United States",
-        "Princeton, New Jersey, United States",
-        "Alexandria, Virginia, United States",
-        "Richmond, Virginia, United States",
-        "Seoul, Seoul, South Korea",
-        "Leawood, Kansas, United States",
         "Boulder, Colorado, United States",
-        "Vail, CO",
-        "Boca Raton, FL",
-        "Schaumburg, IL",
-        "Edinburgh, Scotland, United Kingdom",
-        "Paramus, NJ",
-        "Meridian, Idaho, United States",
+        "Durham, North Carolina, United States",
+        "Bloomington, Minnesota, United States",
         "Charlotte, NC",
-        "Metairie, Louisiana",
-        "San Antonio, TX"
+        "Tulsa, Oklahoma, United States",
+        "Macau",
+        "Shrewsbury, New Jersey, United States",
+        "Berlin, Berlin, Germany",
+        "Sydney, New South Wales, Australia",
+        "Milano, Milan, Italy",
+        "Meridian, Idaho, United States",
+        "Kansas City, Missouri, United States",
+        "Mississauga, Ontario, Canada",
+        "Fort Worth, TX",
+        "Murray, UT",
+        "Aventura, Florida, United States",
+        "San Antonio, TX",
+        "Phoenix, Arizona, United States",
+        "Lexington, Kentucky, United States",
+        "Florence, Italy"
       ],
       "jobs": [
         {
@@ -360,16 +360,6 @@
           "seniority": "mid"
         },
         {
-          "id": "5971717004",
-          "title": "Colorist",
-          "location": "Commerce, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5971717004?gh_jid=5971717004",
-          "posted_at": "2026-05-20T09:05:19-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "5971250004",
           "title": "Color Manager",
           "location": "Commerce, California, United States",
@@ -410,14 +400,14 @@
           "seniority": "mid"
         },
         {
-          "id": "5990679004",
-          "title": "Design Director of Special Projects, Workplace & Hospitality",
-          "location": "Beverly Hills, California, United States",
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5990679004?gh_jid=5990679004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-05-20T09:05:19-04:00",
-          "category": "design",
-          "seniority": "c-suite"
+          "category": "engineering",
+          "seniority": "intern"
         },
         {
           "id": "5781938004",
@@ -425,16 +415,6 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
-          "posted_at": "2026-05-20T09:05:19-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-05-20T09:05:19-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -548,37 +528,58 @@
           "posted_at": "2026-05-20T09:05:19-04:00",
           "category": "executive",
           "seniority": "c-suite"
+        },
+        {
+          "id": "5660273004",
+          "title": "Director of Inventory Control",
+          "location": "Dallas",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5660273004?gh_jid=5660273004",
+          "posted_at": "2026-05-20T09:05:19-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "5658702004",
+          "title": "Director of Merchandising, Non-Apparel",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5658702004?gh_jid=5658702004",
+          "posted_at": "2026-05-20T09:05:19-04:00",
+          "category": "product",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-05-21T05:30:08.613178"
+      "checked_at": "2026-05-22T05:30:12.705304"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 16,
-      "change_from_last": -1,
+      "total_jobs": 18,
+      "change_from_last": 2,
       "departments": {
         "engineering": 2,
         "other": 6,
+        "design": 2,
         "retail": 7,
         "operations": 1
       },
       "seniority": {
-        "mid": 5,
-        "manager": 2,
+        "mid": 6,
+        "manager": 3,
         "lead": 2,
         "junior": 5,
         "senior": 2
       },
       "locations": [
-        "New York, New York, United States",
-        "Roosevelt, New York, United States",
-        "Manchester, England, United Kingdom",
-        "Miami, Florida, United States",
-        "London",
         "New York, New York, United States; New York, New York, United States",
-        "Amsterdam, North Holland, Netherlands",
-        "Solihull, England, United Kingdom"
+        "London",
+        "Roosevelt, New York, United States",
+        "New York, New York, United States",
+        "Miami, Florida, United States",
+        "Solihull, England, United Kingdom",
+        "Manchester, England, United Kingdom",
+        "Amsterdam, North Holland, Netherlands"
       ],
       "jobs": [
         {
@@ -590,6 +591,16 @@
           "posted_at": "2026-05-12T09:30:24-04:00",
           "category": "engineering",
           "seniority": "mid"
+        },
+        {
+          "id": "4872695101",
+          "title": "Delivery Manager - FTC - 15months",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4872695101",
+          "posted_at": "2026-05-21T11:54:17-04:00",
+          "category": "other",
+          "seniority": "manager"
         },
         {
           "id": "4842921101",
@@ -609,6 +620,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4861259101",
           "posted_at": "2026-05-12T09:30:24-04:00",
           "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "4873365101",
+          "title": "Field Visual Merchandiser",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4873365101",
+          "posted_at": "2026-05-21T16:45:45-04:00",
+          "category": "design",
           "seniority": "mid"
         },
         {
@@ -733,16 +754,16 @@
         },
         {
           "id": "4865998101",
-          "title": "Senior Studio Producer - FTC",
+          "title": "Senior Creative Producer - FTC",
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4865998101",
-          "posted_at": "2026-05-19T11:03:53-04:00",
-          "category": "other",
+          "posted_at": "2026-05-21T05:31:42-04:00",
+          "category": "design",
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-05-21T05:30:10.784635"
+      "checked_at": "2026-05-22T05:30:14.844955"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -801,48 +822,48 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 319,
-      "change_from_last": 4,
+      "change_from_last": 0,
       "departments": {
-        "other": 67,
-        "retail": 142,
-        "engineering": 50,
-        "marketing": 20,
+        "other": 68,
+        "retail": 141,
+        "engineering": 47,
+        "marketing": 21,
         "product": 8,
-        "executive": 11,
+        "executive": 12,
         "design": 16,
-        "operations": 2,
+        "operations": 3,
         "finance": 1,
         "hr": 2
       },
       "seniority": {
         "senior": 41,
-        "lead": 164,
-        "mid": 84,
-        "c-suite": 13,
+        "lead": 166,
+        "mid": 82,
+        "c-suite": 14,
         "manager": 5,
-        "intern": 12
+        "intern": 11
       },
       "locations": [
-        "Shanghai",
-        "Busan",
-        "Bicester",
-        "Milan",
-        "San Francisco",
-        "Shenzhen",
-        "Miami",
-        "Woodbury",
-        "Portland",
-        "Tokyo",
-        "Brooklyn",
+        "Auckland",
+        "Paris",
+        "New York City; Portland",
         "Sydney",
-        "Atlanta",
-        "Palo Alto",
-        "London; Zurich",
-        "Melbourne",
+        "Shenzhen",
         "Madrid",
-        "Mexico City",
-        "Hanoi; Ho Chi Minh City",
-        "Hanoi"
+        "Melbourne",
+        "Bicester",
+        "Central Valley",
+        "Nanjing",
+        "Macao",
+        "Guangzhou",
+        "Cirebon",
+        "Shanghai",
+        "Ho Chi Minh City",
+        "Chicago",
+        "Munich",
+        "Portland",
+        "San Diego",
+        "Berlin"
       ],
       "jobs": [
         {
@@ -854,6 +875,26 @@
           "posted_at": "2026-05-20T09:33:59-04:00",
           "category": "other",
           "seniority": "senior"
+        },
+        {
+          "id": "7849945",
+          "title": "250151 - Lead - Footwear Material",
+          "location": "Ho Chi Minh City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7849945?gh_jid=7849945",
+          "posted_at": "2026-05-21T10:41:52-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "7946414",
+          "title": "251007 Lead - Production Quality Assurance, LightSpray",
+          "location": "Ho Chi Minh City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7946414?gh_jid=7946414",
+          "posted_at": "2026-05-21T10:44:37-04:00",
+          "category": "other",
+          "seniority": "lead"
         },
         {
           "id": "7931324",
@@ -883,6 +924,16 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7905017?gh_jid=7905017",
           "posted_at": "2026-05-11T14:07:55-04:00",
           "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7950290",
+          "title": "260163 - Senior Lead- Asset Protection/Loss Prevention",
+          "location": "New York City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7950290?gh_jid=7950290",
+          "posted_at": "2026-05-21T11:08:33-04:00",
+          "category": "other",
           "seniority": "lead"
         },
         {
@@ -932,6 +983,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7757056?gh_jid=7757056",
           "posted_at": "2026-04-28T04:51:42-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7951339",
+          "title": "Associate Store Leader, Dallas NorthPark Center",
+          "location": "Dallas",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7951339?gh_jid=7951339",
+          "posted_at": "2026-05-21T18:36:44-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1206,6 +1267,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7305241",
+          "title": "Head of Color Design",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7305241?gh_jid=7305241",
+          "posted_at": "2026-05-21T10:42:08-04:00",
+          "category": "design",
+          "seniority": "lead"
+        },
+        {
           "id": "7868975",
           "title": "Head of Commercial Strategy and Excellence",
           "location": "Shanghai",
@@ -1294,60 +1365,10 @@
           "posted_at": "2026-05-08T16:28:22-04:00",
           "category": "product",
           "seniority": "lead"
-        },
-        {
-          "id": "7908937",
-          "title": "Head of Merchandise Planning",
-          "location": "Portland",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7908937?gh_jid=7908937",
-          "posted_at": "2026-05-08T13:26:49-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "7857798",
-          "title": "Head of Product Development | Accessories",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7857798?gh_jid=7857798",
-          "posted_at": "2026-05-06T07:48:10-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "7710508",
-          "title": "Head of Production Planning - Apparel & Accessories",
-          "location": "Hanoi",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7710508?gh_jid=7710508",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "7217836",
-          "title": "Head of  Product Management, Product/R&D",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7217836?gh_jid=7217836",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "product",
-          "seniority": "lead"
-        },
-        {
-          "id": "7775298",
-          "title": "Head of Sales for Distributors, Latin America & Caribbean",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7775298?gh_jid=7775298",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "executive",
-          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-05-21T05:30:20.031253"
+      "checked_at": "2026-05-22T05:30:24.156794"
     }
   },
-  "generated_at": "2026-05-21T05:30:22.031403"
+  "generated_at": "2026-05-22T05:30:26.156946"
 }
