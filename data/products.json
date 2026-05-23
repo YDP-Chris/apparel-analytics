@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 3868,
+      "total": 3869,
       "categories": {
         "bottoms": 1825,
-        "tops": 600,
+        "tops": 601,
         "outerwear": 512,
         "other": 557,
         "sports_bras": 120,
@@ -18,7 +18,7 @@
         "joggers": 155,
         "shorts": 662,
         "tanks": 184,
-        "tees": 209,
+        "tees": 210,
         "leggings": 171,
         "other": 1143,
         "pants": 386,
@@ -43,7 +43,7 @@
         "fleece": 11
       },
       "genders": {
-        "mens": 1437,
+        "mens": 1438,
         "womens": 1755,
         "unisex": 676
       },
@@ -63,13 +63,13 @@
         "orange": 23,
         "yellow": 11,
         "pink": 75,
-        "multi": 5,
+        "multi": 6,
         "rust": 2,
         "camo": 7
       },
       "colorCoverage": 85.5,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2202
+      "uniqueStyles": 2203
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -168,22 +168,22 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4525,
+      "total": 4535,
       "categories": {
         "tops": 720,
-        "bottoms": 1554,
-        "outerwear": 602,
+        "bottoms": 1558,
+        "outerwear": 606,
         "sports_bras": 158,
         "accessories": 601,
-        "other": 771,
+        "other": 773,
         "dresses": 69,
         "footwear": 50
       },
       "subcategories": {
         "tanks": 240,
-        "shorts": 488,
+        "shorts": 492,
         "hoodies": 115,
-        "other": 1370,
+        "other": 1372,
         "medium_support": 17,
         "leggings": 195,
         "polos": 57,
@@ -198,7 +198,7 @@
         "crop_tops": 90,
         "long_sleeve": 171,
         "fleece": 15,
-        "jackets": 278,
+        "jackets": 282,
         "running": 23,
         "skirts": 85,
         "tees": 14,
@@ -214,8 +214,8 @@
       },
       "genders": {
         "womens": 1443,
-        "mens": 1189,
-        "unisex": 1893
+        "mens": 1191,
+        "unisex": 1901
       },
       "colors": {
         "print": 119,
@@ -303,28 +303,28 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 8276,
+      "total": 8342,
       "categories": {
-        "bottoms": 3034,
-        "tops": 2649,
-        "other": 585,
+        "bottoms": 3050,
+        "tops": 2679,
+        "other": 597,
         "accessories": 494,
-        "outerwear": 852,
+        "outerwear": 860,
         "sports_bras": 658,
         "dresses": 4
       },
       "subcategories": {
-        "shorts": 1226,
+        "shorts": 1236,
         "leggings": 723,
         "crop_tops": 152,
-        "other": 2703,
+        "other": 2733,
         "long_sleeve": 467,
         "socks": 212,
-        "tanks": 726,
+        "tanks": 738,
         "joggers": 537,
-        "hoodies": 500,
+        "hoodies": 508,
         "jackets": 174,
-        "pants": 292,
+        "pants": 298,
         "pullovers": 140,
         "high_support": 26,
         "bags": 66,
@@ -341,19 +341,19 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 3797,
-        "womens": 2752,
-        "mens": 1727
+        "unisex": 3837,
+        "womens": 2764,
+        "mens": 1741
       },
       "colors": {
-        "green": 421,
+        "green": 425,
         "pink": 597,
-        "black": 1993,
-        "white": 622,
+        "black": 2005,
+        "white": 636,
         "navy": 70,
-        "gray": 1032,
-        "brown": 596,
-        "blue": 1335,
+        "gray": 1044,
+        "brown": 602,
+        "blue": 1353,
         "red": 263,
         "purple": 397,
         "yellow": 54,
@@ -361,9 +361,9 @@
         "khaki": 2,
         "print": 16
       },
-      "colorCoverage": 89.7,
+      "colorCoverage": 89.8,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2208
+      "uniqueStyles": 2222
     },
     "on_running": {
       "name": "On Running",
@@ -645,12 +645,26 @@
     }
   },
   "totals": {
-    "products": 35221,
+    "products": 35298,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-23",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 1,
+      "products": [
+        {
+          "name": "strato tech tee 3 pack",
+          "url": "https://vuoriclothing.com/products/strato-tech-tee-3-pack-multi",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "brand": "Vuori",
@@ -1255,6 +1269,478 @@
           "name": "vintage hoodie greyhound",
           "url": "https://vuoriclothing.com/products/cypress-vintage-hoodie-greyhound",
           "category": "outerwear",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 66,
+      "products": [
+        {
+          "name": "gymshark olympic bar t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-olympic-bar-t-shirt-ss-tops-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-t-shirt-ss-tops-brown-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate graphic wide leg pant pants",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-graphic-wide-leg-pant-pants-grey-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collective mesh wordmark jersey ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-wordmark-jersey-ss-tops-green-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh contrast jersey ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-contrast-jersey-ss-tops-white-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-short-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate track pant pants",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-track-pant-pants-blue-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vintage legacy tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-vintage-legacy-tank-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collegiate tech t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-t-shirt-ss-tops-white-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vintage legacy tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-vintage-legacy-tank-sleeveless-tops-black-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark vintage legacy t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-vintage-legacy-t-shirt-ss-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark retro collegiate track pant pants",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-track-pant-pants-grey-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collegiate tech tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-tank-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-t-shirt-ss-tops-black-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collegiate tech t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-t-shirt-ss-tops-blue-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate graphic hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-graphic-hoodie-pullovers-blue-ss26",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collective mesh short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-short-shorts-white-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech tank sleeveless tops ss26 a5b3e uctm",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-tank-sleeveless-tops-blue-ss26-a5b3e-uctm",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh wordmark jersey ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-wordmark-jersey-ss-tops-brown-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh wordmark jersey ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-wordmark-jersey-ss-tops-white-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh contrast jersey ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-contrast-jersey-ss-tops-blue-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-t-shirt-ss-tops-white-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collective mesh short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-short-shorts-green-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-short-shorts-black-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-short-shorts-brown-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vintage legacy tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-vintage-legacy-tank-sleeveless-tops-grey-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collective crochet style hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-collective-crochet-style-hoodie-pullovers-white-ss26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vintage legacy t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-vintage-legacy-t-shirt-ss-tops-black-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark retro collegiate graphic hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-retro-collegiate-graphic-hoodie-pullovers-grey-ss26",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vintage legacy t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-vintage-legacy-t-shirt-ss-tops-grey-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collective crochet style hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-collective-crochet-style-hoodie-pullovers-black-ss26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh contrast jersey ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collective-mesh-contrast-jersey-ss-tops-black-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-tech-tank-sleeveless-tops-white-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark olympic bar t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-olympic-bar-t-shirt-ss-tops-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-t-shirt-ss-tops-brown-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate graphic wide leg pant pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-graphic-wide-leg-pant-pants-grey-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collective mesh wordmark jersey ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-wordmark-jersey-ss-tops-green-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh contrast jersey ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-contrast-jersey-ss-tops-white-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-short-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate track pant pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-track-pant-pants-blue-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vintage legacy tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vintage-legacy-tank-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collegiate tech t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-t-shirt-ss-tops-white-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vintage legacy tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vintage-legacy-tank-sleeveless-tops-black-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark vintage legacy t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vintage-legacy-t-shirt-ss-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark retro collegiate track pant pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-track-pant-pants-grey-ss26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collegiate tech tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-tank-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-t-shirt-ss-tops-black-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collegiate tech t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-t-shirt-ss-tops-blue-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate graphic hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-graphic-hoodie-pullovers-blue-ss26",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collective mesh short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-short-shorts-white-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech tank sleeveless tops ss26 a5b3e uctm",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-tank-sleeveless-tops-blue-ss26-a5b3e-uctm",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh wordmark jersey ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-wordmark-jersey-ss-tops-brown-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh wordmark jersey ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-wordmark-jersey-ss-tops-white-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh contrast jersey ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-contrast-jersey-ss-tops-blue-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark retro collegiate t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-t-shirt-ss-tops-white-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collective mesh short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-short-shorts-green-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-short-shorts-black-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-short-shorts-brown-ss26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vintage legacy tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vintage-legacy-tank-sleeveless-tops-grey-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collective crochet style hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-crochet-style-hoodie-pullovers-white-ss26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vintage legacy t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vintage-legacy-t-shirt-ss-tops-black-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark retro collegiate graphic hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-retro-collegiate-graphic-hoodie-pullovers-grey-ss26",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vintage legacy t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vintage-legacy-t-shirt-ss-tops-grey-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collective crochet style hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-crochet-style-hoodie-pullovers-black-ss26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collective mesh contrast jersey ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collective-mesh-contrast-jersey-ss-tops-black-ss26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark collegiate tech tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-tech-tank-sleeveless-tops-white-ss26",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 10,
+      "products": [
+        {
+          "name": "fast and free ss regrace length",
+          "url": "https://shop.lululemon.com/p/mens-fast-and-free-ss-regrace-length/u4wb5sk9h0",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "quilted insulated liner jacket",
+          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Quilted-Insulated-Liner-Jacket-MD/_/prod20004790",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "uv protective cinch waist oversized fit jacket",
+          "url": "https://shop.lululemon.com/p/uv-protective-cinch-waist-oversized-fit-jacket/ivj8b88i9b",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "quilted insulated liner jacket",
+          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Quilted-Insulated-Liner-Jacket/_/prod20004791",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "water repellent relaxed fit short",
+          "url": "https://shop.lululemon.com/p/water-repellent-relaxed-fit-short-10/elg88manq2-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "ultralight ripstop lined running short",
+          "url": "https://shop.lululemon.com/p/ultralight-ripstop-lined-running-short-4/un7jbobvps",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "uv protective cinch waist oversized fit jacket",
+          "url": "https://shop.lululemon.com/p/uv-protective-cinch-waist-oversized-fit-jacket/ivj8b88i9b-md",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "water repellent relaxed fit short",
+          "url": "https://shop.lululemon.com/p/water-repellent-relaxed-fit-short-10/elg88manq2",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "ultralight ripstop lined running short",
+          "url": "https://shop.lululemon.com/p/ultralight-ripstop-lined-running-short-4/un7jbobvps-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "fast and free ss regrace length",
+          "url": "https://shop.lululemon.com/p/mens-fast-and-free-ss-regrace-length/u4wb5sk9h0-md",
+          "category": "other",
           "gender": "mens"
         }
       ]
@@ -3084,66 +3570,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-08",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 2,
-      "products": [
-        {
-          "name": "invisiwear uplift bra bc cup",
-          "url": "https://shop.lululemon.com/p/invisiwear-uplift-bra-bc-cup/x7utgtqkz1-md",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "invisiwear uplift bra bc cup",
-          "url": "https://shop.lululemon.com/p/invisiwear-uplift-bra-bc-cup/x7utgtqkz1",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 2,
-      "products": [
-        {
-          "name": "seamless chosen bra",
-          "url": "https://www.aloyoga.com/products/w9559r-seamless-chosen-bra-limestone",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "cropped first class blazer",
-          "url": "https://www.aloyoga.com/products/w4600r-cropped-first-class-blazer-ivory",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 2,
-      "products": [
-        {
-          "name": "gymshark training shorts ruby",
-          "url": "https://www.gymshark.com/products/gymshark-training-shorts-ruby-red-ss22",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training shorts ruby",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-shorts-ruby-red-ss22",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -3214,7 +3640,8 @@
       "2026-05-09": 1,
       "2026-05-17": 2,
       "2026-05-18": 1,
-      "2026-05-22": 105
+      "2026-05-22": 105,
+      "2026-05-23": 1
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -3299,7 +3726,8 @@
       "2026-05-14": 2,
       "2026-05-19": 40,
       "2026-05-20": 10,
-      "2026-05-21": 34
+      "2026-05-21": 34,
+      "2026-05-22": 10
     },
     "alo": {
       "2026-02-03": 3396,
@@ -3446,7 +3874,8 @@
       "2026-05-14": 12,
       "2026-05-15": 2,
       "2026-05-19": 1,
-      "2026-05-20": 1
+      "2026-05-20": 1,
+      "2026-05-22": 66
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -3483,9 +3912,9 @@
       "vuori": 1825,
       "outdoor_voices": 204,
       "tenthousand": 59,
-      "lululemon": 1554,
+      "lululemon": 1558,
       "alo": 1766,
-      "gymshark": 3034,
+      "gymshark": 3050,
       "on_running": 1571,
       "gymreapers": 201,
       "sbd": 20,
@@ -3493,12 +3922,12 @@
       "bear_grips": 330
     },
     "tops": {
-      "vuori": 600,
+      "vuori": 601,
       "outdoor_voices": 53,
       "tenthousand": 33,
       "lululemon": 720,
       "alo": 562,
-      "gymshark": 2649,
+      "gymshark": 2679,
       "on_running": 622,
       "gymreapers": 223,
       "sbd": 61,
@@ -3509,9 +3938,9 @@
       "vuori": 512,
       "outdoor_voices": 35,
       "tenthousand": 18,
-      "lululemon": 602,
+      "lululemon": 606,
       "alo": 672,
-      "gymshark": 852,
+      "gymshark": 860,
       "on_running": 858,
       "gymreapers": 57,
       "sbd": 4,
@@ -3522,9 +3951,9 @@
       "vuori": 557,
       "outdoor_voices": 48,
       "tenthousand": 10,
-      "lululemon": 771,
+      "lululemon": 773,
       "alo": 808,
-      "gymshark": 585,
+      "gymshark": 597,
       "on_running": 2737,
       "gymreapers": 309,
       "sbd": 70,
@@ -3589,9 +4018,9 @@
       "vuori": 662,
       "outdoor_voices": 60,
       "tenthousand": 33,
-      "lululemon": 488,
+      "lululemon": 492,
       "alo": 412,
-      "gymshark": 1226,
+      "gymshark": 1236,
       "on_running": 687,
       "gymreapers": 128,
       "sbd": 13,
@@ -3603,14 +4032,14 @@
       "tenthousand": 4,
       "lululemon": 240,
       "alo": 260,
-      "gymshark": 726,
+      "gymshark": 738,
       "on_running": 288,
       "gymreapers": 33,
       "sbd": 7,
       "bear_grips": 469
     },
     "tees": {
-      "vuori": 209,
+      "vuori": 210,
       "outdoor_voices": 14,
       "tenthousand": 7,
       "lululemon": 14,
@@ -3634,9 +4063,9 @@
       "vuori": 1143,
       "outdoor_voices": 143,
       "tenthousand": 28,
-      "lululemon": 1370,
+      "lululemon": 1372,
       "alo": 1634,
-      "gymshark": 2703,
+      "gymshark": 2733,
       "on_running": 3085,
       "gymreapers": 521,
       "sbd": 125,
@@ -3650,7 +4079,7 @@
       "tenthousand": 14,
       "lululemon": 406,
       "alo": 251,
-      "gymshark": 292,
+      "gymshark": 298,
       "on_running": 387
     },
     "pullovers": {
@@ -3679,7 +4108,7 @@
       "vuori": 156,
       "outdoor_voices": 13,
       "tenthousand": 6,
-      "lululemon": 278,
+      "lululemon": 282,
       "alo": 185,
       "gymshark": 174,
       "on_running": 424,
@@ -3704,7 +4133,7 @@
       "tenthousand": 8,
       "lululemon": 115,
       "alo": 223,
-      "gymshark": 500,
+      "gymshark": 508,
       "on_running": 312,
       "gymreapers": 25,
       "sbd": 4,
@@ -3859,7 +4288,7 @@
       "vuori": 541,
       "outdoor_voices": 27,
       "alo": 490,
-      "gymshark": 1032,
+      "gymshark": 1044,
       "on_running": 317,
       "gymreapers": 72,
       "sbd": 16,
@@ -3878,7 +4307,7 @@
       "vuori": 724,
       "outdoor_voices": 66,
       "alo": 1020,
-      "gymshark": 1993,
+      "gymshark": 2005,
       "on_running": 1495,
       "gymreapers": 123,
       "sbd": 2,
@@ -3909,7 +4338,7 @@
       "outdoor_voices": 21,
       "lululemon": 15,
       "alo": 907,
-      "gymshark": 622,
+      "gymshark": 636,
       "on_running": 1453,
       "gymreapers": 90,
       "sbd": 2,
@@ -3921,7 +4350,7 @@
       "outdoor_voices": 26,
       "lululemon": 8,
       "alo": 241,
-      "gymshark": 1335,
+      "gymshark": 1353,
       "on_running": 784,
       "gymreapers": 31,
       "sbd": 6,
@@ -3932,7 +4361,7 @@
       "outdoor_voices": 38,
       "lululemon": 4,
       "alo": 305,
-      "gymshark": 421,
+      "gymshark": 425,
       "on_running": 278,
       "gymreapers": 98,
       "sbd": 4
@@ -3941,7 +4370,7 @@
       "vuori": 177,
       "outdoor_voices": 2,
       "alo": 287,
-      "gymshark": 596,
+      "gymshark": 602,
       "on_running": 74,
       "gymreapers": 9,
       "schiek": 2,
@@ -4000,7 +4429,7 @@
       "schiek": 6
     },
     "multi": {
-      "vuori": 5,
+      "vuori": 6,
       "outdoor_voices": 10,
       "lululemon": 32,
       "alo": 4,
@@ -4033,13 +4462,13 @@
     },
     {
       "brand": "Gymshark",
-      "bottoms": 36.7,
-      "tops": 32,
+      "bottoms": 36.6,
+      "tops": 32.1,
       "outerwear": 10.3,
       "dresses": 0,
-      "sports_bras": 8,
-      "accessories": 6,
-      "other": 7.1
+      "sports_bras": 7.9,
+      "accessories": 5.9,
+      "other": 7.2
     },
     {
       "brand": "Alo Yoga",
@@ -4053,9 +4482,9 @@
     },
     {
       "brand": "Lululemon",
-      "bottoms": 34.3,
+      "bottoms": 34.4,
       "tops": 15.9,
-      "outerwear": 13.3,
+      "outerwear": 13.4,
       "dresses": 1.5,
       "sports_bras": 3.5,
       "accessories": 13.3,
@@ -4162,11 +4591,11 @@
     },
     {
       "brand": "Gymshark",
-      "black": 24.1,
-      "white": 7.5,
+      "black": 24,
+      "white": 7.6,
       "gray": 12.5,
       "navy": 0.8,
-      "blue": 16.1,
+      "blue": 16.2,
       "green": 5.1,
       "khaki": 0,
       "brown": 7.2,
@@ -4174,7 +4603,7 @@
       "pink": 7.2,
       "orange": 0.3,
       "red": 3.2,
-      "yellow": 0.7,
+      "yellow": 0.6,
       "other": 0.2
     },
     {
@@ -4385,20 +4814,20 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1437,
-      "text": "Vuori leads Lululemon in men's: 1437 vs 1189 products. A 21% advantage."
+      "value": 1438,
+      "text": "Vuori leads Lululemon in men's: 1438 vs 1191 products. A 21% advantage."
     },
     {
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
       "value": 662,
-      "text": "Vuori ranks #3 in shorts with 662 products. Behind Gymshark (1226)."
+      "text": "Vuori ranks #3 in shorts with 662 products. Behind Gymshark (1236)."
     },
     {
       "type": "comparison",
       "metric": "outerwear",
-      "text": "Outerwear depth: Vuori has 512 products vs Lululemon's 602. Key for cooler weather expansion."
+      "text": "Outerwear depth: Vuori has 512 products vs Lululemon's 606. Key for cooler weather expansion."
     }
   ],
   "vuoriScorecard": {
@@ -4467,7 +4896,7 @@
       {
         "category": "Shorts",
         "vuori": 662,
-        "competitor": 488,
+        "competitor": 492,
         "winner": "vuori"
       },
       {
@@ -4484,14 +4913,14 @@
       },
       {
         "category": "Tees",
-        "vuori": 209,
+        "vuori": 210,
         "competitor": 14,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1437,
-        "competitor": 1189,
+        "vuori": 1438,
+        "competitor": 1191,
         "winner": "vuori"
       },
       {
@@ -4534,13 +4963,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 209,
+        "vuori": 210,
         "competitor": 52,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1437,
+        "vuori": 1438,
         "competitor": 304,
         "winner": "vuori"
       },
@@ -4552,5 +4981,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-22T13:15:23.410Z"
+  "generated_at": "2026-05-23T13:15:18.980Z"
 }

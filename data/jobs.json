@@ -3,13 +3,13 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 674,
-      "change_from_last": -4,
+      "total_jobs": 673,
+      "change_from_last": -1,
       "departments": {
-        "engineering": 29,
-        "design": 87,
+        "engineering": 28,
+        "design": 88,
         "operations": 170,
-        "other": 117,
+        "other": 116,
         "retail": 230,
         "marketing": 13,
         "finance": 6,
@@ -18,35 +18,35 @@
         "hr": 5
       },
       "seniority": {
-        "mid": 29,
+        "mid": 28,
         "manager": 161,
-        "junior": 300,
+        "junior": 301,
         "intern": 12,
         "c-suite": 29,
         "senior": 21,
-        "lead": 122
+        "lead": 121
       },
       "locations": [
-        "Boulder, Colorado, United States",
-        "Durham, North Carolina, United States",
-        "Bloomington, Minnesota, United States",
-        "Charlotte, NC",
-        "Tulsa, Oklahoma, United States",
-        "Macau",
-        "Shrewsbury, New Jersey, United States",
-        "Berlin, Berlin, Germany",
+        "Washington, DC",
+        "Skokie, IL",
         "Sydney, New South Wales, Australia",
-        "Milano, Milan, Italy",
-        "Meridian, Idaho, United States",
-        "Kansas City, Missouri, United States",
-        "Mississauga, Ontario, Canada",
-        "Fort Worth, TX",
-        "Murray, UT",
-        "Aventura, Florida, United States",
-        "San Antonio, TX",
-        "Phoenix, Arizona, United States",
-        "Lexington, Kentucky, United States",
-        "Florence, Italy"
+        "Louisville, Kentucky, United States",
+        "Commerce, California, United States",
+        "Miami Beach, Florida, United States",
+        "Boulder, Colorado, United States",
+        "Bridgewater, New Jersey, United States",
+        "Paris, Paris, France",
+        "Edmonton, AB",
+        "Ashburn, Virginia, United States",
+        "Orlando, Florida, United States",
+        "Detroit, Michigan, United States",
+        "Palm Desert, California, United States",
+        "Walnut Creek, California, United States",
+        "Venice, California, United States",
+        "Huntington Station, New York, United States",
+        "Troy, Mi",
+        "Remote",
+        "Columbus, Ohio, United States"
       ],
       "jobs": [
         {
@@ -400,21 +400,21 @@
           "seniority": "mid"
         },
         {
-          "id": "5783146004",
-          "title": "Digital Engineering Intern",
-          "location": "San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
-          "posted_at": "2026-05-20T09:05:19-04:00",
-          "category": "engineering",
-          "seniority": "intern"
-        },
-        {
           "id": "5781938004",
           "title": "Digital Engineering Intern",
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5781938004?gh_jid=5781938004",
+          "posted_at": "2026-05-20T09:05:19-04:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "5783146004",
+          "title": "Digital Engineering Intern",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5783146004?gh_jid=5783146004",
           "posted_at": "2026-05-20T09:05:19-04:00",
           "category": "engineering",
           "seniority": "intern"
@@ -550,48 +550,37 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-05-22T05:30:12.705304"
+      "checked_at": "2026-05-23T05:30:08.542056"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 18,
-      "change_from_last": 2,
+      "change_from_last": 0,
       "departments": {
-        "engineering": 2,
-        "other": 6,
+        "other": 7,
         "design": 2,
-        "retail": 7,
-        "operations": 1
+        "retail": 5,
+        "operations": 1,
+        "engineering": 3
       },
       "seniority": {
-        "mid": 6,
         "manager": 3,
-        "lead": 2,
-        "junior": 5,
+        "mid": 6,
+        "lead": 3,
+        "junior": 4,
         "senior": 2
       },
       "locations": [
-        "New York, New York, United States; New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
         "London",
+        "Manchester, England, United Kingdom",
         "Roosevelt, New York, United States",
-        "New York, New York, United States",
         "Miami, Florida, United States",
         "Solihull, England, United Kingdom",
-        "Manchester, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands"
+        "New York, New York, United States"
       ],
       "jobs": [
-        {
-          "id": "4837817101",
-          "title": "Backend Software Engineer",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4837817101",
-          "posted_at": "2026-05-12T09:30:24-04:00",
-          "category": "engineering",
-          "seniority": "mid"
-        },
         {
           "id": "4872695101",
           "title": "Delivery Manager - FTC - 15months",
@@ -663,6 +652,16 @@
           "seniority": "lead"
         },
         {
+          "id": "4874067101",
+          "title": "Lead Engineer",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4874067101",
+          "posted_at": "2026-05-22T11:39:18-04:00",
+          "category": "engineering",
+          "seniority": "lead"
+        },
+        {
           "id": "4827641101",
           "title": "Merchandise Planner  ",
           "location": "New York, New York, United States",
@@ -670,16 +669,6 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4827641101",
           "posted_at": "2026-05-19T03:53:26-04:00",
           "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "4746233101",
-          "title": "Operations Team Member - Part Time - Flagship store, New York City",
-          "location": "New York, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4746233101",
-          "posted_at": "2026-05-12T09:30:24-04:00",
-          "category": "retail",
           "seniority": "mid"
         },
         {
@@ -691,6 +680,26 @@
           "posted_at": "2026-05-12T11:35:39-04:00",
           "category": "retail",
           "seniority": "junior"
+        },
+        {
+          "id": "4873887101",
+          "title": "Product Developer",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4873887101",
+          "posted_at": "2026-05-22T08:16:14-04:00",
+          "category": "engineering",
+          "seniority": "mid"
+        },
+        {
+          "id": "4874046101",
+          "title": "Research Executive (12m FTC)",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4874046101",
+          "posted_at": "2026-05-22T10:40:53-04:00",
+          "category": "other",
+          "seniority": "mid"
         },
         {
           "id": "4865073101",
@@ -709,16 +718,6 @@
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4865081101",
           "posted_at": "2026-05-12T11:23:52-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
-          "id": "4840705101",
-          "title": "Sales Associate - Part Time -Bond Street, New York City",
-          "location": "New York, New York, United States; New York, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4840705101",
-          "posted_at": "2026-05-20T11:10:29-04:00",
           "category": "retail",
           "seniority": "junior"
         },
@@ -763,7 +762,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-05-22T05:30:14.844955"
+      "checked_at": "2026-05-23T05:30:10.691553"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -821,49 +820,49 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 319,
-      "change_from_last": 0,
+      "total_jobs": 315,
+      "change_from_last": -4,
       "departments": {
-        "other": 68,
+        "other": 67,
         "retail": 141,
-        "engineering": 47,
-        "marketing": 21,
+        "engineering": 46,
+        "marketing": 20,
         "product": 8,
         "executive": 12,
-        "design": 16,
+        "design": 15,
         "operations": 3,
         "finance": 1,
         "hr": 2
       },
       "seniority": {
-        "senior": 41,
-        "lead": 166,
-        "mid": 82,
-        "c-suite": 14,
+        "senior": 40,
+        "lead": 165,
+        "mid": 83,
+        "c-suite": 11,
         "manager": 5,
         "intern": 11
       },
       "locations": [
-        "Auckland",
-        "Paris",
-        "New York City; Portland",
-        "Sydney",
-        "Shenzhen",
-        "Madrid",
-        "Melbourne",
-        "Bicester",
-        "Central Valley",
-        "Nanjing",
+        "Las Vegas",
         "Macao",
-        "Guangzhou",
-        "Cirebon",
-        "Shanghai",
+        "Hong Kong",
+        "Dallas",
+        "London",
+        "Tianjin",
         "Ho Chi Minh City",
-        "Chicago",
-        "Munich",
-        "Portland",
-        "San Diego",
-        "Berlin"
+        "Paris",
+        "New York City",
+        "Brooklyn",
+        "Boston",
+        "Central Valley",
+        "Shanghai",
+        "Seoul",
+        "Zurich",
+        "Nanjing",
+        "Newport Beach",
+        "New York City; Portland",
+        "Shenzhen",
+        "Vienna"
       ],
       "jobs": [
         {
@@ -932,7 +931,7 @@
           "location": "New York City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7950290?gh_jid=7950290",
-          "posted_at": "2026-05-21T11:08:33-04:00",
+          "posted_at": "2026-05-22T13:10:47-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -1115,16 +1114,6 @@
           "posted_at": "2026-04-28T04:51:42-04:00",
           "category": "retail",
           "seniority": "lead"
-        },
-        {
-          "id": "7929715",
-          "title": "Chief of Staff - Retail Strategy ",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7929715?gh_jid=7929715",
-          "posted_at": "2026-05-15T10:28:02-04:00",
-          "category": "retail",
-          "seniority": "c-suite"
         },
         {
           "id": "7924988",
@@ -1359,16 +1348,26 @@
         {
           "id": "7908907",
           "title": "Head of Footwear Merchandising",
-          "location": "Portland",
+          "location": "New York City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7908907?gh_jid=7908907",
-          "posted_at": "2026-05-08T16:28:22-04:00",
+          "posted_at": "2026-05-22T13:56:32-04:00",
           "category": "product",
+          "seniority": "lead"
+        },
+        {
+          "id": "7587537",
+          "title": "Head of Marketing, Mexico",
+          "location": "Mexico City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7587537?gh_jid=7587537",
+          "posted_at": "2026-05-21T19:12:28-04:00",
+          "category": "marketing",
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-05-22T05:30:24.156794"
+      "checked_at": "2026-05-23T05:30:19.905414"
     }
   },
-  "generated_at": "2026-05-22T05:30:26.156946"
+  "generated_at": "2026-05-23T05:30:21.905568"
 }
