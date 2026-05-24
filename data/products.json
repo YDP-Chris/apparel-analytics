@@ -168,13 +168,13 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4535,
+      "total": 4541,
       "categories": {
         "tops": 720,
-        "bottoms": 1558,
+        "bottoms": 1560,
         "outerwear": 606,
-        "sports_bras": 158,
-        "accessories": 601,
+        "sports_bras": 160,
+        "accessories": 603,
         "other": 773,
         "dresses": 69,
         "footwear": 50
@@ -185,7 +185,7 @@
         "hoodies": 115,
         "other": 1372,
         "medium_support": 17,
-        "leggings": 195,
+        "leggings": 197,
         "polos": 57,
         "socks": 155,
         "pants": 406,
@@ -194,7 +194,7 @@
         "pullovers": 36,
         "joggers": 171,
         "casual_dress": 45,
-        "bags": 201,
+        "bags": 203,
         "crop_tops": 90,
         "long_sleeve": 171,
         "fleece": 15,
@@ -206,27 +206,27 @@
         "headwear": 19,
         "training": 8,
         "bralette": 8,
-        "low_support": 51,
+        "low_support": 53,
         "rompers": 11,
         "high_support": 5,
         "tennis_dress": 11,
         "sweatpants": 4
       },
       "genders": {
-        "womens": 1443,
+        "womens": 1447,
         "mens": 1191,
-        "unisex": 1901
+        "unisex": 1903
       },
       "colors": {
         "print": 119,
-        "multi": 32,
+        "multi": 34,
         "yellow": 7,
         "white": 15,
         "blue": 8,
         "green": 4,
         "red": 2
       },
-      "colorCoverage": 4.1,
+      "colorCoverage": 4.2,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 110
     },
@@ -645,12 +645,56 @@
     }
   },
   "totals": {
-    "products": 35298,
+    "products": 35304,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-23",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 6,
+      "products": [
+        {
+          "name": "nulu ruched scoop neck bra light support ab cup",
+          "url": "https://shop.lululemon.com/p/women-sports-bras/Nulu-Ruched-Scoop-Neck-Bra-Light-Support-AB-Cup/_/prod11890065",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "pocket crossbody bag",
+          "url": "https://shop.lululemon.com/p/multi-pocket-crossbody-bag-logo/pmjkp3fl86-md",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "pocket crossbody bag",
+          "url": "https://shop.lululemon.com/p/multi-pocket-crossbody-bag-logo/pmjkp3fl86",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "nulu ruched scoop neck bra light support ab cup",
+          "url": "https://shop.lululemon.com/p/women-sports-bras/Nulu-Ruched-Scoop-Neck-Bra-Light-Support-AB-Cup-MD/_/prod11890067",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "stitch trim high rise tight",
+          "url": "https://shop.lululemon.com/p/womens-leggings/Stitch-Trim-High-Rise-Tight-25/_/prod20005399",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "stitch trim high rise tight",
+          "url": "https://shop.lululemon.com/p/womens-leggings/Stitch-Trim-High-Rise-Tight-25-MD/_/prod20005398",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-05-23",
       "brand": "Vuori",
@@ -3727,7 +3771,8 @@
       "2026-05-19": 40,
       "2026-05-20": 10,
       "2026-05-21": 34,
-      "2026-05-22": 10
+      "2026-05-22": 10,
+      "2026-05-23": 6
     },
     "alo": {
       "2026-02-03": 3396,
@@ -3912,7 +3957,7 @@
       "vuori": 1825,
       "outdoor_voices": 204,
       "tenthousand": 59,
-      "lululemon": 1558,
+      "lululemon": 1560,
       "alo": 1766,
       "gymshark": 3050,
       "on_running": 1571,
@@ -3964,7 +4009,7 @@
     "sports_bras": {
       "vuori": 120,
       "outdoor_voices": 33,
-      "lululemon": 158,
+      "lululemon": 160,
       "alo": 319,
       "gymshark": 658,
       "on_running": 177,
@@ -3983,7 +4028,7 @@
       "vuori": 196,
       "outdoor_voices": 34,
       "tenthousand": 2,
-      "lululemon": 601,
+      "lululemon": 603,
       "alo": 403,
       "gymshark": 494,
       "on_running": 671,
@@ -4052,7 +4097,7 @@
       "vuori": 171,
       "outdoor_voices": 15,
       "tenthousand": 4,
-      "lululemon": 195,
+      "lululemon": 197,
       "alo": 361,
       "gymshark": 723,
       "on_running": 395,
@@ -4214,7 +4259,7 @@
     },
     "bags": {
       "vuori": 9,
-      "lululemon": 201,
+      "lululemon": 203,
       "alo": 1,
       "gymshark": 66,
       "gymreapers": 5,
@@ -4267,7 +4312,7 @@
       "gymshark": 64
     },
     "low_support": {
-      "lululemon": 51,
+      "lululemon": 53,
       "gymshark": 34
     },
     "high_support": {
@@ -4431,7 +4476,7 @@
     "multi": {
       "vuori": 6,
       "outdoor_voices": 10,
-      "lululemon": 32,
+      "lululemon": 34,
       "alo": 4,
       "harbinger": 2
     },
@@ -4484,7 +4529,7 @@
       "brand": "Lululemon",
       "bottoms": 34.4,
       "tops": 15.9,
-      "outerwear": 13.4,
+      "outerwear": 13.3,
       "dresses": 1.5,
       "sports_bras": 3.5,
       "accessories": 13.3,
@@ -4638,7 +4683,7 @@
       "orange": 0,
       "red": 0,
       "yellow": 0.2,
-      "other": 3.3
+      "other": 3.4
     },
     {
       "brand": "Vuori",
@@ -4800,8 +4845,8 @@
       "type": "gap",
       "metric": "leggings",
       "brand": "Vuori",
-      "value": 24,
-      "text": "Leggings opportunity: Lululemon has 195 vs Vuori's 171. Gap of 24 SKUs."
+      "value": 26,
+      "text": "Leggings opportunity: Lululemon has 197 vs Vuori's 171. Gap of 26 SKUs."
     },
     {
       "type": "trend",
@@ -4890,7 +4935,7 @@
       {
         "category": "Leggings",
         "vuori": 171,
-        "competitor": 195,
+        "competitor": 197,
         "winner": "competitor"
       },
       {
@@ -4926,7 +4971,7 @@
       {
         "category": "Women's Products",
         "vuori": 1755,
-        "competitor": 1443,
+        "competitor": 1447,
         "winner": "vuori"
       }
     ],
@@ -4981,5 +5026,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-23T13:15:18.980Z"
+  "generated_at": "2026-05-24T13:15:21.006Z"
 }
