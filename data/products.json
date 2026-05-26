@@ -168,14 +168,14 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4541,
+      "total": 4549,
       "categories": {
         "tops": 720,
-        "bottoms": 1560,
+        "bottoms": 1562,
         "outerwear": 606,
         "sports_bras": 160,
         "accessories": 603,
-        "other": 773,
+        "other": 779,
         "dresses": 69,
         "footwear": 50
       },
@@ -183,7 +183,7 @@
         "tanks": 240,
         "shorts": 492,
         "hoodies": 115,
-        "other": 1372,
+        "other": 1380,
         "medium_support": 17,
         "leggings": 197,
         "polos": 57,
@@ -213,9 +213,9 @@
         "sweatpants": 4
       },
       "genders": {
-        "womens": 1447,
+        "womens": 1451,
         "mens": 1191,
-        "unisex": 1903
+        "unisex": 1907
       },
       "colors": {
         "print": 119,
@@ -233,11 +233,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4695,
+      "total": 4696,
       "categories": {
         "other": 808,
         "bottoms": 1766,
-        "tops": 562,
+        "tops": 563,
         "sports_bras": 319,
         "accessories": 403,
         "outerwear": 672,
@@ -247,7 +247,7 @@
       "subcategories": {
         "other": 1634,
         "leggings": 361,
-        "tanks": 260,
+        "tanks": 261,
         "shorts": 412,
         "hats": 142,
         "sweatpants": 213,
@@ -273,13 +273,13 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 2945,
+        "unisex": 2946,
         "womens": 1446,
         "mens": 304
       },
       "colors": {
         "navy": 193,
-        "black": 1020,
+        "black": 1021,
         "white": 907,
         "gray": 490,
         "khaki": 132,
@@ -645,12 +645,82 @@
     }
   },
   "totals": {
-    "products": 35304,
+    "products": 35313,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-25",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 8,
+      "products": [
+        {
+          "name": "removable sweatband terry jacquard visor",
+          "url": "https://shop.lululemon.com/p/removable-sweatband-terry-jacquard-visor/n8aem865jn",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "restfeel woven slide pride",
+          "url": "https://shop.lululemon.com/p/womens-restfeel-woven-slide-pride/dyhp9czbc6-md",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "terry jacquard oversized scrunchie",
+          "url": "https://shop.lululemon.com/p/terry-jacquard-oversized-scrunchie/qy6ai1lfo5-md",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "removable sweatband terry jacquard visor",
+          "url": "https://shop.lululemon.com/p/removable-sweatband-terry-jacquard-visor/n8aem865jn-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "restfeel woven slide pride",
+          "url": "https://shop.lululemon.com/p/womens-restfeel-woven-slide-pride/dyhp9czbc6",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "lululemon energy long med support bd evolve word",
+          "url": "https://shop.lululemon.com/p/women-sports-bras/lululemon-Energy-Long-Med-Support-BD-Evolve-Word-MD/_/prod20008422",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "lululemon energy long med support bd evolve word",
+          "url": "https://shop.lululemon.com/p/women-sports-bras/lululemon-Energy-Long-Med-Support-BD-Evolve-Word/_/prod20008423",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "terry jacquard oversized scrunchie",
+          "url": "https://shop.lululemon.com/p/terry-jacquard-oversized-scrunchie/qy6ai1lfo5",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "airlift winter warm cropped supermoto tank",
+          "url": "https://www.aloyoga.com/products/w9702r-airlift-winter-warm-cropped-supermoto-tank-black",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-05-23",
       "brand": "Lululemon",
@@ -3600,20 +3670,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-09",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 1,
-      "products": [
-        {
-          "name": "vuori no show sock 2 0",
-          "url": "https://vuoriclothing.com/products/vuori-no-show-sock-2-0-toast-heather",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -3772,7 +3828,8 @@
       "2026-05-20": 10,
       "2026-05-21": 34,
       "2026-05-22": 10,
-      "2026-05-23": 6
+      "2026-05-23": 6,
+      "2026-05-25": 8
     },
     "alo": {
       "2026-02-03": 3396,
@@ -3843,7 +3900,8 @@
       "2026-05-08": 2,
       "2026-05-11": 6,
       "2026-05-14": 1,
-      "2026-05-20": 1
+      "2026-05-20": 1,
+      "2026-05-25": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -3957,7 +4015,7 @@
       "vuori": 1825,
       "outdoor_voices": 204,
       "tenthousand": 59,
-      "lululemon": 1560,
+      "lululemon": 1562,
       "alo": 1766,
       "gymshark": 3050,
       "on_running": 1571,
@@ -3971,7 +4029,7 @@
       "outdoor_voices": 53,
       "tenthousand": 33,
       "lululemon": 720,
-      "alo": 562,
+      "alo": 563,
       "gymshark": 2679,
       "on_running": 622,
       "gymreapers": 223,
@@ -3996,7 +4054,7 @@
       "vuori": 557,
       "outdoor_voices": 48,
       "tenthousand": 10,
-      "lululemon": 773,
+      "lululemon": 779,
       "alo": 808,
       "gymshark": 597,
       "on_running": 2737,
@@ -4076,7 +4134,7 @@
       "outdoor_voices": 24,
       "tenthousand": 4,
       "lululemon": 240,
-      "alo": 260,
+      "alo": 261,
       "gymshark": 738,
       "on_running": 288,
       "gymreapers": 33,
@@ -4108,7 +4166,7 @@
       "vuori": 1143,
       "outdoor_voices": 143,
       "tenthousand": 28,
-      "lululemon": 1372,
+      "lululemon": 1380,
       "alo": 1634,
       "gymshark": 2733,
       "on_running": 3085,
@@ -4351,7 +4409,7 @@
     "black": {
       "vuori": 724,
       "outdoor_voices": 66,
-      "alo": 1020,
+      "alo": 1021,
       "gymshark": 2005,
       "on_running": 1495,
       "gymreapers": 123,
@@ -4527,13 +4585,13 @@
     },
     {
       "brand": "Lululemon",
-      "bottoms": 34.4,
-      "tops": 15.9,
+      "bottoms": 34.3,
+      "tops": 15.8,
       "outerwear": 13.3,
       "dresses": 1.5,
       "sports_bras": 3.5,
       "accessories": 13.3,
-      "other": 17
+      "other": 17.1
     },
     {
       "brand": "Vuori",
@@ -4971,7 +5029,7 @@
       {
         "category": "Women's Products",
         "vuori": 1755,
-        "competitor": 1447,
+        "competitor": 1451,
         "winner": "vuori"
       }
     ],
@@ -5003,7 +5061,7 @@
       {
         "category": "Tanks",
         "vuori": 184,
-        "competitor": 260,
+        "competitor": 261,
         "winner": "competitor"
       },
       {
@@ -5026,5 +5084,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-25T13:15:22.783Z"
+  "generated_at": "2026-05-26T13:15:20.197Z"
 }
