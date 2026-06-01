@@ -233,11 +233,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4699,
+      "total": 4700,
       "categories": {
         "other": 810,
         "bottoms": 1767,
-        "tops": 563,
+        "tops": 564,
         "sports_bras": 319,
         "accessories": 403,
         "outerwear": 672,
@@ -263,7 +263,7 @@
         "socks": 178,
         "bralette": 9,
         "polos": 14,
-        "crop_tops": 184,
+        "crop_tops": 185,
         "casual_dress": 58,
         "tennis_dress": 31,
         "headwear": 50,
@@ -273,7 +273,7 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 2949,
+        "unisex": 2950,
         "womens": 1446,
         "mens": 304
       },
@@ -283,7 +283,7 @@
         "white": 907,
         "gray": 491,
         "khaki": 132,
-        "pink": 225,
+        "pink": 226,
         "blue": 241,
         "purple": 38,
         "green": 305,
@@ -298,7 +298,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2885
+      "uniqueStyles": 2886
     },
     "gymshark": {
       "name": "Gymshark",
@@ -645,12 +645,26 @@
     }
   },
   "totals": {
-    "products": 35814,
+    "products": 35815,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-05-31",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "cropped playmaker jacket summer crush",
+          "url": "https://www.aloyoga.com/products/w4575r-cropped-playmaker-jacket-pink-summer-crush",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-05-29",
       "brand": "Gymshark",
@@ -4974,46 +4988,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-15",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 2,
-      "products": [
-        {
-          "name": "gymshark featherform v neck bralette underwear",
-          "url": "https://www.gymshark.com/products/gymshark-featherform-v-neck-bralette-underwear-black-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark featherform v neck bralette underwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-featherform-v-neck-bralette-underwear-black-ss26",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-15",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 2,
-      "products": [
-        {
-          "name": "court t edge w",
-          "url": "https://www.on.com/en-us/products/court-t-edge-w-1wg1177/womens/bloom-white-apparel-1WG11774576",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "court t edge w 1wg1177",
-          "url": "https://www.on.com/en-us/products/court-t-edge-w-1wg1177/womens",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5252,7 +5226,8 @@
       "2026-05-25": 1,
       "2026-05-26": 1,
       "2026-05-28": 1,
-      "2026-05-29": 1
+      "2026-05-29": 1,
+      "2026-05-31": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5387,7 +5362,7 @@
       "outdoor_voices": 53,
       "tenthousand": 33,
       "lululemon": 740,
-      "alo": 563,
+      "alo": 564,
       "gymshark": 2753,
       "on_running": 622,
       "gymreapers": 223,
@@ -5636,7 +5611,7 @@
       "vuori": 10,
       "outdoor_voices": 9,
       "lululemon": 92,
-      "alo": 184,
+      "alo": 185,
       "gymshark": 166,
       "on_running": 191,
       "gymreapers": 16,
@@ -5882,7 +5857,7 @@
     "pink": {
       "vuori": 75,
       "outdoor_voices": 7,
-      "alo": 225,
+      "alo": 226,
       "gymshark": 653,
       "on_running": 185,
       "gymreapers": 15,
@@ -6442,5 +6417,5 @@
       }
     ]
   },
-  "generated_at": "2026-05-31T13:15:20.972Z"
+  "generated_at": "2026-06-01T13:15:18.336Z"
 }

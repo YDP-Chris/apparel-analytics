@@ -4,7 +4,7 @@
       "name": "Alo Yoga",
       "platform": "greenhouse",
       "total_jobs": 631,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
         "engineering": 20,
         "design": 82,
@@ -27,26 +27,26 @@
         "lead": 116
       },
       "locations": [
+        "Alexandria, Virginia, United States",
+        "Tulsa, Oklahoma, United States",
+        "Honolulu, HI",
+        "Cherry Hill, New Jersey, United States",
+        "Meridian, Idaho, United States",
+        "West Hartford, CT",
+        "Atlanta, Georgia, United States",
         "West Palm Beach, Florida, United States",
-        "Charleston, South Carolina, United States",
-        "Coral Gables, FL",
-        "Louisville, Kentucky, United States",
-        "Mount Royal, Quebec",
-        "Florence, Italy",
-        "Schaumburg, IL",
-        "Remote",
-        "London, England, United Kingdom",
-        "Washington, DC",
-        "Thousand Oaks, California, United States",
-        "Richmond, Virginia, United States",
-        "Manhasset, NY",
-        "Oakbrook, IL",
-        "Paris, Paris, France",
-        "Houston, TX",
-        "Montreal, QC",
-        "Chicago, Illinois, United States",
+        "Orlando, Florida, United States",
+        "Palm Desert, California, United States",
+        "Canoga Park, California, United States",
+        "Minnetonka, Minnesota, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Edmonton, AB",
         "Cincinnati, OH",
-        "Alys Beach, Florida, United States"
+        "Ashburn, Virginia, United States",
+        "Metairie, Louisiana",
+        "Short Hills, New Jersey, United States",
+        "Murray, UT",
+        "Princeton, New Jersey, United States"
       ],
       "jobs": [
         {
@@ -550,35 +550,35 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-05-31T05:30:09.232453"
+      "checked_at": "2026-06-01T05:30:08.149396"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 20,
-      "change_from_last": 0,
+      "total_jobs": 18,
+      "change_from_last": -2,
       "departments": {
-        "other": 7,
+        "other": 6,
         "engineering": 4,
         "marketing": 1,
-        "design": 4,
-        "retail": 4
+        "retail": 4,
+        "design": 3
       },
       "seniority": {
-        "mid": 11,
-        "manager": 2,
+        "mid": 10,
+        "manager": 1,
         "lead": 4,
         "junior": 1,
         "senior": 2
       },
       "locations": [
-        "Solihull, England, United Kingdom",
-        "New York, New York, United States; New York, New York, United States",
-        "Manchester, England, United Kingdom",
         "London",
+        "London; Solihull, England, United Kingdom",
+        "Solihull, England, United Kingdom",
         "New York, New York, United States",
+        "Manchester, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
-        "London; Solihull, England, United Kingdom"
+        "New York, New York, United States; New York, New York, United States"
       ],
       "jobs": [
         {
@@ -600,16 +600,6 @@
           "posted_at": "2026-05-28T08:48:11-04:00",
           "category": "engineering",
           "seniority": "mid"
-        },
-        {
-          "id": "4872695101",
-          "title": "Delivery Manager - FTC - 15months",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4872695101",
-          "posted_at": "2026-05-27T15:15:29-04:00",
-          "category": "other",
-          "seniority": "manager"
         },
         {
           "id": "4842921101",
@@ -639,16 +629,6 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4861259101",
           "posted_at": "2026-05-12T09:30:24-04:00",
           "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "4873365101",
-          "title": "Field Visual Merchandiser",
-          "location": "New York, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4873365101",
-          "posted_at": "2026-05-21T16:45:45-04:00",
-          "category": "design",
           "seniority": "mid"
         },
         {
@@ -782,7 +762,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-05-31T05:30:11.397732"
+      "checked_at": "2026-06-01T05:30:10.305976"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -863,26 +843,26 @@
         "intern": 12
       },
       "locations": [
-        "Hong Kong",
-        "Zurich",
-        "Hanoi",
-        "Beijing",
-        "Stockholm",
-        "Berlin; Zurich",
-        "Newport Beach",
-        "Shenzhen",
         "London",
-        "Sydney",
-        "London; Zurich",
-        "Bicester",
-        "Montreal",
-        "New York City; Portland",
-        "Munich",
-        "Tianjin",
-        "Madrid",
-        "Portland",
         "Melbourne",
-        "Milan"
+        "Chengdu",
+        "Montreal",
+        "Shenzhen",
+        "Auckland",
+        "Guangzhou",
+        "Washington D.C.",
+        "Macao",
+        "San Francisco",
+        "Miami",
+        "Cirebon",
+        "Palo Alto",
+        "Milan",
+        "Berlin; Zurich",
+        "Sydney",
+        "Vienna",
+        "Munich",
+        "Bicester",
+        "Newport Beach"
       ],
       "jobs": [
         {
@@ -1386,8 +1366,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-05-31T05:30:20.623212"
+      "checked_at": "2026-06-01T05:30:19.669490"
     }
   },
-  "generated_at": "2026-05-31T05:30:22.623402"
+  "generated_at": "2026-06-01T05:30:21.670431"
 }
