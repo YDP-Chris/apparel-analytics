@@ -168,12 +168,12 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4671,
+      "total": 4673,
       "categories": {
         "tops": 740,
         "bottoms": 1608,
         "outerwear": 614,
-        "sports_bras": 170,
+        "sports_bras": 172,
         "accessories": 611,
         "other": 809,
         "dresses": 69,
@@ -183,7 +183,7 @@
         "tanks": 248,
         "shorts": 508,
         "hoodies": 119,
-        "other": 1426,
+        "other": 1428,
         "medium_support": 19,
         "leggings": 199,
         "polos": 61,
@@ -213,7 +213,7 @@
         "sweatpants": 4
       },
       "genders": {
-        "womens": 1475,
+        "womens": 1477,
         "mens": 1207,
         "unisex": 1989
       },
@@ -233,19 +233,19 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4700,
+      "total": 4702,
       "categories": {
         "other": 810,
         "bottoms": 1767,
         "tops": 564,
-        "sports_bras": 319,
+        "sports_bras": 321,
         "accessories": 403,
         "outerwear": 672,
         "footwear": 45,
         "dresses": 120
       },
       "subcategories": {
-        "other": 1637,
+        "other": 1638,
         "leggings": 361,
         "tanks": 261,
         "shorts": 412,
@@ -261,7 +261,7 @@
         "jackets": 185,
         "bags": 1,
         "socks": 178,
-        "bralette": 9,
+        "bralette": 10,
         "polos": 14,
         "crop_tops": 185,
         "casual_dress": 58,
@@ -274,7 +274,7 @@
       },
       "genders": {
         "unisex": 2950,
-        "womens": 1446,
+        "womens": 1448,
         "mens": 304
       },
       "colors": {
@@ -288,7 +288,7 @@
         "purple": 38,
         "green": 305,
         "brown": 287,
-        "red": 213,
+        "red": 214,
         "heather": 24,
         "rust": 7,
         "orange": 2,
@@ -298,7 +298,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2886
+      "uniqueStyles": 2887
     },
     "gymshark": {
       "name": "Gymshark",
@@ -435,17 +435,17 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1039,
+      "total": 1040,
       "categories": {
         "other": 309,
-        "accessories": 184,
+        "accessories": 185,
         "tops": 223,
         "bottoms": 201,
         "sports_bras": 65,
         "outerwear": 57
       },
       "subcategories": {
-        "other": 521,
+        "other": 522,
         "tees": 110,
         "shorts": 128,
         "hats": 74,
@@ -465,7 +465,7 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 877,
+        "unisex": 878,
         "womens": 141,
         "mens": 21
       },
@@ -477,7 +477,7 @@
         "white": 90,
         "gray": 72,
         "blue": 31,
-        "camo": 33,
+        "camo": 34,
         "navy": 37,
         "rust": 3,
         "pink": 15,
@@ -488,7 +488,7 @@
       },
       "colorCoverage": 62.4,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 399
+      "uniqueStyles": 400
     },
     "sbd": {
       "name": "sbd",
@@ -645,12 +645,66 @@
     }
   },
   "totals": {
-    "products": 35815,
+    "products": 35820,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-02",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "airmesh venus bralette classic",
+          "url": "https://www.aloyoga.com/products/w9514r-airmesh-venus-bralette-classic-red",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "airlift line up bra soft mulberry",
+          "url": "https://www.aloyoga.com/products/w9533r-airlift-line-up-bra-soft-mulberry",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 2,
+      "products": [
+        {
+          "name": "wunder train strappy racer bra light supp cd pride",
+          "url": "https://shop.lululemon.com/p/wunder-train-strappy-racer-bra-light-supp-cd-pride/hvti24msso-md",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "wunder train strappy racer bra light supp cd pride",
+          "url": "https://shop.lululemon.com/p/wunder-train-strappy-racer-bra-light-supp-cd-pride/hvti24msso",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 1,
+      "products": [
+        {
+          "name": "gymreapers dip belt midnight",
+          "url": "https://www.gymreapers.com/products/gymreapers-dip-belt-midnight-camo",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-05-31",
       "brand": "Alo Yoga",
@@ -4824,170 +4878,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-05-17",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "magnitude hat 2 0",
-          "url": "https://vuoriclothing.com/products/magnitude-hat-2-0-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "magnitude hat 2 0",
-          "url": "https://vuoriclothing.com/products/magnitude-hat-2-0-white",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-16",
-      "brand": "gymreapers",
-      "brandSlug": "gymreapers",
-      "count": 15,
-      "products": [
-        {
-          "name": "apex freedom",
-          "url": "https://www.gymreapers.com/products/womens-apex-freedom",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "stryda run gloves",
-          "url": "https://www.gymreapers.com/products/stryda-run-gloves-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "stryda run gloves",
-          "url": "https://www.gymreapers.com/products/stryda-run-gloves-charcoal",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "stryda balaclava",
-          "url": "https://www.gymreapers.com/products/stryda-balaclava",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "stryda snood",
-          "url": "https://www.gymreapers.com/products/stryda-snood",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "stryda skull cap",
-          "url": "https://www.gymreapers.com/products/stryda-skull-cap",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "ghost oversized tee",
-          "url": "https://www.gymreapers.com/products/ghost-oversized-tee",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "ghost racer tank",
-          "url": "https://www.gymreapers.com/products/ghost-racer-tank",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "ghost 5 run shorts",
-          "url": "https://www.gymreapers.com/products/ghost-5-run-shorts",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "stryda crew run socks",
-          "url": "https://www.gymreapers.com/products/stryda-crew-run-socks-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "stryda crew run socks",
-          "url": "https://www.gymreapers.com/products/stryda-crew-run-socks-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "stainless steel shaker",
-          "url": "https://www.gymreapers.com/products/stainless-steel-shaker-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "stainless steel shaker",
-          "url": "https://www.gymreapers.com/products/stainless-steel-shaker-white",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ribbed tank 3 pack",
-          "url": "https://www.gymreapers.com/products/mens-ribbed-tank-3-pack-black",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "ribbed tank 3 pack black gray",
-          "url": "https://www.gymreapers.com/products/mens-ribbed-tank-3-pack-black-gray-white",
-          "category": "tops",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-16",
-      "brand": "bear_grips",
-      "brandSlug": "bear_grips",
-      "count": 4,
-      "products": [
-        {
-          "name": "creatine monohydrate",
-          "url": "https://www.beargrips.com/products/creatine-monohydrate",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "s oversized boxy tee spring k fit body",
-          "url": "https://www.beargrips.com/products/women-s-oversized-boxy-tee-spring-k-fit-body",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "comfort colors lightweight crewneck sweatshirt spring k fit body",
-          "url": "https://www.beargrips.com/products/comfort-colors-lightweight-crewneck-sweatshirt-spring-k-fit-body",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "50 50 hooded sweatshirt spring k fit body",
-          "url": "https://www.beargrips.com/products/50-50-hooded-sweatshirt-spring-k-fit-body",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-16",
-      "brand": "sbd",
-      "brandSlug": "sbd",
-      "count": 1,
-      "products": [
-        {
-          "name": "the worlds strongest man t shirt",
-          "url": "https://sbdapparel.com/products/the-worlds-strongest-man-t-shirt",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5151,7 +5041,8 @@
       "2026-05-26": 14,
       "2026-05-27": 2,
       "2026-05-28": 98,
-      "2026-05-29": 8
+      "2026-05-29": 8,
+      "2026-06-01": 2
     },
     "alo": {
       "2026-02-03": 3396,
@@ -5227,7 +5118,8 @@
       "2026-05-26": 1,
       "2026-05-28": 1,
       "2026-05-29": 1,
-      "2026-05-31": 1
+      "2026-05-31": 1,
+      "2026-06-02": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5324,7 +5216,8 @@
     "gymreapers": {
       "2026-04-07": 1020,
       "2026-05-16": 15,
-      "2026-05-20": 5
+      "2026-05-20": 5,
+      "2026-06-01": 1
     },
     "sbd": {
       "2026-04-07": 206,
@@ -5400,8 +5293,8 @@
     "sports_bras": {
       "vuori": 120,
       "outdoor_voices": 33,
-      "lululemon": 170,
-      "alo": 319,
+      "lululemon": 172,
+      "alo": 321,
       "gymshark": 698,
       "on_running": 180,
       "gymreapers": 65,
@@ -5423,7 +5316,7 @@
       "alo": 403,
       "gymshark": 518,
       "on_running": 674,
-      "gymreapers": 184,
+      "gymreapers": 185,
       "sbd": 54,
       "harbinger": 24,
       "schiek": 44,
@@ -5499,11 +5392,11 @@
       "vuori": 1143,
       "outdoor_voices": 143,
       "tenthousand": 28,
-      "lululemon": 1426,
-      "alo": 1637,
+      "lululemon": 1428,
+      "alo": 1638,
       "gymshark": 2850,
       "on_running": 3101,
-      "gymreapers": 521,
+      "gymreapers": 522,
       "sbd": 137,
       "harbinger": 46,
       "schiek": 105,
@@ -5699,7 +5592,7 @@
     },
     "bralette": {
       "lululemon": 10,
-      "alo": 9,
+      "alo": 10,
       "gymshark": 64
     },
     "low_support": {
@@ -5762,7 +5655,7 @@
     "red": {
       "vuori": 31,
       "lululemon": 2,
-      "alo": 213,
+      "alo": 214,
       "gymshark": 297,
       "on_running": 225,
       "gymreapers": 60,
@@ -5882,7 +5775,7 @@
       "vuori": 7,
       "alo": 1,
       "on_running": 6,
-      "gymreapers": 33
+      "gymreapers": 34
     }
   },
   "categoryMix": [
@@ -5922,7 +5815,7 @@
       "tops": 15.8,
       "outerwear": 13.1,
       "dresses": 1.5,
-      "sports_bras": 3.6,
+      "sports_bras": 3.7,
       "accessories": 13.1,
       "other": 17.3
     },
@@ -5949,11 +5842,11 @@
     {
       "brand": "gymreapers",
       "bottoms": 19.3,
-      "tops": 21.5,
+      "tops": 21.4,
       "outerwear": 5.5,
       "dresses": 0,
       "sports_bras": 6.3,
-      "accessories": 17.7,
+      "accessories": 17.8,
       "other": 29.7
     },
     {
@@ -6055,7 +5948,7 @@
       "purple": 0.8,
       "pink": 4.8,
       "orange": 0,
-      "red": 4.5,
+      "red": 4.6,
       "yellow": 1.3,
       "other": 0.8
     },
@@ -6125,7 +6018,7 @@
       "orange": 0.1,
       "red": 5.8,
       "yellow": 0.5,
-      "other": 3.5
+      "other": 3.6
     },
     {
       "brand": "Outdoor Voices",
@@ -6303,7 +6196,7 @@
       {
         "metric": "Bralette",
         "value": "0 products",
-        "comparison": "Competitors have 83 products"
+        "comparison": "Competitors have 84 products"
       }
     ],
     "alerts": [
@@ -6362,7 +6255,7 @@
       {
         "category": "Women's Products",
         "vuori": 1755,
-        "competitor": 1475,
+        "competitor": 1477,
         "winner": "vuori"
       }
     ],
@@ -6412,10 +6305,10 @@
       {
         "category": "Women's Products",
         "vuori": 1755,
-        "competitor": 1446,
+        "competitor": 1448,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-06-01T13:15:18.336Z"
+  "generated_at": "2026-06-02T13:15:22.035Z"
 }
