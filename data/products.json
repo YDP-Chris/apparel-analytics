@@ -233,11 +233,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4705,
+      "total": 4707,
       "categories": {
-        "other": 810,
+        "other": 811,
         "bottoms": 1768,
-        "tops": 566,
+        "tops": 567,
         "sports_bras": 321,
         "accessories": 403,
         "outerwear": 672,
@@ -245,7 +245,7 @@
         "dresses": 120
       },
       "subcategories": {
-        "other": 1638,
+        "other": 1639,
         "leggings": 361,
         "tanks": 263,
         "shorts": 412,
@@ -263,7 +263,7 @@
         "socks": 178,
         "bralette": 10,
         "polos": 14,
-        "crop_tops": 185,
+        "crop_tops": 186,
         "casual_dress": 58,
         "tennis_dress": 31,
         "headwear": 50,
@@ -273,13 +273,13 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 2951,
+        "unisex": 2953,
         "womens": 1450,
         "mens": 304
       },
       "colors": {
         "navy": 194,
-        "black": 1021,
+        "black": 1023,
         "white": 907,
         "gray": 492,
         "khaki": 132,
@@ -298,7 +298,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2889
+      "uniqueStyles": 2890
     },
     "gymshark": {
       "name": "Gymshark",
@@ -368,14 +368,14 @@
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 9471,
+      "total": 9472,
       "categories": {
         "bottoms": 1577,
         "tops": 622,
         "accessories": 674,
         "sports_bras": 180,
         "other": 2750,
-        "footwear": 2784,
+        "footwear": 2785,
         "outerwear": 861,
         "dresses": 23
       },
@@ -386,7 +386,7 @@
         "hats": 218,
         "crop_tops": 191,
         "pants": 387,
-        "running": 2580,
+        "running": 2581,
         "tanks": 288,
         "jackets": 424,
         "joggers": 27,
@@ -408,12 +408,12 @@
       "genders": {
         "womens": 4523,
         "mens": 3957,
-        "unisex": 991
+        "unisex": 992
       },
       "colors": {
         "blue": 784,
         "red": 225,
-        "black": 1503,
+        "black": 1504,
         "purple": 183,
         "navy": 295,
         "khaki": 200,
@@ -645,12 +645,46 @@
     }
   },
   "totals": {
-    "products": 35839,
+    "products": 35842,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-04",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 1,
+      "products": [
+        {
+          "name": "cloudmonster 3 hyper ls u",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-ls-u-3ug1001/unisex/black-apollo-shoes-3UG10014670",
+          "category": "footwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "beats studio pro headphones",
+          "url": "https://www.aloyoga.com/products/a0724u-beats-studio-pro-headphones-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ribbed cropped whisper cardigan",
+          "url": "https://www.aloyoga.com/products/w3587r-ribbed-cropped-whisper-cardigan-black",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "brand": "Lululemon",
@@ -4712,302 +4746,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-19",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 40,
-      "products": [
-        {
-          "name": "ventilated tennis tank top",
-          "url": "https://shop.lululemon.com/p/women-tanks/Ventilated-Tennis-Tank-Top/_/prod20005595",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "angled pleat high rise tennis skirt",
-          "url": "https://shop.lululemon.com/p/skirts-and-dresses-skirts/Angled-Pleat-High-Rise-Tennis-Skirt/_/prod20004919",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "organic cotton baby tee graphic md",
-          "url": "https://shop.lululemon.com/p/tops-short-sleeve/Organic-Cotton-Baby-Tee-Graphic-MD/_/prod20000438",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "crinkle nylon mid rise track pant wordmark md",
-          "url": "https://shop.lululemon.com/p/women-pants/Crinkle-Nylon-Mid-Rise-Track-Pant-Wordmark-MD/_/prod20000814",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "onrr6tsevd",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-back-v-long-tennis-bra-med-support-bc/onrr6tsevd",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "fast and free high rise skirt md",
-          "url": "https://shop.lululemon.com/p/skirts-and-dresses-skirts/Fast-And-Free-High-Rise-Skirt-MD/_/prod20006546",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "pique tight fit cropped polo shirt md",
-          "url": "https://shop.lululemon.com/p/w-polo-shirts/Pique-Tight-Fit-Cropped-Polo-Shirt-MD/_/prod11871571",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "asymmetrical strap cropped tank med support bc cup",
-          "url": "https://shop.lululemon.com/p/women-tanks/Asymmetrical-Strap-Cropped-Tank-Med-Support-BC-Cup/_/prod11890081",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "softy suedey relaxed boatneck long sleeve shirt",
-          "url": "https://shop.lululemon.com/p/tops-long-sleeve/Softy-Suedey-Relaxed-Boatneck-Long-Sleeve-Shirt/_/prod20001047",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "nqjew1yrzk md",
-          "url": "https://shop.lululemon.com/p/womens-ventilated-short-sleeve-tennis-shirt/nqjew1yrzk-md",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "oa874ntnjh",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-high-rise-tennis-skirt/oa874ntnjh",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "ventilated high rise tennis skirt md",
-          "url": "https://shop.lululemon.com/p/skirts-and-dresses-skirts/Ventilated-High-Rise-Tennis-Skirt-MD/_/prod20005586",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "organic cotton baby tee graphic",
-          "url": "https://shop.lululemon.com/p/tops-short-sleeve/Organic-Cotton-Baby-Tee-Graphic/_/prod20000439",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "angled pleat high rise tennis skirt md",
-          "url": "https://shop.lululemon.com/p/skirts-and-dresses-skirts/Angled-Pleat-High-Rise-Tennis-Skirt-MD/_/prod20004918",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "ripstop pouch lanyard md",
-          "url": "https://shop.lululemon.com/p/accessories/Ripstop-Pouch-Lanyard-MD/_/prod20006438",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "crinkle nylon mid rise track pant wordmark",
-          "url": "https://shop.lululemon.com/p/women-pants/Crinkle-Nylon-Mid-Rise-Track-Pant-Wordmark/_/prod20000815",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "onrr6tsevd md",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-back-v-long-tennis-bra-med-support-bc/onrr6tsevd-md",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "flow y 2 in 1 crop tank",
-          "url": "https://shop.lululemon.com/p/women-tanks/Flow-Y-2-in-1-Crop-Tank/_/prod20005859",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "nqjew1yrzk",
-          "url": "https://shop.lululemon.com/p/womens-ventilated-short-sleeve-tennis-shirt/nqjew1yrzk",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "big cozy oversized pullover tennis md",
-          "url": "https://shop.lululemon.com/p/womens-outerwear/Womens-Big-Cozy-Oversized-Pullover-Tennis-MD/_/prod20000178",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "flow y 2 in 1 crop tank md",
-          "url": "https://shop.lululemon.com/p/women-tanks/Flow-Y-2-in-1-Crop-Tank-MD/_/prod20005858",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "ripstop pouch lanyard",
-          "url": "https://shop.lululemon.com/p/accessories/Ripstop-Pouch-Lanyard/_/prod20006439",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "softy suedey relaxed boatneck long sleeve shirt md",
-          "url": "https://shop.lululemon.com/p/tops-long-sleeve/Softy-Suedey-Relaxed-Boatneck-Long-Sleeve-Shirt-MD/_/prod20001046",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "quick dry sleeveless polo shirt straight hem graph md",
-          "url": "https://shop.lululemon.com/p/w-polo-shirts/Quick-Dry-Sleeveless-Polo-Shirt-Straight-Hem-Graph-MD/_/prod20004490",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "quick dry sleeveless polo shirt straight hem graph",
-          "url": "https://shop.lululemon.com/p/w-polo-shirts/Quick-Dry-Sleeveless-Polo-Shirt-Straight-Hem-Graph/_/prod20004491",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "ventilated high rise tennis skirt",
-          "url": "https://shop.lululemon.com/p/skirts-and-dresses-skirts/Ventilated-High-Rise-Tennis-Skirt/_/prod20005587",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "fast and free airflow running tank md",
-          "url": "https://shop.lululemon.com/p/mens-tanks/Fast-and-Free-Airflow-Running-Tank-MD/_/prod20003098",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "xb7chm0ncp md",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-tennis-tank-top-bc-cup/xb7chm0ncp-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "stretch woven wide leg hr flowy cropped pants",
-          "url": "https://shop.lululemon.com/p/women-crops/Stretch-Woven-Wide-Leg-HR-Flowy-Cropped-Pants/_/prod11460130",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "qxqr2m28k3 md",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-high-neck-tennis-polo-shirt/qxqr2m28k3-md",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "xb7chm0ncp",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-tennis-tank-top-bc-cup/xb7chm0ncp",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "stretch woven wide leg hr flowy cropped pants md",
-          "url": "https://shop.lululemon.com/p/women-crops/Stretch-Woven-Wide-Leg-HR-Flowy-Cropped-Pants-MD/_/prod11760256",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "fast and free high rise skirt",
-          "url": "https://shop.lululemon.com/p/skirts-and-dresses-skirts/Fast-And-Free-High-Rise-Skirt/_/prod11720069",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "oa874ntnjh md",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-high-rise-tennis-skirt/oa874ntnjh-md",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "fast and free airflow running tank",
-          "url": "https://shop.lululemon.com/p/mens-tanks/Fast-and-Free-Airflow-Running-Tank/_/prod20003099",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "big cozy oversized pullover tennis",
-          "url": "https://shop.lululemon.com/p/womens-outerwear/Womens-Big-Cozy-Oversized-Pullover-Tennis/_/prod20000179",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "ventilated tennis tank top md",
-          "url": "https://shop.lululemon.com/p/women-tanks/Ventilated-Tennis-Tank-Top-MD/_/prod20005594",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "asymmetrical strap cropped tank med support bc cup md",
-          "url": "https://shop.lululemon.com/p/women-tanks/Asymmetrical-Strap-Cropped-Tank-Med-Support-BC-Cup-MD/_/prod11890083",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "pique tight fit cropped polo shirt",
-          "url": "https://shop.lululemon.com/p/w-polo-shirts/Pique-Tight-Fit-Cropped-Polo-Shirt/_/prod11871569",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "qxqr2m28k3",
-          "url": "https://shop.lululemon.com/p/paisley-mesh-high-neck-tennis-polo-shirt/qxqr2m28k3",
-          "category": "other",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-19",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 2,
-      "products": [
-        {
-          "name": "the roger pro fire clay m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-clay-m-3mf3082/mens/thistle-pink-shoes-3MF30824757",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro fire clay w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-clay-w-3wf3059/womens/bloom-black-shoes-3WF30594692",
-          "category": "footwear",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-19",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 1,
-      "products": [
-        {
-          "name": "gymshark sandc graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-sandc-graphic-t-shirt-ss-tops-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-18",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 1,
-      "products": [
-        {
-          "name": "coronado pant 30",
-          "url": "https://vuoriclothing.com/products/coronado-pant-30-ivory-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5250,7 +4988,8 @@
       "2026-05-28": 1,
       "2026-05-29": 1,
       "2026-05-31": 1,
-      "2026-06-02": 5
+      "2026-06-02": 5,
+      "2026-06-03": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5343,7 +5082,8 @@
       "2026-05-13": 16,
       "2026-05-15": 2,
       "2026-05-19": 2,
-      "2026-05-27": 34
+      "2026-05-27": 34,
+      "2026-06-04": 1
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -5387,7 +5127,7 @@
       "outdoor_voices": 53,
       "tenthousand": 33,
       "lululemon": 742,
-      "alo": 566,
+      "alo": 567,
       "gymshark": 2753,
       "on_running": 622,
       "gymreapers": 223,
@@ -5413,7 +5153,7 @@
       "outdoor_voices": 48,
       "tenthousand": 10,
       "lululemon": 811,
-      "alo": 810,
+      "alo": 811,
       "gymshark": 651,
       "on_running": 2750,
       "gymreapers": 309,
@@ -5437,7 +5177,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 2784,
+      "on_running": 2785,
       "schiek": 1
     },
     "accessories": {
@@ -5525,7 +5265,7 @@
       "outdoor_voices": 143,
       "tenthousand": 28,
       "lululemon": 1434,
-      "alo": 1638,
+      "alo": 1639,
       "gymshark": 2852,
       "on_running": 3101,
       "gymreapers": 522,
@@ -5636,7 +5376,7 @@
       "vuori": 10,
       "outdoor_voices": 9,
       "lululemon": 92,
-      "alo": 185,
+      "alo": 186,
       "gymshark": 166,
       "on_running": 191,
       "gymreapers": 16,
@@ -5716,7 +5456,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2580
+      "on_running": 2581
     },
     "medium_support": {
       "lululemon": 19,
@@ -5767,9 +5507,9 @@
     "black": {
       "vuori": 724,
       "outdoor_voices": 66,
-      "alo": 1021,
+      "alo": 1023,
       "gymshark": 2061,
-      "on_running": 1503,
+      "on_running": 1504,
       "gymreapers": 123,
       "sbd": 2,
       "schiek": 8,
@@ -5913,7 +5653,7 @@
   "categoryMix": [
     {
       "brand": "On Running",
-      "bottoms": 16.7,
+      "bottoms": 16.6,
       "tops": 6.6,
       "outerwear": 9.1,
       "dresses": 0.2,
@@ -5936,7 +5676,7 @@
       "bottoms": 37.6,
       "tops": 12,
       "outerwear": 14.3,
-      "dresses": 2.6,
+      "dresses": 2.5,
       "sports_bras": 6.8,
       "accessories": 8.6,
       "other": 17.2
@@ -6318,7 +6058,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 2636 products"
+        "comparison": "Competitors have 2637 products"
       },
       {
         "metric": "Medium Support",
@@ -6442,5 +6182,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-03T13:15:19.115Z"
+  "generated_at": "2026-06-04T13:15:21.962Z"
 }

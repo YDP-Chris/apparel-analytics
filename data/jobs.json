@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 650,
-      "change_from_last": 4,
+      "total_jobs": 663,
+      "change_from_last": 13,
       "departments": {
         "engineering": 19,
-        "design": 88,
-        "operations": 173,
-        "other": 111,
-        "retail": 220,
+        "operations": 181,
+        "design": 87,
+        "other": 115,
+        "retail": 222,
         "marketing": 11,
         "finance": 6,
         "executive": 12,
@@ -18,35 +18,35 @@
         "hr": 5
       },
       "seniority": {
-        "mid": 24,
-        "manager": 155,
-        "junior": 295,
-        "c-suite": 30,
-        "senior": 20,
+        "mid": 26,
+        "manager": 157,
+        "junior": 299,
+        "c-suite": 31,
         "intern": 4,
-        "lead": 122
+        "lead": 126,
+        "senior": 20
       },
       "locations": [
-        "Chestnut Hill, Massachusetts, United States",
-        "Scottsdale, Arizona, United States",
-        "Toronto, ON",
-        "Oakbrook, IL",
-        "Birmingham, Alabama, United States",
-        "Canoga Park, California, United States",
-        "Nashville, TN",
-        "Etobicoke, Ontario, Canada",
-        "Richmond, Virginia, United States",
-        "Montreal, QC",
-        "Pittsburgh, PA",
-        "White Plains, New York, United States",
+        "Florence, Italy",
+        "Skokie, IL",
+        "Raleigh, NC",
+        "Aspen, CO",
+        "Lynnfield, Massachusetts, United States",
+        "Philadelphia, PA",
+        "Charlotte, NC",
+        "Vancouver, British Columbia, Canada",
+        "Naperville, Illinois, United States",
+        "Columbus, Ohio, United States",
+        "Wayne, New Jersey, United States",
+        "Manhasset, NY",
+        "Santa Monica, California, United States",
         "Hong Kong",
-        "Westport, Connecticut, United States",
-        "Vail, CO",
-        "Durham, North Carolina, United States",
-        "The Woodlands, Texas, United States",
-        "Louisville, Kentucky, United States",
-        "Sydney ",
-        "Sarasota, FL"
+        "Fort Worth, TX",
+        "Minnetonka, Minnesota, United States",
+        "Princeton, New Jersey, United States",
+        "Detroit, Michigan, United States",
+        "Naples, FL",
+        "Toronto, ON"
       ],
       "jobs": [
         {
@@ -58,16 +58,6 @@
           "posted_at": "2026-06-02T11:27:46-04:00",
           "category": "engineering",
           "seniority": "mid"
-        },
-        {
-          "id": "5789952004",
-          "title": "3D Visualization Manager",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5789952004?gh_jid=5789952004",
-          "posted_at": "2026-06-02T11:27:46-04:00",
-          "category": "design",
-          "seniority": "manager"
         },
         {
           "id": "5830970004",
@@ -87,6 +77,26 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5798245004?gh_jid=5798245004",
           "posted_at": "2026-06-02T11:27:46-04:00",
           "category": "design",
+          "seniority": "mid"
+        },
+        {
+          "id": "5899585004",
+          "title": "Accounts Payable Specialist II",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5899585004?gh_jid=5899585004",
+          "posted_at": "2026-06-03T23:32:00-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "6013680004",
+          "title": "AP Staff Accountant",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6013680004?gh_jid=6013680004",
+          "posted_at": "2026-06-03T23:26:48-04:00",
+          "category": "other",
           "seniority": "mid"
         },
         {
@@ -538,45 +548,33 @@
           "posted_at": "2026-06-02T11:27:46-04:00",
           "category": "design",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5979367004",
-          "title": "Director, Retail Learning",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5979367004?gh_jid=5979367004",
-          "posted_at": "2026-06-02T11:27:46-04:00",
-          "category": "retail",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-06-03T05:30:12.777096"
+      "checked_at": "2026-06-04T05:30:08.501580"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 16,
-      "change_from_last": 0,
+      "total_jobs": 14,
+      "change_from_last": -2,
       "departments": {
-        "other": 6,
+        "other": 4,
         "engineering": 4,
         "marketing": 1,
         "retail": 2,
         "design": 3
       },
       "seniority": {
-        "mid": 9,
-        "manager": 1,
+        "mid": 8,
         "lead": 4,
         "senior": 2
       },
       "locations": [
-        "Manchester, England, United Kingdom",
         "Solihull, England, United Kingdom",
-        "London",
+        "Amsterdam, North Holland, Netherlands",
         "London; Solihull, England, United Kingdom",
-        "New York, New York, United States",
-        "Amsterdam, North Holland, Netherlands"
+        "London",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -600,16 +598,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4842921101",
-          "title": "Department Manager - Trafford Centre",
-          "location": "Manchester, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4842921101",
-          "posted_at": "2026-05-13T04:46:45-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "4876128101",
           "title": "Entertainment Marketing Executive",
           "location": "London; Solihull, England, United Kingdom",
@@ -617,16 +605,6 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4876128101",
           "posted_at": "2026-05-28T12:58:14-04:00",
           "category": "marketing",
-          "seniority": "mid"
-        },
-        {
-          "id": "4861259101",
-          "title": "Executive Producer - FTC",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4861259101",
-          "posted_at": "2026-05-12T09:30:24-04:00",
-          "category": "other",
           "seniority": "mid"
         },
         {
@@ -740,7 +718,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-06-03T05:30:14.946648"
+      "checked_at": "2026-06-04T05:30:10.666290"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -798,49 +776,49 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 311,
-      "change_from_last": -5,
+      "total_jobs": 313,
+      "change_from_last": 2,
       "departments": {
         "other": 61,
-        "retail": 142,
-        "engineering": 43,
-        "marketing": 19,
+        "retail": 143,
+        "engineering": 45,
+        "marketing": 22,
         "operations": 4,
-        "product": 8,
-        "executive": 16,
+        "executive": 14,
         "design": 15,
+        "product": 6,
         "finance": 2,
         "hr": 1
       },
       "seniority": {
-        "senior": 38,
+        "senior": 40,
         "lead": 166,
-        "mid": 77,
-        "c-suite": 18,
+        "mid": 78,
+        "c-suite": 17,
         "manager": 3,
         "intern": 9
       },
       "locations": [
-        "Sydney",
-        "Vienna",
-        "Wuhan",
-        "Tokyo",
-        "Berlin",
-        "New York City; Zurich",
-        "Zurich",
-        "Dallas",
-        "Ho Chi Minh City",
-        "Houston",
         "Shanghai",
-        "Central Valley",
-        "Paris",
-        "Barcelona",
-        "Melbourne",
-        "London; Zurich",
         "Auckland",
-        "Portland",
-        "Bicester",
-        "Boston"
+        "Milan",
+        "Macao",
+        "Zurich",
+        "Cirebon",
+        "Boston",
+        "Corte Madera",
+        "Munich",
+        "Hanoi",
+        "Central Valley",
+        "Berlin; Zurich",
+        "Hong Kong",
+        "New York City; Portland",
+        "Madrid",
+        "Tianjin",
+        "San Francisco",
+        "Dallas",
+        "Brooklyn",
+        "London"
       ],
       "jobs": [
         {
@@ -852,6 +830,16 @@
           "posted_at": "2026-05-20T09:33:59-04:00",
           "category": "other",
           "seniority": "senior"
+        },
+        {
+          "id": "7974419",
+          "title": "2302 - Senior Lead - Integrated Campaigns (6 - Month Assignment)",
+          "location": "New York City; Portland",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7974419?gh_jid=7974419",
+          "posted_at": "2026-06-03T10:28:52-04:00",
+          "category": "other",
+          "seniority": "lead"
         },
         {
           "id": "7849945",
@@ -1015,11 +1003,11 @@
         },
         {
           "id": "7846530",
-          "title": "Associate Store Leader, Saint Germain",
+          "title": "Associate Store Leader (Responsable adjoint de boutique) , Saint Germain",
           "location": "Paris",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7846530?gh_jid=7846530",
-          "posted_at": "2026-04-28T04:51:42-04:00",
+          "posted_at": "2026-06-03T11:10:52-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1134,16 +1122,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "6940621",
-          "title": "Director of Global Apparel & Accessories Merchandising",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/6940621?gh_jid=6940621",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "product",
-          "seniority": "c-suite"
-        },
-        {
           "id": "7939900",
           "title": "Director of Global Customer Service ",
           "location": "Zurich",
@@ -1214,6 +1192,16 @@
           "seniority": "mid"
         },
         {
+          "id": "7687729",
+          "title": "Global Head of Brand Events",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7687729?gh_jid=7687729",
+          "posted_at": "2026-06-03T06:44:55-04:00",
+          "category": "marketing",
+          "seniority": "lead"
+        },
+        {
           "id": "7841951",
           "title": "Global Head of Marketing Program Management ",
           "location": "Zurich",
@@ -1221,16 +1209,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7841951?gh_jid=7841951",
           "posted_at": "2026-06-01T10:46:20-04:00",
           "category": "marketing",
-          "seniority": "lead"
-        },
-        {
-          "id": "4733553",
-          "title": "Head of Apparel & Accessories, AMER",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/4733553?gh_jid=4733553",
-          "posted_at": "2026-05-07T19:09:14-04:00",
-          "category": "executive",
           "seniority": "lead"
         },
         {
@@ -1344,8 +1322,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-03T05:30:24.929186"
+      "checked_at": "2026-06-04T05:30:19.970689"
     }
   },
-  "generated_at": "2026-06-03T05:30:26.929428"
+  "generated_at": "2026-06-04T05:30:21.970859"
 }
