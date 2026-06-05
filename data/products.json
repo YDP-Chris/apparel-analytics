@@ -134,13 +134,13 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 122,
+      "total": 123,
       "categories": {
         "bottoms": 59,
         "other": 10,
         "tops": 33,
         "outerwear": 18,
-        "accessories": 2
+        "accessories": 3
       },
       "subcategories": {
         "shorts": 33,
@@ -154,11 +154,11 @@
         "joggers": 7,
         "tees": 7,
         "leggings": 4,
-        "socks": 1,
+        "socks": 2,
         "sweatpants": 1
       },
       "genders": {
-        "mens": 122
+        "mens": 123
       },
       "colors": {},
       "colorCoverage": 0,
@@ -168,40 +168,40 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4687,
+      "total": 4707,
       "categories": {
-        "tops": 742,
-        "bottoms": 1612,
+        "tops": 754,
+        "bottoms": 1616,
         "outerwear": 616,
         "sports_bras": 174,
-        "accessories": 613,
+        "accessories": 617,
         "other": 811,
         "dresses": 69,
         "footwear": 50
       },
       "subcategories": {
-        "tanks": 250,
-        "shorts": 508,
+        "tanks": 256,
+        "shorts": 510,
         "hoodies": 121,
-        "other": 1434,
+        "other": 1436,
         "medium_support": 19,
         "leggings": 199,
         "polos": 61,
         "socks": 157,
-        "pants": 420,
+        "pants": 422,
         "hats": 135,
         "quarter_zips": 59,
         "pullovers": 36,
         "joggers": 171,
         "casual_dress": 45,
-        "bags": 209,
+        "bags": 213,
         "crop_tops": 92,
         "long_sleeve": 173,
         "fleece": 15,
         "jackets": 284,
         "running": 23,
         "skirts": 93,
-        "tees": 14,
+        "tees": 18,
         "vests": 44,
         "headwear": 19,
         "training": 8,
@@ -215,7 +215,7 @@
       "genders": {
         "womens": 1485,
         "mens": 1207,
-        "unisex": 1995
+        "unisex": 2015
       },
       "colors": {
         "print": 121,
@@ -599,11 +599,11 @@
     "bear_grips": {
       "name": "bear_grips",
       "slug": "bear_grips",
-      "total": 2452,
+      "total": 2455,
       "categories": {
         "other": 254,
         "accessories": 164,
-        "tops": 1242,
+        "tops": 1245,
         "bottoms": 330,
         "outerwear": 453,
         "sports_bras": 9
@@ -614,7 +614,7 @@
         "tees": 567,
         "hoodies": 259,
         "long_sleeve": 97,
-        "tanks": 469,
+        "tanks": 472,
         "polos": 99,
         "quarter_zips": 180,
         "jackets": 14,
@@ -627,7 +627,7 @@
       },
       "genders": {
         "unisex": 1515,
-        "womens": 696,
+        "womens": 699,
         "mens": 241
       },
       "colors": {
@@ -645,12 +645,180 @@
     }
   },
   "totals": {
-    "products": 35842,
+    "products": 35866,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-04",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 20,
+      "products": [
+        {
+          "name": "scuba tote bag 19l paracord",
+          "url": "https://shop.lululemon.com/p/scuba-tote-bag-19l-paracord/ndni8n4350",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "cotton crochet mesh tank top",
+          "url": "https://shop.lululemon.com/p/cotton-crochet-mesh-tank-top/g76g0gvd6h-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "stretch mesh relaxed fit tank top",
+          "url": "https://shop.lululemon.com/p/stretch-mesh-relaxed-fit-tank-top/fnijfftfz0",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "becalm mid rise straight leg pants asia fit",
+          "url": "https://shop.lululemon.com/p/becalm-mid-rise-straight-leg-pants-asia-fit/eoqj6txixw-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "cotton crochet mesh tank top",
+          "url": "https://shop.lululemon.com/p/cotton-crochet-mesh-tank-top/g76g0gvd6h",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "spacer mesh shoulder bag 15l",
+          "url": "https://shop.lululemon.com/p/spacer-mesh-shoulder-bag-15l/qu7diwnm0a",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "stretch mesh relaxed fit t shirt",
+          "url": "https://shop.lululemon.com/p/stretch-mesh-relaxed-fit-t-shirt/fokmih81n2-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "spacer mesh shoulder bag 15l",
+          "url": "https://shop.lululemon.com/p/spacer-mesh-shoulder-bag-15l/qu7diwnm0a-md",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "little scoopneck tank top cotton ribbed",
+          "url": "https://shop.lululemon.com/p/little-scoopneck-tank-top-cotton-ribbed/wz7vj6nn0d-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "becalm mid rise straight leg pants asia fit",
+          "url": "https://shop.lululemon.com/p/becalm-mid-rise-straight-leg-pants-asia-fit/eoqj6txixw",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "the classic tee pima cotton",
+          "url": "https://shop.lululemon.com/p/the-classic-tee-pima-cotton/rf5usypnim-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "stretch mesh relaxed fit t shirt",
+          "url": "https://shop.lululemon.com/p/stretch-mesh-relaxed-fit-t-shirt/fokmih81n2",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "scuba tote bag 19l paracord",
+          "url": "https://shop.lululemon.com/p/scuba-tote-bag-19l-paracord/ndni8n4350-md",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "unshaken relaxed pull on short",
+          "url": "https://shop.lululemon.com/p/unshaken-relaxed-pull-on-short-9/v3raga1677-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "little scoopneck tank top cotton ribbed",
+          "url": "https://shop.lululemon.com/p/little-scoopneck-tank-top-cotton-ribbed/wz7vj6nn0d",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "the classic tee pima cotton",
+          "url": "https://shop.lululemon.com/p/the-classic-tee-pima-cotton/rf5usypnim",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "unshaken relaxed pull on short",
+          "url": "https://shop.lululemon.com/p/unshaken-relaxed-pull-on-short-9/v3raga1677",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "little tee cotton ribbed",
+          "url": "https://shop.lululemon.com/p/little-tee-cotton-ribbed/b5a7hl0ba8-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "stretch mesh relaxed fit tank top",
+          "url": "https://shop.lululemon.com/p/stretch-mesh-relaxed-fit-tank-top/fnijfftfz0-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "little tee cotton ribbed",
+          "url": "https://shop.lululemon.com/p/little-tee-cotton-ribbed/b5a7hl0ba8",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "brand": "bear_grips",
+      "brandSlug": "bear_grips",
+      "count": 3,
+      "products": [
+        {
+          "name": "s 65 35 poly viscose flowy scoop muscle tank bella canvas lift like a girl k fit body",
+          "url": "https://www.beargrips.com/products/women-s-65-35-poly-viscose-flowy-scoop-muscle-tank-bella-canvas-_-lift-like-a-girl-k-fit-body",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "ladies racerback tank lift like a girl k fit body",
+          "url": "https://www.beargrips.com/products/ladies-racerback-tank-lift-like-a-girl-k-fit-body",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "ladies flowy racerback tank lift like a girl k fit body",
+          "url": "https://www.beargrips.com/products/ladies-flowy-racerback-tank-lift-like-a-girl-k-fit-body",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 1,
+      "products": [
+        {
+          "name": "swiftwick x ten thousand sock",
+          "url": "https://www.tenthousand.cc/products/swiftwick-x-ten-thousand-sock",
+          "category": "accessories",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-06-04",
       "brand": "On Running",
@@ -4852,7 +5020,8 @@
       "2026-04-28": 3,
       "2026-04-30": 1,
       "2026-05-05": 1,
-      "2026-05-12": 1
+      "2026-05-12": 1,
+      "2026-06-04": 1
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -4911,7 +5080,8 @@
       "2026-05-28": 98,
       "2026-05-29": 8,
       "2026-06-01": 2,
-      "2026-06-02": 14
+      "2026-06-02": 14,
+      "2026-06-04": 20
     },
     "alo": {
       "2026-02-03": 3396,
@@ -5105,7 +5275,8 @@
     },
     "bear_grips": {
       "2026-04-07": 2448,
-      "2026-05-16": 4
+      "2026-05-16": 4,
+      "2026-06-04": 3
     }
   },
   "byCategory": {
@@ -5113,7 +5284,7 @@
       "vuori": 1825,
       "outdoor_voices": 204,
       "tenthousand": 59,
-      "lululemon": 1612,
+      "lululemon": 1616,
       "alo": 1768,
       "gymshark": 3161,
       "on_running": 1577,
@@ -5126,14 +5297,14 @@
       "vuori": 601,
       "outdoor_voices": 53,
       "tenthousand": 33,
-      "lululemon": 742,
+      "lululemon": 754,
       "alo": 567,
       "gymshark": 2753,
       "on_running": 622,
       "gymreapers": 223,
       "sbd": 67,
       "schiek": 7,
-      "bear_grips": 1242
+      "bear_grips": 1245
     },
     "outerwear": {
       "vuori": 512,
@@ -5183,8 +5354,8 @@
     "accessories": {
       "vuori": 196,
       "outdoor_voices": 34,
-      "tenthousand": 2,
-      "lululemon": 613,
+      "tenthousand": 3,
+      "lululemon": 617,
       "alo": 403,
       "gymshark": 518,
       "on_running": 674,
@@ -5219,7 +5390,7 @@
       "vuori": 662,
       "outdoor_voices": 60,
       "tenthousand": 33,
-      "lululemon": 508,
+      "lululemon": 510,
       "alo": 412,
       "gymshark": 1290,
       "on_running": 690,
@@ -5231,19 +5402,19 @@
       "vuori": 184,
       "outdoor_voices": 24,
       "tenthousand": 4,
-      "lululemon": 250,
+      "lululemon": 256,
       "alo": 263,
       "gymshark": 762,
       "on_running": 288,
       "gymreapers": 33,
       "sbd": 8,
-      "bear_grips": 469
+      "bear_grips": 472
     },
     "tees": {
       "vuori": 210,
       "outdoor_voices": 14,
       "tenthousand": 7,
-      "lululemon": 14,
+      "lululemon": 18,
       "alo": 52,
       "gymshark": 62,
       "gymreapers": 110,
@@ -5264,7 +5435,7 @@
       "vuori": 1143,
       "outdoor_voices": 143,
       "tenthousand": 28,
-      "lululemon": 1434,
+      "lululemon": 1436,
       "alo": 1639,
       "gymshark": 2852,
       "on_running": 3101,
@@ -5278,7 +5449,7 @@
       "vuori": 386,
       "outdoor_voices": 47,
       "tenthousand": 14,
-      "lululemon": 420,
+      "lululemon": 422,
       "alo": 251,
       "gymshark": 308,
       "on_running": 387
@@ -5415,7 +5586,7 @@
     },
     "bags": {
       "vuori": 9,
-      "lululemon": 209,
+      "lululemon": 213,
       "alo": 1,
       "gymshark": 70,
       "gymreapers": 5,
@@ -5424,7 +5595,7 @@
     "socks": {
       "vuori": 73,
       "outdoor_voices": 20,
-      "tenthousand": 1,
+      "tenthousand": 2,
       "lululemon": 157,
       "alo": 178,
       "gymshark": 216,
@@ -5672,6 +5843,16 @@
       "other": 7.5
     },
     {
+      "brand": "Lululemon",
+      "bottoms": 34.3,
+      "tops": 16,
+      "outerwear": 13.1,
+      "dresses": 1.5,
+      "sports_bras": 3.7,
+      "accessories": 13.1,
+      "other": 17.2
+    },
+    {
       "brand": "Alo Yoga",
       "bottoms": 37.6,
       "tops": 12,
@@ -5680,16 +5861,6 @@
       "sports_bras": 6.8,
       "accessories": 8.6,
       "other": 17.2
-    },
-    {
-      "brand": "Lululemon",
-      "bottoms": 34.4,
-      "tops": 15.8,
-      "outerwear": 13.1,
-      "dresses": 1.5,
-      "sports_bras": 3.7,
-      "accessories": 13.1,
-      "other": 17.3
     },
     {
       "brand": "Vuori",
@@ -5703,13 +5874,13 @@
     },
     {
       "brand": "bear_grips",
-      "bottoms": 13.5,
+      "bottoms": 13.4,
       "tops": 50.7,
       "outerwear": 18.5,
       "dresses": 0,
       "sports_bras": 0.4,
       "accessories": 6.7,
-      "other": 10.4
+      "other": 10.3
     },
     {
       "brand": "gymreapers",
@@ -5743,13 +5914,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 48.4,
-      "tops": 27,
-      "outerwear": 14.8,
+      "bottoms": 48,
+      "tops": 26.8,
+      "outerwear": 14.6,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 1.6,
-      "other": 8.2
+      "accessories": 2.4,
+      "other": 8.1
     },
     {
       "brand": "schiek",
@@ -5808,23 +5979,6 @@
       "other": 0.2
     },
     {
-      "brand": "Alo Yoga",
-      "black": 21.7,
-      "white": 19.3,
-      "gray": 10.5,
-      "navy": 4.1,
-      "blue": 5.1,
-      "green": 6.5,
-      "khaki": 2.8,
-      "brown": 6.1,
-      "purple": 0.8,
-      "pink": 4.8,
-      "orange": 0,
-      "red": 4.5,
-      "yellow": 1.3,
-      "other": 0.8
-    },
-    {
       "brand": "Lululemon",
       "black": 0,
       "white": 0.4,
@@ -5840,6 +5994,23 @@
       "red": 0,
       "yellow": 0.1,
       "other": 3.3
+    },
+    {
+      "brand": "Alo Yoga",
+      "black": 21.7,
+      "white": 19.3,
+      "gray": 10.5,
+      "navy": 4.1,
+      "blue": 5.1,
+      "green": 6.5,
+      "khaki": 2.8,
+      "brown": 6.1,
+      "purple": 0.8,
+      "pink": 4.8,
+      "orange": 0,
+      "red": 4.5,
+      "yellow": 1.3,
+      "other": 0.8
     },
     {
       "brand": "Vuori",
@@ -6097,7 +6268,7 @@
       {
         "category": "Shorts",
         "vuori": 662,
-        "competitor": 508,
+        "competitor": 510,
         "winner": "vuori"
       },
       {
@@ -6109,13 +6280,13 @@
       {
         "category": "Tanks",
         "vuori": 184,
-        "competitor": 250,
+        "competitor": 256,
         "winner": "competitor"
       },
       {
         "category": "Tees",
         "vuori": 210,
-        "competitor": 14,
+        "competitor": 18,
         "winner": "vuori"
       },
       {
@@ -6182,5 +6353,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-04T13:15:21.962Z"
+  "generated_at": "2026-06-05T13:15:20.233Z"
 }
