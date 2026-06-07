@@ -3,11 +3,11 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 646,
-      "change_from_last": 1,
+      "total_jobs": 645,
+      "change_from_last": -1,
       "departments": {
         "engineering": 17,
-        "operations": 173,
+        "operations": 172,
         "design": 88,
         "other": 113,
         "retail": 216,
@@ -20,7 +20,7 @@
       "seniority": {
         "mid": 26,
         "manager": 156,
-        "junior": 290,
+        "junior": 289,
         "c-suite": 30,
         "intern": 4,
         "lead": 122,
@@ -28,25 +28,25 @@
       },
       "locations": [
         "Beverly Hills, California, United States",
-        "Huntington Station, New York, United States",
-        "Paris, Paris, France",
-        "Minnetonka, Minnesota, United States",
-        "Walnut Creek, California, United States",
-        "Sydney, New South Wales, Australia",
-        "Florence, Italy",
-        "Santa Barbara, California, United States",
-        "Sarasota, FL",
-        "Austin, TX",
-        "London, England, United Kingdom",
-        "Edmonton, AB",
-        "Paramus, NJ",
-        "Manhasset, NY",
+        "Alpharetta, Georgia, United States",
         "Murray, UT",
-        "Palm Desert, California, United States",
-        "Bloomington, Minnesota, United States",
-        "Tucson, Arizona, United States",
-        "Westport, Connecticut, United States",
-        "San Antonio, TX"
+        "Cherry Hill, New Jersey, United States",
+        "White Plains, New York, United States",
+        "New York, NY",
+        "Albuquerque, New Mexico, United States",
+        "Thousand Oaks, California, United States",
+        "Las Vegas",
+        "Santa Monica, California, United States",
+        "Bellevue, Washington, United States",
+        "Las Vegas, NV",
+        "Honolulu, HI",
+        "Santa Clara, California, United States",
+        "Hamburg, Hamburg, Germany",
+        "McLean, Virginia, United States",
+        "Edinburgh, Scotland, United Kingdom",
+        "Meridian, Idaho, United States",
+        "Wayne, New Jersey, United States",
+        "Ottawa, Ontario, Canada"
       ],
       "jobs": [
         {
@@ -550,7 +550,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-06-06T05:30:07.865538"
+      "checked_at": "2026-06-07T05:30:08.504951"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -571,8 +571,8 @@
       },
       "locations": [
         "New York, New York, United States",
-        "London",
         "Amsterdam, North Holland, Netherlands",
+        "London",
         "Solihull, England, United Kingdom"
       ],
       "jobs": [
@@ -707,7 +707,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-06-06T05:30:10.202835"
+      "checked_at": "2026-06-07T05:30:10.634390"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -765,15 +765,15 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 316,
-      "change_from_last": 7,
+      "total_jobs": 317,
+      "change_from_last": 1,
       "departments": {
         "other": 60,
         "retail": 144,
         "engineering": 47,
         "marketing": 22,
         "operations": 5,
-        "executive": 16,
+        "executive": 17,
         "design": 15,
         "product": 4,
         "finance": 2,
@@ -783,31 +783,31 @@
         "senior": 40,
         "lead": 167,
         "mid": 80,
-        "c-suite": 18,
+        "c-suite": 19,
         "manager": 3,
         "intern": 8
       },
       "locations": [
-        "Madrid",
-        "Woodbury",
-        "Austin",
-        "Brooklyn",
-        "Corte Madera",
-        "Tianjin",
-        "Las Vegas",
-        "Hanoi; Ho Chi Minh City",
-        "Chengdu",
-        "New York City; Portland",
-        "Portland",
+        "Shenzhen",
         "Munich",
+        "Sydney",
+        "Ho Chi Minh City",
+        "Zurich",
+        "Beijing",
+        "Las Vegas",
+        "Hanoi",
+        "Melbourne",
+        "Guangzhou",
+        "S\u00e3o Paulo",
+        "Chengdu",
+        "Nanjing",
+        "Houston",
+        "Paris",
+        "Madrid",
         "San Francisco",
         "Auckland",
-        "Shenzhen",
-        "Boston",
-        "London",
-        "New York City",
-        "Montreal",
-        "Barcelona"
+        "Newport Beach",
+        "Hanoi; Ho Chi Minh City"
       ],
       "jobs": [
         {
@@ -1161,6 +1161,16 @@
           "seniority": "c-suite"
         },
         {
+          "id": "7430793",
+          "title": "Director of Real Estate & Development APAC",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7430793?gh_jid=7430793",
+          "posted_at": "2026-06-06T08:11:13-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
+        },
+        {
           "id": "6734964",
           "title": "Director of Sports Science and Sports Engineering",
           "location": "Zurich",
@@ -1251,22 +1261,22 @@
           "seniority": "lead"
         },
         {
-          "id": "7941701",
-          "title": "Head of Communications - EMEA",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7941701?gh_jid=7941701",
-          "posted_at": "2026-06-05T10:21:54-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "7984891",
           "title": "Head of Communications - EMEA",
           "location": "London",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7984891?gh_jid=7984891",
           "posted_at": "2026-06-05T10:21:53-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7941701",
+          "title": "Head of Communications - EMEA",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7941701?gh_jid=7941701",
+          "posted_at": "2026-06-05T10:21:54-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1299,20 +1309,10 @@
           "posted_at": "2026-05-15T09:58:42-04:00",
           "category": "engineering",
           "seniority": "lead"
-        },
-        {
-          "id": "7770169",
-          "title": "Head of Digital Commercial - China",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7770169?gh_jid=7770169",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "executive",
-          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-06T05:30:19.445773"
+      "checked_at": "2026-06-07T05:30:20.382450"
     }
   },
-  "generated_at": "2026-06-06T05:30:21.445929"
+  "generated_at": "2026-06-07T05:30:22.382606"
 }
