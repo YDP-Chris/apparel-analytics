@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 644,
-      "change_from_last": -1,
+      "total_jobs": 651,
+      "change_from_last": 7,
       "departments": {
-        "engineering": 17,
-        "operations": 172,
-        "design": 88,
-        "other": 113,
-        "retail": 215,
+        "engineering": 16,
+        "operations": 170,
+        "design": 89,
+        "other": 119,
+        "retail": 218,
         "marketing": 11,
         "finance": 6,
         "executive": 12,
@@ -20,33 +20,33 @@
       "seniority": {
         "mid": 26,
         "manager": 156,
-        "junior": 288,
+        "junior": 293,
         "c-suite": 30,
         "intern": 4,
-        "lead": 122,
-        "senior": 18
+        "lead": 125,
+        "senior": 17
       },
       "locations": [
-        "Los Angeles, California, United States",
-        "Alys Beach, Florida, United States",
-        "Laval, Quebec, Canada",
-        "Roma, Rome, Italy",
-        "Brookfield, Wisconsin, United States",
-        "Ashburn, Virginia, United States",
+        "Manhasset, NY",
         "Las Vegas",
-        "London, England, United Kingdom",
-        "Greenwich, Connecticut, United States",
-        "Columbus, Ohio, United States",
-        "West Palm Beach, Florida, United States",
-        "Aspen, CO",
-        "King of Prussia, Pennsylvania, United States",
-        "Santa Monica, California, United States",
+        "Venice, California, United States",
+        "Miami Beach, Florida, United States",
+        "Montreal, QC",
+        "Leeds, England, United Kingdom",
+        "San Diego, California, United States",
         "Murray, UT",
-        "Cherry Hill, New Jersey, United States",
-        "Naperville, Illinois, United States",
-        "Vail, CO",
-        "Burlingame, California, United States",
-        "Montreal, QC"
+        "Leawood, Kansas, United States",
+        "Des Moines, Iowa, United States",
+        "Carlsbad, California, United States",
+        "Brookfield, Wisconsin, United States",
+        "Brooklyn, NY",
+        "Calgary, AB",
+        "Florence, Italy",
+        "Houston, TX",
+        "Troy, Mi",
+        "Berkeley, California, United States",
+        "Australia",
+        "Hong Kong"
       ],
       "jobs": [
         {
@@ -187,16 +187,6 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5873090004?gh_jid=5873090004",
           "posted_at": "2026-06-02T11:27:46-04:00",
           "category": "design",
-          "seniority": "manager"
-        },
-        {
-          "id": "5817404004",
-          "title": "Assistant Store Manager (Retail) - Hong Kong",
-          "location": "Hong Kong",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5817404004?gh_jid=5817404004",
-          "posted_at": "2026-06-02T11:27:46-04:00",
-          "category": "retail",
           "seniority": "manager"
         },
         {
@@ -548,9 +538,19 @@
           "posted_at": "2026-06-02T11:27:46-04:00",
           "category": "retail",
           "seniority": "c-suite"
+        },
+        {
+          "id": "5818926004",
+          "title": "District Manager, France ",
+          "location": "Paris, Paris, France",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5818926004?gh_jid=5818926004",
+          "posted_at": "2026-06-02T11:27:46-04:00",
+          "category": "other",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-06-08T05:30:08.400084"
+      "checked_at": "2026-06-09T05:30:08.891035"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -558,22 +558,22 @@
       "total_jobs": 13,
       "change_from_last": 0,
       "departments": {
-        "other": 4,
+        "other": 3,
         "engineering": 4,
         "retail": 2,
-        "design": 3
+        "design": 4
       },
       "seniority": {
-        "mid": 6,
-        "lead": 4,
+        "mid": 5,
+        "lead": 5,
         "senior": 2,
         "manager": 1
       },
       "locations": [
-        "Solihull, England, United Kingdom",
-        "New York, New York, United States",
         "Amsterdam, North Holland, Netherlands",
-        "London"
+        "Solihull, England, United Kingdom",
+        "London",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -617,16 +617,6 @@
           "seniority": "lead"
         },
         {
-          "id": "4839442101",
-          "title": "Insights Analyst (Digital Product)",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4839442101",
-          "posted_at": "2026-05-29T08:16:31-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "4874067101",
           "title": "Lead Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -662,7 +652,7 @@
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4820819101",
-          "posted_at": "2026-05-26T10:48:40-04:00",
+          "posted_at": "2026-06-08T08:13:19-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -705,9 +695,19 @@
           "posted_at": "2026-05-26T06:45:29-04:00",
           "category": "design",
           "seniority": "mid"
+        },
+        {
+          "id": "4888888101",
+          "title": "Visual Merchandising Floor Lead - Flagship Store",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4888888101",
+          "posted_at": "2026-06-08T08:58:29-04:00",
+          "category": "design",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-08T05:30:11.383051"
+      "checked_at": "2026-06-09T05:30:11.053523"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -765,49 +765,49 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 315,
+      "total_jobs": 313,
       "change_from_last": -2,
       "departments": {
-        "other": 60,
-        "retail": 144,
-        "engineering": 47,
-        "marketing": 22,
+        "other": 61,
+        "retail": 139,
+        "marketing": 23,
         "operations": 5,
         "executive": 16,
+        "engineering": 48,
         "design": 15,
         "product": 3,
         "finance": 2,
         "hr": 1
       },
       "seniority": {
-        "senior": 40,
-        "lead": 165,
-        "mid": 81,
+        "senior": 39,
+        "lead": 167,
         "c-suite": 19,
+        "mid": 78,
         "manager": 2,
         "intern": 8
       },
       "locations": [
-        "Portland",
-        "San Diego",
-        "Milan",
-        "Cirebon",
-        "Seoul",
-        "Bicester",
-        "Macao",
-        "Boston",
-        "Miami",
-        "Melbourne",
-        "Barcelona",
+        "Corte Madera",
+        "Ho Chi Minh City",
+        "Washington D.C.",
+        "Brooklyn",
+        "Auckland",
         "Las Vegas",
+        "Seoul",
+        "Barcelona",
+        "Berlin",
+        "Guangzhou",
+        "Hanoi",
+        "Dallas",
+        "Wuhan",
+        "London",
         "Munich",
-        "Paris",
-        "San Francisco",
-        "Palo Alto",
-        "New York City",
-        "Hong Kong",
-        "Austin",
-        "Guangzhou"
+        "Madrid",
+        "New York City; Portland",
+        "Shanghai",
+        "Shenzhen",
+        "Milan"
       ],
       "jobs": [
         {
@@ -869,16 +869,6 @@
           "posted_at": "2026-05-22T13:10:47-04:00",
           "category": "other",
           "seniority": "lead"
-        },
-        {
-          "id": "7703769",
-          "title": "Apparel Commercialization (Apparel Developer/FOB Merchandiser)",
-          "location": "Hanoi",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7703769?gh_jid=7703769",
-          "posted_at": "2026-04-28T04:51:42-04:00",
-          "category": "engineering",
-          "seniority": "mid"
         },
         {
           "id": "7764845",
@@ -981,32 +971,12 @@
           "seniority": "lead"
         },
         {
-          "id": "7846578",
-          "title": "Associate Store Leader, La Vall\u00e9e Village Outlet",
-          "location": "Paris",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7846578?gh_jid=7846578",
-          "posted_at": "2026-05-26T10:50:55-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7846530",
           "title": "Associate Store Leader (Responsable adjoint de boutique) , Saint Germain",
           "location": "Paris",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7846530?gh_jid=7846530",
-          "posted_at": "2026-06-03T11:10:52-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "7902220",
-          "title": "Associate Store Leader, SF Chestnut St.",
-          "location": "San Francisco",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7902220?gh_jid=7902220",
-          "posted_at": "2026-05-06T19:58:31-04:00",
+          "posted_at": "2026-06-08T11:21:00-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1036,7 +1006,7 @@
           "location": "Madrid",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7921180?gh_jid=7921180",
-          "posted_at": "2026-06-02T05:22:56-04:00",
+          "posted_at": "2026-06-08T08:45:45-04:00",
           "category": "retail",
           "seniority": "c-suite"
         },
@@ -1251,22 +1221,22 @@
           "seniority": "lead"
         },
         {
-          "id": "7984891",
-          "title": "Head of Communications - EMEA",
-          "location": "London",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7984891?gh_jid=7984891",
-          "posted_at": "2026-06-05T10:21:53-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "7941701",
           "title": "Head of Communications - EMEA",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7941701?gh_jid=7941701",
           "posted_at": "2026-06-05T10:21:54-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7984891",
+          "title": "Head of Communications - EMEA",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7984891?gh_jid=7984891",
+          "posted_at": "2026-06-05T10:21:53-04:00",
           "category": "executive",
           "seniority": "lead"
         },
@@ -1309,10 +1279,40 @@
           "posted_at": "2026-04-28T04:51:42-04:00",
           "category": "executive",
           "seniority": "lead"
+        },
+        {
+          "id": "7823208",
+          "title": "Head of Digital Product Management, China",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7823208?gh_jid=7823208",
+          "posted_at": "2026-04-28T04:51:42-04:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
+          "id": "7792425",
+          "title": "Head of Distribution & Logistics Procurement",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7792425?gh_jid=7792425",
+          "posted_at": "2026-04-28T04:51:42-04:00",
+          "category": "operations",
+          "seniority": "lead"
+        },
+        {
+          "id": "7528858",
+          "title": "Head of Engineering",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7528858?gh_jid=7528858",
+          "posted_at": "2026-04-28T04:51:42-04:00",
+          "category": "engineering",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-08T05:30:20.683039"
+      "checked_at": "2026-06-09T05:30:20.407796"
     }
   },
-  "generated_at": "2026-06-08T05:30:22.683191"
+  "generated_at": "2026-06-09T05:30:22.407961"
 }
