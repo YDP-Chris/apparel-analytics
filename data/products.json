@@ -134,20 +134,20 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 135,
+      "total": 140,
       "categories": {
-        "bottoms": 66,
-        "other": 11,
-        "tops": 37,
+        "bottoms": 68,
+        "other": 12,
+        "tops": 39,
         "outerwear": 18,
         "accessories": 3
       },
       "subcategories": {
-        "shorts": 39,
-        "other": 29,
+        "shorts": 40,
+        "other": 32,
         "long_sleeve": 6,
         "tanks": 5,
-        "pants": 15,
+        "pants": 16,
         "jackets": 6,
         "vests": 3,
         "hoodies": 8,
@@ -158,7 +158,7 @@
         "sweatpants": 1
       },
       "genders": {
-        "mens": 134,
+        "mens": 139,
         "womens": 1
       },
       "colors": {},
@@ -169,9 +169,9 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4771,
+      "total": 4773,
       "categories": {
-        "tops": 774,
+        "tops": 776,
         "bottoms": 1648,
         "outerwear": 618,
         "sports_bras": 174,
@@ -196,7 +196,7 @@
         "joggers": 171,
         "casual_dress": 49,
         "bags": 213,
-        "crop_tops": 94,
+        "crop_tops": 96,
         "long_sleeve": 177,
         "fleece": 15,
         "jackets": 286,
@@ -216,7 +216,7 @@
       "genders": {
         "womens": 1511,
         "mens": 1211,
-        "unisex": 2049
+        "unisex": 2051
       },
       "colors": {
         "print": 123,
@@ -436,26 +436,26 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1041,
+      "total": 1050,
       "categories": {
-        "other": 309,
-        "accessories": 186,
-        "tops": 223,
+        "other": 312,
+        "accessories": 189,
+        "tops": 225,
         "bottoms": 201,
         "sports_bras": 65,
-        "outerwear": 57
+        "outerwear": 58
       },
       "subcategories": {
-        "other": 522,
-        "tees": 110,
+        "other": 527,
+        "tees": 111,
         "shorts": 128,
-        "hats": 75,
+        "hats": 77,
         "leggings": 42,
         "tanks": 33,
         "crop_tops": 16,
         "socks": 8,
         "joggers": 24,
-        "hoodies": 25,
+        "hoodies": 26,
         "long_sleeve": 14,
         "quarter_zips": 9,
         "jackets": 17,
@@ -466,7 +466,7 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 879,
+        "unisex": 888,
         "womens": 141,
         "mens": 21
       },
@@ -487,7 +487,7 @@
         "yellow": 5,
         "orange": 1
       },
-      "colorCoverage": 62.3,
+      "colorCoverage": 61.8,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 400
     },
@@ -646,7 +646,7 @@
     }
   },
   "totals": {
-    "products": 36012,
+    "products": 36028,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
@@ -656,7 +656,7 @@
       "date": "2026-06-12",
       "brand": "Ten Thousand",
       "brandSlug": "tenthousand",
-      "count": 12,
+      "count": 17,
       "products": [
         {
           "name": "recover short 9 inch",
@@ -729,6 +729,98 @@
           "url": "https://www.tenthousand.cc/products/interval-short-7-inch-sale",
           "category": "bottoms",
           "gender": "mens"
+        },
+        {
+          "name": "5 pocket pant regular sale",
+          "url": "https://www.tenthousand.cc/products/5-pocket-pant-regular-sale",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "tactical short 5 inch sales",
+          "url": "https://www.tenthousand.cc/products/tactical-short-5-inch-sales",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "interval shirt",
+          "url": "https://www.tenthousand.cc/products/interval-shirt-1",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "field overshirt",
+          "url": "https://www.tenthousand.cc/products/field-overshirt",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "foundation shirt sale",
+          "url": "https://www.tenthousand.cc/products/foundation-shirt-sale",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 9,
+      "products": [
+        {
+          "name": "machine basic shirt v5",
+          "url": "https://www.gymreapers.com/products/machine-basic-shirt-v5",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "graphic machine hoodie",
+          "url": "https://www.gymreapers.com/products/graphic-machine-hoodie",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine graphic tee",
+          "url": "https://www.gymreapers.com/products/machine-graphic-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine cut off",
+          "url": "https://www.gymreapers.com/products/machine-cut-off",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine beanie",
+          "url": "https://www.gymreapers.com/products/machine-beanie",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine gym flag",
+          "url": "https://www.gymreapers.com/products/machine-gym-flag",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine trucker hat",
+          "url": "https://www.gymreapers.com/products/machine-trucker-hat",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine patch",
+          "url": "https://www.gymreapers.com/products/machine-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "machine quick locking weightlifting belt",
+          "url": "https://www.gymreapers.com/products/machine-quick-locking-weightlifting-belt",
+          "category": "accessories",
+          "gender": "unisex"
         }
       ]
     },
@@ -760,6 +852,26 @@
           "name": "gymshark pumper pants pants",
           "url": "https://www.gymshark.com/es-US/products/gymshark-pumper-pants-pants-orange-ss26",
           "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 2,
+      "products": [
+        {
+          "name": "ribbed nulu cropped define jacket",
+          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Ribbed-Nulu-Cropped-Define-Jacket-MD/_/prod11270156",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "ribbed nulu cropped define jacket",
+          "url": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Ribbed-Nulu-Cropped-Define-Jacket/_/prod11130154",
+          "category": "tops",
           "gender": "unisex"
         }
       ]
@@ -4018,7 +4130,7 @@
       "2026-05-05": 1,
       "2026-05-12": 1,
       "2026-06-04": 1,
-      "2026-06-12": 12
+      "2026-06-12": 17
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -4082,7 +4194,8 @@
       "2026-06-05": 2,
       "2026-06-09": 14,
       "2026-06-10": 24,
-      "2026-06-11": 24
+      "2026-06-11": 24,
+      "2026-06-12": 2
     },
     "alo": {
       "2026-02-03": 3396,
@@ -4268,7 +4381,8 @@
       "2026-05-16": 15,
       "2026-05-20": 5,
       "2026-06-01": 1,
-      "2026-06-09": 1
+      "2026-06-09": 1,
+      "2026-06-12": 9
     },
     "sbd": {
       "2026-04-07": 206,
@@ -4292,7 +4406,7 @@
     "bottoms": {
       "vuori": 1825,
       "outdoor_voices": 222,
-      "tenthousand": 66,
+      "tenthousand": 68,
       "lululemon": 1648,
       "alo": 1768,
       "gymshark": 3169,
@@ -4305,12 +4419,12 @@
     "tops": {
       "vuori": 601,
       "outdoor_voices": 58,
-      "tenthousand": 37,
-      "lululemon": 774,
+      "tenthousand": 39,
+      "lululemon": 776,
       "alo": 567,
       "gymshark": 2765,
       "on_running": 622,
-      "gymreapers": 223,
+      "gymreapers": 225,
       "sbd": 67,
       "schiek": 7,
       "bear_grips": 1245
@@ -4323,7 +4437,7 @@
       "alo": 672,
       "gymshark": 884,
       "on_running": 861,
-      "gymreapers": 57,
+      "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 453
@@ -4331,12 +4445,12 @@
     "other": {
       "vuori": 557,
       "outdoor_voices": 52,
-      "tenthousand": 11,
+      "tenthousand": 12,
       "lululemon": 817,
       "alo": 811,
       "gymshark": 653,
       "on_running": 2750,
-      "gymreapers": 309,
+      "gymreapers": 312,
       "sbd": 78,
       "harbinger": 22,
       "schiek": 56,
@@ -4368,7 +4482,7 @@
       "alo": 405,
       "gymshark": 524,
       "on_running": 674,
-      "gymreapers": 186,
+      "gymreapers": 189,
       "sbd": 54,
       "harbinger": 24,
       "schiek": 44,
@@ -4398,7 +4512,7 @@
     "shorts": {
       "vuori": 662,
       "outdoor_voices": 71,
-      "tenthousand": 39,
+      "tenthousand": 40,
       "lululemon": 520,
       "alo": 412,
       "gymshark": 1294,
@@ -4426,7 +4540,7 @@
       "lululemon": 18,
       "alo": 52,
       "gymshark": 62,
-      "gymreapers": 110,
+      "gymreapers": 111,
       "bear_grips": 567
     },
     "leggings": {
@@ -4443,12 +4557,12 @@
     "other": {
       "vuori": 1143,
       "outdoor_voices": 153,
-      "tenthousand": 29,
+      "tenthousand": 32,
       "lululemon": 1452,
       "alo": 1639,
       "gymshark": 2862,
       "on_running": 3101,
-      "gymreapers": 522,
+      "gymreapers": 527,
       "sbd": 137,
       "harbinger": 46,
       "schiek": 105,
@@ -4457,7 +4571,7 @@
     "pants": {
       "vuori": 386,
       "outdoor_voices": 47,
-      "tenthousand": 15,
+      "tenthousand": 16,
       "lululemon": 428,
       "alo": 251,
       "gymshark": 312,
@@ -4516,7 +4630,7 @@
       "alo": 223,
       "gymshark": 516,
       "on_running": 315,
-      "gymreapers": 25,
+      "gymreapers": 26,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 259
@@ -4528,7 +4642,7 @@
       "alo": 144,
       "gymshark": 88,
       "on_running": 218,
-      "gymreapers": 75,
+      "gymreapers": 77,
       "sbd": 7,
       "schiek": 1,
       "bear_grips": 157
@@ -4555,7 +4669,7 @@
     "crop_tops": {
       "vuori": 10,
       "outdoor_voices": 9,
-      "lululemon": 94,
+      "lululemon": 96,
       "alo": 186,
       "gymshark": 166,
       "on_running": 191,
@@ -4854,8 +4968,8 @@
     {
       "brand": "Lululemon",
       "bottoms": 34.5,
-      "tops": 16.2,
-      "outerwear": 13,
+      "tops": 16.3,
+      "outerwear": 12.9,
       "dresses": 1.5,
       "sports_bras": 3.6,
       "accessories": 12.9,
@@ -4893,12 +5007,12 @@
     },
     {
       "brand": "gymreapers",
-      "bottoms": 19.3,
+      "bottoms": 19.1,
       "tops": 21.4,
       "outerwear": 5.5,
       "dresses": 0,
       "sports_bras": 6.2,
-      "accessories": 17.9,
+      "accessories": 18,
       "other": 29.7
     },
     {
@@ -4923,13 +5037,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 48.9,
-      "tops": 27.4,
-      "outerwear": 13.3,
+      "bottoms": 48.6,
+      "tops": 27.9,
+      "outerwear": 12.9,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 2.2,
-      "other": 8.1
+      "accessories": 2.1,
+      "other": 8.6
     },
     {
       "brand": "schiek",
@@ -5057,20 +5171,20 @@
     },
     {
       "brand": "gymreapers",
-      "black": 11.8,
+      "black": 11.7,
       "white": 8.6,
       "gray": 6.9,
-      "navy": 3.6,
+      "navy": 3.5,
       "blue": 3,
-      "green": 9.4,
-      "khaki": 5.7,
+      "green": 9.3,
+      "khaki": 5.6,
       "brown": 0.9,
-      "purple": 1.2,
+      "purple": 1.1,
       "pink": 1.4,
       "orange": 0.1,
-      "red": 5.8,
+      "red": 5.7,
       "yellow": 0.5,
-      "other": 3.6
+      "other": 3.5
     },
     {
       "brand": "Outdoor Voices",
@@ -5362,5 +5476,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-12T13:15:28.785Z"
+  "generated_at": "2026-06-13T13:15:23.442Z"
 }
