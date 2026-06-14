@@ -169,11 +169,11 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4773,
+      "total": 4779,
       "categories": {
-        "tops": 776,
+        "tops": 780,
         "bottoms": 1648,
-        "outerwear": 618,
+        "outerwear": 620,
         "sports_bras": 174,
         "accessories": 617,
         "other": 817,
@@ -184,7 +184,7 @@
         "tanks": 266,
         "shorts": 520,
         "hoodies": 121,
-        "other": 1452,
+        "other": 1456,
         "medium_support": 19,
         "leggings": 203,
         "polos": 63,
@@ -199,7 +199,7 @@
         "crop_tops": 96,
         "long_sleeve": 177,
         "fleece": 15,
-        "jackets": 286,
+        "jackets": 288,
         "running": 23,
         "skirts": 97,
         "tees": 18,
@@ -214,8 +214,8 @@
         "sweatpants": 4
       },
       "genders": {
-        "womens": 1511,
-        "mens": 1211,
+        "womens": 1513,
+        "mens": 1215,
         "unisex": 2051
       },
       "colors": {
@@ -646,12 +646,56 @@
     }
   },
   "totals": {
-    "products": 36028,
+    "products": 36034,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-13",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 6,
+      "products": [
+        {
+          "name": "smocked waist t shirt dress",
+          "url": "https://shop.lululemon.com/p/skirts-and-dresses-dresses/Smocked-Waist-T-Shirt-Dress/_/prod20001319",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "wovenair cargo pocket jacket",
+          "url": "https://shop.lululemon.com/p/mens-jackets-and-outerwear/WovenAir-Cargo-Pocket-Jacket/_/prod20000199",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "wovenair cargo pocket jacket",
+          "url": "https://shop.lululemon.com/p/mens-jackets-and-outerwear/WovenAir-Cargo-Pocket-Jacket-MD/_/prod20000198",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "wovenair cargo pocket ss shirt",
+          "url": "https://shop.lululemon.com/p/men-ss-tops/WovenAir-Cargo-Pocket-SS-Shirt/_/prod20000223",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "wovenair cargo pocket ss shirt",
+          "url": "https://shop.lululemon.com/p/men-ss-tops/WovenAir-Cargo-Pocket-SS-Shirt-MD/_/prod20000222",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "smocked waist t shirt dress",
+          "url": "https://shop.lululemon.com/p/skirts-and-dresses-dresses/Smocked-Waist-T-Shirt-Dress-MD/_/prod20001318",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-06-12",
       "brand": "Ten Thousand",
@@ -3743,284 +3787,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-27",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 34,
-      "products": [
-        {
-          "name": "2 in 1 shorts erewhon m",
-          "url": "https://www.on.com/en-us/products/2-in-1-shorts-erewhon-m-1mg1127/mens/cinder-ash-apparel-1MG11271910",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "2 in 1 shorts erewhon m",
-          "url": "https://www.on.com/en-us/products/2-in-1-shorts-erewhon-m-1mg1127/mens/espresso-black-apparel-1MG11275033",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "cargo pack erewhon u",
-          "url": "https://www.on.com/en-us/products/cargo-pack-erewhon-u-2ug1056/unisex/cinder-accessories-2UG10561933",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudsurfer max erewhon m",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-max-erewhon-m-3mg1094/mens/black-black-shoes-3MG10941043",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudsurfer max erewhon m",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-max-erewhon-m-3mg1094/mens/ivory-white-shoes-3MG10941195",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudsurfer max erewhon w",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-max-erewhon-w-3wg1084/womens/black-black-shoes-3WG10841043",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudsurfer max erewhon w",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-max-erewhon-w-3wg1084/womens/ivory-white-shoes-3WG10841195",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "club collective t erewhon u",
-          "url": "https://www.on.com/en-us/products/club-collective-t-erewhon-u-1ug1014/unisex/espresso-apparel-1UG10144959",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "club collective t erewhon u",
-          "url": "https://www.on.com/en-us/products/club-collective-t-erewhon-u-1ug1014/unisex/ivory-apparel-1UG10141951",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "collective hoodie erewhon u",
-          "url": "https://www.on.com/en-us/products/collective-hoodie-erewhon-u-1ug1015/unisex/espresso-apparel-1UG10154959",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "collective hoodie erewhon u",
-          "url": "https://www.on.com/en-us/products/collective-hoodie-erewhon-u-1ug1015/unisex/ivory-apparel-1UG10151951",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight cap erewhon u",
-          "url": "https://www.on.com/en-us/products/lightweight-cap-erewhon-u-2ug1055/unisex/black-accessories-2UG10550553",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight cap erewhon u",
-          "url": "https://www.on.com/en-us/products/lightweight-cap-erewhon-u-2ug1055/unisex/ivory-accessories-2UG10551951",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "performance bra erewhon w",
-          "url": "https://www.on.com/en-us/products/performance-bra-erewhon-w-1wg1194/womens/cinder-ash-apparel-1WG11941910",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "performance bra erewhon w",
-          "url": "https://www.on.com/en-us/products/performance-bra-erewhon-w-1wg1194/womens/espresso-black-apparel-1WG11945033",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "performance t erewhon m",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-m-1mg1125/mens/espresso-black-apparel-1MG11255033",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "performance t erewhon m",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-m-1mg1125/mens/ivory-ivory-apparel-1MG11253334",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "performance t erewhon m",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-m-1mg1125/mens/turmeric-apparel-1MG11252622",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "performance t erewhon w",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-w-1wg1186/womens/espresso-black-apparel-1WG11865033",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "performance t erewhon w",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-w-1wg1186/womens/ivory-apparel-1WG11861951",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "performance t erewhon w",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-w-1wg1186/womens/turmeric-apparel-1WG11862622",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "short tights erewhon w",
-          "url": "https://www.on.com/en-us/products/short-tights-erewhon-w-1wg1185/womens/cinder-ash-apparel-1WG11851910",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "short tights erewhon w",
-          "url": "https://www.on.com/en-us/products/short-tights-erewhon-w-1wg1185/womens/espresso-black-apparel-1WG11855033",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "2 in 1 shorts erewhon m 1mg1127",
-          "url": "https://www.on.com/en-us/products/2-in-1-shorts-erewhon-m-1mg1127/mens",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "cargo pack erewhon u 2ug1056",
-          "url": "https://www.on.com/en-us/products/cargo-pack-erewhon-u-2ug1056/unisex",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudsurfer max erewhon m 3mg1094",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-max-erewhon-m-3mg1094/mens",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudsurfer max erewhon w 3wg1084",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-max-erewhon-w-3wg1084/womens",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "club collective t erewhon u 1ug1014",
-          "url": "https://www.on.com/en-us/products/club-collective-t-erewhon-u-1ug1014/unisex",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "collective hoodie erewhon u 1ug1015",
-          "url": "https://www.on.com/en-us/products/collective-hoodie-erewhon-u-1ug1015/unisex",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "lightweight cap erewhon u 2ug1055",
-          "url": "https://www.on.com/en-us/products/lightweight-cap-erewhon-u-2ug1055/unisex",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "performance bra erewhon w 1wg1194",
-          "url": "https://www.on.com/en-us/products/performance-bra-erewhon-w-1wg1194/womens",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "performance t erewhon m 1mg1125",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-m-1mg1125/mens",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "performance t erewhon w 1wg1186",
-          "url": "https://www.on.com/en-us/products/performance-t-erewhon-w-1wg1186/womens",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "short tights erewhon w 1wg1185",
-          "url": "https://www.on.com/en-us/products/short-tights-erewhon-w-1wg1185/womens",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 4,
-      "products": [
-        {
-          "name": "gymshark arrival slim marl tank core kalamata",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-slim-marl-tank-core-olive-kalamata-olive-marl-ss22",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark arrival slim marl tank core kalamata",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-arrival-slim-marl-tank-core-olive-kalamata-olive-marl-ss22",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark running elite leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-running-elite-leggings-leggings-black-aw25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark running elite leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-running-elite-leggings-leggings-black-aw25",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 2,
-      "products": [
-        {
-          "name": "wanderlust backpack small grip handle",
-          "url": "https://shop.lululemon.com/p/wanderlust-backpack-small-grip-handle/a0h44gw96v-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "wanderlust backpack small grip handle",
-          "url": "https://shop.lululemon.com/p/wanderlust-backpack-small-grip-handle/a0h44gw96v",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "brand": "sbd",
-      "brandSlug": "sbd",
-      "count": 1,
-      "products": [
-        {
-          "name": "original wrist wraps",
-          "url": "https://sbdapparel.com/products/original-wrist-wraps",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4195,7 +3961,8 @@
       "2026-06-09": 14,
       "2026-06-10": 24,
       "2026-06-11": 24,
-      "2026-06-12": 2
+      "2026-06-12": 2,
+      "2026-06-13": 6
     },
     "alo": {
       "2026-02-03": 3396,
@@ -4420,7 +4187,7 @@
       "vuori": 601,
       "outdoor_voices": 58,
       "tenthousand": 39,
-      "lululemon": 776,
+      "lululemon": 780,
       "alo": 567,
       "gymshark": 2765,
       "on_running": 622,
@@ -4433,7 +4200,7 @@
       "vuori": 512,
       "outdoor_voices": 35,
       "tenthousand": 18,
-      "lululemon": 618,
+      "lululemon": 620,
       "alo": 672,
       "gymshark": 884,
       "on_running": 861,
@@ -4558,7 +4325,7 @@
       "vuori": 1143,
       "outdoor_voices": 153,
       "tenthousand": 32,
-      "lululemon": 1452,
+      "lululemon": 1456,
       "alo": 1639,
       "gymshark": 2862,
       "on_running": 3101,
@@ -4603,7 +4370,7 @@
       "vuori": 156,
       "outdoor_voices": 13,
       "tenthousand": 6,
-      "lululemon": 286,
+      "lululemon": 288,
       "alo": 185,
       "gymshark": 190,
       "on_running": 424,
@@ -4969,7 +4736,7 @@
       "brand": "Lululemon",
       "bottoms": 34.5,
       "tops": 16.3,
-      "outerwear": 12.9,
+      "outerwear": 13,
       "dresses": 1.5,
       "sports_bras": 3.6,
       "accessories": 12.9,
@@ -5310,7 +5077,7 @@
       "metric": "mens_catalog",
       "brand": "Vuori",
       "value": 1438,
-      "text": "Vuori leads Lululemon in men's: 1438 vs 1211 products. A 19% advantage."
+      "text": "Vuori leads Lululemon in men's: 1438 vs 1215 products. A 18% advantage."
     },
     {
       "type": "leader",
@@ -5322,7 +5089,7 @@
     {
       "type": "comparison",
       "metric": "outerwear",
-      "text": "Outerwear depth: Vuori has 512 products vs Lululemon's 618. Key for cooler weather expansion."
+      "text": "Outerwear depth: Vuori has 512 products vs Lululemon's 620. Key for cooler weather expansion."
     }
   ],
   "vuoriScorecard": {
@@ -5415,13 +5182,13 @@
       {
         "category": "Men's Products",
         "vuori": 1438,
-        "competitor": 1211,
+        "competitor": 1215,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
         "vuori": 1755,
-        "competitor": 1511,
+        "competitor": 1513,
         "winner": "vuori"
       }
     ],
@@ -5476,5 +5243,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-13T13:15:23.442Z"
+  "generated_at": "2026-06-14T13:15:23.302Z"
 }
