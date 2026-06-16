@@ -134,16 +134,16 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 140,
+      "total": 141,
       "categories": {
-        "bottoms": 68,
+        "bottoms": 69,
         "other": 12,
         "tops": 39,
         "outerwear": 18,
         "accessories": 3
       },
       "subcategories": {
-        "shorts": 40,
+        "shorts": 41,
         "other": 32,
         "long_sleeve": 6,
         "tanks": 5,
@@ -158,7 +158,7 @@
         "sweatpants": 1
       },
       "genders": {
-        "mens": 139,
+        "mens": 140,
         "womens": 1
       },
       "colors": {},
@@ -234,10 +234,10 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4709,
+      "total": 4711,
       "categories": {
-        "other": 811,
-        "bottoms": 1768,
+        "other": 812,
+        "bottoms": 1769,
         "tops": 567,
         "sports_bras": 321,
         "accessories": 405,
@@ -246,8 +246,8 @@
         "dresses": 120
       },
       "subcategories": {
-        "other": 1639,
-        "leggings": 361,
+        "other": 1640,
+        "leggings": 362,
         "tanks": 263,
         "shorts": 412,
         "hats": 144,
@@ -274,8 +274,8 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 2954,
-        "womens": 1450,
+        "unisex": 2955,
+        "womens": 1451,
         "mens": 305
       },
       "colors": {
@@ -284,7 +284,7 @@
         "white": 907,
         "gray": 492,
         "khaki": 132,
-        "pink": 227,
+        "pink": 228,
         "blue": 242,
         "purple": 38,
         "green": 307,
@@ -299,7 +299,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2892
+      "uniqueStyles": 2893
     },
     "gymshark": {
       "name": "Gymshark",
@@ -646,12 +646,26 @@
     }
   },
   "totals": {
-    "products": 36037,
+    "products": 36040,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-16",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 1,
+      "products": [
+        {
+          "name": "utility short sale",
+          "url": "https://www.tenthousand.cc/products/utility-short-sale",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-06-15",
       "brand": "Gymshark",
@@ -674,6 +688,26 @@
           "name": "gymshark carlos x rest day track pant pants",
           "url": "https://www.gymshark.com/es-US/products/gymshark-carlos-x-rest-day-track-pant-pants-blue-ss25",
           "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "7 8 high waist airlift legging soft mulberry",
+          "url": "https://www.aloyoga.com/products/w5766r-7-8-high-waist-airlift-legging-soft-mulberry",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "airlift solar visor summer crush",
+          "url": "https://www.aloyoga.com/products/a0684u-airlift-solar-visor-pink-summer-crush",
+          "category": "other",
           "gender": "unisex"
         }
       ]
@@ -2221,252 +2255,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-29",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 28,
-      "products": [
-        {
-          "name": "gymshark script embroidery full zip jacket pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-script-embroidery-full-zip-jacket-pullovers-purple-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark script embroidery full zip jacket pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-script-embroidery-full-zip-jacket-pullovers-pink-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark script embroidery full zip jacket pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-script-embroidery-full-zip-jacket-pullovers-purple-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark script embroidery full zip jacket pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-script-embroidery-full-zip-jacket-pullovers-pink-ss26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark rest day slides",
-          "url": "https://www.gymshark.com/products/gymshark-rest-day-slides-black-ss23",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday tote pebble",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-tote-pebble-grey-aw23",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate scarf misc",
-          "url": "https://www.gymshark.com/products/gymshark-collegiate-scarf-misc-blue-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate scarf misc",
-          "url": "https://www.gymshark.com/products/gymshark-collegiate-scarf-misc-red-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday camera bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-camera-bag-bags-grey-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark leather lifting straps equipment",
-          "url": "https://www.gymshark.com/products/gymshark-leather-lifting-straps-equipment-brown-aw25",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark collegiate scarf misc",
-          "url": "https://www.gymshark.com/products/gymshark-collegiate-scarf-misc-black-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sharkhead backpack bags",
-          "url": "https://www.gymshark.com/products/gymshark-sharkhead-backpack-bags-green-aw25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bulldog patch misc",
-          "url": "https://www.gymshark.com/products/gymshark-bulldog-patch-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark starter patches 3pk misc",
-          "url": "https://www.gymshark.com/products/gymshark-starter-patches-3pk-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday holdall medium bags",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-holdall-medium-bags",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark graphic patch misc",
-          "url": "https://www.gymshark.com/products/gymshark-graphic-patch-misc-yellow-ss26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark rest day slides",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-slides-black-ss23",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday tote pebble",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-tote-pebble-grey-aw23",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate scarf misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-scarf-misc-blue-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate scarf misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-scarf-misc-red-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday camera bag bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-camera-bag-bags-grey-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark leather lifting straps equipment",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-leather-lifting-straps-equipment-brown-aw25",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark collegiate scarf misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-scarf-misc-black-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sharkhead backpack bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-sharkhead-backpack-bags-green-aw25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bulldog patch misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bulldog-patch-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark starter patches 3pk misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-starter-patches-3pk-misc",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday holdall medium bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-holdall-medium-bags",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark graphic patch misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-graphic-patch-misc-yellow-ss26",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 8,
-      "products": [
-        {
-          "name": "underease high rise bikini underwear 3pk updated",
-          "url": "https://shop.lululemon.com/p/underease-high-rise-bikini-underwear-3pk-updated/lu73aj3rna-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "underease mid rise bikini underwear 5 pack updated",
-          "url": "https://shop.lululemon.com/p/underease-mid-rise-bikini-underwear-5-pack-updated/l3nj7ls28h-md",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba short sleeve pullover french terry",
-          "url": "https://shop.lululemon.com/p/scuba-short-sleeve-pullover-french-terry/febont7npf",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "scuba short sleeve pullover french terry",
-          "url": "https://shop.lululemon.com/p/scuba-short-sleeve-pullover-french-terry/febont7npf-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "underease high rise bikini underwear 3pk updated",
-          "url": "https://shop.lululemon.com/p/underease-high-rise-bikini-underwear-3pk-updated/lu73aj3rna",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "underease cami strap bralette a c cups",
-          "url": "https://shop.lululemon.com/p/underease-cami-strap-bralette-a-c-cups/g0uom0w8tn",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "underease cami strap bralette a c cups",
-          "url": "https://shop.lululemon.com/p/underease-cami-strap-bralette-a-c-cups/g0uom0w8tn-md",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "underease mid rise bikini underwear 5 pack updated",
-          "url": "https://shop.lululemon.com/p/underease-mid-rise-bikini-underwear-5-pack-updated/l3nj7ls28h",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 1,
-      "products": [
-        {
-          "name": "tennis club sweater knit cardigan ivory",
-          "url": "https://www.aloyoga.com/products/w3847r-tennis-club-sweater-knit-cardigan-ivory-gravel",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -2576,7 +2364,8 @@
       "2026-05-05": 1,
       "2026-05-12": 1,
       "2026-06-04": 1,
-      "2026-06-12": 17
+      "2026-06-12": 17,
+      "2026-06-16": 1
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -2721,7 +2510,8 @@
       "2026-05-31": 1,
       "2026-06-02": 5,
       "2026-06-03": 2,
-      "2026-06-05": 2
+      "2026-06-05": 2,
+      "2026-06-15": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -2854,9 +2644,9 @@
     "bottoms": {
       "vuori": 1825,
       "outdoor_voices": 222,
-      "tenthousand": 68,
+      "tenthousand": 69,
       "lululemon": 1648,
-      "alo": 1768,
+      "alo": 1769,
       "gymshark": 3171,
       "on_running": 1577,
       "gymreapers": 201,
@@ -2895,7 +2685,7 @@
       "outdoor_voices": 52,
       "tenthousand": 12,
       "lululemon": 817,
-      "alo": 811,
+      "alo": 812,
       "gymshark": 653,
       "on_running": 2750,
       "gymreapers": 312,
@@ -2960,7 +2750,7 @@
     "shorts": {
       "vuori": 662,
       "outdoor_voices": 71,
-      "tenthousand": 40,
+      "tenthousand": 41,
       "lululemon": 520,
       "alo": 412,
       "gymshark": 1294,
@@ -2996,7 +2786,7 @@
       "outdoor_voices": 16,
       "tenthousand": 4,
       "lululemon": 203,
-      "alo": 361,
+      "alo": 362,
       "gymshark": 755,
       "on_running": 398,
       "gymreapers": 42,
@@ -3007,7 +2797,7 @@
       "outdoor_voices": 153,
       "tenthousand": 32,
       "lululemon": 1456,
-      "alo": 1639,
+      "alo": 1640,
       "gymshark": 2862,
       "on_running": 3101,
       "gymreapers": 527,
@@ -3364,7 +3154,7 @@
     "pink": {
       "vuori": 75,
       "outdoor_voices": 7,
-      "alo": 227,
+      "alo": 228,
       "gymshark": 655,
       "on_running": 185,
       "gymreapers": 15,
@@ -3425,7 +3215,7 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37.5,
+      "bottoms": 37.6,
       "tops": 12,
       "outerwear": 14.3,
       "dresses": 2.5,
@@ -3485,13 +3275,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 48.6,
-      "tops": 27.9,
-      "outerwear": 12.9,
+      "bottoms": 48.9,
+      "tops": 27.7,
+      "outerwear": 12.8,
       "dresses": 0,
       "sports_bras": 0,
       "accessories": 2.1,
-      "other": 8.6
+      "other": 8.5
     },
     {
       "brand": "schiek",
@@ -3883,7 +3673,7 @@
       {
         "category": "Leggings",
         "vuori": 171,
-        "competitor": 361,
+        "competitor": 362,
         "winner": "competitor"
       },
       {
@@ -3919,10 +3709,10 @@
       {
         "category": "Women's Products",
         "vuori": 1755,
-        "competitor": 1450,
+        "competitor": 1451,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-06-15T13:15:22.503Z"
+  "generated_at": "2026-06-16T13:15:23.736Z"
 }
