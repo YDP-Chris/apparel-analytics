@@ -169,14 +169,14 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4779,
+      "total": 4783,
       "categories": {
         "tops": 780,
         "bottoms": 1648,
-        "outerwear": 620,
+        "outerwear": 622,
         "sports_bras": 174,
         "accessories": 617,
-        "other": 817,
+        "other": 819,
         "dresses": 73,
         "footwear": 50
       },
@@ -184,7 +184,7 @@
         "tanks": 266,
         "shorts": 520,
         "hoodies": 121,
-        "other": 1456,
+        "other": 1458,
         "medium_support": 19,
         "leggings": 203,
         "polos": 63,
@@ -199,7 +199,7 @@
         "crop_tops": 96,
         "long_sleeve": 177,
         "fleece": 15,
-        "jackets": 288,
+        "jackets": 290,
         "running": 23,
         "skirts": 97,
         "tees": 18,
@@ -216,7 +216,7 @@
       "genders": {
         "womens": 1513,
         "mens": 1215,
-        "unisex": 2051
+        "unisex": 2055
       },
       "colors": {
         "print": 123,
@@ -304,27 +304,27 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 8702,
+      "total": 8728,
       "categories": {
-        "bottoms": 3171,
-        "tops": 2765,
+        "bottoms": 3175,
+        "tops": 2783,
         "other": 653,
         "accessories": 524,
-        "outerwear": 885,
-        "sports_bras": 698,
+        "outerwear": 887,
+        "sports_bras": 700,
         "dresses": 6
       },
       "subcategories": {
         "shorts": 1294,
         "leggings": 755,
-        "crop_tops": 166,
-        "other": 2862,
-        "long_sleeve": 475,
+        "crop_tops": 168,
+        "other": 2868,
+        "long_sleeve": 479,
         "socks": 216,
-        "tanks": 766,
-        "joggers": 545,
+        "tanks": 772,
+        "joggers": 549,
         "hoodies": 517,
-        "jackets": 190,
+        "jackets": 192,
         "pants": 314,
         "pullovers": 140,
         "high_support": 26,
@@ -332,7 +332,7 @@
         "bralette": 64,
         "tees": 62,
         "headwear": 36,
-        "polos": 24,
+        "polos": 26,
         "hats": 88,
         "low_support": 54,
         "fleece": 2,
@@ -342,29 +342,29 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4020,
-        "womens": 2904,
-        "mens": 1778
+        "unisex": 4030,
+        "womens": 2912,
+        "mens": 1786
       },
       "colors": {
-        "green": 437,
+        "green": 439,
         "pink": 655,
-        "black": 2067,
+        "black": 2079,
         "white": 668,
         "navy": 70,
-        "gray": 1068,
-        "brown": 620,
-        "blue": 1395,
+        "gray": 1072,
+        "brown": 622,
+        "blue": 1399,
         "red": 297,
         "purple": 455,
         "yellow": 56,
         "orange": 34,
         "khaki": 2,
-        "print": 16
+        "print": 18
       },
       "colorCoverage": 90.1,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2311
+      "uniqueStyles": 2320
     },
     "on_running": {
       "name": "On Running",
@@ -646,12 +646,208 @@
     }
   },
   "totals": {
-    "products": 36040,
+    "products": 36070,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-16",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 26,
+      "products": [
+        {
+          "name": "gymshark sport joggers",
+          "url": "https://www.gymshark.com/products/gymshark-sport-joggers-teal-aw21",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark longline sports bra fog",
+          "url": "https://www.gymshark.com/products/gymshark-longline-sports-bra-fog-green-aw23",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark asymmetric shelf tank",
+          "url": "https://www.gymshark.com/products/gymshark-asymmetric-shelf-tank-black-ss24",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark seamless polo shirt",
+          "url": "https://www.gymshark.com/products/gymshark-seamless-polo-shirt-black-ss24",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collegiate ringer t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-collegiate-ringer-t-shirt-ss-tops-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training racer midi tank",
+          "url": "https://www.gymshark.com/products/gymshark-training-racer-midi-tank-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark tactical t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-tactical-t-shirt-ss-tops-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark varsity oversized jogger pants",
+          "url": "https://www.gymshark.com/products/gymshark-varsity-oversized-jogger-pants-grey-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vital seamless halter neck tank crop tops ss25",
+          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-halter-neck-tank-crop-tops-black-ss25-1",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark sport joggers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-joggers-teal-aw21",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark longline sports bra fog",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-longline-sports-bra-fog-green-aw23",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark asymmetric shelf tank",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-asymmetric-shelf-tank-black-ss24",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark seamless polo shirt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-seamless-polo-shirt-black-ss24",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark collegiate ringer t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-ringer-t-shirt-ss-tops-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training racer midi tank",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-racer-midi-tank-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark tactical t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-tactical-t-shirt-ss-tops-black-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark varsity oversized jogger pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-varsity-oversized-jogger-pants-grey-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark vital seamless halter neck tank crop tops ss25",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-halter-neck-tank-crop-tops-black-ss25-1",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark arrival woven full zip jacket",
+          "url": "https://www.gymshark.com/products/gymshark-arrival-woven-full-zip-jacket-black",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark flex sports long sleeve crop top",
+          "url": "https://www.gymshark.com/products/gymshark-flex-sports-long-sleeve-crop-top-light-grey-marl-aw21",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark adapt ombre crop top triangle penny brown",
+          "url": "https://www.gymshark.com/products/gymshark-adapt-ombre-crop-top-triangle-penny-brown-print-ss22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apex long sleeve t shirt cherry",
+          "url": "https://www.gymshark.com/products/gymshark-apex-long-sleeve-t-shirt-cherry-brown-aw22",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark arrival woven full zip jacket",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-arrival-woven-full-zip-jacket-black",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark flex sports long sleeve crop top",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-flex-sports-long-sleeve-crop-top-light-grey-marl-aw21",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark adapt ombre crop top triangle penny brown",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-ombre-crop-top-triangle-penny-brown-print-ss22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apex long sleeve t shirt cherry",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-apex-long-sleeve-t-shirt-cherry-brown-aw22",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 4,
+      "products": [
+        {
+          "name": "ventilated oversized track jacket",
+          "url": "https://shop.lululemon.com/p/ventilated-oversized-track-jacket/qxew84o552",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "new crew lunch box",
+          "url": "https://shop.lululemon.com/p/bags/New-Crew-Lunch-Box-MD/_/prod20005206",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "new crew lunch box",
+          "url": "https://shop.lululemon.com/p/bags/New-Crew-Lunch-Box/_/prod20005207",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ventilated oversized track jacket",
+          "url": "https://shop.lululemon.com/p/ventilated-oversized-track-jacket/qxew84o552-md",
+          "category": "outerwear",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "brand": "Ten Thousand",
@@ -2431,7 +2627,8 @@
       "2026-06-10": 24,
       "2026-06-11": 24,
       "2026-06-12": 2,
-      "2026-06-13": 6
+      "2026-06-13": 6,
+      "2026-06-16": 4
     },
     "alo": {
       "2026-02-03": 3396,
@@ -2600,7 +2797,8 @@
       "2026-06-10": 2,
       "2026-06-11": 4,
       "2026-06-12": 4,
-      "2026-06-15": 3
+      "2026-06-15": 3,
+      "2026-06-16": 26
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -2647,7 +2845,7 @@
       "tenthousand": 69,
       "lululemon": 1648,
       "alo": 1769,
-      "gymshark": 3171,
+      "gymshark": 3175,
       "on_running": 1577,
       "gymreapers": 201,
       "sbd": 22,
@@ -2660,7 +2858,7 @@
       "tenthousand": 39,
       "lululemon": 780,
       "alo": 567,
-      "gymshark": 2765,
+      "gymshark": 2783,
       "on_running": 622,
       "gymreapers": 225,
       "sbd": 67,
@@ -2671,9 +2869,9 @@
       "vuori": 512,
       "outdoor_voices": 35,
       "tenthousand": 18,
-      "lululemon": 620,
+      "lululemon": 622,
       "alo": 672,
-      "gymshark": 885,
+      "gymshark": 887,
       "on_running": 861,
       "gymreapers": 58,
       "sbd": 6,
@@ -2684,7 +2882,7 @@
       "vuori": 557,
       "outdoor_voices": 52,
       "tenthousand": 12,
-      "lululemon": 817,
+      "lululemon": 819,
       "alo": 812,
       "gymshark": 653,
       "on_running": 2750,
@@ -2699,7 +2897,7 @@
       "outdoor_voices": 35,
       "lululemon": 174,
       "alo": 321,
-      "gymshark": 698,
+      "gymshark": 700,
       "on_running": 180,
       "gymreapers": 65,
       "bear_grips": 9
@@ -2741,7 +2939,7 @@
       "tenthousand": 7,
       "lululemon": 171,
       "alo": 40,
-      "gymshark": 545,
+      "gymshark": 549,
       "on_running": 27,
       "gymreapers": 24,
       "sbd": 4,
@@ -2765,7 +2963,7 @@
       "tenthousand": 5,
       "lululemon": 266,
       "alo": 263,
-      "gymshark": 766,
+      "gymshark": 772,
       "on_running": 288,
       "gymreapers": 33,
       "sbd": 8,
@@ -2796,9 +2994,9 @@
       "vuori": 1143,
       "outdoor_voices": 153,
       "tenthousand": 32,
-      "lululemon": 1456,
+      "lululemon": 1458,
       "alo": 1640,
-      "gymshark": 2862,
+      "gymshark": 2868,
       "on_running": 3101,
       "gymreapers": 527,
       "sbd": 137,
@@ -2827,7 +3025,7 @@
       "outdoor_voices": 3,
       "lululemon": 63,
       "alo": 14,
-      "gymshark": 24,
+      "gymshark": 26,
       "on_running": 32,
       "gymreapers": 5,
       "bear_grips": 99
@@ -2841,9 +3039,9 @@
       "vuori": 156,
       "outdoor_voices": 13,
       "tenthousand": 6,
-      "lululemon": 288,
+      "lululemon": 290,
       "alo": 185,
-      "gymshark": 190,
+      "gymshark": 192,
       "on_running": 424,
       "gymreapers": 17,
       "bear_grips": 14
@@ -2853,7 +3051,7 @@
       "tenthousand": 6,
       "lululemon": 177,
       "alo": 40,
-      "gymshark": 475,
+      "gymshark": 479,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -2909,7 +3107,7 @@
       "outdoor_voices": 9,
       "lululemon": 96,
       "alo": 186,
-      "gymshark": 166,
+      "gymshark": 168,
       "on_running": 191,
       "gymreapers": 16,
       "sbd": 7,
@@ -3021,7 +3219,7 @@
       "vuori": 541,
       "outdoor_voices": 27,
       "alo": 492,
-      "gymshark": 1068,
+      "gymshark": 1072,
       "on_running": 321,
       "gymreapers": 72,
       "sbd": 16,
@@ -3040,7 +3238,7 @@
       "vuori": 724,
       "outdoor_voices": 68,
       "alo": 1023,
-      "gymshark": 2067,
+      "gymshark": 2079,
       "on_running": 1504,
       "gymreapers": 123,
       "sbd": 2,
@@ -3083,7 +3281,7 @@
       "outdoor_voices": 29,
       "lululemon": 8,
       "alo": 242,
-      "gymshark": 1395,
+      "gymshark": 1399,
       "on_running": 784,
       "gymreapers": 31,
       "sbd": 6,
@@ -3094,7 +3292,7 @@
       "outdoor_voices": 38,
       "lululemon": 4,
       "alo": 307,
-      "gymshark": 437,
+      "gymshark": 439,
       "on_running": 278,
       "gymreapers": 98,
       "sbd": 4
@@ -3103,7 +3301,7 @@
       "vuori": 177,
       "outdoor_voices": 2,
       "alo": 287,
-      "gymshark": 620,
+      "gymshark": 622,
       "on_running": 76,
       "gymreapers": 9,
       "schiek": 2,
@@ -3113,7 +3311,7 @@
       "vuori": 34,
       "outdoor_voices": 18,
       "lululemon": 123,
-      "gymshark": 16,
+      "gymshark": 18,
       "schiek": 1,
       "bear_grips": 6
     },
@@ -3196,7 +3394,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 36.4,
-      "tops": 31.8,
+      "tops": 31.9,
       "outerwear": 10.2,
       "dresses": 0.1,
       "sports_bras": 8,
@@ -3560,7 +3758,7 @@
     {
       "type": "comparison",
       "metric": "outerwear",
-      "text": "Outerwear depth: Vuori has 512 products vs Lululemon's 620. Key for cooler weather expansion."
+      "text": "Outerwear depth: Vuori has 512 products vs Lululemon's 622. Key for cooler weather expansion."
     }
   ],
   "vuoriScorecard": {
@@ -3714,5 +3912,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-16T13:15:23.736Z"
+  "generated_at": "2026-06-17T13:15:16.238Z"
 }

@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 651,
-      "change_from_last": 7,
+      "total_jobs": 657,
+      "change_from_last": 6,
       "departments": {
         "engineering": 19,
-        "operations": 163,
-        "design": 94,
-        "other": 128,
-        "retail": 209,
-        "marketing": 10,
+        "operations": 165,
+        "design": 89,
+        "other": 133,
+        "retail": 212,
+        "marketing": 11,
         "finance": 6,
         "executive": 12,
         "product": 5,
         "hr": 5
       },
       "seniority": {
-        "mid": 25,
-        "manager": 171,
-        "junior": 277,
+        "mid": 26,
+        "manager": 174,
+        "junior": 280,
         "c-suite": 30,
         "intern": 4,
-        "lead": 125,
-        "senior": 19
+        "lead": 122,
+        "senior": 21
       },
       "locations": [
-        "San Luis Obispo, California, United States",
-        "Berkeley, California, United States",
-        "Salt Lake City, UT",
-        "Manhattan Beach, California, United States",
-        "Orange Village, OH",
-        "Baltimore, MD",
-        "Santa Clara, California, United States",
-        "Palo Alto, California, United States",
-        "Charleston, South Carolina, United States",
-        "Corte Madera, California, United States",
         "Beverly Hills, California, United States",
+        "Alexandria, Virginia, United States",
         "Aspen, CO",
-        "Roseville, California, United States",
-        "San Diego, California, United States",
-        "Las Vegas",
-        "Rochester Hills, Michigan, United States",
-        "Venice, California, United States",
-        "Aventura, Florida, United States",
-        "Miami, FL",
-        "Santa Monica, California, United States"
+        "North East, Maryland, United States",
+        "Edina, Minnesota, United States",
+        "Newport Beach, California, United States",
+        "Lynnfield, Massachusetts, United States",
+        "Tucson, Arizona, United States",
+        "Atlanta, Georgia, United States",
+        "Amherst, New York, United States",
+        "Minnetonka, Minnesota, United States",
+        "Walnut Creek, California, United States",
+        "Corte Madera, California, United States",
+        "Santa Clara, California, United States",
+        "McLean, Virginia, United States",
+        "Greenwich, Connecticut, United States",
+        "Chestnut Hill, Massachusetts, United States",
+        "Canoga Park, California, United States",
+        "Montreal, QC",
+        "Salt Lake City, UT"
       ],
       "jobs": [
         {
@@ -330,6 +330,16 @@
           "seniority": "manager"
         },
         {
+          "id": "6017822004",
+          "title": "Brand Protection Specialist",
+          "location": "Remote",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6017822004?gh_jid=6017822004",
+          "posted_at": "2026-06-16T13:01:34-04:00",
+          "category": "marketing",
+          "seniority": "mid"
+        },
+        {
           "id": "5640903004",
           "title": "Business Analyst, ERP Accounting & Finance",
           "location": "Beverly Hills, California, United States",
@@ -538,45 +548,35 @@
           "posted_at": "2026-06-02T11:27:46-04:00",
           "category": "engineering",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5990679004",
-          "title": "Director of Workplace and Hospitality Design & Construction ",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5990679004?gh_jid=5990679004",
-          "posted_at": "2026-06-02T11:27:46-04:00",
-          "category": "design",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-06-16T05:30:10.277624"
+      "checked_at": "2026-06-17T05:30:10.080503"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 15,
-      "change_from_last": 0,
+      "total_jobs": 14,
+      "change_from_last": -1,
       "departments": {
         "other": 5,
-        "engineering": 3,
         "design": 3,
+        "engineering": 2,
         "product": 1,
         "operations": 1,
-        "retail": 2
+        "retail": 1,
+        "marketing": 1
       },
       "seniority": {
         "mid": 6,
         "lead": 4,
         "manager": 3,
-        "junior": 1,
         "senior": 1
       },
       "locations": [
-        "New York, New York, United States",
         "Solihull, England, United Kingdom",
-        "New York, New York, United States; New York, New York, United States",
-        "Amsterdam, North Holland, Netherlands"
+        "Amsterdam, North Holland, Netherlands",
+        "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -587,16 +587,6 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4881182101",
           "posted_at": "2026-06-09T06:36:11-04:00",
           "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "4877514101",
-          "title": "Data Engineer",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4877514101",
-          "posted_at": "2026-06-09T06:36:11-04:00",
-          "category": "engineering",
           "seniority": "mid"
         },
         {
@@ -670,16 +660,6 @@
           "seniority": "manager"
         },
         {
-          "id": "4898324101",
-          "title": "Sales Associate - Bond Street, New York City",
-          "location": "New York, New York, United States; New York, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4898324101",
-          "posted_at": "2026-06-15T15:34:51-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
           "id": "4820819101",
           "title": "Sales Floor Lead - Flagship Store",
           "location": "New York, New York, United States",
@@ -698,6 +678,16 @@
           "posted_at": "2026-06-09T06:36:11-04:00",
           "category": "engineering",
           "seniority": "senior"
+        },
+        {
+          "id": "4899136101",
+          "title": " Social Content Executive",
+          "location": "Solihull, England, United Kingdom; Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4899136101",
+          "posted_at": "2026-06-16T08:03:34-04:00",
+          "category": "marketing",
+          "seniority": "mid"
         },
         {
           "id": "4884532101",
@@ -730,7 +720,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-16T05:30:12.631873"
+      "checked_at": "2026-06-17T05:30:12.249378"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -788,48 +778,48 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 307,
-      "change_from_last": 2,
+      "total_jobs": 302,
+      "change_from_last": -5,
       "departments": {
-        "product": 4,
+        "product": 3,
         "other": 54,
         "retail": 137,
         "marketing": 21,
-        "operations": 6,
-        "executive": 14,
-        "engineering": 51,
-        "design": 18,
-        "finance": 2
+        "operations": 5,
+        "executive": 13,
+        "engineering": 49,
+        "design": 17,
+        "finance": 3
       },
       "seniority": {
-        "lead": 167,
-        "manager": 3,
-        "c-suite": 18,
-        "mid": 80,
+        "lead": 164,
+        "c-suite": 16,
+        "mid": 82,
+        "manager": 4,
         "intern": 3,
-        "senior": 36
+        "senior": 33
       },
       "locations": [
-        "Seoul",
         "S\u00e3o Paulo",
-        "San Francisco",
-        "Austin",
-        "Sydney",
-        "Hanoi",
-        "Vancouver",
-        "Mexico City",
-        "Beijing",
-        "Auckland",
-        "New York City; Portland",
-        "Cirebon",
-        "Tianjin",
-        "Hong Kong",
-        "Las Vegas",
-        "Nanjing",
+        "Wuhan",
+        "Madrid",
         "Melbourne",
-        "Tokyo",
-        "Chengdu",
-        "Newport Beach"
+        "Sydney",
+        "Seoul",
+        "Tianjin",
+        "New York City; Portland",
+        "Zurich",
+        "Cirebon",
+        "Shenzhen",
+        "Amsterdam",
+        "Miami",
+        "London",
+        "Nanjing",
+        "Brooklyn",
+        "Berlin; Zurich",
+        "Mexico City",
+        "San Francisco",
+        "Atlanta; Locust Grove; New York City"
       ],
       "jobs": [
         {
@@ -850,26 +840,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7946414?gh_jid=7946414",
           "posted_at": "2026-06-09T16:15:08-04:00",
           "category": "other",
-          "seniority": "lead"
-        },
-        {
-          "id": "7908575",
-          "title": "260048 - Retail Planning & Allocation Manager - AMER",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7908575?gh_jid=7908575",
-          "posted_at": "2026-06-09T16:15:08-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
-          "id": "7905017",
-          "title": "260144 - Senior Lead - Retail Merchandising, AMER",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7905017?gh_jid=7905017",
-          "posted_at": "2026-06-09T16:15:08-04:00",
-          "category": "retail",
           "seniority": "lead"
         },
         {
@@ -1113,16 +1083,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "7939900",
-          "title": "Director of Global Customer Service ",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7939900?gh_jid=7939900",
-          "posted_at": "2026-06-09T16:15:08-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
-        },
-        {
           "id": "7699563",
           "title": "Director of Innovation Management & Strategy",
           "location": "Zurich",
@@ -1283,16 +1243,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7792425",
-          "title": "Head of Distribution & Logistics Procurement",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7792425?gh_jid=7792425",
-          "posted_at": "2026-06-09T16:15:08-04:00",
-          "category": "operations",
-          "seniority": "lead"
-        },
-        {
           "id": "7528858",
           "title": "Head of Engineering",
           "location": "Shanghai",
@@ -1331,10 +1281,50 @@
           "posted_at": "2026-06-09T16:15:08-04:00",
           "category": "executive",
           "seniority": "lead"
+        },
+        {
+          "id": "7959661",
+          "title": "Head of Risk ",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7959661?gh_jid=7959661",
+          "posted_at": "2026-06-09T16:15:08-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7775298",
+          "title": "Head of Sales for Distributors, Latin America & Caribbean",
+          "location": "New York City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7775298?gh_jid=7775298",
+          "posted_at": "2026-06-09T16:15:08-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7840993",
+          "title": "Head of Strategy & Operations, Footwear Product Creation",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7840993?gh_jid=7840993",
+          "posted_at": "2026-06-09T16:15:08-04:00",
+          "category": "operations",
+          "seniority": "lead"
+        },
+        {
+          "id": "7681813",
+          "title": "Innovation Footwear Developer Coordinator (1-year-contractor)",
+          "location": "Ho Chi Minh City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7681813?gh_jid=7681813",
+          "posted_at": "2026-06-09T16:15:08-04:00",
+          "category": "engineering",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-06-16T05:30:24.102404"
+      "checked_at": "2026-06-17T05:30:21.610684"
     }
   },
-  "generated_at": "2026-06-16T05:30:26.102560"
+  "generated_at": "2026-06-17T05:30:23.610838"
 }
