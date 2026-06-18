@@ -169,28 +169,28 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4783,
+      "total": 4797,
       "categories": {
-        "tops": 780,
-        "bottoms": 1648,
+        "tops": 784,
+        "bottoms": 1652,
         "outerwear": 622,
         "sports_bras": 174,
-        "accessories": 617,
-        "other": 819,
+        "accessories": 619,
+        "other": 823,
         "dresses": 73,
         "footwear": 50
       },
       "subcategories": {
-        "tanks": 266,
+        "tanks": 270,
         "shorts": 520,
         "hoodies": 121,
-        "other": 1458,
+        "other": 1464,
         "medium_support": 19,
-        "leggings": 203,
+        "leggings": 205,
         "polos": 63,
         "socks": 157,
         "pants": 428,
-        "hats": 135,
+        "hats": 137,
         "quarter_zips": 59,
         "pullovers": 36,
         "joggers": 171,
@@ -216,7 +216,7 @@
       "genders": {
         "womens": 1513,
         "mens": 1215,
-        "unisex": 2055
+        "unisex": 2069
       },
       "colors": {
         "print": 123,
@@ -646,12 +646,104 @@
     }
   },
   "totals": {
-    "products": 36070,
+    "products": 36084,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-17",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
+      "count": 14,
+      "products": [
+        {
+          "name": "mesh panel training short sleeve shirt",
+          "url": "https://shop.lululemon.com/p/mesh-panel-training-short-sleeve-shirt/ijc5oi9jzk",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "classic ball cap lululemon tennis ball",
+          "url": "https://shop.lululemon.com/p/classic-ball-cap-lululemon-tennis-ball/m92l60oeaj",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "never lost crossbody phone strap paracord",
+          "url": "https://shop.lululemon.com/p/never-lost-crossbody-phone-strap-paracord/crlvry8tus",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "salutations high rise yoga tight",
+          "url": "https://shop.lululemon.com/p/salutations-high-rise-yoga-tight-25/f88o1k7sjz",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "swiftly relaxed tank top hip length",
+          "url": "https://shop.lululemon.com/p/swiftly-relaxed-tank-top-hip-length-logo/gig0rn1o7f",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "textured mesh tennis tank",
+          "url": "https://shop.lululemon.com/p/textured-mesh-tennis-tank/uas1e6x1jd-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "textured mesh tennis tank",
+          "url": "https://shop.lululemon.com/p/textured-mesh-tennis-tank/uas1e6x1jd",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "salutations high rise yoga tight",
+          "url": "https://shop.lululemon.com/p/salutations-high-rise-yoga-tight-25/f88o1k7sjz-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "swiftly relaxed tank top hip length",
+          "url": "https://shop.lululemon.com/p/swiftly-relaxed-tank-top-hip-length-logo/gig0rn1o7f-md",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "mesh panel training short sleeve shirt",
+          "url": "https://shop.lululemon.com/p/mesh-panel-training-short-sleeve-shirt/ijc5oi9jzk-md",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "the all days snapback lululemon goals",
+          "url": "https://shop.lululemon.com/p/the-all-days-snapback-lululemon-goals/qvbu1vzx9a-md",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "classic ball cap lululemon tennis ball",
+          "url": "https://shop.lululemon.com/p/classic-ball-cap-lululemon-tennis-ball/m92l60oeaj-md",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "never lost crossbody phone strap paracord",
+          "url": "https://shop.lululemon.com/p/never-lost-crossbody-phone-strap-paracord/crlvry8tus-md",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "the all days snapback lululemon goals",
+          "url": "https://shop.lululemon.com/p/the-all-days-snapback-lululemon-goals/qvbu1vzx9a",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "brand": "Gymshark",
@@ -2437,20 +2529,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-05-31",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 1,
-      "products": [
-        {
-          "name": "cropped playmaker jacket summer crush",
-          "url": "https://www.aloyoga.com/products/w4575r-cropped-playmaker-jacket-pink-summer-crush",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -2628,7 +2706,8 @@
       "2026-06-11": 24,
       "2026-06-12": 2,
       "2026-06-13": 6,
-      "2026-06-16": 4
+      "2026-06-16": 4,
+      "2026-06-17": 14
     },
     "alo": {
       "2026-02-03": 3396,
@@ -2843,7 +2922,7 @@
       "vuori": 1825,
       "outdoor_voices": 222,
       "tenthousand": 69,
-      "lululemon": 1648,
+      "lululemon": 1652,
       "alo": 1769,
       "gymshark": 3175,
       "on_running": 1577,
@@ -2856,7 +2935,7 @@
       "vuori": 601,
       "outdoor_voices": 58,
       "tenthousand": 39,
-      "lululemon": 780,
+      "lululemon": 784,
       "alo": 567,
       "gymshark": 2783,
       "on_running": 622,
@@ -2882,7 +2961,7 @@
       "vuori": 557,
       "outdoor_voices": 52,
       "tenthousand": 12,
-      "lululemon": 819,
+      "lululemon": 823,
       "alo": 812,
       "gymshark": 653,
       "on_running": 2750,
@@ -2914,7 +2993,7 @@
       "vuori": 196,
       "outdoor_voices": 34,
       "tenthousand": 3,
-      "lululemon": 617,
+      "lululemon": 619,
       "alo": 405,
       "gymshark": 524,
       "on_running": 674,
@@ -2961,7 +3040,7 @@
       "vuori": 184,
       "outdoor_voices": 29,
       "tenthousand": 5,
-      "lululemon": 266,
+      "lululemon": 270,
       "alo": 263,
       "gymshark": 772,
       "on_running": 288,
@@ -2983,7 +3062,7 @@
       "vuori": 171,
       "outdoor_voices": 16,
       "tenthousand": 4,
-      "lululemon": 203,
+      "lululemon": 205,
       "alo": 362,
       "gymshark": 755,
       "on_running": 398,
@@ -2994,7 +3073,7 @@
       "vuori": 1143,
       "outdoor_voices": 153,
       "tenthousand": 32,
-      "lululemon": 1458,
+      "lululemon": 1464,
       "alo": 1640,
       "gymshark": 2868,
       "on_running": 3101,
@@ -3074,7 +3153,7 @@
     "hats": {
       "vuori": 84,
       "outdoor_voices": 12,
-      "lululemon": 135,
+      "lululemon": 137,
       "alo": 144,
       "gymshark": 88,
       "on_running": 218,
@@ -3403,13 +3482,13 @@
     },
     {
       "brand": "Lululemon",
-      "bottoms": 34.5,
+      "bottoms": 34.4,
       "tops": 16.3,
       "outerwear": 13,
       "dresses": 1.5,
       "sports_bras": 3.6,
       "accessories": 12.9,
-      "other": 17.1
+      "other": 17.2
     },
     {
       "brand": "Alo Yoga",
@@ -3731,8 +3810,8 @@
       "type": "gap",
       "metric": "leggings",
       "brand": "Vuori",
-      "value": 32,
-      "text": "Leggings opportunity: Lululemon has 203 vs Vuori's 171. Gap of 32 SKUs."
+      "value": 34,
+      "text": "Leggings opportunity: Lululemon has 205 vs Vuori's 171. Gap of 34 SKUs."
     },
     {
       "type": "trend",
@@ -3821,7 +3900,7 @@
       {
         "category": "Leggings",
         "vuori": 171,
-        "competitor": 203,
+        "competitor": 205,
         "winner": "competitor"
       },
       {
@@ -3839,7 +3918,7 @@
       {
         "category": "Tanks",
         "vuori": 184,
-        "competitor": 266,
+        "competitor": 270,
         "winner": "competitor"
       },
       {
@@ -3912,5 +3991,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-17T13:15:16.238Z"
+  "generated_at": "2026-06-18T13:15:20.701Z"
 }
