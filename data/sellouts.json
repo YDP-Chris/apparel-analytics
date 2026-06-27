@@ -1,14 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "tenthousand:tactical-shirt-sale",
-      "title": "Tactical Shirt",
-      "product_type": "Tactical Shirt",
-      "detected_at": "2026-03-28T18:15:22.527966",
-      "days_since_launch": 12,
-      "is_fast_sellout": false
-    },
-    {
       "product_id": "tenthousand:tactical-jogger",
       "title": "Tactical Jogger",
       "product_type": "Tactical Jogger",
@@ -1100,6 +1092,14 @@
       "product_type": "Dresses",
       "detected_at": "2026-06-17T15:05:20.577038",
       "days_since_launch": 125,
+      "is_fast_sellout": false
+    },
+    {
+      "product_id": "tenthousand:ankle-sock",
+      "title": "Training Ankle Sock",
+      "product_type": "Ankle Sock",
+      "detected_at": "2026-06-26T17:55:45.131240",
+      "days_since_launch": 255,
       "is_fast_sellout": false
     }
   ],

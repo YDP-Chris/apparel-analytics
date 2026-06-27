@@ -171,13 +171,13 @@
     "lululemon": {
       "name": "Lululemon",
       "slug": "lululemon",
-      "total": 4925,
+      "total": 4927,
       "categories": {
         "tops": 820,
         "bottoms": 1696,
         "outerwear": 648,
         "sports_bras": 184,
-        "accessories": 625,
+        "accessories": 627,
         "other": 829,
         "dresses": 73,
         "footwear": 50
@@ -197,7 +197,7 @@
         "pullovers": 36,
         "joggers": 177,
         "casual_dress": 49,
-        "bags": 215,
+        "bags": 217,
         "crop_tops": 96,
         "long_sleeve": 183,
         "fleece": 15,
@@ -218,7 +218,7 @@
       "genders": {
         "womens": 1545,
         "mens": 1223,
-        "unisex": 2157
+        "unisex": 2159
       },
       "colors": {
         "print": 123,
@@ -306,22 +306,22 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 8760,
+      "total": 8772,
       "categories": {
-        "bottoms": 3199,
-        "tops": 2789,
-        "other": 653,
+        "bottoms": 3203,
+        "tops": 2794,
+        "other": 654,
         "accessories": 524,
         "outerwear": 887,
-        "sports_bras": 702,
+        "sports_bras": 704,
         "dresses": 6
       },
       "subcategories": {
-        "shorts": 1302,
-        "leggings": 771,
+        "shorts": 1304,
+        "leggings": 773,
         "crop_tops": 168,
-        "other": 2870,
-        "long_sleeve": 479,
+        "other": 2875,
+        "long_sleeve": 480,
         "socks": 216,
         "tanks": 776,
         "joggers": 549,
@@ -334,7 +334,7 @@
         "bralette": 64,
         "tees": 62,
         "headwear": 36,
-        "polos": 26,
+        "polos": 28,
         "hats": 88,
         "low_support": 54,
         "fleece": 2,
@@ -344,19 +344,19 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4036,
-        "womens": 2938,
-        "mens": 1786
+        "unisex": 4038,
+        "womens": 2945,
+        "mens": 1789
       },
       "colors": {
-        "green": 443,
+        "green": 445,
         "pink": 657,
-        "black": 2085,
+        "black": 2090,
         "white": 668,
         "navy": 70,
-        "gray": 1078,
+        "gray": 1079,
         "brown": 628,
-        "blue": 1403,
+        "blue": 1407,
         "red": 297,
         "purple": 455,
         "yellow": 56,
@@ -364,9 +364,9 @@
         "khaki": 2,
         "print": 18
       },
-      "colorCoverage": 90.1,
+      "colorCoverage": 90.2,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2324
+      "uniqueStyles": 2329
     },
     "on_running": {
       "name": "On Running",
@@ -648,12 +648,104 @@
     }
   },
   "totals": {
-    "products": 36384,
+    "products": 36398,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-26",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 14,
+      "products": [
+        {
+          "name": "gymshark everyday seamless graphic leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-graphic-leggings-leggings-pink-ss25",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless graphic leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-graphic-leggings-leggings-pink-ss25",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark flex sports long sleeve crop top black",
+          "url": "https://www.gymshark.com/products/gymshark-flex-sports-long-sleeve-crop-top-black-charcoal",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apex seamless t shirt stellar lakeside",
+          "url": "https://www.gymshark.com/products/gymshark-apex-seamless-t-shirt-stellar-blue-lakeside-blue-aw22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark legacy regular leggings deep olive",
+          "url": "https://www.gymshark.com/products/gymshark-legacy-regular-leggings-deep-olive-green-aw23",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apex seamless t shirt stellar lakeside",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-apex-seamless-t-shirt-stellar-blue-lakeside-blue-aw22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark legacy regular leggings deep olive",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-legacy-regular-leggings-deep-olive-green-aw23",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark essential racer back training sports bra",
+          "url": "https://www.gymshark.com/products/gymshark-essential-racer-back-training-sports-bra-black",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark heavy duty apparel 7 shorts",
+          "url": "https://www.gymshark.com/products/gymshark-heavy-duty-apparel-7-shorts-faded-blue-ss24",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark long sleeve waffle polo shirt",
+          "url": "https://www.gymshark.com/products/gymshark-long-sleeve-waffle-polo-shirt-black-aw24",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark boxer brief 5pk underwear",
+          "url": "https://www.gymshark.com/products/gymshark-boxer-brief-5pk-underwear-black-aw25",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark essential racer back training sports bra",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-essential-racer-back-training-sports-bra-black",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark heavy duty apparel 7 shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-heavy-duty-apparel-7-shorts-faded-blue-ss24",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark long sleeve waffle polo shirt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-long-sleeve-waffle-polo-shirt-black-aw24",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "brand": "Vuori",
@@ -742,21 +834,21 @@
     },
     {
       "date": "2026-06-26",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
+      "brand": "Lululemon",
+      "brandSlug": "lululemon",
       "count": 2,
       "products": [
         {
-          "name": "gymshark everyday seamless graphic leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-graphic-leggings-leggings-pink-ss25",
-          "category": "bottoms",
-          "gender": "womens"
+          "name": "classic tote bag 14l leather alternative",
+          "url": "https://shop.lululemon.com/p/classic-tote-bag-14l-leather-alternative/nmjbezfgxn-md",
+          "category": "accessories",
+          "gender": "unisex"
         },
         {
-          "name": "gymshark everyday seamless graphic leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-graphic-leggings-leggings-pink-ss25",
-          "category": "bottoms",
-          "gender": "womens"
+          "name": "classic tote bag 14l leather alternative",
+          "url": "https://shop.lululemon.com/p/classic-tote-bag-14l-leather-alternative/nmjbezfgxn",
+          "category": "accessories",
+          "gender": "unisex"
         }
       ]
     },
@@ -4250,7 +4342,8 @@
       "2026-06-13": 6,
       "2026-06-16": 4,
       "2026-06-17": 14,
-      "2026-06-25": 128
+      "2026-06-25": 128,
+      "2026-06-26": 2
     },
     "alo": {
       "2026-02-03": 3396,
@@ -4423,7 +4516,7 @@
       "2026-06-15": 3,
       "2026-06-16": 26,
       "2026-06-25": 30,
-      "2026-06-26": 2
+      "2026-06-26": 14
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -4473,7 +4566,7 @@
       "tenthousand": 69,
       "lululemon": 1696,
       "alo": 1770,
-      "gymshark": 3199,
+      "gymshark": 3203,
       "on_running": 1584,
       "gymreapers": 201,
       "sbd": 22,
@@ -4486,7 +4579,7 @@
       "tenthousand": 39,
       "lululemon": 820,
       "alo": 567,
-      "gymshark": 2789,
+      "gymshark": 2794,
       "on_running": 624,
       "gymreapers": 230,
       "sbd": 67,
@@ -4512,7 +4605,7 @@
       "tenthousand": 13,
       "lululemon": 829,
       "alo": 812,
-      "gymshark": 653,
+      "gymshark": 654,
       "on_running": 2766,
       "gymreapers": 315,
       "sbd": 78,
@@ -4525,7 +4618,7 @@
       "outdoor_voices": 36,
       "lululemon": 184,
       "alo": 321,
-      "gymshark": 702,
+      "gymshark": 704,
       "on_running": 180,
       "gymreapers": 65,
       "bear_grips": 9
@@ -4542,7 +4635,7 @@
       "vuori": 202,
       "outdoor_voices": 41,
       "tenthousand": 3,
-      "lululemon": 625,
+      "lululemon": 627,
       "alo": 405,
       "gymshark": 524,
       "on_running": 684,
@@ -4579,7 +4672,7 @@
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 413,
-      "gymshark": 1302,
+      "gymshark": 1304,
       "on_running": 695,
       "gymreapers": 128,
       "sbd": 15,
@@ -4613,7 +4706,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 362,
-      "gymshark": 771,
+      "gymshark": 773,
       "on_running": 398,
       "gymreapers": 42,
       "bear_grips": 32
@@ -4624,7 +4717,7 @@
       "tenthousand": 33,
       "lululemon": 1496,
       "alo": 1640,
-      "gymshark": 2870,
+      "gymshark": 2875,
       "on_running": 3124,
       "gymreapers": 530,
       "sbd": 137,
@@ -4653,7 +4746,7 @@
       "outdoor_voices": 3,
       "lululemon": 63,
       "alo": 14,
-      "gymshark": 26,
+      "gymshark": 28,
       "on_running": 32,
       "gymreapers": 5,
       "bear_grips": 99
@@ -4679,7 +4772,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 479,
+      "gymshark": 480,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -4774,7 +4867,7 @@
     },
     "bags": {
       "vuori": 9,
-      "lululemon": 215,
+      "lululemon": 217,
       "alo": 1,
       "gymshark": 74,
       "gymreapers": 5,
@@ -4848,7 +4941,7 @@
       "vuori": 546,
       "outdoor_voices": 27,
       "alo": 492,
-      "gymshark": 1078,
+      "gymshark": 1079,
       "on_running": 323,
       "gymreapers": 72,
       "sbd": 16,
@@ -4867,7 +4960,7 @@
       "vuori": 728,
       "outdoor_voices": 77,
       "alo": 1023,
-      "gymshark": 2085,
+      "gymshark": 2090,
       "on_running": 1507,
       "gymreapers": 124,
       "sbd": 2,
@@ -4911,7 +5004,7 @@
       "outdoor_voices": 30,
       "lululemon": 8,
       "alo": 244,
-      "gymshark": 1403,
+      "gymshark": 1407,
       "on_running": 785,
       "gymreapers": 32,
       "sbd": 6,
@@ -4922,7 +5015,7 @@
       "outdoor_voices": 43,
       "lululemon": 4,
       "alo": 307,
-      "gymshark": 443,
+      "gymshark": 445,
       "on_running": 278,
       "gymreapers": 98,
       "sbd": 4
@@ -5024,7 +5117,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 36.5,
-      "tops": 31.8,
+      "tops": 31.9,
       "outerwear": 10.1,
       "dresses": 0.1,
       "sports_bras": 8,
@@ -5383,7 +5476,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 676,
-      "text": "Vuori ranks #3 in shorts with 676 products. Behind Gymshark (1302)."
+      "text": "Vuori ranks #3 in shorts with 676 products. Behind Gymshark (1304)."
     },
     {
       "type": "comparison",
@@ -5542,5 +5635,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-26T13:15:18.528Z"
+  "generated_at": "2026-06-27T13:15:19.921Z"
 }
