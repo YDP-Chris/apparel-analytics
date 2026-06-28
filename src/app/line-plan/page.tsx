@@ -96,7 +96,9 @@ export default function LinePlanPage() {
           categories: json.categories,
           titles: json.titles,
           depth: json.competitor_depth,
-          meta: json.meta,
+          // Stash the API-level demo flag on meta so the view can render
+          // the banner without a separate prop chain.
+          meta: { ...json.meta, demo_mode: json.demo_mode === true },
         });
       })
       .catch((e: Error) => {
@@ -168,6 +170,18 @@ function LinePlanView({
           Source: {meta.sources.line_plan} · {meta.totals.titles} titles · {meta.totals.total_skus.toLocaleString()} SKUs · refreshed {new Date(meta.parsed_at).toLocaleDateString()}
         </p>
       </header>
+
+      {meta.demo_mode && (
+        <div className="bg-gr-accent-soft border border-gr-accent/30 rounded-md p-4 flex items-start gap-3">
+          <div className="text-gr-accent text-xl mt-0.5">•</div>
+          <div>
+            <p className="text-sm font-bold text-gr-text">Demo dollar values</p>
+            <p className="text-xs text-gr-muted mt-0.5">
+              All $ figures are scaled by a constant for sharing. Variance %, # titles, # colors, status mix, MSRP, and competitor depth are exact. Real numbers stay on the Pi.
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Headline KPIs */}
       <section className="grid grid-cols-2 md:grid-cols-4 gap-6">

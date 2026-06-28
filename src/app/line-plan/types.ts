@@ -91,4 +91,5 @@ export type LinePlanMeta = {
     sku_buckets: number;
     total_skus: number;
   };
+  demo_mode?: boolean;
 };
