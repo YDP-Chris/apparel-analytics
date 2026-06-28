@@ -64,6 +64,7 @@ export type GrActual = {
   sku_count: number;
   title_count: number;
   color_count: number;
+  colors?: string[];
   msrp_avg: number | null;
   status_mix: Record<string, number>;
 };

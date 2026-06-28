@@ -520,7 +520,7 @@ function CompetitorDepthPanel({
           msrpAvg={gr?.msrp_avg ?? null}
           msrpMin={null}
           msrpMax={null}
-          topColors={[]}
+          topColors={gr?.colors ?? []}
           isFocus
           maxTitles={maxTitles}
         />

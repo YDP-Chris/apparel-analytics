@@ -312,6 +312,11 @@ def parse_sku_rollup(path: Path) -> dict:
             "sku_count": b["skus"],
             "title_count": len(b["titles"]),
             "color_count": len(b["colors"]),
+            # Include the actual color list so downstream rollups can union
+            # across collections (rather than sum the per-collection counts,
+            # which would double-count any color that appears in multiple
+            # collections, e.g. "Black" in Axis + Infinity + Performance).
+            "colors": sorted(b["colors"]),
             "msrp_min": round(min(msrps), 2) if msrps else None,
             "msrp_max": round(max(msrps), 2) if msrps else None,
             "msrp_avg": round(sum(msrps) / len(msrps), 2) if msrps else None,

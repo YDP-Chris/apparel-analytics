@@ -197,12 +197,15 @@ def aggregate_brand(brand_slug: str, brand_file: Path) -> dict:
 
 def load_gr_rollup() -> dict:
     """Roll the per-collection SKU rollup up to (category, sub_category) only.
-    The Phase 1 page works at sub-cat granularity, not collection."""
+    The Phase 1 page works at sub-cat granularity, not collection.
+
+    Colors are unioned (not summed) across collections — summing would
+    triple-count "Black" if it appears in Axis + Infinity + Performance."""
     data = json.loads(SKU_ROLLUP.read_text())
     by_subcat = defaultdict(lambda: {
         "sku_count": 0,
         "title_count": 0,
-        "color_count": 0,
+        "colors": set(),
         "msrps": [],
         "status_mix": Counter(),
     })
@@ -211,7 +214,11 @@ def load_gr_rollup() -> dict:
         b = by_subcat[key]
         b["sku_count"] += r["sku_count"]
         b["title_count"] += r["title_count"]
-        b["color_count"] += r["color_count"]
+        # Union the color set across collections rather than summing counts.
+        # parse_line_plan.py writes the full colors list per bucket exactly
+        # so we can do this dedupe here.
+        for color in (r.get("colors") or []):
+            b["colors"].add(color)
         if r.get("msrp_avg"):
             # weight by sku count
             b["msrps"].append((r["msrp_avg"], r["sku_count"]))
@@ -228,7 +235,8 @@ def load_gr_rollup() -> dict:
         out[f"{cat}|{sub}"] = {
             "sku_count": b["sku_count"],
             "title_count": b["title_count"],
-            "color_count": b["color_count"],
+            "color_count": len(b["colors"]),
+            "colors": sorted(b["colors"]),
             "msrp_avg": weighted_avg,
             "status_mix": dict(b["status_mix"]),
         }
