@@ -201,9 +201,12 @@ function LinePlanView({
         <div className="p-6 border-b border-gr-border">
           <h2 className="text-xl font-bold text-gr-text">Category × Sub-Category Heatmap</h2>
           <p className="text-sm text-gr-muted mt-1">
-            Color coding follows Kalina&apos;s playbook: <span className="text-gr-success">green &gt;-5%</span>,{' '}
+            Var % color coding follows Kalina&apos;s playbook: <span className="text-gr-success">green &gt;-5%</span>,{' '}
             <span className="text-yellow-400">amber -5 to -20%</span>,{' '}
             <span className="text-gr-danger">red &lt;-20%</span>. Click any sub-category to see competitor depth.
+          </p>
+          <p className="text-xs text-gr-subtle mt-2 italic">
+            FP&amp;A targets exist at category level only — sub-cat Var % is omitted because the workbook&apos;s title-level proration makes it identical to the parent category by construction.
           </p>
         </div>
         <HeatmapTable
@@ -423,6 +426,11 @@ function CategoryGroup({
           const b = varBucket(s.var_pct);
           const cls = varBucketClasses(b);
           const isSelected = selectedSubcat === key;
+          // Sub-cat-level Var % / Var $ are artifacts of the workbook's
+          // proration (every title in a category gets the same Var %), so we
+          // render the cells empty rather than show a misleading number.
+          // Unused locals retained to keep the loop body shape consistent.
+          void b; void cls;
           return (
             <tr
               key={key}
@@ -440,13 +448,9 @@ function CategoryGroup({
                 )}
               </td>
               <td className="py-2 px-2 text-right text-gr-text">{fmtMoney(s.h1_actual, { compact: true })}</td>
-              <td className="py-2 px-2 text-right text-gr-muted">{fmtMoney(s.h1_target, { compact: true })}</td>
-              <td className={`py-2 px-2 text-right font-semibold ${cls.text}`}>
-                <span className={`inline-block px-2 py-0.5 rounded ${cls.bg} ${cls.border} border`}>
-                  {fmtPct(s.var_pct)}
-                </span>
-              </td>
-              <td className={`py-2 px-2 text-right ${cls.text}`}>{fmtMoney(s.var_dollars, { compact: true })}</td>
+              <td className="py-2 px-2 text-right text-gr-subtle italic" title="Sub-cat target is prorated from category target — not a real FP&A number">—</td>
+              <td className="py-2 px-2 text-right text-gr-subtle italic" title="Same Var % as the parent category by construction (see note above table)">—</td>
+              <td className="py-2 px-2 text-right text-gr-subtle italic">—</td>
               <td className="py-2 px-2 text-right text-gr-muted">{s.titleCount}</td>
               <td className="py-2 px-2 text-right text-gr-muted">{fmtMoney(s.msrp_avg, { compact: true })}</td>
               <td className="py-2 px-2 text-right text-gr-muted">{fmtNum(s.unitsSum)}</td>
