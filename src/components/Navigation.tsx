@@ -54,6 +54,7 @@ const NAV_SECTIONS: NavSection[] = [
     href: '/for-product',
     label: 'For Product',
     children: [
+      { href: '/line-plan', label: 'Line Plan', status: 'beta', description: 'H1 line plan vs FP&A target, sub-category competitor depth overlay - Kalina + Roc planning tool' },
       { href: '/gymreapers/amazon', label: 'Whitespace', status: 'live', description: 'Sub-segments where Gymreapers is absent + has demand' },
       { href: '/for-product/pricing', label: 'Pricing Map', status: 'live', description: 'Competitor pricing by category and tier' },
       { href: '/gymreapers/mix', label: 'Mix Gaps', status: 'live', description: 'Color, size, and price tier deltas' },

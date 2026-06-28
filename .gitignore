@@ -35,3 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 out/
+
+# Confidential GR planning data — must never be committed.
+# Source workbooks contain FP&A targets, channel revenue, SKU COGS, etc.
+# Parsed JSON outputs live on the Pi and are served via /pulse/line-plan.
+data/line-plan-source/
+public/line-plan/
