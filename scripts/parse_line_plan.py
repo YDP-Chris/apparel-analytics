@@ -99,17 +99,51 @@ def parse_categories(path: Path) -> list[dict]:
     return list(by_cat.values())
 
 
-def parse_titles(path: Path) -> list[dict]:
+def parse_titles(path: Path, sku_master_path: Path | None = None) -> list[dict]:
+    """Parse Line Plan tab. If sku_master_path is given, override the workbook's
+    per-title # Colors / Color List with the non-bundle color set from the SKU
+    master, because the workbook count includes bundle combo strings (e.g. a
+    3-pack with 35 'colors' that are really combinations of 5-6 real ones)."""
+    # Build title → non-bundle colors lookup from the SKU master.
+    nonbundle_colors: dict[str, set[str]] = {}
+    if sku_master_path and sku_master_path.exists():
+        wb_sku = openpyxl.load_workbook(sku_master_path, data_only=True)
+        ws_sku = wb_sku["Master_SKU_Catalog"]
+        rows = list(ws_sku.iter_rows(values_only=True))
+        header = [str(h).strip() if h is not None else "" for h in rows[2]]
+        idx = {h: i for i, h in enumerate(header) if h}
+        for row in rows[3:]:
+            title = row[idx["PRODUCT_TITLE"]] if "PRODUCT_TITLE" in idx else None
+            if not title:
+                continue
+            is_bundle = row[idx["IS_BUNDLE"]] is True if "IS_BUNDLE" in idx else False
+            if is_bundle:
+                continue
+            color = row[idx["PRODUCT_COLOR"]] if "PRODUCT_COLOR" in idx else None
+            if color:
+                nonbundle_colors.setdefault(str(title).strip(), set()).add(str(color).strip())
+
     wb = openpyxl.load_workbook(path, data_only=True)
     ws = wb["Line Plan"]
     out = []
     for r in rows_with_header(ws, 2):
-        if not r.get("Product Title"):
+        title = r.get("Product Title")
+        if not title:
             continue
+        title_str = str(title).strip()
+        # Prefer the non-bundle color set when we have it; fall back to the
+        # workbook's # Colors otherwise (e.g. for any title not in the SKU master).
+        nb_colors = nonbundle_colors.get(title_str)
+        if nb_colors is not None:
+            color_count = len(nb_colors)
+            color_list = sorted(nb_colors)
+        else:
+            color_count = r.get("# Colors")
+            color_list = [c.strip() for c in (r.get("Color List") or "").split(",") if c.strip()]
         out.append({
             "category": r.get("Category"),
             "sub_category": r.get("Sub-Category"),
-            "title": r.get("Product Title"),
+            "title": title_str,
             "h1_net_sales": r.get("H1 Net Sales ($)"),
             "h1_target": r.get("H1 FP&A Target ($)"),
             "var_dollars": r.get("Var $ vs Target"),
@@ -123,8 +157,8 @@ def parse_titles(path: Path) -> list[dict]:
             "msrp": r.get("MSRP ($)"),
             "abc_rank": r.get("ABC Rank"),
             "status": r.get("Status"),
-            "color_count": r.get("# Colors"),
-            "color_list": [c.strip() for c in (r.get("Color List") or "").split(",") if c.strip()],
+            "color_count": color_count,
+            "color_list": color_list,
             "monthly": {
                 "Jan": r.get("Jan NS ($)"),
                 "Feb": r.get("Feb NS ($)"),
@@ -247,8 +281,13 @@ def parse_sku_rollup(path: Path) -> dict:
         title = g(row, "PRODUCT_TITLE")
         if title:
             b["titles"].add(str(title).strip())
+        # Skip bundle SKUs when building the color palette — bundle PRODUCT_COLOR
+        # values are combo strings like "Electric Blue / Atlantis / Emerald" that
+        # would over-count distinct colors (e.g. one 3-pack title contributed 35).
+        # Bundles still count toward sku_count and status_mix.
+        is_bundle = g(row, "IS_BUNDLE") is True
         color = g(row, "PRODUCT_COLOR")
-        if color:
+        if color and not is_bundle:
             b["colors"].add(str(color).strip())
         msrp = g(row, "MSRP")
         if isinstance(msrp, (int, float)) and msrp > 0:
@@ -307,7 +346,7 @@ def main():
 
     print(f"Parsing {line_plan_xlsx.name}...")
     categories = parse_categories(line_plan_xlsx)
-    titles = parse_titles(line_plan_xlsx)
+    titles = parse_titles(line_plan_xlsx, sku_xlsx)
 
     print(f"Parsing {channel_xlsx.name}...")
     channel_summary = parse_channel_summary(channel_xlsx)

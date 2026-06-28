@@ -113,6 +113,20 @@ GR_SUBCAT_PATTERNS = {
 # Pre-compile
 COMPILED = {key: [re.compile(p, re.IGNORECASE) for p in pats] for key, pats in GR_SUBCAT_PATTERNS.items()}
 
+# Bundle / pack / set / kit titles get excluded from sub-cat matching so a
+# "Tee & Legging Bundle" doesn't double-count as both a Tee and a Legging,
+# and pack permutations don't inflate per-sub-cat title counts.
+BUNDLE_EXCLUDE_RE = re.compile(
+    r"\b(bundle|kit|set\b|\d+[- ]?pack|two[- ]?pack|three[- ]?pack|multi[- ]?pack|combo|gift|stack)\b",
+    re.IGNORECASE,
+)
+
+
+def is_bundle_product(product: dict) -> bool:
+    """True if product title looks like a multi-item bundle/pack/kit."""
+    title = str(product.get("title", "") or "")
+    return bool(BUNDLE_EXCLUDE_RE.search(title))
+
 
 def match_subcategories(product: dict) -> list[tuple[str, str]]:
     """Return list of (category, sub_category) matches for this product.
@@ -148,6 +162,8 @@ def aggregate_brand(brand_slug: str, brand_file: Path) -> dict:
     })
 
     for p in products:
+        if is_bundle_product(p):
+            continue
         matches = match_subcategories(p)
         for key in matches:
             bucket = by_subcat[key]
