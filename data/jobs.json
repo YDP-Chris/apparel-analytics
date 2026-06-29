@@ -4,7 +4,7 @@
       "name": "Alo Yoga",
       "platform": "greenhouse",
       "total_jobs": 700,
-      "change_from_last": 5,
+      "change_from_last": 0,
       "departments": {
         "engineering": 18,
         "design": 94,
@@ -27,26 +27,26 @@
         "senior": 17
       },
       "locations": [
-        "Berkeley, California, United States",
-        "Palo Alto, California, United States",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "Ottawa, Ontario, Canada",
-        "Garden City, New York, United States",
-        "Naperville, Illinois, United States",
+        "Oklahoma City, Oklahoma, United States",
+        "Multrees Walk, Edinburgh (50043)",
+        "Bloor Street, Toronto, ON (10026)",
+        "Australia",
+        "London, England, United Kingdom",
+        "Hong Kong",
+        "Lotte Main, Seoul (50085)",
+        "Dallas Galleria, Dallas, TX (10154)",
+        "Seaport Square, Boston, MA (10017)",
+        "UTC Sarasota, Sarasota, FL (10091)",
+        "Williamsburg, Brooklyn, NY (10006)",
+        "Austin House at Music, Austin, TX (10010)",
         "Cherry Hill, New Jersey, United States",
-        "King of Prussia, Pennsylvania, United States",
-        "Thousand Oaks, California, United States",
-        "Los Angeles, California, United States",
-        "Century City, Los Angeles, CA (10101)",
-        "Dusseldorf, North Rhine-Westphalia, Germany",
-        "Meridian, Idaho, United States",
-        "Dublin, Dublin, Ireland",
-        "Shops at La Cantera, San Antonio, TX (10054)",
-        "Southpark Mall, Charlotte, NC (10032)",
-        "Greenwich, Connecticut, United States",
-        "Roma, Rome, Italy",
-        "Columbus, Ohio, United States",
-        "McLean, Virginia, United States"
+        "Woodfield Mall, Schaumburg, IL (10112)",
+        "Durham, North Carolina, United States",
+        "Newbury Street, Boston, MA (10041)",
+        "International Plaza, Tampa, FL (10039)",
+        "Somerset Collection, Troy, MI (10072)",
+        "Harbor East, Baltimore, MD (10105)",
+        "Fashion Mall at Keystone, Indianapolis, IN (10059)"
       ],
       "jobs": [
         {
@@ -550,7 +550,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-06-28T05:30:08.084262"
+      "checked_at": "2026-06-29T05:30:09.060652"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -571,11 +571,11 @@
         "senior": 1
       },
       "locations": [
-        "New York, New York, United States; New York, New York, United States",
-        "Manchester, England, United Kingdom",
         "New York, New York, United States",
+        "New York, New York, United States; New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
         "Solihull, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands"
+        "Manchester, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -699,7 +699,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-28T05:30:10.241813"
+      "checked_at": "2026-06-29T05:30:11.215750"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -757,50 +757,60 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 316,
-      "change_from_last": 1,
+      "total_jobs": 318,
+      "change_from_last": 2,
       "departments": {
-        "product": 3,
-        "other": 60,
-        "retail": 139,
+        "other": 63,
+        "product": 4,
+        "retail": 140,
         "marketing": 20,
         "operations": 8,
         "executive": 20,
-        "engineering": 48,
+        "engineering": 45,
         "design": 15,
         "finance": 3
       },
       "seniority": {
-        "lead": 162,
-        "c-suite": 20,
+        "lead": 166,
+        "c-suite": 19,
         "mid": 86,
         "manager": 3,
-        "intern": 6,
+        "intern": 5,
         "senior": 39
       },
       "locations": [
-        "Seoul",
-        "Shenzhen",
-        "Milan",
-        "S\u00e3o Paulo",
+        "Newport Beach",
+        "Zurich",
+        "Corte Madera",
+        "Austin",
+        "Boston",
         "London",
-        "San Francisco",
-        "Dallas",
-        "Melbourne",
-        "Berlin",
-        "Paris",
-        "Nashville",
-        "Miami",
         "Sydney",
-        "Macao",
-        "Vienna",
-        "Berlin; Zurich",
+        "Mexico City",
+        "Central Valley",
         "Hong Kong",
-        "Chengdu",
-        "Amsterdam",
-        "Madrid"
+        "Atlanta; Los Angeles",
+        "London; Zurich",
+        "Vancouver",
+        "Melbourne",
+        "Innsbruck",
+        "Cirebon",
+        "San Diego",
+        "Berlin",
+        "S\u00e3o Paulo",
+        "Bicester"
       ],
       "jobs": [
+        {
+          "id": "8034768",
+          "title": "2347 - Senior Lead - Facility & Maintenance",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8034768?gh_jid=8034768",
+          "posted_at": "2026-06-28T11:02:37-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
         {
           "id": "7999253",
           "title": "2420 - Lead - Apparel Merchandising, APAC ",
@@ -1290,20 +1300,10 @@
           "posted_at": "2026-06-23T11:37:16-04:00",
           "category": "executive",
           "seniority": "lead"
-        },
-        {
-          "id": "7710508",
-          "title": "Head of Production Planning - Apparel & Accessories",
-          "location": "Hanoi",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7710508?gh_jid=7710508",
-          "posted_at": "2026-06-23T11:37:16-04:00",
-          "category": "executive",
-          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-06-28T05:30:19.756899"
+      "checked_at": "2026-06-29T05:30:21.136862"
     }
   },
-  "generated_at": "2026-06-28T05:30:21.757076"
+  "generated_at": "2026-06-29T05:30:23.137016"
 }

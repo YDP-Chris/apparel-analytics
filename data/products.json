@@ -306,11 +306,11 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 8772,
+      "total": 8774,
       "categories": {
         "bottoms": 3203,
         "tops": 2794,
-        "other": 654,
+        "other": 656,
         "accessories": 524,
         "outerwear": 887,
         "sports_bras": 704,
@@ -320,7 +320,7 @@
         "shorts": 1304,
         "leggings": 773,
         "crop_tops": 168,
-        "other": 2875,
+        "other": 2877,
         "long_sleeve": 480,
         "socks": 216,
         "tanks": 776,
@@ -346,7 +346,7 @@
       "genders": {
         "unisex": 4038,
         "womens": 2945,
-        "mens": 1789
+        "mens": 1791
       },
       "colors": {
         "green": 445,
@@ -354,7 +354,7 @@
         "black": 2090,
         "white": 668,
         "navy": 70,
-        "gray": 1079,
+        "gray": 1081,
         "brown": 628,
         "blue": 1407,
         "red": 297,
@@ -648,12 +648,32 @@
     }
   },
   "totals": {
-    "products": 36398,
+    "products": 36400,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-06-28",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark sports tech boxer 3pk underwear",
+          "url": "https://www.gymshark.com/products/gymshark-sports-tech-boxer-3pk-underwear-grey-ss26",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sports tech boxer 3pk underwear",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sports-tech-boxer-3pk-underwear-grey-ss26",
+          "category": "other",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "brand": "Gymshark",
@@ -4139,26 +4159,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-06-03",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 2,
-      "products": [
-        {
-          "name": "beats studio pro headphones",
-          "url": "https://www.aloyoga.com/products/a0724u-beats-studio-pro-headphones-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ribbed cropped whisper cardigan",
-          "url": "https://www.aloyoga.com/products/w3587r-ribbed-cropped-whisper-cardigan-black",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4516,7 +4516,8 @@
       "2026-06-15": 3,
       "2026-06-16": 26,
       "2026-06-25": 30,
-      "2026-06-26": 14
+      "2026-06-26": 14,
+      "2026-06-28": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -4605,7 +4606,7 @@
       "tenthousand": 13,
       "lululemon": 829,
       "alo": 812,
-      "gymshark": 654,
+      "gymshark": 656,
       "on_running": 2766,
       "gymreapers": 315,
       "sbd": 78,
@@ -4717,7 +4718,7 @@
       "tenthousand": 33,
       "lululemon": 1496,
       "alo": 1640,
-      "gymshark": 2875,
+      "gymshark": 2877,
       "on_running": 3124,
       "gymreapers": 530,
       "sbd": 137,
@@ -4941,7 +4942,7 @@
       "vuori": 546,
       "outdoor_voices": 27,
       "alo": 492,
-      "gymshark": 1079,
+      "gymshark": 1081,
       "on_running": 323,
       "gymreapers": 72,
       "sbd": 16,
@@ -5117,7 +5118,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 36.5,
-      "tops": 31.9,
+      "tops": 31.8,
       "outerwear": 10.1,
       "dresses": 0.1,
       "sports_bras": 8,
@@ -5635,5 +5636,5 @@
       }
     ]
   },
-  "generated_at": "2026-06-28T13:15:15.061Z"
+  "generated_at": "2026-06-29T13:15:19.090Z"
 }
