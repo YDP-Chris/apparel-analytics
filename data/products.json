@@ -236,10 +236,10 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4717,
+      "total": 4719,
       "categories": {
         "other": 812,
-        "bottoms": 1771,
+        "bottoms": 1773,
         "tops": 567,
         "sports_bras": 321,
         "accessories": 405,
@@ -253,7 +253,7 @@
         "tanks": 263,
         "shorts": 413,
         "hats": 144,
-        "sweatpants": 213,
+        "sweatpants": 215,
         "hoodies": 223,
         "running": 32,
         "long_sleeve": 40,
@@ -276,14 +276,14 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 2958,
+        "unisex": 2959,
         "womens": 1452,
-        "mens": 307
+        "mens": 308
       },
       "colors": {
         "navy": 194,
         "black": 1024,
-        "white": 907,
+        "white": 909,
         "gray": 492,
         "khaki": 132,
         "pink": 228,
@@ -371,37 +371,37 @@
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 9523,
+      "total": 9915,
       "categories": {
-        "bottoms": 1584,
-        "tops": 624,
-        "accessories": 684,
-        "sports_bras": 180,
-        "other": 2768,
-        "footwear": 2790,
-        "outerwear": 868,
+        "bottoms": 1644,
+        "tops": 649,
+        "accessories": 714,
+        "sports_bras": 186,
+        "other": 2878,
+        "footwear": 2928,
+        "outerwear": 891,
         "dresses": 25
       },
       "subcategories": {
-        "shorts": 695,
-        "leggings": 398,
-        "other": 3126,
-        "hats": 221,
-        "crop_tops": 191,
-        "pants": 387,
-        "running": 2582,
-        "tanks": 290,
-        "jackets": 427,
+        "shorts": 727,
+        "leggings": 409,
+        "other": 3249,
+        "hats": 234,
+        "crop_tops": 201,
+        "pants": 399,
+        "running": 2720,
+        "tanks": 303,
+        "jackets": 429,
         "joggers": 27,
         "casual_dress": 25,
-        "socks": 424,
-        "vests": 64,
-        "hoodies": 315,
-        "skirts": 39,
-        "sweatpants": 33,
+        "socks": 438,
+        "vests": 66,
+        "hoodies": 331,
+        "skirts": 41,
+        "sweatpants": 36,
         "lifestyle": 203,
         "headwear": 16,
-        "polos": 32,
+        "polos": 33,
         "pullovers": 2,
         "long_sleeve": 18,
         "fleece": 3,
@@ -409,31 +409,31 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4538,
-        "mens": 3974,
-        "unisex": 1011
+        "womens": 4690,
+        "mens": 4133,
+        "unisex": 1092
       },
       "colors": {
-        "blue": 785,
-        "red": 226,
-        "black": 1507,
-        "purple": 185,
-        "navy": 295,
-        "khaki": 200,
-        "gray": 323,
-        "yellow": 83,
-        "white": 1473,
+        "blue": 804,
+        "red": 228,
+        "black": 1551,
+        "purple": 187,
+        "navy": 303,
+        "khaki": 209,
+        "gray": 331,
+        "yellow": 84,
+        "white": 1558,
         "pink": 185,
-        "green": 278,
+        "green": 282,
         "orange": 79,
-        "heather": 27,
-        "brown": 76,
-        "rust": 41,
+        "heather": 33,
+        "brown": 80,
+        "rust": 43,
         "camo": 6
       },
-      "colorCoverage": 60.6,
+      "colorCoverage": 60.1,
       "avgColorsPerStyle": 2.6,
-      "uniqueStyles": 1372
+      "uniqueStyles": 1397
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -648,12 +648,660 @@
     }
   },
   "totals": {
-    "products": 36591,
+    "products": 36985,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-02",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 2,
+      "products": [
+        {
+          "name": "cloudmonster 3 hyper ls u",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-ls-u-3ug1001/unisex/flurry-verdite-shoes-3UG10015162",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudmonster 3 hyper ls u",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-ls-u-3ug1001/unisex/lily-limelight-shoes-3UG10014906",
+          "category": "footwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 390,
+      "products": [
+        {
+          "name": "lightweight cap erewhon u",
+          "url": "https://www.on.com/en-us/products/lightweight-cap-erewhon-u-2ug1055/unisex/cinder-accessories-2UG10551933",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "3 core shorts",
+          "url": "https://www.on.com/en-us/products/3-core-shorts-1wf1015/womens/bubblegum-apparel-1WF10154983",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "3 performance 2 1 shorts",
+          "url": "https://www.on.com/en-us/products/3-performance-2-1-shorts-1wf1012/womens/flurry-aquamarine-apparel-1WF10124958",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "5 court shorts m",
+          "url": "https://www.on.com/en-us/products/5-court-shorts-m-1mg1019/mens/brook-apparel-1MG10194996",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "5 performance 2 1 shorts",
+          "url": "https://www.on.com/en-us/products/5-performance-2-1-shorts-1mf1009/mens/flurry-aquamarine-apparel-1MF10094958",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "5 performance shorts",
+          "url": "https://www.on.com/en-us/products/5-performance-shorts-1mf1075/mens/aquamarine-apparel-1MF10754988",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "5 performance shorts",
+          "url": "https://www.on.com/en-us/products/5-performance-shorts-1wf1013/womens/foxglove-apparel-1WF10134944",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "7 core shorts",
+          "url": "https://www.on.com/en-us/products/7-core-shorts-1mf1074/mens/apollo-apparel-1MF10745005",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "7 core shorts",
+          "url": "https://www.on.com/en-us/products/7-core-shorts-1mf1074/mens/jay-apparel-1MF10744974",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "7 performance shorts",
+          "url": "https://www.on.com/en-us/products/7-performance-shorts-1mf1010/mens/apollo-apparel-1MF10105005",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "7 performance shorts",
+          "url": "https://www.on.com/en-us/products/7-performance-shorts-1mf1010/mens/aquamarine-apparel-1MF10104988",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "all day cap u",
+          "url": "https://www.on.com/en-us/products/all-day-cap-u-2ug1010/unisex/sand-accessories-2UG10100554",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "all day ribbed t shirt w",
+          "url": "https://www.on.com/en-us/products/all-day-ribbed-t-shirt-w-1wg1188/womens/white-apparel-1WG11880069",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "all day ribbed tank w",
+          "url": "https://www.on.com/en-us/products/all-day-ribbed-tank-w-1wg1187/womens/black-apparel-1WG11870553",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "all day ribbed tank w",
+          "url": "https://www.on.com/en-us/products/all-day-ribbed-tank-w-1wg1187/womens/white-apparel-1WG11870069",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "cargo pack 60l",
+          "url": "https://www.on.com/en-us/products/cargo-pack-60l-2uf1030/unisex/biscuit-accessories-2UF10304934",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud 6",
+          "url": "https://www.on.com/en-us/products/cloud-6-3wf1006/womens/ether-tyrian-shoes-3WF10065446",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud 6",
+          "url": "https://www.on.com/en-us/products/cloud-6-3wf1006/womens/oyster-biscuit-shoes-3WF10065444",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud 6 geo wp m",
+          "url": "https://www.on.com/en-us/products/cloud-6-geo-wp-m-3mg1042/mens/black-lima-shoes-3MG10422535",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 m",
+          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/ash-cinder-shoes-3MF10074782",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 m",
+          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/brume-olive-shoes-3MF10075234",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 m",
+          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/maroon-ivory-shoes-3MF10075440",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 m",
+          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/wash-ivory-shoes-3MF10071484",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 versa m",
+          "url": "https://www.on.com/en-us/products/cloud-6-versa-m-3mf1004/mens/frost-midnight-shoes-3MF10045433",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 versa m",
+          "url": "https://www.on.com/en-us/products/cloud-6-versa-m-3mf1004/mens/ivory-neem-shoes-3MF10044948",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 versa w",
+          "url": "https://www.on.com/en-us/products/cloud-6-versa-w-3wf1003/womens/ivory-camellia-shoes-3WF10035084",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud 6 versa w",
+          "url": "https://www.on.com/en-us/products/cloud-6-versa-w-3wf1003/womens/ivory-nocturne-shoes-3WF10035430",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud 6 versa w",
+          "url": "https://www.on.com/en-us/products/cloud-6-versa-w-3wf1003/womens/pearl-larch-shoes-3WF10035429",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud 6 wp",
+          "url": "https://www.on.com/en-us/products/cloud-6-wp-3mf1006/mens/olive-espresso-shoes-3MF10065431",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud 6 wp",
+          "url": "https://www.on.com/en-us/products/cloud-6-wp-3wf1005/womens/navy-midnight-shoes-3WF10050147",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud play 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/black-white-shoes-3KG30010299",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud play 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/mistletoe-sahara-shoes-3KG30016068",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud play 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/myrtle-lima-shoes-3KG30015125",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud play 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/white-white-shoes-3KG30011200",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud play 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/zephyr-camellia-shoes-3KG30016066",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud sky 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/black-white-shoes-3YG30010299",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud sky 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/eclipse-myrtle-shoes-3YG30015126",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud sky 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/mistletoe-sahara-shoes-3YG30016068",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud sky 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/white-white-shoes-3YG30011200",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud sky 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/zephyr-camellia-shoes-3YG30016066",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudaway 2",
+          "url": "https://www.on.com/en-us/products/cloudaway-2-3me3005/mens/black-ivory-shoes-3ME30051430",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudaway 2",
+          "url": "https://www.on.com/en-us/products/cloudaway-2-3we3008/womens/rock-ivory-shoes-3WE30083247",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudboom max m",
+          "url": "https://www.on.com/en-us/products/cloudboom-max-m-3mf3031/mens/all-black-shoes-3MF30310485",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudflow 5 ad m",
+          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-m-3mf3070/mens/ivory-grain-shoes-3MF30705299",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudflow 5 ad m",
+          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-m-3mf3070/mens/sable-seaglass-shoes-3MF30705416",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudflow 5 ad w",
+          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-w-3wf3044/womens/ivory-grain-shoes-3WF30445299",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudflow 5 ad w",
+          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-w-3wf3044/womens/sable-seaglass-shoes-3WF30445416",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudflow 5 m",
+          "url": "https://www.on.com/en-us/products/cloudflow-5-m-3mf1011/mens/flurry-wash-shoes-3MF10114946",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudflow 5 w",
+          "url": "https://www.on.com/en-us/products/cloudflow-5-w-3wf1009/womens/flurry-wash-shoes-3WF10094946",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudhero waterproof u",
+          "url": "https://www.on.com/en-us/products/cloudhero-waterproof-u-3ke1003/unisex/topaz-glacier-shoes-3KE10036019",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudhero waterproof u",
+          "url": "https://www.on.com/en-us/products/cloudhero-waterproof-u-3ye1003/unisex/topaz-glacier-shoes-3YE10036019",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudhorizon 2 m",
+          "url": "https://www.on.com/en-us/products/cloudhorizon-2-m-3mg1054/mens/winter-grain-shoes-3MG10545330",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudhorizon 2 w",
+          "url": "https://www.on.com/en-us/products/cloudhorizon-2-w-3wg1033/womens/brook-ember-shoes-3WG10335332",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudhorizon 2 wp m",
+          "url": "https://www.on.com/en-us/products/cloudhorizon-2-wp-m-3mg1021/mens/soba-eclipse-shoes-3MG10215335",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudhorizon 2 wp w",
+          "url": "https://www.on.com/en-us/products/cloudhorizon-2-wp-w-3wg1020/womens/brume-grain-shoes-3WG10204691",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudleap",
+          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/alloy-agave-shoes-3KE30025132",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap",
+          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/black-white-shoes-3KE30020299",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap",
+          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/marsh-castor-shoes-3KE30025131",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap",
+          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/salt-bubblegum-shoes-3KE30026016",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap u",
+          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/black-black-shoes-3YF10041043",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap u",
+          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/marsh-white-shoes-3YF10045133",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap u",
+          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/salt-bubblegum-shoes-3YF10046016",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudleap u",
+          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/wolf-alloy-shoes-3YF10043290",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudmonster 1 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/black-shoes-3MF30740553",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 1 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/eclipse-verdite-shoes-3MF30745253",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 1 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/midnight-navy-shoes-3MF30740170",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 1 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/white-glacier-shoes-3MF30740813",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 1 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/black-shoes-3WF30480553",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 1 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/camellia-camellia-shoes-3WF30486071",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 1 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/cinder-iceberg-shoes-3WF30486055",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 1 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/lavender-urchin-shoes-3WF30485355",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 1 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/white-isle-shoes-3WF30485163",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 hyper",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-3mg1006/mens/ivory-flurry-shoes-3MG10065262",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 hyper",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-3wg1004/womens/ivory-flurry-shoes-3WG10045262",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/brook-flurry-shoes-3MG10055256",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/ivory-dustrose-shoes-3MG10056015",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/ivory-ivory-shoes-3MG10053334",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/brook-flurry-shoes-3WG10035256",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/glacier-pollen-shoes-3WG10035259",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/ivory-camellia-shoes-3WG10035084",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 wide m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-wide-m-3mg1093/mens/brook-flurry-shoes-3MG10935256",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 wide m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-wide-m-3mg1093/mens/ivory-ivory-shoes-3MG10933334",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 wide w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-wide-w-3wg1083/womens/brook-flurry-shoes-3WG10835256",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster void m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/eclipse-black-shoes-3MG10910264",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster void m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/ore-eclipse-shoes-3MG10915368",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster void m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/silver-eclipse-shoes-3MG10912989",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster void m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/wash-brook-shoes-3MG10915206",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster void w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/brook-iceberg-shoes-3WG10815376",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster void w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/ice-verdite-shoes-3WG10815372",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster void w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/ivory-doe-shoes-3WG10816128",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster void w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/salt-biscuit-shoes-3WG10815373",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster void w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/white-aquamarine-shoes-3WG10815374",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudnova form 2",
+          "url": "https://www.on.com/en-us/products/cloudnova-form-2-3me3015/mens/glacier-ivory-shoes-3ME30153205",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudnova form 2",
+          "url": "https://www.on.com/en-us/products/cloudnova-form-2-3we3017/womens/oyster-ivory-shoes-3WE30175116",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudnova kids",
+          "url": "https://www.on.com/en-us/products/cloudnova-kids-3kf3001/unisex/wash-white-shoes-3KF30011482",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudnova rift m",
+          "url": "https://www.on.com/en-us/products/cloudnova-rift-m-3mf3015/mens/black-black-shoes-3MF30151043",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudnova rift w",
+          "url": "https://www.on.com/en-us/products/cloudnova-rift-w-3wf3007/womens/castor-castor-shoes-3WF30075114",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudnova youth",
+          "url": "https://www.on.com/en-us/products/cloudnova-youth-3yf3003/unisex/wash-white-shoes-3YF30031482",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudpulse 2 m",
+          "url": "https://www.on.com/en-us/products/cloudpulse-2-m-3mg1015/mens/glacier-ivory-shoes-3MG10153205",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudpulse 2 w",
+          "url": "https://www.on.com/en-us/products/cloudpulse-2-w-3wg1014/womens/dew-white-shoes-3WG10142659",
+          "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "u5012rg accolade straight leg sweatpant",
+          "url": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-white-heather",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "u5012rg accolade straight leg sweatpant mens",
+          "url": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-white-heather-mens",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-06-30",
       "brand": "Lululemon",
@@ -4419,224 +5067,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-06-09",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 14,
-      "products": [
-        {
-          "name": "sculpt cross vent short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/tops-short-sleeve/Sculpt-Cross-Vent-Short-Sleeve-Shirt-MD/_/prod20003842",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "w big cozy ultra oversized wide leg pant word r",
-          "url": "https://shop.lululemon.com/p/women-pants/W-Big-Cozy-Ultra-Oversized-Wide-Leg-Pant-Word-R-MD/_/prod20004682",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "sculpt cross vent short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/tops-short-sleeve/Sculpt-Cross-Vent-Short-Sleeve-Shirt/_/prod20003843",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "becalm mid rise short",
-          "url": "https://shop.lululemon.com/p/becalm-mid-rise-short-3/eoqj6txixw-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "band charm hair elastics 2 pack",
-          "url": "https://shop.lululemon.com/p/hair-accessories/Multi-Band-Charm-Hair-Elastics-2-Pack-MD/_/prod20003646",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "becalm mid rise wide waistband short",
-          "url": "https://shop.lululemon.com/p/becalm-mid-rise-wide-waistband-short-3/cq6755ks4t",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "band charm hair elastics 2 pack",
-          "url": "https://shop.lululemon.com/p/hair-accessories/Multi-Band-Charm-Hair-Elastics-2-Pack/_/prod20003647",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "hold tight straight hem cropped t shirt",
-          "url": "https://shop.lululemon.com/p/womens-t-shirts/Hold-Tight-Straight-Hem-Cropped-T-Shirt-MD/_/prod20001666",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "becalm mid rise wide waistband short",
-          "url": "https://shop.lululemon.com/p/becalm-mid-rise-wide-waistband-short-3/cq6755ks4t-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "becalm mid rise short",
-          "url": "https://shop.lululemon.com/p/becalm-mid-rise-short-3/eoqj6txixw",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "hold tight straight hem cropped t shirt",
-          "url": "https://shop.lululemon.com/p/womens-t-shirts/Hold-Tight-Straight-Hem-Cropped-T-Shirt/_/prod20001667",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "swiftly tech short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/swiftly-tech-short-sleeve-shirt/kmgmp5x4yd",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "swiftly tech short sleeve shirt",
-          "url": "https://shop.lululemon.com/p/swiftly-tech-short-sleeve-shirt/kmgmp5x4yd-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "w big cozy ultra oversized wide leg pant word r",
-          "url": "https://shop.lululemon.com/p/women-pants/W-Big-Cozy-Ultra-Oversized-Wide-Leg-Pant-Word-R/_/prod20004683",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 8,
-      "products": [
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power washed crew ecru",
-          "url": "https://www.gymshark.com/products/gymshark-power-washed-crew-ecru-brown-ss23",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power washed 5 shorts titanium",
-          "url": "https://www.gymshark.com/products/gymshark-power-washed-5-shorts-titanium-blue-ss24",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark training dept hoodie",
-          "url": "https://www.gymshark.com/products/gymshark-training-dept-hoodie-black-aw23",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power washed crew ecru",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-washed-crew-ecru-brown-ss23",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power washed 5 shorts titanium",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-washed-5-shorts-titanium-blue-ss24",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark training dept hoodie",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-dept-hoodie-black-aw23",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "brand": "gymreapers",
-      "brandSlug": "gymreapers",
-      "count": 1,
-      "products": [
-        {
-          "name": "stryda run hat",
-          "url": "https://www.gymreapers.com/products/stryda-run-hat",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-08",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 8,
-      "products": [
-        {
-          "name": "gymshark training t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-training-t-shirt-white-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-training-t-shirt-black-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-t-shirt-white-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-t-shirt-black-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday baguette bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-baguette-bag-bags-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday baguette bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-baguette-bag-bags-pink-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday baguette bag bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-baguette-bag-bags-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday baguette bag bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-baguette-bag-bags-pink-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4905,7 +5335,8 @@
       "2026-06-05": 2,
       "2026-06-15": 2,
       "2026-06-25": 3,
-      "2026-06-30": 3
+      "2026-06-30": 3,
+      "2026-07-01": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5014,7 +5445,9 @@
       "2026-05-27": 34,
       "2026-06-04": 1,
       "2026-06-25": 49,
-      "2026-06-30": 2
+      "2026-06-30": 2,
+      "2026-07-01": 390,
+      "2026-07-02": 2
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -5050,9 +5483,9 @@
       "outdoor_voices": 242,
       "tenthousand": 69,
       "lululemon": 1732,
-      "alo": 1771,
+      "alo": 1773,
       "gymshark": 3205,
-      "on_running": 1584,
+      "on_running": 1644,
       "gymreapers": 201,
       "sbd": 22,
       "schiek": 2,
@@ -5065,7 +5498,7 @@
       "lululemon": 835,
       "alo": 567,
       "gymshark": 2802,
-      "on_running": 624,
+      "on_running": 649,
       "gymreapers": 230,
       "sbd": 67,
       "schiek": 7,
@@ -5078,7 +5511,7 @@
       "lululemon": 680,
       "alo": 676,
       "gymshark": 887,
-      "on_running": 868,
+      "on_running": 891,
       "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
@@ -5091,7 +5524,7 @@
       "lululemon": 917,
       "alo": 812,
       "gymshark": 656,
-      "on_running": 2768,
+      "on_running": 2878,
       "gymreapers": 315,
       "sbd": 78,
       "harbinger": 22,
@@ -5104,7 +5537,7 @@
       "lululemon": 186,
       "alo": 321,
       "gymshark": 706,
-      "on_running": 180,
+      "on_running": 186,
       "gymreapers": 65,
       "bear_grips": 9
     },
@@ -5113,7 +5546,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 2790,
+      "on_running": 2928,
       "schiek": 1
     },
     "accessories": {
@@ -5123,7 +5556,7 @@
       "lululemon": 627,
       "alo": 405,
       "gymshark": 524,
-      "on_running": 684,
+      "on_running": 714,
       "gymreapers": 189,
       "sbd": 54,
       "harbinger": 24,
@@ -5158,7 +5591,7 @@
       "lululemon": 528,
       "alo": 413,
       "gymshark": 1304,
-      "on_running": 695,
+      "on_running": 727,
       "gymreapers": 128,
       "sbd": 15,
       "bear_grips": 40
@@ -5170,7 +5603,7 @@
       "lululemon": 290,
       "alo": 263,
       "gymshark": 778,
-      "on_running": 290,
+      "on_running": 303,
       "gymreapers": 33,
       "sbd": 8,
       "bear_grips": 472
@@ -5192,7 +5625,7 @@
       "lululemon": 207,
       "alo": 363,
       "gymshark": 773,
-      "on_running": 398,
+      "on_running": 409,
       "gymreapers": 42,
       "bear_grips": 32
     },
@@ -5203,7 +5636,7 @@
       "lululemon": 1593,
       "alo": 1640,
       "gymshark": 2885,
-      "on_running": 3126,
+      "on_running": 3249,
       "gymreapers": 530,
       "sbd": 137,
       "harbinger": 46,
@@ -5217,7 +5650,7 @@
       "lululemon": 448,
       "alo": 251,
       "gymshark": 314,
-      "on_running": 387
+      "on_running": 399
     },
     "pullovers": {
       "vuori": 6,
@@ -5232,7 +5665,7 @@
       "lululemon": 65,
       "alo": 14,
       "gymshark": 28,
-      "on_running": 32,
+      "on_running": 33,
       "gymreapers": 5,
       "bear_grips": 99
     },
@@ -5248,7 +5681,7 @@
       "lululemon": 300,
       "alo": 185,
       "gymshark": 192,
-      "on_running": 427,
+      "on_running": 429,
       "gymreapers": 17,
       "bear_grips": 14
     },
@@ -5271,7 +5704,7 @@
       "lululemon": 139,
       "alo": 223,
       "gymshark": 517,
-      "on_running": 315,
+      "on_running": 331,
       "gymreapers": 26,
       "sbd": 6,
       "schiek": 1,
@@ -5283,7 +5716,7 @@
       "lululemon": 139,
       "alo": 144,
       "gymshark": 88,
-      "on_running": 221,
+      "on_running": 234,
       "gymreapers": 77,
       "sbd": 7,
       "schiek": 1,
@@ -5295,7 +5728,7 @@
       "lululemon": 103,
       "alo": 129,
       "gymshark": 2,
-      "on_running": 39,
+      "on_running": 41,
       "bear_grips": 3
     },
     "vests": {
@@ -5305,7 +5738,7 @@
       "lululemon": 48,
       "alo": 18,
       "gymshark": 12,
-      "on_running": 64,
+      "on_running": 66,
       "gymreapers": 1
     },
     "crop_tops": {
@@ -5314,7 +5747,7 @@
       "lululemon": 96,
       "alo": 186,
       "gymshark": 170,
-      "on_running": 191,
+      "on_running": 201,
       "gymreapers": 16,
       "sbd": 7,
       "bear_grips": 7
@@ -5346,8 +5779,8 @@
       "outdoor_voices": 21,
       "tenthousand": 1,
       "lululemon": 4,
-      "alo": 213,
-      "on_running": 33,
+      "alo": 215,
+      "on_running": 36,
       "bear_grips": 27
     },
     "bags": {
@@ -5365,7 +5798,7 @@
       "lululemon": 159,
       "alo": 178,
       "gymshark": 216,
-      "on_running": 424,
+      "on_running": 438,
       "gymreapers": 8,
       "sbd": 42
     },
@@ -5393,7 +5826,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2582
+      "on_running": 2720
     },
     "medium_support": {
       "lululemon": 21,
@@ -5427,7 +5860,7 @@
       "outdoor_voices": 27,
       "alo": 492,
       "gymshark": 1085,
-      "on_running": 323,
+      "on_running": 331,
       "gymreapers": 72,
       "sbd": 16,
       "schiek": 5
@@ -5437,7 +5870,7 @@
       "outdoor_voices": 39,
       "alo": 194,
       "gymshark": 70,
-      "on_running": 295,
+      "on_running": 303,
       "gymreapers": 37,
       "sbd": 5
     },
@@ -5446,7 +5879,7 @@
       "outdoor_voices": 77,
       "alo": 1024,
       "gymshark": 2092,
-      "on_running": 1507,
+      "on_running": 1551,
       "gymreapers": 124,
       "sbd": 2,
       "schiek": 8,
@@ -5457,7 +5890,7 @@
       "outdoor_voices": 7,
       "alo": 132,
       "gymshark": 2,
-      "on_running": 200,
+      "on_running": 209,
       "gymreapers": 59,
       "bear_grips": 1
     },
@@ -5467,7 +5900,7 @@
       "lululemon": 12,
       "alo": 216,
       "gymshark": 299,
-      "on_running": 226,
+      "on_running": 228,
       "gymreapers": 60,
       "sbd": 1,
       "harbinger": 2
@@ -5476,9 +5909,9 @@
       "vuori": 370,
       "outdoor_voices": 22,
       "lululemon": 17,
-      "alo": 907,
+      "alo": 909,
       "gymshark": 672,
-      "on_running": 1473,
+      "on_running": 1558,
       "gymreapers": 90,
       "sbd": 2,
       "harbinger": 1,
@@ -5490,7 +5923,7 @@
       "lululemon": 8,
       "alo": 244,
       "gymshark": 1407,
-      "on_running": 785,
+      "on_running": 804,
       "gymreapers": 32,
       "sbd": 6,
       "schiek": 2
@@ -5501,7 +5934,7 @@
       "lululemon": 4,
       "alo": 307,
       "gymshark": 445,
-      "on_running": 278,
+      "on_running": 282,
       "gymreapers": 98,
       "sbd": 4
     },
@@ -5510,7 +5943,7 @@
       "outdoor_voices": 2,
       "alo": 288,
       "gymshark": 628,
-      "on_running": 76,
+      "on_running": 80,
       "gymreapers": 10,
       "schiek": 2,
       "bear_grips": 3
@@ -5526,14 +5959,14 @@
     "heather": {
       "vuori": 223,
       "alo": 24,
-      "on_running": 27
+      "on_running": 33
     },
     "purple": {
       "vuori": 98,
       "outdoor_voices": 8,
       "alo": 38,
       "gymshark": 455,
-      "on_running": 185,
+      "on_running": 187,
       "gymreapers": 12,
       "sbd": 2
     },
@@ -5552,7 +5985,7 @@
       "lululemon": 7,
       "alo": 61,
       "gymshark": 56,
-      "on_running": 83,
+      "on_running": 84,
       "gymreapers": 5,
       "schiek": 4,
       "bear_grips": 51
@@ -5577,7 +6010,7 @@
     "rust": {
       "vuori": 2,
       "alo": 7,
-      "on_running": 41,
+      "on_running": 43,
       "gymreapers": 3,
       "bear_grips": 1
     },
@@ -5592,12 +6025,12 @@
     {
       "brand": "On Running",
       "bottoms": 16.6,
-      "tops": 6.6,
-      "outerwear": 9.1,
+      "tops": 6.5,
+      "outerwear": 9,
       "dresses": 0.3,
       "sports_bras": 1.9,
       "accessories": 7.2,
-      "other": 29.1
+      "other": 29
     },
     {
       "brand": "Gymshark",
@@ -5621,7 +6054,7 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37.5,
+      "bottoms": 37.6,
       "tops": 12,
       "outerwear": 14.3,
       "dresses": 2.5,
@@ -5713,19 +6146,19 @@
   "colorMix": [
     {
       "brand": "On Running",
-      "black": 15.8,
-      "white": 15.5,
-      "gray": 3.4,
+      "black": 15.6,
+      "white": 15.7,
+      "gray": 3.3,
       "navy": 3.1,
-      "blue": 8.2,
-      "green": 2.9,
+      "blue": 8.1,
+      "green": 2.8,
       "khaki": 2.1,
       "brown": 0.8,
       "purple": 1.9,
       "pink": 1.9,
       "orange": 0.8,
-      "red": 2.4,
-      "yellow": 0.9,
+      "red": 2.3,
+      "yellow": 0.8,
       "other": 0.8
     },
     {
@@ -5765,7 +6198,7 @@
     {
       "brand": "Alo Yoga",
       "black": 21.7,
-      "white": 19.2,
+      "white": 19.3,
       "gray": 10.4,
       "navy": 4.1,
       "blue": 5.2,
@@ -5996,7 +6429,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 2638 products"
+        "comparison": "Competitors have 2776 products"
       },
       {
         "metric": "Medium Support",
@@ -6016,7 +6449,7 @@
       },
       {
         "severity": "high",
-        "message": "On Running has 2x Vuori's catalog size"
+        "message": "On Running has 3x Vuori's catalog size"
       }
     ],
     "vsLululemon": [
@@ -6109,7 +6542,7 @@
       {
         "category": "Men's Products",
         "vuori": 1454,
-        "competitor": 307,
+        "competitor": 308,
         "winner": "vuori"
       },
       {
@@ -6120,5 +6553,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-01T13:15:19.018Z"
+  "generated_at": "2026-07-02T13:15:15.808Z"
 }
