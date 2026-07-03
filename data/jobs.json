@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 698,
+      "total_jobs": 696,
       "change_from_last": -2,
       "departments": {
         "engineering": 18,
         "design": 98,
-        "operations": 181,
-        "other": 136,
-        "retail": 229,
+        "operations": 182,
+        "other": 134,
+        "retail": 228,
         "marketing": 11,
         "finance": 6,
         "executive": 11,
@@ -18,35 +18,35 @@
         "hr": 4
       },
       "seniority": {
-        "mid": 21,
+        "mid": 20,
         "junior": 306,
-        "manager": 188,
+        "manager": 183,
         "c-suite": 28,
         "intern": 4,
-        "lead": 136,
+        "lead": 140,
         "senior": 15
       },
       "locations": [
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "Metairie, Louisiana",
-        "San Ramon Office, San Ramon, CA (LO-SF)",
-        "Tulsa, Oklahoma, United States",
-        "Santa Clara, California, United States",
-        "Williamsburg, Brooklyn, NY (10006)",
-        "Yorkdale Shopping Centre, Toronto, ON (10027)",
-        "Lynnfield, Massachusetts, United States",
-        "Brickell City Centre, Miami, FL (10077)",
-        "Bethesda, Maryland, United States",
+        "Burlingame, California, United States",
+        "Amherst, New York, United States",
+        "Detroit, Michigan, United States",
         "Portland, Oregon, United States",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Bellevue, Washington, United States",
-        "Florence, Italy",
-        "Old Orchard, Skokie, IL (10016)",
-        "Shrewsbury, New Jersey, United States",
+        "Leawood, Kansas, United States",
+        "Perimeter Mall, Atlanta, GA (10176)",
+        "San Ramon Office, San Ramon, CA (LO-SF)",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "Seaport Square, Boston, MA (10017)",
         "St. Johns Town Center, Jacksonville, FL (10060)",
-        "McLean, Virginia, United States",
-        "Walnut Street, Philadelphia, PA (10058)",
-        "Beverly Hills, California, United States"
+        "Glendale, California, United States",
+        "Waterside Shops, Naples, FL (10106)",
+        "Beverly Hills, California, United States; San Ramon, California, United States",
+        "Thousand Oaks, California, United States",
+        "Costa Mesa, California, United States",
+        "Canoga Park, California, United States",
+        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
+        "Milano, Milan, Italy",
+        "Saint Catherine Street, Montr\u00e9al, QC (10086)",
+        "Manhattan Beach, California, United States"
       ],
       "jobs": [
         {
@@ -90,6 +90,16 @@
           "seniority": "mid"
         },
         {
+          "id": "6108200004",
+          "title": "Accounts Payable Manager, Merchandise",
+          "location": "Warehouse 2, Commerce, CA (WH2)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6108200004?gh_jid=6108200004",
+          "posted_at": "2026-07-02T19:18:30-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
           "id": "5899585004",
           "title": "Accounts Payable Specialist II",
           "location": "Warehouse 2, Commerce, CA (WH2)",
@@ -116,16 +126,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5623418004?gh_jid=5623418004",
           "posted_at": "2026-06-29T12:35:00-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "5970922004",
-          "title": "Asset Protection Specialist - Brompton Road",
-          "location": "London, England, United Kingdom",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5970922004?gh_jid=5970922004",
-          "posted_at": "2026-06-30T13:16:31-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -550,13 +550,13 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-02T05:30:08.774769"
+      "checked_at": "2026-07-03T05:30:11.873687"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 10,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
         "design": 3,
         "engineering": 2,
@@ -572,10 +572,10 @@
       },
       "locations": [
         "Solihull, England, United Kingdom",
-        "New York, New York, United States",
-        "New York; New York, New York, United States; New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
         "Manchester, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands"
+        "New York, New York, United States",
+        "New York; New York, New York, United States; New York, New York, United States"
       ],
       "jobs": [
         {
@@ -679,7 +679,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-07-02T05:30:11.047522"
+      "checked_at": "2026-07-03T05:30:14.038228"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -737,13 +737,13 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 317,
-      "change_from_last": 2,
+      "total_jobs": 315,
+      "change_from_last": -2,
       "departments": {
-        "other": 61,
-        "retail": 137,
-        "marketing": 23,
-        "engineering": 46,
+        "other": 63,
+        "retail": 136,
+        "marketing": 21,
+        "engineering": 45,
         "operations": 7,
         "executive": 19,
         "product": 4,
@@ -751,34 +751,34 @@
         "finance": 5
       },
       "seniority": {
-        "lead": 167,
-        "c-suite": 17,
+        "lead": 165,
+        "c-suite": 19,
         "mid": 85,
         "manager": 2,
         "intern": 4,
-        "senior": 42
+        "senior": 40
       },
       "locations": [
-        "Cirebon",
-        "London",
-        "Macao",
-        "Ho Chi Minh City",
-        "San Diego",
+        "Hong Kong",
+        "New York City",
         "London; Zurich",
+        "Zurich",
         "Vancouver",
-        "Washington D.C.",
-        "Amsterdam",
-        "Auckland",
-        "Portland",
-        "San Francisco",
-        "Las Vegas",
         "Austin",
-        "Boston",
+        "Amsterdam",
+        "Guangzhou",
+        "Dallas",
+        "Portland",
+        "Beijing",
+        "Bicester",
+        "Chicago",
         "Tianjin",
-        "S\u00e3o Paulo",
-        "Shenzhen",
-        "Munich",
-        "Hanoi; Ho Chi Minh City"
+        "Stockholm",
+        "Auckland",
+        "Milan",
+        "Busan",
+        "San Francisco",
+        "Palo Alto"
       ],
       "jobs": [
         {
@@ -847,7 +847,7 @@
           "location": "Seoul",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8034902?gh_jid=8034902",
-          "posted_at": "2026-06-29T22:34:35-04:00",
+          "posted_at": "2026-07-02T22:57:49-04:00",
           "category": "marketing",
           "seniority": "lead"
         },
@@ -942,16 +942,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7961566",
-          "title": "Associate Store Leader, Stanford Shopping Center",
-          "location": "Palo Alto",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7961566?gh_jid=7961566",
-          "posted_at": "2026-06-25T23:17:19-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "7921180",
           "title": "Associate Store Leader (Subdirector/a de tienda), Madrid",
           "location": "Madrid",
@@ -992,6 +982,16 @@
           "seniority": "lead"
         },
         {
+          "id": "8043221",
+          "title": "Contractor - Apparel Commercialization Specialist",
+          "location": "Hanoi",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8043221?gh_jid=8043221",
+          "posted_at": "2026-07-02T07:35:33-04:00",
+          "category": "other",
+          "seniority": "c-suite"
+        },
+        {
           "id": "7924988",
           "title": "Contractor - Material Planning Specialist (Trim and Packaging)",
           "location": "Hanoi",
@@ -1008,6 +1008,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7965519?gh_jid=7965519",
           "posted_at": "2026-06-23T11:37:16-04:00",
+          "category": "other",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "7721134",
+          "title": "Contractor - Operation Planner Specialist",
+          "location": "Ho Chi Minh City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7721134?gh_jid=7721134",
+          "posted_at": "2026-07-02T07:49:20-04:00",
           "category": "other",
           "seniority": "c-suite"
         },
@@ -1037,7 +1047,7 @@
           "location": "Busan",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8041146?gh_jid=8041146",
-          "posted_at": "2026-07-01T06:40:49-04:00",
+          "posted_at": "2026-07-03T03:11:52-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -1212,21 +1222,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7869093",
-          "title": "Head of Financial Planning & Analysis",
-          "location": "Portland",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7869093?gh_jid=7869093",
-          "posted_at": "2026-06-23T11:37:16-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "8011351",
           "title": "Head of Financial Planning & Analysis",
           "location": "New York City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8011351?gh_jid=8011351",
+          "posted_at": "2026-06-23T11:37:16-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7869093",
+          "title": "Head of Financial Planning & Analysis",
+          "location": "Portland",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7869093?gh_jid=7869093",
           "posted_at": "2026-06-23T11:37:16-04:00",
           "category": "executive",
           "seniority": "lead"
@@ -1270,20 +1280,10 @@
           "posted_at": "2026-06-26T20:00:55-04:00",
           "category": "executive",
           "seniority": "lead"
-        },
-        {
-          "id": "7908937",
-          "title": "Head of Merchandise Planning",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7908937?gh_jid=7908937",
-          "posted_at": "2026-07-01T16:40:00-04:00",
-          "category": "executive",
-          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-07-02T05:30:20.502945"
+      "checked_at": "2026-07-03T05:30:23.291761"
     }
   },
-  "generated_at": "2026-07-02T05:30:22.503105"
+  "generated_at": "2026-07-03T05:30:25.291908"
 }
