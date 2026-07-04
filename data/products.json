@@ -306,10 +306,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 8960,
+      "total": 8962,
       "categories": {
         "bottoms": 3277,
-        "tops": 2862,
+        "tops": 2864,
         "other": 660,
         "accessories": 524,
         "outerwear": 891,
@@ -320,7 +320,7 @@
         "shorts": 1350,
         "leggings": 775,
         "crop_tops": 170,
-        "other": 2955,
+        "other": 2957,
         "long_sleeve": 480,
         "socks": 216,
         "tanks": 802,
@@ -344,14 +344,14 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4118,
+        "unisex": 4120,
         "womens": 3009,
         "mens": 1833
       },
       "colors": {
         "green": 457,
         "pink": 681,
-        "black": 2118,
+        "black": 2120,
         "white": 684,
         "navy": 70,
         "gray": 1099,
@@ -366,36 +366,36 @@
       },
       "colorCoverage": 90.4,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2368
+      "uniqueStyles": 2369
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 9915,
+      "total": 9925,
       "categories": {
-        "bottoms": 1644,
+        "bottoms": 1647,
         "tops": 649,
         "accessories": 714,
         "sports_bras": 186,
-        "other": 2878,
-        "footwear": 2928,
-        "outerwear": 891,
+        "other": 2881,
+        "footwear": 2929,
+        "outerwear": 894,
         "dresses": 25
       },
       "subcategories": {
-        "shorts": 727,
+        "shorts": 730,
         "leggings": 409,
-        "other": 3249,
+        "other": 3252,
         "hats": 234,
         "crop_tops": 201,
         "pants": 399,
-        "running": 2720,
+        "running": 2721,
         "tanks": 303,
-        "jackets": 429,
+        "jackets": 430,
         "joggers": 27,
         "casual_dress": 25,
         "socks": 438,
-        "vests": 66,
+        "vests": 68,
         "hoodies": 331,
         "skirts": 41,
         "sweatpants": 36,
@@ -409,12 +409,12 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4690,
-        "mens": 4133,
+        "womens": 4698,
+        "mens": 4135,
         "unisex": 1092
       },
       "colors": {
-        "blue": 804,
+        "blue": 805,
         "red": 228,
         "black": 1551,
         "purple": 187,
@@ -422,18 +422,18 @@
         "khaki": 209,
         "gray": 331,
         "yellow": 84,
-        "white": 1558,
+        "white": 1559,
         "pink": 185,
         "green": 282,
         "orange": 79,
         "heather": 33,
-        "brown": 80,
+        "brown": 82,
         "rust": 43,
         "camo": 6
       },
       "colorCoverage": 60.1,
       "avgColorsPerStyle": 2.6,
-      "uniqueStyles": 1397
+      "uniqueStyles": 1398
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -648,17 +648,31 @@
     }
   },
   "totals": {
-    "products": 37164,
+    "products": 37176,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-07-04",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 1,
+      "products": [
+        {
+          "name": "cloudtilt hi loewe m 3mg1083",
+          "url": "https://www.on.com/en-us/products/cloudtilt-hi-loewe-m-3mg1083/mens",
+          "category": "footwear",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
       "date": "2026-07-03",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 174,
+      "count": 176,
       "products": [
         {
           "name": "gymshark rest day essentials t shirt onyx",
@@ -1258,6 +1272,68 @@
           "name": "gymshark halter bralette sports bras",
           "url": "https://www.gymshark.com/es-US/products/gymshark-halter-bralette-sports-bras-black-ss26",
           "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 9,
+      "products": [
+        {
+          "name": "performance volt jacket w",
+          "url": "https://www.on.com/en-us/products/performance-volt-jacket-w-1wg3073/womens/hare-apparel-1WG30734993",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt shorts w",
+          "url": "https://www.on.com/en-us/products/performance-volt-shorts-w-1wg3081/womens/espresso-apparel-1WG30814959",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt shorts w",
+          "url": "https://www.on.com/en-us/products/performance-volt-shorts-w-1wg3081/womens/hare-apparel-1WG30814993",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt t w",
+          "url": "https://www.on.com/en-us/products/performance-volt-t-w-1wg3133/womens/brook-apparel-1WG31334996",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt t w",
+          "url": "https://www.on.com/en-us/products/performance-volt-t-w-1wg3133/womens/espresso-apparel-1WG31334959",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt vest w",
+          "url": "https://www.on.com/en-us/products/performance-volt-vest-w-1wg3074/womens/glacier-apparel-1WG30740561",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "train t m",
+          "url": "https://www.on.com/en-us/products/train-t-m-1mg3148/mens/white-apparel-1MG31480069",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "performance volt shorts w 1wg3081",
+          "url": "https://www.on.com/en-us/products/performance-volt-shorts-w-1wg3081/womens",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt vest w 1wg3074",
+          "url": "https://www.on.com/en-us/products/performance-volt-vest-w-1wg3074/womens",
+          "category": "outerwear",
           "gender": "womens"
         }
       ]
@@ -5151,190 +5227,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-06-11",
-      "brand": "Lululemon",
-      "brandSlug": "lululemon",
-      "count": 24,
-      "products": [
-        {
-          "name": "short sleeve golf polo",
-          "url": "https://shop.lululemon.com/p/striped-short-sleeve-golf-polo/u9v2vbsepj-md",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "nulu absorbency ex high rise shortie underwear",
-          "url": "https://shop.lululemon.com/p/nulu-absorbency-ex-high-rise-shortie-underwear-5/fbmibkks0e",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "nulu absorbency ex high rise shortie underwear",
-          "url": "https://shop.lululemon.com/p/nulu-absorbency-ex-high-rise-shortie-underwear-5/fbmibkks0e-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "stretch twill relaxed fit golf short",
-          "url": "https://shop.lululemon.com/p/stretch-twill-relaxed-fit-golf-short-9/u6a8h4hii4",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "daydrift hr wide trouser short herringbone",
-          "url": "https://shop.lululemon.com/p/womens-trousers/Daydrift-HR-Wide-Trouser-Short-Herringbone/_/prod20007195",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "easyset training short sleeve shirt graphic",
-          "url": "https://shop.lululemon.com/p/easyset-training-short-sleeve-shirt-graphic/vum11rwh36",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "daydrift hr wide trouser short herringbone",
-          "url": "https://shop.lululemon.com/p/womens-trousers/Daydrift-HR-Wide-Trouser-Short-Herringbone-MD/_/prod20007194",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "mesh soft jersey pant regular",
-          "url": "https://shop.lululemon.com/p/mesh-soft-jersey-pant-regular/t4feceq8um-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve golf polo",
-          "url": "https://shop.lululemon.com/p/striped-short-sleeve-golf-polo/u9v2vbsepj",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "mesh soft jersey pant regular",
-          "url": "https://shop.lululemon.com/p/mesh-soft-jersey-pant-regular/t4feceq8um",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "salutations yoga tank top light support bc cup",
-          "url": "https://shop.lululemon.com/p/salutations-yoga-tank-top-light-support-bc-cup/fcarhs806g-md",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "stretch twill relaxed fit golf pant regular",
-          "url": "https://shop.lululemon.com/p/stretch-twill-relaxed-fit-golf-pant-regular/u58lby65n8-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "salutations yoga cami bodysuit",
-          "url": "https://shop.lululemon.com/p/salutations-yoga-cami-bodysuit-6/f9mk3lr1w3",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "oversized golf polo shirt",
-          "url": "https://shop.lululemon.com/p/oversized-golf-polo-shirt/trbcz3001g",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "ribbed heavyweight cotton midi dress",
-          "url": "https://shop.lululemon.com/p/ribbed-heavyweight-cotton-midi-dress/f50f1n0y69",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "stretch twill relaxed fit golf short",
-          "url": "https://shop.lululemon.com/p/stretch-twill-relaxed-fit-golf-short-9/u6a8h4hii4-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "salutations yoga cami bodysuit",
-          "url": "https://shop.lululemon.com/p/salutations-yoga-cami-bodysuit-6/f9mk3lr1w3-md",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "daydrift hr wide leg trouser r herringbone",
-          "url": "https://shop.lululemon.com/p/womens-trousers/Daydrift-HR-Wide-Leg-Trouser-R-Herringbone-MD/_/prod20006034",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "salutations yoga tank top light support bc cup",
-          "url": "https://shop.lululemon.com/p/salutations-yoga-tank-top-light-support-bc-cup/fcarhs806g",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "stretch twill relaxed fit golf pant regular",
-          "url": "https://shop.lululemon.com/p/stretch-twill-relaxed-fit-golf-pant-regular/u58lby65n8",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "ribbed heavyweight cotton midi dress",
-          "url": "https://shop.lululemon.com/p/ribbed-heavyweight-cotton-midi-dress/f50f1n0y69-md",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "daydrift hr wide leg trouser r herringbone",
-          "url": "https://shop.lululemon.com/p/womens-trousers/Daydrift-HR-Wide-Leg-Trouser-R-Herringbone/_/prod20006035",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "easyset training short sleeve shirt graphic",
-          "url": "https://shop.lululemon.com/p/easyset-training-short-sleeve-shirt-graphic/vum11rwh36-md",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "oversized golf polo shirt",
-          "url": "https://shop.lululemon.com/p/oversized-golf-polo-shirt/trbcz3001g-md",
-          "category": "tops",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 4,
-      "products": [
-        {
-          "name": "gymshark vital seamless midi zip 2 0 pullover jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-midi-zip-2-0-pullover-jackets-outerwear-green-aw25",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark 2 2l water bottle bottles",
-          "url": "https://www.gymshark.com/products/gymshark-2-2l-water-bottle-bottles-teal-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital seamless midi zip 2 0 pullover jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-midi-zip-2-0-pullover-jackets-outerwear-green-aw25",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark 2 2l water bottle bottles",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-2-2l-water-bottle-bottles-teal-aw25",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5701,7 +5593,7 @@
       "2026-06-28": 2,
       "2026-06-29": 6,
       "2026-06-30": 6,
-      "2026-07-03": 174
+      "2026-07-03": 176
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5717,7 +5609,9 @@
       "2026-06-25": 49,
       "2026-06-30": 2,
       "2026-07-01": 390,
-      "2026-07-02": 2
+      "2026-07-02": 2,
+      "2026-07-03": 9,
+      "2026-07-04": 1
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -5755,7 +5649,7 @@
       "lululemon": 1732,
       "alo": 1773,
       "gymshark": 3277,
-      "on_running": 1644,
+      "on_running": 1647,
       "gymreapers": 201,
       "sbd": 22,
       "schiek": 2,
@@ -5767,7 +5661,7 @@
       "tenthousand": 39,
       "lululemon": 835,
       "alo": 567,
-      "gymshark": 2862,
+      "gymshark": 2864,
       "on_running": 649,
       "gymreapers": 230,
       "sbd": 67,
@@ -5781,7 +5675,7 @@
       "lululemon": 680,
       "alo": 676,
       "gymshark": 891,
-      "on_running": 891,
+      "on_running": 894,
       "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
@@ -5794,7 +5688,7 @@
       "lululemon": 917,
       "alo": 812,
       "gymshark": 660,
-      "on_running": 2878,
+      "on_running": 2881,
       "gymreapers": 315,
       "sbd": 78,
       "harbinger": 22,
@@ -5816,7 +5710,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 2928,
+      "on_running": 2929,
       "schiek": 1
     },
     "accessories": {
@@ -5861,7 +5755,7 @@
       "lululemon": 528,
       "alo": 413,
       "gymshark": 1350,
-      "on_running": 727,
+      "on_running": 730,
       "gymreapers": 128,
       "sbd": 15,
       "bear_grips": 40
@@ -5905,8 +5799,8 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1640,
-      "gymshark": 2955,
-      "on_running": 3249,
+      "gymshark": 2957,
+      "on_running": 3252,
       "gymreapers": 530,
       "sbd": 137,
       "harbinger": 46,
@@ -5951,7 +5845,7 @@
       "lululemon": 300,
       "alo": 185,
       "gymshark": 196,
-      "on_running": 429,
+      "on_running": 430,
       "gymreapers": 17,
       "bear_grips": 14
     },
@@ -6008,7 +5902,7 @@
       "lululemon": 48,
       "alo": 18,
       "gymshark": 12,
-      "on_running": 66,
+      "on_running": 68,
       "gymreapers": 1
     },
     "crop_tops": {
@@ -6096,7 +5990,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2720
+      "on_running": 2721
     },
     "medium_support": {
       "lululemon": 21,
@@ -6148,7 +6042,7 @@
       "vuori": 731,
       "outdoor_voices": 77,
       "alo": 1024,
-      "gymshark": 2118,
+      "gymshark": 2120,
       "on_running": 1551,
       "gymreapers": 124,
       "sbd": 2,
@@ -6181,7 +6075,7 @@
       "lululemon": 17,
       "alo": 909,
       "gymshark": 684,
-      "on_running": 1558,
+      "on_running": 1559,
       "gymreapers": 90,
       "sbd": 2,
       "harbinger": 1,
@@ -6193,7 +6087,7 @@
       "lululemon": 8,
       "alo": 244,
       "gymshark": 1437,
-      "on_running": 804,
+      "on_running": 805,
       "gymreapers": 32,
       "sbd": 6,
       "schiek": 2
@@ -6213,7 +6107,7 @@
       "outdoor_voices": 2,
       "alo": 288,
       "gymshark": 634,
-      "on_running": 80,
+      "on_running": 82,
       "gymreapers": 10,
       "schiek": 2,
       "bear_grips": 3
@@ -6305,7 +6199,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 36.6,
-      "tops": 31.9,
+      "tops": 32,
       "outerwear": 9.9,
       "dresses": 0.1,
       "sports_bras": 8.3,
@@ -6433,7 +6327,7 @@
     },
     {
       "brand": "Gymshark",
-      "black": 23.6,
+      "black": 23.7,
       "white": 7.6,
       "gray": 12.3,
       "navy": 0.8,
@@ -6699,7 +6593,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 2776 products"
+        "comparison": "Competitors have 2777 products"
       },
       {
         "metric": "Medium Support",
@@ -6823,5 +6717,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-03T13:15:12.582Z"
+  "generated_at": "2026-07-04T13:15:16.458Z"
 }
