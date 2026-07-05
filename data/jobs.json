@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 699,
-      "change_from_last": 3,
+      "total_jobs": 701,
+      "change_from_last": 2,
       "departments": {
         "engineering": 18,
         "design": 97,
-        "operations": 182,
+        "operations": 183,
         "other": 136,
-        "retail": 230,
+        "retail": 231,
         "marketing": 11,
         "finance": 6,
         "executive": 11,
@@ -19,34 +19,34 @@
       },
       "seniority": {
         "mid": 20,
-        "junior": 311,
-        "manager": 180,
+        "junior": 312,
+        "manager": 181,
         "c-suite": 28,
         "intern": 4,
         "lead": 141,
         "senior": 15
       },
       "locations": [
-        "Cologne, North Rhine-Westphalia, Germany",
-        "San Ramon Office, San Ramon, CA (LO-SF)",
-        "Durham, North Carolina, United States",
-        "Walnut Creek, California, United States",
-        "Santa Clara, California, United States",
-        "Cherry Hill, New Jersey, United States",
         "Metairie, Louisiana",
-        "Kings Road, London (50013)",
-        "Fashion Show, Las Vegas, NV (10180)",
-        "Bloor Street, Toronto, ON (10026)",
-        "Shops at La Cantera, San Antonio, TX (10054)",
-        "East Rutherford, New Jersey, United States",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Mall at Green Hills, Nashville, TN (10079)",
-        "Beverly Hills, California, United States; San Ramon, California, United States",
-        "Santa Barbara, California, United States",
-        "Garden City, New York, United States",
-        "Miami Beach, Florida, United States",
-        "Charleston, South Carolina, United States",
-        "Lexington, Kentucky, United States"
+        "Los Angeles, California, United States",
+        "Richmond, Virginia, United States",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "Memphis, Tennessee, United States",
+        "Corte Madera, California, United States",
+        "Beverly Hills, California, United States",
+        "Warehouse 2, Commerce, CA (WH2)",
+        "Milano, Milan, Italy",
+        "Texas Distribution Center, Fort Worth, TX (WH-TX)",
+        "City Creek Centre, Salt Lake City, UT (10064)",
+        "The Domain, Austin, TX (10038)",
+        "Australia",
+        "Laval, Quebec, Canada",
+        "Chestnut Hill, Massachusetts, United States",
+        "Phoenix, Arizona, United States",
+        "Miami, Miami, FL (10013)",
+        "Southlake, Texas, United States",
+        "Dumbo, Brooklyn, NY (10139)",
+        "Tucson, Arizona, United States"
       ],
       "jobs": [
         {
@@ -146,6 +146,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6023564004?gh_jid=6023564004",
           "posted_at": "2026-06-29T12:35:00-04:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
+          "id": "6109177004",
+          "title": "Assistant Manager of People Operations - K11 Musea",
+          "location": "Hong Kong",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6109177004?gh_jid=6109177004",
+          "posted_at": "2026-07-04T23:14:07-04:00",
           "category": "retail",
           "seniority": "manager"
         },
@@ -538,25 +548,15 @@
           "posted_at": "2026-06-29T12:35:00-04:00",
           "category": "finance",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5589948004",
-          "title": "Director of Corporate Systems, ERP",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5589948004?gh_jid=5589948004",
-          "posted_at": "2026-06-29T12:35:00-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-04T05:30:08.436447"
+      "checked_at": "2026-07-05T05:30:08.054374"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 11,
-      "change_from_last": 1,
+      "change_from_last": 0,
       "departments": {
         "design": 3,
         "engineering": 2,
@@ -571,11 +571,11 @@
         "senior": 1
       },
       "locations": [
-        "Solihull, England, United Kingdom",
-        "Manchester, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands",
         "New York; New York, New York, United States; New York, New York, United States",
-        "New York, New York, United States"
+        "New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Manchester, England, United Kingdom",
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -689,7 +689,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-07-04T05:30:10.581380"
+      "checked_at": "2026-07-05T05:30:10.218258"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -747,10 +747,10 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 312,
-      "change_from_last": -3,
+      "total_jobs": 313,
+      "change_from_last": 1,
       "departments": {
-        "other": 62,
+        "other": 63,
         "retail": 135,
         "marketing": 21,
         "engineering": 44,
@@ -761,7 +761,7 @@
         "finance": 5
       },
       "seniority": {
-        "lead": 163,
+        "lead": 164,
         "c-suite": 18,
         "mid": 85,
         "manager": 2,
@@ -770,25 +770,25 @@
       },
       "locations": [
         "Tokyo",
-        "Seoul",
-        "Beijing",
-        "Brooklyn",
+        "Hanoi; Ho Chi Minh City",
         "Corte Madera",
-        "S\u00e3o Paulo",
-        "Palo Alto",
-        "Guangzhou",
+        "Tianjin",
+        "Chengdu",
+        "Paris",
+        "Cirebon",
+        "San Diego",
         "Berlin; Zurich",
-        "Auckland",
-        "Melbourne",
-        "Miami",
-        "Vancouver",
-        "Wuhan",
-        "Amsterdam",
-        "Shanghai",
-        "Portland",
+        "New York City",
+        "Newport Beach",
         "Sydney",
-        "Hong Kong",
-        "Las Vegas"
+        "Austin",
+        "Nanjing",
+        "Portland",
+        "Stockholm",
+        "Brooklyn",
+        "Bicester",
+        "London; Zurich",
+        "Melbourne"
       ],
       "jobs": [
         {
@@ -1212,21 +1212,21 @@
           "seniority": "lead"
         },
         {
-          "id": "7869093",
-          "title": "Head of Financial Planning & Analysis",
-          "location": "Portland",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7869093?gh_jid=7869093",
-          "posted_at": "2026-06-23T11:37:16-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "8011351",
           "title": "Head of Financial Planning & Analysis",
           "location": "New York City",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8011351?gh_jid=8011351",
+          "posted_at": "2026-06-23T11:37:16-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7869093",
+          "title": "Head of Financial Planning & Analysis",
+          "location": "Portland",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7869093?gh_jid=7869093",
           "posted_at": "2026-06-23T11:37:16-04:00",
           "category": "executive",
           "seniority": "lead"
@@ -1292,8 +1292,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-07-04T05:30:20.116201"
+      "checked_at": "2026-07-05T05:30:19.415569"
     }
   },
-  "generated_at": "2026-07-04T05:30:22.116375"
+  "generated_at": "2026-07-05T05:30:21.415725"
 }
