@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 701,
-      "change_from_last": 0,
+      "total_jobs": 710,
+      "change_from_last": 9,
       "departments": {
         "engineering": 18,
-        "design": 96,
-        "operations": 183,
-        "other": 136,
-        "retail": 232,
-        "marketing": 11,
+        "design": 97,
+        "operations": 186,
+        "other": 140,
+        "retail": 233,
+        "marketing": 12,
         "finance": 6,
         "executive": 11,
-        "product": 4,
+        "product": 3,
         "hr": 4
       },
       "seniority": {
-        "mid": 20,
-        "junior": 312,
-        "manager": 182,
+        "mid": 21,
+        "junior": 318,
+        "manager": 181,
         "c-suite": 27,
         "intern": 4,
-        "lead": 141,
-        "senior": 15
+        "lead": 146,
+        "senior": 13
       },
       "locations": [
-        "Georgetown, Washington, DC (10029)",
-        "Roseville, California, United States",
-        "Corte Madera, California, United States",
-        "Boulder, Colorado, United States",
-        "Oklahoma City, Oklahoma, United States",
-        "West Palm Beach, Florida, United States",
-        "North Park Center, Dallas, TX (10019)",
-        "Tulsa, Oklahoma, United States",
-        "Park City, Utah, United States",
-        "Somerset Collection, Troy, MI (10072)",
-        "Berlin, Berlin, Germany",
+        "Warehouse 2, Commerce, CA (WH2)",
+        "Vancouver, British Columbia, Canada",
+        "Tucson, Arizona, United States",
+        "Birmingham, Alabama, United States",
+        "Walnut Creek, California, United States",
+        "Austin House at Music, Austin, TX (10010)",
+        "Bloomington, Minnesota, United States",
+        "Durham, North Carolina, United States",
         "Ardmore, Pennsylvania, United States",
-        "Santa Clara, California, United States",
-        "Macau",
-        "Bellevue, Washington, United States",
-        "Vail Village, Vail, CO (10167)",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Atlanta, Georgia, United States",
-        "Westfarms Mall, West Hartford, CT (10062)",
-        "Milano, Milan, Italy"
+        "Metairie, Louisiana",
+        "Wayne, New Jersey, United States",
+        "San Ramon, California, United States",
+        "Lynnfield, Massachusetts, United States",
+        "Park Meadows Mall, Lone Tree, CO (10031)",
+        "Torrance, California, United States",
+        "Fashion Show, Las Vegas, NV (10180)",
+        "Westport, Connecticut, United States",
+        "Shop at Crystals, Las Vegas, NV (10095)",
+        "San Ramon Office, San Ramon, CA (LO-SF)",
+        "Century City, Los Angeles, CA (10101)"
       ],
       "jobs": [
         {
@@ -65,7 +65,7 @@
           "location": "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5789952004?gh_jid=5789952004",
-          "posted_at": "2026-06-29T12:35:00-04:00",
+          "posted_at": "2026-07-06T19:25:54-04:00",
           "category": "design",
           "seniority": "junior"
         },
@@ -550,7 +550,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-06T05:30:08.124111"
+      "checked_at": "2026-07-07T05:30:09.241026"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -571,10 +571,10 @@
         "senior": 1
       },
       "locations": [
+        "New York; New York, New York, United States; New York, New York, United States",
         "Solihull, England, United Kingdom",
         "New York, New York, United States",
         "Amsterdam, North Holland, Netherlands",
-        "New York; New York, New York, United States; New York, New York, United States",
         "Manchester, England, United Kingdom"
       ],
       "jobs": [
@@ -689,7 +689,7 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-07-06T05:30:10.278765"
+      "checked_at": "2026-07-07T05:30:11.385634"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -747,13 +747,13 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 311,
-      "change_from_last": -2,
+      "total_jobs": 308,
+      "change_from_last": -3,
       "departments": {
-        "other": 61,
-        "retail": 135,
-        "marketing": 20,
-        "engineering": 45,
+        "other": 60,
+        "retail": 136,
+        "marketing": 19,
+        "engineering": 43,
         "operations": 7,
         "executive": 19,
         "product": 4,
@@ -761,56 +761,36 @@
         "finance": 5
       },
       "seniority": {
-        "lead": 165,
+        "lead": 162,
         "c-suite": 18,
-        "mid": 83,
-        "manager": 2,
+        "mid": 84,
         "intern": 4,
+        "manager": 1,
         "senior": 39
       },
       "locations": [
-        "San Francisco",
-        "Cirebon",
-        "Nanjing",
-        "Mexico City",
-        "Melbourne",
-        "Sydney",
-        "Corte Madera",
-        "Miami",
         "Tianjin",
-        "Wuhan",
-        "London; Zurich",
-        "Washington D.C.",
+        "Hanoi; Ho Chi Minh City",
+        "Sydney",
+        "New York City; Portland",
+        "Milan",
+        "Austin",
+        "Busan",
+        "Bicester",
+        "Vancouver",
+        "Vienna",
         "Macao",
-        "Berlin; Zurich",
-        "Madrid",
-        "Berlin",
-        "Las Vegas",
         "Brooklyn",
-        "Auckland",
-        "Newport Beach"
+        "Hanoi",
+        "Zurich",
+        "Beijing",
+        "Miami",
+        "Central Valley",
+        "Dallas",
+        "Boston",
+        "Shanghai"
       ],
       "jobs": [
-        {
-          "id": "8034768",
-          "title": "2347 - Senior Lead - Facility & Maintenance",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8034768?gh_jid=8034768",
-          "posted_at": "2026-06-28T11:02:37-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
-          "id": "7950290",
-          "title": "260163 - Senior Lead- Asset Protection/Loss Prevention",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7950290?gh_jid=7950290",
-          "posted_at": "2026-06-30T12:55:47-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
         {
           "id": "7764845",
           "title": "Area Lead, Oceania",
@@ -1112,16 +1092,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "7765464",
-          "title": "Engineering Manager - Integrated Planning Platform",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7765464?gh_jid=7765464",
-          "posted_at": "2026-06-24T04:17:40-04:00",
-          "category": "engineering",
-          "seniority": "manager"
-        },
-        {
           "id": "8030127",
           "title": "Fit Model (Flexible, Part-Time Opportunity)",
           "location": "Zurich",
@@ -1159,6 +1129,16 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7841951?gh_jid=7841951",
           "posted_at": "2026-06-23T11:37:16-04:00",
           "category": "marketing",
+          "seniority": "lead"
+        },
+        {
+          "id": "8046508",
+          "title": "Head of Business Process Excellence",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8046508?gh_jid=8046508",
+          "posted_at": "2026-07-06T11:58:50-04:00",
+          "category": "executive",
           "seniority": "lead"
         },
         {
@@ -1212,16 +1192,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8010254",
-          "title": "Head of Engineering - Customer Experience",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8010254?gh_jid=8010254",
-          "posted_at": "2026-07-06T04:20:51-04:00",
-          "category": "engineering",
-          "seniority": "lead"
-        },
-        {
           "id": "7869093",
           "title": "Head of Financial Planning & Analysis",
           "location": "Portland",
@@ -1252,26 +1222,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7954022",
-          "title": "Head of Functional Communications",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7954022?gh_jid=7954022",
-          "posted_at": "2026-06-25T04:35:33-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "7954040",
-          "title": "Head of Internal Content & Channels",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7954040?gh_jid=7954040",
-          "posted_at": "2026-06-23T11:37:16-04:00",
-          "category": "marketing",
-          "seniority": "lead"
-        },
-        {
           "id": "8031892",
           "title": " Head of Key Account Services",
           "location": "Portland",
@@ -1290,10 +1240,60 @@
           "posted_at": "2026-07-01T16:40:00-04:00",
           "category": "executive",
           "seniority": "lead"
+        },
+        {
+          "id": "7857798",
+          "title": "Head of Product Development | Accessories",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7857798?gh_jid=7857798",
+          "posted_at": "2026-06-23T11:37:16-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7710508",
+          "title": "Head of Production Planning - Apparel & Accessories",
+          "location": "Hanoi",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7710508?gh_jid=7710508",
+          "posted_at": "2026-06-23T11:37:16-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "7217836",
+          "title": "Head of  Product Management, Product/R&D",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7217836?gh_jid=7217836",
+          "posted_at": "2026-06-30T03:14:05-04:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
+          "id": "7831449",
+          "title": "Head of Product Management Tennis",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7831449?gh_jid=7831449",
+          "posted_at": "2026-06-25T06:45:19-04:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
+          "id": "7840993",
+          "title": "Head of Strategy & Operations, Footwear Product Creation",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7840993?gh_jid=7840993",
+          "posted_at": "2026-06-23T11:37:16-04:00",
+          "category": "operations",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-07-06T05:30:19.559166"
+      "checked_at": "2026-07-07T05:30:20.661971"
     }
   },
-  "generated_at": "2026-07-06T05:30:21.559309"
+  "generated_at": "2026-07-07T05:30:22.662132"
 }
