@@ -1,14 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "outdoor_voices:w-relay-3in-short-ov-blue",
-      "title": "Relay 3\" Short",
-      "product_type": "Shorts",
-      "detected_at": "2026-04-09T22:34:47.863838",
-      "days_since_launch": 388,
-      "is_fast_sellout": false
-    },
-    {
       "product_id": "outdoor_voices:w-techsweat-move-free-tank-sky-blue-yonder",
       "title": "TechSweat Move Free Tank",
       "product_type": "Tanks",
@@ -1181,6 +1173,15 @@
       "detected_at": "2026-07-07T21:33:12.746374",
       "days_since_launch": 477,
       "is_fast_sellout": false
+    },
+    {
+      "product_id": "outdoor_voices:m-thinkfast-vent-tank-white",
+      "title": "ThinkFast Vent Tank",
+      "product_type": "Tanks",
+      "detected_at": "2026-07-09T07:49:18.916130",
+      "partial": true,
+      "old_pct": 50,
+      "new_pct": 17
     }
   ],
   "restocks": [
@@ -1849,6 +1850,12 @@
       "title": "TechSweat 3\" Short",
       "product_type": "",
       "detected_at": "2026-07-07T16:38:10.967711"
+    },
+    {
+      "product_id": "outdoor_voices:w-rectrek-cargo-pant-balsam",
+      "title": "RecTrek Cargo Pant",
+      "product_type": "Pants",
+      "detected_at": "2026-07-08T17:02:48.283368"
     }
   ],
   "hot_products": []
