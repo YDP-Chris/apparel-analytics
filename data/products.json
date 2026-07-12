@@ -3,9 +3,9 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4172,
+      "total": 4175,
       "categories": {
-        "bottoms": 1983,
+        "bottoms": 1986,
         "tops": 649,
         "outerwear": 543,
         "other": 589,
@@ -16,7 +16,7 @@
       },
       "subcategories": {
         "joggers": 161,
-        "shorts": 740,
+        "shorts": 743,
         "tanks": 207,
         "tees": 224,
         "leggings": 183,
@@ -44,7 +44,7 @@
       },
       "genders": {
         "mens": 1560,
-        "womens": 1893,
+        "womens": 1896,
         "unisex": 719
       },
       "colors": {
@@ -54,10 +54,10 @@
         "khaki": 208,
         "red": 51,
         "white": 393,
-        "blue": 549,
+        "blue": 551,
         "green": 213,
         "brown": 187,
-        "print": 36,
+        "print": 37,
         "heather": 233,
         "purple": 103,
         "orange": 23,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 85.5,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2377
+      "uniqueStyles": 2380
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -648,12 +648,38 @@
     }
   },
   "totals": {
-    "products": 37712,
+    "products": 37715,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-12",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 3,
+      "products": [
+        {
+          "name": "clementine 2 0 short 2 5 oasis",
+          "url": "https://vuoriclothing.com/products/womens-clementine-2-0-short-2-5-oasis-blue",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "clementine 2 0 short 4 ink bayside",
+          "url": "https://vuoriclothing.com/products/womens-clementine-2-0-short-4-ink-bayside-stripe",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "clementine 2 0 short 4 oasis",
+          "url": "https://vuoriclothing.com/products/womens-clementine-2-0-short-4-oasis-blue",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "brand": "Vuori",
@@ -5427,26 +5453,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-06-28",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 2,
-      "products": [
-        {
-          "name": "gymshark sports tech boxer 3pk underwear",
-          "url": "https://www.gymshark.com/products/gymshark-sports-tech-boxer-3pk-underwear-grey-ss26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark sports tech boxer 3pk underwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-sports-tech-boxer-3pk-underwear-grey-ss26",
-          "category": "other",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5527,7 +5533,8 @@
       "2026-07-08": 9,
       "2026-07-09": 2,
       "2026-07-10": 34,
-      "2026-07-11": 11
+      "2026-07-11": 11,
+      "2026-07-12": 3
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -5882,7 +5889,7 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 1983,
+      "vuori": 1986,
       "outdoor_voices": 242,
       "tenthousand": 69,
       "lululemon": 1732,
@@ -5988,7 +5995,7 @@
       "bear_grips": 30
     },
     "shorts": {
-      "vuori": 740,
+      "vuori": 743,
       "outdoor_voices": 77,
       "tenthousand": 41,
       "lululemon": 528,
@@ -6321,7 +6328,7 @@
       "bear_grips": 2
     },
     "blue": {
-      "vuori": 549,
+      "vuori": 551,
       "outdoor_voices": 30,
       "lululemon": 8,
       "alo": 250,
@@ -6352,7 +6359,7 @@
       "bear_grips": 3
     },
     "print": {
-      "vuori": 36,
+      "vuori": 37,
       "outdoor_voices": 18,
       "lululemon": 123,
       "gymshark": 18,
@@ -6467,8 +6474,8 @@
     },
     {
       "brand": "Vuori",
-      "bottoms": 47.5,
-      "tops": 15.6,
+      "bottoms": 47.6,
+      "tops": 15.5,
       "outerwear": 13,
       "dresses": 1,
       "sports_bras": 3.2,
@@ -6630,7 +6637,7 @@
       "orange": 0.6,
       "red": 1.2,
       "yellow": 0.3,
-      "other": 6.8
+      "other": 6.9
     },
     {
       "brand": "bear_grips",
@@ -6796,8 +6803,8 @@
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
-      "value": 740,
-      "text": "Vuori ranks #2 in shorts with 740 products. Behind Gymshark (1356)."
+      "value": 743,
+      "text": "Vuori ranks #2 in shorts with 743 products. Behind Gymshark (1356)."
     },
     {
       "type": "comparison",
@@ -6870,7 +6877,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 740,
+        "vuori": 743,
         "competitor": 528,
         "winner": "vuori"
       },
@@ -6900,7 +6907,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1893,
+        "vuori": 1896,
         "competitor": 1597,
         "winner": "vuori"
       }
@@ -6920,7 +6927,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 740,
+        "vuori": 743,
         "competitor": 423,
         "winner": "vuori"
       },
@@ -6950,11 +6957,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1893,
+        "vuori": 1896,
         "competitor": 1508,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-07-11T13:15:11.167Z"
+  "generated_at": "2026-07-12T13:15:11.435Z"
 }
