@@ -74,10 +74,10 @@
     "outdoor_voices": {
       "name": "Outdoor Voices",
       "slug": "outdoor_voices",
-      "total": 517,
+      "total": 518,
       "categories": {
         "other": 53,
-        "bottoms": 242,
+        "bottoms": 243,
         "dresses": 43,
         "accessories": 41,
         "tops": 60,
@@ -97,7 +97,7 @@
         "skirts": 25,
         "casual_dress": 28,
         "hats": 12,
-        "pants": 49,
+        "pants": 50,
         "hoodies": 9,
         "leggings": 16,
         "crop_tops": 10,
@@ -109,12 +109,12 @@
       },
       "genders": {
         "unisex": 98,
-        "womens": 327,
+        "womens": 328,
         "mens": 92
       },
       "colors": {
         "black": 77,
-        "white": 22,
+        "white": 23,
         "navy": 39,
         "gray": 27,
         "pink": 9,
@@ -129,7 +129,7 @@
         "khaki": 8,
         "red": 1
       },
-      "colorCoverage": 58,
+      "colorCoverage": 58.1,
       "avgColorsPerStyle": 1.4,
       "uniqueStyles": 210
     },
@@ -306,24 +306,24 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 9057,
+      "total": 9079,
       "categories": {
         "bottoms": 3305,
-        "tops": 2890,
+        "tops": 2906,
         "other": 667,
-        "accessories": 532,
-        "outerwear": 895,
-        "sports_bras": 762,
+        "accessories": 534,
+        "outerwear": 897,
+        "sports_bras": 764,
         "dresses": 6
       },
       "subcategories": {
         "shorts": 1356,
         "leggings": 783,
-        "crop_tops": 170,
-        "other": 3012,
-        "long_sleeve": 482,
+        "crop_tops": 172,
+        "other": 3016,
+        "long_sleeve": 486,
         "socks": 218,
-        "tanks": 804,
+        "tanks": 810,
         "joggers": 555,
         "hoodies": 521,
         "jackets": 196,
@@ -332,10 +332,10 @@
         "high_support": 28,
         "bags": 78,
         "bralette": 70,
-        "tees": 70,
+        "tees": 74,
         "headwear": 36,
         "polos": 28,
-        "hats": 88,
+        "hats": 90,
         "low_support": 62,
         "fleece": 2,
         "casual_dress": 6,
@@ -344,20 +344,20 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4149,
-        "womens": 3053,
-        "mens": 1855
+        "unisex": 4153,
+        "womens": 3059,
+        "mens": 1867
       },
       "colors": {
         "green": 461,
-        "pink": 689,
-        "black": 2148,
+        "pink": 691,
+        "black": 2160,
         "white": 702,
         "navy": 70,
         "gray": 1107,
         "brown": 640,
-        "blue": 1448,
-        "red": 319,
+        "blue": 1454,
+        "red": 321,
         "purple": 487,
         "yellow": 62,
         "orange": 40,
@@ -366,7 +366,7 @@
       },
       "colorCoverage": 90.5,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2397
+      "uniqueStyles": 2406
     },
     "on_running": {
       "name": "On Running",
@@ -539,25 +539,25 @@
     "harbinger": {
       "name": "harbinger",
       "slug": "harbinger",
-      "total": 46,
+      "total": 47,
       "categories": {
         "accessories": 24,
-        "other": 22
+        "other": 23
       },
       "subcategories": {
-        "other": 46
+        "other": 47
       },
       "genders": {
         "mens": 7,
         "womens": 5,
-        "unisex": 34
+        "unisex": 35
       },
       "colors": {
         "red": 2,
         "white": 1,
         "multi": 2
       },
-      "colorCoverage": 10.9,
+      "colorCoverage": 10.6,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 5
     },
@@ -648,12 +648,180 @@
     }
   },
   "totals": {
-    "products": 37715,
+    "products": 37739,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-13",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 22,
+      "products": [
+        {
+          "name": "gymshark vital 1 4 zip thunder iceberg",
+          "url": "https://www.gymshark.com/products/gymshark-vital-1-4-zip-thunder-blue-iceberg-blue-ss23",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark minimal sports bra sports bras ss25",
+          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-sports-bras-red-ss25-1",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark forged by iron tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-forged-by-iron-tank-sleeveless-tops-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark mesh graphic crop top crop tops",
+          "url": "https://www.gymshark.com/products/gymshark-mesh-graphic-crop-top-crop-tops-pink-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark onyx baby tee ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-onyx-baby-tee-ss-tops-black-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx tank sleeveless tops ss26 b6b9l bdq1",
+          "url": "https://www.gymshark.com/products/gymshark-onyx-tank-sleeveless-tops-black-ss26-b6b9l-bdq1",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx baby tee ss tops ss26 b6b9k bdqz",
+          "url": "https://www.gymshark.com/products/gymshark-onyx-baby-tee-ss-tops-black-ss26-b6b9k-bdqz",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-onyx-long-sleeve-top-ls-tops-black-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx long sleeve top ls tops ss26 b6b9j bdq1",
+          "url": "https://www.gymshark.com/products/gymshark-onyx-long-sleeve-top-ls-tops-black-ss26-b6b9j-bdq1",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx tank sleeveless tops ss26 b6b9l bdqz",
+          "url": "https://www.gymshark.com/products/gymshark-onyx-tank-sleeveless-tops-black-ss26-b6b9l-bdqz",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vital 1 4 zip thunder iceberg",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-1-4-zip-thunder-blue-iceberg-blue-ss23",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark minimal sports bra sports bras ss25",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-sports-bras-red-ss25-1",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark forged by iron tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-forged-by-iron-tank-sleeveless-tops-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark mesh graphic crop top crop tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-mesh-graphic-crop-top-crop-tops-pink-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark onyx baby tee ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-baby-tee-ss-tops-black-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx tank sleeveless tops ss26 b6b9l bdq1",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-tank-sleeveless-tops-black-ss26-b6b9l-bdq1",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx baby tee ss tops ss26 b6b9k bdqz",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-baby-tee-ss-tops-black-ss26-b6b9k-bdqz",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx long sleeve top ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-long-sleeve-top-ls-tops-black-ss26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx long sleeve top ls tops ss26 b6b9j bdq1",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-long-sleeve-top-ls-tops-black-ss26-b6b9j-bdq1",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark onyx tank sleeveless tops ss26 b6b9l bdqz",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-tank-sleeveless-tops-black-ss26-b6b9l-bdqz",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sharkhead cap headwear",
+          "url": "https://www.gymshark.com/products/gymshark-sharkhead-cap-headwear-blue-aw25",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark sharkhead cap headwear",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sharkhead-cap-headwear-blue-aw25",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "brand": "Outdoor Voices",
+      "brandSlug": "outdoor_voices",
+      "count": 1,
+      "products": [
+        {
+          "name": "w rectrek cropped wide leg pant",
+          "url": "https://www.outdoorvoices.com/products/w-rectrek-cropped-wide-leg-pant-bone",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "brand": "harbinger",
+      "brandSlug": "harbinger",
+      "count": 1,
+      "products": [
+        {
+          "name": "ab carver sport",
+          "url": "https://harbingerfitness.com/products/ab-carver-sport",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-07-12",
       "brand": "Vuori",
@@ -5409,50 +5577,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-06-29",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 6,
-      "products": [
-        {
-          "name": "gymshark everywear cropped zip hoodie",
-          "url": "https://www.gymshark.com/products/gymshark-everywear-cropped-zip-hoodie-black-aw24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everywear cropped zip hoodie",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everywear-cropped-zip-hoodie-black-aw24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark wordmark graphic tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-wordmark-graphic-tank-sleeveless-tops-white-aw25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark wordmark graphic tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-wordmark-graphic-tank-sleeveless-tops-white-aw25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cross over sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-cross-over-sports-bra-sports-bras-red-aw25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cross over sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cross-over-sports-bra-sports-bras-red-aw25",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5554,7 +5678,8 @@
       "2026-05-21": 51,
       "2026-06-10": 33,
       "2026-06-25": 38,
-      "2026-07-07": 2
+      "2026-07-07": 2,
+      "2026-07-13": 1
     },
     "tenthousand": {
       "2026-02-03": 88,
@@ -5835,7 +5960,8 @@
       "2026-07-07": 19,
       "2026-07-08": 12,
       "2026-07-09": 42,
-      "2026-07-10": 16
+      "2026-07-10": 16,
+      "2026-07-13": 22
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5875,7 +6001,8 @@
       "2026-05-28": 20
     },
     "harbinger": {
-      "2026-04-07": 46
+      "2026-04-07": 46,
+      "2026-07-13": 1
     },
     "schiek": {
       "2026-04-07": 112,
@@ -5890,7 +6017,7 @@
   "byCategory": {
     "bottoms": {
       "vuori": 1986,
-      "outdoor_voices": 242,
+      "outdoor_voices": 243,
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1804,
@@ -5907,7 +6034,7 @@
       "tenthousand": 39,
       "lululemon": 835,
       "alo": 573,
-      "gymshark": 2890,
+      "gymshark": 2906,
       "on_running": 650,
       "gymreapers": 230,
       "sbd": 67,
@@ -5920,7 +6047,7 @@
       "tenthousand": 18,
       "lululemon": 680,
       "alo": 686,
-      "gymshark": 895,
+      "gymshark": 897,
       "on_running": 897,
       "gymreapers": 58,
       "sbd": 6,
@@ -5937,7 +6064,7 @@
       "on_running": 2899,
       "gymreapers": 315,
       "sbd": 78,
-      "harbinger": 22,
+      "harbinger": 23,
       "schiek": 57,
       "bear_grips": 254
     },
@@ -5946,7 +6073,7 @@
       "outdoor_voices": 38,
       "lululemon": 186,
       "alo": 339,
-      "gymshark": 762,
+      "gymshark": 764,
       "on_running": 188,
       "gymreapers": 65,
       "bear_grips": 9
@@ -5965,7 +6092,7 @@
       "tenthousand": 3,
       "lululemon": 627,
       "alo": 429,
-      "gymshark": 532,
+      "gymshark": 534,
       "on_running": 717,
       "gymreapers": 189,
       "sbd": 54,
@@ -6012,7 +6139,7 @@
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 266,
-      "gymshark": 804,
+      "gymshark": 810,
       "on_running": 303,
       "gymreapers": 33,
       "sbd": 8,
@@ -6024,7 +6151,7 @@
       "tenthousand": 10,
       "lululemon": 22,
       "alo": 55,
-      "gymshark": 70,
+      "gymshark": 74,
       "gymreapers": 116,
       "bear_grips": 567
     },
@@ -6045,17 +6172,17 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1691,
-      "gymshark": 3012,
+      "gymshark": 3016,
       "on_running": 3273,
       "gymreapers": 530,
       "sbd": 137,
-      "harbinger": 46,
+      "harbinger": 47,
       "schiek": 106,
       "bear_grips": 471
     },
     "pants": {
       "vuori": 403,
-      "outdoor_voices": 49,
+      "outdoor_voices": 50,
       "tenthousand": 16,
       "lululemon": 448,
       "alo": 251,
@@ -6100,7 +6227,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 482,
+      "gymshark": 486,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -6125,7 +6252,7 @@
       "outdoor_voices": 12,
       "lululemon": 139,
       "alo": 150,
-      "gymshark": 88,
+      "gymshark": 90,
       "on_running": 237,
       "gymreapers": 77,
       "sbd": 7,
@@ -6156,7 +6283,7 @@
       "outdoor_voices": 10,
       "lululemon": 96,
       "alo": 186,
-      "gymshark": 170,
+      "gymshark": 172,
       "on_running": 201,
       "gymreapers": 16,
       "sbd": 7,
@@ -6288,7 +6415,7 @@
       "vuori": 792,
       "outdoor_voices": 77,
       "alo": 1044,
-      "gymshark": 2148,
+      "gymshark": 2160,
       "on_running": 1554,
       "gymreapers": 124,
       "sbd": 2,
@@ -6309,7 +6436,7 @@
       "outdoor_voices": 1,
       "lululemon": 12,
       "alo": 224,
-      "gymshark": 319,
+      "gymshark": 321,
       "on_running": 231,
       "gymreapers": 60,
       "sbd": 1,
@@ -6317,7 +6444,7 @@
     },
     "white": {
       "vuori": 393,
-      "outdoor_voices": 22,
+      "outdoor_voices": 23,
       "lululemon": 17,
       "alo": 930,
       "gymshark": 702,
@@ -6332,7 +6459,7 @@
       "outdoor_voices": 30,
       "lululemon": 8,
       "alo": 250,
-      "gymshark": 1448,
+      "gymshark": 1454,
       "on_running": 813,
       "gymreapers": 32,
       "sbd": 6,
@@ -6404,7 +6531,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 242,
-      "gymshark": 689,
+      "gymshark": 691,
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
@@ -6444,13 +6571,13 @@
     },
     {
       "brand": "Gymshark",
-      "bottoms": 36.5,
-      "tops": 31.9,
+      "bottoms": 36.4,
+      "tops": 32,
       "outerwear": 9.9,
       "dresses": 0.1,
       "sports_bras": 8.4,
       "accessories": 5.9,
-      "other": 7.4
+      "other": 7.3
     },
     {
       "brand": "Lululemon",
@@ -6504,13 +6631,13 @@
     },
     {
       "brand": "Outdoor Voices",
-      "bottoms": 46.8,
+      "bottoms": 46.9,
       "tops": 11.6,
       "outerwear": 7.5,
       "dresses": 8.3,
-      "sports_bras": 7.4,
+      "sports_bras": 7.3,
       "accessories": 7.9,
-      "other": 10.3
+      "other": 10.2
     },
     {
       "brand": "sbd",
@@ -6549,8 +6676,8 @@
       "outerwear": 0,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 52.2,
-      "other": 47.8
+      "accessories": 51.1,
+      "other": 48.9
     }
   ],
   "colorMix": [
@@ -6573,14 +6700,14 @@
     },
     {
       "brand": "Gymshark",
-      "black": 23.7,
-      "white": 7.8,
+      "black": 23.8,
+      "white": 7.7,
       "gray": 12.2,
       "navy": 0.8,
       "blue": 16,
       "green": 5.1,
       "khaki": 0,
-      "brown": 7.1,
+      "brown": 7,
       "purple": 5.4,
       "pink": 7.6,
       "orange": 0.4,
@@ -6676,7 +6803,7 @@
     {
       "brand": "Outdoor Voices",
       "black": 14.9,
-      "white": 4.3,
+      "white": 4.4,
       "gray": 5.2,
       "navy": 7.5,
       "blue": 5.8,
@@ -6744,7 +6871,7 @@
     {
       "brand": "harbinger",
       "black": 0,
-      "white": 2.2,
+      "white": 2.1,
       "gray": 0,
       "navy": 0,
       "blue": 0,
@@ -6764,7 +6891,7 @@
       "type": "leader",
       "metric": "gender_balance",
       "brand": "Vuori",
-      "text": "Vuori is uniquely balanced: 45% women's / 37% men's. Alo skews 31% women's, Gymshark 20% men's."
+      "text": "Vuori is uniquely balanced: 45% women's / 37% men's. Alo skews 31% women's, Gymshark 21% men's."
     },
     {
       "type": "trend",
@@ -6963,5 +7090,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-13T13:15:09.902Z"
+  "generated_at": "2026-07-14T13:15:12.039Z"
 }
