@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4175,
+      "total": 4183,
       "categories": {
-        "bottoms": 1986,
-        "tops": 649,
+        "bottoms": 1991,
+        "tops": 652,
         "outerwear": 543,
         "other": 589,
         "sports_bras": 133,
@@ -16,12 +16,12 @@
       },
       "subcategories": {
         "joggers": 161,
-        "shorts": 743,
-        "tanks": 207,
+        "shorts": 745,
+        "tanks": 210,
         "tees": 224,
         "leggings": 183,
         "other": 1243,
-        "pants": 403,
+        "pants": 406,
         "pullovers": 6,
         "polos": 55,
         "training": 18,
@@ -44,19 +44,19 @@
       },
       "genders": {
         "mens": 1560,
-        "womens": 1896,
+        "womens": 1904,
         "unisex": 719
       },
       "colors": {
-        "gray": 568,
+        "gray": 569,
         "navy": 106,
-        "black": 792,
+        "black": 794,
         "khaki": 208,
         "red": 51,
         "white": 393,
-        "blue": 551,
+        "blue": 553,
         "green": 213,
-        "brown": 187,
+        "brown": 189,
         "print": 37,
         "heather": 233,
         "purple": 103,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 85.5,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2380
+      "uniqueStyles": 2386
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -306,24 +306,24 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 9117,
+      "total": 9205,
       "categories": {
-        "bottoms": 3319,
-        "tops": 2920,
+        "bottoms": 3359,
+        "tops": 2938,
         "other": 667,
         "accessories": 534,
         "outerwear": 907,
-        "sports_bras": 764,
+        "sports_bras": 794,
         "dresses": 6
       },
       "subcategories": {
-        "shorts": 1358,
-        "leggings": 787,
+        "shorts": 1374,
+        "leggings": 801,
         "crop_tops": 172,
-        "other": 3034,
-        "long_sleeve": 486,
+        "other": 3076,
+        "long_sleeve": 488,
         "socks": 218,
-        "tanks": 812,
+        "tanks": 826,
         "joggers": 557,
         "hoodies": 529,
         "jackets": 196,
@@ -344,41 +344,41 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4171,
-        "womens": 3063,
+        "unisex": 4173,
+        "womens": 3149,
         "mens": 1883
       },
       "colors": {
-        "green": 463,
-        "pink": 693,
-        "black": 2174,
+        "green": 465,
+        "pink": 715,
+        "black": 2180,
         "white": 706,
         "navy": 70,
-        "gray": 1117,
+        "gray": 1119,
         "brown": 640,
-        "blue": 1458,
+        "blue": 1470,
         "red": 321,
-        "purple": 489,
-        "yellow": 62,
-        "orange": 40,
+        "purple": 513,
+        "yellow": 70,
+        "orange": 52,
         "khaki": 2,
         "print": 18
       },
-      "colorCoverage": 90.5,
+      "colorCoverage": 90.6,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2420
+      "uniqueStyles": 2438
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 9984,
+      "total": 9999,
       "categories": {
         "bottoms": 1647,
         "tops": 650,
         "accessories": 717,
         "sports_bras": 188,
         "other": 2899,
-        "footwear": 2961,
+        "footwear": 2976,
         "outerwear": 897,
         "dresses": 25
       },
@@ -389,7 +389,7 @@
         "hats": 237,
         "crop_tops": 201,
         "pants": 399,
-        "running": 2739,
+        "running": 2754,
         "tanks": 303,
         "jackets": 431,
         "joggers": 27,
@@ -409,20 +409,20 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4726,
-        "mens": 4159,
+        "womens": 4734,
+        "mens": 4166,
         "unisex": 1099
       },
       "colors": {
-        "blue": 813,
+        "blue": 815,
         "red": 231,
-        "black": 1554,
+        "black": 1558,
         "purple": 187,
         "navy": 304,
         "khaki": 211,
         "gray": 331,
         "yellow": 84,
-        "white": 1580,
+        "white": 1589,
         "pink": 185,
         "green": 285,
         "orange": 79,
@@ -433,7 +433,7 @@
       },
       "colorCoverage": 60.2,
       "avgColorsPerStyle": 2.6,
-      "uniqueStyles": 1402
+      "uniqueStyles": 1408
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -648,12 +648,702 @@
     }
   },
   "totals": {
-    "products": 37777,
+    "products": 37888,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-16",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 15,
+      "products": [
+        {
+          "name": "cloud x tempo m",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/black-eclipse-shoes-3MG30110106",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud x tempo m",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/ivory-ice-shoes-3MG30110969",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud x tempo m",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/ivory-isle-shoes-3MG30116013",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud x tempo m",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/ivory-verdite-shoes-3MG30115078",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud x tempo w",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/black-eclipse-shoes-3WG30090106",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud x tempo w",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/ivory-camellia-shoes-3WG30095084",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud x tempo w",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/ivory-ice-shoes-3WG30090969",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud x tempo w",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/ivory-storm-shoes-3WG30090980",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "x tempo m 3mg3011",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "x tempo w 3wg3009",
+          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud x 5 m",
+          "url": "https://www.on.com/en-us/products/cloud-x-5-m-3mg3008/mens/black-black-shoes-3MG30081043",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud x 5 m",
+          "url": "https://www.on.com/en-us/products/cloud-x-5-m-3mg3008/mens/white-black-shoes-3MG30080462",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloud x w",
+          "url": "https://www.on.com/en-us/products/cloud-x-w-3wg3006/womens/black-black-shoes-3WG30061043",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud x w",
+          "url": "https://www.on.com/en-us/products/cloud-x-w-3wg3006/womens/ivory-ice-shoes-3WG30060969",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud x w",
+          "url": "https://www.on.com/en-us/products/cloud-x-w-3wg3006/womens/white-black-shoes-3WG30060462",
+          "category": "footwear",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 88,
+      "products": [
+        {
+          "name": "gymshark training long sleeve crop top",
+          "url": "https://www.gymshark.com/products/gymshark-training-long-sleeve-crop-top-light-green",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark heritage washed t shirt stone",
+          "url": "https://www.gymshark.com/products/gymshark-heritage-washed-t-shirt-stone-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-black-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-yellow-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-orange-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops ss26 b6b8q kb7c",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-pink-ss26-b6b8q-kb7c",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-yellow-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops ss26 b6b4q pckz",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-purple-ss26-b6b4q-pckz",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-orange-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras ss26 b5c9a kb7c",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-pink-ss26-b5c9a-kb7c",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops ss26 b6b8q kdfw",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-pink-ss26-b6b8q-kdfw",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras ss26 b5c9a kdfw",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-pink-ss26-b5c9a-kdfw",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-purple-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-purple-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops ss26 b6b8q pck2",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-purple-ss26-b6b8q-pck2",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras ss26 b5c9a pckz",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-sports-bra-sports-bras-purple-ss26-b5c9a-pckz",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-purple-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-orange-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras ss26 b7c2l pck2",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-purple-ss26-b7c2l-pck2",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings ss26 b7b2n pck2",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-purple-ss26-b7b2n-pck2",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-yellow-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings ss26 b7b2n kb7c",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-leggings-leggings-pink-ss26-b7b2n-kb7c",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras ss26 b7c2l kb7c",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-pink-ss26-b7c2l-kb7c",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-yellow-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts ss26 b7b3s kb7c",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-pink-ss26-b7b3s-kb7c",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts ss26 b7b3s pckz",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-purple-ss26-b7b3s-pckz",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lift-seamless-2-0-shorts-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark training long sleeve crop top",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-long-sleeve-crop-top-light-green",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark heritage washed t shirt stone",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-heritage-washed-t-shirt-stone-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-black-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-blue-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-yellow-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-orange-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops ss26 b6b8q kb7c",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-pink-ss26-b6b8q-kb7c",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-yellow-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops ss26 b6b4q pckz",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-purple-ss26-b6b4q-pckz",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-orange-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras ss26 b5c9a kb7c",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-pink-ss26-b5c9a-kb7c",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops ss26 b6b8q kdfw",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-pink-ss26-b6b8q-kdfw",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras ss26 b5c9a kdfw",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-pink-ss26-b5c9a-kdfw",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-purple-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-purple-ss26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless tank with shelf sleeveless tops ss26 b6b8q pck2",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-purple-ss26-b6b8q-pck2",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless sports bra sports bras ss26 b5c9a pckz",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-sports-bra-sports-bras-purple-ss26-b5c9a-pckz",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-short-sleeve-top-ss-tops-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-pink-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-purple-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-orange-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras ss26 b7c2l pck2",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-purple-ss26-b7c2l-pck2",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings ss26 b7b2n pck2",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-purple-ss26-b7b2n-pck2",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-yellow-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 leggings leggings ss26 b7b2n kb7c",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-leggings-leggings-pink-ss26-b7b2n-kb7c",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras ss26 b7c2l kb7c",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-pink-ss26-b7c2l-kb7c",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-sports-bra-sports-bras-blue-ss26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-yellow-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-pink-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts ss26 b7b3s kb7c",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-pink-ss26-b7b3s-kb7c",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-purple-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts ss26 b7b3s pckz",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-purple-ss26-b7b3s-pckz",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-orange-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lift seamless 2 0 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lift-seamless-2-0-shorts-shorts-blue-ss26",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 8,
+      "products": [
+        {
+          "name": "pose plyo tank french roast",
+          "url": "https://vuoriclothing.com/products/womens-pose-plyo-tank-french-roast",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo cross back tank oasis",
+          "url": "https://vuoriclothing.com/products/womens-halo-cross-back-tank-oasis-blue-heather",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo cross back tank",
+          "url": "https://vuoriclothing.com/products/womens-halo-cross-back-tank-pale-grey-heather",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo short",
+          "url": "https://vuoriclothing.com/products/womens-halo-short-java-heather",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "halo short solid",
+          "url": "https://vuoriclothing.com/products/womens-halo-short-solid-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "halo low rise slim flare pant",
+          "url": "https://vuoriclothing.com/products/womens-halo-low-rise-slim-flare-pant-java-heather",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "halo low rise crop pant oasis",
+          "url": "https://vuoriclothing.com/products/womens-halo-low-rise-crop-pant-oasis-blue-heather",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "halo low rise crop pant solid",
+          "url": "https://vuoriclothing.com/products/womens-halo-low-rise-crop-pant-solid-black",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "brand": "Gymshark",
@@ -4415,692 +5105,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-07-02",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 5,
-      "products": [
-        {
-          "name": "clementine 2 0 short 4",
-          "url": "https://vuoriclothing.com/products/womens-clementine-2-0-short-4-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "half crew sock 2 0",
-          "url": "https://vuoriclothing.com/products/half-crew-sock-2-0-salt-heather",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve ponto performance polo",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-polo-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance polo salty air",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-polo-salty-air-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori dad hat",
-          "url": "https://vuoriclothing.com/products/vuori-dad-hat-crimson",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 2,
-      "products": [
-        {
-          "name": "cloudmonster 3 hyper ls u",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-ls-u-3ug1001/unisex/flurry-verdite-shoes-3UG10015162",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudmonster 3 hyper ls u",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-ls-u-3ug1001/unisex/lily-limelight-shoes-3UG10014906",
-          "category": "footwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 390,
-      "products": [
-        {
-          "name": "lightweight cap erewhon u",
-          "url": "https://www.on.com/en-us/products/lightweight-cap-erewhon-u-2ug1055/unisex/cinder-accessories-2UG10551933",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "3 core shorts",
-          "url": "https://www.on.com/en-us/products/3-core-shorts-1wf1015/womens/bubblegum-apparel-1WF10154983",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "3 performance 2 1 shorts",
-          "url": "https://www.on.com/en-us/products/3-performance-2-1-shorts-1wf1012/womens/flurry-aquamarine-apparel-1WF10124958",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "5 court shorts m",
-          "url": "https://www.on.com/en-us/products/5-court-shorts-m-1mg1019/mens/brook-apparel-1MG10194996",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "5 performance 2 1 shorts",
-          "url": "https://www.on.com/en-us/products/5-performance-2-1-shorts-1mf1009/mens/flurry-aquamarine-apparel-1MF10094958",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "5 performance shorts",
-          "url": "https://www.on.com/en-us/products/5-performance-shorts-1mf1075/mens/aquamarine-apparel-1MF10754988",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "5 performance shorts",
-          "url": "https://www.on.com/en-us/products/5-performance-shorts-1wf1013/womens/foxglove-apparel-1WF10134944",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "7 core shorts",
-          "url": "https://www.on.com/en-us/products/7-core-shorts-1mf1074/mens/apollo-apparel-1MF10745005",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "7 core shorts",
-          "url": "https://www.on.com/en-us/products/7-core-shorts-1mf1074/mens/jay-apparel-1MF10744974",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "7 performance shorts",
-          "url": "https://www.on.com/en-us/products/7-performance-shorts-1mf1010/mens/apollo-apparel-1MF10105005",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "7 performance shorts",
-          "url": "https://www.on.com/en-us/products/7-performance-shorts-1mf1010/mens/aquamarine-apparel-1MF10104988",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "all day cap u",
-          "url": "https://www.on.com/en-us/products/all-day-cap-u-2ug1010/unisex/sand-accessories-2UG10100554",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "all day ribbed t shirt w",
-          "url": "https://www.on.com/en-us/products/all-day-ribbed-t-shirt-w-1wg1188/womens/white-apparel-1WG11880069",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "all day ribbed tank w",
-          "url": "https://www.on.com/en-us/products/all-day-ribbed-tank-w-1wg1187/womens/black-apparel-1WG11870553",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "all day ribbed tank w",
-          "url": "https://www.on.com/en-us/products/all-day-ribbed-tank-w-1wg1187/womens/white-apparel-1WG11870069",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "cargo pack 60l",
-          "url": "https://www.on.com/en-us/products/cargo-pack-60l-2uf1030/unisex/biscuit-accessories-2UF10304934",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud 6",
-          "url": "https://www.on.com/en-us/products/cloud-6-3wf1006/womens/ether-tyrian-shoes-3WF10065446",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud 6",
-          "url": "https://www.on.com/en-us/products/cloud-6-3wf1006/womens/oyster-biscuit-shoes-3WF10065444",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud 6 geo wp m",
-          "url": "https://www.on.com/en-us/products/cloud-6-geo-wp-m-3mg1042/mens/black-lima-shoes-3MG10422535",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 m",
-          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/ash-cinder-shoes-3MF10074782",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 m",
-          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/brume-olive-shoes-3MF10075234",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 m",
-          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/maroon-ivory-shoes-3MF10075440",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 m",
-          "url": "https://www.on.com/en-us/products/cloud-6-m-3mf1007/mens/wash-ivory-shoes-3MF10071484",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 versa m",
-          "url": "https://www.on.com/en-us/products/cloud-6-versa-m-3mf1004/mens/frost-midnight-shoes-3MF10045433",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 versa m",
-          "url": "https://www.on.com/en-us/products/cloud-6-versa-m-3mf1004/mens/ivory-neem-shoes-3MF10044948",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 versa w",
-          "url": "https://www.on.com/en-us/products/cloud-6-versa-w-3wf1003/womens/ivory-camellia-shoes-3WF10035084",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud 6 versa w",
-          "url": "https://www.on.com/en-us/products/cloud-6-versa-w-3wf1003/womens/ivory-nocturne-shoes-3WF10035430",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud 6 versa w",
-          "url": "https://www.on.com/en-us/products/cloud-6-versa-w-3wf1003/womens/pearl-larch-shoes-3WF10035429",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud 6 wp",
-          "url": "https://www.on.com/en-us/products/cloud-6-wp-3mf1006/mens/olive-espresso-shoes-3MF10065431",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud 6 wp",
-          "url": "https://www.on.com/en-us/products/cloud-6-wp-3wf1005/womens/navy-midnight-shoes-3WF10050147",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud play 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/black-white-shoes-3KG30010299",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud play 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/mistletoe-sahara-shoes-3KG30016068",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud play 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/myrtle-lima-shoes-3KG30015125",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud play 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/white-white-shoes-3KG30011200",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud play 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/zephyr-camellia-shoes-3KG30016066",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud sky 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/black-white-shoes-3YG30010299",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud sky 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/eclipse-myrtle-shoes-3YG30015126",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud sky 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/mistletoe-sahara-shoes-3YG30016068",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud sky 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/white-white-shoes-3YG30011200",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud sky 2 u",
-          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/zephyr-camellia-shoes-3YG30016066",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudaway 2",
-          "url": "https://www.on.com/en-us/products/cloudaway-2-3me3005/mens/black-ivory-shoes-3ME30051430",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudaway 2",
-          "url": "https://www.on.com/en-us/products/cloudaway-2-3we3008/womens/rock-ivory-shoes-3WE30083247",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudboom max m",
-          "url": "https://www.on.com/en-us/products/cloudboom-max-m-3mf3031/mens/all-black-shoes-3MF30310485",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudflow 5 ad m",
-          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-m-3mf3070/mens/ivory-grain-shoes-3MF30705299",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudflow 5 ad m",
-          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-m-3mf3070/mens/sable-seaglass-shoes-3MF30705416",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudflow 5 ad w",
-          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-w-3wf3044/womens/ivory-grain-shoes-3WF30445299",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudflow 5 ad w",
-          "url": "https://www.on.com/en-us/products/cloudflow-5-ad-w-3wf3044/womens/sable-seaglass-shoes-3WF30445416",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudflow 5 m",
-          "url": "https://www.on.com/en-us/products/cloudflow-5-m-3mf1011/mens/flurry-wash-shoes-3MF10114946",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudflow 5 w",
-          "url": "https://www.on.com/en-us/products/cloudflow-5-w-3wf1009/womens/flurry-wash-shoes-3WF10094946",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudhero waterproof u",
-          "url": "https://www.on.com/en-us/products/cloudhero-waterproof-u-3ke1003/unisex/topaz-glacier-shoes-3KE10036019",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudhero waterproof u",
-          "url": "https://www.on.com/en-us/products/cloudhero-waterproof-u-3ye1003/unisex/topaz-glacier-shoes-3YE10036019",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudhorizon 2 m",
-          "url": "https://www.on.com/en-us/products/cloudhorizon-2-m-3mg1054/mens/winter-grain-shoes-3MG10545330",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudhorizon 2 w",
-          "url": "https://www.on.com/en-us/products/cloudhorizon-2-w-3wg1033/womens/brook-ember-shoes-3WG10335332",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudhorizon 2 wp m",
-          "url": "https://www.on.com/en-us/products/cloudhorizon-2-wp-m-3mg1021/mens/soba-eclipse-shoes-3MG10215335",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudhorizon 2 wp w",
-          "url": "https://www.on.com/en-us/products/cloudhorizon-2-wp-w-3wg1020/womens/brume-grain-shoes-3WG10204691",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudleap",
-          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/alloy-agave-shoes-3KE30025132",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap",
-          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/black-white-shoes-3KE30020299",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap",
-          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/marsh-castor-shoes-3KE30025131",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap",
-          "url": "https://www.on.com/en-us/products/cloudleap-3ke3002/unisex/salt-bubblegum-shoes-3KE30026016",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap u",
-          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/black-black-shoes-3YF10041043",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap u",
-          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/marsh-white-shoes-3YF10045133",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap u",
-          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/salt-bubblegum-shoes-3YF10046016",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudleap u",
-          "url": "https://www.on.com/en-us/products/cloudleap-u-3yf1004/unisex/wolf-alloy-shoes-3YF10043290",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudmonster 1 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/black-shoes-3MF30740553",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 1 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/eclipse-verdite-shoes-3MF30745253",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 1 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/midnight-navy-shoes-3MF30740170",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 1 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-m-3mf3074/mens/white-glacier-shoes-3MF30740813",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 1 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/black-shoes-3WF30480553",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 1 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/camellia-camellia-shoes-3WF30486071",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 1 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/cinder-iceberg-shoes-3WF30486055",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 1 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/lavender-urchin-shoes-3WF30485355",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 1 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-1-w-3wf3048/womens/white-isle-shoes-3WF30485163",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 hyper",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-3mg1006/mens/ivory-flurry-shoes-3MG10065262",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 hyper",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-3wg1004/womens/ivory-flurry-shoes-3WG10045262",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/brook-flurry-shoes-3MG10055256",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/ivory-dustrose-shoes-3MG10056015",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/ivory-ivory-shoes-3MG10053334",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/brook-flurry-shoes-3WG10035256",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/glacier-pollen-shoes-3WG10035259",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/ivory-camellia-shoes-3WG10035084",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 wide m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-wide-m-3mg1093/mens/brook-flurry-shoes-3MG10935256",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 wide m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-wide-m-3mg1093/mens/ivory-ivory-shoes-3MG10933334",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 wide w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-wide-w-3wg1083/womens/brook-flurry-shoes-3WG10835256",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster void m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/eclipse-black-shoes-3MG10910264",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster void m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/ore-eclipse-shoes-3MG10915368",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster void m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/silver-eclipse-shoes-3MG10912989",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster void m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/wash-brook-shoes-3MG10915206",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/brook-iceberg-shoes-3WG10815376",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/ice-verdite-shoes-3WG10815372",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/ivory-doe-shoes-3WG10816128",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/salt-biscuit-shoes-3WG10815373",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/white-aquamarine-shoes-3WG10815374",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudnova form 2",
-          "url": "https://www.on.com/en-us/products/cloudnova-form-2-3me3015/mens/glacier-ivory-shoes-3ME30153205",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudnova form 2",
-          "url": "https://www.on.com/en-us/products/cloudnova-form-2-3we3017/womens/oyster-ivory-shoes-3WE30175116",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudnova kids",
-          "url": "https://www.on.com/en-us/products/cloudnova-kids-3kf3001/unisex/wash-white-shoes-3KF30011482",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudnova rift m",
-          "url": "https://www.on.com/en-us/products/cloudnova-rift-m-3mf3015/mens/black-black-shoes-3MF30151043",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudnova rift w",
-          "url": "https://www.on.com/en-us/products/cloudnova-rift-w-3wf3007/womens/castor-castor-shoes-3WF30075114",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudnova youth",
-          "url": "https://www.on.com/en-us/products/cloudnova-youth-3yf3003/unisex/wash-white-shoes-3YF30031482",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudpulse 2 m",
-          "url": "https://www.on.com/en-us/products/cloudpulse-2-m-3mg1015/mens/glacier-ivory-shoes-3MG10153205",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudpulse 2 w",
-          "url": "https://www.on.com/en-us/products/cloudpulse-2-w-3wg1014/womens/dew-white-shoes-3WG10142659",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 2,
-      "products": [
-        {
-          "name": "u5012rg accolade straight leg sweatpant",
-          "url": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-white-heather",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "u5012rg accolade straight leg sweatpant mens",
-          "url": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-white-heather-mens",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5182,7 +5186,8 @@
       "2026-07-09": 2,
       "2026-07-10": 34,
       "2026-07-11": 11,
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-15": 8
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -5486,7 +5491,8 @@
       "2026-07-09": 42,
       "2026-07-10": 16,
       "2026-07-13": 22,
-      "2026-07-14": 38
+      "2026-07-14": 38,
+      "2026-07-15": 88
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5508,7 +5514,8 @@
       "2026-07-06": 37,
       "2026-07-07": 6,
       "2026-07-08": 12,
-      "2026-07-09": 4
+      "2026-07-09": 4,
+      "2026-07-16": 15
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -5541,12 +5548,12 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 1986,
+      "vuori": 1991,
       "outdoor_voices": 243,
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1804,
-      "gymshark": 3319,
+      "gymshark": 3359,
       "on_running": 1647,
       "gymreapers": 201,
       "sbd": 22,
@@ -5554,12 +5561,12 @@
       "bear_grips": 330
     },
     "tops": {
-      "vuori": 649,
+      "vuori": 652,
       "outdoor_voices": 60,
       "tenthousand": 39,
       "lululemon": 835,
       "alo": 573,
-      "gymshark": 2920,
+      "gymshark": 2938,
       "on_running": 650,
       "gymreapers": 230,
       "sbd": 67,
@@ -5598,7 +5605,7 @@
       "outdoor_voices": 38,
       "lululemon": 186,
       "alo": 339,
-      "gymshark": 764,
+      "gymshark": 794,
       "on_running": 188,
       "gymreapers": 65,
       "bear_grips": 9
@@ -5608,7 +5615,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 2961,
+      "on_running": 2976,
       "schiek": 1
     },
     "accessories": {
@@ -5647,24 +5654,24 @@
       "bear_grips": 30
     },
     "shorts": {
-      "vuori": 743,
+      "vuori": 745,
       "outdoor_voices": 77,
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 423,
-      "gymshark": 1358,
+      "gymshark": 1374,
       "on_running": 730,
       "gymreapers": 128,
       "sbd": 15,
       "bear_grips": 40
     },
     "tanks": {
-      "vuori": 207,
+      "vuori": 210,
       "outdoor_voices": 30,
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 266,
-      "gymshark": 812,
+      "gymshark": 826,
       "on_running": 303,
       "gymreapers": 33,
       "sbd": 8,
@@ -5686,7 +5693,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 368,
-      "gymshark": 787,
+      "gymshark": 801,
       "on_running": 409,
       "gymreapers": 42,
       "bear_grips": 32
@@ -5697,7 +5704,7 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1691,
-      "gymshark": 3034,
+      "gymshark": 3076,
       "on_running": 3273,
       "gymreapers": 530,
       "sbd": 137,
@@ -5706,7 +5713,7 @@
       "bear_grips": 471
     },
     "pants": {
-      "vuori": 403,
+      "vuori": 406,
       "outdoor_voices": 50,
       "tenthousand": 16,
       "lululemon": 448,
@@ -5752,7 +5759,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 486,
+      "gymshark": 488,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -5888,7 +5895,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2739
+      "on_running": 2754
     },
     "medium_support": {
       "lululemon": 21,
@@ -5918,10 +5925,10 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 568,
+      "vuori": 569,
       "outdoor_voices": 27,
       "alo": 504,
-      "gymshark": 1117,
+      "gymshark": 1119,
       "on_running": 331,
       "gymreapers": 72,
       "sbd": 16,
@@ -5937,11 +5944,11 @@
       "sbd": 5
     },
     "black": {
-      "vuori": 792,
+      "vuori": 794,
       "outdoor_voices": 77,
       "alo": 1044,
-      "gymshark": 2174,
-      "on_running": 1554,
+      "gymshark": 2180,
+      "on_running": 1558,
       "gymreapers": 124,
       "sbd": 2,
       "schiek": 8,
@@ -5973,19 +5980,19 @@
       "lululemon": 17,
       "alo": 930,
       "gymshark": 706,
-      "on_running": 1580,
+      "on_running": 1589,
       "gymreapers": 90,
       "sbd": 2,
       "harbinger": 1,
       "bear_grips": 2
     },
     "blue": {
-      "vuori": 551,
+      "vuori": 553,
       "outdoor_voices": 30,
       "lululemon": 8,
       "alo": 250,
-      "gymshark": 1458,
-      "on_running": 813,
+      "gymshark": 1470,
+      "on_running": 815,
       "gymreapers": 32,
       "sbd": 6,
       "schiek": 2
@@ -5995,13 +6002,13 @@
       "outdoor_voices": 43,
       "lululemon": 4,
       "alo": 315,
-      "gymshark": 463,
+      "gymshark": 465,
       "on_running": 285,
       "gymreapers": 98,
       "sbd": 4
     },
     "brown": {
-      "vuori": 187,
+      "vuori": 189,
       "outdoor_voices": 2,
       "alo": 296,
       "gymshark": 640,
@@ -6027,7 +6034,7 @@
       "vuori": 103,
       "outdoor_voices": 8,
       "alo": 40,
-      "gymshark": 489,
+      "gymshark": 513,
       "on_running": 187,
       "gymreapers": 12,
       "sbd": 2
@@ -6036,7 +6043,7 @@
       "vuori": 23,
       "outdoor_voices": 3,
       "alo": 3,
-      "gymshark": 40,
+      "gymshark": 52,
       "on_running": 79,
       "gymreapers": 1,
       "sbd": 10
@@ -6046,7 +6053,7 @@
       "outdoor_voices": 2,
       "lululemon": 7,
       "alo": 61,
-      "gymshark": 62,
+      "gymshark": 70,
       "on_running": 84,
       "gymreapers": 5,
       "schiek": 4,
@@ -6056,7 +6063,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 242,
-      "gymshark": 693,
+      "gymshark": 715,
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
@@ -6096,13 +6103,13 @@
     },
     {
       "brand": "Gymshark",
-      "bottoms": 36.4,
-      "tops": 32,
+      "bottoms": 36.5,
+      "tops": 31.9,
       "outerwear": 9.9,
       "dresses": 0.1,
-      "sports_bras": 8.4,
-      "accessories": 5.9,
-      "other": 7.3
+      "sports_bras": 8.6,
+      "accessories": 5.8,
+      "other": 7.2
     },
     {
       "brand": "Lululemon",
@@ -6127,7 +6134,7 @@
     {
       "brand": "Vuori",
       "bottoms": 47.6,
-      "tops": 15.5,
+      "tops": 15.6,
       "outerwear": 13,
       "dresses": 1,
       "sports_bras": 3.2,
@@ -6209,10 +6216,10 @@
     {
       "brand": "On Running",
       "black": 15.6,
-      "white": 15.8,
+      "white": 15.9,
       "gray": 3.3,
       "navy": 3,
-      "blue": 8.1,
+      "blue": 8.2,
       "green": 2.9,
       "khaki": 2.1,
       "brown": 0.8,
@@ -6225,19 +6232,19 @@
     },
     {
       "brand": "Gymshark",
-      "black": 23.8,
+      "black": 23.7,
       "white": 7.7,
-      "gray": 12.3,
+      "gray": 12.2,
       "navy": 0.8,
       "blue": 16,
       "green": 5.1,
       "khaki": 0,
       "brown": 7,
-      "purple": 5.4,
-      "pink": 7.6,
-      "orange": 0.4,
+      "purple": 5.6,
+      "pink": 7.8,
+      "orange": 0.6,
       "red": 3.5,
-      "yellow": 0.7,
+      "yellow": 0.8,
       "other": 0.2
     },
     {
@@ -6286,10 +6293,10 @@
       "brown": 4.5,
       "purple": 2.5,
       "pink": 1.8,
-      "orange": 0.6,
+      "orange": 0.5,
       "red": 1.2,
       "yellow": 0.3,
-      "other": 6.9
+      "other": 6.8
     },
     {
       "brand": "bear_grips",
@@ -6416,7 +6423,7 @@
       "type": "leader",
       "metric": "gender_balance",
       "brand": "Vuori",
-      "text": "Vuori is uniquely balanced: 45% women's / 37% men's. Alo skews 31% women's, Gymshark 21% men's."
+      "text": "Vuori is uniquely balanced: 46% women's / 37% men's. Alo skews 31% women's, Gymshark 20% men's."
     },
     {
       "type": "trend",
@@ -6455,8 +6462,8 @@
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
-      "value": 743,
-      "text": "Vuori ranks #2 in shorts with 743 products. Behind Gymshark (1358)."
+      "value": 745,
+      "text": "Vuori ranks #2 in shorts with 745 products. Behind Gymshark (1374)."
     },
     {
       "type": "comparison",
@@ -6491,7 +6498,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 2795 products"
+        "comparison": "Competitors have 2810 products"
       },
       {
         "metric": "Medium Support",
@@ -6529,7 +6536,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 743,
+        "vuori": 745,
         "competitor": 528,
         "winner": "vuori"
       },
@@ -6541,7 +6548,7 @@
       },
       {
         "category": "Tanks",
-        "vuori": 207,
+        "vuori": 210,
         "competitor": 290,
         "winner": "competitor"
       },
@@ -6559,7 +6566,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1896,
+        "vuori": 1904,
         "competitor": 1597,
         "winner": "vuori"
       }
@@ -6579,7 +6586,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 743,
+        "vuori": 745,
         "competitor": 423,
         "winner": "vuori"
       },
@@ -6591,7 +6598,7 @@
       },
       {
         "category": "Tanks",
-        "vuori": 207,
+        "vuori": 210,
         "competitor": 266,
         "winner": "competitor"
       },
@@ -6609,11 +6616,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1896,
+        "vuori": 1904,
         "competitor": 1508,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-07-15T13:15:09.877Z"
+  "generated_at": "2026-07-16T13:15:15.608Z"
 }
