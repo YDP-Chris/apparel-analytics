@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 732,
-      "change_from_last": -5,
+      "total_jobs": 735,
+      "change_from_last": 3,
       "departments": {
         "engineering": 17,
-        "design": 97,
-        "operations": 196,
+        "design": 98,
+        "operations": 194,
         "finance": 6,
-        "other": 148,
-        "retail": 241,
+        "other": 149,
+        "retail": 244,
         "marketing": 12,
         "executive": 10,
         "product": 2,
         "hr": 3
       },
       "seniority": {
-        "mid": 21,
-        "junior": 330,
-        "manager": 180,
+        "mid": 23,
+        "junior": 331,
+        "manager": 179,
         "c-suite": 23,
         "intern": 4,
-        "lead": 158,
+        "lead": 159,
         "senior": 16
       },
       "locations": [
-        "Boulder, Colorado, United States",
-        "Kierland Commons, Scottsdale, AZ (10024)",
-        "Shop at Hudson Yards, New York, NY (10078)",
-        "Chestnut Hill, Massachusetts, United States",
-        "Kings Road, London (50013)",
-        "Shops at La Cantera, San Antonio, TX (10054)",
-        "Oakbrook Center, Oak Brook, IL (10015)",
-        "Laval, Quebec, Canada",
-        "Country Club Plaza, Kansas City, MO (10174)",
-        "Leeds, England, United Kingdom",
-        "Macau",
-        "Etobicoke, Ontario, Canada",
-        "Woodfield Mall, Schaumburg, IL (10112)",
-        "Dumbo, Brooklyn, NY (10139)",
+        "Tulsa, Oklahoma, United States",
+        "Greenwich, Connecticut, United States",
+        "Mall at Green Hills, Nashville, TN (10079)",
         "Venice, California, United States",
-        "Atlanta, Georgia, United States",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Carlsbad, California, United States",
-        "Brickell City Centre, Miami, FL (10077)",
-        "Beverly Hills, California, United States; San Ramon, California, United States"
+        "Cologne, North Rhine-Westphalia, Germany",
+        "Century City, Los Angeles, CA (10101)",
+        "Upper East Side, New York, NY (10009)",
+        "Thousand Oaks, California, United States",
+        "Westfarms Mall, West Hartford, CT (10062)",
+        "Shop at Crystals, Las Vegas, NV (10095)",
+        "Manchester, England, United Kingdom",
+        "Prudential Center, Boston, MA (10053)",
+        "Leeds, England, United Kingdom",
+        "Metairie, Louisiana",
+        "King of Prussia, Pennsylvania, United States",
+        "Saint Catherine Street, Montr\u00e9al, QC (10086)",
+        "Australia",
+        "Alpharetta, Georgia, United States",
+        "New York (Retail)",
+        "San Luis Obispo, California, United States"
       ],
       "jobs": [
         {
@@ -55,7 +55,7 @@
           "location": "Commerce, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5802355004?gh_jid=5802355004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
+          "posted_at": "2026-07-16T14:26:43-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -126,6 +126,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5623418004?gh_jid=5623418004",
           "posted_at": "2026-07-10T16:59:37-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "6118226004",
+          "title": "Asset Protection Specialist - Yorkdale Shopping Centre",
+          "location": "Yorkdale Shopping Centre, Toronto, ON (10027)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6118226004?gh_jid=6118226004",
+          "posted_at": "2026-07-16T17:29:06-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -538,25 +548,15 @@
           "posted_at": "2026-07-10T16:59:37-04:00",
           "category": "executive",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5554383004",
-          "title": "Director of Digital FP&A",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5554383004?gh_jid=5554383004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
-          "category": "finance",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-16T05:30:08.261823"
+      "checked_at": "2026-07-17T05:30:20.397564"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 17,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
         "other": 7,
         "operations": 2,
@@ -571,13 +571,13 @@
         "senior": 1
       },
       "locations": [
-        "London",
         "Solihull, England, United Kingdom",
-        "Ho Chi Minh City, Ho Chi Minh, Vietnam",
         "Amsterdam, North Holland, Netherlands",
-        "Cairo, Egypt",
+        "Ho Chi Minh City, Ho Chi Minh, Vietnam",
+        "New York, New York, United States",
         "New York; New York, New York, United States; New York, New York, United States",
-        "New York, New York, United States"
+        "Cairo, Egypt",
+        "London"
       ],
       "jobs": [
         {
@@ -751,7 +751,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-07-16T05:30:10.440464"
+      "checked_at": "2026-07-17T05:30:22.563389"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -809,50 +809,60 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 312,
-      "change_from_last": -3,
+      "total_jobs": 310,
+      "change_from_last": -2,
       "departments": {
-        "other": 65,
+        "engineering": 45,
+        "other": 64,
         "retail": 132,
         "marketing": 18,
-        "engineering": 45,
-        "product": 8,
+        "product": 9,
         "operations": 7,
         "executive": 15,
-        "design": 20,
+        "design": 18,
         "finance": 2
       },
       "seniority": {
-        "lead": 170,
-        "c-suite": 15,
         "mid": 79,
-        "intern": 6,
+        "lead": 171,
+        "c-suite": 16,
+        "intern": 5,
         "manager": 1,
-        "senior": 41
+        "senior": 38
       },
       "locations": [
-        "Newport Beach",
-        "Berlin",
-        "Guangzhou",
-        "Hanoi",
-        "Auckland",
-        "Dallas",
-        "Milan",
-        "Vancouver",
-        "Boston",
-        "San Diego",
-        "Cirebon",
-        "Shenzhen",
-        "Macao",
-        "Vienna",
-        "New York City",
-        "Beijing",
         "Shanghai",
-        "Portland",
-        "Ho Chi Minh City",
-        "Chicago"
+        "Austin",
+        "Miami",
+        "Tianjin",
+        "San Francisco",
+        "Macao",
+        "Nanjing",
+        "Vienna",
+        "Chicago",
+        "Beijing",
+        "Busan",
+        "Seoul",
+        "Madrid",
+        "Brooklyn",
+        "Montreal; Toronto; Vancouver",
+        "Berlin; Zurich",
+        "Dallas",
+        "Paris",
+        "Las Vegas",
+        "New York City"
       ],
       "jobs": [
+        {
+          "id": "8068978",
+          "title": "Accessories Quality Engineer (backpack, headwear,...)",
+          "location": "Ho Chi Minh City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8068978?gh_jid=8068978",
+          "posted_at": "2026-07-16T07:08:22-04:00",
+          "category": "engineering",
+          "seniority": "mid"
+        },
         {
           "id": "7764845",
           "title": "Area Lead, Oceania",
@@ -899,7 +909,7 @@
           "location": "Dallas",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7951339?gh_jid=7951339",
-          "posted_at": "2026-07-14T17:21:35-04:00",
+          "posted_at": "2026-07-16T12:54:59-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -974,16 +984,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7994090",
-          "title": "Associate Store Leader, North Premium Outlets",
-          "location": "Las Vegas",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7994090?gh_jid=7994090",
-          "posted_at": "2026-07-14T17:21:35-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "8020094",
           "title": "Associate Store Leader, Parc Central GZ",
           "location": "Guangzhou",
@@ -1042,6 +1042,16 @@
           "posted_at": "2026-07-14T17:21:35-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "7929715",
+          "title": "Chief of Staff - Retail Strategy ",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7929715?gh_jid=7929715",
+          "posted_at": "2026-07-16T09:59:29-04:00",
+          "category": "retail",
+          "seniority": "c-suite"
         },
         {
           "id": "8043221",
@@ -1161,6 +1171,16 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/8030127?gh_jid=8030127",
           "posted_at": "2026-07-14T17:21:35-04:00",
           "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "7681927",
+          "title": "Footwear Production Quality Assurance/Manufacturing Engineer",
+          "location": "Hanoi",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7681927?gh_jid=7681927",
+          "posted_at": "2026-07-16T23:49:58-04:00",
+          "category": "engineering",
           "seniority": "mid"
         },
         {
@@ -1332,30 +1352,10 @@
           "posted_at": "2026-07-14T17:21:35-04:00",
           "category": "product",
           "seniority": "lead"
-        },
-        {
-          "id": "7840993",
-          "title": "Head of Strategy & Operations, Footwear Product Creation",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7840993?gh_jid=7840993",
-          "posted_at": "2026-07-14T17:21:35-04:00",
-          "category": "operations",
-          "seniority": "lead"
-        },
-        {
-          "id": "8016166",
-          "title": "Intern - EMEA Sales Planning",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8016166?gh_jid=8016166",
-          "posted_at": "2026-07-14T17:21:35-04:00",
-          "category": "other",
-          "seniority": "intern"
         }
       ],
-      "checked_at": "2026-07-16T05:30:20.093765"
+      "checked_at": "2026-07-17T05:30:31.804559"
     }
   },
-  "generated_at": "2026-07-16T05:30:22.093952"
+  "generated_at": "2026-07-17T05:30:33.804713"
 }
