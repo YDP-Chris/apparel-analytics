@@ -239,11 +239,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4842,
+      "total": 4843,
       "categories": {
         "other": 838,
         "bottoms": 1804,
-        "tops": 573,
+        "tops": 574,
         "sports_bras": 339,
         "accessories": 429,
         "outerwear": 686,
@@ -269,7 +269,7 @@
         "socks": 192,
         "bralette": 12,
         "polos": 14,
-        "crop_tops": 186,
+        "crop_tops": 187,
         "casual_dress": 64,
         "tennis_dress": 32,
         "headwear": 52,
@@ -279,7 +279,7 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3026,
+        "unisex": 3027,
         "womens": 1508,
         "mens": 308
       },
@@ -293,7 +293,7 @@
         "blue": 250,
         "purple": 40,
         "green": 315,
-        "brown": 296,
+        "brown": 297,
         "red": 224,
         "heather": 24,
         "rust": 8,
@@ -304,7 +304,7 @@
       },
       "colorCoverage": 88.3,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2977
+      "uniqueStyles": 2978
     },
     "gymshark": {
       "name": "Gymshark",
@@ -651,12 +651,26 @@
     }
   },
   "totals": {
-    "products": 38137,
+    "products": 38138,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-20",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "cropped break line bomber jacket",
+          "url": "https://www.aloyoga.com/products/w4514r-cropped-break-line-bomber-jacket-espresso",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-07-18",
       "brand": "Vuori",
@@ -5908,20 +5922,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-07-05",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 1,
-      "products": [
-        {
-          "name": "conquer reform long sleeve with hood victory",
-          "url": "https://www.aloyoga.com/products/m3199r-conquer-reform-long-sleeve-with-hood-victory-red",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6209,7 +6209,8 @@
       "2026-07-05": 1,
       "2026-07-08": 119,
       "2026-07-09": 1,
-      "2026-07-10": 2
+      "2026-07-10": 2,
+      "2026-07-20": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6390,7 +6391,7 @@
       "outdoor_voices": 74,
       "tenthousand": 39,
       "lululemon": 835,
-      "alo": 573,
+      "alo": 574,
       "gymshark": 2982,
       "on_running": 650,
       "gymreapers": 230,
@@ -6641,7 +6642,7 @@
       "vuori": 10,
       "outdoor_voices": 12,
       "lululemon": 96,
-      "alo": 186,
+      "alo": 187,
       "gymshark": 172,
       "on_running": 201,
       "gymreapers": 16,
@@ -6837,7 +6838,7 @@
     "brown": {
       "vuori": 190,
       "outdoor_voices": 2,
-      "alo": 296,
+      "alo": 297,
       "gymshark": 646,
       "on_running": 82,
       "gymreapers": 10,
@@ -6951,8 +6952,8 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37.3,
-      "tops": 11.8,
+      "bottoms": 37.2,
+      "tops": 11.9,
       "outerwear": 14.2,
       "dresses": 2.6,
       "sports_bras": 7,
@@ -7450,5 +7451,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-19T13:15:14.279Z"
+  "generated_at": "2026-07-20T13:15:10.790Z"
 }
