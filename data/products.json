@@ -374,37 +374,37 @@
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10000,
+      "total": 10029,
       "categories": {
-        "bottoms": 1647,
-        "tops": 650,
-        "accessories": 718,
-        "sports_bras": 188,
-        "other": 2899,
+        "bottoms": 1653,
+        "tops": 657,
+        "accessories": 721,
+        "sports_bras": 189,
+        "other": 2904,
         "footwear": 2976,
-        "outerwear": 897,
-        "dresses": 25
+        "outerwear": 903,
+        "dresses": 26
       },
       "subcategories": {
-        "shorts": 730,
-        "leggings": 409,
-        "other": 3273,
+        "shorts": 733,
+        "leggings": 410,
+        "other": 3285,
         "hats": 237,
-        "crop_tops": 201,
-        "pants": 399,
+        "crop_tops": 202,
+        "pants": 401,
         "running": 2754,
-        "tanks": 303,
-        "jackets": 431,
+        "tanks": 308,
+        "jackets": 432,
         "joggers": 27,
-        "casual_dress": 25,
-        "socks": 439,
+        "casual_dress": 26,
+        "socks": 441,
         "vests": 68,
         "hoodies": 332,
         "skirts": 41,
         "sweatpants": 36,
         "lifestyle": 217,
         "headwear": 16,
-        "polos": 34,
+        "polos": 35,
         "pullovers": 2,
         "long_sleeve": 18,
         "fleece": 3,
@@ -412,46 +412,46 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4734,
-        "mens": 4166,
-        "unisex": 1100
+        "womens": 4753,
+        "mens": 4173,
+        "unisex": 1103
       },
       "colors": {
-        "blue": 815,
+        "blue": 817,
         "red": 231,
-        "black": 1558,
-        "purple": 187,
-        "navy": 304,
+        "black": 1560,
+        "purple": 188,
+        "navy": 305,
         "khaki": 211,
         "gray": 331,
         "yellow": 84,
-        "white": 1590,
+        "white": 1591,
         "pink": 185,
         "green": 285,
         "orange": 79,
         "heather": 33,
         "brown": 82,
-        "rust": 43,
+        "rust": 44,
         "camo": 6
       },
-      "colorCoverage": 60.2,
+      "colorCoverage": 60.1,
       "avgColorsPerStyle": 2.6,
-      "uniqueStyles": 1409
+      "uniqueStyles": 1410
     },
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1072,
+      "total": 1075,
       "categories": {
         "other": 315,
-        "accessories": 189,
+        "accessories": 192,
         "tops": 230,
         "bottoms": 215,
         "sports_bras": 65,
         "outerwear": 58
       },
       "subcategories": {
-        "other": 530,
+        "other": 533,
         "tees": 116,
         "shorts": 142,
         "hats": 77,
@@ -471,7 +471,7 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 910,
+        "unisex": 913,
         "womens": 141,
         "mens": 21
       },
@@ -492,7 +492,7 @@
         "yellow": 5,
         "orange": 1
       },
-      "colorCoverage": 62.2,
+      "colorCoverage": 62,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 409
     },
@@ -542,25 +542,25 @@
     "harbinger": {
       "name": "harbinger",
       "slug": "harbinger",
-      "total": 51,
+      "total": 55,
       "categories": {
-        "accessories": 26,
-        "other": 25
+        "accessories": 29,
+        "other": 26
       },
       "subcategories": {
-        "other": 51
+        "other": 55
       },
       "genders": {
-        "mens": 7,
+        "mens": 8,
         "womens": 6,
-        "unisex": 38
+        "unisex": 41
       },
       "colors": {
         "red": 2,
         "white": 1,
         "multi": 2
       },
-      "colorCoverage": 9.8,
+      "colorCoverage": 9.1,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 5
     },
@@ -651,12 +651,252 @@
     }
   },
   "totals": {
-    "products": 38138,
+    "products": 38174,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-20",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 29,
+      "products": [
+        {
+          "name": "3 court shorts 2 in 1 w",
+          "url": "https://www.on.com/en-us/products/3-court-shorts-2-in-1-w-1wg1022/womens/brook-apparel-1WG10224996",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "3 performance tights w",
+          "url": "https://www.on.com/en-us/products/3-performance-tights-w-1wg1005/womens/aquamarine-apparel-1WG10054988",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "5 core shorts m",
+          "url": "https://www.on.com/en-us/products/5-core-shorts-m-1mf1012/mens/jay-apparel-1MF10124974",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "5 performance shorts",
+          "url": "https://www.on.com/en-us/products/5-performance-shorts-1mf1075/mens/midnight-apparel-1MF10751573",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "club t glow w",
+          "url": "https://www.on.com/en-us/products/club-t-glow-w-1wg3207/womens/bubblegum-apparel-1WG32074983",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "club boxy t glow w",
+          "url": "https://www.on.com/en-us/products/club-boxy-t-glow-w-1wg3211/womens/white-apparel-1WG32110069",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "club boxy t w",
+          "url": "https://www.on.com/en-us/products/club-boxy-t-w-1wf1112/womens/bubblegum-apparel-1WF11124983",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "core bra",
+          "url": "https://www.on.com/en-us/products/core-bra-1wf1006/womens/bubblegum-apparel-1WF10064983",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "core tank m",
+          "url": "https://www.on.com/en-us/products/core-tank-m-1me1076/mens/jay-apparel-1ME10764974",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "core tank w",
+          "url": "https://www.on.com/en-us/products/core-tank-w-1we1093/womens/bubblegum-apparel-1WE10934983",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "court dress split w",
+          "url": "https://www.on.com/en-us/products/court-dress-split-w-1wg1020/womens/brook-apparel-1WG10204996",
+          "category": "dresses",
+          "gender": "womens"
+        },
+        {
+          "name": "court tank w",
+          "url": "https://www.on.com/en-us/products/court-tank-w-1wg1028/womens/brook-apparel-1WG10284996",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "courtside 1 2 zip eaze m",
+          "url": "https://www.on.com/en-us/products/courtside-1-2-zip-eaze-m-1mg1036/mens/brume-apparel-1MG10364939",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "courtside full zip m",
+          "url": "https://www.on.com/en-us/products/courtside-full-zip-m-1mg1038/mens/black-apparel-1MG10380553",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "courtside full zip w",
+          "url": "https://www.on.com/en-us/products/courtside-full-zip-w-1wg1054/womens/brook-apparel-1WG10544996",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "courtside pants m",
+          "url": "https://www.on.com/en-us/products/courtside-pants-m-1mg1039/mens/black-apparel-1MG10390553",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "courtside pants w",
+          "url": "https://www.on.com/en-us/products/courtside-pants-w-1wg1055/womens/brook-apparel-1WG10554996",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "courtside polo m",
+          "url": "https://www.on.com/en-us/products/courtside-polo-m-1mf3039/mens/glacier-apparel-1MF30390561",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "endurance bra zip w",
+          "url": "https://www.on.com/en-us/products/endurance-bra-zip-w-1wf3017/womens/aquamarine-apparel-1WF30174988",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "endurance bra zip w",
+          "url": "https://www.on.com/en-us/products/endurance-bra-zip-w-1wf3017/womens/foxglove-apparel-1WF30174944",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "performance crop w",
+          "url": "https://www.on.com/en-us/products/performance-crop-w-1wg1012/womens/foxglove-apparel-1WG10124944",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "performance tank w",
+          "url": "https://www.on.com/en-us/products/performance-tank-w-1we1030/womens/flurry-aquamarine-apparel-1WE10304958",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "performance tank w",
+          "url": "https://www.on.com/en-us/products/performance-tank-w-1we1030/womens/foxglove-orchid-apparel-1WE10304994",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "speed belt u",
+          "url": "https://www.on.com/en-us/products/speed-belt-u-2ug1018/unisex/glacier-accessories-2UG10180561",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "studio jacket w",
+          "url": "https://www.on.com/en-us/products/studio-jacket-w-1wg1046/womens/ember-apparel-1WG10464989",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "club boxy t glow w 1wg3211",
+          "url": "https://www.on.com/en-us/products/club-boxy-t-glow-w-1wg3211/womens",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "club t glow w 1wg3207",
+          "url": "https://www.on.com/en-us/products/club-t-glow-w-1wg3207/womens",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "logo sock high 3p kids u",
+          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-kids-u-2kf1005/unisex/celeste-storm-accessories-2KF10055026",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "logo sock high 3p kids u",
+          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-kids-u-2kf1005/unisex/flame-cinnamon-accessories-2KF10055027",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "brand": "harbinger",
+      "brandSlug": "harbinger",
+      "count": 4,
+      "products": [
+        {
+          "name": "hexcore belt",
+          "url": "https://harbingerfitness.com/products/mens-hexcore-belt",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "pro glove",
+          "url": "https://harbingerfitness.com/products/pro-glove",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "hip thrust bar pad",
+          "url": "https://harbingerfitness.com/products/hip-thrust-bar-pad",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "power gloves 2 0 unisex",
+          "url": "https://harbingerfitness.com/products/power-gloves-2-0-unisex",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 3,
+      "products": [
+        {
+          "name": "10mm lever belt saddle python",
+          "url": "https://www.gymreapers.com/products/10mm-lever-belt-saddle-python",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "10mm lever belt blood python",
+          "url": "https://www.gymreapers.com/products/10mm-lever-belt-blood-python",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "10mm lever belt cafe python",
+          "url": "https://www.gymreapers.com/products/10mm-lever-belt-cafe-python",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-07-20",
       "brand": "Alo Yoga",
@@ -6339,7 +6579,8 @@
       "2026-07-07": 6,
       "2026-07-08": 12,
       "2026-07-09": 4,
-      "2026-07-16": 16
+      "2026-07-16": 16,
+      "2026-07-20": 29
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -6349,7 +6590,8 @@
       "2026-06-09": 1,
       "2026-06-12": 9,
       "2026-06-25": 8,
-      "2026-07-17": 14
+      "2026-07-17": 14,
+      "2026-07-20": 3
     },
     "sbd": {
       "2026-04-07": 206,
@@ -6360,7 +6602,8 @@
     "harbinger": {
       "2026-04-07": 46,
       "2026-07-13": 1,
-      "2026-07-17": 4
+      "2026-07-17": 4,
+      "2026-07-20": 4
     },
     "schiek": {
       "2026-04-07": 112,
@@ -6380,7 +6623,7 @@
       "lululemon": 1732,
       "alo": 1804,
       "gymshark": 3371,
-      "on_running": 1647,
+      "on_running": 1653,
       "gymreapers": 215,
       "sbd": 22,
       "schiek": 2,
@@ -6393,7 +6636,7 @@
       "lululemon": 835,
       "alo": 574,
       "gymshark": 2982,
-      "on_running": 650,
+      "on_running": 657,
       "gymreapers": 230,
       "sbd": 67,
       "schiek": 7,
@@ -6406,7 +6649,7 @@
       "lululemon": 680,
       "alo": 686,
       "gymshark": 921,
-      "on_running": 897,
+      "on_running": 903,
       "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
@@ -6419,10 +6662,10 @@
       "lululemon": 917,
       "alo": 838,
       "gymshark": 671,
-      "on_running": 2899,
+      "on_running": 2904,
       "gymreapers": 315,
       "sbd": 78,
-      "harbinger": 25,
+      "harbinger": 26,
       "schiek": 57,
       "bear_grips": 254
     },
@@ -6432,7 +6675,7 @@
       "lululemon": 186,
       "alo": 339,
       "gymshark": 798,
-      "on_running": 188,
+      "on_running": 189,
       "gymreapers": 65,
       "bear_grips": 9
     },
@@ -6451,10 +6694,10 @@
       "lululemon": 627,
       "alo": 429,
       "gymshark": 544,
-      "on_running": 718,
-      "gymreapers": 189,
+      "on_running": 721,
+      "gymreapers": 192,
       "sbd": 54,
-      "harbinger": 26,
+      "harbinger": 29,
       "schiek": 44,
       "bear_grips": 164
     },
@@ -6464,7 +6707,7 @@
       "lululemon": 73,
       "alo": 128,
       "gymshark": 6,
-      "on_running": 25
+      "on_running": 26
     }
   },
   "bySubcategory": {
@@ -6486,7 +6729,7 @@
       "lululemon": 528,
       "alo": 423,
       "gymshark": 1378,
-      "on_running": 730,
+      "on_running": 733,
       "gymreapers": 142,
       "sbd": 15,
       "bear_grips": 40
@@ -6498,7 +6741,7 @@
       "lululemon": 290,
       "alo": 266,
       "gymshark": 832,
-      "on_running": 303,
+      "on_running": 308,
       "gymreapers": 33,
       "sbd": 8,
       "bear_grips": 472
@@ -6520,7 +6763,7 @@
       "lululemon": 207,
       "alo": 368,
       "gymshark": 805,
-      "on_running": 409,
+      "on_running": 410,
       "gymreapers": 42,
       "bear_grips": 32
     },
@@ -6531,10 +6774,10 @@
       "lululemon": 1593,
       "alo": 1691,
       "gymshark": 3106,
-      "on_running": 3273,
-      "gymreapers": 530,
+      "on_running": 3285,
+      "gymreapers": 533,
       "sbd": 137,
-      "harbinger": 51,
+      "harbinger": 55,
       "schiek": 106,
       "bear_grips": 471
     },
@@ -6545,7 +6788,7 @@
       "lululemon": 448,
       "alo": 251,
       "gymshark": 326,
-      "on_running": 399
+      "on_running": 401
     },
     "pullovers": {
       "vuori": 6,
@@ -6561,7 +6804,7 @@
       "lululemon": 65,
       "alo": 14,
       "gymshark": 28,
-      "on_running": 34,
+      "on_running": 35,
       "gymreapers": 5,
       "bear_grips": 99
     },
@@ -6577,7 +6820,7 @@
       "lululemon": 300,
       "alo": 188,
       "gymshark": 196,
-      "on_running": 431,
+      "on_running": 432,
       "gymreapers": 17,
       "bear_grips": 14
     },
@@ -6644,7 +6887,7 @@
       "lululemon": 96,
       "alo": 187,
       "gymshark": 172,
-      "on_running": 201,
+      "on_running": 202,
       "gymreapers": 16,
       "sbd": 7,
       "bear_grips": 7
@@ -6669,7 +6912,7 @@
       "lululemon": 49,
       "alo": 64,
       "gymshark": 6,
-      "on_running": 25
+      "on_running": 26
     },
     "sweatpants": {
       "vuori": 119,
@@ -6695,7 +6938,7 @@
       "lululemon": 159,
       "alo": 192,
       "gymshark": 222,
-      "on_running": 439,
+      "on_running": 441,
       "gymreapers": 8,
       "sbd": 42
     },
@@ -6767,7 +7010,7 @@
       "outdoor_voices": 46,
       "alo": 197,
       "gymshark": 70,
-      "on_running": 304,
+      "on_running": 305,
       "gymreapers": 40,
       "sbd": 5
     },
@@ -6776,7 +7019,7 @@
       "outdoor_voices": 98,
       "alo": 1044,
       "gymshark": 2194,
-      "on_running": 1558,
+      "on_running": 1560,
       "gymreapers": 124,
       "sbd": 2,
       "schiek": 8,
@@ -6808,7 +7051,7 @@
       "lululemon": 17,
       "alo": 930,
       "gymshark": 710,
-      "on_running": 1590,
+      "on_running": 1591,
       "gymreapers": 93,
       "sbd": 2,
       "harbinger": 1,
@@ -6820,7 +7063,7 @@
       "lululemon": 8,
       "alo": 250,
       "gymshark": 1486,
-      "on_running": 815,
+      "on_running": 817,
       "gymreapers": 33,
       "sbd": 6,
       "schiek": 2
@@ -6863,7 +7106,7 @@
       "outdoor_voices": 10,
       "alo": 40,
       "gymshark": 517,
-      "on_running": 187,
+      "on_running": 188,
       "gymreapers": 12,
       "sbd": 2
     },
@@ -6908,7 +7151,7 @@
       "vuori": 2,
       "outdoor_voices": 1,
       "alo": 8,
-      "on_running": 43,
+      "on_running": 44,
       "gymreapers": 3,
       "bear_grips": 1
     },
@@ -6923,7 +7166,7 @@
     {
       "brand": "On Running",
       "bottoms": 16.5,
-      "tops": 6.5,
+      "tops": 6.6,
       "outerwear": 9,
       "dresses": 0.3,
       "sports_bras": 1.9,
@@ -6982,13 +7225,13 @@
     },
     {
       "brand": "gymreapers",
-      "bottoms": 20.1,
-      "tops": 21.5,
+      "bottoms": 20,
+      "tops": 21.4,
       "outerwear": 5.4,
       "dresses": 0,
-      "sports_bras": 6.1,
-      "accessories": 17.6,
-      "other": 29.4
+      "sports_bras": 6,
+      "accessories": 17.9,
+      "other": 29.3
     },
     {
       "brand": "Outdoor Voices",
@@ -7037,8 +7280,8 @@
       "outerwear": 0,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 51,
-      "other": 49
+      "accessories": 52.7,
+      "other": 47.3
     }
   ],
   "colorMix": [
@@ -7048,12 +7291,12 @@
       "white": 15.9,
       "gray": 3.3,
       "navy": 3,
-      "blue": 8.2,
-      "green": 2.9,
+      "blue": 8.1,
+      "green": 2.8,
       "khaki": 2.1,
       "brown": 0.8,
       "purple": 1.9,
-      "pink": 1.9,
+      "pink": 1.8,
       "orange": 0.8,
       "red": 2.3,
       "yellow": 0.8,
@@ -7146,7 +7389,7 @@
     },
     {
       "brand": "gymreapers",
-      "black": 11.6,
+      "black": 11.5,
       "white": 8.7,
       "gray": 7.3,
       "navy": 3.7,
@@ -7159,7 +7402,7 @@
       "orange": 0.1,
       "red": 5.6,
       "yellow": 0.5,
-      "other": 3.5
+      "other": 3.4
     },
     {
       "brand": "Outdoor Voices",
@@ -7232,7 +7475,7 @@
     {
       "brand": "harbinger",
       "black": 0,
-      "white": 2,
+      "white": 1.8,
       "gray": 0,
       "navy": 0,
       "blue": 0,
@@ -7242,9 +7485,9 @@
       "purple": 0,
       "pink": 0,
       "orange": 0,
-      "red": 3.9,
+      "red": 3.6,
       "yellow": 0,
-      "other": 3.9
+      "other": 3.6
     }
   ],
   "insights": [
@@ -7451,5 +7694,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-20T13:15:10.790Z"
+  "generated_at": "2026-07-21T13:15:12.407Z"
 }

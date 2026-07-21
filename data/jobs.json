@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 730,
-      "change_from_last": -1,
+      "total_jobs": 731,
+      "change_from_last": 1,
       "departments": {
-        "engineering": 18,
-        "design": 95,
-        "operations": 190,
+        "engineering": 20,
+        "design": 94,
+        "operations": 192,
         "finance": 6,
-        "other": 149,
-        "retail": 245,
-        "marketing": 12,
-        "executive": 10,
+        "other": 150,
+        "retail": 248,
+        "marketing": 8,
+        "executive": 8,
         "product": 2,
         "hr": 3
       },
       "seniority": {
-        "mid": 24,
-        "junior": 331,
+        "mid": 22,
+        "junior": 338,
         "manager": 177,
-        "c-suite": 23,
+        "c-suite": 21,
         "intern": 4,
-        "lead": 155,
-        "senior": 16
+        "lead": 152,
+        "senior": 17
       },
       "locations": [
-        "Center of Waikiki, Honolulu,, HI (10142)",
-        "Cherry Hill, New Jersey, United States",
-        "San Diego, California, United States",
-        "Cologne, North Rhine-Westphalia, Germany",
         "Oklahoma City, Oklahoma, United States",
-        "Seaport Square, Boston, MA (10017)",
-        "Roseville, California, United States",
-        "Florence, Italy",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
-        "Berlin, Berlin, Germany",
-        "The Woodlands, Texas, United States",
-        "Costa Mesa, California, United States",
-        "Westport, Connecticut, United States",
-        "UTC Sarasota, Sarasota, FL (10091)",
-        "Fashion Place, Murray, UT (10061)",
-        "Aventura, Florida, United States",
         "Huntington Station, New York, United States",
-        "Bellevue, Washington, United States",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "White Plains, New York, United States"
+        "Upper East Side, New York, NY (10009)",
+        "Westfarms Mall, West Hartford, CT (10062)",
+        "Bondi Junction, Bondi Junction (50094)",
+        "Century City, Los Angeles, CA (10101)",
+        "Ardmore, Pennsylvania, United States",
+        "Kings Road, London (50013)",
+        "Alys Beach, Florida, United States",
+        "The Gardens Mall, Palm Beach Gardens, FL (10036)",
+        "Dallas Galleria, Dallas, TX (10154)",
+        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
+        "Amherst, New York, United States",
+        "Cologne, North Rhine-Westphalia, Germany",
+        "Mall at Short Hills, Millburn, NJ (10043)",
+        "Roma, Rome, Italy",
+        "Bethesda, Maryland, United States",
+        "SoHo, New York, NY (10004)",
+        "Forum Shops at Ceasars, Las Vegas, NV (10063)",
+        "Dublin, Dublin, Ireland"
       ],
       "jobs": [
         {
@@ -360,6 +360,16 @@
           "seniority": "manager"
         },
         {
+          "id": "5835533004",
+          "title": "Assistant Store Manager - Via Del Babiuno, Rome ",
+          "location": "Roma, Rome, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5835533004?gh_jid=5835533004",
+          "posted_at": "2026-07-20T06:55:56-04:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
           "id": "6103827004",
           "title": "Assistant Store Manager (Visual) - Domkloster, Cologne",
           "location": "Cologne, North Rhine-Westphalia, Germany",
@@ -417,6 +427,16 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6018856004?gh_jid=6018856004",
           "posted_at": "2026-07-10T16:59:37-04:00",
           "category": "other",
+          "seniority": "junior"
+        },
+        {
+          "id": "6098225004",
+          "title": "Associate Product Developer, Accessories",
+          "location": "Commerce, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6098225004?gh_jid=6098225004",
+          "posted_at": "2026-07-20T13:50:07-04:00",
+          "category": "engineering",
           "seniority": "junior"
         },
         {
@@ -528,57 +548,38 @@
           "posted_at": "2026-07-10T16:59:37-04:00",
           "category": "finance",
           "seniority": "c-suite"
-        },
-        {
-          "id": "5589948004",
-          "title": "Director of Corporate Systems, ERP",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5589948004?gh_jid=5589948004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "5665595004",
-          "title": "Director of Cybersecurity",
-          "location": "Beverly Hills, California, United States; San Ramon, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5665595004?gh_jid=5665595004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-20T05:30:07.908333"
+      "checked_at": "2026-07-21T05:30:10.027079"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 17,
-      "change_from_last": 0,
+      "total_jobs": 18,
+      "change_from_last": 1,
       "departments": {
         "other": 6,
         "marketing": 1,
-        "operations": 2,
+        "operations": 3,
         "engineering": 5,
         "retail": 3
       },
       "seniority": {
         "manager": 8,
-        "lead": 2,
+        "lead": 3,
         "mid": 4,
-        "junior": 2,
-        "senior": 1
+        "senior": 2,
+        "junior": 1
       },
       "locations": [
         "Ho Chi Minh City, Ho Chi Minh, Vietnam",
+        "Cairo, Egypt",
         "Solihull, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
+        "New York; New York, New York, United States; New York, New York, United States",
         "London",
-        "Cairo, Egypt",
-        "New York, New York, United States",
-        "New York; New York, New York, United States; New York, New York, United States"
+        "UK",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -652,6 +653,16 @@
           "seniority": "lead"
         },
         {
+          "id": "4932320101",
+          "title": "Operations Floor Lead - London",
+          "location": "UK",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4932320101",
+          "posted_at": "2026-07-20T15:44:45-04:00",
+          "category": "operations",
+          "seniority": "lead"
+        },
+        {
           "id": "4904621101",
           "title": "Operations Team Member - Part Time - Flagship store, New York City",
           "location": "New York, New York, United States",
@@ -712,14 +723,14 @@
           "seniority": "manager"
         },
         {
-          "id": "4909914101",
-          "title": "Sales Associate - Amsterdam - Full Time",
-          "location": "Amsterdam, North Holland, Netherlands",
+          "id": "4933275101",
+          "title": "Retail Operations - Senior Manager",
+          "location": "New York, New York, United States",
           "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4909914101",
-          "posted_at": "2026-07-14T07:15:24-04:00",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4933275101",
+          "posted_at": "2026-07-21T03:57:33-04:00",
           "category": "retail",
-          "seniority": "junior"
+          "seniority": "senior"
         },
         {
           "id": "4922572101",
@@ -752,7 +763,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-07-20T05:30:10.086779"
+      "checked_at": "2026-07-21T05:30:12.176702"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -810,48 +821,48 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 298,
-      "change_from_last": -1,
+      "total_jobs": 301,
+      "change_from_last": 3,
       "departments": {
-        "engineering": 40,
+        "engineering": 38,
         "other": 62,
-        "retail": 131,
-        "marketing": 19,
+        "retail": 134,
+        "marketing": 20,
         "product": 6,
-        "operations": 7,
+        "operations": 9,
         "executive": 12,
-        "design": 18,
+        "design": 17,
         "finance": 3
       },
       "seniority": {
-        "mid": 78,
-        "lead": 162,
+        "mid": 76,
+        "lead": 168,
         "c-suite": 15,
         "intern": 3,
         "manager": 1,
-        "senior": 39
+        "senior": 38
       },
       "locations": [
-        "Montreal; Toronto; Vancouver",
+        "Shenzhen",
+        "Los Angeles",
         "Seoul",
-        "Madrid",
-        "Chicago",
-        "Wuhan",
-        "Berlin; Zurich",
-        "Tokyo",
-        "Boston",
+        "Dallas",
+        "Atlanta; Locust Grove; New York City",
+        "Portland",
         "Cirebon",
-        "Beijing",
-        "Paris",
-        "San Francisco",
-        "Palo Alto",
-        "Zurich",
-        "Milan",
-        "Newport Beach",
-        "Tianjin",
-        "Nanjing",
+        "London; Zurich",
         "Macao",
-        "Montreal"
+        "Miami",
+        "Shanghai",
+        "London",
+        "Tokyo",
+        "Montreal",
+        "Tianjin",
+        "Vienna",
+        "Hanoi",
+        "Las Vegas",
+        "Berlin; Zurich",
+        "Nanjing"
       ],
       "jobs": [
         {
@@ -1290,7 +1301,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8053058?gh_jid=8053058",
-          "posted_at": "2026-07-14T17:21:35-04:00",
+          "posted_at": "2026-07-20T09:05:34-04:00",
           "category": "product",
           "seniority": "lead"
         },
@@ -1355,8 +1366,8 @@
           "seniority": "intern"
         }
       ],
-      "checked_at": "2026-07-20T05:30:21.424403"
+      "checked_at": "2026-07-21T05:30:34.505339"
     }
   },
-  "generated_at": "2026-07-20T05:30:23.424569"
+  "generated_at": "2026-07-21T05:30:36.505528"
 }
