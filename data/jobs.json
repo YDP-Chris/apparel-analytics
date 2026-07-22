@@ -3,62 +3,52 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 731,
-      "change_from_last": 1,
+      "total_jobs": 724,
+      "change_from_last": -7,
       "departments": {
-        "engineering": 20,
-        "design": 94,
-        "operations": 192,
+        "design": 93,
+        "operations": 189,
         "finance": 6,
         "other": 150,
-        "retail": 248,
+        "retail": 247,
+        "engineering": 18,
         "marketing": 8,
         "executive": 8,
         "product": 2,
         "hr": 3
       },
       "seniority": {
-        "mid": 22,
-        "junior": 338,
-        "manager": 177,
-        "c-suite": 21,
+        "junior": 333,
+        "manager": 179,
+        "mid": 21,
+        "c-suite": 20,
         "intern": 4,
-        "lead": 152,
-        "senior": 17
+        "lead": 151,
+        "senior": 16
       },
       "locations": [
-        "Oklahoma City, Oklahoma, United States",
-        "Huntington Station, New York, United States",
-        "Upper East Side, New York, NY (10009)",
-        "Westfarms Mall, West Hartford, CT (10062)",
-        "Bondi Junction, Bondi Junction (50094)",
-        "Century City, Los Angeles, CA (10101)",
-        "Ardmore, Pennsylvania, United States",
-        "Kings Road, London (50013)",
+        "Country Club Plaza, Kansas City, MO (10174)",
+        "Town Center Boca Raton, Boca Raton, FL (10090)",
+        "Houston Galleria, Houston, TX (10037)",
+        "Lynnfield, Massachusetts, United States",
+        "Plaza at Frotenac, St. Louis, MO (10051)",
+        "Shrewsbury, New Jersey, United States",
+        "Durham, North Carolina, United States",
+        "Greenwich, Connecticut, United States",
+        "Walnut Street, Philadelphia, PA (10058)",
+        "Frisco, Texas, United States",
         "Alys Beach, Florida, United States",
         "The Gardens Mall, Palm Beach Gardens, FL (10036)",
+        "St. Johns Town Center, Jacksonville, FL (10060)",
+        "Bridgewater, New Jersey, United States",
+        "Charleston, South Carolina, United States",
+        "Memphis, Tennessee, United States",
         "Dallas Galleria, Dallas, TX (10154)",
-        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
-        "Amherst, New York, United States",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Mall at Short Hills, Millburn, NJ (10043)",
-        "Roma, Rome, Italy",
-        "Bethesda, Maryland, United States",
-        "SoHo, New York, NY (10004)",
-        "Forum Shops at Ceasars, Las Vegas, NV (10063)",
-        "Dublin, Dublin, Ireland"
+        "Vail Village, Vail, CO (10167)",
+        "San Luis Obispo, California, United States",
+        "Perimeter Mall, Atlanta, GA (10176)"
       ],
       "jobs": [
-        {
-          "id": "5802355004",
-          "title": "3D Tech Designer",
-          "location": "Commerce, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5802355004?gh_jid=5802355004",
-          "posted_at": "2026-07-16T14:26:43-04:00",
-          "category": "engineering",
-          "seniority": "mid"
-        },
         {
           "id": "5789952004",
           "title": "3D Visualization Associate ",
@@ -185,26 +175,6 @@
           "location": "Hong Kong",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6109177004?gh_jid=6109177004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
-          "id": "5840441004",
-          "title": "Assistant Store Manager_Hyundai Mokdong",
-          "location": "Hyundai Mokdong, Seoul (50114)",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5840441004?gh_jid=5840441004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
-          "id": "5840446004",
-          "title": "Assistant Store Manager_Hyundai Pangyo",
-          "location": "Seoul, Seoul, South Korea",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5840446004?gh_jid=5840446004",
           "posted_at": "2026-07-10T16:59:37-04:00",
           "category": "retail",
           "seniority": "manager"
@@ -420,6 +390,16 @@
           "seniority": "manager"
         },
         {
+          "id": "6121152004",
+          "title": "Assistant Store Manager (Visual) - Wolvenstraat, Amsterdam",
+          "location": "Wolvenstraat 9 Streets, Amsterdam (50069)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6121152004?gh_jid=6121152004",
+          "posted_at": "2026-07-21T09:08:57-04:00",
+          "category": "design",
+          "seniority": "manager"
+        },
+        {
           "id": "6018856004",
           "title": "Associate Merchandise Planner",
           "location": "Beverly Hills, California, United States",
@@ -535,7 +515,7 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5840053004?gh_jid=5840053004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
+          "posted_at": "2026-07-21T17:26:28-04:00",
           "category": "retail",
           "seniority": "c-suite"
         },
@@ -548,38 +528,57 @@
           "posted_at": "2026-07-10T16:59:37-04:00",
           "category": "finance",
           "seniority": "c-suite"
+        },
+        {
+          "id": "5589948004",
+          "title": "Director of Corporate Systems, ERP",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5589948004?gh_jid=5589948004",
+          "posted_at": "2026-07-10T16:59:37-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "5665595004",
+          "title": "Director of Cybersecurity",
+          "location": "Beverly Hills, California, United States; San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5665595004?gh_jid=5665595004",
+          "posted_at": "2026-07-10T16:59:37-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-21T05:30:10.027079"
+      "checked_at": "2026-07-22T05:30:09.781496"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 18,
-      "change_from_last": 1,
+      "total_jobs": 17,
+      "change_from_last": -1,
       "departments": {
-        "other": 6,
+        "other": 5,
         "marketing": 1,
         "operations": 3,
         "engineering": 5,
         "retail": 3
       },
       "seniority": {
-        "manager": 8,
+        "manager": 7,
         "lead": 3,
         "mid": 4,
         "senior": 2,
         "junior": 1
       },
       "locations": [
-        "Ho Chi Minh City, Ho Chi Minh, Vietnam",
-        "Cairo, Egypt",
         "Solihull, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands",
-        "New York; New York, New York, United States; New York, New York, United States",
+        "New York, New York, United States",
         "London",
         "UK",
-        "New York, New York, United States"
+        "New York; New York, New York, United States; New York, New York, United States",
+        "Ho Chi Minh City, Ho Chi Minh, Vietnam",
+        "Amsterdam, North Holland, Netherlands"
       ],
       "jobs": [
         {
@@ -713,22 +712,12 @@
           "seniority": "manager"
         },
         {
-          "id": "4927286101",
-          "title": "Regional QA Manager",
-          "location": "Cairo, Egypt",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4927286101",
-          "posted_at": "2026-07-14T07:24:30-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "4933275101",
           "title": "Retail Operations - Senior Manager",
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4933275101",
-          "posted_at": "2026-07-21T03:57:33-04:00",
+          "posted_at": "2026-07-21T11:45:17-04:00",
           "category": "retail",
           "seniority": "senior"
         },
@@ -763,7 +752,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-07-21T05:30:12.176702"
+      "checked_at": "2026-07-22T05:30:11.942051"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -821,48 +810,48 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 301,
-      "change_from_last": 3,
+      "total_jobs": 302,
+      "change_from_last": 1,
       "departments": {
         "engineering": 38,
-        "other": 62,
-        "retail": 134,
+        "other": 59,
+        "retail": 137,
         "marketing": 20,
-        "product": 6,
+        "product": 7,
         "operations": 9,
         "executive": 12,
         "design": 17,
         "finance": 3
       },
       "seniority": {
-        "mid": 76,
-        "lead": 168,
+        "mid": 78,
+        "lead": 169,
         "c-suite": 15,
         "intern": 3,
         "manager": 1,
-        "senior": 38
+        "senior": 36
       },
       "locations": [
-        "Shenzhen",
-        "Los Angeles",
+        "Central Valley",
+        "Chengdu",
+        "London",
+        "Melbourne",
         "Seoul",
-        "Dallas",
-        "Atlanta; Locust Grove; New York City",
-        "Portland",
-        "Cirebon",
-        "London; Zurich",
+        "Brooklyn",
+        "Madrid",
+        "Busan",
+        "Ho Chi Minh City",
         "Macao",
+        "New York City",
+        "Aventura",
+        "Montreal; Toronto; Vancouver",
+        "Atlanta; Locust Grove; New York City",
+        "Berlin; Zurich",
+        "Guangzhou",
         "Miami",
         "Shanghai",
-        "London",
-        "Tokyo",
-        "Montreal",
-        "Tianjin",
-        "Vienna",
-        "Hanoi",
-        "Las Vegas",
-        "Berlin; Zurich",
-        "Nanjing"
+        "Palo Alto",
+        "Dallas"
       ],
       "jobs": [
         {
@@ -1296,16 +1285,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8053058",
-          "title": "Head of Merchandising Planning, EMEA",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8053058?gh_jid=8053058",
-          "posted_at": "2026-07-20T09:05:34-04:00",
-          "category": "product",
-          "seniority": "lead"
-        },
-        {
           "id": "7857798",
           "title": "Head of Product Development | Accessories",
           "location": "Zurich",
@@ -1364,10 +1343,20 @@
           "posted_at": "2026-07-14T17:21:35-04:00",
           "category": "other",
           "seniority": "intern"
+        },
+        {
+          "id": "8048430",
+          "title": "Intern Software Engineer - Product Technology",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8048430?gh_jid=8048430",
+          "posted_at": "2026-07-17T09:50:25-04:00",
+          "category": "engineering",
+          "seniority": "intern"
         }
       ],
-      "checked_at": "2026-07-21T05:30:34.505339"
+      "checked_at": "2026-07-22T05:30:21.265952"
     }
   },
-  "generated_at": "2026-07-21T05:30:36.505528"
+  "generated_at": "2026-07-22T05:30:23.266111"
 }

@@ -3,24 +3,24 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4215,
+      "total": 4219,
       "categories": {
         "bottoms": 2003,
-        "tops": 662,
+        "tops": 663,
         "outerwear": 546,
-        "other": 593,
+        "other": 595,
         "sports_bras": 134,
         "footwear": 18,
-        "accessories": 216,
+        "accessories": 217,
         "dresses": 43
       },
       "subcategories": {
         "joggers": 161,
         "shorts": 757,
         "tanks": 219,
-        "tees": 225,
+        "tees": 226,
         "leggings": 183,
-        "other": 1248,
+        "other": 1250,
         "pants": 406,
         "pullovers": 6,
         "polos": 55,
@@ -36,7 +36,7 @@
         "tennis_dress": 7,
         "casual_dress": 23,
         "sweatpants": 119,
-        "bags": 9,
+        "bags": 10,
         "socks": 80,
         "headwear": 19,
         "rompers": 13,
@@ -44,17 +44,17 @@
       },
       "genders": {
         "mens": 1564,
-        "womens": 1927,
-        "unisex": 724
+        "womens": 1930,
+        "unisex": 725
       },
       "colors": {
-        "gray": 572,
+        "gray": 573,
         "navy": 107,
-        "black": 802,
+        "black": 803,
         "khaki": 211,
         "red": 51,
-        "white": 399,
-        "blue": 556,
+        "white": 400,
+        "blue": 557,
         "green": 213,
         "brown": 190,
         "print": 37,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 85.5,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2400
+      "uniqueStyles": 2401
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -309,26 +309,26 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 9293,
+      "total": 9303,
       "categories": {
-        "bottoms": 3371,
-        "tops": 2982,
+        "bottoms": 3375,
+        "tops": 2986,
         "other": 671,
         "accessories": 544,
-        "outerwear": 921,
+        "outerwear": 923,
         "sports_bras": 798,
         "dresses": 6
       },
       "subcategories": {
-        "shorts": 1378,
-        "leggings": 805,
-        "crop_tops": 172,
-        "other": 3106,
+        "shorts": 1380,
+        "leggings": 807,
+        "crop_tops": 174,
+        "other": 3108,
         "long_sleeve": 504,
         "socks": 222,
         "tanks": 832,
         "joggers": 561,
-        "hoodies": 537,
+        "hoodies": 539,
         "jackets": 196,
         "pants": 326,
         "pullovers": 142,
@@ -347,21 +347,21 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4215,
-        "womens": 3183,
-        "mens": 1895
+        "unisex": 4219,
+        "womens": 3185,
+        "mens": 1899
       },
       "colors": {
-        "green": 473,
-        "pink": 729,
+        "green": 475,
+        "pink": 731,
         "black": 2194,
         "white": 710,
-        "navy": 70,
+        "navy": 72,
         "gray": 1131,
-        "brown": 646,
+        "brown": 648,
         "blue": 1486,
         "red": 327,
-        "purple": 517,
+        "purple": 519,
         "yellow": 74,
         "orange": 52,
         "khaki": 2,
@@ -369,37 +369,37 @@
       },
       "colorCoverage": 90.7,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 2461
+      "uniqueStyles": 2466
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10029,
+      "total": 10035,
       "categories": {
         "bottoms": 1653,
         "tops": 657,
         "accessories": 721,
         "sports_bras": 189,
-        "other": 2904,
-        "footwear": 2976,
-        "outerwear": 903,
+        "other": 2905,
+        "footwear": 2978,
+        "outerwear": 906,
         "dresses": 26
       },
       "subcategories": {
         "shorts": 733,
         "leggings": 410,
-        "other": 3285,
+        "other": 3286,
         "hats": 237,
         "crop_tops": 202,
         "pants": 401,
-        "running": 2754,
+        "running": 2756,
         "tanks": 308,
-        "jackets": 432,
+        "jackets": 434,
         "joggers": 27,
         "casual_dress": 26,
         "socks": 441,
         "vests": 68,
-        "hoodies": 332,
+        "hoodies": 333,
         "skirts": 41,
         "sweatpants": 36,
         "lifestyle": 217,
@@ -412,16 +412,16 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4753,
-        "mens": 4173,
-        "unisex": 1103
+        "womens": 4756,
+        "mens": 4174,
+        "unisex": 1105
       },
       "colors": {
         "blue": 817,
         "red": 231,
         "black": 1560,
         "purple": 188,
-        "navy": 305,
+        "navy": 307,
         "khaki": 211,
         "gray": 331,
         "yellow": 84,
@@ -430,7 +430,7 @@
         "green": 285,
         "orange": 79,
         "heather": 33,
-        "brown": 82,
+        "brown": 83,
         "rust": 44,
         "camo": 6
       },
@@ -651,12 +651,156 @@
     }
   },
   "totals": {
-    "products": 38174,
+    "products": 38194,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-07-22",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 4,
+      "products": [
+        {
+          "name": "vuori gym bag 2 0 bay",
+          "url": "https://vuoriclothing.com/products/vuori-gym-bag-2-0-bay-blue",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "everyday cotton stretch fitted tee",
+          "url": "https://vuoriclothing.com/products/womens-everyday-cotton-stretch-fitted-tee-black",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo modern crew",
+          "url": "https://vuoriclothing.com/products/womens-halo-modern-crew-ecru-heather",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "halo modern crew",
+          "url": "https://vuoriclothing.com/products/womens-halo-modern-crew-pale-grey-heather",
+          "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 10,
+      "products": [
+        {
+          "name": "gymshark training cropped hoodie desert sage",
+          "url": "https://www.gymshark.com/products/gymshark-training-cropped-hoodie-desert-sage-green-ss23",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark block oversized t shirt sunset",
+          "url": "https://www.gymshark.com/products/gymshark-block-oversized-t-shirt-sunset-pink-aw24",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training cropped hoodie desert sage",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-cropped-hoodie-desert-sage-green-ss23",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark block oversized t shirt sunset",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-block-oversized-t-shirt-sunset-pink-aw24",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark speed leggings",
+          "url": "https://www.gymshark.com/products/gymshark-speed-leggings-navy-ss22",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark crest hoodie cherry",
+          "url": "https://www.gymshark.com/products/gymshark-crest-hoodie-cherry-brown-aw22",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark arrival 5 shorts cobalt",
+          "url": "https://www.gymshark.com/products/gymshark-arrival-5-shorts-cobalt-purple-aw23",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark speed leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-speed-leggings-navy-ss22",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark crest hoodie cherry",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-hoodie-cherry-brown-aw22",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark arrival 5 shorts cobalt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-arrival-5-shorts-cobalt-purple-aw23",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 6,
+      "products": [
+        {
+          "name": "performance volt jacket w",
+          "url": "https://www.on.com/en-us/products/performance-volt-jacket-w-1wg3073/womens/espresso-apparel-1WG30734959",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloud play 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-play-2-u-3kg3001/unisex/midnight-nectarine-shoes-3KG30016069",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloud sky 2 u",
+          "url": "https://www.on.com/en-us/products/cloud-sky-2-u-3yg3001/unisex/midnight-wolf-shoes-3YG30016067",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "court t edit m",
+          "url": "https://www.on.com/en-us/products/court-t-edit-m-1mg3149/mens/inkwell-apparel-1MG31495495",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "performance volt jacket w 1wg3073",
+          "url": "https://www.on.com/en-us/products/performance-volt-jacket-w-1wg3073/womens",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "focus tech hoodie w",
+          "url": "https://www.on.com/en-us/products/focus-tech-hoodie-w-1wf3036/womens/flurry-apparel-1WF30364975",
+          "category": "outerwear",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-07-20",
       "brand": "On Running",
@@ -5094,1074 +5238,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-07-07",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 201,
-      "products": [
-        {
-          "name": "outdoor trainer shell azure texture",
-          "url": "https://vuoriclothing.com/products/outdoor-trainer-shell-azure-linen-texture",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside straight leg sweatpant 30 light",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-30-light-heather-grey",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "halo triangle bra",
-          "url": "https://vuoriclothing.com/products/womens-halo-triangle-bra-khaki-heather",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "halo mini full zip hoodie",
-          "url": "https://vuoriclothing.com/products/womens-halo-mini-full-zip-hoodie-khaki-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "halo mini full zip hoodie long",
-          "url": "https://vuoriclothing.com/products/womens-halo-mini-full-zip-hoodie-long-khaki-heather",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential wideleg pant long",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-wideleg-pant-long-khaki-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential wideleg pant short",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-wideleg-pant-short-khaki-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "halo essential wideleg pant",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-wideleg-pant-khaki-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "strato tech tee sour",
-          "url": "https://vuoriclothing.com/products/strato-tech-tee-sour-cherry-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "tuvalu tee salty air",
-          "url": "https://vuoriclothing.com/products/tuvalu-tee-salty-air",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance tee",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-tee-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance tee golden",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-tee-golden-brown-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance tee light",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-tee-light-heather-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance tee foggy",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-tee-foggy-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve vuori heavyweight tee relaxed fit golden garment dye",
-          "url": "https://vuoriclothing.com/products/short-sleeve-vuori-heavyweight-tee-relaxed-fit-golden-brown-garment-dye",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve vuori heavyweight tee relaxed fit garment dye",
-          "url": "https://vuoriclothing.com/products/short-sleeve-vuori-heavyweight-tee-relaxed-fit-oregano-garment-dye",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve vuori heavyweight tee relaxed fit sour garment dye",
-          "url": "https://vuoriclothing.com/products/short-sleeve-vuori-heavyweight-tee-relaxed-fit-sour-cherry-garment-dye",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve vuori heavyweight tee relaxed fit raindrop garment dye",
-          "url": "https://vuoriclothing.com/products/short-sleeve-vuori-heavyweight-tee-relaxed-fit-raindrop-garment-dye",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve ponto performance polo light",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-polo-light-heather-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato breathe tee",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-breathe-tee-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato breathe tee boysenberry",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-breathe-tee-boysenberry",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato breathe tee breeze",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-breathe-tee-breeze",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato breathe tee isle",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-breathe-tee-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve strato breathe tee",
-          "url": "https://vuoriclothing.com/products/long-sleeve-strato-breathe-tee-black",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve strato breathe tee breeze",
-          "url": "https://vuoriclothing.com/products/long-sleeve-strato-breathe-tee-breeze",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve strato breathe tee isle",
-          "url": "https://vuoriclothing.com/products/long-sleeve-strato-breathe-tee-isle-blue",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve lightweight tech waffle tee relaxed fit waterfall",
-          "url": "https://vuoriclothing.com/products/short-sleeve-lightweight-tech-waffle-tee-relaxed-fit-waterfall",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato tech tee contrast golden",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-tech-tee-contrast-golden-brown-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato tech tee contrast",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-tech-tee-contrast-heather-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve strato tech tee contrast waterfall",
-          "url": "https://vuoriclothing.com/products/short-sleeve-strato-tech-tee-contrast-waterfall-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sleeveless strato breathe tank",
-          "url": "https://vuoriclothing.com/products/sleeveless-strato-breathe-tank-black",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "sleeveless strato breathe tank boysenberry",
-          "url": "https://vuoriclothing.com/products/sleeveless-strato-breathe-tank-boysenberry",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "sleeveless strato breathe tank breeze",
-          "url": "https://vuoriclothing.com/products/sleeveless-strato-breathe-tank-breeze",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve heavyweight cotton graphic tee isle",
-          "url": "https://vuoriclothing.com/products/short-sleeve-heavyweight-cotton-graphic-tee-isle-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve heavyweight cotton graphic tee",
-          "url": "https://vuoriclothing.com/products/short-sleeve-heavyweight-cotton-graphic-tee-ivory",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve bridge button down relaxed fit salt marina",
-          "url": "https://vuoriclothing.com/products/short-sleeve-bridge-button-down-relaxed-fit-salt-marina-stripe",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve bridge button down relaxed fit natural pinstripe",
-          "url": "https://vuoriclothing.com/products/short-sleeve-bridge-button-down-relaxed-fit-natural-pinstripe",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "short sleeve bridge button down relaxed fit white dune",
-          "url": "https://vuoriclothing.com/products/short-sleeve-bridge-button-down-relaxed-fit-white-dune-stripe",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "strato tech tee golden",
-          "url": "https://vuoriclothing.com/products/strato-tech-tee-golden-brown-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "ace polo raindrop",
-          "url": "https://vuoriclothing.com/products/ace-polo-raindrop",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "current tech tee boysenberry",
-          "url": "https://vuoriclothing.com/products/current-tech-tee-boysenberry",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "current tech tee breeze",
-          "url": "https://vuoriclothing.com/products/current-tech-tee-breeze",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "current tech tee sour",
-          "url": "https://vuoriclothing.com/products/current-tech-tee-sour-cherry",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto half zip mock neck",
-          "url": "https://vuoriclothing.com/products/ponto-half-zip-mock-neck-black",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto half zip mock neck bay",
-          "url": "https://vuoriclothing.com/products/ponto-half-zip-mock-neck-bay-blue-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "beach fleece crew",
-          "url": "https://vuoriclothing.com/products/beach-fleece-crew-dark-pewter-heather",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "beach fleece crew raindrop",
-          "url": "https://vuoriclothing.com/products/beach-fleece-crew-raindrop-heather",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ponto full zip hoodie boysenberry",
-          "url": "https://vuoriclothing.com/products/ponto-full-zip-hoodie-boysenberry-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "beach fleece pullover hoodie raindrop",
-          "url": "https://vuoriclothing.com/products/beach-fleece-pullover-hoodie-raindrop-heather",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ponto pullover hoodie",
-          "url": "https://vuoriclothing.com/products/ponto-pullover-hoodie-grey-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto pullover hoodie",
-          "url": "https://vuoriclothing.com/products/ponto-pullover-hoodie-black-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto pullover hoodie foggy",
-          "url": "https://vuoriclothing.com/products/ponto-pullover-hoodie-foggy-blue-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle shirt jacket",
-          "url": "https://vuoriclothing.com/products/tech-waffle-shirt-jacket-black",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle shirt jacket",
-          "url": "https://vuoriclothing.com/products/tech-waffle-shirt-jacket-dark-salt",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle shirt jacket",
-          "url": "https://vuoriclothing.com/products/tech-waffle-shirt-jacket-ink",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle crew",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-black",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "maverick volley short",
-          "url": "https://vuoriclothing.com/products/maverick-volley-short-navy",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 7 breeze bondi",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-breeze-bondi",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 7 isle",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 5",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-5-charcoal",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 5 isle",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-5-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 5 boysenberry bondi",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-5-boysenberry-bondi",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "seaside short 8 buttermilk",
-          "url": "https://vuoriclothing.com/products/seaside-short-8-buttermilk-heather",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "kore short unlined 9",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-9-charcoal",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 7",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-7-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 7 boysenberry",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-7-boysenberry",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 7 breeze",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-7-breeze",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 7 isle",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-7-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 5",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-5-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 5 breeze",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-5-breeze",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore breathe short lined 5 isle",
-          "url": "https://vuoriclothing.com/products/kore-breathe-short-lined-5-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 5",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-5-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 5 boysenberry texture",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-5-boysenberry-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks session short unlined 5 black riptide",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-5-black-riptide-camo",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday track short 6 bay",
-          "url": "https://vuoriclothing.com/products/sunday-track-short-6-bay-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday track short 6",
-          "url": "https://vuoriclothing.com/products/sunday-track-short-6-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday track short 6 frost",
-          "url": "https://vuoriclothing.com/products/sunday-track-short-6-frost-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x4 unlined 7",
-          "url": "https://vuoriclothing.com/products/kore-short-x4-unlined-7-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x4 unlined 7 isle blue",
-          "url": "https://vuoriclothing.com/products/kore-short-x4-unlined-7-isle-blue-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "banks short 7 breeze texture",
-          "url": "https://vuoriclothing.com/products/banks-short-7-breeze-linen-texture",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto performance short 7 bay",
-          "url": "https://vuoriclothing.com/products/ponto-performance-short-7-bay-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto performance short 7",
-          "url": "https://vuoriclothing.com/products/ponto-performance-short-7-ecru-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto performance short 7 foggy",
-          "url": "https://vuoriclothing.com/products/ponto-performance-short-7-foggy-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 5 breeze bondi",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-5-breeze-bondi",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 5 isle",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-5-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 7 breeze bondi",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-7-breeze-bondi",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 7 isle",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-7-isle-blue",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 9",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-9-charcoal",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 9 boysenberry bondi",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-9-boysenberry-bondi",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori vintage jean classic fit 32 natural",
-          "url": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-natural-denim",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori vintage jean classic fit 30 natural",
-          "url": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-30-natural-denim",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori meta trouser classic fit 32",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-32-dark-pewter",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser classic fit 32",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-32-ink",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser classic fit 30",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-30-dark-pewter",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser classic fit 30",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-30-ink",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser classic fit 34",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-34-ink",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser athletic slim fit 32",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-athletic-slim-fit-32-dark-pewter",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser athletic slim fit 32",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-athletic-slim-fit-32-ink",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser athletic slim fit 30",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-athletic-slim-fit-30-dark-pewter",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser athletic slim fit 30",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-athletic-slim-fit-30-ink",
-          "category": "other",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 19,
-      "products": [
-        {
-          "name": "gymshark pump straight leg pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-pump-straight-leg-pant-pants-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pump straight leg pant pants ss26 b6b9a bb2j",
-          "url": "https://www.gymshark.com/products/gymshark-pump-straight-leg-pant-pants-black-ss26-b6b9a-bb2j",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pump straight leg pant pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pump-straight-leg-pant-pants-purple-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pump straight leg pant pants ss26 b6b9a bb2j",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pump-straight-leg-pant-pants-black-ss26-b6b9a-bb2j",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal seamless leggings wild musk",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-seamless-leggings-wild-musk-lilac-aw22",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark built graphic joggers stone",
-          "url": "https://www.gymshark.com/products/gymshark-built-graphic-joggers-stone-grey-aw23",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collegiate oversized tote bags",
-          "url": "https://www.gymshark.com/products/gymshark-collegiate-oversized-tote-bags-blue-ss25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal seamless leggings wild musk",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-seamless-leggings-wild-musk-lilac-aw22",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark built graphic joggers stone",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-built-graphic-joggers-stone-grey-aw23",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-2-0-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-2-0-sports-bras-brown-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-2-0-sports-bras-yellow-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-2-0-sports-bras-white-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-2-0-sports-bras-pink-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-2-0-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-2-0-sports-bras-brown-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-2-0-sports-bras-yellow-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-2-0-sports-bras-white-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal sports bra 2 0 sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-2-0-sports-bras-pink-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 6,
-      "products": [
-        {
-          "name": "all day cap u",
-          "url": "https://www.on.com/en-us/products/all-day-cap-u-2ug1010/unisex/biscuit-accessories-2UG10104934",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "courtside bomber w",
-          "url": "https://www.on.com/en-us/products/courtside-bomber-w-1wg3119/womens/glacier-apparel-1WG31190561",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "courtside polo terry w",
-          "url": "https://www.on.com/en-us/products/courtside-polo-terry-w-1wg3116/womens/chantilly-apparel-1WG31165413",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "studio bodysuit w",
-          "url": "https://www.on.com/en-us/products/studio-bodysuit-w-1wg3125/womens/black-apparel-1WG31250553",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "studio bra w",
-          "url": "https://www.on.com/en-us/products/studio-bra-w-1wg3187/womens/white-apparel-1WG31870069",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "studio racerback bra w",
-          "url": "https://www.on.com/en-us/products/studio-racerback-bra-w-1wg3062/womens/ember-apparel-1WG30624989",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "brand": "Outdoor Voices",
-      "brandSlug": "outdoor_voices",
-      "count": 2,
-      "products": [
-        {
-          "name": "w orbit bra guava",
-          "url": "https://www.outdoorvoices.com/products/w-orbit-bra-guava",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w orbit bra",
-          "url": "https://www.outdoorvoices.com/products/w-orbit-bra-sand",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 37,
-      "products": [
-        {
-          "name": "lightweight cap u",
-          "url": "https://www.on.com/en-us/products/lightweight-cap-u-2uf1033/unisex/bloom-accessories-2UF10334363",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "the roger wildcard w",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-w-3wg1032/womens/squash-dew-shoes-3WG10325198",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud 6 versa m",
-          "url": "https://www.on.com/en-us/products/cloud-6-versa-m-3mf1004/mens/silver-maroon-shoes-3MF10045432",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster 3 m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/ghost-glacier-shoes-3MG10055243",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster void m",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-m-3mg1091/mens/ember-ox-shoes-3MG10915366",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/ember-ox-shoes-3WG10815366",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster void w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-void-w-3wg1081/womens/ghost-pearl-shoes-3WG10815371",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudsurfer 2",
-          "url": "https://www.on.com/en-us/products/cloudsurfer-2-3mf1012/mens/surf-glacier-shoes-3MF10125167",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "core 1 4 zip w",
-          "url": "https://www.on.com/en-us/products/core-1-4-zip-w-1wg3079/womens/white-apparel-1WG30790069",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "core jacket m",
-          "url": "https://www.on.com/en-us/products/core-jacket-m-1me1033/mens/jay-eclipse-apparel-1ME10334963",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "core t w",
-          "url": "https://www.on.com/en-us/products/core-t-w-1we1058/womens/flurry-apparel-1WE10584975",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "focus tech zip hoodie w",
-          "url": "https://www.on.com/en-us/products/focus-tech-zip-hoodie-w-1wf3037/womens/desert-apparel-1WF30370603",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "lightweight cap u",
-          "url": "https://www.on.com/en-us/products/lightweight-cap-u-2uf1033/unisex/sandstone-accessories-2UF10332912",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "the roger advantage m",
-          "url": "https://www.on.com/en-us/products/the-roger-advantage-m-3mf3064/mens/white-wash-shoes-3MF30641443",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger advantage w",
-          "url": "https://www.on.com/en-us/products/the-roger-advantage-w-3wf3039/womens/white-flurry-shoes-3WF30395187",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger clubhouse",
-          "url": "https://www.on.com/en-us/products/the-roger-clubhouse-3mf1054/mens/ivory-olive-shoes-3MF10543427",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger clubhouse",
-          "url": "https://www.on.com/en-us/products/the-roger-clubhouse-3mf1054/mens/white-onyx-shoes-3MF10544311",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger clubhouse",
-          "url": "https://www.on.com/en-us/products/the-roger-clubhouse-3wf1043/womens/ivory-olive-shoes-3WF10433427",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger clubhouse",
-          "url": "https://www.on.com/en-us/products/the-roger-clubhouse-3wf1043/womens/white-onyx-shoes-3WF10434311",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger pro 3 clay m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-3-clay-m-3mg1080/mens/ivory-jay-shoes-3MG10805203",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro 3 clay w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-3-clay-w-3wg1073/womens/ivory-magnolia-shoes-3WG10736036",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger pro 3 m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-3-m-3mg1036/mens/brook-neem-shoes-3MG10365194",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro 3 m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-3-m-3mg1036/mens/glacier-celeste-shoes-3MG10366031",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro 3 w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-3-w-3wg1031/womens/ivory-wash-shoes-3WG10315153",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger pro 3 w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-3-w-3wg1031/womens/white-muscadine-shoes-3WG10316030",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger pro fire clay m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-clay-m-3mf3082/mens/storm-white-shoes-3MF30820041",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro fire clay w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-clay-w-3wf3059/womens/doe-white-shoes-3WF30591088",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger pro fire m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-m-3mf3010/mens/flurry-celeste-shoes-3MF30105165",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro fire m",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-m-3mf3010/mens/pearl-ivory-shoes-3MF30102143",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger pro fire w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-w-3wf3003/womens/grain-ivory-shoes-3WF30035224",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger pro fire w",
-          "url": "https://www.on.com/en-us/products/the-roger-pro-fire-w-3wf3003/womens/silver-white-shoes-3WF30032119",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger wildcard m",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-m-3mg1037/mens/black-white-shoes-3MG10370299",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger wildcard m",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-m-3mg1037/mens/fern-sage-shoes-3MG10376051",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger wildcard m",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-m-3mg1037/mens/glacier-ivory-shoes-3MG10373205",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger wildcard m",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-m-3mg1037/mens/ivory-sand-shoes-3MG10371217",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "the roger wildcard w",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-w-3wg1032/womens/black-white-shoes-3WG10320299",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "the roger wildcard w",
-          "url": "https://www.on.com/en-us/products/the-roger-wildcard-w-3wg1032/womens/dew-argil-shoes-3WG10325199",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 6,
-      "products": [
-        {
-          "name": "gymshark rest day essentials boxy t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-rest-day-essentials-boxy-t-shirt-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cross over sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-cross-over-sports-bra-sports-bras-blue-aw25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark rest day essentials boxy t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-essentials-boxy-t-shirt-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cross over sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cross-over-sports-bra-sports-bras-blue-aw25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark arrival marl t shirt weighted purple",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-marl-t-shirt-weighted-purple-white-marl-ss25",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark arrival marl t shirt weighted purple",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-arrival-marl-t-shirt-weighted-purple-white-marl-ss25",
-          "category": "tops",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6247,7 +5323,8 @@
       "2026-07-15": 8,
       "2026-07-16": 14,
       "2026-07-17": 14,
-      "2026-07-18": 4
+      "2026-07-18": 4,
+      "2026-07-22": 4
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -6556,7 +5633,8 @@
       "2026-07-14": 38,
       "2026-07-15": 88,
       "2026-07-16": 50,
-      "2026-07-17": 38
+      "2026-07-17": 38,
+      "2026-07-21": 10
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6580,7 +5658,8 @@
       "2026-07-08": 12,
       "2026-07-09": 4,
       "2026-07-16": 16,
-      "2026-07-20": 29
+      "2026-07-20": 29,
+      "2026-07-21": 6
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -6622,7 +5701,7 @@
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1804,
-      "gymshark": 3371,
+      "gymshark": 3375,
       "on_running": 1653,
       "gymreapers": 215,
       "sbd": 22,
@@ -6630,12 +5709,12 @@
       "bear_grips": 330
     },
     "tops": {
-      "vuori": 662,
+      "vuori": 663,
       "outdoor_voices": 74,
       "tenthousand": 39,
       "lululemon": 835,
       "alo": 574,
-      "gymshark": 2982,
+      "gymshark": 2986,
       "on_running": 657,
       "gymreapers": 230,
       "sbd": 67,
@@ -6648,21 +5727,21 @@
       "tenthousand": 18,
       "lululemon": 680,
       "alo": 686,
-      "gymshark": 921,
-      "on_running": 903,
+      "gymshark": 923,
+      "on_running": 906,
       "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 453
     },
     "other": {
-      "vuori": 593,
+      "vuori": 595,
       "outdoor_voices": 66,
       "tenthousand": 13,
       "lululemon": 917,
       "alo": 838,
       "gymshark": 671,
-      "on_running": 2904,
+      "on_running": 2905,
       "gymreapers": 315,
       "sbd": 78,
       "harbinger": 26,
@@ -6684,11 +5763,11 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 2976,
+      "on_running": 2978,
       "schiek": 1
     },
     "accessories": {
-      "vuori": 216,
+      "vuori": 217,
       "outdoor_voices": 49,
       "tenthousand": 3,
       "lululemon": 627,
@@ -6728,7 +5807,7 @@
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 423,
-      "gymshark": 1378,
+      "gymshark": 1380,
       "on_running": 733,
       "gymreapers": 142,
       "sbd": 15,
@@ -6747,7 +5826,7 @@
       "bear_grips": 472
     },
     "tees": {
-      "vuori": 225,
+      "vuori": 226,
       "outdoor_voices": 16,
       "tenthousand": 10,
       "lululemon": 22,
@@ -6762,19 +5841,19 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 368,
-      "gymshark": 805,
+      "gymshark": 807,
       "on_running": 410,
       "gymreapers": 42,
       "bear_grips": 32
     },
     "other": {
-      "vuori": 1248,
+      "vuori": 1250,
       "outdoor_voices": 182,
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1691,
-      "gymshark": 3106,
-      "on_running": 3285,
+      "gymshark": 3108,
+      "on_running": 3286,
       "gymreapers": 533,
       "sbd": 137,
       "harbinger": 55,
@@ -6820,7 +5899,7 @@
       "lululemon": 300,
       "alo": 188,
       "gymshark": 196,
-      "on_running": 432,
+      "on_running": 434,
       "gymreapers": 17,
       "bear_grips": 14
     },
@@ -6843,8 +5922,8 @@
       "tenthousand": 8,
       "lululemon": 139,
       "alo": 225,
-      "gymshark": 537,
-      "on_running": 332,
+      "gymshark": 539,
+      "on_running": 333,
       "gymreapers": 26,
       "sbd": 6,
       "schiek": 1,
@@ -6886,7 +5965,7 @@
       "outdoor_voices": 12,
       "lululemon": 96,
       "alo": 187,
-      "gymshark": 172,
+      "gymshark": 174,
       "on_running": 202,
       "gymreapers": 16,
       "sbd": 7,
@@ -6924,7 +6003,7 @@
       "bear_grips": 27
     },
     "bags": {
-      "vuori": 9,
+      "vuori": 10,
       "lululemon": 217,
       "alo": 1,
       "gymshark": 78,
@@ -6966,7 +6045,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2754
+      "on_running": 2756
     },
     "medium_support": {
       "lululemon": 21,
@@ -6996,7 +6075,7 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 572,
+      "vuori": 573,
       "outdoor_voices": 33,
       "alo": 504,
       "gymshark": 1131,
@@ -7009,13 +6088,13 @@
       "vuori": 107,
       "outdoor_voices": 46,
       "alo": 197,
-      "gymshark": 70,
-      "on_running": 305,
+      "gymshark": 72,
+      "on_running": 307,
       "gymreapers": 40,
       "sbd": 5
     },
     "black": {
-      "vuori": 802,
+      "vuori": 803,
       "outdoor_voices": 98,
       "alo": 1044,
       "gymshark": 2194,
@@ -7046,7 +6125,7 @@
       "harbinger": 2
     },
     "white": {
-      "vuori": 399,
+      "vuori": 400,
       "outdoor_voices": 30,
       "lululemon": 17,
       "alo": 930,
@@ -7058,7 +6137,7 @@
       "bear_grips": 2
     },
     "blue": {
-      "vuori": 556,
+      "vuori": 557,
       "outdoor_voices": 36,
       "lululemon": 8,
       "alo": 250,
@@ -7073,7 +6152,7 @@
       "outdoor_voices": 51,
       "lululemon": 4,
       "alo": 315,
-      "gymshark": 473,
+      "gymshark": 475,
       "on_running": 285,
       "gymreapers": 99,
       "sbd": 4
@@ -7082,8 +6161,8 @@
       "vuori": 190,
       "outdoor_voices": 2,
       "alo": 297,
-      "gymshark": 646,
-      "on_running": 82,
+      "gymshark": 648,
+      "on_running": 83,
       "gymreapers": 10,
       "schiek": 2,
       "bear_grips": 3
@@ -7105,7 +6184,7 @@
       "vuori": 103,
       "outdoor_voices": 10,
       "alo": 40,
-      "gymshark": 517,
+      "gymshark": 519,
       "on_running": 188,
       "gymreapers": 12,
       "sbd": 2
@@ -7134,7 +6213,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 242,
-      "gymshark": 729,
+      "gymshark": 731,
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
@@ -7166,12 +6245,12 @@
     {
       "brand": "On Running",
       "bottoms": 16.5,
-      "tops": 6.6,
+      "tops": 6.5,
       "outerwear": 9,
       "dresses": 0.3,
       "sports_bras": 1.9,
       "accessories": 7.2,
-      "other": 29
+      "other": 28.9
     },
     {
       "brand": "Gymshark",
@@ -7180,7 +6259,7 @@
       "outerwear": 9.9,
       "dresses": 0.1,
       "sports_bras": 8.6,
-      "accessories": 5.9,
+      "accessories": 5.8,
       "other": 7.2
     },
     {
@@ -7207,7 +6286,7 @@
       "brand": "Vuori",
       "bottoms": 47.5,
       "tops": 15.7,
-      "outerwear": 13,
+      "outerwear": 12.9,
       "dresses": 1,
       "sports_bras": 3.2,
       "accessories": 5.1,
@@ -7287,10 +6366,10 @@
   "colorMix": [
     {
       "brand": "On Running",
-      "black": 15.6,
+      "black": 15.5,
       "white": 15.9,
       "gray": 3.3,
-      "navy": 3,
+      "navy": 3.1,
       "blue": 8.1,
       "green": 2.8,
       "khaki": 2.1,
@@ -7313,7 +6392,7 @@
       "khaki": 0,
       "brown": 7,
       "purple": 5.6,
-      "pink": 7.8,
+      "pink": 7.9,
       "orange": 0.6,
       "red": 3.5,
       "yellow": 0.8,
@@ -7360,7 +6439,7 @@
       "gray": 13.6,
       "navy": 2.5,
       "blue": 13.2,
-      "green": 5.1,
+      "green": 5,
       "khaki": 5,
       "brown": 4.5,
       "purple": 2.4,
@@ -7535,7 +6614,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 757,
-      "text": "Vuori ranks #2 in shorts with 757 products. Behind Gymshark (1378)."
+      "text": "Vuori ranks #2 in shorts with 757 products. Behind Gymshark (1380)."
     },
     {
       "type": "comparison",
@@ -7570,7 +6649,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 2810 products"
+        "comparison": "Competitors have 2812 products"
       },
       {
         "metric": "Medium Support",
@@ -7626,7 +6705,7 @@
       },
       {
         "category": "Tees",
-        "vuori": 225,
+        "vuori": 226,
         "competitor": 22,
         "winner": "vuori"
       },
@@ -7638,7 +6717,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1927,
+        "vuori": 1930,
         "competitor": 1597,
         "winner": "vuori"
       }
@@ -7676,7 +6755,7 @@
       },
       {
         "category": "Tees",
-        "vuori": 225,
+        "vuori": 226,
         "competitor": 55,
         "winner": "vuori"
       },
@@ -7688,11 +6767,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 1927,
+        "vuori": 1930,
         "competitor": 1508,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-07-21T13:15:12.407Z"
+  "generated_at": "2026-07-22T13:15:13.836Z"
 }
