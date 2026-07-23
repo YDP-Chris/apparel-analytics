@@ -1,22 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "tenthousand:distance-tank",
-      "title": "Distance Tank",
-      "product_type": "Distance Tank",
-      "detected_at": "2026-04-23T11:25:02.399803",
-      "days_since_launch": 191,
-      "is_fast_sellout": false
-    },
-    {
-      "product_id": "tenthousand:al-pack-15l",
-      "title": "Training Pack 15L",
-      "product_type": "A\u2014L Pack 15L",
-      "detected_at": "2026-04-23T15:28:40.555290",
-      "days_since_launch": 191,
-      "is_fast_sellout": false
-    },
-    {
       "product_id": "outdoor_voices:w-pickup-organic-sweatpant-canvas",
       "title": "Pickup Organic Sweatpant",
       "product_type": "Pants",
@@ -722,15 +706,27 @@
       "detected_at": "2026-07-20T01:31:37.391094",
       "days_since_launch": 452,
       "is_fast_sellout": false
+    },
+    {
+      "product_id": "tenthousand:al-boxer",
+      "title": "A\u2014L Boxer",
+      "product_type": "A\u2014L Boxer",
+      "detected_at": "2026-07-22T16:43:30.127199",
+      "partial": true,
+      "old_pct": 75,
+      "new_pct": 43
+    },
+    {
+      "product_id": "tenthousand:compression-short",
+      "title": "Compression Short",
+      "product_type": "Compression Short",
+      "detected_at": "2026-07-22T16:43:30.127220",
+      "partial": true,
+      "old_pct": 100,
+      "new_pct": 50
     }
   ],
   "restocks": [
-    {
-      "product_id": "outdoor_voices:w-relay-3in-short-ov-blue",
-      "title": "Relay 3\" Short",
-      "product_type": "Shorts",
-      "detected_at": "2026-04-23T15:28:42.517819"
-    },
     {
       "product_id": "tenthousand:distance-tank",
       "title": "Distance Tank",
@@ -1072,6 +1068,12 @@
       "title": "High Stride 7\" Short with Pockets",
       "product_type": "Shorts",
       "detected_at": "2026-07-16T15:05:36.858068"
+    },
+    {
+      "product_id": "outdoor_voices:w-doing-things-bra-white",
+      "title": "Doing Things Bra",
+      "product_type": "Bras",
+      "detected_at": "2026-07-22T11:52:57.186719"
     }
   ],
   "hot_products": []
