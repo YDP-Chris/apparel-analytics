@@ -1,23 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "outdoor_voices:w-pickup-organic-sweatpant-canvas",
-      "title": "Pickup Organic Sweatpant",
-      "product_type": "Pants",
-      "detected_at": "2026-04-24T11:46:54.725950",
-      "days_since_launch": 402,
-      "is_fast_sellout": false
-    },
-    {
-      "product_id": "tenthousand:ankle-sock",
-      "title": "Training Ankle Sock",
-      "product_type": "Ankle Sock",
-      "detected_at": "2026-04-24T19:54:04.219142",
-      "partial": true,
-      "old_pct": 100,
-      "new_pct": 50
-    },
-    {
       "product_id": "outdoor_voices:w-cloudknit-boxy-shortsleeve-balsam",
       "title": "CloudKnit Boxy Shortsleeve",
       "product_type": "Shortsleeve",
@@ -724,27 +707,25 @@
       "partial": true,
       "old_pct": 100,
       "new_pct": 50
+    },
+    {
+      "product_id": "outdoor_voices:ov-rec-ankle-sock-bubblegum",
+      "title": "OV Rec Ankle Sock",
+      "product_type": "Socks",
+      "detected_at": "2026-07-23T11:57:33.179259",
+      "days_since_launch": 392,
+      "is_fast_sellout": false
+    },
+    {
+      "product_id": "outdoor_voices:w-doing-things-bra-white",
+      "title": "Doing Things Bra",
+      "product_type": "Bras",
+      "detected_at": "2026-07-23T11:57:33.179535",
+      "days_since_launch": 359,
+      "is_fast_sellout": false
     }
   ],
   "restocks": [
-    {
-      "product_id": "tenthousand:distance-tank",
-      "title": "Distance Tank",
-      "product_type": "Distance Tank",
-      "detected_at": "2026-04-24T11:46:52.886984"
-    },
-    {
-      "product_id": "tenthousand:al-pack-15l",
-      "title": "Training Pack 15L",
-      "product_type": "A\u2014L Pack 15L",
-      "detected_at": "2026-04-24T11:46:52.887053"
-    },
-    {
-      "product_id": "tenthousand:ankle-sock",
-      "title": "Training Ankle Sock",
-      "product_type": "Ankle Sock",
-      "detected_at": "2026-04-24T11:46:52.887065"
-    },
     {
       "product_id": "outdoor_voices:w-doing-things-3-skort-stargirl",
       "title": "Doing Things 3\" Skort",
