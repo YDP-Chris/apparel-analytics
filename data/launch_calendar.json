@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-24T07:17:31.959652",
-  "total_products": 50349,
+  "generated_at": "2026-07-25T07:24:06.338126",
+  "total_products": 50864,
   "date_range": {
     "start": "2016-05-30",
-    "end": "2026-07-24"
+    "end": "2026-07-25"
   },
   "velocity": {
     "weekly": {
@@ -29,18 +29,18 @@
         "periods_active": 110
       },
       "tenthousand": {
-        "mean": 0.6180758017492711,
-        "stdev": 5.967986703443876,
+        "mean": 0.6239067055393586,
+        "stdev": 5.9678681444969195,
         "max": 89,
-        "total": 212,
-        "periods_active": 22
+        "total": 214,
+        "periods_active": 24
       },
       "bear_grips": {
-        "mean": 10.801749271137027,
-        "stdev": 132.92572035326356,
+        "mean": 12.259475218658892,
+        "stdev": 133.32508644129055,
         "max": 2451,
-        "total": 3705,
-        "periods_active": 42
+        "total": 4205,
+        "periods_active": 48
       },
       "dfyne": {
         "mean": 2.5510204081632653,
@@ -50,10 +50,10 @@
         "periods_active": 81
       },
       "vuori": {
-        "mean": 12.306122448979592,
-        "stdev": 154.23716128569777,
+        "mean": 12.317784256559767,
+        "stdev": 154.23675847621917,
         "max": 2816,
-        "total": 4221,
+        "total": 4225,
         "periods_active": 21
       },
       "harbinger": {
@@ -85,17 +85,17 @@
         "periods_active": 122
       },
       "alo": {
-        "mean": 25.44606413994169,
-        "stdev": 205.24014426826696,
+        "mean": 25.448979591836736,
+        "stdev": 205.23983159021046,
         "max": 3662,
-        "total": 8728,
+        "total": 8729,
         "periods_active": 156
       },
       "gymshark": {
-        "mean": 27.486880466472304,
-        "stdev": 250.18944688035612,
+        "mean": 27.510204081632654,
+        "stdev": 250.19968466309822,
         "max": 4401,
-        "total": 9428,
+        "total": 9436,
         "periods_active": 25
       },
       "on_running": {
@@ -143,17 +143,17 @@
         "periods_active": 61
       },
       "tenthousand": {
-        "mean": 2.058252427184466,
-        "stdev": 11.108930555751915,
+        "mean": 2.0776699029126213,
+        "stdev": 11.107045388514294,
         "max": 90,
-        "total": 212,
-        "periods_active": 9
+        "total": 214,
+        "periods_active": 10
       },
       "vuori": {
-        "mean": 40.980582524271846,
-        "stdev": 322.3066978242966,
+        "mean": 41.019417475728154,
+        "stdev": 322.3396692378449,
         "max": 3245,
-        "total": 4221,
+        "total": 4225,
         "periods_active": 6
       },
       "dfyne": {
@@ -164,11 +164,11 @@
         "periods_active": 39
       },
       "bear_grips": {
-        "mean": 35.970873786407765,
-        "stdev": 244.08329726978812,
+        "mean": 40.8252427184466,
+        "stdev": 246.5160149585985,
         "max": 2451,
-        "total": 3705,
-        "periods_active": 15
+        "total": 4205,
+        "periods_active": 16
       },
       "harbinger": {
         "mean": 1.0679611650485437,
@@ -192,10 +192,10 @@
         "periods_active": 24
       },
       "alo": {
-        "mean": 84.7378640776699,
-        "stdev": 422.00464548054185,
+        "mean": 84.74757281553399,
+        "stdev": 422.005894356349,
         "max": 4136,
-        "total": 8728,
+        "total": 8729,
         "periods_active": 74
       },
       "oner_active": {
@@ -206,10 +206,10 @@
         "periods_active": 60
       },
       "gymshark": {
-        "mean": 91.53398058252426,
-        "stdev": 634.7204852706701,
+        "mean": 91.6116504854369,
+        "stdev": 634.7887441242614,
         "max": 6263,
-        "total": 9428,
+        "total": 9436,
         "periods_active": 6
       },
       "sbd": {
@@ -297,8 +297,8 @@
         "period": "2026-04-27",
         "brand": "gymshark",
         "count": 528,
-        "mean": 27.486880466472304,
-        "multiple": 19.209164191769197,
+        "mean": 27.510204081632654,
+        "multiple": 19.19287833827893,
         "top_types": [
           [
             "other",
@@ -402,8 +402,8 @@
         "period": "2026-06-08",
         "brand": "tenthousand",
         "count": 17,
-        "mean": 0.6180758017492711,
-        "multiple": 27.504716981132077,
+        "mean": 0.6239067055393586,
+        "multiple": 27.24766355140187,
         "top_types": [
           [
             "shorts",
@@ -467,8 +467,8 @@
         "period": "2026-04",
         "brand": "bear_grips",
         "count": 2451,
-        "mean": 35.970873786407765,
-        "multiple": 68.13846153846154,
+        "mean": 40.8252427184466,
+        "multiple": 60.036385255648035,
         "top_types": [
           [
             "tees",
@@ -817,10 +817,11 @@
       },
       {
         "week": "2026-07-13",
-        "total": 449,
+        "total": 450,
         "by_brand": {
           "alo": 2,
           "twopood": 1,
+          "tenthousand": 1,
           "harbinger": 8,
           "oner_active": 21,
           "vuori": 40,
@@ -832,14 +833,15 @@
       },
       {
         "week": "2026-07-20",
-        "total": 257,
+        "total": 271,
         "by_brand": {
           "gymreapers": 6,
           "harbinger": 8,
           "oner_active": 48,
-          "vuori": 5,
-          "alo": 3,
-          "gymshark": 133,
+          "vuori": 9,
+          "tenthousand": 1,
+          "alo": 4,
+          "gymshark": 141,
           "on_running": 54
         }
       }
@@ -1034,16 +1036,17 @@
       },
       {
         "month": "2026-07",
-        "total": 1851,
+        "total": 1866,
         "by_brand": {
-          "alo": 138,
+          "alo": 139,
           "gymreapers": 20,
           "twopood": 8,
+          "tenthousand": 2,
           "harbinger": 16,
           "oner_active": 75,
-          "vuori": 310,
+          "vuori": 314,
           "outdoor_voices": 113,
-          "gymshark": 640,
+          "gymshark": 648,
           "on_running": 531
         }
       }
