@@ -5,9 +5,9 @@
       "title": "Output Muscle Tee",
       "product_type": "",
       "any_available": true,
-      "available_count": 9,
+      "available_count": 8,
       "total_variants": 18,
-      "availability_pct": 50,
+      "availability_pct": 44,
       "created_at": "2026-07-15T08:19:25-04:00",
       "variants": [
         {
@@ -91,7 +91,7 @@
         {
           "id": 44033500643415,
           "title": "Salt / S",
-          "available": true,
+          "available": false,
           "price": "68.00"
         },
         {
@@ -119,16 +119,16 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576586"
+      "checked_at": "2026-07-29T07:39:35.700878"
     },
     "tenthousand:rep-shirt": {
       "handle": "rep-shirt",
       "title": "Output Shirt",
       "product_type": "Rep Shirt",
       "any_available": true,
-      "available_count": 41,
+      "available_count": 40,
       "total_variants": 60,
-      "availability_pct": 68,
+      "availability_pct": 67,
       "created_at": "2025-10-14T02:04:15-04:00",
       "variants": [
         {
@@ -338,7 +338,7 @@
         {
           "id": 44033540685911,
           "title": "Bluefin / XL",
-          "available": true,
+          "available": false,
           "price": "78.00"
         },
         {
@@ -492,7 +492,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576729"
+      "checked_at": "2026-07-29T07:39:35.706152"
     },
     "tenthousand:midweight-tech-fleece-jogger": {
       "handle": "midweight-tech-fleece-jogger",
@@ -505,38 +505,74 @@
       "created_at": "2025-10-14T01:47:53-04:00",
       "variants": [
         {
-          "id": 42030112735319,
+          "id": 44033716453463,
           "title": "Black / XS",
           "available": false,
           "price": "118.00"
         },
         {
-          "id": 42030112768087,
+          "id": 44033716486231,
           "title": "Black / S",
           "available": true,
           "price": "118.00"
         },
         {
-          "id": 42030112800855,
+          "id": 44033716518999,
           "title": "Black / M",
           "available": true,
           "price": "118.00"
         },
         {
-          "id": 42030112833623,
+          "id": 44033716551767,
           "title": "Black / L",
+          "available": true,
+          "price": "118.00"
+        },
+        {
+          "id": 44033716584535,
+          "title": "Black / XL",
+          "available": true,
+          "price": "118.00"
+        },
+        {
+          "id": 44033716617303,
+          "title": "Black / XXL",
+          "available": true,
+          "price": "118.00"
+        },
+        {
+          "id": 42030112735319,
+          "title": "Black (OLD SKU) / XS",
+          "available": false,
+          "price": "118.00"
+        },
+        {
+          "id": 42030112768087,
+          "title": "Black (OLD SKU) / S",
+          "available": true,
+          "price": "118.00"
+        },
+        {
+          "id": 42030112800855,
+          "title": "Black (OLD SKU) / M",
+          "available": true,
+          "price": "118.00"
+        },
+        {
+          "id": 42030112833623,
+          "title": "Black (OLD SKU) / L",
           "available": false,
           "price": "118.00"
         },
         {
           "id": 42030112866391,
-          "title": "Black / XL",
+          "title": "Black (OLD SKU) / XL",
           "available": false,
           "price": "118.00"
         },
         {
           "id": 42030112899159,
-          "title": "Black / XXL",
+          "title": "Black (OLD SKU) / XXL",
           "available": true,
           "price": "118.00"
         },
@@ -649,42 +685,6 @@
           "price": "118.00"
         },
         {
-          "id": 44033716453463,
-          "title": "Black (New SKU) / XS",
-          "available": false,
-          "price": "118.00"
-        },
-        {
-          "id": 44033716486231,
-          "title": "Black (New SKU) / S",
-          "available": true,
-          "price": "118.00"
-        },
-        {
-          "id": 44033716518999,
-          "title": "Black (New SKU) / M",
-          "available": true,
-          "price": "118.00"
-        },
-        {
-          "id": 44033716551767,
-          "title": "Black (New SKU) / L",
-          "available": true,
-          "price": "118.00"
-        },
-        {
-          "id": 44033716584535,
-          "title": "Black (New SKU) / XL",
-          "available": true,
-          "price": "118.00"
-        },
-        {
-          "id": 44033716617303,
-          "title": "Black (New SKU) / XXL",
-          "available": true,
-          "price": "118.00"
-        },
-        {
           "id": 44033716650071,
           "title": "Rover / XS",
           "available": false,
@@ -721,7 +721,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576798"
+      "checked_at": "2026-07-29T07:39:35.706299"
     },
     "tenthousand:aaron-levine-tee": {
       "handle": "aaron-levine-tee",
@@ -770,7 +770,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576821"
+      "checked_at": "2026-07-29T07:39:35.706331"
     },
     "tenthousand:distance-short-3-inch": {
       "handle": "distance-short-3-inch",
@@ -819,7 +819,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576842"
+      "checked_at": "2026-07-29T07:39:35.706356"
     },
     "tenthousand:double-knee-work-pant": {
       "handle": "double-knee-work-pant",
@@ -880,7 +880,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576864"
+      "checked_at": "2026-07-29T07:39:35.706386"
     },
     "tenthousand:tactical-hooded-shirt": {
       "handle": "tactical-hooded-shirt",
@@ -965,7 +965,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576897"
+      "checked_at": "2026-07-29T07:39:35.706426"
     },
     "tenthousand:session-pant": {
       "handle": "session-pant",
@@ -1050,7 +1050,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576926"
+      "checked_at": "2026-07-29T07:39:35.706461"
     },
     "tenthousand:recover-short": {
       "handle": "recover-short",
@@ -1135,7 +1135,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576956"
+      "checked_at": "2026-07-29T07:39:35.706495"
     },
     "tenthousand:recover-shirt": {
       "handle": "recover-shirt",
@@ -1256,7 +1256,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.576992"
+      "checked_at": "2026-07-29T07:39:35.706545"
     },
     "tenthousand:recover-short-5-inch": {
       "handle": "recover-short-5-inch",
@@ -1341,7 +1341,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577022"
+      "checked_at": "2026-07-29T07:39:35.706589"
     },
     "tenthousand:session-jogger": {
       "handle": "session-jogger",
@@ -1426,7 +1426,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577053"
+      "checked_at": "2026-07-29T07:39:35.706638"
     },
     "tenthousand:co14-insulated-coaches-jacket": {
       "handle": "co14-insulated-coaches-jacket",
@@ -1511,16 +1511,16 @@
           "price": "248.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577081"
+      "checked_at": "2026-07-29T07:39:35.706686"
     },
     "tenthousand:interval-short-9-inch": {
       "handle": "interval-short-9-inch",
       "title": "Interval Short | 9-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 27,
+      "available_count": 26,
       "total_variants": 48,
-      "availability_pct": 56,
+      "availability_pct": 54,
       "created_at": "2025-10-14T02:26:21-04:00",
       "variants": [
         {
@@ -1616,7 +1616,7 @@
         {
           "id": 42030283817047,
           "title": "Black (Old SKU) / S / Unlined",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -1812,14 +1812,14 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577169"
+      "checked_at": "2026-07-29T07:39:35.706815"
     },
     "tenthousand:little-x-interval-short-7-inch": {
       "handle": "little-x-interval-short-7-inch",
       "title": "Interval Short \"Micro-X\" | 7-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 84,
+      "available_count": 83,
       "total_variants": 144,
       "availability_pct": 58,
       "created_at": "2026-04-21T10:23:23-04:00",
@@ -2085,7 +2085,7 @@
         {
           "id": 42715326251095,
           "title": "Stone / L / Unlined",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -2247,7 +2247,7 @@
         {
           "id": 42715332051031,
           "title": "OD Green / XXL / Lined",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -2295,7 +2295,7 @@
         {
           "id": 42715332313175,
           "title": "Fir / L / Lined",
-          "available": true,
+          "available": false,
           "price": "98.00"
         },
         {
@@ -2373,7 +2373,7 @@
         {
           "id": 42715336507479,
           "title": "Navy / L / Unlined",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -2391,7 +2391,7 @@
         {
           "id": 42715336605783,
           "title": "Navy / XXL / Lined",
-          "available": false,
+          "available": true,
           "price": "98.00"
         },
         {
@@ -2689,7 +2689,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577428"
+      "checked_at": "2026-07-29T07:39:35.707732"
     },
     "tenthousand:little-x-interval-short-5-inch": {
       "handle": "little-x-interval-short-5-inch",
@@ -3638,7 +3638,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577705"
+      "checked_at": "2026-07-29T07:39:35.708075"
     },
     "tenthousand:little-x-interval-short-9-inch": {
       "handle": "little-x-interval-short-9-inch",
@@ -3795,7 +3795,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577762"
+      "checked_at": "2026-07-29T07:39:35.708154"
     },
     "tenthousand:nylon-jogger-pant": {
       "handle": "nylon-jogger-pant",
@@ -3844,16 +3844,16 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577782"
+      "checked_at": "2026-07-29T07:39:35.708181"
     },
     "tenthousand:session-tank": {
       "handle": "session-tank",
       "title": "Session Tank",
       "product_type": "Session Shirt",
       "any_available": true,
-      "available_count": 32,
+      "available_count": 31,
       "total_variants": 54,
-      "availability_pct": 59,
+      "availability_pct": 57,
       "created_at": "2025-10-14T02:01:37-04:00",
       "variants": [
         {
@@ -4111,7 +4111,7 @@
         {
           "id": 42713803587671,
           "title": "Burlap / XS",
-          "available": true,
+          "available": false,
           "price": "68.00"
         },
         {
@@ -4181,7 +4181,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577870"
+      "checked_at": "2026-07-29T07:39:35.708308"
     },
     "tenthousand:heavyweight-cotton-short": {
       "handle": "heavyweight-cotton-short",
@@ -4230,7 +4230,7 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577888"
+      "checked_at": "2026-07-29T07:39:35.708340"
     },
     "tenthousand:heavyweight-cotton-sweatpant": {
       "handle": "heavyweight-cotton-sweatpant",
@@ -4351,7 +4351,7 @@
           "price": "158.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577924"
+      "checked_at": "2026-07-29T07:39:35.708386"
     },
     "tenthousand:3-4-tight": {
       "handle": "3-4-tight",
@@ -4400,7 +4400,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.577944"
+      "checked_at": "2026-07-29T07:39:35.708411"
     },
     "tenthousand:heavyweight-cotton-hoodie": {
       "handle": "heavyweight-cotton-hoodie",
@@ -4593,22 +4593,22 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578004"
+      "checked_at": "2026-07-29T07:39:35.708489"
     },
     "tenthousand:interval-tank": {
       "handle": "interval-tank",
       "title": "Interval Tank",
       "product_type": "Interval Shirt",
       "any_available": true,
-      "available_count": 55,
+      "available_count": 53,
       "total_variants": 96,
-      "availability_pct": 57,
+      "availability_pct": 55,
       "created_at": "2025-10-14T01:24:31-04:00",
       "variants": [
         {
           "id": 42713798574167,
           "title": "Black / XS",
-          "available": true,
+          "available": false,
           "price": "68.00"
         },
         {
@@ -4818,7 +4818,7 @@
         {
           "id": 42713799065687,
           "title": "Stone / S",
-          "available": true,
+          "available": false,
           "price": "68.00"
         },
         {
@@ -5182,7 +5182,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578164"
+      "checked_at": "2026-07-29T07:39:35.708677"
     },
     "tenthousand:interval-muscle-tee": {
       "handle": "interval-muscle-tee",
@@ -5561,7 +5561,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578276"
+      "checked_at": "2026-07-29T07:39:35.708826"
     },
     "tenthousand:tech-hoodie-full-zip": {
       "handle": "tech-hoodie-full-zip",
@@ -5569,8 +5569,8 @@
       "product_type": "Tech Hoodie",
       "any_available": true,
       "available_count": 21,
-      "total_variants": 48,
-      "availability_pct": 44,
+      "total_variants": 54,
+      "availability_pct": 39,
       "created_at": "2025-10-14T01:41:59-04:00",
       "variants": [
         {
@@ -5860,9 +5860,45 @@
           "title": "Black (New SKU) / XXL",
           "available": false,
           "price": "168.00"
+        },
+        {
+          "id": 44081391140951,
+          "title": "Cloud Grey / XS",
+          "available": false,
+          "price": "168.00"
+        },
+        {
+          "id": 44081391173719,
+          "title": "Cloud Grey / S",
+          "available": false,
+          "price": "168.00"
+        },
+        {
+          "id": 44081391206487,
+          "title": "Cloud Grey / M",
+          "available": false,
+          "price": "168.00"
+        },
+        {
+          "id": 44081391239255,
+          "title": "Cloud Grey / L",
+          "available": false,
+          "price": "168.00"
+        },
+        {
+          "id": 44081391272023,
+          "title": "Cloud Grey / XL",
+          "available": false,
+          "price": "168.00"
+        },
+        {
+          "id": 44081391304791,
+          "title": "Cloud Grey / XXL",
+          "available": false,
+          "price": "168.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578362"
+      "checked_at": "2026-07-29T07:39:35.708953"
     },
     "tenthousand:delivery-guarantee": {
       "handle": "delivery-guarantee",
@@ -6013,7 +6049,7 @@
           "price": "16.50"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578405"
+      "checked_at": "2026-07-29T07:39:35.709023"
     },
     "tenthousand:digital-gift-card": {
       "handle": "digital-gift-card",
@@ -6050,7 +6086,7 @@
           "price": "200.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578421"
+      "checked_at": "2026-07-29T07:39:35.709046"
     },
     "tenthousand:interval-pant-shorter-inseam": {
       "handle": "interval-pant-shorter-inseam",
@@ -6207,14 +6243,14 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.578466"
+      "checked_at": "2026-07-29T07:39:35.709108"
     },
     "tenthousand:tactical-short": {
       "handle": "tactical-short",
       "title": "Tactical Short | 7-inch",
       "product_type": "Tactical Short",
       "any_available": true,
-      "available_count": 99,
+      "available_count": 98,
       "total_variants": 213,
       "availability_pct": 46,
       "created_at": "2025-10-14T01:58:00-04:00",
@@ -6258,7 +6294,7 @@
         {
           "id": 42030133542999,
           "title": "Black / L / Lined",
-          "available": true,
+          "available": false,
           "price": "108.00"
         },
         {
@@ -7498,7 +7534,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579136"
+      "checked_at": "2026-07-29T07:39:35.713667"
     },
     "tenthousand:tactical-short-5-inch": {
       "handle": "tactical-short-5-inch",
@@ -8699,7 +8735,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579521"
+      "checked_at": "2026-07-29T07:39:35.714095"
     },
     "tenthousand:al-pack-15l": {
       "handle": "al-pack-15l",
@@ -8718,7 +8754,7 @@
           "price": "158.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579549"
+      "checked_at": "2026-07-29T07:39:35.714139"
     },
     "tenthousand:full-length-tight": {
       "handle": "full-length-tight",
@@ -8767,7 +8803,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579573"
+      "checked_at": "2026-07-29T07:39:35.714166"
     },
     "tenthousand:overzip": {
       "handle": "overzip",
@@ -8876,7 +8912,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579615"
+      "checked_at": "2026-07-29T07:39:35.714209"
     },
     "tenthousand:tactical-hoodie": {
       "handle": "tactical-hoodie",
@@ -8961,7 +8997,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579645"
+      "checked_at": "2026-07-29T07:39:35.714243"
     },
     "tenthousand:resistance-bands": {
       "handle": "resistance-bands",
@@ -8980,7 +9016,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579657"
+      "checked_at": "2026-07-29T07:39:35.714257"
     },
     "tenthousand:mil-spec-belt": {
       "handle": "mil-spec-belt",
@@ -9029,7 +9065,7 @@
           "price": "75.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579680"
+      "checked_at": "2026-07-29T07:39:35.714281"
     },
     "tenthousand:hand-grips": {
       "handle": "hand-grips",
@@ -9048,7 +9084,7 @@
           "price": "64.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579691"
+      "checked_at": "2026-07-29T07:39:35.714293"
     },
     "tenthousand:wrist-wraps": {
       "handle": "wrist-wraps",
@@ -9067,7 +9103,7 @@
           "price": "44.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579703"
+      "checked_at": "2026-07-29T07:39:35.714307"
     },
     "tenthousand:al-boxer": {
       "handle": "al-boxer",
@@ -9332,7 +9368,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579781"
+      "checked_at": "2026-07-29T07:39:35.714392"
     },
     "tenthousand:co5-boxer": {
       "handle": "co5-boxer",
@@ -9417,7 +9453,7 @@
           "price": "48.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579815"
+      "checked_at": "2026-07-29T07:39:35.714428"
     },
     "tenthousand:compression-short": {
       "handle": "compression-short",
@@ -9502,7 +9538,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579846"
+      "checked_at": "2026-07-29T07:39:35.714462"
     },
     "tenthousand:distance-full-length-tight": {
       "handle": "distance-full-length-tight",
@@ -9551,14 +9587,14 @@
           "price": "128.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.579867"
+      "checked_at": "2026-07-29T07:39:35.714484"
     },
     "tenthousand:session-short-5-inch": {
       "handle": "session-short-5-inch",
       "title": "Session Short | 5-inch",
       "product_type": "Session Short 2.0",
       "any_available": true,
-      "available_count": 54,
+      "available_count": 53,
       "total_variants": 134,
       "availability_pct": 40,
       "created_at": "2025-10-14T01:36:59-04:00",
@@ -9836,7 +9872,7 @@
         {
           "id": 43916817530967,
           "title": "Salt / M / Lined",
-          "available": true,
+          "available": false,
           "price": "98.00"
         },
         {
@@ -10368,14 +10404,14 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.580105"
+      "checked_at": "2026-07-29T07:39:35.714740"
     },
     "tenthousand:session-short": {
       "handle": "session-short",
       "title": "Session Short | 7-inch",
       "product_type": "Session Short 2.0",
       "any_available": true,
-      "available_count": 83,
+      "available_count": 82,
       "total_variants": 168,
       "availability_pct": 49,
       "created_at": "2025-10-14T01:34:59-04:00",
@@ -10797,7 +10833,7 @@
         {
           "id": 43916815237207,
           "title": "Salt / L / Lined",
-          "available": true,
+          "available": false,
           "price": "98.00"
         },
         {
@@ -11389,7 +11425,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.580516"
+      "checked_at": "2026-07-29T07:39:35.715076"
     },
     "tenthousand:interval-short-5-inch": {
       "handle": "interval-short-5-inch",
@@ -12902,7 +12938,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.581277"
+      "checked_at": "2026-07-29T07:39:35.715862"
     },
     "tenthousand:interval-long-sleeve-shirt": {
       "handle": "interval-long-sleeve-shirt",
@@ -13203,54 +13239,18 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.581470"
+      "checked_at": "2026-07-29T07:39:35.715992"
     },
     "tenthousand:interval-shirt": {
       "handle": "interval-shirt",
       "title": "Interval Shirt",
       "product_type": "Interval Shirt",
       "any_available": true,
-      "available_count": 149,
+      "available_count": 151,
       "total_variants": 240,
-      "availability_pct": 62,
+      "availability_pct": 63,
       "created_at": "2025-10-14T01:21:55-04:00",
       "variants": [
-        {
-          "id": 42714917863511,
-          "title": "Black (New SKU) / XS",
-          "available": true,
-          "price": "78.00"
-        },
-        {
-          "id": 42714917896279,
-          "title": "Black (New SKU) / S",
-          "available": true,
-          "price": "78.00"
-        },
-        {
-          "id": 42714917929047,
-          "title": "Black (New SKU) / M",
-          "available": true,
-          "price": "78.00"
-        },
-        {
-          "id": 42714917961815,
-          "title": "Black (New SKU) / L",
-          "available": true,
-          "price": "78.00"
-        },
-        {
-          "id": 42714917994583,
-          "title": "Black (New SKU) / XL",
-          "available": true,
-          "price": "78.00"
-        },
-        {
-          "id": 42714918027351,
-          "title": "Black (New SKU) / XXL",
-          "available": true,
-          "price": "78.00"
-        },
         {
           "id": 42030073512023,
           "title": "Black / XS",
@@ -13285,6 +13285,42 @@
           "id": 42030073675863,
           "title": "Black / XXL",
           "available": false,
+          "price": "78.00"
+        },
+        {
+          "id": 42714917863511,
+          "title": "Black (New SKU) / XS",
+          "available": true,
+          "price": "78.00"
+        },
+        {
+          "id": 42714917896279,
+          "title": "Black (New SKU) / S",
+          "available": true,
+          "price": "78.00"
+        },
+        {
+          "id": 42714917929047,
+          "title": "Black (New SKU) / M",
+          "available": true,
+          "price": "78.00"
+        },
+        {
+          "id": 42714917961815,
+          "title": "Black (New SKU) / L",
+          "available": true,
+          "price": "78.00"
+        },
+        {
+          "id": 42714917994583,
+          "title": "Black (New SKU) / XL",
+          "available": true,
+          "price": "78.00"
+        },
+        {
+          "id": 42714918027351,
+          "title": "Black (New SKU) / XXL",
+          "available": true,
           "price": "78.00"
         },
         {
@@ -13464,7 +13500,7 @@
         {
           "id": 42714918223959,
           "title": "Iron / XXL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -13572,7 +13608,7 @@
         {
           "id": 42714919600215,
           "title": "OD Green (New SKU) / XXL",
-          "available": false,
+          "available": true,
           "price": "78.00"
         },
         {
@@ -14656,16 +14692,16 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.581867"
+      "checked_at": "2026-07-29T07:39:35.716516"
     },
     "tenthousand:interval-short": {
       "handle": "interval-short",
       "title": "Interval Short | 7-inch",
       "product_type": "Interval Short",
       "any_available": true,
-      "available_count": 144,
+      "available_count": 142,
       "total_variants": 250,
-      "availability_pct": 58,
+      "availability_pct": 57,
       "created_at": "2025-10-14T01:19:01-04:00",
       "variants": [
         {
@@ -14785,7 +14821,7 @@
         {
           "id": 42030069350487,
           "title": "Black (Old SKU) / L / Unlined",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -15925,7 +15961,7 @@
         {
           "id": 42030066696279,
           "title": "Admiral Blue / M / Unlined",
-          "available": true,
+          "available": false,
           "price": "88.00"
         },
         {
@@ -16169,7 +16205,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582381"
+      "checked_at": "2026-07-29T07:39:35.721438"
     },
     "tenthousand:tactical-long-sleeve-shirt": {
       "handle": "tactical-long-sleeve-shirt",
@@ -16290,7 +16326,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582448"
+      "checked_at": "2026-07-29T07:39:35.721527"
     },
     "tenthousand:rep-short-5-inch": {
       "handle": "rep-short-5-inch",
@@ -16555,16 +16591,16 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582529"
+      "checked_at": "2026-07-29T07:39:35.721617"
     },
     "tenthousand:rep-short": {
       "handle": "rep-short",
       "title": "Output Short | 7-inch",
       "product_type": "Rep Short",
       "any_available": true,
-      "available_count": 19,
+      "available_count": 18,
       "total_variants": 48,
-      "availability_pct": 40,
+      "availability_pct": 38,
       "created_at": "2025-10-14T02:13:58-04:00",
       "variants": [
         {
@@ -16588,7 +16624,7 @@
         {
           "id": 42030241480791,
           "title": "Black / L / Lined",
-          "available": true,
+          "available": false,
           "price": "98.00"
         },
         {
@@ -16856,7 +16892,7 @@
           "price": "98.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582622"
+      "checked_at": "2026-07-29T07:39:35.721709"
     },
     "tenthousand:tactical-utility-short": {
       "handle": "tactical-utility-short",
@@ -17169,7 +17205,7 @@
           "price": "118.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582712"
+      "checked_at": "2026-07-29T07:39:35.721798"
     },
     "tenthousand:foundation-short": {
       "handle": "foundation-short",
@@ -17362,7 +17398,7 @@
           "price": "88.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582773"
+      "checked_at": "2026-07-29T07:39:35.721858"
     },
     "tenthousand:camoknit-shirt": {
       "handle": "camoknit-shirt",
@@ -17447,7 +17483,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582807"
+      "checked_at": "2026-07-29T07:39:35.721889"
     },
     "tenthousand:set-short-5-inch": {
       "handle": "set-short-5-inch",
@@ -17928,7 +17964,7 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.582939"
+      "checked_at": "2026-07-29T07:39:35.722049"
     },
     "tenthousand:set-short": {
       "handle": "set-short",
@@ -18409,14 +18445,14 @@
           "price": "108.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583074"
+      "checked_at": "2026-07-29T07:39:35.722246"
     },
     "tenthousand:core-tee": {
       "handle": "core-tee",
       "title": "Core Tee",
       "product_type": "Core Tee",
       "any_available": true,
-      "available_count": 89,
+      "available_count": 90,
       "total_variants": 163,
       "availability_pct": 55,
       "created_at": "2025-10-14T02:06:43-04:00",
@@ -18526,7 +18562,7 @@
         {
           "id": 42627321528407,
           "title": "Navy / XXL",
-          "available": false,
+          "available": true,
           "price": "62.00"
         },
         {
@@ -19400,7 +19436,7 @@
           "price": "62.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583359"
+      "checked_at": "2026-07-29T07:39:35.722552"
     },
     "tenthousand:field-tee": {
       "handle": "field-tee",
@@ -20025,7 +20061,7 @@
           "price": "68.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583543"
+      "checked_at": "2026-07-29T07:39:35.722744"
     },
     "tenthousand:session-shirt": {
       "handle": "session-shirt",
@@ -20542,16 +20578,16 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583684"
+      "checked_at": "2026-07-29T07:39:35.722905"
     },
     "tenthousand:tactical-shirt": {
       "handle": "tactical-shirt",
       "title": "Tactical Shirt",
       "product_type": "Tactical Shirt",
       "any_available": true,
-      "available_count": 23,
+      "available_count": 22,
       "total_variants": 43,
-      "availability_pct": 53,
+      "availability_pct": 51,
       "created_at": "2025-10-14T02:01:18-04:00",
       "variants": [
         {
@@ -20605,7 +20641,7 @@
         {
           "id": 42030150123607,
           "title": "Black / M",
-          "available": true,
+          "available": false,
           "price": "78.00"
         },
         {
@@ -20813,7 +20849,7 @@
           "price": "78.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583765"
+      "checked_at": "2026-07-29T07:39:35.722995"
     },
     "tenthousand:interval-pant": {
       "handle": "interval-pant",
@@ -20825,42 +20861,6 @@
       "availability_pct": 42,
       "created_at": "2025-10-14T01:55:19-04:00",
       "variants": [
-        {
-          "id": 42030129250391,
-          "title": "Iron / XS",
-          "available": true,
-          "price": "138.00"
-        },
-        {
-          "id": 42030129283159,
-          "title": "Iron / S",
-          "available": true,
-          "price": "138.00"
-        },
-        {
-          "id": 42030129315927,
-          "title": "Iron / M",
-          "available": true,
-          "price": "138.00"
-        },
-        {
-          "id": 42030129348695,
-          "title": "Iron / L",
-          "available": true,
-          "price": "138.00"
-        },
-        {
-          "id": 42030129381463,
-          "title": "Iron / XL",
-          "available": false,
-          "price": "138.00"
-        },
-        {
-          "id": 42030129414231,
-          "title": "Iron / XXL",
-          "available": false,
-          "price": "138.00"
-        },
         {
           "id": 42030129053783,
           "title": "Black / XS",
@@ -20894,6 +20894,42 @@
         {
           "id": 42030129217623,
           "title": "Black / XXL",
+          "available": false,
+          "price": "138.00"
+        },
+        {
+          "id": 42030129250391,
+          "title": "Iron / XS",
+          "available": true,
+          "price": "138.00"
+        },
+        {
+          "id": 42030129283159,
+          "title": "Iron / S",
+          "available": true,
+          "price": "138.00"
+        },
+        {
+          "id": 42030129315927,
+          "title": "Iron / M",
+          "available": true,
+          "price": "138.00"
+        },
+        {
+          "id": 42030129348695,
+          "title": "Iron / L",
+          "available": true,
+          "price": "138.00"
+        },
+        {
+          "id": 42030129381463,
+          "title": "Iron / XL",
+          "available": false,
+          "price": "138.00"
+        },
+        {
+          "id": 42030129414231,
+          "title": "Iron / XXL",
           "available": false,
           "price": "138.00"
         },
@@ -21186,7 +21222,7 @@
           "price": "138.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583863"
+      "checked_at": "2026-07-29T07:39:35.723095"
     },
     "tenthousand:tactical-utility-pant-tall-fit": {
       "handle": "tactical-utility-pant-tall-fit",
@@ -21229,7 +21265,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583885"
+      "checked_at": "2026-07-29T07:39:35.723121"
     },
     "tenthousand:tactical-utility-pant": {
       "handle": "tactical-utility-pant",
@@ -21452,7 +21488,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.583944"
+      "checked_at": "2026-07-29T07:39:35.723193"
     },
     "tenthousand:tactical-5-pocket-pant": {
       "handle": "tactical-5-pocket-pant",
@@ -21801,7 +21837,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.584045"
+      "checked_at": "2026-07-29T07:39:35.723306"
     },
     "tenthousand:tactical-5-pocket-pant-tall-fit": {
       "handle": "tactical-5-pocket-pant-tall-fit",
@@ -21862,16 +21898,16 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.584071"
+      "checked_at": "2026-07-29T07:39:35.723335"
     },
     "tenthousand:tactical-5-pocket-pant-straight-fit": {
       "handle": "tactical-5-pocket-pant-straight-fit",
       "title": "5-Pocket Pant | Straight",
       "product_type": "Tactical 5-Pocket Pant",
       "any_available": true,
-      "available_count": 12,
+      "available_count": 11,
       "total_variants": 16,
-      "availability_pct": 75,
+      "availability_pct": 69,
       "created_at": "2025-10-14T01:44:09-04:00",
       "variants": [
         {
@@ -21937,7 +21973,7 @@
         {
           "id": 42030097891415,
           "title": "Iron / 32",
-          "available": true,
+          "available": false,
           "price": "168.00"
         },
         {
@@ -21971,7 +22007,7 @@
           "price": "168.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.584107"
+      "checked_at": "2026-07-29T07:39:35.723375"
     },
     "tenthousand:tactical-utility-pant-straight-fit": {
       "handle": "tactical-utility-pant-straight-fit",
@@ -22074,7 +22110,7 @@
           "price": "178.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.584146"
+      "checked_at": "2026-07-29T07:39:35.723412"
     },
     "tenthousand:tactical-waterproof-shell-jacket": {
       "handle": "tactical-waterproof-shell-jacket",
@@ -22195,7 +22231,7 @@
           "price": "298.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.584188"
+      "checked_at": "2026-07-29T07:39:35.723453"
     },
     "tenthousand:tactical-waterproof-hoodie": {
       "handle": "tactical-waterproof-hoodie",
@@ -22280,8 +22316,8 @@
           "price": "298.00"
         }
       ],
-      "checked_at": "2026-07-28T07:41:43.584219"
+      "checked_at": "2026-07-29T07:39:35.723491"
     }
   },
-  "last_check": "2026-07-28T07:41:43.799248"
+  "last_check": "2026-07-29T07:39:36.041249"
 }

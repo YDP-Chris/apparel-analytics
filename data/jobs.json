@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 716,
-      "change_from_last": -12,
+      "total_jobs": 725,
+      "change_from_last": 9,
       "departments": {
-        "design": 94,
-        "operations": 194,
+        "design": 92,
+        "operations": 200,
         "finance": 6,
-        "other": 144,
-        "retail": 240,
+        "other": 145,
+        "retail": 244,
         "engineering": 18,
         "marketing": 8,
         "executive": 7,
@@ -18,35 +18,35 @@
         "hr": 3
       },
       "seniority": {
-        "junior": 332,
-        "manager": 167,
-        "mid": 24,
+        "junior": 341,
+        "manager": 164,
+        "mid": 23,
         "c-suite": 20,
         "intern": 4,
-        "lead": 153,
-        "senior": 16
+        "lead": 155,
+        "senior": 18
       },
       "locations": [
-        "Garden City, New York, United States",
-        "Greenwich, Connecticut, United States",
-        "Birmingham, Alabama, United States",
-        "North Park Center, Dallas, TX (10019)",
-        "Commerce, California, United States",
-        "Lexington, Kentucky, United States",
-        "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "Memphis, Tennessee, United States",
-        "Princeton, New Jersey, United States",
-        "Cherry Hill, New Jersey, United States",
+        "West Palm Beach, Florida, United States",
+        "Paris, Paris, France",
+        "Detroit, Michigan, United States",
+        "San Luis Obispo, California, United States",
+        "Dusseldorf, North Rhine-Westphalia, Germany",
+        "Prudential Center, Boston, MA (10053)",
+        "Torrance, California, United States",
+        "Fashion Place, Murray, UT (10061)",
+        "Aventura, Florida, United States",
         "Chicago, Illinois, United States",
-        "Ashburn, Virginia, United States",
-        "Dublin, Dublin, Ireland",
-        "Canoga Park, California, United States",
-        "Westfarms Mall, West Hartford, CT (10062)",
-        "Santa Monica, California, United States",
-        "Australia",
-        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
-        "Sydney ",
-        "Manhattan Beach, California, United States"
+        "Leawood, Kansas, United States",
+        "Southlake, Texas, United States",
+        "Alys Beach, Florida, United States",
+        "Roma, Rome, Italy",
+        "UTC Sarasota, Sarasota, FL (10091)",
+        "Westport, Connecticut, United States",
+        "Oakridge Centre, Vancouver, BC (10080)",
+        "Edinburgh, Scotland, United Kingdom",
+        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
+        "Brickell City Centre, Miami, FL (10077)"
       ],
       "jobs": [
         {
@@ -180,16 +180,6 @@
           "seniority": "manager"
         },
         {
-          "id": "6019953004",
-          "title": "Assistant Store Manager of People Operations - Regent Street, London",
-          "location": "London, England, United Kingdom",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6019953004?gh_jid=6019953004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
           "id": "5556200004",
           "title": "Assistant Store Manager, Operations - London Pipeline",
           "location": "London, England, United Kingdom",
@@ -201,11 +191,11 @@
         },
         {
           "id": "6006968004",
-          "title": "Assistant Store Manager (Sales & Service) - Berlin, Mitte",
+          "title": "Assistant Store Manager (Sales & Service) - Berlin, Hackescher Markt",
           "location": "Berlin, Berlin, Germany",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6006968004?gh_jid=6006968004",
-          "posted_at": "2026-07-10T16:59:37-04:00",
+          "posted_at": "2026-07-28T06:28:55-04:00",
           "category": "retail",
           "seniority": "manager"
         },
@@ -410,6 +400,16 @@
           "seniority": "junior"
         },
         {
+          "id": "6107239004",
+          "title": "Benefits Manager, International",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6107239004?gh_jid=6107239004",
+          "posted_at": "2026-07-28T14:16:09-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
           "id": "5995978004",
           "title": "Brand Marketing Manager, AWC Digital Studios",
           "location": "Beverly Hills, California, United States",
@@ -550,30 +550,32 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-07-28T05:30:07.755692"
+      "checked_at": "2026-07-29T05:30:08.026010"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 18,
-      "change_from_last": 0,
+      "total_jobs": 19,
+      "change_from_last": 1,
       "departments": {
         "other": 7,
         "marketing": 1,
         "operations": 3,
         "engineering": 5,
-        "retail": 2
+        "retail": 3
       },
       "seniority": {
-        "mid": 5,
+        "mid": 6,
         "manager": 7,
         "lead": 4,
-        "senior": 2
+        "senior": 1,
+        "junior": 1
       },
       "locations": [
         "New York, New York, United States",
         "Solihull, England, United Kingdom",
         "London",
+        "Roosevelt, New York, United States",
         "New York; New York, New York, United States; New York, New York, United States"
       ],
       "jobs": [
@@ -718,6 +720,16 @@
           "seniority": "senior"
         },
         {
+          "id": "4940452101",
+          "title": "Sales Associate - Part Time, Roosevelt Field",
+          "location": "Roosevelt, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4940452101",
+          "posted_at": "2026-07-29T04:51:24-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
           "id": "4938293101",
           "title": "Sales Floor Lead - Regent Street, London",
           "location": "London",
@@ -726,16 +738,6 @@
           "posted_at": "2026-07-27T04:59:00-04:00",
           "category": "other",
           "seniority": "lead"
-        },
-        {
-          "id": "4863674101",
-          "title": "Senior Android Engineer ",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4863674101",
-          "posted_at": "2026-07-14T07:15:24-04:00",
-          "category": "engineering",
-          "seniority": "senior"
         },
         {
           "id": "4927109101",
@@ -756,9 +758,19 @@
           "posted_at": "2026-07-22T12:50:07-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "4939895101",
+          "title": "Yarn & Materials Developer",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4939895101",
+          "posted_at": "2026-07-28T10:09:40-04:00",
+          "category": "engineering",
+          "seniority": "mid"
         }
       ],
-      "checked_at": "2026-07-28T05:30:09.897570"
+      "checked_at": "2026-07-29T05:30:10.183509"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -816,14 +828,14 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 322,
-      "change_from_last": 1,
+      "total_jobs": 320,
+      "change_from_last": -2,
       "departments": {
-        "engineering": 43,
-        "other": 57,
-        "retail": 149,
+        "engineering": 44,
+        "other": 58,
+        "retail": 146,
         "marketing": 21,
-        "product": 6,
+        "product": 5,
         "operations": 10,
         "executive": 12,
         "hr": 1,
@@ -832,33 +844,33 @@
       },
       "seniority": {
         "mid": 83,
-        "lead": 184,
+        "lead": 182,
         "c-suite": 16,
         "intern": 2,
         "manager": 2,
         "senior": 35
       },
       "locations": [
-        "Montreal",
-        "Auckland",
-        "Aventura",
-        "Nanjing",
-        "Shanghai",
-        "Beijing",
-        "Munich",
-        "Palo Alto",
-        "S\u00e3o Paulo",
-        "San Diego",
+        "Tokyo",
         "Montreal; Toronto; Vancouver",
-        "Berlin; Zurich",
-        "Hong Kong",
-        "New York City",
-        "Berlin; London; Zurich",
-        "Chengdu",
+        "Miami",
+        "Nanjing",
+        "Beijing",
+        "Shanghai",
+        "Corte Madera",
+        "Zurich",
+        "London; Zurich",
+        "Munich",
+        "Paris",
+        "Madrid",
         "Dallas",
-        "Mexico City",
-        "Milan",
-        "London"
+        "Chicago",
+        "Los Angeles",
+        "Hong Kong",
+        "Busan",
+        "Philadelphia",
+        "Tianjin",
+        "Auckland"
       ],
       "jobs": [
         {
@@ -887,7 +899,7 @@
           "location": "Melbourne",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7764845?gh_jid=7764845",
-          "posted_at": "2026-07-28T01:10:43-04:00",
+          "posted_at": "2026-07-28T22:11:09-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -897,16 +909,6 @@
           "location": "Amsterdam",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8079104?gh_jid=8079104",
-          "posted_at": "2026-07-28T01:10:43-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "7510597",
-          "title": "Associate Store Leader, Bicester Shanghai",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7510597?gh_jid=7510597",
           "posted_at": "2026-07-28T01:10:43-04:00",
           "category": "retail",
           "seniority": "lead"
@@ -949,16 +951,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/8034902?gh_jid=8034902",
           "posted_at": "2026-07-28T01:10:43-04:00",
           "category": "marketing",
-          "seniority": "lead"
-        },
-        {
-          "id": "6977000",
-          "title": "Associate Store Leader, Gateway Shanghai",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/6977000?gh_jid=6977000",
-          "posted_at": "2026-07-28T01:10:43-04:00",
-          "category": "retail",
           "seniority": "lead"
         },
         {
@@ -1292,16 +1284,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7908907",
-          "title": "Head of Footwear Merchandising",
-          "location": "New York City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7908907?gh_jid=7908907",
-          "posted_at": "2026-07-28T01:10:43-04:00",
-          "category": "product",
-          "seniority": "lead"
-        },
-        {
           "id": "7954022",
           "title": "Head of Functional Communications",
           "location": "Zurich",
@@ -1360,10 +1342,40 @@
           "posted_at": "2026-07-28T01:10:43-04:00",
           "category": "operations",
           "seniority": "lead"
+        },
+        {
+          "id": "8079396",
+          "title": "HR Specialist, South Europe (Italian OR French speaker)",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8079396?gh_jid=8079396",
+          "posted_at": "2026-07-29T03:17:12-04:00",
+          "category": "hr",
+          "seniority": "mid"
+        },
+        {
+          "id": "8048430",
+          "title": "Intern Software Engineer - Product Technology",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8048430?gh_jid=8048430",
+          "posted_at": "2026-07-28T01:10:43-04:00",
+          "category": "engineering",
+          "seniority": "intern"
+        },
+        {
+          "id": "8051230",
+          "title": "Intern - Technology Services & Operations (Integrations and EDI)",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8051230?gh_jid=8051230",
+          "posted_at": "2026-07-28T01:10:43-04:00",
+          "category": "engineering",
+          "seniority": "intern"
         }
       ],
-      "checked_at": "2026-07-28T05:30:19.231161"
+      "checked_at": "2026-07-29T05:30:19.976691"
     }
   },
-  "generated_at": "2026-07-28T05:30:21.231348"
+  "generated_at": "2026-07-29T05:30:21.976859"
 }
