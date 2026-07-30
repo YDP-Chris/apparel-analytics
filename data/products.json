@@ -309,10 +309,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 9744,
+      "total": 9765,
       "categories": {
-        "bottoms": 3490,
-        "tops": 3126,
+        "bottoms": 3497,
+        "tops": 3140,
         "other": 711,
         "accessories": 606,
         "outerwear": 969,
@@ -320,13 +320,13 @@
         "dresses": 10
       },
       "subcategories": {
-        "shorts": 1406,
-        "leggings": 827,
+        "shorts": 1408,
+        "leggings": 830,
         "crop_tops": 178,
-        "other": 3293,
-        "long_sleeve": 532,
+        "other": 3299,
+        "long_sleeve": 534,
         "socks": 244,
-        "tanks": 854,
+        "tanks": 862,
         "joggers": 577,
         "hoodies": 567,
         "jackets": 200,
@@ -347,54 +347,54 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4414,
-        "womens": 3291,
-        "mens": 2039
+        "unisex": 4428,
+        "womens": 3296,
+        "mens": 2041
       },
       "colors": {
-        "green": 494,
-        "pink": 771,
-        "black": 2298,
+        "green": 496,
+        "pink": 775,
+        "black": 2303,
         "white": 742,
         "navy": 72,
-        "gray": 1167,
-        "brown": 712,
+        "gray": 1171,
+        "brown": 714,
         "blue": 1592,
         "red": 333,
         "purple": 539,
         "yellow": 86,
-        "orange": 52,
+        "orange": 56,
         "khaki": 2,
         "print": 20
       },
-      "colorCoverage": 91.1,
+      "colorCoverage": 91.2,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2567
+      "uniqueStyles": 2571
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10074,
+      "total": 10096,
       "categories": {
-        "bottoms": 1656,
-        "tops": 658,
+        "bottoms": 1663,
+        "tops": 665,
         "accessories": 724,
         "sports_bras": 189,
-        "other": 2926,
+        "other": 2931,
         "footwear": 2986,
-        "outerwear": 909,
+        "outerwear": 912,
         "dresses": 26
       },
       "subcategories": {
-        "shorts": 736,
-        "leggings": 410,
-        "other": 3309,
+        "shorts": 740,
+        "leggings": 412,
+        "other": 3314,
         "hats": 238,
-        "crop_tops": 202,
-        "pants": 401,
+        "crop_tops": 203,
+        "pants": 402,
         "running": 2764,
-        "tanks": 308,
-        "jackets": 436,
+        "tanks": 314,
+        "jackets": 439,
         "joggers": 27,
         "casual_dress": 26,
         "socks": 441,
@@ -412,20 +412,20 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4768,
-        "mens": 4195,
-        "unisex": 1111
+        "womens": 4776,
+        "mens": 4208,
+        "unisex": 1112
       },
       "colors": {
         "blue": 823,
         "red": 231,
-        "black": 1565,
+        "black": 1569,
         "purple": 188,
         "navy": 307,
         "khaki": 211,
         "gray": 332,
         "yellow": 84,
-        "white": 1597,
+        "white": 1598,
         "pink": 185,
         "green": 285,
         "orange": 79,
@@ -434,9 +434,9 @@
         "rust": 44,
         "camo": 6
       },
-      "colorCoverage": 60.1,
+      "colorCoverage": 60,
       "avgColorsPerStyle": 2.6,
-      "uniqueStyles": 1418
+      "uniqueStyles": 1422
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -651,17 +651,31 @@
     }
   },
   "totals": {
-    "products": 38710,
+    "products": 38753,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-07-30",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 1,
+      "products": [
+        {
+          "name": "cloudboom strike 2 u",
+          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-u-3ug3005/unisex/verdite-aconite-shoes-3UG30056137",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
       "date": "2026-07-29",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 224,
+      "count": 245,
       "products": [
         {
           "name": "gymshark geo seamless long sleeve t shirt ls tops",
@@ -1262,6 +1276,140 @@
           "url": "https://www.gymshark.com/products/gymshark-training-baby-tee-ss-tops-pink-aw26-b3b9f-kdnb",
           "category": "tops",
           "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 21,
+      "products": [
+        {
+          "name": "zero 2 in 1 shorts m 1mg3060",
+          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-m-1mg3060/mens",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "zero t breathe m 1mg3061",
+          "url": "https://www.on.com/en-us/products/zero-t-breathe-m-1mg3061/mens",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "zero tank breathe m 1mg3142",
+          "url": "https://www.on.com/en-us/products/zero-tank-breathe-m-1mg3142/mens",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "zero tank breathe w 1wg3179",
+          "url": "https://www.on.com/en-us/products/zero-tank-breathe-w-1wg3179/womens",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "ultra jacket m",
+          "url": "https://www.on.com/en-us/products/ultra-jacket-m-1mf3006/mens/urchin-apparel-1MF30064968",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "ultra pants m",
+          "url": "https://www.on.com/en-us/products/ultra-pants-m-1mf3005/mens/urchin-apparel-1MF30054968",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "zero 2 in 1 shorts m",
+          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-m-1mg3060/mens/urchin-black-apparel-1MG30605044",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "zero crop w",
+          "url": "https://www.on.com/en-us/products/zero-crop-w-1wg1096/womens/urchin-apparel-1WG10964968",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "zero half tights m",
+          "url": "https://www.on.com/en-us/products/zero-half-tights-m-1mg1003/mens/urchin-apparel-1MG10034968",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "zero jacket m",
+          "url": "https://www.on.com/en-us/products/zero-jacket-m-1me1016/mens/urchin-apparel-1ME10164968",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "zero jacket w",
+          "url": "https://www.on.com/en-us/products/zero-jacket-w-1we1020/womens/urchin-apparel-1WE10204968",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "zero short tights w",
+          "url": "https://www.on.com/en-us/products/zero-short-tights-w-1wg1003/womens/urchin-apparel-1WG10034968",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "zero shorts 1 m",
+          "url": "https://www.on.com/en-us/products/zero-shorts-1-m-1mg1002/mens/urchin-apparel-1MG10024968",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "zero shorts w",
+          "url": "https://www.on.com/en-us/products/zero-shorts-w-1wg1002/womens/urchin-apparel-1WG10024968",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "zero t breathe m",
+          "url": "https://www.on.com/en-us/products/zero-t-breathe-m-1mg3061/mens/black-apparel-1MG30610553",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "zero t breathe m",
+          "url": "https://www.on.com/en-us/products/zero-t-breathe-m-1mg3061/mens/verdite-apparel-1MG30615055",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "zero t breathe w",
+          "url": "https://www.on.com/en-us/products/zero-t-breathe-w-1wg3067/womens/foxglove-apparel-1WG30674944",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "zero tank breathe m",
+          "url": "https://www.on.com/en-us/products/zero-tank-breathe-m-1mg3142/mens/black-apparel-1MG31420553",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "zero tank breathe m",
+          "url": "https://www.on.com/en-us/products/zero-tank-breathe-m-1mg3142/mens/verdite-apparel-1MG31425055",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "zero tank breathe w",
+          "url": "https://www.on.com/en-us/products/zero-tank-breathe-w-1wg3179/womens/black-apparel-1WG31790553",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "zero tank breathe w",
+          "url": "https://www.on.com/en-us/products/zero-tank-breathe-w-1wg3179/womens/foxglove-white-apparel-1WG31795418",
+          "category": "tops",
+          "gender": "womens"
         }
       ]
     },
@@ -5734,242 +5882,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-07-14",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 38,
-      "products": [
-        {
-          "name": "gymshark 315 seamless tights black charcoal",
-          "url": "https://www.gymshark.com/products/gymshark-315-seamless-tights-black-charcoal-grey-ss22",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark heavyweight loopback sweat pullover troop",
-          "url": "https://www.gymshark.com/products/gymshark-heavyweight-loopback-sweat-pullover-troop-green-ss24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark loopback sweat shorts",
-          "url": "https://www.gymshark.com/products/gymshark-loopback-sweat-shorts-black-ss24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark rest day sweats joggers heritage",
-          "url": "https://www.gymshark.com/products/gymshark-rest-day-sweats-joggers-heritage-pink-marl-ss24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark 315 seamless tights black charcoal",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-315-seamless-tights-black-charcoal-grey-ss22",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark heavyweight loopback sweat pullover troop",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-heavyweight-loopback-sweat-pullover-troop-green-ss24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark loopback sweat shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-loopback-sweat-shorts-black-ss24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark rest day sweats joggers heritage",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-sweats-joggers-heritage-pink-marl-ss24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday v waistband leggings slate",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-v-waistband-leggings-slate-teal-aw23",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark we do gym crew pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-we-do-gym-crew-pullovers-grey-ss25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-1-4-zip-hoodie-pullovers-black-ss26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark summer pump cover short sleeve hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-summer-pump-cover-short-sleeve-hoodie-pullovers-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark summer pump t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-summer-pump-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops ss26 a4c6u bdqz",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-t-shirt-ss-tops-black-ss26-a4c6u-bdqz",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops ss26 a4c6u bdq1",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-t-shirt-ss-tops-black-ss26-a4c6u-bdq1",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers ss26 a4c3p bdqy",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-1-4-zip-hoodie-pullovers-black-ss26-a4c3p-bdqy",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers ss26 a4c3p bdqz",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-1-4-zip-hoodie-pullovers-black-ss26-a4c3p-bdqz",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-1-4-zip-hoodie-pullovers-grey-ss26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark conditioning club tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tank-sleeveless-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark summer pump cover short sleeve hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-summer-pump-cover-short-sleeve-hoodie-pullovers-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark summer pump t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-summer-pump-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday v waistband leggings slate",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-v-waistband-leggings-slate-teal-aw23",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark we do gym crew pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-we-do-gym-crew-pullovers-grey-ss25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-1-4-zip-hoodie-pullovers-black-ss26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-t-shirt-ss-tops-black-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark summer pump cover short sleeve hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-summer-pump-cover-short-sleeve-hoodie-pullovers-white-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark summer pump t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-summer-pump-t-shirt-ss-tops-white-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops ss26 a4c6u bdqz",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-t-shirt-ss-tops-black-ss26-a4c6u-bdqz",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops ss26 a4c6u bdq1",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-t-shirt-ss-tops-black-ss26-a4c6u-bdq1",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers ss26 a4c3p bdqy",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-1-4-zip-hoodie-pullovers-black-ss26-a4c3p-bdqy",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers ss26 a4c3p bdqz",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-1-4-zip-hoodie-pullovers-black-ss26-a4c3p-bdqz",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx 1 4 zip hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-1-4-zip-hoodie-pullovers-grey-ss26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark onyx t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark conditioning club tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tank-sleeveless-tops-purple-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark summer pump cover short sleeve hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-summer-pump-cover-short-sleeve-hoodie-pullovers-blue-ss26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark summer pump t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-summer-pump-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6380,7 +6292,7 @@
       "2026-07-24": 8,
       "2026-07-27": 44,
       "2026-07-28": 42,
-      "2026-07-29": 224
+      "2026-07-29": 245
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6409,7 +6321,9 @@
       "2026-07-22": 12,
       "2026-07-23": 7,
       "2026-07-27": 19,
-      "2026-07-28": 1
+      "2026-07-28": 1,
+      "2026-07-29": 21,
+      "2026-07-30": 1
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -6452,8 +6366,8 @@
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1805,
-      "gymshark": 3490,
-      "on_running": 1656,
+      "gymshark": 3497,
+      "on_running": 1663,
       "gymreapers": 224,
       "sbd": 22,
       "schiek": 2,
@@ -6465,8 +6379,8 @@
       "tenthousand": 40,
       "lululemon": 835,
       "alo": 578,
-      "gymshark": 3126,
-      "on_running": 658,
+      "gymshark": 3140,
+      "on_running": 665,
       "gymreapers": 236,
       "sbd": 67,
       "schiek": 7,
@@ -6479,7 +6393,7 @@
       "lululemon": 680,
       "alo": 687,
       "gymshark": 969,
-      "on_running": 909,
+      "on_running": 912,
       "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
@@ -6492,7 +6406,7 @@
       "lululemon": 917,
       "alo": 838,
       "gymshark": 711,
-      "on_running": 2926,
+      "on_running": 2931,
       "gymreapers": 317,
       "sbd": 78,
       "harbinger": 26,
@@ -6558,8 +6472,8 @@
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 423,
-      "gymshark": 1406,
-      "on_running": 736,
+      "gymshark": 1408,
+      "on_running": 740,
       "gymreapers": 147,
       "sbd": 15,
       "bear_grips": 40
@@ -6570,8 +6484,8 @@
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 269,
-      "gymshark": 854,
-      "on_running": 308,
+      "gymshark": 862,
+      "on_running": 314,
       "gymreapers": 36,
       "sbd": 8,
       "bear_grips": 472
@@ -6592,8 +6506,8 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 369,
-      "gymshark": 827,
-      "on_running": 410,
+      "gymshark": 830,
+      "on_running": 412,
       "gymreapers": 46,
       "bear_grips": 32
     },
@@ -6603,8 +6517,8 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1691,
-      "gymshark": 3293,
-      "on_running": 3309,
+      "gymshark": 3299,
+      "on_running": 3314,
       "gymreapers": 538,
       "sbd": 137,
       "harbinger": 55,
@@ -6618,7 +6532,7 @@
       "lululemon": 448,
       "alo": 251,
       "gymshark": 356,
-      "on_running": 401
+      "on_running": 402
     },
     "pullovers": {
       "vuori": 6,
@@ -6650,7 +6564,7 @@
       "lululemon": 300,
       "alo": 188,
       "gymshark": 200,
-      "on_running": 436,
+      "on_running": 439,
       "gymreapers": 17,
       "bear_grips": 14
     },
@@ -6660,7 +6574,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 532,
+      "gymshark": 534,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -6717,7 +6631,7 @@
       "lululemon": 96,
       "alo": 188,
       "gymshark": 178,
-      "on_running": 202,
+      "on_running": 203,
       "gymreapers": 16,
       "sbd": 7,
       "bear_grips": 7
@@ -6829,7 +6743,7 @@
       "vuori": 574,
       "outdoor_voices": 33,
       "alo": 505,
-      "gymshark": 1167,
+      "gymshark": 1171,
       "on_running": 332,
       "gymreapers": 78,
       "sbd": 16,
@@ -6848,8 +6762,8 @@
       "vuori": 803,
       "outdoor_voices": 98,
       "alo": 1044,
-      "gymshark": 2298,
-      "on_running": 1565,
+      "gymshark": 2303,
+      "on_running": 1569,
       "gymreapers": 131,
       "sbd": 2,
       "schiek": 8,
@@ -6881,7 +6795,7 @@
       "lululemon": 17,
       "alo": 933,
       "gymshark": 742,
-      "on_running": 1597,
+      "on_running": 1598,
       "gymreapers": 93,
       "sbd": 2,
       "harbinger": 1,
@@ -6903,7 +6817,7 @@
       "outdoor_voices": 51,
       "lululemon": 4,
       "alo": 315,
-      "gymshark": 494,
+      "gymshark": 496,
       "on_running": 285,
       "gymreapers": 104,
       "sbd": 4
@@ -6912,7 +6826,7 @@
       "vuori": 191,
       "outdoor_voices": 2,
       "alo": 297,
-      "gymshark": 712,
+      "gymshark": 714,
       "on_running": 83,
       "gymreapers": 17,
       "schiek": 2,
@@ -6944,7 +6858,7 @@
       "vuori": 23,
       "outdoor_voices": 6,
       "alo": 3,
-      "gymshark": 52,
+      "gymshark": 56,
       "on_running": 79,
       "gymreapers": 1,
       "sbd": 10
@@ -6964,7 +6878,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 242,
-      "gymshark": 771,
+      "gymshark": 775,
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
@@ -6995,8 +6909,8 @@
   "categoryMix": [
     {
       "brand": "On Running",
-      "bottoms": 16.4,
-      "tops": 6.5,
+      "bottoms": 16.5,
+      "tops": 6.6,
       "outerwear": 9,
       "dresses": 0.3,
       "sports_bras": 1.9,
@@ -7006,7 +6920,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 35.8,
-      "tops": 32.1,
+      "tops": 32.2,
       "outerwear": 9.9,
       "dresses": 0.1,
       "sports_bras": 8.5,
@@ -7118,7 +7032,7 @@
     {
       "brand": "On Running",
       "black": 15.5,
-      "white": 15.9,
+      "white": 15.8,
       "gray": 3.3,
       "navy": 3,
       "blue": 8.2,
@@ -7144,7 +7058,7 @@
       "brown": 7.3,
       "purple": 5.5,
       "pink": 7.9,
-      "orange": 0.5,
+      "orange": 0.6,
       "red": 3.4,
       "yellow": 0.9,
       "other": 0.2
@@ -7365,7 +7279,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 760,
-      "text": "Vuori ranks #2 in shorts with 760 products. Behind Gymshark (1406)."
+      "text": "Vuori ranks #2 in shorts with 760 products. Behind Gymshark (1408)."
     },
     {
       "type": "comparison",
@@ -7524,5 +7438,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-29T13:15:11.271Z"
+  "generated_at": "2026-07-30T13:15:08.723Z"
 }
