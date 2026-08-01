@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4230,
+      "total": 4231,
       "categories": {
         "bottoms": 2009,
-        "tops": 664,
+        "tops": 665,
         "outerwear": 547,
         "other": 598,
         "sports_bras": 134,
@@ -18,7 +18,7 @@
         "joggers": 162,
         "shorts": 760,
         "tanks": 220,
-        "tees": 226,
+        "tees": 227,
         "leggings": 183,
         "other": 1253,
         "pants": 408,
@@ -43,7 +43,7 @@
         "fleece": 13
       },
       "genders": {
-        "mens": 1571,
+        "mens": 1572,
         "womens": 1933,
         "unisex": 726
       },
@@ -55,7 +55,7 @@
         "red": 51,
         "white": 401,
         "blue": 562,
-        "green": 213,
+        "green": 214,
         "brown": 191,
         "print": 37,
         "heather": 234,
@@ -309,26 +309,26 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 9819,
+      "total": 9834,
       "categories": {
-        "bottoms": 3519,
-        "tops": 3154,
+        "bottoms": 3523,
+        "tops": 3162,
         "other": 711,
         "accessories": 606,
-        "outerwear": 975,
+        "outerwear": 978,
         "sports_bras": 844,
         "dresses": 10
       },
       "subcategories": {
-        "shorts": 1410,
-        "leggings": 834,
+        "shorts": 1412,
+        "leggings": 836,
         "crop_tops": 178,
-        "other": 3325,
-        "long_sleeve": 540,
+        "other": 3329,
+        "long_sleeve": 542,
         "socks": 244,
-        "tanks": 870,
+        "tanks": 872,
         "joggers": 579,
-        "hoodies": 567,
+        "hoodies": 570,
         "jackets": 206,
         "pants": 356,
         "pullovers": 156,
@@ -347,20 +347,20 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4428,
-        "womens": 3346,
-        "mens": 2045
+        "unisex": 4433,
+        "womens": 3350,
+        "mens": 2051
       },
       "colors": {
         "green": 500,
         "pink": 775,
         "black": 2311,
-        "white": 750,
+        "white": 751,
         "navy": 72,
-        "gray": 1179,
-        "brown": 730,
-        "blue": 1598,
-        "red": 333,
+        "gray": 1181,
+        "brown": 734,
+        "blue": 1604,
+        "red": 335,
         "purple": 543,
         "yellow": 86,
         "orange": 56,
@@ -369,26 +369,26 @@
       },
       "colorCoverage": 91.2,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2575
+      "uniqueStyles": 2582
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10100,
+      "total": 10104,
       "categories": {
-        "bottoms": 1663,
+        "bottoms": 1665,
         "tops": 665,
         "accessories": 724,
         "sports_bras": 189,
-        "other": 2935,
+        "other": 2937,
         "footwear": 2986,
         "outerwear": 912,
         "dresses": 26
       },
       "subcategories": {
-        "shorts": 740,
+        "shorts": 742,
         "leggings": 412,
-        "other": 3318,
+        "other": 3320,
         "hats": 238,
         "crop_tops": 203,
         "pants": 402,
@@ -412,14 +412,14 @@
         "trail": 2
       },
       "genders": {
-        "womens": 4776,
+        "womens": 4780,
         "mens": 4208,
         "unisex": 1116
       },
       "colors": {
         "blue": 823,
         "red": 231,
-        "black": 1569,
+        "black": 1570,
         "purple": 188,
         "navy": 307,
         "khaki": 211,
@@ -436,7 +436,7 @@
       },
       "colorCoverage": 60,
       "avgColorsPerStyle": 2.6,
-      "uniqueStyles": 1424
+      "uniqueStyles": 1425
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -651,17 +651,31 @@
     }
   },
   "totals": {
-    "products": 38813,
+    "products": 38833,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-08-01",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 1,
+      "products": [
+        {
+          "name": "tuvalu tee",
+          "url": "https://vuoriclothing.com/products/tuvalu-tee-olive",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
       "date": "2026-07-31",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 54,
+      "count": 69,
       "products": [
         {
           "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
@@ -985,6 +999,128 @@
           "name": "gymshark everyday seamless zip tracktop jackets outerwear",
           "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-grey-aw26",
           "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apex long sleeve t shirt black silhouette",
+          "url": "https://www.gymshark.com/products/gymshark-apex-long-sleeve-t-shirt-black-silhouette-grey-aw22",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark essential oversized t shirt titanium",
+          "url": "https://www.gymshark.com/products/gymshark-essential-oversized-t-shirt-titanium-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark supersoft tank success",
+          "url": "https://www.gymshark.com/products/gymshark-supersoft-tank-success-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting club t shirt oat white conditioning",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-club-t-shirt-oat-white-conditioning-red-ss25",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark apex long sleeve t shirt black silhouette",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-apex-long-sleeve-t-shirt-black-silhouette-grey-aw22",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark essential oversized t shirt titanium",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-essential-oversized-t-shirt-titanium-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark supersoft tank success",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-supersoft-tank-success-blue-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting club t shirt oat white conditioning",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-club-t-shirt-oat-white-conditioning-red-ss25",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vital seamless 2 0 shorts evening",
+          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-2-0-shorts-evening-blue-marl-ss23",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark crest oversized hoodie lifestyle",
+          "url": "https://www.gymshark.com/products/gymshark-crest-oversized-hoodie-lifestyle-brown-ss25",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vital seamless leggings espresso marlgymshark vital seamless tall leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-leggings-espresso-marlgymshark-vital-seamless-tall-leggings-leggings-brown-ss25",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark vital seamless 2 0 shorts evening",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-2-0-shorts-evening-blue-marl-ss23",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark collegiate hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-hoodie-pullovers-white-ss25",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark crest oversized hoodie lifestyle",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-oversized-hoodie-lifestyle-brown-ss25",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark vital seamless leggings espresso marlgymshark vital seamless tall leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-leggings-espresso-marlgymshark-vital-seamless-tall-leggings-leggings-brown-ss25",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 4,
+      "products": [
+        {
+          "name": "zero 2 in 1 shorts w 1wg3066",
+          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-w-1wg3066/womens",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt t w",
+          "url": "https://www.on.com/en-us/products/performance-volt-t-w-1wg3133/womens/verbana-apparel-1WG31335039",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "zero 2 in 1 shorts w",
+          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-w-1wg3066/womens/urchin-black-apparel-1WG30665044",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "performance volt t w 1wg3133",
+          "url": "https://www.on.com/en-us/products/performance-volt-t-w-1wg3133/womens",
+          "category": "other",
           "gender": "womens"
         }
       ]
@@ -4554,1118 +4690,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-07-16",
-      "brand": "Outdoor Voices",
-      "brandSlug": "outdoor_voices",
-      "count": 110,
-      "products": [
-        {
-          "name": "no show sock beachfire",
-          "url": "https://www.outdoorvoices.com/products/no-show-sock-white-beachfire",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "m sport polo 2 dark shadow",
-          "url": "https://www.outdoorvoices.com/products/m-sport-polo-2-dark-shadow",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "m sport polo 2 phantom",
-          "url": "https://www.outdoorvoices.com/products/m-sport-polo-2-phantom",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "m sport polo 2",
-          "url": "https://www.outdoorvoices.com/products/m-sport-polo-2-white",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "m sport polo 2 evergreen",
-          "url": "https://www.outdoorvoices.com/products/m-sport-polo-2-evergreen",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "pickleball for all graphic shortsleeve",
-          "url": "https://www.outdoorvoices.com/products/pickleball-for-all-graphic-shortsleeve-teal",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "amateur sporting club graphic shortsleeve",
-          "url": "https://www.outdoorvoices.com/products/amateur-sporting-club-graphic-shortsleeve-ivory",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "solarcool tourist hat grasshopper",
-          "url": "https://www.outdoorvoices.com/products/solarcool-tourist-hat-grasshopper",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "m high stride 5in short with pockets unlined",
-          "url": "https://www.outdoorvoices.com/products/m-high-stride-5in-short-with-pockets-unlined-navy",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m solarcool 7in short evergreen shibori",
-          "url": "https://www.outdoorvoices.com/products/m-solarcool-7in-short-evergreen-shibori",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m solarcool 7in short bubbles",
-          "url": "https://www.outdoorvoices.com/products/m-solarcool-7in-short-bubbles",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m high stride pant",
-          "url": "https://www.outdoorvoices.com/products/m-high-stride-pant-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m everyday classic longsleeve",
-          "url": "https://www.outdoorvoices.com/products/m-everyday-classic-longsleeve-white",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "m recfleece snap up hoodie",
-          "url": "https://www.outdoorvoices.com/products/m-recfleece-snap-up-hoodie-black",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "m recfleece snap up hoodie galaxy",
-          "url": "https://www.outdoorvoices.com/products/m-recfleece-snap-up-hoodie-galaxy",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "m solarcool 6 boardshort clover",
-          "url": "https://www.outdoorvoices.com/products/m-solarcool-6-boardshort-navy-clover",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "m solarcool 6 boardshort apricot",
-          "url": "https://www.outdoorvoices.com/products/m-solarcool-6-boardshort-apricot-floral",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "w seamlessrib 7 8 legging",
-          "url": "https://www.outdoorvoices.com/products/w-seamlessrib-7-8-legging-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w seamlessrib 7 8 legging",
-          "url": "https://www.outdoorvoices.com/products/w-seamlessrib-7-8-legging-pine",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "m techtwill birdie 7 short",
-          "url": "https://www.outdoorvoices.com/products/m-techtwill-birdie-7-short-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m recnylon 14 zip jacket",
-          "url": "https://www.outdoorvoices.com/products/m-recnylon-14-zip-jacket-black",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "m recnylon 14 zip jacket ov",
-          "url": "https://www.outdoorvoices.com/products/m-recnylon-14-zip-jacket-ov-blue",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "m cloudknit classic shortsleeve",
-          "url": "https://www.outdoorvoices.com/products/m-cloudknit-classic-shortsleeve-charcoal",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m rectrek 5 short",
-          "url": "https://www.outdoorvoices.com/products/m-rectrek-5-short-navy",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m cloudknit sweatpant",
-          "url": "https://www.outdoorvoices.com/products/m-cloudknit-sweatpant-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m rectrek 7in short",
-          "url": "https://www.outdoorvoices.com/products/m-rectrek-7in-short-bone",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "tall stripe socks kellygreen delphinium",
-          "url": "https://www.outdoorvoices.com/products/tall-stripe-socks-white-kellygreen-delphinium",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "tall stripe socks white",
-          "url": "https://www.outdoorvoices.com/products/tall-stripe-socks-white-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "ov rec ankle sock maize",
-          "url": "https://www.outdoorvoices.com/products/ov-rec-ankle-sock-maize",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "ov club crew sock silt",
-          "url": "https://www.outdoorvoices.com/products/ov-club-crew-sock-silt-green",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "ov club ankle sock blizzard",
-          "url": "https://www.outdoorvoices.com/products/ov-club-ankle-sock-blizzard",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "ov club ankle sock mellow",
-          "url": "https://www.outdoorvoices.com/products/ov-club-ankle-sock-mellow",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "w sheerrib stirrup legging",
-          "url": "https://www.outdoorvoices.com/products/w-sheerrib-stirrup-legging-wheat",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w warmup collared crop top",
-          "url": "https://www.outdoorvoices.com/products/w-warmup-collared-crop-top-caribbean",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w thinkfast jersey baby tee brilliant",
-          "url": "https://www.outdoorvoices.com/products/w-thinkfast-jersey-baby-tee-brilliant-white",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w thinkfast jersey baby tee",
-          "url": "https://www.outdoorvoices.com/products/w-thinkfast-jersey-baby-tee-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w zephyr 3 short lava",
-          "url": "https://www.outdoorvoices.com/products/w-zephyr-3-short-lava",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w recnylon 3 skort",
-          "url": "https://www.outdoorvoices.com/products/w-recnylon-3-skort-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w zephyr 3 skort mojave haze",
-          "url": "https://www.outdoorvoices.com/products/w-zephyr-3-skort-mojave-haze",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w fasttrack waffle longsleeve moonstone",
-          "url": "https://www.outdoorvoices.com/products/w-fasttrack-waffle-longsleeve-moonstone",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w seamlesssmooth 45 short evergreen",
-          "url": "https://www.outdoorvoices.com/products/w-seamlesssmooth-45-short-black-evergreen",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w recnylon 3 skort laurel wreath",
-          "url": "https://www.outdoorvoices.com/products/w-recnylon-3-skort-laurel-wreath",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w seamlesssmooth 45 short dove",
-          "url": "https://www.outdoorvoices.com/products/w-seamlesssmooth-45-short-graphite-dove",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w ov sun graphic everyday longsleeve",
-          "url": "https://www.outdoorvoices.com/products/w-ov-sun-graphic-everyday-longsleeve-jasmine",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w zephyr 3 skort wildflower haze",
-          "url": "https://www.outdoorvoices.com/products/w-zephyr-3-skort-wildflower-haze",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w freeform 5in short delphinium haze",
-          "url": "https://www.outdoorvoices.com/products/w-freeform-5in-short-delphinium-haze",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w freeform 5in short",
-          "url": "https://www.outdoorvoices.com/products/w-freeform-5in-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w freeform 5in short",
-          "url": "https://www.outdoorvoices.com/products/w-freeform-5in-short-terracotta",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w frostknit pullover new",
-          "url": "https://www.outdoorvoices.com/products/w-frostknit-pullover-new-blue",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "w nimbus quarter zip sweatshirt mustang",
-          "url": "https://www.outdoorvoices.com/products/w-nimbus-quarter-zip-sweatshirt-mustang",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w superform rib flare pant",
-          "url": "https://www.outdoorvoices.com/products/w-superform-rib-flare-pant-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w coolform tank",
-          "url": "https://www.outdoorvoices.com/products/w-coolform-tank-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w coolform tank pistachio",
-          "url": "https://www.outdoorvoices.com/products/w-coolform-tank-pistachio",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w coolform tank lava",
-          "url": "https://www.outdoorvoices.com/products/w-coolform-tank-lava",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool camp collar stream",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-camp-collar-stream",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool camp collar brush",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-camp-collar-sage-brush",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool camp collar check",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-camp-collar-orchid-check",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool camp collar camellia",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-camp-collar-camellia",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w warmup 2 5in skort",
-          "url": "https://www.outdoorvoices.com/products/w-warmup-2-5in-skort-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w jog 6 short camellia snapdragon",
-          "url": "https://www.outdoorvoices.com/products/w-jog-6-short-camellia-snapdragon",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w jog 6 short",
-          "url": "https://www.outdoorvoices.com/products/w-jog-6-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w jog 6 short mojave haze",
-          "url": "https://www.outdoorvoices.com/products/w-jog-6-short-mojave-haze",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w jog 6 short sagebrush",
-          "url": "https://www.outdoorvoices.com/products/w-jog-6-short-sagebrush-dark-olive",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cross back dress grasshopper",
-          "url": "https://www.outdoorvoices.com/products/w-cross-back-dress-grasshopper",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w superformtm rib high neck tank",
-          "url": "https://www.outdoorvoices.com/products/w-superformtm-rib-high-neck-tank-linen",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool 3 short unlined stream",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-3-short-unlined-stream",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool 3 short unlined coastal",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-3-short-unlined-coastal-shade",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w solarcool 3 short unlined check",
-          "url": "https://www.outdoorvoices.com/products/w-solarcool-3-short-unlined-orchid-check",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit boxy shortsleeve water",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-boxy-shortsleeve-lemon-water",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w organic cotton terry shrunken hoodie seaside washed",
-          "url": "https://www.outdoorvoices.com/products/w-organic-cotton-terry-shrunken-hoodie-seaside-washed",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "w sculpt longsleeve crop top",
-          "url": "https://www.outdoorvoices.com/products/w-sculpt-longsleeve-crop-top-jasmine",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w techsweat move free dress grapefruit helios",
-          "url": "https://www.outdoorvoices.com/products/w-techsweat-move-free-dress-grapefruit-helios",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w warmup dress mellow",
-          "url": "https://www.outdoorvoices.com/products/w-warmup-dress-mellow",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w superform rib longsleeve",
-          "url": "https://www.outdoorvoices.com/products/w-superform-rib-longsleeve-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w warmup dress",
-          "url": "https://www.outdoorvoices.com/products/w-warmup-dress-seafoam",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "w superformtm rib kick flare",
-          "url": "https://www.outdoorvoices.com/products/w-superformtm-rib-kick-flare-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w superformtm rib kick flare laurel wreath",
-          "url": "https://www.outdoorvoices.com/products/w-superformtm-rib-kick-flare-laurel-wreath",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w lightspeed 3 short hot",
-          "url": "https://www.outdoorvoices.com/products/w-lightspeed-3-short-hot-coral",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w lightspeed 3 short delphinium",
-          "url": "https://www.outdoorvoices.com/products/w-lightspeed-3-short-delphinium",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w lightspeed 3 short rainstorm blur",
-          "url": "https://www.outdoorvoices.com/products/w-lightspeed-3-short-rainstorm-blur",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w thinkfast shortsleeve pistachio",
-          "url": "https://www.outdoorvoices.com/products/w-thinkfast-shortsleeve-pistachio",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w zephyr pant laurel wreath",
-          "url": "https://www.outdoorvoices.com/products/w-zephyr-pant-laurel-wreath",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit 35 lounge short",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-35-lounge-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w doing things 2 5in short",
-          "url": "https://www.outdoorvoices.com/products/w-doing-things-2-5in-short-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w doing things 2 5in short hot",
-          "url": "https://www.outdoorvoices.com/products/w-doing-things-2-5in-short-hot-coral",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit cami water",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-cami-lemon-water",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit hoodie",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-hoodie-black",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "w frostknit 7 8 legging mojave",
-          "url": "https://www.outdoorvoices.com/products/w-frostknit-7-8-legging-mojave",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w techsweat move free tank evergreen",
-          "url": "https://www.outdoorvoices.com/products/w-techsweat-move-free-tank-evergreen",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "w court skort 4 5in",
-          "url": "https://www.outdoorvoices.com/products/w-court-skort-4-5in-navy",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w court skort 4 5in",
-          "url": "https://www.outdoorvoices.com/products/w-court-skort-4-5in-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w court skort 4 5in delphinium",
-          "url": "https://www.outdoorvoices.com/products/w-court-skort-4-5in-delphinium",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit sweatpant burnt sumac",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-sweatpant-burnt-sumac",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w court skort 4 5in dove",
-          "url": "https://www.outdoorvoices.com/products/w-court-skort-4-5in-dove-ash",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit sweatpant",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-sweatpant-heather-grey",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w rectrek zip off pant tea tree calcite milk",
-          "url": "https://www.outdoorvoices.com/products/w-rectrek-zip-off-pant-tea-tree-calcite-milk-stone",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w cloudknit 35 lounge short water",
-          "url": "https://www.outdoorvoices.com/products/w-cloudknit-35-lounge-short-lemon-water",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "frostknit hoodie branch",
-          "url": "https://www.outdoorvoices.com/products/frostknit-hoodie-olive-branch",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "w love bra dust",
-          "url": "https://www.outdoorvoices.com/products/w-love-bra-blue-dust",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "w love bra",
-          "url": "https://www.outdoorvoices.com/products/w-love-bra-black",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 50,
-      "products": [
-        {
-          "name": "gymshark adapt camo seamless lace back top black onyx",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-camo-seamless-lace-back-top-black-onyx-grey-aw22",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark onyx lifting socks socks",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-lifting-socks-socks-black-aw24",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vital seamless 1 4 zip navy heavy",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-1-4-zip-navy-heavy-blue-ss25",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark onyx lifting socks black carmine",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-lifting-socks-black-carmine-red-ss25",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark element baselayer long sleeve t shirt heavy",
-          "url": "https://www.gymshark.com/products/gymshark-element-baselayer-long-sleeve-t-shirt-heavy-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark craft trucker oat white",
-          "url": "https://www.gymshark.com/products/gymshark-craft-trucker-oat-white-black-ss25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark geo seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-geo-seamless-t-shirt-ss-tops-green-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark geo seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-geo-seamless-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark geo seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-geo-seamless-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark element baselayer long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-element-baselayer-long-sleeve-t-shirt-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark element tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-element-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark element baselayer long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-element-baselayer-long-sleeve-t-shirt-ls-tops-green-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-t-shirt-ss-tops-red-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark relaxed cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-relaxed-cap-headwear-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-green-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-grey-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark relaxed cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-relaxed-cap-headwear-blue-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-t-shirt-ss-tops-green-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-t-shirt-ss-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark relaxed cap headwear ss26 i1b7h bb4j",
-          "url": "https://www.gymshark.com/products/gymshark-relaxed-cap-headwear-black-ss26-i1b7h-bb4j",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt camo seamless lace back top black onyx",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-camo-seamless-lace-back-top-black-onyx-grey-aw22",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark onyx lifting socks socks",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-lifting-socks-socks-black-aw24",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vital seamless 1 4 zip navy heavy",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-1-4-zip-navy-heavy-blue-ss25",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark onyx lifting socks black carmine",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-onyx-lifting-socks-black-carmine-red-ss25",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark element baselayer long sleeve t shirt heavy",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-element-baselayer-long-sleeve-t-shirt-heavy-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark craft trucker oat white",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-craft-trucker-oat-white-black-ss25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark geo seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-geo-seamless-t-shirt-ss-tops-green-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark geo seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-geo-seamless-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark geo seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-geo-seamless-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark element baselayer long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-element-baselayer-long-sleeve-t-shirt-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark element tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-element-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark element baselayer long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-element-baselayer-long-sleeve-t-shirt-ls-tops-green-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-t-shirt-ss-tops-red-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark relaxed cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-relaxed-cap-headwear-black-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-green-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-grey-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-t-shirt-ss-tops-grey-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark relaxed cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-relaxed-cap-headwear-blue-ss26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-t-shirt-ss-tops-green-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark shadow seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-t-shirt-ss-tops-blue-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark relaxed cap headwear ss26 i1b7h bb4j",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-relaxed-cap-headwear-black-ss26-i1b7h-bb4j",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival shorts dark green",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-shorts-dark-green-white-logo",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark rest day essentials hoodie titanium",
-          "url": "https://www.gymshark.com/products/gymshark-rest-day-essentials-hoodie-titanium-blue-ss24",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-red-ss26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark arrival shorts dark green",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-arrival-shorts-dark-green-white-logo",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark rest day essentials hoodie titanium",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-essentials-hoodie-titanium-blue-ss24",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-red-ss26",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 16,
-      "products": [
-        {
-          "name": "cloud x tempo m",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/black-eclipse-shoes-3MG30110106",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud x tempo m",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/ivory-ice-shoes-3MG30110969",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud x tempo m",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/ivory-isle-shoes-3MG30116013",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud x tempo m",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens/ivory-verdite-shoes-3MG30115078",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud x tempo w",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/black-eclipse-shoes-3WG30090106",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud x tempo w",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/ivory-camellia-shoes-3WG30095084",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud x tempo w",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/ivory-ice-shoes-3WG30090969",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud x tempo w",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens/ivory-storm-shoes-3WG30090980",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "x tempo m 3mg3011",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-m-3mg3011/mens",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "x tempo w 3wg3009",
-          "url": "https://www.on.com/en-us/products/cloud-x-tempo-w-3wg3009/womens",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud x 5 m",
-          "url": "https://www.on.com/en-us/products/cloud-x-5-m-3mg3008/mens/black-black-shoes-3MG30081043",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud x 5 m",
-          "url": "https://www.on.com/en-us/products/cloud-x-5-m-3mg3008/mens/white-black-shoes-3MG30080462",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud x w",
-          "url": "https://www.on.com/en-us/products/cloud-x-w-3wg3006/womens/black-black-shoes-3WG30061043",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud x w",
-          "url": "https://www.on.com/en-us/products/cloud-x-w-3wg3006/womens/ivory-ice-shoes-3WG30060969",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud x w",
-          "url": "https://www.on.com/en-us/products/cloud-x-w-3wg3006/womens/white-black-shoes-3WG30060462",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "logo sock high 3p kids u",
-          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-kids-u-2kf1005/unisex/white-accessories-2KF10050069",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 14,
-      "products": [
-        {
-          "name": "crosscourt pro short unlined 7",
-          "url": "https://vuoriclothing.com/products/crosscourt-pro-short-unlined-7-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "crosscourt pro short unlined 7",
-          "url": "https://vuoriclothing.com/products/crosscourt-pro-short-unlined-7-white",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori bucket hat",
-          "url": "https://vuoriclothing.com/products/vuori-bucket-hat-navy",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "v1 run bra oasis",
-          "url": "https://vuoriclothing.com/products/womens-v1-run-bra-oasis-blue",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "halo cross back tank",
-          "url": "https://vuoriclothing.com/products/womens-halo-cross-back-tank-java-heather",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "everyday cotton stretch plunge halter",
-          "url": "https://vuoriclothing.com/products/womens-everyday-cotton-stretch-plunge-halter-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "everyday cotton stretch plunge halter",
-          "url": "https://vuoriclothing.com/products/womens-everyday-cotton-stretch-plunge-halter-white",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "trestle low slung trouser short",
-          "url": "https://vuoriclothing.com/products/womens-trestle-low-slung-trouser-short-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "trestle low slung trouser short natural",
-          "url": "https://vuoriclothing.com/products/womens-trestle-low-slung-trouser-short-natural",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "halo short oasis",
-          "url": "https://vuoriclothing.com/products/womens-halo-short-oasis-blue-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "halo short",
-          "url": "https://vuoriclothing.com/products/womens-halo-short-pale-grey-heather",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "sedona retro boyfriend short light",
-          "url": "https://vuoriclothing.com/products/womens-sedona-retro-boyfriend-short-light-heather-grey",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "trestles twill wideleg french roast",
-          "url": "https://vuoriclothing.com/products/womens-trestles-twill-wideleg-french-roast",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "trestles twill wideleg",
-          "url": "https://vuoriclothing.com/products/womens-trestles-twill-wideleg-khaki",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5756,7 +4780,8 @@
       "2026-07-24": 1,
       "2026-07-25": 4,
       "2026-07-29": 4,
-      "2026-07-31": 2
+      "2026-07-31": 2,
+      "2026-08-01": 1
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -6078,7 +5103,7 @@
       "2026-07-27": 44,
       "2026-07-28": 42,
       "2026-07-29": 245,
-      "2026-07-31": 54
+      "2026-07-31": 69
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6109,7 +5134,8 @@
       "2026-07-27": 19,
       "2026-07-28": 1,
       "2026-07-29": 21,
-      "2026-07-30": 5
+      "2026-07-30": 5,
+      "2026-07-31": 4
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -6152,20 +5178,20 @@
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1805,
-      "gymshark": 3519,
-      "on_running": 1663,
+      "gymshark": 3523,
+      "on_running": 1665,
       "gymreapers": 224,
       "sbd": 22,
       "schiek": 2,
       "bear_grips": 330
     },
     "tops": {
-      "vuori": 664,
+      "vuori": 665,
       "outdoor_voices": 74,
       "tenthousand": 40,
       "lululemon": 835,
       "alo": 578,
-      "gymshark": 3154,
+      "gymshark": 3162,
       "on_running": 665,
       "gymreapers": 236,
       "sbd": 67,
@@ -6178,7 +5204,7 @@
       "tenthousand": 18,
       "lululemon": 680,
       "alo": 687,
-      "gymshark": 975,
+      "gymshark": 978,
       "on_running": 912,
       "gymreapers": 58,
       "sbd": 6,
@@ -6192,7 +5218,7 @@
       "lululemon": 917,
       "alo": 838,
       "gymshark": 711,
-      "on_running": 2935,
+      "on_running": 2937,
       "gymreapers": 317,
       "sbd": 78,
       "harbinger": 26,
@@ -6258,8 +5284,8 @@
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 423,
-      "gymshark": 1410,
-      "on_running": 740,
+      "gymshark": 1412,
+      "on_running": 742,
       "gymreapers": 147,
       "sbd": 15,
       "bear_grips": 40
@@ -6270,14 +5296,14 @@
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 269,
-      "gymshark": 870,
+      "gymshark": 872,
       "on_running": 314,
       "gymreapers": 36,
       "sbd": 8,
       "bear_grips": 472
     },
     "tees": {
-      "vuori": 226,
+      "vuori": 227,
       "outdoor_voices": 16,
       "tenthousand": 11,
       "lululemon": 22,
@@ -6292,7 +5318,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 369,
-      "gymshark": 834,
+      "gymshark": 836,
       "on_running": 412,
       "gymreapers": 46,
       "bear_grips": 32
@@ -6303,8 +5329,8 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1691,
-      "gymshark": 3325,
-      "on_running": 3318,
+      "gymshark": 3329,
+      "on_running": 3320,
       "gymreapers": 538,
       "sbd": 137,
       "harbinger": 55,
@@ -6360,7 +5386,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 540,
+      "gymshark": 542,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -6373,7 +5399,7 @@
       "tenthousand": 8,
       "lululemon": 139,
       "alo": 226,
-      "gymshark": 567,
+      "gymshark": 570,
       "on_running": 334,
       "gymreapers": 26,
       "sbd": 6,
@@ -6529,7 +5555,7 @@
       "vuori": 575,
       "outdoor_voices": 33,
       "alo": 505,
-      "gymshark": 1179,
+      "gymshark": 1181,
       "on_running": 332,
       "gymreapers": 78,
       "sbd": 16,
@@ -6549,7 +5575,7 @@
       "outdoor_voices": 98,
       "alo": 1044,
       "gymshark": 2311,
-      "on_running": 1569,
+      "on_running": 1570,
       "gymreapers": 131,
       "sbd": 2,
       "schiek": 8,
@@ -6569,7 +5595,7 @@
       "outdoor_voices": 1,
       "lululemon": 12,
       "alo": 224,
-      "gymshark": 333,
+      "gymshark": 335,
       "on_running": 231,
       "gymreapers": 60,
       "sbd": 1,
@@ -6580,7 +5606,7 @@
       "outdoor_voices": 30,
       "lululemon": 17,
       "alo": 933,
-      "gymshark": 750,
+      "gymshark": 751,
       "on_running": 1600,
       "gymreapers": 93,
       "sbd": 2,
@@ -6592,14 +5618,14 @@
       "outdoor_voices": 36,
       "lululemon": 8,
       "alo": 251,
-      "gymshark": 1598,
+      "gymshark": 1604,
       "on_running": 823,
       "gymreapers": 34,
       "sbd": 6,
       "schiek": 2
     },
     "green": {
-      "vuori": 213,
+      "vuori": 214,
       "outdoor_voices": 51,
       "lululemon": 4,
       "alo": 315,
@@ -6612,7 +5638,7 @@
       "vuori": 191,
       "outdoor_voices": 2,
       "alo": 297,
-      "gymshark": 730,
+      "gymshark": 734,
       "on_running": 83,
       "gymreapers": 17,
       "schiek": 2,
@@ -6706,7 +5732,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 35.8,
-      "tops": 32.1,
+      "tops": 32.2,
       "outerwear": 9.9,
       "dresses": 0.1,
       "sports_bras": 8.6,
@@ -6841,7 +5867,7 @@
       "blue": 16.3,
       "green": 5.1,
       "khaki": 0,
-      "brown": 7.4,
+      "brown": 7.5,
       "purple": 5.5,
       "pink": 7.9,
       "orange": 0.6,
@@ -6890,7 +5916,7 @@
       "gray": 13.6,
       "navy": 2.5,
       "blue": 13.3,
-      "green": 5,
+      "green": 5.1,
       "khaki": 5,
       "brown": 4.5,
       "purple": 2.5,
@@ -7057,15 +6083,15 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1571,
-      "text": "Vuori leads Lululemon in men's: 1571 vs 1286 products. A 22% advantage."
+      "value": 1572,
+      "text": "Vuori leads Lululemon in men's: 1572 vs 1286 products. A 22% advantage."
     },
     {
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
       "value": 760,
-      "text": "Vuori ranks #2 in shorts with 760 products. Behind Gymshark (1410)."
+      "text": "Vuori ranks #2 in shorts with 760 products. Behind Gymshark (1412)."
     },
     {
       "type": "comparison",
@@ -7156,13 +6182,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 226,
+        "vuori": 227,
         "competitor": 22,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1571,
+        "vuori": 1572,
         "competitor": 1286,
         "winner": "vuori"
       },
@@ -7206,13 +6232,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 226,
+        "vuori": 227,
         "competitor": 55,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1571,
+        "vuori": 1572,
         "competitor": 309,
         "winner": "vuori"
       },
@@ -7224,5 +6250,5 @@
       }
     ]
   },
-  "generated_at": "2026-07-31T13:15:09.188Z"
+  "generated_at": "2026-08-01T13:15:10.044Z"
 }
