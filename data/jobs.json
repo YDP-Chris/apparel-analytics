@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 741,
-      "change_from_last": -3,
+      "total_jobs": 740,
+      "change_from_last": -1,
       "departments": {
         "design": 92,
         "operations": 206,
         "finance": 6,
-        "other": 150,
-        "retail": 251,
+        "other": 151,
+        "retail": 249,
         "engineering": 18,
         "marketing": 8,
         "executive": 5,
@@ -19,7 +19,7 @@
       },
       "seniority": {
         "junior": 353,
-        "manager": 168,
+        "manager": 167,
         "mid": 23,
         "c-suite": 18,
         "intern": 4,
@@ -27,26 +27,26 @@
         "senior": 17
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
-        "Leeds, England, United Kingdom",
-        "Dublin, Dublin, Ireland",
-        "La Jolla, California, United States",
-        "Perimeter Mall, Atlanta, GA (10176)",
-        "Battersea Power Station, London (50079)",
-        "Saint Catherine Street, Montr\u00e9al, QC (10086)",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Kierland Commons, Scottsdale, AZ (10024)",
-        "Charleston, South Carolina, United States",
-        "Woodfield Mall, Schaumburg, IL (10112)",
+        "Rochester Hills, Michigan, United States",
+        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
         "North Park Center, Dallas, TX (10019)",
-        "East Rutherford, New Jersey, United States",
-        "New York, New York, United States",
-        "New York (Retail)",
-        "Cherry Hill, New Jersey, United States",
-        "Country Club Plaza, Kansas City, MO (10174)",
-        "The Woodlands, Texas, United States",
-        "St. Johns Town Center, Jacksonville, FL (10060)",
-        "Manchester, England, United Kingdom"
+        "Richmond, Virginia, United States",
+        "Venice, California, United States",
+        "Miami Beach, Florida, United States",
+        "Newbury Street, Boston, MA (10041)",
+        "Alexandria, Virginia, United States",
+        "Memphis, Tennessee, United States",
+        "Old Orchard, Skokie, IL (10016)",
+        "Vail Village, Vail, CO (10167)",
+        "Burlingame, California, United States",
+        "Brickell City Centre, Miami, FL (10077)",
+        "Hong Kong",
+        "Oklahoma City, Oklahoma, United States",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "Alpharetta, Georgia, United States",
+        "UTC Sarasota, Sarasota, FL (10091)",
+        "Carlsbad, California, United States",
+        "Palo Alto, California, United States"
       ],
       "jobs": [
         {
@@ -170,6 +170,16 @@
           "seniority": "manager"
         },
         {
+          "id": "5835734004",
+          "title": "Assistant Store Manager - Neuer Wall, Hamburg ",
+          "location": "Hamburg, Hamburg, Germany",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5835734004?gh_jid=5835734004",
+          "posted_at": "2026-08-01T06:39:31-04:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
           "id": "5556200004",
           "title": "Assistant Store Manager, Operations - London Pipeline",
           "location": "London, England, United Kingdom",
@@ -230,41 +240,11 @@
           "seniority": "manager"
         },
         {
-          "id": "5835734004",
-          "title": "Assistant Store Manager (Sales & Service) - Neuer Wall, Hamburg ",
-          "location": "Hamburg, Hamburg, Germany",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5835734004?gh_jid=5835734004",
-          "posted_at": "2026-07-30T14:13:47-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
-          "id": "5997733004",
-          "title": "Assistant Store Manager (Sales & Service) - Regent Street",
-          "location": "London, England, United Kingdom",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5997733004?gh_jid=5997733004",
-          "posted_at": "2026-07-30T14:13:47-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
           "id": "6102916004",
           "title": "Assistant Store Manager (Stock) - Munich",
           "location": "Munich, Bavaria, Germany",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6102916004?gh_jid=6102916004",
-          "posted_at": "2026-07-30T14:13:47-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
-          "id": "6102910004",
-          "title": "Assistant Store Manager (Stock) - Neuer Wall, Hamburg",
-          "location": "Hamburg, Hamburg, Germany",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6102910004?gh_jid=6102910004",
           "posted_at": "2026-07-30T14:13:47-04:00",
           "category": "retail",
           "seniority": "manager"
@@ -325,16 +305,6 @@
           "location": "London, England, United Kingdom",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5556214004?gh_jid=5556214004",
-          "posted_at": "2026-07-30T14:13:47-04:00",
-          "category": "design",
-          "seniority": "manager"
-        },
-        {
-          "id": "6103750004",
-          "title": "Assistant Store Manager (Visual Manager) - Neuer Wall, Hamburg",
-          "location": "Hamburg, Hamburg, Germany",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6103750004?gh_jid=6103750004",
           "posted_at": "2026-07-30T14:13:47-04:00",
           "category": "design",
           "seniority": "manager"
@@ -548,15 +518,45 @@
           "posted_at": "2026-07-30T14:13:47-04:00",
           "category": "product",
           "seniority": "c-suite"
+        },
+        {
+          "id": "6102281004",
+          "title": "Director of Real Estate, Legal",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6102281004?gh_jid=6102281004",
+          "posted_at": "2026-07-30T14:13:47-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "5803025004",
+          "title": "Director of Retail Operating Model & Technology",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5803025004?gh_jid=5803025004",
+          "posted_at": "2026-07-30T14:13:47-04:00",
+          "category": "engineering",
+          "seniority": "c-suite"
+        },
+        {
+          "id": "5979367004",
+          "title": "Director, Retail Learning",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5979367004?gh_jid=5979367004",
+          "posted_at": "2026-07-30T14:13:47-04:00",
+          "category": "retail",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-08-01T05:30:07.900799"
+      "checked_at": "2026-08-02T05:30:08.016535"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 19,
-      "change_from_last": 1,
+      "change_from_last": 0,
       "departments": {
         "other": 4,
         "marketing": 2,
@@ -574,8 +574,8 @@
         "junior": 1
       },
       "locations": [
-        "New York, New York, United States",
         "Solihull, England, United Kingdom",
+        "New York, New York, United States",
         "Roosevelt, New York, United States",
         "London",
         "New York; New York, New York, United States; New York, New York, United States"
@@ -772,7 +772,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-01T05:30:10.044441"
+      "checked_at": "2026-08-02T05:30:10.159491"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -831,7 +831,7 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 344,
-      "change_from_last": 17,
+      "change_from_last": 0,
       "departments": {
         "engineering": 47,
         "other": 60,
@@ -854,26 +854,26 @@
         "senior": 39
       },
       "locations": [
-        "Central Valley",
-        "Rio de Janeiro",
-        "Charlotte",
-        "Ho Chi Minh City",
-        "Atlanta; Locust Grove; New York City",
-        "Busan",
-        "Austin",
-        "Portland",
         "Madrid",
-        "Newport Beach",
-        "Paris",
-        "McLean",
-        "Beijing",
-        "New York City",
-        "Cirebon",
+        "Tokyo",
+        "Berlin; London; Zurich",
+        "Guangzhou",
+        "Ho Chi Minh City",
+        "London",
+        "S\u00e3o Paulo",
+        "Mexico City",
+        "Shenzhen",
+        "Montreal; Toronto; Vancouver",
+        "Charlotte",
         "Buffalo; Pittsburgh; Rochester; Syracuse",
-        "Amsterdam",
-        "Zurich",
-        "Wuhan",
-        "Ann Arbor; Columbus; Detroit"
+        "Palo Alto",
+        "Macao",
+        "Fort Lauderdale; Miami; Tampa",
+        "Cirebon",
+        "Ann Arbor; Columbus; Detroit",
+        "Shanghai",
+        "Hong Kong",
+        "Corte Madera"
       ],
       "jobs": [
         {
@@ -1377,8 +1377,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-01T05:30:19.328111"
+      "checked_at": "2026-08-02T05:30:19.403331"
     }
   },
-  "generated_at": "2026-08-01T05:30:21.328321"
+  "generated_at": "2026-08-02T05:30:21.403492"
 }
