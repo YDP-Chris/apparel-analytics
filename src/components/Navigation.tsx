@@ -23,6 +23,7 @@ type NavSection = {
 const NAV_SECTIONS: NavSection[] = [
   { href: '/today', label: 'Today' },
   { href: '/exec-brief', label: 'Exec Brief' },
+  { href: '/paper', label: 'Field Report' },
   {
     href: '/for-marketing',
     label: 'For Marketing',
@@ -54,7 +55,6 @@ const NAV_SECTIONS: NavSection[] = [
     href: '/for-product',
     label: 'For Product',
     children: [
-      { href: '/line-plan', label: 'Line Plan', status: 'beta', description: 'H1 line plan vs FP&A target, sub-category competitor depth overlay - Kalina + Roc planning tool' },
       { href: '/gymreapers/amazon', label: 'Whitespace', status: 'live', description: 'Sub-segments where Gymreapers is absent + has demand' },
       { href: '/for-product/pricing', label: 'Pricing Map', status: 'live', description: 'Competitor pricing by category and tier' },
       { href: '/gymreapers/mix', label: 'Mix Gaps', status: 'live', description: 'Color, size, and price tier deltas' },
@@ -91,6 +91,7 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/cron-health', label: 'Cron Health', status: 'live', description: 'Which agents ran today, which failed, which are stale - central cron-healer log' },
       { href: '/changelog', label: 'Changelog', status: 'live', description: 'Auto-derived release log - daily digest headlines + git commits + new pages, day by day' },
       { href: '/inputs', label: 'Team Inputs', status: 'live', description: 'Approve, reject, and audit team-submitted keywords + queries' },
+      { href: '/config', label: 'Brand Config', status: 'live', description: 'Add/edit tracked competitors + weekly newspaper settings' },
       { href: '/trends', label: 'Trends Explorer', status: 'live', description: 'Chart any metric, any brands, any window' },
       { href: '/data-explorer', label: 'SQL Reference', status: 'live', description: 'Schema map + starter queries for analyst self-service' },
     ],
