@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { ConfidenceBadge } from '@/components/ConfidenceBadge';
 import { SectionExplainer } from '@/components/SectionExplainer';
 import { trackEvent } from '@/lib/usage';
+import HubTabs from '@/components/HubTabs';
 
 const PULSE_API = process.env.NEXT_PUBLIC_PULSE_API_URL || 'https://api.yadkindatapartners.com';
 const TOKEN_KEY = 'ydp_pulse_token';
@@ -698,6 +699,7 @@ export default function VocPersonasPage() {
 
   return (
     <div className="space-y-12">
+      <HubTabs hub="voc" />
       <header className="pb-2">
         <div className="flex items-baseline justify-between gap-3 mb-3">
           <p className="text-gr-accent font-bold text-xs uppercase tracking-[0.25em]">

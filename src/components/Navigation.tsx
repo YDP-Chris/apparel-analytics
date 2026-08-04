@@ -72,18 +72,8 @@ const NAV_SECTIONS: NavSection[] = [
       { href: '/trends', label: 'Trends Explorer', status: 'live', description: 'Chart any metric, any brands, any window' },
       { href: '/bundles', label: 'Bundles', status: 'live', description: 'Multi-pack and bundle strategy' },
       { href: '/policies', label: 'Policies', status: 'live', description: 'Shipping, returns, subscriptions, made-in-USA' },
-      { href: '/cluster-matrix', label: 'Cluster Matrix', status: 'beta', description: 'Voice-of-Customer sibling — cross-brand overlap' },
-      { href: '/customer-flow', label: 'Customer Flow', status: 'beta', description: 'Voice-of-Customer sibling — brand switchers' },
-      { href: '/copy-mine', label: 'Copy Mine', status: 'beta', description: 'Voice-of-Customer sibling — owned phrases' },
-      { href: '/journey', label: 'Customer Journey', status: 'live', description: 'Voice-of-Customer sibling — touchpoints' },
-      { href: '/voc-complaints', label: 'VoC Complaints', status: 'live', description: 'Voice-of-Customer sibling — complaint categories' },
-      { href: '/gymshark-vulnerability', label: 'Gymshark Dossier', status: 'live', description: 'Rolls into Competitor Weakness' },
-      { href: '/entry-opportunities', label: 'Entry Opportunities', status: 'live', description: 'Where-to-Play sibling' },
-      { href: '/three-horizons', label: 'Three Horizons', status: 'live', description: 'Where-to-Play sibling' },
-      { href: '/for-product/gaps', label: 'Coverage Gaps', status: 'live', description: 'Where-to-Play sibling — subcategory depth vs peers' },
-      { href: '/trademarks', label: 'Trademark Radar', status: 'live', description: 'Pre-launch Radar sibling — USPTO filings' },
-      { href: '/patents', label: 'Patent Radar', status: 'live', description: 'Pre-launch Radar sibling — USPTO patents' },
-      { href: '/leak-radar', label: 'Leak Radar', status: 'live', description: 'Pre-launch Radar sibling — channel leakage' },
+      // Hub siblings (Voice of Customer / Where to Play / Pre-launch Radar) removed
+      // from Lab — now reachable via the in-hub tab bar (HubTabs) on their lead pages.
     ],
   },
   {
