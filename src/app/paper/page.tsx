@@ -21,7 +21,8 @@ interface Mover { slug: string; name: string; wow: number; current?: number }
 interface Issue {
   generated_at: string; week_of: string; masthead?: string; subtitle?: string;
   data: {
-    one_to_watch?: { headline: string; body: string };
+    vision?: { ambition: string; kpis: string[] };
+    one_to_watch?: { headline: string; body: string; pillar?: string };
     scorecard?: { title: string; rows: Row[] }[];
     shipping?: { slug: string; name: string; count: number }[];
     trend_line?: { risers: Mover[]; fallers: Mover[] };
@@ -62,10 +63,28 @@ export default function PaperPage() {
         <p className="text-gr-muted mt-2">{issue.subtitle} · Week of {issue.week_of}</p>
       </header>
 
+      {/* Toward the vision */}
+      {d.vision && (
+        <section className="bg-gr-surface border border-gr-border rounded p-5">
+          <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.2em] mb-2">Toward the Vision</p>
+          <p className="text-gr-text mb-3">{d.vision.ambition}</p>
+          <div className="flex flex-wrap gap-2">
+            {d.vision.kpis.map((k) => (
+              <span key={k} className="px-2.5 py-1 rounded bg-gr-raised text-gr-muted text-xs">{k}</span>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* One to watch */}
       {d.one_to_watch && (
         <section className="bg-gr-surface border-l-[3px] border-gr-accent rounded p-6">
-          <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.2em] mb-2">One to Watch</p>
+          <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.2em] mb-2">
+            One to Watch
+            {d.one_to_watch.pillar && (
+              <span className="ml-2 px-2 py-0.5 rounded bg-gr-raised text-gr-muted text-[10px] tracking-[0.1em]">{d.one_to_watch.pillar}</span>
+            )}
+          </p>
           <h2 className="text-2xl font-bold text-gr-text mb-2">{d.one_to_watch.headline}</h2>
           <p className="text-gr-muted leading-relaxed">{d.one_to_watch.body}</p>
         </section>
