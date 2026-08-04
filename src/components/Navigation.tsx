@@ -22,6 +22,7 @@ type NavSection = {
 
 const NAV_SECTIONS: NavSection[] = [
   { href: '/today', label: 'Today' },
+  { href: '/stories', label: 'Big Stories' },
   { href: '/exec-brief', label: 'Exec Brief' },
   { href: '/paper', label: 'Field Report' },
   {
