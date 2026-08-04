@@ -15,7 +15,7 @@ const TOKEN_KEY = 'ydp_pulse_token';
 interface Row {
   slug: string; name: string; currency?: string;
   styles?: number | null; colors_per_style?: number | null;
-  extended_pct?: number | null; avg_price?: number | null; has_data?: boolean;
+  extended_pct?: number | null; avg_price?: number | null; has_data?: boolean; catalog?: boolean;
 }
 interface Mover { slug: string; name: string; wow: number; current?: number }
 interface Issue {
@@ -153,6 +153,7 @@ export default function PaperPage() {
                   <tr key={r.slug} className="border-t border-gr-border/50">
                     <td className="px-3 py-2 text-gr-text font-medium">
                       {r.name}
+                      {r.catalog && <span className="text-gr-accent"> *</span>}
                       {r.currency && r.currency !== 'USD' && <span className="ml-1.5 text-[10px] text-gr-subtle">{r.currency}</span>}
                     </td>
                     <td className="px-3 py-2 text-right text-gr-text">{r.styles ?? <span className="text-gr-subtle">n/a</span>}</td>
@@ -166,6 +167,12 @@ export default function PaperPage() {
           </div>
         </section>
       ))}
+
+      {(d.scorecard || []).some((g) => g.rows.some((r) => r.catalog)) && (
+        <p className="text-xs text-gr-subtle -mt-6">
+          <span className="text-gr-accent">*</span> GR row from our master SKU catalog (active styles + avg MSRP). Peer rows from scraped storefronts — not a like-for-like count.
+        </p>
+      )}
 
       {/* What shipped */}
       {d.shipping && d.shipping.length > 0 && (
