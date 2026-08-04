@@ -22,6 +22,7 @@ interface Issue {
   generated_at: string; week_of: string; masthead?: string; subtitle?: string;
   data: {
     vision?: { ambition: string; kpis: string[] };
+    big_stories?: { rank: number; headline: string; detail: string; pillar?: string; vs_us?: string | null; move: string }[];
     one_to_watch?: { headline: string; body: string; pillar?: string };
     scorecard?: { title: string; rows: Row[] }[];
     shipping?: { slug: string; name: string; count: number }[];
@@ -76,8 +77,27 @@ export default function PaperPage() {
         </section>
       )}
 
-      {/* One to watch */}
-      {d.one_to_watch && (
+      {/* The Big Stories — ranked lead */}
+      {d.big_stories && d.big_stories.length > 0 ? (
+        <section>
+          <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.25em] mb-3">The Big Stories — start here</p>
+          <div className="space-y-3">
+            {d.big_stories.map((s) => (
+              <div key={s.rank} className="bg-gr-surface border-l-[3px] border-gr-accent rounded p-5">
+                <div className="flex items-baseline gap-2 mb-1.5">
+                  <span className="text-gr-accent font-extrabold text-xl">{s.rank}</span>
+                  <span className="text-gr-text font-bold text-lg">{s.headline}</span>
+                  {s.pillar && <span className="ml-auto px-2 py-0.5 rounded bg-gr-raised text-gr-muted text-[10px] tracking-[0.1em] uppercase">{s.pillar}</span>}
+                </div>
+                <p className="text-gr-muted text-sm mb-2">{s.detail}</p>
+                {s.vs_us && <p className="text-gr-subtle text-sm mb-2"><span className="text-gr-muted font-semibold">Where we stand.</span> {s.vs_us}</p>}
+                <p className="text-gr-text text-sm"><span className="font-semibold">Move.</span> {s.move}</p>
+              </div>
+            ))}
+          </div>
+          <a href="/stories" className="inline-block mt-3 text-gr-accent text-sm font-semibold hover:underline">Walk through them one at a time →</a>
+        </section>
+      ) : d.one_to_watch ? (
         <section className="bg-gr-surface border-l-[3px] border-gr-accent rounded p-6">
           <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.2em] mb-2">
             One to Watch
@@ -88,7 +108,7 @@ export default function PaperPage() {
           <h2 className="text-2xl font-bold text-gr-text mb-2">{d.one_to_watch.headline}</h2>
           <p className="text-gr-muted leading-relaxed">{d.one_to_watch.body}</p>
         </section>
-      )}
+      ) : null}
 
       {/* Scorecard groups */}
       {(d.scorecard || []).map((g) => (

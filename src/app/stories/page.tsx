@@ -15,7 +15,7 @@ const TOKEN_KEY = 'ydp_pulse_token';
 interface Story {
   id: string; type: string; rank: number; brand: string;
   headline: string; detail: string; magnitude: number; score: number;
-  pillar: string; pillar_key: string; move: string;
+  pillar: string; pillar_key: string; move: string; vs_us?: string | null;
 }
 
 const TYPE_LABEL: Record<string, string> = {
@@ -90,7 +90,14 @@ export default function StoriesPage() {
         </div>
 
         <h2 className="text-2xl font-bold text-gr-text mb-3">{s.headline}</h2>
-        <p className="text-gr-muted leading-relaxed mb-5">{s.detail}</p>
+        <p className="text-gr-muted leading-relaxed mb-4">{s.detail}</p>
+
+        {s.vs_us && (
+          <div className="mb-4 border border-gr-border rounded p-3">
+            <p className="text-[11px] font-bold uppercase tracking-[0.15em] text-gr-subtle mb-1">Where we stand</p>
+            <p className="text-gr-muted text-sm leading-relaxed">{s.vs_us}</p>
+          </div>
+        )}
 
         <div className="mt-auto bg-gr-raised/60 border-l-2 border-gr-accent rounded p-4">
           <p className="text-[11px] font-bold uppercase tracking-[0.15em] text-gr-accent mb-1">The Move</p>
