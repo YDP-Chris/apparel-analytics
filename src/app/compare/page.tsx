@@ -451,7 +451,7 @@ export default function ComparePage() {
       const smaller = mixData.a.total > mixData.b.total ? bName : aName;
       const bigCount = Math.max(mixData.a.total, mixData.b.total);
       const smallCount = Math.min(mixData.a.total, mixData.b.total);
-      return `${bigger} carries ${bigCount} SKUs vs ${smaller} at ${smallCount} - a ${((bigCount / Math.max(smallCount, 1))).toFixed(1)}x assortment gap.`;
+      return `${bigger} carries ${bigCount} colorways vs ${smaller} at ${smallCount} - a ${((bigCount / Math.max(smallCount, 1))).toFixed(1)}x assortment gap.`;
     }
     return `Side-by-side view of ${aName} and ${bName}. Pick different brands to see where the gaps and moats are.`;
   }, [brandA, brandB, brandNames, promoData, mixData]);
@@ -586,14 +586,14 @@ export default function ComparePage() {
       >
         <div className="grid grid-cols-[1fr_auto_1fr] gap-4 items-start">
           <BrandColumn align="right">
-            <BigStat label="Total SKUs" value={mixData.a.total.toLocaleString()} />
+            <BigStat label="Total colorways" value={mixData.a.total.toLocaleString()} />
             <BigStat label="Unique styles" value={mixData.a.uniqueStyles.toLocaleString()} small />
             <ListBlock label="Top categories" rows={mixData.a.topCategories.map(([k, v]) => ({ key: pretty(k), value: String(v) }))} align="right" />
             <ListBlock label="Top subcategories" rows={mixData.a.topSubcategories.map(([k, v]) => ({ key: pretty(k), value: String(v) }))} align="right" />
           </BrandColumn>
-          <Versus indicator={indicator(mixData.a.total, mixData.b.total)} caption="SKU count" />
+          <Versus indicator={indicator(mixData.a.total, mixData.b.total)} caption="colorway count" />
           <BrandColumn>
-            <BigStat label="Total SKUs" value={mixData.b.total.toLocaleString()} />
+            <BigStat label="Total colorways" value={mixData.b.total.toLocaleString()} />
             <BigStat label="Unique styles" value={mixData.b.uniqueStyles.toLocaleString()} small />
             <ListBlock label="Top categories" rows={mixData.b.topCategories.map(([k, v]) => ({ key: pretty(k), value: String(v) }))} />
             <ListBlock label="Top subcategories" rows={mixData.b.topSubcategories.map(([k, v]) => ({ key: pretty(k), value: String(v) }))} />

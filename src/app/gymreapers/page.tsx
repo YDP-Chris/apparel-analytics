@@ -60,10 +60,10 @@ export default function GymreapersScorecardPage() {
       {focusBrand && (
         <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { label: 'Products', value: focusBrand.total.toLocaleString(), context: 'in catalog' },
-            { label: 'Styles', value: focusBrand.uniqueStyles.toLocaleString(), context: 'unique product lines' },
-            { label: 'Color Coverage', value: `${focusBrand.colorCoverage}%`, context: 'products with color data' },
-            { label: 'Colors/Style', value: focusBrand.avgColorsPerStyle.toFixed(1), context: 'avg variants' },
+            { label: 'Styles', value: (focusBrand.totalStyles ?? focusBrand.total).toLocaleString(), context: 'active models (master)' },
+            { label: 'Colorways', value: (focusBrand.totalColorways ?? focusBrand.total).toLocaleString(), context: 'style × color' },
+            { label: 'SKUs', value: (focusBrand.totalSkus ?? 0).toLocaleString(), context: 'style × color × size' },
+            { label: 'Colors/Style', value: focusBrand.avgColorsPerStyle.toFixed(1), context: 'avg colorways/style' },
           ].map((stat) => (
             <div key={stat.label} className="bg-gr-surface rounded-md p-6 border border-gr-border">
               <p className="text-sm text-gr-subtle font-medium">{stat.label}</p>
@@ -75,12 +75,13 @@ export default function GymreapersScorecardPage() {
       )}
 
       <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-        <h2 className="text-xl font-bold text-gr-text mb-6">Catalog Size — Head to Head</h2>
+        <h2 className="text-xl font-bold text-gr-text mb-6">Colorway Count — Head to Head</h2>
         <div className="space-y-3">
           {[focusBrand, ...sortedCompetitors].filter(Boolean).map((brand) => {
-            const max = Math.max(...data.brand_order.map((s) => data.brands[s]?.total || 0), 1);
+            const cw = (b: any) => (b?.totalColorways ?? b?.total) || 0;
+            const max = Math.max(...data.brand_order.map((s) => cw(data.brands[s])), 1);
             const isFocus = brand.slug === data.focus_brand;
-            const width = (brand.total / max) * 100;
+            const width = (cw(brand) / max) * 100;
             return (
               <div
                 key={brand.slug}
@@ -110,18 +111,20 @@ export default function GymreapersScorecardPage() {
                 </div>
                 <div className="w-24 text-right">
                   <span className={`text-lg font-bold ${isFocus ? 'text-gr-accent' : 'text-gr-muted'}`}>
-                    {brand.total.toLocaleString()}
+                    {cw(brand).toLocaleString()}
                   </span>
                 </div>
               </div>
             );
           })}
         </div>
+        <p className="text-xs text-gr-subtle mt-4">GR = active colorways (style × color) from our master catalog; peers = scraped products (≈ colorways). Not a like-for-like styles count — see the category tabs for the per-subcategory breakdown.</p>
       </section>
 
       {topCategories.length > 0 && (
         <section className="bg-gr-surface rounded-md p-8 border border-gr-border">
-          <h2 className="text-xl font-bold text-gr-text mb-6">Category Mix Across Brands</h2>
+          <h2 className="text-xl font-bold text-gr-text mb-1">Category Mix Across Brands</h2>
+          <p className="text-xs text-gr-subtle mb-6">Counts are colorways (style × color) per category.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>

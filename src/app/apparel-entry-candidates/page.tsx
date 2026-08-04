@@ -184,8 +184,8 @@ export default function ApparelEntryCandidatesPage() {
       </header>
 
       <SectionExplainer
-        what="Each row is a (stage, subcategory) pair scored 0-100. Deficit (0-50) = how far Gymreapers sits below the deepest peer in that subcategory. Demand (0-30) = total SKUs across apparel peers as a proxy for market interest. Adjacency (0-20) = how closely the use case maps to a strength-athlete customer (training scores highest, meet day lowest)."
-        howToRead="Top 5 rows are highlighted with the accent ring (highest-priority entry candidates). Top 10 rows have a soft tinted background. Sort by total score (default) to see the ranked roadmap, or by deficit to see purely the SKU-gap view independent of adjacency."
+        what="Each row is a (stage, subcategory) pair scored 0-100. Deficit (0-50) = how far Gymreapers sits below the deepest peer in that subcategory. Demand (0-30) = total colorways across apparel peers as a proxy for market interest. Adjacency (0-20) = how closely the use case maps to a strength-athlete customer (training scores highest, meet day lowest)."
+        howToRead="Top 5 rows are highlighted with the accent ring (highest-priority entry candidates). Top 10 rows have a soft tinted background. Sort by total score (default) to see the ranked roadmap, or by deficit to see purely the colorway-gap view independent of adjacency."
         whatToDo="Treat the top 5 as the first apparel waves to investigate. For each candidate, click 'Add to apparel roadmap' to drop a note onto the Decisions Log. Stage subtotals tell you which stage dominates the top 15 - that's where to concentrate the early bets."
       />
 
@@ -366,7 +366,7 @@ export default function ApparelEntryCandidatesPage() {
         Source: <code className="bg-gr-bg px-1.5 py-0.5 rounded">gymreapers_competitive.brand_subcategories</code>
         {' '}filtered to apparel-tier peers (Vuori, Alo, Lululemon, Gymshark, Rhone, Athleta, Outdoor Voices, Ten Thousand) plus Gymreapers.
         {' '}Scoring weights: deficit max 50, demand max 30, adjacency max 20 (training {data.scoring.adjacency_by_stage.training}, identity {data.scoring.adjacency_by_stage.identity}, between sets {data.scoring.adjacency_by_stage.between_sets}, recovery {data.scoring.adjacency_by_stage.recovery}, meet day {data.scoring.adjacency_by_stage.meet_day}).
-        {' '}Demand uses total apparel-peer SKUs in the subcategory as a market-interest proxy; swap in Amazon BSR review counts when the BSR-to-journey-subcategory mapping is wired up.
+        {' '}Demand uses total apparel-peer colorways in the subcategory as a market-interest proxy; swap in Amazon BSR review counts when the BSR-to-journey-subcategory mapping is wired up.
       </div>
     </div>
   );

@@ -134,14 +134,14 @@ export default function JourneyPage() {
       </header>
 
       <SectionExplainer
-        what="Each stage groups apparel subcategories by the customer story (training, layers, recovery, identity, meet day). Numbers reflect today's snapshot of SKU counts in each subcategory across apparel-tier brands (Vuori, Alo, Lulu, Gymshark, Rhone, Athleta + Gymreapers)."
-        howToRead="Per stage: Gymreapers SKU total, the top 3 peer brands by depth, and the top 3 entry candidates (subcategories where peers are deep and Gymreapers is thin). Click a stage to expand the full subcategory table."
+        what="Each stage groups apparel subcategories by the customer story (training, layers, recovery, identity, meet day). Numbers reflect today's snapshot of colorway counts in each subcategory across apparel-tier brands (Vuori, Alo, Lulu, Gymshark, Rhone, Athleta + Gymreapers)."
+        howToRead="Per stage: Gymreapers colorway total, the top 3 peer brands by depth, and the top 3 entry candidates (subcategories where peers are deep and Gymreapers is thin). Click a stage to expand the full subcategory table."
         whatToDo="Use the entry candidates as a sequenced product plan. Stage 1 (Training) is the closest extension of the accessories core. Stage 4 (Identity) is where Gymreapers' brand equity already converts. Stages 2-3 (Layers, Recovery) are larger but require sustained apparel investment. Stage 5 (Meet day) is niche."
       />
 
       <section className="grid grid-cols-2 lg:grid-cols-4 gap-3">
         <div className="bg-gr-surface border border-gr-border rounded-md p-4">
-          <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Gymreapers apparel SKUs</div>
+          <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Gymreapers apparel colorways</div>
           <div className="text-3xl font-bold text-gr-text tabular-nums">{totals.grTotal}</div>
           <div className="text-xs text-gr-subtle mt-1 flex items-baseline gap-2">
             <span>across journey stages</span>
@@ -203,7 +203,7 @@ export default function JourneyPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
                 <div className="bg-gr-bg rounded p-3 border border-gr-border/60">
-                  <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Gymreapers SKUs</div>
+                  <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-1">Gymreapers colorways</div>
                   <div className="text-2xl font-bold text-gr-text tabular-nums">{stage.gymreapers_total}</div>
                   <div className="text-xs text-gr-subtle mt-0.5 flex items-baseline gap-1.5">
                     <span>in this stage</span>
@@ -220,7 +220,7 @@ export default function JourneyPage() {
                   {peerLeader ? (
                     <>
                       <div className="text-base font-bold text-gr-text truncate">{peerLeader.brand_name}</div>
-                      <div className="text-xs text-gr-muted tabular-nums">{peerLeader.total_skus} SKUs</div>
+                      <div className="text-xs text-gr-muted tabular-nums">{peerLeader.total_skus} colorways</div>
                     </>
                   ) : <div className="text-gr-subtle text-sm">no peer data</div>}
                 </div>

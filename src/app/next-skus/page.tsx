@@ -168,7 +168,7 @@ export default function NextSkusPage() {
 
       <SectionExplainer
         what="Five ranked Gymreapers apparel SKU recommendations. Each one names the specific product, its journey stage in the lifter wardrobe, the customer cluster it targets, the price band, the attack angle, and a four-pane evidence stack proving the call."
-        howToRead="Cards are ordered by composite score. Customer voice tells you which cluster validates demand. Competitor pain names the peer SKU under attack and its complaint counts. Deficit shows GR's current SKU count in the subcategory versus peer max. Leak signal points to the Gymreapers TM filing that aligns with the recommendation."
+        howToRead="Cards are ordered by composite score. Customer voice tells you which cluster validates demand. Competitor pain names the peer SKU under attack and its complaint counts. Deficit shows GR's current colorway count in the subcategory versus peer max. Leak signal points to the Gymreapers TM filing that aligns with the recommendation."
         whatToDo="Open this in the CEO and product strategy meeting. Rank one is the highest-evidence pick to brief first. Each card is a starting point for a product brief, not a finished spec. Push back on anything that does not match the apparel thesis use-case taxonomy."
       />
 

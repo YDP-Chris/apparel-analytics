@@ -126,7 +126,7 @@ export default function GymreapersMixPage() {
                     {!isFocus && <BrandHideButton slug={slug} name={data.brand_names[slug] || slug} />}
                   </span>
                   <span className="text-xs text-gr-subtle">
-                    {m.totalProducts.toLocaleString()} products{' '}
+                    {m.totalProducts.toLocaleString()} colorways{' '}
                     {m.source === 'sitemap' && <span className="opacity-60">(sitemap-only)</span>}
                   </span>
                 </div>

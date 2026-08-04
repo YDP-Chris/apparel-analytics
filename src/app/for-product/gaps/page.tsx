@@ -182,16 +182,16 @@ export default function CoverageGapsPage() {
           Where Gymreapers under- or over-indexes vs peers
         </h1>
         <p className="text-gr-muted mt-4 max-w-2xl text-lg leading-relaxed">
-          Per-subcategory product count delta between Gymreapers and peer average. Negative delta
-          means peers have more SKUs in that pocket. Positive delta means Gymreapers is overweight
+          Per-subcategory colorway-count delta between Gymreapers and peer average. Negative delta
+          means peers have more colorways in that pocket. Positive delta means Gymreapers is overweight
           relative to the field. Use to spot range extension opportunities (under) or pruning
           candidates (over).
         </p>
       </header>
 
       <SectionExplainer
-        what='Each row is one subcategory. Sorted by largest underweight (Gymreapers SKU count minus peer average). Default peer set is "Apparel majors" because Gymreapers is steering into apparel. Switch to "Strength accessories" for accessory-deepening analysis.'
-        howToRead="Negative delta in red means Gymreapers needs more SKUs in that pocket. Positive in green means overweight (possibly prune candidate). 'Top peer' shows who's leading so you know who to study."
+        what='Each row is one subcategory. Sorted by largest underweight (Gymreapers colorway count minus peer average). Default peer set is "Apparel majors" because Gymreapers is steering into apparel. Switch to "Strength accessories" for accessory-deepening analysis.'
+        howToRead="Negative delta in red means Gymreapers needs more colorways in that pocket. Positive in green means overweight (possibly prune candidate). 'Top peer' shows who's leading so you know who to study."
         whatToDo='With "Apparel majors" peer set: the top underweights are entry candidates for the apparel push. With "Strength accessories" peer set: top underweights are accessory range-extension. Cross-reference /for-product/demand to confirm real demand before extending range.'
       />
 
@@ -368,7 +368,7 @@ export default function CoverageGapsPage() {
                         <tr className="bg-gr-bg/40 border-b border-gr-border/60">
                           <td colSpan={7} className="px-4 py-5">
                             <div className="text-[10px] uppercase tracking-wider font-bold text-gr-subtle mb-3">
-                              Per-brand product count
+                              Per-brand colorways
                             </div>
                             <PerBrandBars perBrand={g.per_brand} brandNames={brandNames} />
                           </td>
