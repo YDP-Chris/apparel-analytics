@@ -22,7 +22,9 @@ interface Issue {
   generated_at: string; week_of: string; masthead?: string; subtitle?: string;
   data: {
     vision?: { ambition: string; kpis: string[] };
-    big_stories?: { rank: number; headline: string; detail: string; pillar?: string; vs_us?: string | null; move: string }[];
+    gr_reality?: string;
+    big_stories?: { rank: number; headline: string; detail: string; pillar?: string; vs_us?: string | null; move: string; confidence?: string; confidence_note?: string | null }[];
+    flagged_stories?: { headline: string; confidence_note?: string | null }[];
     one_to_watch?: { headline: string; body: string; pillar?: string };
     scorecard?: { title: string; rows: Row[] }[];
     shipping?: { slug: string; name: string; count: number }[];
@@ -77,25 +79,48 @@ export default function PaperPage() {
         </section>
       )}
 
-      {/* The Big Stories — ranked lead */}
+      {/* The Big Stories — decision-grade, confidence-gated */}
       {d.big_stories && d.big_stories.length > 0 ? (
         <section>
-          <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.25em] mb-3">The Big Stories — start here</p>
+          <p className="text-gr-accent font-bold text-[11px] uppercase tracking-[0.25em] mb-3">The Big Stories — decision-grade</p>
           <div className="space-y-3">
-            {d.big_stories.map((s) => (
-              <div key={s.rank} className="bg-gr-surface border-l-[3px] border-gr-accent rounded p-5">
-                <div className="flex items-baseline gap-2 mb-1.5">
-                  <span className="text-gr-accent font-extrabold text-xl">{s.rank}</span>
-                  <span className="text-gr-text font-bold text-lg">{s.headline}</span>
-                  {s.pillar && <span className="ml-auto px-2 py-0.5 rounded bg-gr-raised text-gr-muted text-[10px] tracking-[0.1em] uppercase">{s.pillar}</span>}
+            {d.big_stories.map((s) => {
+              const cc = s.confidence === 'high' ? 'text-gr-success border-gr-success' : s.confidence === 'medium' ? 'text-amber-500 border-amber-500' : 'text-gr-subtle border-gr-border';
+              return (
+                <div key={s.rank} className="bg-gr-surface border-l-[3px] border-gr-accent rounded p-5">
+                  <div className="flex items-baseline gap-2 mb-1.5">
+                    <span className="text-gr-accent font-extrabold text-xl">{s.rank}</span>
+                    <span className="text-gr-text font-bold text-lg">{s.headline}</span>
+                    {s.pillar && <span className="ml-auto px-2 py-0.5 rounded bg-gr-raised text-gr-muted text-[10px] tracking-[0.1em] uppercase">{s.pillar}</span>}
+                  </div>
+                  {s.confidence && (
+                    <div className="mb-2">
+                      <span className={`px-2 py-0.5 rounded border text-[10px] font-bold uppercase tracking-[0.1em] ${cc}`}>{s.confidence} confidence</span>
+                      {s.confidence_note && <span className="text-gr-subtle text-xs ml-2">{s.confidence_note}</span>}
+                    </div>
+                  )}
+                  <p className="text-gr-muted text-sm mb-2">{s.detail}</p>
+                  {s.vs_us && <p className="text-gr-subtle text-sm mb-2"><span className="text-gr-muted font-semibold">Where we stand.</span> {s.vs_us}</p>}
+                  <p className="text-gr-text text-sm"><span className="font-semibold">Move.</span> {s.move}</p>
                 </div>
-                <p className="text-gr-muted text-sm mb-2">{s.detail}</p>
-                {s.vs_us && <p className="text-gr-subtle text-sm mb-2"><span className="text-gr-muted font-semibold">Where we stand.</span> {s.vs_us}</p>}
-                <p className="text-gr-text text-sm"><span className="font-semibold">Move.</span> {s.move}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
           <a href="/stories" className="inline-block mt-3 text-gr-accent text-sm font-semibold hover:underline">Walk through them one at a time →</a>
+
+          {d.flagged_stories && d.flagged_stories.length > 0 && (
+            <div className="mt-5 border border-dashed border-gr-border rounded p-4">
+              <p className="text-gr-subtle font-bold text-[11px] uppercase tracking-[0.2em] mb-2">Flagged for verification ({d.flagged_stories.length}) — not confirmed</p>
+              <div className="divide-y divide-gr-border/50">
+                {d.flagged_stories.map((s, k) => (
+                  <div key={k} className="py-2">
+                    <p className="text-gr-muted text-sm">{s.headline}</p>
+                    <p className="text-gr-subtle text-xs mt-0.5">{s.confidence_note}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </section>
       ) : d.one_to_watch ? (
         <section className="bg-gr-surface border-l-[3px] border-gr-accent rounded p-6">
