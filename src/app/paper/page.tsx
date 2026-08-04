@@ -215,8 +215,9 @@ export default function PaperPage() {
         </section>
       )}
 
-      <footer className="pt-6 border-t border-gr-border text-xs text-gr-subtle">
-        Data freshness: {issue.generated_at}
+      <footer className="pt-6 border-t border-gr-border text-xs text-gr-subtle flex items-center justify-between">
+        <span>Data freshness: {issue.generated_at}</span>
+        <a href="/exec-brief" className="text-gr-accent hover:underline">Exec summary →</a>
       </footer>
     </div>
   );
