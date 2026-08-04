@@ -170,7 +170,7 @@ export default function PaperPage() {
 
       {(d.scorecard || []).some((g) => g.rows.some((r) => r.catalog)) && (
         <p className="text-xs text-gr-subtle -mt-6">
-          <span className="text-gr-accent">*</span> GR row from our master SKU catalog (active styles + avg MSRP). Peer rows from scraped storefronts — not a like-for-like count.
+          <span className="text-gr-accent">*</span> GR row from our master SKU catalog (active styles, colors, sizes, price). Peer rows from scraped storefronts — not a like-for-like count.
         </p>
       )}
 
