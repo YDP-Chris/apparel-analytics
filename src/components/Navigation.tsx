@@ -25,7 +25,8 @@ type NavSection = {
 // single hub entry pointing to the lead page; sibling views live in Lab until they
 // are tab-merged into the hub. Exec Brief folded into Field Report.
 const NAV_SECTIONS: NavSection[] = [
-  { href: '/today', label: 'Now' },
+  { href: '/today', label: 'Today' },       // morning read — AI narrative digest
+  { href: '/stories', label: 'Signals' },   // ranked, confidence-gated story engine
   { href: '/paper', label: 'Field Report' },
   {
     href: '/for-product',
