@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 747,
-      "change_from_last": -4,
+      "total_jobs": 746,
+      "change_from_last": -1,
       "departments": {
-        "design": 92,
-        "operations": 221,
+        "design": 94,
         "finance": 5,
-        "other": 142,
-        "retail": 253,
+        "other": 139,
+        "retail": 255,
         "engineering": 17,
         "marketing": 7,
         "executive": 3,
         "product": 3,
-        "hr": 4
+        "hr": 4,
+        "operations": 219
       },
       "seniority": {
-        "junior": 368,
-        "manager": 164,
-        "mid": 21,
+        "junior": 369,
+        "mid": 22,
+        "manager": 161,
         "c-suite": 18,
-        "intern": 4,
-        "lead": 155,
+        "intern": 3,
+        "lead": 156,
         "senior": 17
       },
       "locations": [
-        "Ponce City Market, Atlanta, GA (10186)",
-        "Laval, Quebec, Canada",
-        "Charleston, South Carolina, United States",
-        "Hamburg, Hamburg, Germany",
-        "Edina, Minnesota, United States",
-        "Southpark Mall, Charlotte, NC (10032)",
-        "Prudential Center, Boston, MA (10053)",
-        "Roma, Rome, Italy",
-        "Memphis Distribution Center, Southaven, MS (USA-TN-Memphis Distribution Center)",
-        "Austin Metro Area",
-        "Santa Barbara, California, United States",
-        "Scottsdale, Arizona, United States",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Miami Beach, Florida, United States",
+        "Dumbo, Brooklyn, NY (10139)",
+        "Merrick Park, Coral Gables, FL (10042)",
+        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
+        "Tulsa, Oklahoma, United States",
+        "Manhattan Beach, California, United States",
+        "Aventura, Florida, United States",
         "Dadeland Mall, MIami, FL (10133)",
-        "Germantown, Tennessee, United States",
-        "Mall at Green Hills, Nashville, TN (10079)",
-        "Jordan Creek, West Des Moines, IA (10178)",
-        "Shop at Crystals, Las Vegas, NV (10095)",
-        "The Domain, Austin, TX (10038)"
+        "The Domain, Austin, TX (10038)",
+        "Market Mall, Calgary\u00c2, AB (10070)",
+        "Cherry Hill, New Jersey, United States",
+        "Rice Village, Houston, TX (10151)",
+        "Southpark Mall, Charlotte, NC (10032)",
+        "Alys Beach, Florida, United States",
+        "Bondi Junction, Bondi Junction (50094)",
+        "Roma, Rome, Italy",
+        "Florence, Italy",
+        "Downtown Summerlin, Summerlin, NV (10130)",
+        "Lynnfield, Massachusetts, United States",
+        "Boulder, Colorado, United States",
+        "Kings Road, London (50013)"
       ],
       "jobs": [
         {
@@ -58,16 +58,6 @@
           "posted_at": "2026-08-05T17:33:56-04:00",
           "category": "design",
           "seniority": "junior"
-        },
-        {
-          "id": "5830970004",
-          "title": "3PL Operations Manager, Netherlands",
-          "location": "Amsterdam, North Holland, Netherlands",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5830970004?gh_jid=5830970004",
-          "posted_at": "2026-08-03T20:29:08-04:00",
-          "category": "operations",
-          "seniority": "manager"
         },
         {
           "id": "5798245004",
@@ -548,37 +538,47 @@
           "posted_at": "2026-08-03T20:29:08-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "5812620004",
+          "title": "District Manager, Italy & Southern Europe",
+          "location": "Milano, Milan, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5812620004?gh_jid=5812620004",
+          "posted_at": "2026-08-03T20:29:08-04:00",
+          "category": "other",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-08-07T05:30:07.391429"
+      "checked_at": "2026-08-08T05:30:07.835538"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 16,
-      "change_from_last": 0,
+      "total_jobs": 17,
+      "change_from_last": 1,
       "departments": {
         "marketing": 2,
+        "other": 2,
         "operations": 2,
         "engineering": 6,
         "design": 1,
         "retail": 3,
-        "other": 1,
         "finance": 1
       },
       "seniority": {
-        "mid": 4,
+        "mid": 5,
         "manager": 5,
         "lead": 4,
         "senior": 1,
         "junior": 2
       },
       "locations": [
-        "Roosevelt, New York, United States",
+        "Solihull, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
         "New York; New York, New York, United States; New York, New York, United States",
+        "Roosevelt, New York, United States",
         "London",
-        "Solihull, England, United Kingdom",
         "New York, New York, United States"
       ],
       "jobs": [
@@ -590,6 +590,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4941809101",
           "posted_at": "2026-07-30T10:21:55-04:00",
           "category": "marketing",
+          "seniority": "mid"
+        },
+        {
+          "id": "4948368101",
+          "title": "Cyber Security Analyst",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4948368101",
+          "posted_at": "2026-08-07T06:13:13-04:00",
+          "category": "other",
           "seniority": "mid"
         },
         {
@@ -608,7 +618,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4927186101",
-          "posted_at": "2026-07-22T07:24:06-04:00",
+          "posted_at": "2026-08-07T08:16:12-04:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -623,12 +633,12 @@
           "seniority": "lead"
         },
         {
-          "id": "4926303101",
+          "id": "4948518101",
           "title": "Influencer Marketing Manager (12m FTC)",
           "location": "Solihull, England, United Kingdom",
           "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4926303101",
-          "posted_at": "2026-08-06T06:21:47-04:00",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4948518101",
+          "posted_at": "2026-08-07T06:29:57-04:00",
           "category": "marketing",
           "seniority": "manager"
         },
@@ -743,7 +753,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-07T05:30:09.542083"
+      "checked_at": "2026-08-08T05:30:09.979626"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -801,61 +811,51 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 342,
-      "change_from_last": 1,
+      "total_jobs": 340,
+      "change_from_last": -2,
       "departments": {
-        "marketing": 29,
-        "engineering": 46,
-        "other": 58,
-        "retail": 156,
+        "engineering": 49,
+        "other": 56,
+        "retail": 155,
+        "marketing": 28,
         "product": 6,
         "operations": 9,
         "executive": 12,
-        "design": 22,
+        "design": 21,
         "hr": 2,
         "finance": 2
       },
       "seniority": {
-        "lead": 200,
-        "mid": 89,
+        "mid": 91,
+        "lead": 199,
         "c-suite": 13,
         "vp": 1,
         "manager": 1,
-        "senior": 38
+        "senior": 35
       },
       "locations": [
-        "Corte Madera",
-        "San Francisco",
-        "Macao",
-        "Munich",
-        "Mexico City",
+        "Aventura",
+        "Washington D.C.",
+        "Newport Beach",
+        "Milan",
+        "Vancouver",
+        "Ann Arbor; Columbus; Detroit",
+        "Fort Lauderdale; Miami; Tampa",
+        "S\u00e3o Paulo",
+        "Busan",
         "Wuhan",
-        "Paris",
-        "Sydney",
-        "London",
-        "Portland",
-        "Miami",
-        "Los Angeles",
-        "Buffalo; Pittsburgh; Rochester; Syracuse",
-        "New York City",
-        "Tokyo",
         "Austin",
-        "Melbourne",
-        "Dallas",
-        "Philadelphia",
-        "Montreal"
+        "Buffalo; Pittsburgh; Rochester; Syracuse",
+        "Portland",
+        "Corte Madera",
+        "Tianjin",
+        "Chicago",
+        "Rio de Janeiro",
+        "Nanjing",
+        "London",
+        "San Francisco"
       ],
       "jobs": [
-        {
-          "id": "8112176",
-          "title": "1955 - Lead - Digital Content Strategy",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8112176?gh_jid=8112176",
-          "posted_at": "2026-08-07T04:31:57-04:00",
-          "category": "marketing",
-          "seniority": "lead"
-        },
         {
           "id": "8068978",
           "title": "Accessories Quality Engineer (backpack, headwear,...)",
@@ -1345,10 +1345,20 @@
           "posted_at": "2026-08-05T23:01:56-04:00",
           "category": "executive",
           "seniority": "lead"
+        },
+        {
+          "id": "7710508",
+          "title": "Head of Production Planning - Apparel & Accessories",
+          "location": "Hanoi",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7710508?gh_jid=7710508",
+          "posted_at": "2026-08-05T23:01:56-04:00",
+          "category": "executive",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-07T05:30:19.075266"
+      "checked_at": "2026-08-08T05:30:19.291014"
     }
   },
-  "generated_at": "2026-08-07T05:30:21.075445"
+  "generated_at": "2026-08-08T05:30:21.291162"
 }
