@@ -3,24 +3,24 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4540,
+      "total": 4544,
       "categories": {
-        "bottoms": 2140,
+        "bottoms": 2142,
         "tops": 707,
         "outerwear": 599,
-        "other": 657,
-        "sports_bras": 146,
+        "other": 658,
+        "sports_bras": 147,
         "footwear": 18,
         "accessories": 227,
         "dresses": 46
       },
       "subcategories": {
         "joggers": 170,
-        "shorts": 810,
+        "shorts": 812,
         "tanks": 233,
         "tees": 244,
         "leggings": 190,
-        "other": 1359,
+        "other": 1361,
         "pants": 427,
         "pullovers": 6,
         "polos": 57,
@@ -43,8 +43,8 @@
         "fleece": 13
       },
       "genders": {
-        "mens": 1669,
-        "womens": 2087,
+        "mens": 1672,
+        "womens": 2088,
         "unisex": 784
       },
       "colors": {
@@ -55,9 +55,9 @@
         "red": 51,
         "white": 426,
         "blue": 625,
-        "green": 215,
+        "green": 216,
         "brown": 199,
-        "print": 37,
+        "print": 38,
         "heather": 276,
         "purple": 104,
         "orange": 23,
@@ -67,9 +67,9 @@
         "rust": 2,
         "camo": 8
       },
-      "colorCoverage": 84.7,
+      "colorCoverage": 84.6,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2592
+      "uniqueStyles": 2594
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -239,9 +239,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4849,
+      "total": 4850,
       "categories": {
-        "other": 838,
+        "other": 839,
         "bottoms": 1805,
         "tops": 578,
         "sports_bras": 339,
@@ -251,7 +251,7 @@
         "dresses": 128
       },
       "subcategories": {
-        "other": 1691,
+        "other": 1692,
         "leggings": 369,
         "tanks": 269,
         "shorts": 423,
@@ -279,7 +279,7 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3030,
+        "unisex": 3031,
         "womens": 1510,
         "mens": 309
       },
@@ -309,10 +309,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 9996,
+      "total": 9998,
       "categories": {
         "bottoms": 3565,
-        "tops": 3236,
+        "tops": 3238,
         "other": 737,
         "accessories": 606,
         "outerwear": 994,
@@ -326,7 +326,7 @@
         "other": 3413,
         "long_sleeve": 546,
         "socks": 244,
-        "tanks": 890,
+        "tanks": 892,
         "joggers": 581,
         "hoodies": 578,
         "jackets": 210,
@@ -348,7 +348,7 @@
       },
       "genders": {
         "unisex": 4483,
-        "womens": 3394,
+        "womens": 3396,
         "mens": 2119
       },
       "colors": {
@@ -358,7 +358,7 @@
         "white": 755,
         "navy": 74,
         "gray": 1213,
-        "brown": 772,
+        "brown": 774,
         "blue": 1642,
         "red": 341,
         "purple": 545,
@@ -369,7 +369,7 @@
       },
       "colorCoverage": 91.4,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2633
+      "uniqueStyles": 2634
     },
     "on_running": {
       "name": "On Running",
@@ -651,12 +651,78 @@
     }
   },
   "totals": {
-    "products": 39524,
+    "products": 39531,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-08-09",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 4,
+      "products": [
+        {
+          "name": "hardkore short lined 7 hemlock",
+          "url": "https://vuoriclothing.com/products/hardkore-short-lined-7-hemlock",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "banks resort short ink bayside",
+          "url": "https://vuoriclothing.com/products/banks-resort-short-ink-bayside-stripe",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "cruise boardshort 7 sway",
+          "url": "https://vuoriclothing.com/products/cruise-boardshort-7-oregano-sway",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "daily form bra dragonfruit",
+          "url": "https://vuoriclothing.com/products/womens-daily-form-bra-dragonfruit",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark lightweight seamless tank sleeveless tops aw26 a3b7v ndk1",
+          "url": "https://www.gymshark.com/products/gymshark-lightweight-seamless-tank-sleeveless-tops-brown-aw26-a3b7v-ndk1",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark lightweight seamless tank sleeveless tops aw26 a3b7v ndk1",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lightweight-seamless-tank-sleeveless-tops-brown-aw26-a3b7v-ndk1",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "airlift solar visor macadamia",
+          "url": "https://www.aloyoga.com/products/a0553u-airlift-solar-visor-macadamia",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "brand": "Gymshark",
@@ -5628,104 +5694,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-07-24",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 8,
-      "products": [
-        {
-          "name": "gymshark training oversized t shirt griffin",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-t-shirt-griffin-green-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark element baselayer shorts grey",
-          "url": "https://www.gymshark.com/products/gymshark-element-baselayer-shorts-grey-print-ss22",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark oversized performance t shirt camo",
-          "url": "https://www.gymshark.com/products/gymshark-oversized-performance-t-shirt-camo-brown-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power hoodie strength",
-          "url": "https://www.gymshark.com/products/gymshark-power-hoodie-strength-green-ss25",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark training oversized t shirt griffin",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-oversized-t-shirt-griffin-green-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark element baselayer shorts grey",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-element-baselayer-shorts-grey-print-ss22",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark oversized performance t shirt camo",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-oversized-performance-t-shirt-camo-brown-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark power hoodie strength",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-hoodie-strength-green-ss25",
-          "category": "outerwear",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 1,
-      "products": [
-        {
-          "name": "banks session short unlined 7 bay frontier",
-          "url": "https://vuoriclothing.com/products/banks-session-short-unlined-7-bay-blue-frontier",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "brand": "Ten Thousand",
-      "brandSlug": "tenthousand",
-      "count": 1,
-      "products": [
-        {
-          "name": "output muscle tee",
-          "url": "https://www.tenthousand.cc/products/output-muscle-tee",
-          "category": "tops",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 1,
-      "products": [
-        {
-          "name": "u3032rg accolade hoodie mens",
-          "url": "https://www.aloyoga.com/products/u3032rg-accolade-hoodie-ivory-mens",
-          "category": "outerwear",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5823,7 +5791,8 @@
       "2026-08-04": 2,
       "2026-08-05": 1,
       "2026-08-06": 5,
-      "2026-08-07": 6
+      "2026-08-07": 6,
+      "2026-08-09": 4
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -6033,7 +6002,8 @@
       "2026-07-22": 2,
       "2026-07-24": 1,
       "2026-07-27": 1,
-      "2026-07-28": 2
+      "2026-07-28": 2,
+      "2026-08-09": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6152,7 +6122,8 @@
       "2026-08-04": 16,
       "2026-08-05": 72,
       "2026-08-06": 12,
-      "2026-08-07": 42
+      "2026-08-07": 42,
+      "2026-08-09": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6225,7 +6196,7 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 2140,
+      "vuori": 2142,
       "outdoor_voices": 304,
       "tenthousand": 69,
       "lululemon": 1732,
@@ -6243,7 +6214,7 @@
       "tenthousand": 40,
       "lululemon": 835,
       "alo": 578,
-      "gymshark": 3236,
+      "gymshark": 3238,
       "on_running": 693,
       "gymreapers": 236,
       "sbd": 67,
@@ -6264,11 +6235,11 @@
       "bear_grips": 453
     },
     "other": {
-      "vuori": 657,
+      "vuori": 658,
       "outdoor_voices": 67,
       "tenthousand": 13,
       "lululemon": 917,
-      "alo": 838,
+      "alo": 839,
       "gymshark": 737,
       "on_running": 3007,
       "gymreapers": 317,
@@ -6278,7 +6249,7 @@
       "bear_grips": 254
     },
     "sports_bras": {
-      "vuori": 146,
+      "vuori": 147,
       "outdoor_voices": 44,
       "lululemon": 186,
       "alo": 339,
@@ -6331,7 +6302,7 @@
       "bear_grips": 30
     },
     "shorts": {
-      "vuori": 810,
+      "vuori": 812,
       "outdoor_voices": 103,
       "tenthousand": 41,
       "lululemon": 528,
@@ -6348,7 +6319,7 @@
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 269,
-      "gymshark": 890,
+      "gymshark": 892,
       "on_running": 325,
       "gymreapers": 36,
       "sbd": 8,
@@ -6376,11 +6347,11 @@
       "bear_grips": 32
     },
     "other": {
-      "vuori": 1359,
+      "vuori": 1361,
       "outdoor_voices": 186,
       "tenthousand": 33,
       "lululemon": 1593,
-      "alo": 1691,
+      "alo": 1692,
       "gymshark": 3413,
       "on_running": 3400,
       "gymreapers": 538,
@@ -6677,7 +6648,7 @@
       "schiek": 2
     },
     "green": {
-      "vuori": 215,
+      "vuori": 216,
       "outdoor_voices": 52,
       "lululemon": 4,
       "alo": 315,
@@ -6690,14 +6661,14 @@
       "vuori": 199,
       "outdoor_voices": 2,
       "alo": 297,
-      "gymshark": 772,
+      "gymshark": 774,
       "on_running": 84,
       "gymreapers": 17,
       "schiek": 2,
       "bear_grips": 3
     },
     "print": {
-      "vuori": 37,
+      "vuori": 38,
       "outdoor_voices": 20,
       "lululemon": 123,
       "gymshark": 20,
@@ -6968,7 +6939,7 @@
       "gray": 13.2,
       "navy": 2.4,
       "blue": 13.8,
-      "green": 4.7,
+      "green": 4.8,
       "khaki": 4.8,
       "brown": 4.4,
       "purple": 2.3,
@@ -7135,15 +7106,15 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1669,
-      "text": "Vuori leads Lululemon in men's: 1669 vs 1286 products. A 30% advantage."
+      "value": 1672,
+      "text": "Vuori leads Lululemon in men's: 1672 vs 1286 products. A 30% advantage."
     },
     {
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
-      "value": 810,
-      "text": "Vuori ranks #2 in shorts with 810 products. Behind Gymshark (1442)."
+      "value": 812,
+      "text": "Vuori ranks #2 in shorts with 812 products. Behind Gymshark (1442)."
     },
     {
       "type": "comparison",
@@ -7216,7 +7187,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 810,
+        "vuori": 812,
         "competitor": 528,
         "winner": "vuori"
       },
@@ -7240,13 +7211,13 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1669,
+        "vuori": 1672,
         "competitor": 1286,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
-        "vuori": 2087,
+        "vuori": 2088,
         "competitor": 1597,
         "winner": "vuori"
       }
@@ -7266,7 +7237,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 810,
+        "vuori": 812,
         "competitor": 423,
         "winner": "vuori"
       },
@@ -7290,17 +7261,17 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1669,
+        "vuori": 1672,
         "competitor": 309,
         "winner": "vuori"
       },
       {
         "category": "Women's Products",
-        "vuori": 2087,
+        "vuori": 2088,
         "competitor": 1510,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-08-09T13:15:12.121Z"
+  "generated_at": "2026-08-10T13:15:16.619Z"
 }

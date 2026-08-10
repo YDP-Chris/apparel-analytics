@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 744,
+      "total_jobs": 742,
       "change_from_last": -2,
       "departments": {
-        "design": 94,
+        "design": 92,
         "finance": 5,
-        "other": 139,
+        "other": 138,
         "retail": 254,
         "engineering": 17,
         "marketing": 7,
-        "executive": 3,
+        "executive": 4,
         "product": 3,
         "hr": 4,
         "operations": 218
       },
       "seniority": {
         "junior": 367,
-        "mid": 22,
-        "manager": 161,
-        "c-suite": 18,
+        "manager": 159,
+        "mid": 21,
+        "c-suite": 19,
         "intern": 3,
         "lead": 156,
         "senior": 17
       },
       "locations": [
-        "New York (Retail)",
-        "Burlingame, California, United States",
+        "Birmingham, Alabama, United States",
+        "Munich, Bavaria, Germany",
+        "East Rutherford, New Jersey, United States",
+        "Detroit, Michigan, United States",
+        "Oklahoma City, Oklahoma, United States",
+        "Kenwood Towne Centre, Cincinnati, OH (10082)",
         "London, England, United Kingdom",
-        "Merrick Park, Coral Gables, FL (10042)",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
-        "Shops at Clearfork, Fort Worth, TX (10035)",
-        "Seoul, Seoul, South Korea",
-        "Canoga Park, California, United States",
-        "Oakbrook Center, Oak Brook, IL (10015)",
-        "Louisville, Kentucky, United States",
+        "Ashburn, Virginia, United States",
+        "Forum Shops at Ceasars, Las Vegas, NV (10063)",
+        "Amherst, New York, United States",
         "Newbury Street, Boston, MA (10041)",
-        "Vail Village, Vail, CO (10167)",
-        "Carlsbad, California, United States",
-        "Perimeter Mall, Atlanta, GA (10176)",
-        "Oakridge Centre, Vancouver, BC (10080)",
-        "La Jolla, California, United States",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Kierland Commons, Scottsdale, AZ (10024)",
-        "Studio City, California, United States",
-        "Pasadena, California, United States"
+        "Germantown, Tennessee, United States",
+        "New York, New York, United States; Remote",
+        "The Woodlands, Texas, United States",
+        "Tulsa, Oklahoma, United States",
+        "Ottawa, Ontario, Canada",
+        "Bridgewater, New Jersey, United States",
+        "Market Mall, Calgary\u00c2, AB (10070)",
+        "Berkeley, California, United States",
+        "Bondi Junction, Bondi Junction (50094)"
       ],
       "jobs": [
         {
@@ -58,16 +58,6 @@
           "posted_at": "2026-08-05T17:33:56-04:00",
           "category": "design",
           "seniority": "junior"
-        },
-        {
-          "id": "5798245004",
-          "title": "Accessories & Bags, Designer 1",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5798245004?gh_jid=5798245004",
-          "posted_at": "2026-08-04T19:47:30-04:00",
-          "category": "design",
-          "seniority": "mid"
         },
         {
           "id": "5596753004",
@@ -410,6 +400,16 @@
           "seniority": "manager"
         },
         {
+          "id": "5745395004",
+          "title": "Director, Asset Protection & Safety - International",
+          "location": "London, England, United Kingdom",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5745395004?gh_jid=5745395004",
+          "posted_at": "2026-08-10T02:20:54-04:00",
+          "category": "executive",
+          "seniority": "c-suite"
+        },
+        {
           "id": "5840053004",
           "title": "Director, North America Retail Operations",
           "location": "Beverly Hills, California, United States",
@@ -510,16 +510,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "6019672004",
-          "title": "Distribution Center Manager ",
-          "location": "Hong Kong",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6019672004?gh_jid=6019672004",
-          "posted_at": "2026-08-03T20:29:08-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "5818926004",
           "title": "District Manager, France ",
           "location": "Paris, Paris, France",
@@ -548,9 +538,19 @@
           "posted_at": "2026-08-03T20:29:08-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "6120109004",
+          "title": "Engineering Manager, Marketing Technology ",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6120109004?gh_jid=6120109004",
+          "posted_at": "2026-08-03T20:29:08-04:00",
+          "category": "engineering",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-08-09T05:30:07.771141"
+      "checked_at": "2026-08-10T05:30:07.101819"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -558,40 +558,30 @@
       "total_jobs": 17,
       "change_from_last": 0,
       "departments": {
-        "marketing": 2,
         "other": 2,
         "operations": 2,
         "engineering": 6,
-        "design": 1,
+        "design": 2,
+        "marketing": 1,
         "retail": 3,
         "finance": 1
       },
       "seniority": {
-        "mid": 5,
+        "mid": 4,
         "manager": 5,
         "lead": 4,
-        "senior": 1,
+        "senior": 2,
         "junior": 2
       },
       "locations": [
-        "London",
-        "Amsterdam, North Holland, Netherlands",
-        "New York, New York, United States",
+        "Roosevelt, New York, United States",
         "New York; New York, New York, United States; New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "London",
         "Solihull, England, United Kingdom",
-        "Roosevelt, New York, United States"
+        "New York, New York, United States"
       ],
       "jobs": [
-        {
-          "id": "4941809101",
-          "title": "Content Writer ",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4941809101",
-          "posted_at": "2026-07-30T10:21:55-04:00",
-          "category": "marketing",
-          "seniority": "mid"
-        },
         {
           "id": "4948368101",
           "title": "Cyber Security Analyst",
@@ -628,7 +618,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4940706101",
-          "posted_at": "2026-07-29T07:54:50-04:00",
+          "posted_at": "2026-08-10T04:35:26-04:00",
           "category": "design",
           "seniority": "lead"
         },
@@ -713,6 +703,16 @@
           "seniority": "junior"
         },
         {
+          "id": "4865998101",
+          "title": "Senior Creative Producer - FTC",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4865998101",
+          "posted_at": "2026-08-10T05:23:06-04:00",
+          "category": "design",
+          "seniority": "senior"
+        },
+        {
           "id": "4927109101",
           "title": "Strategic Sourcing Manager \u2013 Apparel Sourcing ",
           "location": "Solihull, England, United Kingdom",
@@ -753,7 +753,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-09T05:30:10.033455"
+      "checked_at": "2026-08-10T05:30:09.250581"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -815,12 +815,12 @@
       "change_from_last": 0,
       "departments": {
         "engineering": 49,
-        "other": 56,
+        "other": 55,
         "retail": 155,
         "marketing": 28,
         "product": 6,
         "operations": 9,
-        "executive": 12,
+        "executive": 13,
         "design": 21,
         "hr": 2,
         "finance": 2
@@ -834,26 +834,26 @@
         "senior": 35
       },
       "locations": [
-        "London; Zurich",
-        "Zurich",
-        "Aventura",
-        "Mexico City",
+        "Atlanta; Locust Grove; New York City",
         "Fort Lauderdale; Miami; Tampa",
-        "Shanghai",
-        "Portland",
+        "San Diego",
+        "New York City",
         "Buffalo; Pittsburgh; Rochester; Syracuse",
-        "Milan",
-        "Berlin; London; Zurich",
-        "Austin",
-        "Las Vegas",
-        "Chicago",
-        "Vienna",
-        "Hanoi",
-        "Ann Arbor; Columbus; Detroit",
-        "Tianjin",
+        "Tokyo",
         "Brooklyn",
-        "Shenzhen",
-        "Cirebon"
+        "Zurich",
+        "Dallas",
+        "Las Vegas",
+        "Beijing",
+        "Washington D.C.",
+        "Newport Beach",
+        "Seoul",
+        "Shanghai",
+        "San Francisco",
+        "Vancouver",
+        "Sydney",
+        "Corte Madera",
+        "Los Angeles"
       ],
       "jobs": [
         {
@@ -882,7 +882,7 @@
           "location": "Melbourne",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7764845?gh_jid=7764845",
-          "posted_at": "2026-08-05T23:01:56-04:00",
+          "posted_at": "2026-08-09T22:42:23-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -1237,6 +1237,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7384378",
+          "title": "Head of - Apparel Materials Development (Performance)",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7384378?gh_jid=7384378",
+          "posted_at": "2026-08-10T05:26:53-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
           "id": "8046508",
           "title": "Head of Business Process Excellence",
           "location": "Zurich",
@@ -1345,20 +1355,10 @@
           "posted_at": "2026-08-05T23:01:56-04:00",
           "category": "executive",
           "seniority": "lead"
-        },
-        {
-          "id": "7710508",
-          "title": "Head of Production Planning - Apparel & Accessories",
-          "location": "Hanoi",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7710508?gh_jid=7710508",
-          "posted_at": "2026-08-05T23:01:56-04:00",
-          "category": "executive",
-          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-09T05:30:21.650596"
+      "checked_at": "2026-08-10T05:30:18.450759"
     }
   },
-  "generated_at": "2026-08-09T05:30:23.650745"
+  "generated_at": "2026-08-10T05:30:20.450912"
 }
