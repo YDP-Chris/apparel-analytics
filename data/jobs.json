@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 761,
-      "change_from_last": 11,
+      "total_jobs": 769,
+      "change_from_last": 8,
       "departments": {
-        "design": 91,
+        "design": 92,
         "finance": 5,
-        "other": 142,
+        "other": 144,
         "product": 4,
-        "retail": 259,
+        "retail": 262,
         "engineering": 17,
         "marketing": 7,
         "executive": 4,
         "hr": 3,
-        "operations": 229
+        "operations": 231
       },
       "seniority": {
-        "junior": 386,
-        "manager": 162,
-        "mid": 21,
+        "junior": 395,
+        "manager": 159,
+        "mid": 22,
         "c-suite": 19,
         "intern": 2,
-        "lead": 154,
+        "lead": 155,
         "senior": 17
       },
       "locations": [
-        "Koenigsallee, D\u00fcsseldorf (50112)",
-        "Chestnut Hill, Massachusetts, United States",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
+        "Roseville, California, United States",
+        "North Hills, Raleigh, NC (10100)",
+        "Ashburn, Virginia, United States",
+        "Jordan Creek, West Des Moines, IA (10178)",
+        "Columbus, Ohio, United States",
+        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
+        "City Creek Centre, Salt Lake City, UT (10064)",
+        "Manhasset, NY",
+        "Westport, Connecticut, United States",
+        "Pinecrest, Orange Village, OH (10103)",
+        "Bethesda, Maryland, United States",
+        "Bridgewater, New Jersey, United States",
+        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
         "Charleston, South Carolina, United States",
-        "Glendale, California, United States",
-        "Naperville, Illinois, United States",
-        "East Rutherford, New Jersey, United States",
-        "White Plains, New York, United States",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "Ala Moana, Honolulu, HI (10045)",
-        "Burlingame, California, United States",
-        "Costa Mesa, California, United States",
-        "Upper East Side, New York, NY (10009)",
-        "Woodfield Mall, Schaumburg, IL (10112)",
-        "The Woodlands, Texas, United States",
-        "Berlin, Berlin, Germany",
-        "Alys Beach, Florida, United States",
-        "Studio City, California, United States",
-        "UTC Sarasota, Sarasota, FL (10091)",
-        "Vancouver, British Columbia, Canada"
+        "Walnut Street, Philadelphia, PA (10058)",
+        "Dadeland Mall, MIami, FL (10133)",
+        "San Luis Obispo, California, United States",
+        "Paris, Paris, France",
+        "Santa Barbara, California, United States",
+        "Brickell City Centre, Miami, FL (10077)"
       ],
       "jobs": [
         {
@@ -335,7 +335,7 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6122703004?gh_jid=6122703004",
-          "posted_at": "2026-08-05T17:07:06-04:00",
+          "posted_at": "2026-08-12T11:50:09-04:00",
           "category": "engineering",
           "seniority": "junior"
         },
@@ -510,21 +510,21 @@
           "seniority": "c-suite"
         },
         {
-          "id": "6101730004",
-          "title": "District Manager, France ",
-          "location": "Paris, Paris, France",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6101730004?gh_jid=6101730004",
-          "posted_at": "2026-08-03T20:29:08-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "5818926004",
           "title": "District Manager, France ",
           "location": "Paris, Paris, France",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5818926004?gh_jid=5818926004",
+          "posted_at": "2026-08-03T20:29:08-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
+          "id": "6101730004",
+          "title": "District Manager, France ",
+          "location": "Paris, Paris, France",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6101730004?gh_jid=6101730004",
           "posted_at": "2026-08-03T20:29:08-04:00",
           "category": "other",
           "seniority": "manager"
@@ -550,37 +550,36 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-08-12T05:30:07.803819"
+      "checked_at": "2026-08-13T05:30:07.877075"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 20,
-      "change_from_last": 1,
+      "total_jobs": 19,
+      "change_from_last": -1,
       "departments": {
         "other": 3,
-        "operations": 2,
         "engineering": 6,
         "design": 5,
         "marketing": 1,
+        "operations": 1,
         "retail": 2,
         "finance": 1
       },
       "seniority": {
         "mid": 5,
-        "manager": 5,
         "lead": 6,
+        "manager": 4,
         "junior": 2,
         "senior": 2
       },
       "locations": [
-        "New York",
-        "Amsterdam, North Holland, Netherlands",
-        "London",
         "Solihull, England, United Kingdom",
+        "Roosevelt, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
         "London, England, United Kingdom; Solihull, England, United Kingdom",
         "New York; New York, New York, United States; New York, New York, United States",
-        "Roosevelt, New York, United States"
+        "New York"
       ],
       "jobs": [
         {
@@ -592,16 +591,6 @@
           "posted_at": "2026-08-11T07:09:35-04:00",
           "category": "other",
           "seniority": "mid"
-        },
-        {
-          "id": "4923547101",
-          "title": "Department Manager - Operations - Regent Street",
-          "location": "London",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4923547101",
-          "posted_at": "2026-07-14T07:15:24-04:00",
-          "category": "operations",
-          "seniority": "manager"
         },
         {
           "id": "4927186101",
@@ -619,7 +608,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4949416101",
-          "posted_at": "2026-08-11T07:08:47-04:00",
+          "posted_at": "2026-08-12T07:08:53-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -784,7 +773,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-12T05:30:09.978750"
+      "checked_at": "2026-08-13T05:30:10.021740"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -842,49 +831,49 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 346,
-      "change_from_last": 2,
+      "total_jobs": 343,
+      "change_from_last": -3,
       "departments": {
-        "engineering": 50,
-        "other": 59,
+        "engineering": 51,
+        "other": 57,
         "retail": 160,
-        "marketing": 28,
+        "marketing": 27,
         "product": 3,
         "operations": 9,
-        "executive": 12,
+        "executive": 11,
         "design": 20,
         "hr": 2,
         "finance": 3
       },
       "seniority": {
         "mid": 93,
-        "lead": 201,
+        "lead": 199,
         "c-suite": 14,
         "vp": 1,
         "manager": 2,
-        "senior": 35
+        "senior": 34
       },
       "locations": [
-        "Shanghai",
-        "Central Valley",
-        "Tokyo",
-        "Corte Madera",
-        "Cirebon",
         "New York City",
-        "S\u00e3o Paulo",
-        "Montreal; Toronto; Vancouver",
-        "Philadelphia",
+        "Shenzhen",
+        "San Francisco",
+        "London; Zurich",
+        "Tianjin",
         "Washington D.C.",
-        "Mexico City",
-        "San Diego",
-        "McLean",
-        "Miami",
-        "Los Angeles",
         "Vancouver",
-        "Aventura",
-        "Newport Beach",
+        "Buffalo; Pittsburgh; Rochester; Syracuse",
+        "Austin",
+        "San Diego",
+        "Chicago",
+        "Amsterdam",
+        "London",
+        "Las Vegas",
+        "Macao",
         "Wuhan",
-        "Austin"
+        "Dallas",
+        "Shanghai",
+        "Ann Arbor; Columbus; Detroit",
+        "Milan"
       ],
       "jobs": [
         {
@@ -958,16 +947,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8034902",
-          "title": "Associate Store Leader, Dosan Park, Seoul",
-          "location": "Seoul",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8034902?gh_jid=8034902",
-          "posted_at": "2026-08-05T23:01:56-04:00",
-          "category": "marketing",
-          "seniority": "lead"
-        },
-        {
           "id": "7529798",
           "title": "Associate Store Leader, Guomao Beijing",
           "location": "Beijing",
@@ -985,6 +964,16 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7609546?gh_jid=7609546",
           "posted_at": "2026-08-05T23:01:56-04:00",
           "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7299718",
+          "title": "Associate Store Leader,  Hyundai Seoul",
+          "location": "Seoul",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7299718?gh_jid=7299718",
+          "posted_at": "2026-08-13T03:04:14-04:00",
+          "category": "marketing",
           "seniority": "lead"
         },
         {
@@ -1278,6 +1267,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7402412",
+          "title": "Global Senior Director of Brand Apparel Marketing",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7402412?gh_jid=7402412",
+          "posted_at": "2026-08-12T10:42:12-04:00",
+          "category": "marketing",
+          "seniority": "c-suite"
+        },
+        {
           "id": "7384378",
           "title": "Head of - Apparel Materials Development (Performance)",
           "location": "Zurich",
@@ -1358,16 +1357,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7954022",
-          "title": "Head of Functional Communications",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7954022?gh_jid=7954022",
-          "posted_at": "2026-08-05T23:01:56-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
           "id": "7954040",
           "title": "Head of Internal Content & Channels",
           "location": "Zurich",
@@ -1388,8 +1377,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-12T05:30:19.141338"
+      "checked_at": "2026-08-13T05:30:19.319825"
     }
   },
-  "generated_at": "2026-08-12T05:30:21.141528"
+  "generated_at": "2026-08-13T05:30:21.319979"
 }
