@@ -239,25 +239,25 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4850,
+      "total": 4852,
       "categories": {
-        "other": 839,
+        "other": 840,
         "bottoms": 1805,
         "tops": 578,
         "sports_bras": 339,
         "accessories": 429,
-        "outerwear": 687,
+        "outerwear": 688,
         "footwear": 45,
         "dresses": 128
       },
       "subcategories": {
-        "other": 1692,
+        "other": 1693,
         "leggings": 369,
         "tanks": 269,
         "shorts": 423,
         "hats": 150,
         "sweatpants": 215,
-        "hoodies": 226,
+        "hoodies": 227,
         "running": 32,
         "long_sleeve": 40,
         "pants": 251,
@@ -279,7 +279,7 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3031,
+        "unisex": 3033,
         "womens": 1510,
         "mens": 309
       },
@@ -287,7 +287,7 @@
         "navy": 197,
         "black": 1044,
         "white": 933,
-        "gray": 505,
+        "gray": 506,
         "khaki": 134,
         "pink": 242,
         "blue": 251,
@@ -309,29 +309,29 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 10022,
+      "total": 10242,
       "categories": {
-        "bottoms": 3573,
-        "tops": 3250,
-        "other": 737,
+        "bottoms": 3671,
+        "tops": 3342,
+        "other": 743,
         "accessories": 608,
-        "outerwear": 996,
-        "sports_bras": 848,
+        "outerwear": 1012,
+        "sports_bras": 856,
         "dresses": 10
       },
       "subcategories": {
-        "shorts": 1444,
-        "leggings": 844,
+        "shorts": 1480,
+        "leggings": 862,
         "crop_tops": 180,
-        "other": 3423,
-        "long_sleeve": 546,
+        "other": 3501,
+        "long_sleeve": 570,
         "socks": 246,
-        "tanks": 892,
-        "joggers": 583,
-        "hoodies": 578,
+        "tanks": 906,
+        "joggers": 599,
+        "hoodies": 590,
         "jackets": 212,
-        "pants": 358,
-        "pullovers": 160,
+        "pants": 376,
+        "pullovers": 164,
         "high_support": 36,
         "bags": 84,
         "bralette": 70,
@@ -347,29 +347,29 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4495,
-        "womens": 3402,
-        "mens": 2125
+        "unisex": 4621,
+        "womens": 3484,
+        "mens": 2137
       },
       "colors": {
-        "green": 522,
-        "pink": 775,
-        "black": 2341,
-        "white": 757,
+        "green": 526,
+        "pink": 795,
+        "black": 2383,
+        "white": 779,
         "navy": 74,
-        "gray": 1219,
-        "brown": 774,
-        "blue": 1642,
+        "gray": 1261,
+        "brown": 808,
+        "blue": 1678,
         "red": 341,
-        "purple": 545,
-        "yellow": 88,
+        "purple": 563,
+        "yellow": 90,
         "orange": 56,
         "khaki": 2,
         "print": 22
       },
-      "colorCoverage": 91.4,
+      "colorCoverage": 91.6,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2638
+      "uniqueStyles": 2678
     },
     "on_running": {
       "name": "On Running",
@@ -651,12 +651,640 @@
     }
   },
   "totals": {
-    "products": 39557,
+    "products": 39779,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-08-13",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 220,
+      "products": [
+        {
+          "name": "gymshark conditioning club oversized t shirt pebble",
+          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-pebble-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus edit woven shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-pink-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus edit woven shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus edit woven shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-yellow-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus edit woven shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-green-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc taped straight leg track pant pants",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-taped-straight-leg-track-pant-pants-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc taped straight leg track pant pants",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-taped-straight-leg-track-pant-pants-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-t-shirt-ss-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-t-shirt-ss-tops-brown-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe campus t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-t-shirt-ss-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe straight leg short joggers pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-short-joggers-pants-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus pants tall pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-tall-pants-pink-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe straight leg tall joggers pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-tall-joggers-pants-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus polo sweatshirt pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-polo-sweatshirt-pullovers-blue-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark cosy campus pants tall pants aw26 b7b2v ndj1",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-tall-pants-brown-aw26-b7b2v-ndj1",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus polo sweatshirt pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-polo-sweatshirt-pullovers-brown-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark cosy luxe hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-hoodie-pullovers-black-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus full zip hoodie pullovers aw26 b7b6b ndj1",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-brown-aw26-b7b6b-ndj1",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus full zip hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-blue-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus polo sweatshirt pullovers aw26 b7b5r ndj1",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-polo-sweatshirt-pullovers-brown-aw26-b7b5r-ndj1",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark cotton blend seamless shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-purple-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-purple-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton blend seamless shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-purple-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gslc emblem short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-emblem-short-shorts-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc emblem short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-emblem-short-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cotton seamless t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-brown-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton seamless t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-black-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton seamless t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-grey-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton seamless t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-white-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark train pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-train-pants-pants-black-ss27",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-train-pants-pants-blue-ss27",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cotton seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-long-sleeve-t-shirt-ls-tops-black-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-long-sleeve-t-shirt-ls-tops-grey-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cotton seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-long-sleeve-t-shirt-ls-tops-white-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gslc straight leg pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-straight-leg-pants-pants-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe straight leg jogger pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-pants-pink-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting icons 3 short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-icons-3-short-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark glsc hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-glsc-hoodie-pullovers-black-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc cut off tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-cut-off-tank-sleeveless-tops-grey-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train 5 short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-train-5-short-shorts-brown-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train 1 4 zip pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-train-1-4-zip-pullovers-black-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train cut off tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting icons 3 short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-icons-3-short-shorts-green-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark gslc cut off tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-cut-off-tank-sleeveless-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train 5 short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-train-5-short-shorts-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs seamless sleeveless top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-white-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark train cut off tank sleeveless tops aw26 a5c3d ufhb",
+          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-blue-aw26-a5c3d-ufhb",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy luxe straight leg jogger short leg pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-short-leg-pants-white-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs seamless midi top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-midi-top-ss-tops-brown-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless long sleeve long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-long-sleeve-long-sleeve-top-ls-tops-brown-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cosy luxe straight leg jogger long leg pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-long-leg-pants-pink-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs seamless halterneck top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-grey-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless halterneck top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-purple-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cosy luxe straight leg jogger long leg pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-long-leg-pants-white-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs seamless halterneck top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless long sleeve long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-long-sleeve-long-sleeve-top-ls-tops-grey-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless halterneck sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-sports-bra-sports-bras-pink-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless halterneck sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-sports-bra-sports-bras-grey-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless halterneck top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-brown-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless halterneck sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-sports-bra-sports-bras-blue-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless midi top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-midi-top-ss-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark train t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-brown-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark glsc hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-glsc-hoodie-pullovers-blue-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc stringer sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-stringer-sleeveless-tops-purple-aw26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc raglan long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-raglan-long-sleeve-t-shirt-ls-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-long-sleeve-t-shirt-ls-tops-grey-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc henley sweat pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-henley-sweat-pullovers-grey-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc straight leg pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-straight-leg-pants-pants-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs seamless sleeveless top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-brown-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark gs seamless sleeveless top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-grey-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark train long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-long-sleeve-t-shirt-ls-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc cut off tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-cut-off-tank-sleeveless-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc henley sweat pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-henley-sweat-pullovers-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train 5 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-train-5-shorts-shorts-grey-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train cut off tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-brown-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-long-sleeve-t-shirt-ls-tops-brown-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc ringer t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-ringer-t-shirt-ss-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc stringer sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-stringer-sleeveless-tops-black-aw26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc raglan long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-raglan-long-sleeve-t-shirt-ls-tops-purple-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train 4 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-train-4-shorts-shorts-grey-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train cut off tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark train t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-grey-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gslc stringer sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-stringer-sleeveless-tops-grey-aw26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting icons 3 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-icons-3-shorts-shorts-grey-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark gslc straight leg pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-gslc-straight-leg-pants-pants-grey-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs seamless sleeveless top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-black-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark train 1 4 zip pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-train-1-4-zip-pullovers-grey-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "bae hoodie",
+          "url": "https://www.aloyoga.com/products/w3814r-bae-hoodie-limestone",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "epic claw clip chrome",
+          "url": "https://www.aloyoga.com/products/a0541u-epic-claw-clip-chrome",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-08-12",
       "brand": "Gymshark",
@@ -4254,780 +4882,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-07-29",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 245,
-      "products": [
-        {
-          "name": "gymshark geo seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-geo-seamless-long-sleeve-t-shirt-ls-tops-blue-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training dress one pieces",
-          "url": "https://www.gymshark.com/products/gymshark-training-dress-one-pieces-yellow-aw26",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training dress one pieces",
-          "url": "https://www.gymshark.com/products/gymshark-training-dress-one-pieces-brown-aw26",
-          "category": "dresses",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark campus crest zip through hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-zip-through-hoodie-pullovers-blue-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark college crest graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-college-crest-graphic-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark college crest graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-college-crest-graphic-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark training scoop back halterneck sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-scoop-back-halterneck-sleeveless-tops-brown-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training campus sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-sports-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training campus sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-sports-bra-sports-bras-white-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training straight leg short legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-training-straight-leg-short-legging-leggings-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training scoop back halterneck sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-scoop-back-halterneck-sleeveless-tops-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training straight leg tall legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-training-straight-leg-tall-legging-leggings-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark light support ruche strappy back bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-light-support-ruche-strappy-back-bra-sports-bras-teal-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark alpha high support sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-alpha-high-support-sports-bra-sports-bras-teal-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark flutter long sleeve top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-flutter-long-sleeve-top-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training campus cotton sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-cotton-sports-bra-sports-bras-blue-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training campus cotton sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-cotton-sports-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training campus cotton sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-cotton-sports-bra-sports-bras-grey-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training campus t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training campus t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-campus-t-shirt-ss-tops-yellow-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark flutter micro sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-flutter-micro-sports-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark flutter micro sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-flutter-micro-sports-bra-sports-bras-pink-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark college crest graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-college-crest-graphic-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus track pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-track-pants-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus track pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-track-pants-pants-brown-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus track pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-track-pants-pants-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark college crest graphic track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-college-crest-graphic-track-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark college crest graphic track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-college-crest-graphic-track-jacket-jackets-outerwear-blue-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest tapered jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-crest-tapered-jogger-pants-grey-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest oversized pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-oversized-pants-pants-grey-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest oversized pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-oversized-pants-pants-black-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest oversized pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-oversized-pants-pants-blue-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest cuffed pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-cuffed-pants-pants-grey-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest tapered jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-crest-tapered-jogger-pants-black-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark arrival long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-long-sleeve-t-shirt-ls-tops-blue-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark training straight leg short legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-training-straight-leg-short-legging-leggings-blue-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training straight leg tall legging leggings aw26 b6b6w kdm6",
-          "url": "https://www.gymshark.com/products/gymshark-training-straight-leg-tall-legging-leggings-pink-aw26-b6b6w-kdm6",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training straight leg tall legging leggings",
-          "url": "https://www.gymshark.com/products/gymshark-training-straight-leg-tall-legging-leggings-blue-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training oversized 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-1-4-zip-pullovers-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized boxy sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-boxy-sweatshirt-pullovers-purple-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark quarter sock 6pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-quarter-sock-6pk-socks-black-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-hoodie-pullovers-purple-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-sweatshirt-pullovers-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials duffle bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-duffle-bag-bags-white-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-hoodie-pullovers-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc active backpack bags",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-active-backpack-bags-purple-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-1-4-zip-pullovers-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark relaxed cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-relaxed-cap-headwear-blue-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials crew sock 3pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-crew-sock-3pk-socks-white-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials crew sock 3pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-crew-sock-3pk-socks-pink-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark trainer sock 6pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-trainer-sock-6pk-socks-white-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday shelf cami tank option 2 sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-shelf-cami-tank-option-2-sleeveless-tops-pink-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sports bottle with straw bottles",
-          "url": "https://www.gymshark.com/products/gymshark-sports-bottle-with-straw-bottles-pink-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized boxy sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-boxy-sweatshirt-pullovers-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-sweatshirt-pullovers-yellow-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials duffle bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-duffle-bag-bags-pink-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized boxy sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-boxy-sweatshirt-pullovers-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-hoodie-pullovers-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-cap-headwear-black-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized boxy sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-boxy-sweatshirt-pullovers-yellow-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark trucker cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-trucker-cap-headwear-brown-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark midi lettuce grip socks single socks aw26 i2c5a wf1j",
-          "url": "https://www.gymshark.com/products/gymshark-midi-lettuce-grip-socks-single-socks-white-aw26-i2c5a-wf1j",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials cap headwear aw26 i2c9j udb2",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-cap-headwear-blue-aw26-i2c9j-udb2",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sharkhead cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-sharkhead-cap-headwear-grey-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials tote bags",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-tote-bags-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials tote bags aw26 i2c8x udb2",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-tote-bags-blue-aw26-i2c8x-udb2",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark trainer sock 6pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-trainer-sock-6pk-socks-black-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus crest zip through hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-zip-through-hoodie-pullovers-grey-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark sports bottle with straw bottles",
-          "url": "https://www.gymshark.com/products/gymshark-sports-bottle-with-straw-bottles-blue-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark quarter sock 6pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-quarter-sock-6pk-socks-white-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus crest cuffed pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-cuffed-pants-pants-blue-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest zip through hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-zip-through-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark gslc active backpack bags",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-active-backpack-bags-blue-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc active backpack bags",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-active-backpack-bags-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark essentials duffle bag bags",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-duffle-bag-bags-black-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus crest cuffed pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-cuffed-pants-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-sweatshirt-pullovers-black-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark essentials cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-cap-headwear-pink-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark tapered double prong lifting belt equipment aw26 i1b7o bd0d",
-          "url": "https://www.gymshark.com/products/gymshark-tapered-double-prong-lifting-belt-equipment-black-aw26-i1b7o-bd0d",
-          "category": "accessories",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark leather lifting straps equipment",
-          "url": "https://www.gymshark.com/products/gymshark-leather-lifting-straps-equipment-black-aw26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark super soft muscle tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-super-soft-muscle-tee-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark 500ml bottle bottles",
-          "url": "https://www.gymshark.com/products/gymshark-500ml-bottle-bottles-purple-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark metal insulated straw bottle 1l bottles",
-          "url": "https://www.gymshark.com/products/gymshark-metal-insulated-straw-bottle-1l-bottles-purple-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark onyx seamless knee sleeves equipment",
-          "url": "https://www.gymshark.com/products/gymshark-onyx-seamless-knee-sleeves-equipment-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark campus crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark super soft muscle tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-super-soft-muscle-tee-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crew socks 3pk socks",
-          "url": "https://www.gymshark.com/products/gymshark-crew-socks-3pk-socks-yellow-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus crest shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-shorts-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark super soft muscle tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-super-soft-muscle-tee-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark arrival long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-arrival-long-sleeve-t-shirt-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark essentials tote bags",
-          "url": "https://www.gymshark.com/products/gymshark-essentials-tote-bags-pink-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized boxy sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-boxy-sweatshirt-pullovers-pink-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-1-4-zip-pullovers-purple-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training oversized fleece sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-fleece-sweatshirt-pullovers-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training flare one piece one pieces",
-          "url": "https://www.gymshark.com/products/gymshark-training-flare-one-piece-one-pieces-blue-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training baby tee ss tops aw26 b3b9f kdnb",
-          "url": "https://www.gymshark.com/products/gymshark-training-baby-tee-ss-tops-pink-aw26-b3b9f-kdnb",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 21,
-      "products": [
-        {
-          "name": "zero 2 in 1 shorts m 1mg3060",
-          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-m-1mg3060/mens",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "zero t breathe m 1mg3061",
-          "url": "https://www.on.com/en-us/products/zero-t-breathe-m-1mg3061/mens",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "zero tank breathe m 1mg3142",
-          "url": "https://www.on.com/en-us/products/zero-tank-breathe-m-1mg3142/mens",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "zero tank breathe w 1wg3179",
-          "url": "https://www.on.com/en-us/products/zero-tank-breathe-w-1wg3179/womens",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "ultra jacket m",
-          "url": "https://www.on.com/en-us/products/ultra-jacket-m-1mf3006/mens/urchin-apparel-1MF30064968",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ultra pants m",
-          "url": "https://www.on.com/en-us/products/ultra-pants-m-1mf3005/mens/urchin-apparel-1MF30054968",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "zero 2 in 1 shorts m",
-          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-m-1mg3060/mens/urchin-black-apparel-1MG30605044",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "zero crop w",
-          "url": "https://www.on.com/en-us/products/zero-crop-w-1wg1096/womens/urchin-apparel-1WG10964968",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "zero half tights m",
-          "url": "https://www.on.com/en-us/products/zero-half-tights-m-1mg1003/mens/urchin-apparel-1MG10034968",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "zero jacket m",
-          "url": "https://www.on.com/en-us/products/zero-jacket-m-1me1016/mens/urchin-apparel-1ME10164968",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "zero jacket w",
-          "url": "https://www.on.com/en-us/products/zero-jacket-w-1we1020/womens/urchin-apparel-1WE10204968",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "zero short tights w",
-          "url": "https://www.on.com/en-us/products/zero-short-tights-w-1wg1003/womens/urchin-apparel-1WG10034968",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "zero shorts 1 m",
-          "url": "https://www.on.com/en-us/products/zero-shorts-1-m-1mg1002/mens/urchin-apparel-1MG10024968",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "zero shorts w",
-          "url": "https://www.on.com/en-us/products/zero-shorts-w-1wg1002/womens/urchin-apparel-1WG10024968",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "zero t breathe m",
-          "url": "https://www.on.com/en-us/products/zero-t-breathe-m-1mg3061/mens/black-apparel-1MG30610553",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "zero t breathe m",
-          "url": "https://www.on.com/en-us/products/zero-t-breathe-m-1mg3061/mens/verdite-apparel-1MG30615055",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "zero t breathe w",
-          "url": "https://www.on.com/en-us/products/zero-t-breathe-w-1wg3067/womens/foxglove-apparel-1WG30674944",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "zero tank breathe m",
-          "url": "https://www.on.com/en-us/products/zero-tank-breathe-m-1mg3142/mens/black-apparel-1MG31420553",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "zero tank breathe m",
-          "url": "https://www.on.com/en-us/products/zero-tank-breathe-m-1mg3142/mens/verdite-apparel-1MG31425055",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "zero tank breathe w",
-          "url": "https://www.on.com/en-us/products/zero-tank-breathe-w-1wg3179/womens/black-apparel-1WG31790553",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "zero tank breathe w",
-          "url": "https://www.on.com/en-us/products/zero-tank-breathe-w-1wg3179/womens/foxglove-white-apparel-1WG31795418",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 4,
-      "products": [
-        {
-          "name": "canyon insulated jacket",
-          "url": "https://vuoriclothing.com/products/womens-canyon-insulated-jacket-glacier",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "kore short 5 tonal",
-          "url": "https://vuoriclothing.com/products/kore-short-5-raisin-tonal",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "coastal travel kit 3 pc storm",
-          "url": "https://vuoriclothing.com/products/coastal-travel-kit-3-pc-storm-blue",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "halo essential scoop tank long",
-          "url": "https://vuoriclothing.com/products/womens-halo-essential-scoop-tank-long-pale-grey-heather",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5339,7 +5193,8 @@
       "2026-07-24": 1,
       "2026-07-27": 1,
       "2026-07-28": 2,
-      "2026-08-09": 1
+      "2026-08-09": 1,
+      "2026-08-13": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -5462,7 +5317,8 @@
       "2026-08-09": 2,
       "2026-08-10": 16,
       "2026-08-11": 6,
-      "2026-08-12": 2
+      "2026-08-12": 2,
+      "2026-08-13": 220
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5540,7 +5396,7 @@
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1805,
-      "gymshark": 3573,
+      "gymshark": 3671,
       "on_running": 1701,
       "gymreapers": 224,
       "sbd": 22,
@@ -5553,7 +5409,7 @@
       "tenthousand": 40,
       "lululemon": 835,
       "alo": 578,
-      "gymshark": 3250,
+      "gymshark": 3342,
       "on_running": 693,
       "gymreapers": 236,
       "sbd": 67,
@@ -5565,8 +5421,8 @@
       "outdoor_voices": 47,
       "tenthousand": 18,
       "lululemon": 680,
-      "alo": 687,
-      "gymshark": 996,
+      "alo": 688,
+      "gymshark": 1012,
       "on_running": 917,
       "gymreapers": 58,
       "sbd": 6,
@@ -5578,8 +5434,8 @@
       "outdoor_voices": 67,
       "tenthousand": 13,
       "lululemon": 917,
-      "alo": 839,
-      "gymshark": 737,
+      "alo": 840,
+      "gymshark": 743,
       "on_running": 3007,
       "gymreapers": 317,
       "sbd": 78,
@@ -5592,7 +5448,7 @@
       "outdoor_voices": 44,
       "lululemon": 186,
       "alo": 339,
-      "gymshark": 848,
+      "gymshark": 856,
       "on_running": 199,
       "gymreapers": 68,
       "bear_grips": 9
@@ -5634,7 +5490,7 @@
       "tenthousand": 7,
       "lululemon": 205,
       "alo": 42,
-      "gymshark": 583,
+      "gymshark": 599,
       "on_running": 27,
       "gymreapers": 24,
       "sbd": 4,
@@ -5646,7 +5502,7 @@
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 423,
-      "gymshark": 1444,
+      "gymshark": 1480,
       "on_running": 753,
       "gymreapers": 147,
       "sbd": 15,
@@ -5658,7 +5514,7 @@
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 269,
-      "gymshark": 892,
+      "gymshark": 906,
       "on_running": 325,
       "gymreapers": 36,
       "sbd": 8,
@@ -5680,7 +5536,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 369,
-      "gymshark": 844,
+      "gymshark": 862,
       "on_running": 430,
       "gymreapers": 46,
       "bear_grips": 32
@@ -5690,8 +5546,8 @@
       "outdoor_voices": 186,
       "tenthousand": 33,
       "lululemon": 1593,
-      "alo": 1692,
-      "gymshark": 3423,
+      "alo": 1693,
+      "gymshark": 3501,
       "on_running": 3400,
       "gymreapers": 538,
       "sbd": 137,
@@ -5705,7 +5561,7 @@
       "tenthousand": 16,
       "lululemon": 448,
       "alo": 251,
-      "gymshark": 358,
+      "gymshark": 376,
       "on_running": 404
     },
     "pullovers": {
@@ -5713,7 +5569,7 @@
       "outdoor_voices": 1,
       "lululemon": 36,
       "alo": 167,
-      "gymshark": 160,
+      "gymshark": 164,
       "on_running": 2
     },
     "polos": {
@@ -5748,7 +5604,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 546,
+      "gymshark": 570,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -5760,8 +5616,8 @@
       "outdoor_voices": 14,
       "tenthousand": 8,
       "lululemon": 139,
-      "alo": 226,
-      "gymshark": 578,
+      "alo": 227,
+      "gymshark": 590,
       "on_running": 338,
       "gymreapers": 26,
       "sbd": 6,
@@ -5916,8 +5772,8 @@
     "gray": {
       "vuori": 601,
       "outdoor_voices": 35,
-      "alo": 505,
-      "gymshark": 1219,
+      "alo": 506,
+      "gymshark": 1261,
       "on_running": 338,
       "gymreapers": 78,
       "sbd": 16,
@@ -5936,7 +5792,7 @@
       "vuori": 852,
       "outdoor_voices": 101,
       "alo": 1044,
-      "gymshark": 2341,
+      "gymshark": 2383,
       "on_running": 1600,
       "gymreapers": 131,
       "sbd": 2,
@@ -5968,7 +5824,7 @@
       "outdoor_voices": 31,
       "lululemon": 17,
       "alo": 933,
-      "gymshark": 757,
+      "gymshark": 779,
       "on_running": 1644,
       "gymreapers": 93,
       "sbd": 2,
@@ -5980,7 +5836,7 @@
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 251,
-      "gymshark": 1642,
+      "gymshark": 1678,
       "on_running": 834,
       "gymreapers": 34,
       "sbd": 6,
@@ -5991,7 +5847,7 @@
       "outdoor_voices": 52,
       "lululemon": 4,
       "alo": 315,
-      "gymshark": 522,
+      "gymshark": 526,
       "on_running": 288,
       "gymreapers": 104,
       "sbd": 4
@@ -6000,7 +5856,7 @@
       "vuori": 199,
       "outdoor_voices": 2,
       "alo": 297,
-      "gymshark": 774,
+      "gymshark": 808,
       "on_running": 84,
       "gymreapers": 17,
       "schiek": 2,
@@ -6023,7 +5879,7 @@
       "vuori": 104,
       "outdoor_voices": 10,
       "alo": 40,
-      "gymshark": 545,
+      "gymshark": 563,
       "on_running": 189,
       "gymreapers": 12,
       "sbd": 2
@@ -6042,7 +5898,7 @@
       "outdoor_voices": 7,
       "lululemon": 7,
       "alo": 61,
-      "gymshark": 88,
+      "gymshark": 90,
       "on_running": 84,
       "gymreapers": 5,
       "schiek": 4,
@@ -6052,7 +5908,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 242,
-      "gymshark": 775,
+      "gymshark": 795,
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
@@ -6093,13 +5949,13 @@
     },
     {
       "brand": "Gymshark",
-      "bottoms": 35.7,
-      "tops": 32.4,
+      "bottoms": 35.8,
+      "tops": 32.6,
       "outerwear": 9.9,
       "dresses": 0.1,
-      "sports_bras": 8.5,
-      "accessories": 6.1,
-      "other": 7.4
+      "sports_bras": 8.4,
+      "accessories": 5.9,
+      "other": 7.3
     },
     {
       "brand": "Lululemon",
@@ -6222,18 +6078,18 @@
     },
     {
       "brand": "Gymshark",
-      "black": 23.4,
+      "black": 23.3,
       "white": 7.6,
-      "gray": 12.2,
+      "gray": 12.3,
       "navy": 0.7,
       "blue": 16.4,
-      "green": 5.2,
+      "green": 5.1,
       "khaki": 0,
-      "brown": 7.7,
-      "purple": 5.4,
-      "pink": 7.7,
-      "orange": 0.6,
-      "red": 3.4,
+      "brown": 7.9,
+      "purple": 5.5,
+      "pink": 7.8,
+      "orange": 0.5,
+      "red": 3.3,
       "yellow": 0.9,
       "other": 0.2
     },
@@ -6453,7 +6309,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 812,
-      "text": "Vuori ranks #2 in shorts with 812 products. Behind Gymshark (1444)."
+      "text": "Vuori ranks #2 in shorts with 812 products. Behind Gymshark (1480)."
     },
     {
       "type": "comparison",
@@ -6583,7 +6439,7 @@
       {
         "category": "Hoodies",
         "vuori": 238,
-        "competitor": 226,
+        "competitor": 227,
         "winner": "vuori"
       },
       {
@@ -6612,5 +6468,5 @@
       }
     ]
   },
-  "generated_at": "2026-08-13T13:15:11.558Z"
+  "generated_at": "2026-08-14T13:15:10.280Z"
 }
