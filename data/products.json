@@ -441,9 +441,9 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1095,
+      "total": 1101,
       "categories": {
-        "other": 317,
+        "other": 323,
         "accessories": 192,
         "tops": 236,
         "bottoms": 224,
@@ -451,7 +451,7 @@
         "outerwear": 58
       },
       "subcategories": {
-        "other": 538,
+        "other": 544,
         "tees": 119,
         "shorts": 147,
         "hats": 77,
@@ -472,8 +472,8 @@
       },
       "genders": {
         "unisex": 924,
-        "womens": 150,
-        "mens": 21
+        "womens": 153,
+        "mens": 24
       },
       "colors": {
         "green": 104,
@@ -492,7 +492,7 @@
         "yellow": 5,
         "orange": 1
       },
-      "colorCoverage": 62.7,
+      "colorCoverage": 62.4,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 422
     },
@@ -651,12 +651,56 @@
     }
   },
   "totals": {
-    "products": 39779,
+    "products": 39785,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-08-14",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 6,
+      "products": [
+        {
+          "name": "s classic freedom leather",
+          "url": "https://www.gymreapers.com/products/women-s-classic-freedom-leather",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "s classic freedom leather",
+          "url": "https://www.gymreapers.com/products/men-s-classic-freedom-leather",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "s v series freedom leather",
+          "url": "https://www.gymreapers.com/products/women-s-v-series-freedom-leather",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "s v series freedom leather",
+          "url": "https://www.gymreapers.com/products/men-s-v-series-freedom-leather",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "s v series 3 fc leather",
+          "url": "https://www.gymreapers.com/products/women-s-v-series-3-fc-leather",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "s v series 3 fc leather",
+          "url": "https://www.gymreapers.com/products/men-s-v-series-3-fc-leather",
+          "category": "other",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-08-13",
       "brand": "Gymshark",
@@ -4844,44 +4888,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-07-30",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 5,
-      "products": [
-        {
-          "name": "cloudboom strike 2 u",
-          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-u-3ug3005/unisex/verdite-aconite-shoes-3UG30056137",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudboom strike 2 ls u",
-          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-ls-u-3ug3002/unisex/white-lime-shoes-3UG30022929",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudboom strike 2 u",
-          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-u-3ug3005/unisex/aconite-verdite-shoes-3UG30056138",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudboom strike 2 u",
-          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-u-3ug3005/unisex/white-lime-shoes-3UG30052929",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloudboom strike 2 ls u 3ug3002",
-          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-ls-u-3ug3002/unisex",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5365,7 +5371,8 @@
       "2026-06-25": 8,
       "2026-07-17": 14,
       "2026-07-20": 3,
-      "2026-07-28": 20
+      "2026-07-28": 20,
+      "2026-08-14": 6
     },
     "sbd": {
       "2026-04-07": 206,
@@ -5437,7 +5444,7 @@
       "alo": 840,
       "gymshark": 743,
       "on_running": 3007,
-      "gymreapers": 317,
+      "gymreapers": 323,
       "sbd": 78,
       "harbinger": 26,
       "schiek": 57,
@@ -5549,7 +5556,7 @@
       "alo": 1693,
       "gymshark": 3501,
       "on_running": 3400,
-      "gymreapers": 538,
+      "gymreapers": 544,
       "sbd": 137,
       "harbinger": 55,
       "schiek": 106,
@@ -5999,13 +6006,13 @@
     },
     {
       "brand": "gymreapers",
-      "bottoms": 20.5,
-      "tops": 21.6,
+      "bottoms": 20.3,
+      "tops": 21.4,
       "outerwear": 5.3,
       "dresses": 0,
       "sports_bras": 6.2,
-      "accessories": 17.5,
-      "other": 28.9
+      "accessories": 17.4,
+      "other": 29.3
     },
     {
       "brand": "Outdoor Voices",
@@ -6163,18 +6170,18 @@
     },
     {
       "brand": "gymreapers",
-      "black": 12,
-      "white": 8.5,
+      "black": 11.9,
+      "white": 8.4,
       "gray": 7.1,
-      "navy": 3.7,
+      "navy": 3.6,
       "blue": 3.1,
-      "green": 9.5,
+      "green": 9.4,
       "khaki": 5.4,
-      "brown": 1.6,
+      "brown": 1.5,
       "purple": 1.1,
       "pink": 1.5,
       "orange": 0.1,
-      "red": 5.5,
+      "red": 5.4,
       "yellow": 0.5,
       "other": 3.4
     },
@@ -6468,5 +6475,5 @@
       }
     ]
   },
-  "generated_at": "2026-08-14T13:15:10.280Z"
+  "generated_at": "2026-08-15T13:15:11.799Z"
 }
