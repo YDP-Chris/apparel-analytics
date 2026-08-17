@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4545,
+      "total": 4553,
       "categories": {
-        "bottoms": 2142,
-        "tops": 707,
+        "bottoms": 2143,
+        "tops": 714,
         "outerwear": 600,
         "other": 658,
         "sports_bras": 147,
@@ -16,9 +16,9 @@
       },
       "subcategories": {
         "joggers": 170,
-        "shorts": 812,
-        "tanks": 233,
-        "tees": 244,
+        "shorts": 813,
+        "tanks": 236,
+        "tees": 248,
         "leggings": 190,
         "other": 1361,
         "pants": 427,
@@ -44,21 +44,21 @@
       },
       "genders": {
         "mens": 1672,
-        "womens": 2089,
+        "womens": 2097,
         "unisex": 784
       },
       "colors": {
         "gray": 601,
         "navy": 109,
-        "black": 852,
+        "black": 853,
         "khaki": 218,
         "red": 51,
-        "white": 426,
-        "blue": 626,
+        "white": 427,
+        "blue": 628,
         "green": 216,
         "brown": 199,
         "print": 38,
-        "heather": 276,
+        "heather": 278,
         "purple": 104,
         "orange": 23,
         "yellow": 16,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 84.6,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2595
+      "uniqueStyles": 2600
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -309,27 +309,27 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 10242,
+      "total": 10296,
       "categories": {
-        "bottoms": 3671,
-        "tops": 3342,
+        "bottoms": 3699,
+        "tops": 3358,
         "other": 743,
         "accessories": 608,
-        "outerwear": 1012,
-        "sports_bras": 856,
+        "outerwear": 1016,
+        "sports_bras": 862,
         "dresses": 10
       },
       "subcategories": {
-        "shorts": 1480,
-        "leggings": 862,
+        "shorts": 1492,
+        "leggings": 874,
         "crop_tops": 180,
-        "other": 3501,
-        "long_sleeve": 570,
+        "other": 3511,
+        "long_sleeve": 580,
         "socks": 246,
-        "tanks": 906,
+        "tanks": 912,
         "joggers": 599,
         "hoodies": 590,
-        "jackets": 212,
+        "jackets": 216,
         "pants": 376,
         "pullovers": 164,
         "high_support": 36,
@@ -347,29 +347,29 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 4621,
-        "womens": 3484,
+        "unisex": 4627,
+        "womens": 3532,
         "mens": 2137
       },
       "colors": {
         "green": 526,
-        "pink": 795,
+        "pink": 829,
         "black": 2383,
         "white": 779,
         "navy": 74,
-        "gray": 1261,
-        "brown": 808,
-        "blue": 1678,
+        "gray": 1263,
+        "brown": 816,
+        "blue": 1680,
         "red": 341,
         "purple": 563,
-        "yellow": 90,
+        "yellow": 98,
         "orange": 56,
         "khaki": 2,
         "print": 22
       },
       "colorCoverage": 91.6,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2678
+      "uniqueStyles": 2689
     },
     "on_running": {
       "name": "On Running",
@@ -651,12 +651,400 @@
     }
   },
   "totals": {
-    "products": 39785,
+    "products": 39847,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-08-16",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 54,
+      "products": [
+        {
+          "name": "gymshark everyday seamless shelf tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shelf tank sleeveless tops aw26 b6c4k kdm6",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-pink-aw26-b6c4k-kdm6",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shelf tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-yellow-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cosy campus pants short pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-short-pants-brown-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus pants short pants aw26 b7b2s ndj1",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-short-pants-brown-aw26-b7b2s-ndj1",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus pants short pants",
+          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-short-pants-pink-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-leggings-leggings-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-leggings-leggings-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shorts-shorts-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shorts-shorts-yellow-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shorts shorts aw26 b6a8m kdm9",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shorts-shorts-pink-aw26-b6a8m-kdm9",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-flared-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings aw26 b7a3l uctn",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-leggings-leggings-blue-aw26-b7a3l-uctn",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless tight fit crew neck tee ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-tight-fit-crew-neck-tee-ss-tops-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless short sleeve top ss tops aw26 b6b4e kdm9",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-pink-aw26-b6b4e-kdm9",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless long sleeve crop top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless wide neck long sleeve top ls tops aw26 b5b5f kdm9",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-pink-aw26-b5b5f-kdm9",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless long sleeve crop top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-yellow-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless long sleeve crop top ls tops aw26 b7a2s kdm9",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-pink-aw26-b7a2s-kdm9",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-pink-aw26",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless racerback sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-pink-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless zip tracktop jackets outerwear aw26 b1b7p kdm9",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-pink-aw26-b1b7p-kdm9",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless racerback sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-yellow-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless racerback sports bra sports bras aw26 b4c1v kdm6",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-pink-aw26-b4c1v-kdm6",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shelf tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shelf tank sleeveless tops aw26 b6c4k kdm6",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-pink-aw26-b6c4k-kdm6",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shelf tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-yellow-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark cosy campus pants short pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-campus-pants-short-pants-brown-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus pants short pants aw26 b7b2s ndj1",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-campus-pants-short-pants-brown-aw26-b7b2s-ndj1",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark cosy campus pants short pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-campus-pants-short-pants-pink-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-leggings-leggings-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-leggings-leggings-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shorts-shorts-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shorts-shorts-yellow-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless shorts shorts aw26 b6a8m kdm9",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shorts-shorts-pink-aw26-b6a8m-kdm9",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless flared leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-flared-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless leggings leggings aw26 b7a3l uctn",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-leggings-leggings-blue-aw26-b7a3l-uctn",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless tight fit crew neck tee ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-tight-fit-crew-neck-tee-ss-tops-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless short sleeve top ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-pink-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless short sleeve top ss tops aw26 b6b4e kdm9",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-pink-aw26-b6b4e-kdm9",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless long sleeve crop top ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-pink-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless wide neck long sleeve top ls tops aw26 b5b5f kdm9",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-pink-aw26-b5b5f-kdm9",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless long sleeve crop top ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-yellow-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless long sleeve crop top ls tops aw26 b7a2s kdm9",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-pink-aw26-b7a2s-kdm9",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-pink-aw26",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless racerback sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-pink-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless zip tracktop jackets outerwear aw26 b1b7p kdm9",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-pink-aw26-b1b7p-kdm9",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless racerback sports bra sports bras",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-yellow-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark everyday seamless racerback sports bra sports bras aw26 b4c1v kdm6",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-pink-aw26-b4c1v-kdm6",
+          "category": "sports_bras",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 8,
+      "products": [
+        {
+          "name": "pose plyo tank dragonfruit",
+          "url": "https://vuoriclothing.com/products/womens-pose-plyo-tank-dragonfruit",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo cross back tank dragonfruit",
+          "url": "https://vuoriclothing.com/products/womens-halo-cross-back-tank-dragonfruit-heather",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo cross back tank electric",
+          "url": "https://vuoriclothing.com/products/womens-halo-cross-back-tank-electric-blue",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "pose fitted tee long",
+          "url": "https://vuoriclothing.com/products/womens-pose-fitted-tee-long-black",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "pose fitted tee long electric",
+          "url": "https://vuoriclothing.com/products/womens-pose-fitted-tee-long-electric-blue",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "pose fitted tee long french roast",
+          "url": "https://vuoriclothing.com/products/womens-pose-fitted-tee-long-french-roast",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "pose fitted tee long",
+          "url": "https://vuoriclothing.com/products/womens-pose-fitted-tee-long-white",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "halo short dragonfruit",
+          "url": "https://vuoriclothing.com/products/womens-halo-short-dragonfruit-heather",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "brand": "gymreapers",
@@ -4414,480 +4802,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-07-31",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 69,
-      "products": [
-        {
-          "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-white-aw25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-bra-sports-bras-blue-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-bra-sports-bras-purple-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-white-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-bra-sports-bras-green-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark campus crest sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-sweatshirt-pullovers-blue-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest wide leg joggers pants",
-          "url": "https://www.gymshark.com/products/gymshark-campus-crest-wide-leg-joggers-pants-black-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark everyday seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-shorts-shorts-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-blue-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-green-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-brown-aw26",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-grey-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless short sleeve top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-white-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless tight fit crew neck tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-tight-fit-crew-neck-tee-ss-tops-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-purple-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-white-aw26",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless tight fit crew neck tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-tight-fit-crew-neck-tee-ss-tops-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-brown-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-grey-aw26",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-white-aw25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-bra-sports-bras-blue-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-bra-sports-bras-purple-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-white-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-bra-sports-bras-green-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless shelf tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shelf-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark campus crest sweatshirt pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-campus-crest-sweatshirt-pullovers-blue-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark campus crest wide leg joggers pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-campus-crest-wide-leg-joggers-pants-black-ss27",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark everyday seamless shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-shorts-shorts-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless wide neck long sleeve top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-wide-neck-long-sleeve-top-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-blue-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-long-sleeve-crop-top-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-green-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-brown-aw26",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-grey-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless short sleeve top ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-short-sleeve-top-ss-tops-white-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless tight fit crew neck tee ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-tight-fit-crew-neck-tee-ss-tops-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless contrast short sleeve t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-contrast-short-sleeve-t-shirt-ss-tops-purple-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-white-aw26",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless tight fit crew neck tee ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-tight-fit-crew-neck-tee-ss-tops-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless racerback sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-racerback-sports-bra-sports-bras-brown-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark everyday seamless zip tracktop jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-zip-tracktop-jackets-outerwear-grey-aw26",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark apex long sleeve t shirt black silhouette",
-          "url": "https://www.gymshark.com/products/gymshark-apex-long-sleeve-t-shirt-black-silhouette-grey-aw22",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark essential oversized t shirt titanium",
-          "url": "https://www.gymshark.com/products/gymshark-essential-oversized-t-shirt-titanium-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark supersoft tank success",
-          "url": "https://www.gymshark.com/products/gymshark-supersoft-tank-success-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting club t shirt oat white conditioning",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-club-t-shirt-oat-white-conditioning-red-ss25",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark apex long sleeve t shirt black silhouette",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-apex-long-sleeve-t-shirt-black-silhouette-grey-aw22",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark essential oversized t shirt titanium",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-essential-oversized-t-shirt-titanium-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark supersoft tank success",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-supersoft-tank-success-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting club t shirt oat white conditioning",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-club-t-shirt-oat-white-conditioning-red-ss25",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vital seamless 2 0 shorts evening",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-2-0-shorts-evening-blue-marl-ss23",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark crest oversized hoodie lifestyle",
-          "url": "https://www.gymshark.com/products/gymshark-crest-oversized-hoodie-lifestyle-brown-ss25",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vital seamless leggings espresso marlgymshark vital seamless tall leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-leggings-espresso-marlgymshark-vital-seamless-tall-leggings-leggings-brown-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark vital seamless 2 0 shorts evening",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-2-0-shorts-evening-blue-marl-ss23",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark collegiate hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collegiate-hoodie-pullovers-white-ss25",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crest oversized hoodie lifestyle",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-oversized-hoodie-lifestyle-brown-ss25",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vital seamless leggings espresso marlgymshark vital seamless tall leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-leggings-espresso-marlgymshark-vital-seamless-tall-leggings-leggings-brown-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 4,
-      "products": [
-        {
-          "name": "zero 2 in 1 shorts w 1wg3066",
-          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-w-1wg3066/womens",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "performance volt t w",
-          "url": "https://www.on.com/en-us/products/performance-volt-t-w-1wg3133/womens/verbana-apparel-1WG31335039",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "zero 2 in 1 shorts w",
-          "url": "https://www.on.com/en-us/products/zero-2-in-1-shorts-w-1wg3066/womens/urchin-black-apparel-1WG30665044",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "performance volt t w 1wg3133",
-          "url": "https://www.on.com/en-us/products/performance-volt-t-w-1wg3133/womens",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "tech waffle crew",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-white",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "tech waffle crew frost",
-          "url": "https://vuoriclothing.com/products/tech-waffle-crew-frost-grey",
-          "category": "other",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4987,7 +4901,8 @@
       "2026-08-06": 5,
       "2026-08-07": 6,
       "2026-08-09": 4,
-      "2026-08-12": 1
+      "2026-08-12": 1,
+      "2026-08-16": 8
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -5324,7 +5239,8 @@
       "2026-08-10": 16,
       "2026-08-11": 6,
       "2026-08-12": 2,
-      "2026-08-13": 220
+      "2026-08-13": 220,
+      "2026-08-16": 54
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -5398,12 +5314,12 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 2142,
+      "vuori": 2143,
       "outdoor_voices": 304,
       "tenthousand": 69,
       "lululemon": 1732,
       "alo": 1805,
-      "gymshark": 3671,
+      "gymshark": 3699,
       "on_running": 1701,
       "gymreapers": 224,
       "sbd": 22,
@@ -5411,12 +5327,12 @@
       "bear_grips": 330
     },
     "tops": {
-      "vuori": 707,
+      "vuori": 714,
       "outdoor_voices": 85,
       "tenthousand": 40,
       "lululemon": 835,
       "alo": 578,
-      "gymshark": 3342,
+      "gymshark": 3358,
       "on_running": 693,
       "gymreapers": 236,
       "sbd": 67,
@@ -5429,7 +5345,7 @@
       "tenthousand": 18,
       "lululemon": 680,
       "alo": 688,
-      "gymshark": 1012,
+      "gymshark": 1016,
       "on_running": 917,
       "gymreapers": 58,
       "sbd": 6,
@@ -5455,7 +5371,7 @@
       "outdoor_voices": 44,
       "lululemon": 186,
       "alo": 339,
-      "gymshark": 856,
+      "gymshark": 862,
       "on_running": 199,
       "gymreapers": 68,
       "bear_grips": 9
@@ -5504,31 +5420,31 @@
       "bear_grips": 30
     },
     "shorts": {
-      "vuori": 812,
+      "vuori": 813,
       "outdoor_voices": 103,
       "tenthousand": 41,
       "lululemon": 528,
       "alo": 423,
-      "gymshark": 1480,
+      "gymshark": 1492,
       "on_running": 753,
       "gymreapers": 147,
       "sbd": 15,
       "bear_grips": 40
     },
     "tanks": {
-      "vuori": 233,
+      "vuori": 236,
       "outdoor_voices": 41,
       "tenthousand": 5,
       "lululemon": 290,
       "alo": 269,
-      "gymshark": 906,
+      "gymshark": 912,
       "on_running": 325,
       "gymreapers": 36,
       "sbd": 8,
       "bear_grips": 472
     },
     "tees": {
-      "vuori": 244,
+      "vuori": 248,
       "outdoor_voices": 16,
       "tenthousand": 11,
       "lululemon": 22,
@@ -5543,7 +5459,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 369,
-      "gymshark": 862,
+      "gymshark": 874,
       "on_running": 430,
       "gymreapers": 46,
       "bear_grips": 32
@@ -5554,7 +5470,7 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1693,
-      "gymshark": 3501,
+      "gymshark": 3511,
       "on_running": 3400,
       "gymreapers": 544,
       "sbd": 137,
@@ -5600,7 +5516,7 @@
       "tenthousand": 6,
       "lululemon": 300,
       "alo": 188,
-      "gymshark": 212,
+      "gymshark": 216,
       "on_running": 440,
       "gymreapers": 17,
       "bear_grips": 14
@@ -5611,7 +5527,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 40,
-      "gymshark": 570,
+      "gymshark": 580,
       "on_running": 18,
       "gymreapers": 14,
       "sbd": 1,
@@ -5780,7 +5696,7 @@
       "vuori": 601,
       "outdoor_voices": 35,
       "alo": 506,
-      "gymshark": 1261,
+      "gymshark": 1263,
       "on_running": 338,
       "gymreapers": 78,
       "sbd": 16,
@@ -5796,7 +5712,7 @@
       "sbd": 5
     },
     "black": {
-      "vuori": 852,
+      "vuori": 853,
       "outdoor_voices": 101,
       "alo": 1044,
       "gymshark": 2383,
@@ -5827,7 +5743,7 @@
       "harbinger": 2
     },
     "white": {
-      "vuori": 426,
+      "vuori": 427,
       "outdoor_voices": 31,
       "lululemon": 17,
       "alo": 933,
@@ -5839,11 +5755,11 @@
       "bear_grips": 2
     },
     "blue": {
-      "vuori": 626,
+      "vuori": 628,
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 251,
-      "gymshark": 1678,
+      "gymshark": 1680,
       "on_running": 834,
       "gymreapers": 34,
       "sbd": 6,
@@ -5863,7 +5779,7 @@
       "vuori": 199,
       "outdoor_voices": 2,
       "alo": 297,
-      "gymshark": 808,
+      "gymshark": 816,
       "on_running": 84,
       "gymreapers": 17,
       "schiek": 2,
@@ -5878,7 +5794,7 @@
       "bear_grips": 6
     },
     "heather": {
-      "vuori": 276,
+      "vuori": 278,
       "alo": 24,
       "on_running": 34
     },
@@ -5905,7 +5821,7 @@
       "outdoor_voices": 7,
       "lululemon": 7,
       "alo": 61,
-      "gymshark": 90,
+      "gymshark": 98,
       "on_running": 84,
       "gymreapers": 5,
       "schiek": 4,
@@ -5915,7 +5831,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 242,
-      "gymshark": 795,
+      "gymshark": 829,
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
@@ -5956,13 +5872,13 @@
     },
     {
       "brand": "Gymshark",
-      "bottoms": 35.8,
+      "bottoms": 35.9,
       "tops": 32.6,
       "outerwear": 9.9,
       "dresses": 0.1,
       "sports_bras": 8.4,
       "accessories": 5.9,
-      "other": 7.3
+      "other": 7.2
     },
     {
       "brand": "Lululemon",
@@ -5987,7 +5903,7 @@
     {
       "brand": "Vuori",
       "bottoms": 47.1,
-      "tops": 15.6,
+      "tops": 15.7,
       "outerwear": 13.2,
       "dresses": 1,
       "sports_bras": 3.2,
@@ -6085,19 +6001,19 @@
     },
     {
       "brand": "Gymshark",
-      "black": 23.3,
+      "black": 23.1,
       "white": 7.6,
       "gray": 12.3,
       "navy": 0.7,
-      "blue": 16.4,
+      "blue": 16.3,
       "green": 5.1,
       "khaki": 0,
       "brown": 7.9,
       "purple": 5.5,
-      "pink": 7.8,
+      "pink": 8.1,
       "orange": 0.5,
       "red": 3.3,
-      "yellow": 0.9,
+      "yellow": 1,
       "other": 0.2
     },
     {
@@ -6141,11 +6057,11 @@
       "gray": 13.2,
       "navy": 2.4,
       "blue": 13.8,
-      "green": 4.8,
+      "green": 4.7,
       "khaki": 4.8,
       "brown": 4.4,
       "purple": 2.3,
-      "pink": 1.7,
+      "pink": 1.6,
       "orange": 0.5,
       "red": 1.1,
       "yellow": 0.4,
@@ -6315,8 +6231,8 @@
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
-      "value": 812,
-      "text": "Vuori ranks #2 in shorts with 812 products. Behind Gymshark (1480)."
+      "value": 813,
+      "text": "Vuori ranks #2 in shorts with 813 products. Behind Gymshark (1492)."
     },
     {
       "type": "comparison",
@@ -6389,7 +6305,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 812,
+        "vuori": 813,
         "competitor": 528,
         "winner": "vuori"
       },
@@ -6401,13 +6317,13 @@
       },
       {
         "category": "Tanks",
-        "vuori": 233,
+        "vuori": 236,
         "competitor": 290,
         "winner": "competitor"
       },
       {
         "category": "Tees",
-        "vuori": 244,
+        "vuori": 248,
         "competitor": 22,
         "winner": "vuori"
       },
@@ -6419,7 +6335,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 2089,
+        "vuori": 2097,
         "competitor": 1597,
         "winner": "vuori"
       }
@@ -6439,7 +6355,7 @@
       },
       {
         "category": "Shorts",
-        "vuori": 812,
+        "vuori": 813,
         "competitor": 423,
         "winner": "vuori"
       },
@@ -6451,13 +6367,13 @@
       },
       {
         "category": "Tanks",
-        "vuori": 233,
+        "vuori": 236,
         "competitor": 269,
         "winner": "competitor"
       },
       {
         "category": "Tees",
-        "vuori": 244,
+        "vuori": 248,
         "competitor": 55,
         "winner": "vuori"
       },
@@ -6469,11 +6385,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 2089,
+        "vuori": 2097,
         "competitor": 1510,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-08-16T13:15:13.001Z"
+  "generated_at": "2026-08-17T13:15:08.902Z"
 }
