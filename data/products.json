@@ -309,10 +309,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 10382,
+      "total": 10384,
       "categories": {
         "bottoms": 3739,
-        "tops": 3392,
+        "tops": 3394,
         "other": 747,
         "accessories": 608,
         "outerwear": 1024,
@@ -323,7 +323,7 @@
         "shorts": 1500,
         "leggings": 880,
         "crop_tops": 180,
-        "other": 3539,
+        "other": 3541,
         "long_sleeve": 588,
         "socks": 246,
         "tanks": 918,
@@ -349,12 +349,12 @@
       "genders": {
         "unisex": 4673,
         "womens": 3542,
-        "mens": 2167
+        "mens": 2169
       },
       "colors": {
         "green": 530,
         "pink": 839,
-        "black": 2405,
+        "black": 2407,
         "white": 789,
         "navy": 74,
         "gray": 1275,
@@ -369,7 +369,7 @@
       },
       "colorCoverage": 91.7,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2702
+      "uniqueStyles": 2703
     },
     "on_running": {
       "name": "On Running",
@@ -651,7 +651,7 @@
     }
   },
   "totals": {
-    "products": 39950,
+    "products": 39952,
     "brands": 12,
     "categories": 8,
     "subcategories": 33
@@ -686,6 +686,26 @@
           "url": "https://www.on.com/en-us/products/cloud-x-tempo-pro-w-3wh1002/womens",
           "category": "footwear",
           "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark power t shirt",
+          "url": "https://www.gymshark.com/products/gymshark-power-t-shirt-black-ss25",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark power t shirt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-t-shirt-black-ss25",
+          "category": "tops",
+          "gender": "mens"
         }
       ]
     },
@@ -4836,7 +4856,8 @@
       "2026-08-13": 220,
       "2026-08-16": 54,
       "2026-08-17": 32,
-      "2026-08-19": 54
+      "2026-08-19": 54,
+      "2026-08-20": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -4931,7 +4952,7 @@
       "tenthousand": 40,
       "lululemon": 835,
       "alo": 578,
-      "gymshark": 3392,
+      "gymshark": 3394,
       "on_running": 693,
       "gymreapers": 236,
       "sbd": 67,
@@ -5069,7 +5090,7 @@
       "tenthousand": 33,
       "lululemon": 1593,
       "alo": 1693,
-      "gymshark": 3539,
+      "gymshark": 3541,
       "on_running": 3400,
       "gymreapers": 550,
       "sbd": 137,
@@ -5314,7 +5335,7 @@
       "vuori": 854,
       "outdoor_voices": 101,
       "alo": 1044,
-      "gymshark": 2405,
+      "gymshark": 2407,
       "on_running": 1600,
       "gymreapers": 132,
       "sbd": 2,
@@ -5990,5 +6011,5 @@
       }
     ]
   },
-  "generated_at": "2026-08-20T13:15:08.892Z"
+  "generated_at": "2026-08-21T13:15:13.034Z"
 }
