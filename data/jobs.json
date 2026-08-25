@@ -3,14 +3,14 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 767,
-      "change_from_last": 0,
+      "total_jobs": 760,
+      "change_from_last": -7,
       "departments": {
         "design": 87,
         "finance": 5,
-        "other": 146,
+        "other": 143,
         "product": 4,
-        "retail": 264,
+        "retail": 260,
         "engineering": 17,
         "marketing": 6,
         "executive": 4,
@@ -18,35 +18,35 @@
         "operations": 231
       },
       "seniority": {
-        "junior": 402,
+        "junior": 398,
         "manager": 149,
         "mid": 22,
-        "c-suite": 18,
+        "c-suite": 17,
         "intern": 2,
-        "lead": 155,
+        "lead": 153,
         "senior": 19
       },
       "locations": [
-        "Beverly Hills, California, United States; San Ramon, California, United States",
-        "Southpark Mall, Charlotte, NC (10032)",
-        "UTC Sarasota, Sarasota, FL (10091)",
-        "Oakbrook Center, Oak Brook, IL (10015)",
-        "Edina, Minnesota, United States",
-        "Chicago, Illinois, United States",
-        "Greenwich, Connecticut, United States",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Leeds, England, United Kingdom",
-        "Etobicoke, Ontario, Canada",
-        "Huntington Station, New York, United States",
-        "Manchester, England, United Kingdom",
-        "Bellevue, Washington, United States",
-        "Naperville, Illinois, United States",
-        "Upper East Side, New York, NY (10009)",
-        "Yorkdale Shopping Centre, Toronto, ON (10027)",
-        "Los Angeles, California, United States",
-        "Cherry Hill, New Jersey, United States",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "Madison Ave, New York, NY (10198)"
+        "Beverly Hills, California, United States",
+        "Aventura, Florida, United States",
+        "Park Meadows Mall, Lone Tree, CO (10031)",
+        "Mississauga, Ontario, Canada",
+        "Flatiron, New York, NY (10007)",
+        "Ponce City Market, Atlanta, GA (10186)",
+        "Alpharetta, Georgia, United States",
+        "Prudential Center, Boston, MA (10053)",
+        "Fashion Place, Murray, UT (10061)",
+        "Aspen, Aspen, CO (10020)",
+        "Carlsbad, California, United States",
+        "Plaza at Frotenac, St. Louis, MO (10051)",
+        "Palo Alto, California, United States",
+        "Georgetown, Washington, DC (10029)",
+        "Orlando, Florida, United States",
+        "Dumbo, Brooklyn, NY (10139)",
+        "Shops at La Cantera, San Antonio, TX (10054)",
+        "Pinecrest, Orange Village, OH (10103)",
+        "Country Club Plaza, Kansas City, MO (10174)",
+        "Berlin, Berlin, Germany"
       ],
       "jobs": [
         {
@@ -80,12 +80,22 @@
           "seniority": "mid"
         },
         {
+          "id": "6160672004",
+          "title": "AMER - Sales & Service Manager Template",
+          "location": "Bloomington, Minnesota, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6160672004?gh_jid=6160672004",
+          "posted_at": "2026-08-24T19:31:43-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
           "id": "6149278004",
           "title": "AP Manager",
           "location": "Commerce, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6149278004?gh_jid=6149278004",
-          "posted_at": "2026-08-20T19:25:12-04:00",
+          "posted_at": "2026-08-24T13:34:55-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -355,7 +365,7 @@
           "location": "Warehouse 2, Commerce, CA (WH2)",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6149288004?gh_jid=6149288004",
-          "posted_at": "2026-08-21T14:00:09-04:00",
+          "posted_at": "2026-08-24T17:37:28-04:00",
           "category": "engineering",
           "seniority": "junior"
         },
@@ -520,16 +530,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "6101730004",
-          "title": "District Manager, France ",
-          "location": "Paris, Paris, France",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6101730004?gh_jid=6101730004",
-          "posted_at": "2026-08-20T18:16:29-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "5818926004",
           "title": "District Manager, France ",
           "location": "Paris, Paris, France",
@@ -540,42 +540,43 @@
           "seniority": "manager"
         },
         {
-          "id": "5812620004",
-          "title": "District Manager, Italy & Southern Europe",
-          "location": "Milano, Milan, Italy",
+          "id": "6101730004",
+          "title": "District Manager, France ",
+          "location": "Paris, Paris, France",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5812620004?gh_jid=5812620004",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6101730004?gh_jid=6101730004",
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "other",
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-08-24T05:30:07.086525"
+      "checked_at": "2026-08-25T05:30:07.576742"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 15,
-      "change_from_last": -2,
+      "total_jobs": 18,
+      "change_from_last": 3,
       "departments": {
-        "other": 5,
+        "other": 7,
         "engineering": 6,
+        "finance": 2,
         "operations": 1,
-        "retail": 2,
-        "finance": 1
+        "retail": 2
       },
       "seniority": {
-        "manager": 3,
-        "mid": 5,
+        "manager": 4,
+        "mid": 7,
         "lead": 4,
         "junior": 2,
         "senior": 1
       },
       "locations": [
-        "New York; New York, New York, United States; New York, New York, United States",
+        "London",
+        "New York, New York, United States",
         "Solihull, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
-        "London",
+        "New York; New York, New York, United States; New York, New York, United States",
         "Roosevelt, New York, United States"
       ],
       "jobs": [
@@ -597,6 +598,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4927186101",
           "posted_at": "2026-08-07T08:16:12-04:00",
           "category": "engineering",
+          "seniority": "mid"
+        },
+        {
+          "id": "4959247101",
+          "title": "Finance Business Partner ",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4959247101",
+          "posted_at": "2026-08-25T04:19:26-04:00",
+          "category": "finance",
           "seniority": "mid"
         },
         {
@@ -640,6 +651,16 @@
           "seniority": "lead"
         },
         {
+          "id": "4958803101",
+          "title": "Merchandise Planning Manager - 12m FTC",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4958803101",
+          "posted_at": "2026-08-25T04:36:50-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
           "id": "4903493101",
           "title": "Operations Floor Lead - Bond Street, Flagship ",
           "location": "New York; New York, New York, United States; New York, New York, United States",
@@ -657,6 +678,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4927258101",
           "posted_at": "2026-07-16T04:20:22-04:00",
           "category": "engineering",
+          "seniority": "mid"
+        },
+        {
+          "id": "4959277101",
+          "title": "Production Merchandiser - 12 month FTC",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4959277101",
+          "posted_at": "2026-08-24T11:52:38-04:00",
+          "category": "other",
           "seniority": "mid"
         },
         {
@@ -730,7 +761,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-24T05:30:09.261590"
+      "checked_at": "2026-08-25T05:30:09.740413"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -789,13 +820,13 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 323,
-      "change_from_last": -4,
+      "change_from_last": 0,
       "departments": {
-        "engineering": 47,
-        "other": 48,
-        "retail": 156,
-        "marketing": 22,
-        "product": 4,
+        "engineering": 49,
+        "other": 47,
+        "retail": 155,
+        "marketing": 21,
+        "product": 5,
         "operations": 9,
         "executive": 10,
         "design": 20,
@@ -803,34 +834,34 @@
         "hr": 2
       },
       "seniority": {
-        "mid": 90,
-        "lead": 189,
+        "mid": 91,
+        "lead": 188,
         "c-suite": 10,
         "vp": 1,
         "manager": 2,
         "senior": 31
       },
       "locations": [
-        "Palo Alto",
-        "Rio de Janeiro",
-        "Newport Beach",
-        "Brooklyn",
-        "Wuhan",
-        "Vancouver",
+        "Cirebon",
         "Nanjing",
-        "Fort Lauderdale; Miami; Tampa",
-        "Dallas",
-        "Central Valley",
-        "Seoul",
-        "Corte Madera",
-        "Berlin",
+        "Ho Chi Minh City",
+        "Guangzhou",
+        "Portland",
         "Boston",
-        "Aventura",
-        "Charlotte",
-        "Paris",
-        "Washington D.C.",
-        "San Francisco",
-        "London"
+        "Fort Lauderdale; Miami; Tampa",
+        "Seoul",
+        "Melbourne",
+        "Wuhan",
+        "Amsterdam",
+        "D\u00fcsseldorf",
+        "Zurich",
+        "Beijing",
+        "Rio de Janeiro",
+        "Stockholm",
+        "Tokyo",
+        "Philadelphia",
+        "Ann Arbor; Columbus; Detroit",
+        "Hong Kong"
       ],
       "jobs": [
         {
@@ -1144,6 +1175,16 @@
           "seniority": "lead"
         },
         {
+          "id": "8069314",
+          "title": "Global Merchandising Head Of Lifestyle & Special Projects",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8069314?gh_jid=8069314",
+          "posted_at": "2026-08-24T10:42:13-04:00",
+          "category": "product",
+          "seniority": "lead"
+        },
+        {
           "id": "7402412",
           "title": "Global Senior Director of Brand Apparel Marketing",
           "location": "Zurich",
@@ -1244,16 +1285,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7954040",
-          "title": "Head of Internal Content & Channels",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7954040?gh_jid=7954040",
-          "posted_at": "2026-08-13T13:10:39-04:00",
-          "category": "marketing",
-          "seniority": "lead"
-        },
-        {
           "id": "8031892",
           "title": " Head of Key Account Services",
           "location": "Portland",
@@ -1334,8 +1365,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-24T05:30:18.850231"
+      "checked_at": "2026-08-25T05:30:18.970715"
     }
   },
-  "generated_at": "2026-08-24T05:30:20.850389"
+  "generated_at": "2026-08-25T05:30:20.970942"
 }
