@@ -374,14 +374,14 @@
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10398,
+      "total": 10399,
       "categories": {
         "bottoms": 1715,
         "tops": 696,
         "accessories": 760,
         "sports_bras": 202,
         "other": 3028,
-        "footwear": 3045,
+        "footwear": 3046,
         "outerwear": 924,
         "dresses": 28
       },
@@ -392,7 +392,7 @@
         "hats": 239,
         "crop_tops": 217,
         "pants": 409,
-        "running": 2819,
+        "running": 2820,
         "tanks": 327,
         "jackets": 440,
         "joggers": 27,
@@ -413,12 +413,12 @@
       },
       "genders": {
         "womens": 4944,
-        "mens": 4291,
+        "mens": 4292,
         "unisex": 1163
       },
       "colors": {
         "blue": 834,
-        "red": 231,
+        "red": 232,
         "black": 1609,
         "purple": 189,
         "navy": 312,
@@ -648,15 +648,384 @@
       "colorCoverage": 2.8,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 68
+    },
+    "asrv": {
+      "name": "asrv",
+      "slug": "asrv",
+      "total": 1787,
+      "categories": {
+        "accessories": 239,
+        "other": 328,
+        "bottoms": 585,
+        "outerwear": 208,
+        "tops": 405,
+        "sports_bras": 22
+      },
+      "subcategories": {
+        "bags": 43,
+        "other": 434,
+        "socks": 12,
+        "hats": 139,
+        "joggers": 102,
+        "jackets": 56,
+        "pants": 37,
+        "shorts": 344,
+        "tees": 266,
+        "hoodies": 111,
+        "sweatpants": 8,
+        "quarter_zips": 18,
+        "tanks": 127,
+        "leggings": 52,
+        "headwear": 14,
+        "vests": 7,
+        "crop_tops": 6,
+        "fleece": 5,
+        "long_sleeve": 2,
+        "polos": 4
+      },
+      "genders": {
+        "unisex": 1679,
+        "womens": 97,
+        "mens": 11
+      },
+      "colors": {
+        "black": 512,
+        "red": 80,
+        "white": 203,
+        "purple": 2,
+        "camo": 82,
+        "green": 129,
+        "navy": 65,
+        "gray": 286,
+        "pink": 1,
+        "khaki": 42,
+        "rust": 40,
+        "blue": 57
+      },
+      "colorCoverage": 83.9,
+      "avgColorsPerStyle": 1.4,
+      "uniqueStyles": 1009
+    },
+    "goruck": {
+      "name": "goruck",
+      "slug": "goruck",
+      "total": 1915,
+      "categories": {
+        "other": 1093,
+        "accessories": 150,
+        "tops": 234,
+        "bottoms": 126,
+        "outerwear": 102,
+        "footwear": 198,
+        "sports_bras": 12
+      },
+      "subcategories": {
+        "other": 1285,
+        "hats": 36,
+        "shorts": 42,
+        "quarter_zips": 24,
+        "bags": 54,
+        "leggings": 30,
+        "pants": 24,
+        "vests": 30,
+        "tees": 78,
+        "training": 108,
+        "socks": 30,
+        "tanks": 24,
+        "running": 90,
+        "pullovers": 6,
+        "joggers": 12,
+        "jackets": 12,
+        "fleece": 6,
+        "hoodies": 6,
+        "polos": 18
+      },
+      "genders": {
+        "unisex": 1453,
+        "mens": 204,
+        "womens": 258
+      },
+      "colors": {
+        "rust": 6,
+        "khaki": 42,
+        "black": 60,
+        "white": 60,
+        "blue": 12,
+        "gray": 48,
+        "brown": 6,
+        "print": 6,
+        "pink": 6,
+        "red": 12,
+        "navy": 6,
+        "yellow": 12
+      },
+      "colorCoverage": 14.4,
+      "avgColorsPerStyle": 1,
+      "uniqueStyles": 39
+    },
+    "optimum_nutrition": {
+      "name": "optimum_nutrition",
+      "slug": "optimum_nutrition",
+      "total": 529,
+      "categories": {
+        "other": 529
+      },
+      "subcategories": {
+        "other": 529
+      },
+      "genders": {
+        "unisex": 481,
+        "womens": 40,
+        "mens": 8
+      },
+      "colors": {
+        "yellow": 132,
+        "gray": 33,
+        "red": 7,
+        "white": 6,
+        "black": 1
+      },
+      "colorCoverage": 33.8,
+      "avgColorsPerStyle": 1,
+      "uniqueStyles": 76
+    },
+    "ghost": {
+      "name": "ghost",
+      "slug": "ghost",
+      "total": 486,
+      "categories": {
+        "other": 319,
+        "accessories": 50,
+        "tops": 49,
+        "bottoms": 9,
+        "outerwear": 59
+      },
+      "subcategories": {
+        "other": 329,
+        "socks": 6,
+        "tees": 49,
+        "jackets": 12,
+        "hats": 38,
+        "bags": 2,
+        "hoodies": 45,
+        "sweatpants": 3,
+        "quarter_zips": 2
+      },
+      "genders": {
+        "unisex": 470,
+        "womens": 16
+      },
+      "colors": {
+        "yellow": 13,
+        "red": 23,
+        "multi": 5,
+        "orange": 2,
+        "white": 31,
+        "pink": 6,
+        "blue": 8,
+        "black": 35,
+        "gray": 20,
+        "green": 9,
+        "rust": 1,
+        "brown": 9,
+        "khaki": 3,
+        "camo": 1,
+        "navy": 4,
+        "heather": 1
+      },
+      "colorCoverage": 35.2,
+      "avgColorsPerStyle": 1.3,
+      "uniqueStyles": 132
+    },
+    "bucked_up": {
+      "name": "bucked_up",
+      "slug": "bucked_up",
+      "total": 0,
+      "categories": {},
+      "subcategories": {},
+      "genders": {},
+      "colors": {},
+      "colorCoverage": 0,
+      "avgColorsPerStyle": 0,
+      "uniqueStyles": 0
+    },
+    "hayabusa": {
+      "name": "hayabusa",
+      "slug": "hayabusa",
+      "total": 275,
+      "categories": {
+        "bottoms": 62,
+        "other": 89,
+        "footwear": 5,
+        "accessories": 90,
+        "tops": 18,
+        "outerwear": 10,
+        "sports_bras": 1
+      },
+      "subcategories": {
+        "shorts": 31,
+        "other": 181,
+        "leggings": 3,
+        "bags": 29,
+        "pants": 13,
+        "tanks": 2,
+        "jackets": 7,
+        "sweatpants": 1,
+        "long_sleeve": 2,
+        "hoodies": 3,
+        "crop_tops": 1,
+        "socks": 1,
+        "joggers": 1
+      },
+      "genders": {
+        "unisex": 216,
+        "mens": 29,
+        "womens": 30
+      },
+      "colors": {
+        "gray": 3,
+        "black": 2,
+        "yellow": 3
+      },
+      "colorCoverage": 2.9,
+      "avgColorsPerStyle": 1,
+      "uniqueStyles": 8
+    },
+    "venum": {
+      "name": "venum",
+      "slug": "venum",
+      "total": 2224,
+      "categories": {
+        "accessories": 378,
+        "other": 717,
+        "tops": 233,
+        "bottoms": 583,
+        "footwear": 37,
+        "outerwear": 249,
+        "sports_bras": 27
+      },
+      "subcategories": {
+        "other": 1345,
+        "shorts": 389,
+        "training": 6,
+        "bags": 15,
+        "socks": 33,
+        "leggings": 13,
+        "hoodies": 204,
+        "joggers": 67,
+        "jackets": 35,
+        "pants": 8,
+        "polos": 1,
+        "tanks": 21,
+        "hats": 49,
+        "long_sleeve": 25,
+        "low_support": 1,
+        "medium_support": 1,
+        "skirts": 1,
+        "fleece": 10
+      },
+      "genders": {
+        "unisex": 1828,
+        "womens": 149,
+        "mens": 247
+      },
+      "colors": {
+        "black": 460,
+        "red": 245,
+        "white": 400,
+        "blue": 211,
+        "gray": 164,
+        "yellow": 228,
+        "purple": 54,
+        "camo": 18,
+        "khaki": 58,
+        "brown": 54,
+        "pink": 23,
+        "orange": 46,
+        "green": 43,
+        "navy": 22,
+        "rust": 5
+      },
+      "colorCoverage": 91.3,
+      "avgColorsPerStyle": 1.3,
+      "uniqueStyles": 1456
+    },
+    "everlast": {
+      "name": "everlast",
+      "slug": "everlast",
+      "total": 314,
+      "categories": {
+        "other": 101,
+        "accessories": 94,
+        "bottoms": 52,
+        "tops": 23,
+        "sports_bras": 13,
+        "outerwear": 24,
+        "footwear": 7
+      },
+      "subcategories": {
+        "other": 177,
+        "bags": 47,
+        "leggings": 19,
+        "tees": 1,
+        "medium_support": 3,
+        "shorts": 12,
+        "tanks": 6,
+        "long_sleeve": 4,
+        "hoodies": 16,
+        "joggers": 1,
+        "jackets": 4,
+        "high_support": 2,
+        "crop_tops": 4,
+        "sweatpants": 6,
+        "socks": 5,
+        "pants": 6,
+        "vests": 1
+      },
+      "genders": {
+        "unisex": 204,
+        "womens": 69,
+        "mens": 41
+      },
+      "colors": {
+        "camo": 7,
+        "purple": 3,
+        "black": 8,
+        "print": 3,
+        "yellow": 1,
+        "white": 3,
+        "navy": 2,
+        "red": 8,
+        "pink": 2,
+        "green": 1,
+        "blue": 1
+      },
+      "colorCoverage": 12.4,
+      "avgColorsPerStyle": 1.3,
+      "uniqueStyles": 30
     }
   },
   "totals": {
-    "products": 40497,
-    "brands": 12,
+    "products": 48028,
+    "brands": 20,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-08-29",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 1,
+      "products": [
+        {
+          "name": "cloudtilt hi loewe m",
+          "url": "https://www.on.com/en-us/products/cloudtilt-hi-loewe-m-3mg1083/mens/teal-oatmeal-burgundy-shoes-3MG10835525",
+          "category": "footwear",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "brand": "Gymshark",
@@ -4068,634 +4437,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-08-13",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 220,
-      "products": [
-        {
-          "name": "gymshark conditioning club oversized t shirt pebble",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-pebble-grey-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus edit woven shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-pink-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus edit woven shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus edit woven shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-yellow-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus edit woven shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-edit-woven-shorts-shorts-green-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc taped straight leg track pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-taped-straight-leg-track-pant-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc taped straight leg track pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-taped-straight-leg-track-pant-pants-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe campus t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-campus-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe straight leg short joggers pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-short-joggers-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus pants tall pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-tall-pants-pink-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe straight leg tall joggers pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-tall-joggers-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus polo sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-polo-sweatshirt-pullovers-blue-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark cosy campus pants tall pants aw26 b7b2v ndj1",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-pants-tall-pants-brown-aw26-b7b2v-ndj1",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus polo sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-polo-sweatshirt-pullovers-brown-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark cosy luxe hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus full zip hoodie pullovers aw26 b7b6b ndj1",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-brown-aw26-b7b6b-ndj1",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-blue-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus polo sweatshirt pullovers aw26 b7b5r ndj1",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-polo-sweatshirt-pullovers-brown-aw26-b7b5r-ndj1",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark cotton blend seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless flared leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-purple-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless flared leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-purple-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-blue-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless flared leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless flared leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-leggings-leggings-brown-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless flared leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-flared-leggings-leggings-blue-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton blend seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-blend-seamless-shorts-shorts-purple-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gslc emblem short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-emblem-short-shorts-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc emblem short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-emblem-short-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cotton seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton seamless t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark train pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-train-pants-pants-black-ss27",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-train-pants-pants-blue-ss27",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cotton seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-long-sleeve-t-shirt-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-long-sleeve-t-shirt-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cotton seamless long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-cotton-seamless-long-sleeve-t-shirt-ls-tops-white-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gslc straight leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-straight-leg-pants-pants-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe straight leg jogger pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-pants-pink-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting icons 3 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-icons-3-short-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark glsc hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-glsc-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-cut-off-tank-sleeveless-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train 5 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-train-5-short-shorts-brown-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-train-1-4-zip-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting icons 3 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-icons-3-short-shorts-green-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark gslc cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-cut-off-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train 5 short shorts",
-          "url": "https://www.gymshark.com/products/gymshark-train-5-short-shorts-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs seamless sleeveless top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-white-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark train cut off tank sleeveless tops aw26 a5c3d ufhb",
-          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-blue-aw26-a5c3d-ufhb",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe straight leg jogger short leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-short-leg-pants-white-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs seamless midi top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-midi-top-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless long sleeve long sleeve top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-long-sleeve-long-sleeve-top-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cosy luxe straight leg jogger long leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-long-leg-pants-pink-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs seamless halterneck top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless halterneck top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-purple-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark cosy luxe straight leg jogger long leg pants",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-straight-leg-jogger-long-leg-pants-white-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs seamless halterneck top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-pink-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless long sleeve long sleeve top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-long-sleeve-long-sleeve-top-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless halterneck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-sports-bra-sports-bras-pink-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless halterneck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-sports-bra-sports-bras-grey-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless halterneck top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-top-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless halterneck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-halterneck-sports-bra-sports-bras-blue-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless midi top ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-midi-top-ss-tops-pink-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark train t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark glsc hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-glsc-hoodie-pullovers-blue-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc stringer sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-stringer-sleeveless-tops-purple-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc raglan long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-raglan-long-sleeve-t-shirt-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-long-sleeve-t-shirt-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc henley sweat pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-henley-sweat-pullovers-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc straight leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-straight-leg-pants-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs seamless sleeveless top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark gs seamless sleeveless top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark train long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-long-sleeve-t-shirt-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-cut-off-tank-sleeveless-tops-blue-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc henley sweat pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-henley-sweat-pullovers-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train 5 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-train-5-shorts-shorts-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-long-sleeve-t-shirt-ls-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc ringer t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-ringer-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc stringer sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-stringer-sleeveless-tops-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc raglan long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-raglan-long-sleeve-t-shirt-ls-tops-purple-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train 4 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-train-4-shorts-shorts-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train cut off tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-cut-off-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark train t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-train-t-shirt-ss-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gslc stringer sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-stringer-sleeveless-tops-grey-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lifting icons 3 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-lifting-icons-3-shorts-shorts-grey-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark gslc straight leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-gslc-straight-leg-pants-pants-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gs seamless sleeveless top sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-gs-seamless-sleeveless-top-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark train 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-train-1-4-zip-pullovers-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 2,
-      "products": [
-        {
-          "name": "bae hoodie",
-          "url": "https://www.aloyoga.com/products/w3814r-bae-hoodie-limestone",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "epic claw clip chrome",
-          "url": "https://www.aloyoga.com/products/a0541u-epic-claw-clip-chrome",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -5190,7 +4931,8 @@
       "2026-08-25": 5,
       "2026-08-26": 1,
       "2026-08-27": 58,
-      "2026-08-28": 24
+      "2026-08-28": 24,
+      "2026-08-29": 1
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -5227,6 +4969,28 @@
       "2026-04-07": 2448,
       "2026-05-16": 4,
       "2026-06-04": 3
+    },
+    "asrv": {
+      "2026-08-30": 1788
+    },
+    "goruck": {
+      "2026-08-30": 1921
+    },
+    "optimum_nutrition": {
+      "2026-08-30": 529
+    },
+    "ghost": {
+      "2026-08-30": 486
+    },
+    "bucked_up": {},
+    "hayabusa": {
+      "2026-08-30": 277
+    },
+    "venum": {
+      "2026-08-30": 2225
+    },
+    "everlast": {
+      "2026-08-30": 315
     }
   },
   "byCategory": {
@@ -5241,7 +5005,13 @@
       "gymreapers": 224,
       "sbd": 22,
       "schiek": 2,
-      "bear_grips": 330
+      "bear_grips": 330,
+      "asrv": 585,
+      "goruck": 126,
+      "ghost": 9,
+      "hayabusa": 62,
+      "venum": 583,
+      "everlast": 52
     },
     "tops": {
       "vuori": 716,
@@ -5254,7 +5024,13 @@
       "gymreapers": 236,
       "sbd": 67,
       "schiek": 7,
-      "bear_grips": 1245
+      "bear_grips": 1245,
+      "asrv": 405,
+      "goruck": 234,
+      "ghost": 49,
+      "hayabusa": 18,
+      "venum": 233,
+      "everlast": 23
     },
     "outerwear": {
       "vuori": 600,
@@ -5267,7 +5043,13 @@
       "gymreapers": 58,
       "sbd": 6,
       "schiek": 1,
-      "bear_grips": 453
+      "bear_grips": 453,
+      "asrv": 208,
+      "goruck": 102,
+      "ghost": 59,
+      "hayabusa": 10,
+      "venum": 249,
+      "everlast": 24
     },
     "other": {
       "vuori": 660,
@@ -5281,7 +5063,14 @@
       "sbd": 78,
       "harbinger": 26,
       "schiek": 59,
-      "bear_grips": 254
+      "bear_grips": 254,
+      "asrv": 328,
+      "goruck": 1093,
+      "optimum_nutrition": 529,
+      "ghost": 319,
+      "hayabusa": 89,
+      "venum": 717,
+      "everlast": 101
     },
     "sports_bras": {
       "vuori": 147,
@@ -5291,15 +5080,24 @@
       "gymshark": 884,
       "on_running": 202,
       "gymreapers": 68,
-      "bear_grips": 9
+      "bear_grips": 9,
+      "asrv": 22,
+      "goruck": 12,
+      "hayabusa": 1,
+      "venum": 27,
+      "everlast": 13
     },
     "footwear": {
       "vuori": 18,
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 3045,
-      "schiek": 1
+      "on_running": 3046,
+      "schiek": 1,
+      "goruck": 198,
+      "hayabusa": 5,
+      "venum": 37,
+      "everlast": 7
     },
     "accessories": {
       "vuori": 227,
@@ -5313,7 +5111,13 @@
       "sbd": 54,
       "harbinger": 29,
       "schiek": 44,
-      "bear_grips": 164
+      "bear_grips": 164,
+      "asrv": 239,
+      "goruck": 150,
+      "ghost": 50,
+      "hayabusa": 90,
+      "venum": 378,
+      "everlast": 94
     },
     "dresses": {
       "vuori": 46,
@@ -5334,7 +5138,12 @@
       "on_running": 27,
       "gymreapers": 24,
       "sbd": 4,
-      "bear_grips": 30
+      "bear_grips": 30,
+      "asrv": 102,
+      "goruck": 12,
+      "hayabusa": 1,
+      "venum": 67,
+      "everlast": 1
     },
     "shorts": {
       "vuori": 813,
@@ -5346,7 +5155,12 @@
       "on_running": 760,
       "gymreapers": 147,
       "sbd": 15,
-      "bear_grips": 40
+      "bear_grips": 40,
+      "asrv": 344,
+      "goruck": 42,
+      "hayabusa": 31,
+      "venum": 389,
+      "everlast": 12
     },
     "tanks": {
       "vuori": 238,
@@ -5358,7 +5172,12 @@
       "on_running": 327,
       "gymreapers": 36,
       "sbd": 8,
-      "bear_grips": 472
+      "bear_grips": 472,
+      "asrv": 127,
+      "goruck": 24,
+      "hayabusa": 2,
+      "venum": 21,
+      "everlast": 6
     },
     "tees": {
       "vuori": 248,
@@ -5368,7 +5187,11 @@
       "alo": 55,
       "gymshark": 96,
       "gymreapers": 119,
-      "bear_grips": 567
+      "bear_grips": 567,
+      "asrv": 266,
+      "goruck": 78,
+      "ghost": 49,
+      "everlast": 1
     },
     "leggings": {
       "vuori": 190,
@@ -5379,7 +5202,12 @@
       "gymshark": 902,
       "on_running": 432,
       "gymreapers": 46,
-      "bear_grips": 32
+      "bear_grips": 32,
+      "asrv": 52,
+      "goruck": 30,
+      "hayabusa": 3,
+      "venum": 13,
+      "everlast": 19
     },
     "other": {
       "vuori": 1367,
@@ -5393,7 +5221,14 @@
       "sbd": 137,
       "harbinger": 55,
       "schiek": 108,
-      "bear_grips": 471
+      "bear_grips": 471,
+      "asrv": 434,
+      "goruck": 1285,
+      "optimum_nutrition": 529,
+      "ghost": 329,
+      "hayabusa": 181,
+      "venum": 1345,
+      "everlast": 177
     },
     "pants": {
       "vuori": 427,
@@ -5402,7 +5237,12 @@
       "lululemon": 448,
       "alo": 251,
       "gymshark": 400,
-      "on_running": 409
+      "on_running": 409,
+      "asrv": 37,
+      "goruck": 24,
+      "hayabusa": 13,
+      "venum": 8,
+      "everlast": 6
     },
     "pullovers": {
       "vuori": 6,
@@ -5410,7 +5250,8 @@
       "lululemon": 36,
       "alo": 167,
       "gymshark": 172,
-      "on_running": 3
+      "on_running": 3,
+      "goruck": 6
     },
     "polos": {
       "vuori": 57,
@@ -5420,12 +5261,17 @@
       "gymshark": 28,
       "on_running": 40,
       "gymreapers": 5,
-      "bear_grips": 99
+      "bear_grips": 99,
+      "asrv": 4,
+      "goruck": 18,
+      "venum": 1
     },
     "training": {
       "vuori": 18,
       "lululemon": 8,
-      "schiek": 1
+      "schiek": 1,
+      "goruck": 108,
+      "venum": 6
     },
     "jackets": {
       "vuori": 176,
@@ -5436,7 +5282,13 @@
       "gymshark": 250,
       "on_running": 440,
       "gymreapers": 17,
-      "bear_grips": 14
+      "bear_grips": 14,
+      "asrv": 56,
+      "goruck": 12,
+      "ghost": 12,
+      "hayabusa": 7,
+      "venum": 35,
+      "everlast": 4
     },
     "long_sleeve": {
       "vuori": 35,
@@ -5449,7 +5301,11 @@
       "gymreapers": 14,
       "sbd": 1,
       "schiek": 1,
-      "bear_grips": 97
+      "bear_grips": 97,
+      "asrv": 2,
+      "hayabusa": 2,
+      "venum": 25,
+      "everlast": 4
     },
     "hoodies": {
       "vuori": 238,
@@ -5462,7 +5318,13 @@
       "gymreapers": 26,
       "sbd": 6,
       "schiek": 1,
-      "bear_grips": 259
+      "bear_grips": 259,
+      "asrv": 111,
+      "goruck": 6,
+      "ghost": 45,
+      "hayabusa": 3,
+      "venum": 204,
+      "everlast": 16
     },
     "hats": {
       "vuori": 100,
@@ -5474,7 +5336,11 @@
       "gymreapers": 77,
       "sbd": 7,
       "schiek": 1,
-      "bear_grips": 157
+      "bear_grips": 157,
+      "asrv": 139,
+      "goruck": 36,
+      "ghost": 38,
+      "venum": 49
     },
     "skirts": {
       "vuori": 45,
@@ -5483,7 +5349,8 @@
       "alo": 138,
       "gymshark": 2,
       "on_running": 43,
-      "bear_grips": 3
+      "bear_grips": 3,
+      "venum": 1
     },
     "vests": {
       "vuori": 38,
@@ -5493,7 +5360,10 @@
       "alo": 18,
       "gymshark": 16,
       "on_running": 68,
-      "gymreapers": 1
+      "gymreapers": 1,
+      "asrv": 7,
+      "goruck": 30,
+      "everlast": 1
     },
     "crop_tops": {
       "vuori": 10,
@@ -5504,7 +5374,10 @@
       "on_running": 217,
       "gymreapers": 16,
       "sbd": 7,
-      "bear_grips": 7
+      "bear_grips": 7,
+      "asrv": 6,
+      "hayabusa": 1,
+      "everlast": 4
     },
     "quarter_zips": {
       "vuori": 76,
@@ -5512,7 +5385,10 @@
       "lululemon": 81,
       "on_running": 3,
       "gymreapers": 9,
-      "bear_grips": 180
+      "bear_grips": 180,
+      "asrv": 18,
+      "goruck": 24,
+      "ghost": 2
     },
     "tennis_dress": {
       "vuori": 7,
@@ -5535,7 +5411,11 @@
       "lululemon": 4,
       "alo": 215,
       "on_running": 39,
-      "bear_grips": 27
+      "bear_grips": 27,
+      "asrv": 8,
+      "ghost": 3,
+      "hayabusa": 1,
+      "everlast": 6
     },
     "bags": {
       "vuori": 11,
@@ -5543,7 +5423,13 @@
       "alo": 1,
       "gymshark": 94,
       "gymreapers": 5,
-      "schiek": 2
+      "schiek": 2,
+      "asrv": 43,
+      "goruck": 54,
+      "ghost": 2,
+      "hayabusa": 29,
+      "venum": 15,
+      "everlast": 47
     },
     "socks": {
       "vuori": 85,
@@ -5554,7 +5440,13 @@
       "gymshark": 266,
       "on_running": 474,
       "gymreapers": 8,
-      "sbd": 42
+      "sbd": 42,
+      "asrv": 12,
+      "goruck": 30,
+      "ghost": 6,
+      "hayabusa": 1,
+      "venum": 33,
+      "everlast": 5
     },
     "headwear": {
       "vuori": 20,
@@ -5563,7 +5455,8 @@
       "alo": 52,
       "gymshark": 36,
       "on_running": 18,
-      "gymreapers": 6
+      "gymreapers": 6,
+      "asrv": 14
     },
     "rompers": {
       "vuori": 13,
@@ -5574,17 +5467,23 @@
       "lululemon": 15,
       "alo": 17,
       "gymshark": 2,
-      "on_running": 3
+      "on_running": 3,
+      "asrv": 5,
+      "goruck": 6,
+      "venum": 10
     },
     "running": {
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2819
+      "on_running": 2820,
+      "goruck": 90
     },
     "medium_support": {
       "lululemon": 21,
-      "gymshark": 12
+      "gymshark": 12,
+      "venum": 1,
+      "everlast": 3
     },
     "bralette": {
       "lululemon": 14,
@@ -5593,13 +5492,15 @@
     },
     "low_support": {
       "lululemon": 61,
-      "gymshark": 64
+      "gymshark": 64,
+      "venum": 1
     },
     "high_support": {
       "lululemon": 5,
       "alo": 3,
       "gymshark": 38,
-      "gymreapers": 1
+      "gymreapers": 1,
+      "everlast": 2
     },
     "lifestyle": {
       "on_running": 221
@@ -5617,7 +5518,13 @@
       "on_running": 339,
       "gymreapers": 78,
       "sbd": 16,
-      "schiek": 5
+      "schiek": 5,
+      "asrv": 286,
+      "goruck": 48,
+      "optimum_nutrition": 33,
+      "ghost": 20,
+      "hayabusa": 3,
+      "venum": 164
     },
     "navy": {
       "vuori": 110,
@@ -5626,7 +5533,12 @@
       "gymshark": 76,
       "on_running": 312,
       "gymreapers": 41,
-      "sbd": 5
+      "sbd": 5,
+      "asrv": 65,
+      "goruck": 6,
+      "ghost": 4,
+      "venum": 22,
+      "everlast": 2
     },
     "black": {
       "vuori": 854,
@@ -5637,7 +5549,14 @@
       "gymreapers": 132,
       "sbd": 2,
       "schiek": 8,
-      "bear_grips": 4
+      "bear_grips": 4,
+      "asrv": 512,
+      "goruck": 60,
+      "optimum_nutrition": 1,
+      "ghost": 35,
+      "hayabusa": 2,
+      "venum": 460,
+      "everlast": 8
     },
     "khaki": {
       "vuori": 218,
@@ -5646,7 +5565,11 @@
       "gymshark": 2,
       "on_running": 214,
       "gymreapers": 60,
-      "bear_grips": 1
+      "bear_grips": 1,
+      "asrv": 42,
+      "goruck": 42,
+      "ghost": 3,
+      "venum": 58
     },
     "red": {
       "vuori": 51,
@@ -5654,10 +5577,16 @@
       "lululemon": 12,
       "alo": 224,
       "gymshark": 341,
-      "on_running": 231,
+      "on_running": 232,
       "gymreapers": 61,
       "sbd": 1,
-      "harbinger": 2
+      "harbinger": 2,
+      "asrv": 80,
+      "goruck": 12,
+      "optimum_nutrition": 7,
+      "ghost": 23,
+      "venum": 245,
+      "everlast": 8
     },
     "white": {
       "vuori": 428,
@@ -5669,7 +5598,13 @@
       "gymreapers": 94,
       "sbd": 2,
       "harbinger": 1,
-      "bear_grips": 2
+      "bear_grips": 2,
+      "asrv": 203,
+      "goruck": 60,
+      "optimum_nutrition": 6,
+      "ghost": 31,
+      "venum": 400,
+      "everlast": 3
     },
     "blue": {
       "vuori": 630,
@@ -5680,7 +5615,12 @@
       "on_running": 834,
       "gymreapers": 34,
       "sbd": 6,
-      "schiek": 2
+      "schiek": 2,
+      "asrv": 57,
+      "goruck": 12,
+      "ghost": 8,
+      "venum": 211,
+      "everlast": 1
     },
     "green": {
       "vuori": 216,
@@ -5690,7 +5630,11 @@
       "gymshark": 552,
       "on_running": 290,
       "gymreapers": 105,
-      "sbd": 4
+      "sbd": 4,
+      "asrv": 129,
+      "ghost": 9,
+      "venum": 43,
+      "everlast": 1
     },
     "brown": {
       "vuori": 199,
@@ -5700,7 +5644,10 @@
       "on_running": 92,
       "gymreapers": 17,
       "schiek": 2,
-      "bear_grips": 3
+      "bear_grips": 3,
+      "goruck": 6,
+      "ghost": 9,
+      "venum": 54
     },
     "print": {
       "vuori": 38,
@@ -5708,12 +5655,15 @@
       "lululemon": 123,
       "gymshark": 22,
       "schiek": 1,
-      "bear_grips": 6
+      "bear_grips": 6,
+      "goruck": 6,
+      "everlast": 3
     },
     "heather": {
       "vuori": 278,
       "alo": 24,
-      "on_running": 34
+      "on_running": 34,
+      "ghost": 1
     },
     "purple": {
       "vuori": 104,
@@ -5722,7 +5672,10 @@
       "gymshark": 617,
       "on_running": 189,
       "gymreapers": 12,
-      "sbd": 2
+      "sbd": 2,
+      "asrv": 2,
+      "venum": 54,
+      "everlast": 3
     },
     "orange": {
       "vuori": 23,
@@ -5731,7 +5684,9 @@
       "gymshark": 58,
       "on_running": 79,
       "gymreapers": 1,
-      "sbd": 10
+      "sbd": 10,
+      "ghost": 2,
+      "venum": 46
     },
     "yellow": {
       "vuori": 16,
@@ -5742,7 +5697,13 @@
       "on_running": 84,
       "gymreapers": 5,
       "schiek": 4,
-      "bear_grips": 51
+      "bear_grips": 51,
+      "goruck": 12,
+      "optimum_nutrition": 132,
+      "ghost": 13,
+      "hayabusa": 3,
+      "venum": 228,
+      "everlast": 1
     },
     "pink": {
       "vuori": 75,
@@ -5752,14 +5713,20 @@
       "on_running": 185,
       "gymreapers": 16,
       "sbd": 2,
-      "schiek": 6
+      "schiek": 6,
+      "asrv": 1,
+      "goruck": 6,
+      "ghost": 6,
+      "venum": 23,
+      "everlast": 2
     },
     "multi": {
       "vuori": 7,
       "outdoor_voices": 11,
       "lululemon": 36,
       "alo": 4,
-      "harbinger": 2
+      "harbinger": 2,
+      "ghost": 5
     },
     "rust": {
       "vuori": 2,
@@ -5767,13 +5734,21 @@
       "alo": 8,
       "on_running": 48,
       "gymreapers": 3,
-      "bear_grips": 1
+      "bear_grips": 1,
+      "asrv": 40,
+      "goruck": 6,
+      "ghost": 1,
+      "venum": 5
     },
     "camo": {
       "vuori": 8,
       "alo": 1,
       "on_running": 6,
-      "gymreapers": 34
+      "gymreapers": 34,
+      "asrv": 82,
+      "ghost": 1,
+      "venum": 18,
+      "everlast": 7
     }
   },
   "categoryMix": [
@@ -5838,6 +5813,36 @@
       "other": 10.3
     },
     {
+      "brand": "venum",
+      "bottoms": 26.2,
+      "tops": 10.5,
+      "outerwear": 11.2,
+      "dresses": 0,
+      "sports_bras": 1.2,
+      "accessories": 17,
+      "other": 32.2
+    },
+    {
+      "brand": "goruck",
+      "bottoms": 6.6,
+      "tops": 12.2,
+      "outerwear": 5.3,
+      "dresses": 0,
+      "sports_bras": 0.6,
+      "accessories": 7.8,
+      "other": 57.1
+    },
+    {
+      "brand": "asrv",
+      "bottoms": 32.7,
+      "tops": 22.7,
+      "outerwear": 11.6,
+      "dresses": 0,
+      "sports_bras": 1.2,
+      "accessories": 13.4,
+      "other": 18.4
+    },
+    {
       "brand": "gymreapers",
       "bottoms": 20.2,
       "tops": 21.3,
@@ -5856,6 +5861,46 @@
       "sports_bras": 6.8,
       "accessories": 7.6,
       "other": 10.4
+    },
+    {
+      "brand": "optimum_nutrition",
+      "bottoms": 0,
+      "tops": 0,
+      "outerwear": 0,
+      "dresses": 0,
+      "sports_bras": 0,
+      "accessories": 0,
+      "other": 100
+    },
+    {
+      "brand": "ghost",
+      "bottoms": 1.9,
+      "tops": 10.1,
+      "outerwear": 12.1,
+      "dresses": 0,
+      "sports_bras": 0,
+      "accessories": 10.3,
+      "other": 65.6
+    },
+    {
+      "brand": "everlast",
+      "bottoms": 16.6,
+      "tops": 7.3,
+      "outerwear": 7.6,
+      "dresses": 0,
+      "sports_bras": 4.1,
+      "accessories": 29.9,
+      "other": 32.2
+    },
+    {
+      "brand": "hayabusa",
+      "bottoms": 22.5,
+      "tops": 6.5,
+      "outerwear": 3.6,
+      "dresses": 0,
+      "sports_bras": 0.4,
+      "accessories": 32.7,
+      "other": 32.4
     },
     {
       "brand": "sbd",
@@ -5896,6 +5941,16 @@
       "sports_bras": 0,
       "accessories": 52.7,
       "other": 47.3
+    },
+    {
+      "brand": "bucked_up",
+      "bottoms": null,
+      "tops": null,
+      "outerwear": null,
+      "dresses": null,
+      "sports_bras": null,
+      "accessories": null,
+      "other": null
     }
   ],
   "colorMix": [
@@ -6002,6 +6057,57 @@
       "other": 0.3
     },
     {
+      "brand": "venum",
+      "black": 20.7,
+      "white": 18,
+      "gray": 7.4,
+      "navy": 1,
+      "blue": 9.5,
+      "green": 1.9,
+      "khaki": 2.6,
+      "brown": 2.4,
+      "purple": 2.4,
+      "pink": 1,
+      "orange": 2.1,
+      "red": 11,
+      "yellow": 10.3,
+      "other": 1
+    },
+    {
+      "brand": "goruck",
+      "black": 3.1,
+      "white": 3.1,
+      "gray": 2.5,
+      "navy": 0.3,
+      "blue": 0.6,
+      "green": 0,
+      "khaki": 2.2,
+      "brown": 0.3,
+      "purple": 0,
+      "pink": 0.3,
+      "orange": 0,
+      "red": 0.6,
+      "yellow": 0.6,
+      "other": 0.6
+    },
+    {
+      "brand": "asrv",
+      "black": 28.7,
+      "white": 11.4,
+      "gray": 16,
+      "navy": 3.6,
+      "blue": 3.2,
+      "green": 7.2,
+      "khaki": 2.4,
+      "brown": 0,
+      "purple": 0.1,
+      "pink": 0.1,
+      "orange": 0,
+      "red": 4.5,
+      "yellow": 0,
+      "other": 6.8
+    },
+    {
       "brand": "gymreapers",
       "black": 11.9,
       "white": 8.5,
@@ -6034,6 +6140,74 @@
       "red": 0.2,
       "yellow": 1.1,
       "other": 4.9
+    },
+    {
+      "brand": "optimum_nutrition",
+      "black": 0.2,
+      "white": 1.1,
+      "gray": 6.2,
+      "navy": 0,
+      "blue": 0,
+      "green": 0,
+      "khaki": 0,
+      "brown": 0,
+      "purple": 0,
+      "pink": 0,
+      "orange": 0,
+      "red": 1.3,
+      "yellow": 25,
+      "other": 0
+    },
+    {
+      "brand": "ghost",
+      "black": 7.2,
+      "white": 6.4,
+      "gray": 4.1,
+      "navy": 0.8,
+      "blue": 1.6,
+      "green": 1.9,
+      "khaki": 0.6,
+      "brown": 1.9,
+      "purple": 0,
+      "pink": 1.2,
+      "orange": 0.4,
+      "red": 4.7,
+      "yellow": 2.7,
+      "other": 1.6
+    },
+    {
+      "brand": "everlast",
+      "black": 2.5,
+      "white": 1,
+      "gray": 0,
+      "navy": 0.6,
+      "blue": 0.3,
+      "green": 0.3,
+      "khaki": 0,
+      "brown": 0,
+      "purple": 1,
+      "pink": 0.6,
+      "orange": 0,
+      "red": 2.5,
+      "yellow": 0.3,
+      "other": 3.2
+    },
+    {
+      "brand": "hayabusa",
+      "black": 0.7,
+      "white": 0,
+      "gray": 1.1,
+      "navy": 0,
+      "blue": 0,
+      "green": 0,
+      "khaki": 0,
+      "brown": 0,
+      "purple": 0,
+      "pink": 0,
+      "orange": 0,
+      "red": 0,
+      "yellow": 1.1,
+      "other": 0
     },
     {
       "brand": "sbd",
@@ -6102,6 +6276,23 @@
       "red": 3.6,
       "yellow": 0,
       "other": 3.6
+    },
+    {
+      "brand": "bucked_up",
+      "black": null,
+      "white": null,
+      "gray": null,
+      "navy": null,
+      "blue": null,
+      "green": null,
+      "khaki": null,
+      "brown": null,
+      "purple": null,
+      "pink": null,
+      "orange": null,
+      "red": null,
+      "yellow": null,
+      "other": null
     }
   ],
   "insights": [
@@ -6116,7 +6307,7 @@
       "metric": "earth_tones",
       "brand": "Vuori",
       "value": 14,
-      "text": "Vuori's earth tone palette (14%) is +8% vs industry avg—reinforcing California lifestyle positioning."
+      "text": "Vuori's earth tone palette (14%) is NaN% vs industry avg—reinforcing California lifestyle positioning."
     },
     {
       "type": "comparison",
@@ -6160,14 +6351,9 @@
   "vuoriScorecard": {
     "leading": [
       {
-        "metric": "Performance Fabrics (Heather)",
-        "value": "6% of products",
-        "comparison": "Industry avg: 0%"
-      },
-      {
-        "metric": "Earth Tone Palette (CA Aesthetic)",
-        "value": "14% earth tones",
-        "comparison": "Industry avg: 6%"
+        "metric": "Color Depth",
+        "value": "1.4 colors/style",
+        "comparison": "+0.1 vs industry avg"
       },
       {
         "metric": "Gender Balance",
@@ -6177,24 +6363,24 @@
     ],
     "lagging": [
       {
-        "metric": "Color Depth",
-        "value": "1.4 colors/style",
-        "comparison": "On Running has 2.5"
-      },
-      {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 2875 products"
+        "comparison": "Competitors have 2966 products"
       },
       {
         "metric": "Medium Support",
         "value": "0 products",
-        "comparison": "Competitors have 33 products"
+        "comparison": "Competitors have 37 products"
       },
       {
         "metric": "Bralette",
         "value": "0 products",
         "comparison": "Competitors have 96 products"
+      },
+      {
+        "metric": "Low Support",
+        "value": "0 products",
+        "comparison": "Competitors have 126 products"
       }
     ],
     "alerts": [
@@ -6308,5 +6494,5 @@
       }
     ]
   },
-  "generated_at": "2026-08-29T13:15:11.592Z"
+  "generated_at": "2026-08-30T13:15:15.311Z"
 }

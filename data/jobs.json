@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1092,
+      "total_jobs": 1089,
       "change_from_last": -3,
       "departments": {
         "design": 96,
         "finance": 5,
-        "other": 143,
+        "other": 142,
         "product": 5,
-        "retail": 424,
+        "retail": 423,
         "engineering": 18,
         "marketing": 9,
         "executive": 3,
         "hr": 1,
-        "operations": 388
+        "operations": 387
       },
       "seniority": {
-        "junior": 729,
-        "manager": 143,
+        "junior": 728,
+        "manager": 142,
         "mid": 20,
         "c-suite": 14,
         "intern": 3,
-        "lead": 165,
+        "lead": 164,
         "senior": 18
       },
       "locations": [
-        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
-        "King of Prussia, Pennsylvania, United States",
-        "Alys Beach, Florida, United States",
-        "Bloor Street, Toronto, ON (10026)",
-        "Wayne, New Jersey, United States",
-        "Seaport Square, Boston, MA (10017)",
-        "Charleston, South Carolina, United States",
-        "Lexington, Kentucky, United States",
-        "Brookfield Place, New York, NY (10173)",
-        "Kierland Commons, Scottsdale, AZ (10024)",
+        "Chinook Centre, Calgary, AB (10048)",
+        "Koenigsallee, D\u00fcsseldorf (50112)",
+        "Flatiron, New York, NY (10007)",
+        "Woodfield Mall, Schaumburg, IL (10112)",
+        "Ashburn, Virginia, United States",
+        "Richmond, Virginia, United States",
+        "Upper East Side, New York, NY (10009)",
+        "Etobicoke, Ontario, Canada",
+        "Southpark Mall, Charlotte, NC (10032)",
+        "Studio City, California, United States",
+        "Rice Village, Houston, TX (10151)",
+        "Walnut Creek, California, United States",
+        "Town Center Boca Raton, Boca Raton, FL (10090)",
         "Los Angeles, California, United States",
-        "Park City, Park City, UT (10192)",
-        "Rochester Hills, Michigan, United States",
-        "Germantown, Tennessee, United States",
-        "Ottawa, Ontario, Canada",
-        "Frisco, Texas, United States",
-        "San Diego, California, United States",
-        "Shop at Crystals, Las Vegas, NV (10095)",
-        "Southlake, Texas, United States",
-        "Durham, North Carolina, United States"
+        "Santa Barbara, California, United States",
+        "Pinecrest, Orange Village, OH (10103)",
+        "Brea, California, United States",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "West Palm Beach, Florida, United States",
+        "Thousand Oaks, California, United States"
       ],
       "jobs": [
         {
@@ -205,16 +205,6 @@
           "location": "Munich, Bavaria, Germany",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6097986004?gh_jid=6097986004",
-          "posted_at": "2026-08-20T18:16:29-04:00",
-          "category": "retail",
-          "seniority": "manager"
-        },
-        {
-          "id": "5835734004",
-          "title": "Assistant Store Manager (Sales & Service) - Neuer Wall, Hamburg ",
-          "location": "Hamburg, Hamburg, Germany",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/5835734004?gh_jid=5835734004",
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "retail",
           "seniority": "manager"
@@ -548,9 +538,19 @@
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "engineering",
           "seniority": "manager"
+        },
+        {
+          "id": "5779072004",
+          "title": "Engineering Manager, Platform Engineering",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5779072004?gh_jid=5779072004",
+          "posted_at": "2026-08-20T18:16:29-04:00",
+          "category": "engineering",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-08-29T05:30:08.207470"
+      "checked_at": "2026-08-30T05:30:08.135254"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -574,12 +574,12 @@
         "senior": 1
       },
       "locations": [
-        "Roosevelt, New York, United States",
         "Amsterdam, North Holland, Netherlands",
-        "New York; New York, New York, United States; New York, New York, United States",
-        "New York, New York, United States",
+        "London",
         "Solihull, England, United Kingdom",
-        "London"
+        "Roosevelt, New York, United States",
+        "New York; New York, New York, United States; New York, New York, United States",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -783,7 +783,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-29T05:30:10.353829"
+      "checked_at": "2026-08-30T05:30:10.296769"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -842,7 +842,7 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 307,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
         "engineering": 35,
         "other": 52,
@@ -864,26 +864,26 @@
         "senior": 29
       },
       "locations": [
-        "Aventura",
-        "Seoul",
+        "New York City",
         "Melbourne",
-        "Ho Chi Minh City",
-        "Nanjing",
-        "London; Zurich",
-        "D\u00fcsseldorf",
-        "Hanoi",
-        "Stockholm",
-        "Miami",
-        "Palo Alto",
-        "Zurich",
-        "Cirebon",
-        "Paris",
-        "Shanghai",
         "Berlin",
-        "San Francisco",
+        "McLean",
+        "Cirebon",
+        "Dallas",
+        "Hong Kong",
+        "Tokyo",
+        "Sydney",
+        "Shanghai",
+        "Las Vegas",
         "Corte Madera",
-        "Tianjin",
-        "Portland"
+        "Nanjing",
+        "Chengdu",
+        "San Francisco",
+        "Miami",
+        "Newport Beach",
+        "Southlake",
+        "Milan",
+        "Mexico City"
       ],
       "jobs": [
         {
@@ -1387,8 +1387,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-29T05:30:19.647265"
+      "checked_at": "2026-08-30T05:30:21.868552"
     }
   },
-  "generated_at": "2026-08-29T05:30:21.647445"
+  "generated_at": "2026-08-30T05:30:23.868755"
 }
