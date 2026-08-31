@@ -139,17 +139,17 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 172,
+      "total": 173,
       "categories": {
         "bottoms": 86,
         "other": 15,
-        "tops": 47,
+        "tops": 48,
         "outerwear": 21,
         "accessories": 3
       },
       "subcategories": {
         "shorts": 51,
-        "other": 37,
+        "other": 38,
         "long_sleeve": 6,
         "tanks": 6,
         "pants": 20,
@@ -163,7 +163,7 @@
         "sweatpants": 2
       },
       "genders": {
-        "mens": 171,
+        "mens": 172,
         "womens": 1
       },
       "colors": {},
@@ -1006,12 +1006,26 @@
     }
   },
   "totals": {
-    "products": 48028,
+    "products": 48029,
     "brands": 20,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-08-31",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 1,
+      "products": [
+        {
+          "name": "aperture shirt",
+          "url": "https://www.tenthousand.cc/products/aperture-shirt",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-08-29",
       "brand": "On Running",
@@ -4393,50 +4407,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-08-14",
-      "brand": "gymreapers",
-      "brandSlug": "gymreapers",
-      "count": 6,
-      "products": [
-        {
-          "name": "s classic freedom leather",
-          "url": "https://www.gymreapers.com/products/women-s-classic-freedom-leather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "s classic freedom leather",
-          "url": "https://www.gymreapers.com/products/men-s-classic-freedom-leather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "s v series freedom leather",
-          "url": "https://www.gymreapers.com/products/women-s-v-series-freedom-leather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "s v series freedom leather",
-          "url": "https://www.gymreapers.com/products/men-s-v-series-freedom-leather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "s v series 3 fc leather",
-          "url": "https://www.gymreapers.com/products/women-s-v-series-3-fc-leather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "s v series 3 fc leather",
-          "url": "https://www.gymreapers.com/products/men-s-v-series-3-fc-leather",
-          "category": "other",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4591,7 +4561,8 @@
       "2026-06-16": 1,
       "2026-06-25": 1,
       "2026-07-24": 1,
-      "2026-08-25": 29
+      "2026-08-25": 29,
+      "2026-08-31": 1
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -5016,7 +4987,7 @@
     "tops": {
       "vuori": 716,
       "outdoor_voices": 85,
-      "tenthousand": 47,
+      "tenthousand": 48,
       "lululemon": 835,
       "alo": 578,
       "gymshark": 3544,
@@ -5212,7 +5183,7 @@
     "other": {
       "vuori": 1367,
       "outdoor_voices": 186,
-      "tenthousand": 37,
+      "tenthousand": 38,
       "lululemon": 1593,
       "alo": 1693,
       "gymshark": 3691,
@@ -5914,9 +5885,9 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 50,
-      "tops": 27.3,
-      "outerwear": 12.2,
+      "bottoms": 49.7,
+      "tops": 27.7,
+      "outerwear": 12.1,
       "dresses": 0,
       "sports_bras": 0,
       "accessories": 1.7,
@@ -6494,5 +6465,5 @@
       }
     ]
   },
-  "generated_at": "2026-08-30T13:15:15.311Z"
+  "generated_at": "2026-08-31T13:15:16.375Z"
 }

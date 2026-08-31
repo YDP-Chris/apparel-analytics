@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1089,
+      "total_jobs": 1086,
       "change_from_last": -3,
       "departments": {
-        "design": 96,
+        "design": 95,
         "finance": 5,
         "other": 142,
         "product": 5,
-        "retail": 423,
+        "retail": 422,
         "engineering": 18,
         "marketing": 9,
         "executive": 3,
         "hr": 1,
-        "operations": 387
+        "operations": 386
       },
       "seniority": {
-        "junior": 728,
+        "junior": 726,
         "manager": 142,
         "mid": 20,
         "c-suite": 14,
         "intern": 3,
-        "lead": 164,
+        "lead": 163,
         "senior": 18
       },
       "locations": [
-        "Chinook Centre, Calgary, AB (10048)",
-        "Koenigsallee, D\u00fcsseldorf (50112)",
-        "Flatiron, New York, NY (10007)",
-        "Woodfield Mall, Schaumburg, IL (10112)",
-        "Ashburn, Virginia, United States",
-        "Richmond, Virginia, United States",
-        "Upper East Side, New York, NY (10009)",
-        "Etobicoke, Ontario, Canada",
-        "Southpark Mall, Charlotte, NC (10032)",
-        "Studio City, California, United States",
-        "Rice Village, Houston, TX (10151)",
+        "Cologne, North Rhine-Westphalia, Germany",
+        "Warehouse 2, Commerce, CA (WH2)",
+        "Alpharetta, Georgia, United States",
         "Walnut Creek, California, United States",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Los Angeles, California, United States",
-        "Santa Barbara, California, United States",
-        "Pinecrest, Orange Village, OH (10103)",
-        "Brea, California, United States",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "West Palm Beach, Florida, United States",
-        "Thousand Oaks, California, United States"
+        "Germantown, Tennessee, United States",
+        "Huntington Station, New York, United States",
+        "Prudential Center, Boston, MA (10053)",
+        "Wayne, New Jersey, United States",
+        "Beverly Hills LAND, Beverly Hills, CA (HQ-L); San Ramon Office, San Ramon, CA (LO-SF)",
+        "Fashion Place Mall, Murray, UT (10179)",
+        "Paris, Paris, France",
+        "Somerset Collection, Troy, MI (10072)",
+        "Plaza at Frotenac, St. Louis, MO (10051)",
+        "Commerce, California, United States",
+        "Fashion Show, Las Vegas, NV (10180)",
+        "Ashburn, Virginia, United States",
+        "Southgate Centre, Edmonton, AB (10071)",
+        "Greenwich, Connecticut, United States",
+        "Studio City, California, United States",
+        "Brea, California, United States"
       ],
       "jobs": [
         {
@@ -550,7 +550,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-08-30T05:30:08.135254"
+      "checked_at": "2026-08-31T05:30:07.619927"
     },
     "gymshark": {
       "name": "Gymshark",
@@ -575,11 +575,11 @@
       },
       "locations": [
         "Amsterdam, North Holland, Netherlands",
+        "Roosevelt, New York, United States",
         "London",
         "Solihull, England, United Kingdom",
-        "Roosevelt, New York, United States",
-        "New York; New York, New York, United States; New York, New York, United States",
-        "New York, New York, United States"
+        "New York, New York, United States",
+        "New York; New York, New York, United States; New York, New York, United States"
       ],
       "jobs": [
         {
@@ -783,7 +783,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-08-30T05:30:10.296769"
+      "checked_at": "2026-08-31T05:30:09.761026"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -841,10 +841,10 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 307,
-      "change_from_last": 0,
+      "total_jobs": 305,
+      "change_from_last": -2,
       "departments": {
-        "engineering": 35,
+        "engineering": 33,
         "other": 52,
         "retail": 153,
         "marketing": 21,
@@ -856,46 +856,36 @@
         "hr": 2
       },
       "seniority": {
-        "mid": 89,
-        "lead": 176,
+        "mid": 87,
+        "lead": 175,
         "c-suite": 9,
         "vp": 1,
         "manager": 3,
-        "senior": 29
+        "senior": 30
       },
       "locations": [
-        "New York City",
-        "Melbourne",
-        "Berlin",
-        "McLean",
-        "Cirebon",
-        "Dallas",
-        "Hong Kong",
-        "Tokyo",
-        "Sydney",
-        "Shanghai",
-        "Las Vegas",
-        "Corte Madera",
-        "Nanjing",
+        "Tianjin",
+        "Stockholm",
         "Chengdu",
-        "San Francisco",
-        "Miami",
+        "Nanjing",
+        "Wuhan",
+        "Central Valley",
+        "Guangzhou",
+        "Melbourne",
         "Newport Beach",
-        "Southlake",
-        "Milan",
-        "Mexico City"
+        "Hong Kong",
+        "Los Angeles",
+        "Seoul",
+        "New York City",
+        "Macao",
+        "Berlin",
+        "Washington D.C.",
+        "Las Vegas",
+        "Zurich",
+        "Palo Alto",
+        "London"
       ],
       "jobs": [
-        {
-          "id": "8068978",
-          "title": "Accessories Quality Engineer (backpack, headwear,...)",
-          "location": "Ho Chi Minh City",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8068978?gh_jid=8068978",
-          "posted_at": "2026-08-13T13:10:39-04:00",
-          "category": "engineering",
-          "seniority": "mid"
-        },
         {
           "id": "8071276",
           "title": "Agentic AI Platform Engineer",
@@ -1385,10 +1375,20 @@
           "posted_at": "2026-08-19T05:07:35-04:00",
           "category": "design",
           "seniority": "lead"
+        },
+        {
+          "id": "7657030",
+          "title": "Lead - Apparel & Accessories Costing",
+          "location": "Hanoi",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7657030?gh_jid=7657030",
+          "posted_at": "2026-08-13T13:10:39-04:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-08-30T05:30:21.868552"
+      "checked_at": "2026-08-31T05:30:18.946065"
     }
   },
-  "generated_at": "2026-08-30T05:30:23.868755"
+  "generated_at": "2026-08-31T05:30:20.946220"
 }
