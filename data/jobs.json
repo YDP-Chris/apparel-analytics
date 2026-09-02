@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1103,
-      "change_from_last": 17,
+      "total_jobs": 1112,
+      "change_from_last": 9,
       "departments": {
         "design": 97,
         "finance": 5,
-        "other": 141,
-        "product": 5,
-        "retail": 431,
+        "other": 138,
+        "product": 4,
+        "retail": 438,
         "engineering": 17,
         "marketing": 9,
         "executive": 4,
         "hr": 1,
-        "operations": 393
+        "operations": 399
       },
       "seniority": {
-        "junior": 739,
-        "manager": 140,
-        "mid": 26,
+        "junior": 751,
+        "manager": 137,
+        "mid": 24,
         "c-suite": 15,
         "intern": 3,
-        "lead": 163,
+        "lead": 165,
         "senior": 17
       },
       "locations": [
-        "Santa Monica, California, United States",
-        "Minnetonka, Minnesota, United States",
-        "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
-        "New York, New York, United States",
-        "Toronto Eaton Centre, Toronto, ON (10040)",
-        "Germantown, Tennessee, United States",
-        "Southpark Mall, Charlotte, NC (10032)",
-        "UTC Sarasota, Sarasota, FL (10091)",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
-        "San Ramon, California, United States",
-        "Harbor East, Baltimore, MD (10105)",
-        "Orlando, Florida, United States",
-        "Mall at Green Hills, Nashville, TN (10079)",
-        "Laval, Quebec, Canada",
-        "White Plains, New York, United States",
-        "Century City, Los Angeles, CA (10101)",
-        "Roma, Rome, Italy",
-        "Lexington, Kentucky, United States",
-        "Huntington Station, New York, United States"
+        "Seaport Square, Boston, MA (10017)",
+        "Jordan Creek, West Des Moines, IA (10178)",
+        "Torrance, California, United States",
+        "Brea, California, United States",
+        "Cologne, North Rhine-Westphalia, Germany",
+        "Durham, North Carolina, United States",
+        "Princeton, New Jersey, United States",
+        "Sydney ",
+        "Newbury Street, Boston, MA (10041)",
+        "Birmingham, Alabama, United States",
+        "Gilbert, Arizona, United States",
+        "Rice Village, Houston, TX (10151)",
+        "Lynnfield, Massachusetts, United States",
+        "Canoga Park, California, United States",
+        "West Edmonton Mall, Edmonton, AB (10050)",
+        "Fashion Show, Las Vegas, NV (10180)",
+        "Phoenix, Arizona, United States",
+        "Paris, Paris, France",
+        "Aventura, Florida, United States",
+        "Frisco, Texas, United States"
       ],
       "jobs": [
         {
@@ -95,16 +95,6 @@
           "location": "Beverly Hills, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5623418004?gh_jid=5623418004",
-          "posted_at": "2026-08-20T18:16:29-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "6119033004",
-          "title": "Asset Protection Specialist - Rockefeller Center",
-          "location": "Rockefeller Center, New York, NY (10022)",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6119033004?gh_jid=6119033004",
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "other",
           "seniority": "mid"
@@ -548,18 +538,28 @@
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "engineering",
           "seniority": "manager"
+        },
+        {
+          "id": "5779072004",
+          "title": "Engineering Manager, Platform Engineering",
+          "location": "San Ramon, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5779072004?gh_jid=5779072004",
+          "posted_at": "2026-08-20T18:16:29-04:00",
+          "category": "engineering",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-01T05:30:07.736538"
+      "checked_at": "2026-09-02T05:30:07.251505"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 17,
-      "change_from_last": -3,
+      "total_jobs": 18,
+      "change_from_last": 1,
       "departments": {
         "executive": 2,
-        "other": 4,
+        "other": 5,
         "engineering": 6,
         "finance": 2,
         "operations": 1,
@@ -568,19 +568,19 @@
       "seniority": {
         "c-suite": 1,
         "manager": 4,
-        "mid": 5,
+        "mid": 6,
         "lead": 5,
         "junior": 1,
         "senior": 1
       },
       "locations": [
-        "New York; New York, New York, United States; New York, New York, United States",
         "London; Solihull, England, United Kingdom",
-        "New York, New York, United States",
         "Solihull, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands",
         "Roosevelt, New York, United States",
-        "London"
+        "London",
+        "New York, New York, United States",
+        "New York; New York, New York, United States; New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands"
       ],
       "jobs": [
         {
@@ -602,6 +602,16 @@
           "posted_at": "2026-08-13T13:45:21-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "4964048101",
+          "title": "Ecommerce Executive",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4964048101",
+          "posted_at": "2026-09-01T14:42:51-04:00",
+          "category": "other",
+          "seniority": "mid"
         },
         {
           "id": "4927186101",
@@ -679,7 +689,7 @@
           "location": "London; Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4958803101",
-          "posted_at": "2026-08-31T08:21:16-04:00",
+          "posted_at": "2026-09-01T09:29:19-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -754,7 +764,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-01T05:30:09.896641"
+      "checked_at": "2026-09-02T05:30:09.477073"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -812,50 +822,50 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 305,
-      "change_from_last": 0,
+      "total_jobs": 306,
+      "change_from_last": 1,
       "departments": {
-        "engineering": 33,
+        "engineering": 32,
         "other": 52,
-        "retail": 155,
-        "marketing": 20,
+        "retail": 157,
+        "marketing": 21,
         "product": 5,
         "operations": 7,
-        "executive": 7,
+        "executive": 6,
         "design": 19,
         "finance": 5,
         "hr": 2
       },
       "seniority": {
         "mid": 89,
-        "lead": 173,
-        "c-suite": 9,
+        "lead": 175,
+        "c-suite": 8,
         "vp": 1,
         "manager": 3,
         "intern": 1,
         "senior": 29
       },
       "locations": [
-        "Palo Alto",
-        "Zurich",
-        "Newport Beach",
-        "Los Angeles",
-        "Austin",
+        "Miami",
+        "Chengdu",
+        "San Francisco",
+        "London",
         "Cirebon",
-        "Dallas",
         "Milan",
-        "Boston",
-        "Rio de Janeiro",
-        "Southlake",
-        "San Diego",
-        "Landquart",
-        "Shanghai",
-        "Sydney",
-        "Las Vegas",
-        "Chicago",
+        "Shenzhen",
+        "Newport Beach",
         "New York City",
-        "Macao",
-        "Nanjing"
+        "Seoul",
+        "Landquart",
+        "Guangzhou",
+        "Stockholm",
+        "London; Zurich",
+        "Las Vegas",
+        "D\u00fcsseldorf",
+        "Wuhan",
+        "Austin",
+        "Melbourne",
+        "S\u00e3o Paulo"
       ],
       "jobs": [
         {
@@ -1119,16 +1129,6 @@
           "seniority": "c-suite"
         },
         {
-          "id": "7699563",
-          "title": "Director of Innovation Management & Strategy",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7699563?gh_jid=7699563",
-          "posted_at": "2026-08-31T11:04:13-04:00",
-          "category": "executive",
-          "seniority": "c-suite"
-        },
-        {
           "id": "7430793",
           "title": "Director of Real Estate & Development APAC",
           "location": "Shanghai",
@@ -1357,10 +1357,20 @@
           "posted_at": "2026-08-31T11:04:13-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "7984641",
+          "title": "Lead - Accessories Developer  (Technical) Bags",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7984641?gh_jid=7984641",
+          "posted_at": "2026-08-31T11:04:13-04:00",
+          "category": "engineering",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-01T05:30:19.219400"
+      "checked_at": "2026-09-02T05:30:21.947992"
     }
   },
-  "generated_at": "2026-09-01T05:30:21.219604"
+  "generated_at": "2026-09-02T05:30:23.948156"
 }
