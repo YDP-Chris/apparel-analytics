@@ -1,25 +1,18 @@
 {
-  "generated_at": "2026-09-05T06:20:05.156137",
-  "total_products": 69063,
+  "generated_at": "2026-09-06T08:30:08.285312",
+  "total_products": 69009,
   "date_range": {
     "start": "2014-07-03",
     "end": "2026-09-05"
   },
   "velocity": {
     "weekly": {
-      "twopood": {
-        "mean": 0.5597964376590331,
-        "stdev": 1.3802957237444726,
-        "max": 14,
-        "total": 220,
-        "periods_active": 99
-      },
-      "lululemon": {
-        "mean": 12.979643765903308,
-        "stdev": 127.60995496031967,
-        "max": 2379,
-        "total": 5101,
-        "periods_active": 18
+      "schiek": {
+        "mean": 0.5826972010178118,
+        "stdev": 6.647763614471803,
+        "max": 112,
+        "total": 229,
+        "periods_active": 30
       },
       "optimum_nutrition": {
         "mean": 1.3689567430025444,
@@ -28,41 +21,6 @@
         "total": 538,
         "periods_active": 2
       },
-      "sbd": {
-        "mean": 1.1374045801526718,
-        "stdev": 10.838162468591769,
-        "max": 206,
-        "total": 447,
-        "periods_active": 30
-      },
-      "tenthousand": {
-        "mean": 0.6335877862595419,
-        "stdev": 5.869594048043701,
-        "max": 89,
-        "total": 249,
-        "periods_active": 26
-      },
-      "goruck": {
-        "mean": 5.748091603053435,
-        "stdev": 97.03213307799152,
-        "max": 1924,
-        "total": 2259,
-        "periods_active": 150
-      },
-      "hayabusa": {
-        "mean": 1.381679389312977,
-        "stdev": 14.087440861618537,
-        "max": 277,
-        "total": 543,
-        "periods_active": 100
-      },
-      "slingshot": {
-        "mean": 0.25190839694656486,
-        "stdev": 1.4015853530169171,
-        "max": 23,
-        "total": 99,
-        "periods_active": 42
-      },
       "venum": {
         "mean": 12.287531806615776,
         "stdev": 115.85915214157193,
@@ -70,96 +28,19 @@
         "total": 4829,
         "periods_active": 147
       },
-      "gymreapers": {
-        "mean": 5.374045801526718,
-        "stdev": 51.72863887406282,
-        "max": 1021,
-        "total": 2112,
-        "periods_active": 177
-      },
-      "bear_grips": {
-        "mean": 12.488549618320612,
-        "stdev": 125.12785500497533,
-        "max": 2451,
-        "total": 4908,
-        "periods_active": 84
-      },
-      "schiek": {
-        "mean": 0.5826972010178118,
-        "stdev": 6.647763614471803,
-        "max": 112,
-        "total": 229,
-        "periods_active": 30
-      },
-      "vuori": {
-        "mean": 12.241730279898219,
-        "stdev": 145.41038017385353,
-        "max": 2816,
-        "total": 4811,
-        "periods_active": 27
-      },
-      "harbinger": {
-        "mean": 0.27989821882951654,
-        "stdev": 2.915130828061788,
-        "max": 46,
-        "total": 110,
-        "periods_active": 6
-      },
-      "everlast": {
-        "mean": 1.6030534351145038,
-        "stdev": 17.468198242418225,
-        "max": 315,
-        "total": 630,
-        "periods_active": 30
-      },
-      "asrv": {
-        "mean": 8.992366412213741,
-        "stdev": 90.70043450353866,
-        "max": 1788,
-        "total": 3534,
-        "periods_active": 128
-      },
-      "gymshark": {
-        "mean": 27.633587786259543,
-        "stdev": 235.9031128766661,
-        "max": 4401,
-        "total": 10860,
-        "periods_active": 31
-      },
-      "alo": {
-        "mean": 22.56234096692112,
-        "stdev": 192.04660841230483,
-        "max": 3662,
-        "total": 8867,
-        "periods_active": 160
-      },
       "oner_active": {
-        "mean": 9.60559796437659,
-        "stdev": 22.596384693926463,
+        "mean": 9.541984732824428,
+        "stdev": 22.545733410789246,
         "max": 132,
-        "total": 3775,
+        "total": 3750,
         "periods_active": 126
       },
-      "ghost": {
-        "mean": 2.4707379134860052,
-        "stdev": 24.782621950261937,
-        "max": 486,
-        "total": 971,
-        "periods_active": 93
-      },
-      "on_running": {
-        "mean": 26.938931297709924,
-        "stdev": 282.049118851262,
-        "max": 3860,
-        "total": 10587,
+      "lululemon": {
+        "mean": 12.979643765903308,
+        "stdev": 127.60995496031967,
+        "max": 2379,
+        "total": 5101,
         "periods_active": 18
-      },
-      "outdoor_voices": {
-        "mean": 3.1653944020356235,
-        "stdev": 22.42380803397497,
-        "max": 312,
-        "total": 1244,
-        "periods_active": 45
       },
       "dfyne": {
         "mean": 5.078880407124682,
@@ -168,28 +49,140 @@
         "total": 1996,
         "periods_active": 88
       },
+      "gymshark": {
+        "mean": 27.633587786259543,
+        "stdev": 235.9031128766661,
+        "max": 4401,
+        "total": 10860,
+        "periods_active": 31
+      },
+      "bear_grips": {
+        "mean": 12.488549618320612,
+        "stdev": 125.12785500497533,
+        "max": 2451,
+        "total": 4908,
+        "periods_active": 84
+      },
+      "harbinger": {
+        "mean": 0.27989821882951654,
+        "stdev": 2.915130828061788,
+        "max": 46,
+        "total": 110,
+        "periods_active": 6
+      },
+      "outdoor_voices": {
+        "mean": 3.1653944020356235,
+        "stdev": 22.42380803397497,
+        "max": 312,
+        "total": 1244,
+        "periods_active": 45
+      },
+      "ghost": {
+        "mean": 2.4707379134860052,
+        "stdev": 24.782621950261937,
+        "max": 486,
+        "total": 971,
+        "periods_active": 93
+      },
+      "vuori": {
+        "mean": 12.241730279898219,
+        "stdev": 145.41038017385353,
+        "max": 2816,
+        "total": 4811,
+        "periods_active": 27
+      },
+      "twopood": {
+        "mean": 0.5597964376590331,
+        "stdev": 1.3802957237444726,
+        "max": 14,
+        "total": 220,
+        "periods_active": 99
+      },
+      "on_running": {
+        "mean": 26.938931297709924,
+        "stdev": 282.049118851262,
+        "max": 3860,
+        "total": 10587,
+        "periods_active": 18
+      },
+      "gymreapers": {
+        "mean": 5.374045801526718,
+        "stdev": 51.72863887406282,
+        "max": 1021,
+        "total": 2112,
+        "periods_active": 177
+      },
       "inzer": {
         "mean": 0.366412213740458,
         "stdev": 2.2310635340374483,
         "max": 24,
         "total": 144,
         "periods_active": 40
+      },
+      "slingshot": {
+        "mean": 0.25190839694656486,
+        "stdev": 1.4015853530169171,
+        "max": 23,
+        "total": 99,
+        "periods_active": 42
+      },
+      "asrv": {
+        "mean": 8.992366412213741,
+        "stdev": 90.70043450353866,
+        "max": 1788,
+        "total": 3534,
+        "periods_active": 128
+      },
+      "sbd": {
+        "mean": 1.1374045801526718,
+        "stdev": 10.838162468591769,
+        "max": 206,
+        "total": 447,
+        "periods_active": 30
+      },
+      "hayabusa": {
+        "mean": 1.381679389312977,
+        "stdev": 14.087440861618537,
+        "max": 277,
+        "total": 543,
+        "periods_active": 100
+      },
+      "alo": {
+        "mean": 22.48854961832061,
+        "stdev": 191.9138053126317,
+        "max": 3662,
+        "total": 8838,
+        "periods_active": 160
+      },
+      "goruck": {
+        "mean": 5.748091603053435,
+        "stdev": 97.03213307799152,
+        "max": 1924,
+        "total": 2259,
+        "periods_active": 150
+      },
+      "everlast": {
+        "mean": 1.6030534351145038,
+        "stdev": 17.468198242418225,
+        "max": 315,
+        "total": 630,
+        "periods_active": 30
+      },
+      "tenthousand": {
+        "mean": 0.6335877862595419,
+        "stdev": 5.869594048043701,
+        "max": 89,
+        "total": 249,
+        "periods_active": 26
       }
     },
     "monthly": {
-      "twopood": {
-        "mean": 1.9469026548672566,
-        "stdev": 3.237174440234994,
-        "max": 18,
-        "total": 220,
-        "periods_active": 60
-      },
-      "lululemon": {
-        "mean": 45.14159292035398,
-        "stdev": 258.3881309213165,
-        "max": 2379,
-        "total": 5101,
-        "periods_active": 5
+      "schiek": {
+        "mean": 2.0265486725663715,
+        "stdev": 12.576523038263987,
+        "max": 112,
+        "total": 229,
+        "periods_active": 22
       },
       "optimum_nutrition": {
         "mean": 4.761061946902655,
@@ -198,41 +191,6 @@
         "total": 538,
         "periods_active": 2
       },
-      "sbd": {
-        "mean": 3.9557522123893807,
-        "stdev": 21.781130997023126,
-        "max": 226,
-        "total": 447,
-        "periods_active": 25
-      },
-      "tenthousand": {
-        "mean": 2.2035398230088497,
-        "stdev": 11.138863185804047,
-        "max": 90,
-        "total": 249,
-        "periods_active": 11
-      },
-      "goruck": {
-        "mean": 19.991150442477878,
-        "stdev": 181.99923938102546,
-        "max": 1937,
-        "total": 2259,
-        "periods_active": 68
-      },
-      "hayabusa": {
-        "mean": 4.8053097345132745,
-        "stdev": 26.47399613875838,
-        "max": 280,
-        "total": 543,
-        "periods_active": 64
-      },
-      "slingshot": {
-        "mean": 0.8761061946902655,
-        "stdev": 2.639442390255779,
-        "max": 23,
-        "total": 99,
-        "periods_active": 35
-      },
       "venum": {
         "mean": 42.73451327433628,
         "stdev": 233.991224564509,
@@ -240,96 +198,19 @@
         "total": 4829,
         "periods_active": 62
       },
-      "gymreapers": {
-        "mean": 18.690265486725664,
-        "stdev": 96.52184057489062,
-        "max": 1023,
-        "total": 2112,
-        "periods_active": 82
-      },
-      "bear_grips": {
-        "mean": 43.43362831858407,
-        "stdev": 238.02366614425858,
-        "max": 2451,
-        "total": 4908,
-        "periods_active": 35
-      },
-      "schiek": {
-        "mean": 2.0265486725663715,
-        "stdev": 12.576523038263987,
-        "max": 112,
-        "total": 229,
-        "periods_active": 22
-      },
-      "vuori": {
-        "mean": 42.575221238938056,
-        "stdev": 309.69362179504276,
-        "max": 3245,
-        "total": 4811,
-        "periods_active": 8
-      },
-      "harbinger": {
-        "mean": 0.9734513274336283,
-        "stdev": 6.320968756266646,
-        "max": 47,
-        "total": 110,
-        "periods_active": 4
-      },
-      "everlast": {
-        "mean": 5.575221238938053,
-        "stdev": 32.963401054842656,
-        "max": 321,
-        "total": 630,
-        "periods_active": 17
-      },
-      "asrv": {
-        "mean": 31.27433628318584,
-        "stdev": 171.1650857144526,
-        "max": 1813,
-        "total": 3534,
-        "periods_active": 65
-      },
-      "gymshark": {
-        "mean": 96.10619469026548,
-        "stdev": 616.3827278513132,
-        "max": 6263,
-        "total": 10860,
-        "periods_active": 8
-      },
-      "alo": {
-        "mean": 78.46902654867256,
-        "stdev": 403.4528665779149,
-        "max": 4136,
-        "total": 8867,
-        "periods_active": 76
-      },
       "oner_active": {
-        "mean": 33.4070796460177,
-        "stdev": 52.43339945113733,
-        "max": 235,
-        "total": 3775,
+        "mean": 33.1858407079646,
+        "stdev": 51.9973468884585,
+        "max": 233,
+        "total": 3750,
         "periods_active": 62
       },
-      "ghost": {
-        "mean": 8.5929203539823,
-        "stdev": 48.148512283822285,
-        "max": 508,
-        "total": 971,
-        "periods_active": 46
-      },
-      "on_running": {
-        "mean": 93.69026548672566,
-        "stdev": 718.2095928622739,
-        "max": 7368,
-        "total": 10587,
-        "periods_active": 7
-      },
-      "outdoor_voices": {
-        "mean": 11.008849557522124,
-        "stdev": 48.29642392396394,
-        "max": 408,
-        "total": 1244,
-        "periods_active": 25
+      "lululemon": {
+        "mean": 45.14159292035398,
+        "stdev": 258.3881309213165,
+        "max": 2379,
+        "total": 5101,
+        "periods_active": 5
       },
       "dfyne": {
         "mean": 17.663716814159294,
@@ -338,12 +219,131 @@
         "total": 1996,
         "periods_active": 41
       },
+      "gymshark": {
+        "mean": 96.10619469026548,
+        "stdev": 616.3827278513132,
+        "max": 6263,
+        "total": 10860,
+        "periods_active": 8
+      },
+      "bear_grips": {
+        "mean": 43.43362831858407,
+        "stdev": 238.02366614425858,
+        "max": 2451,
+        "total": 4908,
+        "periods_active": 35
+      },
+      "harbinger": {
+        "mean": 0.9734513274336283,
+        "stdev": 6.320968756266646,
+        "max": 47,
+        "total": 110,
+        "periods_active": 4
+      },
+      "outdoor_voices": {
+        "mean": 11.008849557522124,
+        "stdev": 48.29642392396394,
+        "max": 408,
+        "total": 1244,
+        "periods_active": 25
+      },
+      "ghost": {
+        "mean": 8.5929203539823,
+        "stdev": 48.148512283822285,
+        "max": 508,
+        "total": 971,
+        "periods_active": 46
+      },
+      "vuori": {
+        "mean": 42.575221238938056,
+        "stdev": 309.69362179504276,
+        "max": 3245,
+        "total": 4811,
+        "periods_active": 8
+      },
+      "twopood": {
+        "mean": 1.9469026548672566,
+        "stdev": 3.237174440234994,
+        "max": 18,
+        "total": 220,
+        "periods_active": 60
+      },
+      "on_running": {
+        "mean": 93.69026548672566,
+        "stdev": 718.2095928622739,
+        "max": 7368,
+        "total": 10587,
+        "periods_active": 7
+      },
+      "gymreapers": {
+        "mean": 18.690265486725664,
+        "stdev": 96.52184057489062,
+        "max": 1023,
+        "total": 2112,
+        "periods_active": 82
+      },
       "inzer": {
         "mean": 1.2743362831858407,
         "stdev": 6.148820716798668,
         "max": 53,
         "total": 144,
         "periods_active": 30
+      },
+      "slingshot": {
+        "mean": 0.8761061946902655,
+        "stdev": 2.639442390255779,
+        "max": 23,
+        "total": 99,
+        "periods_active": 35
+      },
+      "asrv": {
+        "mean": 31.27433628318584,
+        "stdev": 171.1650857144526,
+        "max": 1813,
+        "total": 3534,
+        "periods_active": 65
+      },
+      "sbd": {
+        "mean": 3.9557522123893807,
+        "stdev": 21.781130997023126,
+        "max": 226,
+        "total": 447,
+        "periods_active": 25
+      },
+      "hayabusa": {
+        "mean": 4.8053097345132745,
+        "stdev": 26.47399613875838,
+        "max": 280,
+        "total": 543,
+        "periods_active": 64
+      },
+      "alo": {
+        "mean": 78.21238938053098,
+        "stdev": 403.1389660111775,
+        "max": 4136,
+        "total": 8838,
+        "periods_active": 76
+      },
+      "goruck": {
+        "mean": 19.991150442477878,
+        "stdev": 181.99923938102546,
+        "max": 1937,
+        "total": 2259,
+        "periods_active": 68
+      },
+      "everlast": {
+        "mean": 5.575221238938053,
+        "stdev": 32.963401054842656,
+        "max": 321,
+        "total": 630,
+        "periods_active": 17
+      },
+      "tenthousand": {
+        "mean": 2.2035398230088497,
+        "stdev": 11.138863185804047,
+        "max": 90,
+        "total": 249,
+        "periods_active": 11
       }
     }
   },
@@ -353,8 +353,8 @@
         "period": "2026-08-24",
         "brand": "oner_active",
         "count": 91,
-        "mean": 9.60559796437659,
-        "multiple": 9.47364238410596,
+        "mean": 9.541984732824428,
+        "multiple": 9.5368,
         "top_types": [
           [
             "Sportswear/Bras/",
@@ -513,8 +513,8 @@
         "period": "2026-08-31",
         "brand": "oner_active",
         "count": 132,
-        "mean": 9.60559796437659,
-        "multiple": 13.741986754966888,
+        "mean": 9.541984732824428,
+        "multiple": 13.833599999999999,
         "top_types": [
           [
             "Sportswear/Bras/",
@@ -704,8 +704,8 @@
         "period": "2026-08",
         "brand": "oner_active",
         "count": 182,
-        "mean": 33.4070796460177,
-        "multiple": 5.4479470198675495,
+        "mean": 33.1858407079646,
+        "multiple": 5.484266666666667,
         "top_types": [
           [
             "Sportswear/Bras/",
@@ -818,11 +818,11 @@
       },
       {
         "week": "2026-07-06",
-        "total": 780,
+        "total": 781,
         "by_brand": {
           "venum": 2,
           "ghost": 1,
-          "alo": 335,
+          "alo": 336,
           "twopood": 2,
           "dfyne": 14,
           "hayabusa": 4,
@@ -1029,7 +1029,7 @@
       },
       {
         "month": "2025-12",
-        "total": 1025,
+        "total": 1023,
         "by_brand": {
           "venum": 113,
           "slingshot": 10,
@@ -1046,12 +1046,12 @@
           "dfyne": 13,
           "outdoor_voices": 2,
           "goruck": 16,
-          "oner_active": 235
+          "oner_active": 233
         }
       },
       {
         "month": "2026-01",
-        "total": 610,
+        "total": 608,
         "by_brand": {
           "venum": 15,
           "slingshot": 5,
@@ -1067,7 +1067,7 @@
           "outdoor_voices": 19,
           "hayabusa": 6,
           "goruck": 11,
-          "oner_active": 220
+          "oner_active": 218
         }
       },
       {
@@ -1095,11 +1095,11 @@
       },
       {
         "month": "2026-03",
-        "total": 5196,
+        "total": 5180,
         "by_brand": {
           "venum": 15,
           "ghost": 46,
-          "alo": 818,
+          "alo": 802,
           "bear_grips": 60,
           "gymreapers": 61,
           "twopood": 9,
@@ -1145,7 +1145,7 @@
       },
       {
         "month": "2026-05",
-        "total": 1841,
+        "total": 1824,
         "by_brand": {
           "venum": 72,
           "slingshot": 1,
@@ -1158,7 +1158,7 @@
           "sbd": 23,
           "dfyne": 26,
           "goruck": 8,
-          "oner_active": 136,
+          "oner_active": 119,
           "vuori": 124,
           "outdoor_voices": 53,
           "lululemon": 534,
@@ -1195,11 +1195,11 @@
       },
       {
         "month": "2026-07",
-        "total": 2759,
+        "total": 2760,
         "by_brand": {
           "venum": 6,
           "ghost": 26,
-          "alo": 367,
+          "alo": 368,
           "gymreapers": 40,
           "twopood": 11,
           "tenthousand": 2,
