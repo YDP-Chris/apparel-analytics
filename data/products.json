@@ -239,11 +239,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4892,
+      "total": 4896,
       "categories": {
         "other": 849,
-        "bottoms": 1819,
-        "tops": 583,
+        "bottoms": 1822,
+        "tops": 584,
         "sports_bras": 340,
         "accessories": 432,
         "outerwear": 694,
@@ -256,20 +256,20 @@
         "tanks": 272,
         "shorts": 427,
         "hats": 151,
-        "sweatpants": 217,
+        "sweatpants": 219,
         "hoodies": 228,
         "running": 32,
         "long_sleeve": 40,
         "pants": 251,
         "tees": 56,
         "pullovers": 170,
-        "skirts": 139,
+        "skirts": 140,
         "jackets": 189,
         "bags": 2,
         "socks": 193,
         "bralette": 12,
         "polos": 14,
-        "crop_tops": 189,
+        "crop_tops": 190,
         "casual_dress": 65,
         "tennis_dress": 33,
         "headwear": 52,
@@ -279,16 +279,16 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3058,
-        "womens": 1525,
+        "unisex": 3061,
+        "womens": 1526,
         "mens": 309
       },
       "colors": {
         "navy": 198,
-        "black": 1060,
+        "black": 1062,
         "white": 941,
         "gray": 509,
-        "khaki": 134,
+        "khaki": 136,
         "pink": 245,
         "blue": 254,
         "purple": 40,
@@ -302,9 +302,9 @@
         "multi": 4,
         "camo": 1
       },
-      "colorCoverage": 88.3,
+      "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3006
+      "uniqueStyles": 3008
     },
     "gymshark": {
       "name": "Gymshark",
@@ -766,15 +766,15 @@
     "optimum_nutrition": {
       "name": "optimum_nutrition",
       "slug": "optimum_nutrition",
-      "total": 538,
+      "total": 539,
       "categories": {
-        "other": 538
+        "other": 539
       },
       "subcategories": {
-        "other": 538
+        "other": 539
       },
       "genders": {
-        "unisex": 490,
+        "unisex": 491,
         "womens": 40,
         "mens": 8
       },
@@ -1058,12 +1058,58 @@
     }
   },
   "totals": {
-    "products": 49778,
+    "products": 49783,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-09-07",
+      "brand": "optimum_nutrition",
+      "brandSlug": "optimum_nutrition",
+      "count": 1,
+      "products": [
+        {
+          "name": "bundle product 120",
+          "url": "https://www.optimumnutrition.com/ja-jp/products/bundle-product-120",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 4,
+      "products": [
+        {
+          "name": "7 8 easy sweatpant",
+          "url": "https://www.aloyoga.com/products/w51067r-7-8-easy-sweatpant-black",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "soho sweatpant",
+          "url": "https://www.aloyoga.com/products/w5912r-soho-sweatpant-oatmeal-heather",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "jacquard glenplaid tennis skirt titanium",
+          "url": "https://www.aloyoga.com/products/w6278r-jacquard-glenplaid-tennis-skirt-titanium-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "alolux cropped me time cardigan",
+          "url": "https://www.aloyoga.com/products/w3775r-alolux-cropped-me-time-cardigan-oatmeal-heather",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "brand": "On Running",
@@ -6295,232 +6341,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-08-23",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 3,
-      "products": [
-        {
-          "name": "short sleeve torrey golf polo frost",
-          "url": "https://vuoriclothing.com/products/short-sleeve-torrey-golf-polo-frost-grey",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve torrey golf polo",
-          "url": "https://vuoriclothing.com/products/short-sleeve-torrey-golf-polo-navy",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "hume dry body oil mist 2 0 desert bloom",
-          "url": "https://vuoriclothing.com/products/womens-hume-dry-body-oil-mist-2-0-desert-bloom",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 32,
-      "products": [
-        {
-          "name": "gymshark training ruche arm tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-ruche-arm-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe zip through hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-zip-through-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe sweatshirt pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-luxe-sweatshirt-pullovers-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-brown-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-running-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark hybrid track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-hybrid-track-jacket-jackets-outerwear-pink-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark hybrid track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-hybrid-track-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark training ruche arm tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-ruche-arm-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-track-jacket-jackets-outerwear-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe zip through hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-luxe-zip-through-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy luxe sweatshirt pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-luxe-sweatshirt-pullovers-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-brown-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-running-jacket-jackets-outerwear-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark cosy campus full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-cosy-campus-full-zip-hoodie-pullovers-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running back vent tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-running-back-vent-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running back vent tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-running-back-vent-tank-sleeveless-tops-pink-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-running-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark hybrid track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-hybrid-track-jacket-jackets-outerwear-pink-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark hybrid track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-hybrid-track-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-track-jacket-jackets-outerwear-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-running-jacket-jackets-outerwear-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running back vent tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-running-back-vent-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark running back vent tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-running-back-vent-tank-sleeveless-tops-pink-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lightweight high support sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-lightweight-high-support-sports-bra-sports-bras-purple-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark conditioning club tank sleeveless tops aw26 a2b4u wfz9",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tank-sleeveless-tops-white-aw26-a2b4u-wfz9",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tank sleeveless tops aw26 a2b4u uflj",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tank-sleeveless-tops-blue-aw26-a2b4u-uflj",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark lightweight high support sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-lightweight-high-support-sports-bra-sports-bras-purple-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark conditioning club tank sleeveless tops aw26 a2b4u wfz9",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tank-sleeveless-tops-white-aw26-a2b4u-wfz9",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tank sleeveless tops aw26 a2b4u uflj",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tank-sleeveless-tops-blue-aw26-a2b4u-uflj",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6846,7 +6666,8 @@
       "2026-08-09": 1,
       "2026-08-13": 2,
       "2026-08-19": 1,
-      "2026-09-01": 39
+      "2026-09-01": 39,
+      "2026-09-06": 4
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -7078,7 +6899,8 @@
     "optimum_nutrition": {
       "2026-08-30": 529,
       "2026-09-01": 8,
-      "2026-09-04": 1
+      "2026-09-04": 1,
+      "2026-09-07": 1
     },
     "ghost": {
       "2026-08-30": 486,
@@ -7110,7 +6932,7 @@
       "outdoor_voices": 304,
       "tenthousand": 86,
       "lululemon": 1732,
-      "alo": 1819,
+      "alo": 1822,
       "gymshark": 3859,
       "on_running": 1735,
       "gymreapers": 224,
@@ -7130,7 +6952,7 @@
       "outdoor_voices": 85,
       "tenthousand": 48,
       "lululemon": 835,
-      "alo": 583,
+      "alo": 584,
       "gymshark": 3554,
       "on_running": 711,
       "gymreapers": 236,
@@ -7180,7 +7002,7 @@
       "bear_grips": 254,
       "asrv": 328,
       "goruck": 1105,
-      "optimum_nutrition": 538,
+      "optimum_nutrition": 539,
       "ghost": 322,
       "hayabusa": 89,
       "venum": 795,
@@ -7346,7 +7168,7 @@
       "bear_grips": 471,
       "asrv": 434,
       "goruck": 1297,
-      "optimum_nutrition": 538,
+      "optimum_nutrition": 539,
       "ghost": 332,
       "hayabusa": 181,
       "venum": 1435,
@@ -7473,7 +7295,7 @@
       "vuori": 45,
       "outdoor_voices": 41,
       "lululemon": 103,
-      "alo": 139,
+      "alo": 140,
       "gymshark": 2,
       "on_running": 44,
       "bear_grips": 3,
@@ -7496,7 +7318,7 @@
       "vuori": 10,
       "outdoor_voices": 17,
       "lululemon": 96,
-      "alo": 189,
+      "alo": 190,
       "gymshark": 180,
       "on_running": 218,
       "gymreapers": 16,
@@ -7538,7 +7360,7 @@
       "outdoor_voices": 24,
       "tenthousand": 2,
       "lululemon": 4,
-      "alo": 217,
+      "alo": 219,
       "on_running": 39,
       "bear_grips": 27,
       "asrv": 8,
@@ -7676,7 +7498,7 @@
     "black": {
       "vuori": 896,
       "outdoor_voices": 101,
-      "alo": 1060,
+      "alo": 1062,
       "gymshark": 2505,
       "on_running": 1629,
       "gymreapers": 132,
@@ -7695,7 +7517,7 @@
     "khaki": {
       "vuori": 221,
       "outdoor_voices": 10,
-      "alo": 134,
+      "alo": 136,
       "gymshark": 2,
       "on_running": 223,
       "gymreapers": 60,
@@ -7933,9 +7755,9 @@
       "tops": 11.9,
       "outerwear": 14.2,
       "dresses": 2.7,
-      "sports_bras": 7,
+      "sports_bras": 6.9,
       "accessories": 8.8,
-      "other": 17.4
+      "other": 17.3
     },
     {
       "brand": "Vuori",
@@ -8168,7 +7990,7 @@
       "navy": 4,
       "blue": 5.2,
       "green": 6.5,
-      "khaki": 2.7,
+      "khaki": 2.8,
       "brown": 6.1,
       "purple": 0.8,
       "pink": 5,
@@ -8327,7 +8149,7 @@
       "pink": 0,
       "orange": 0,
       "red": 1.3,
-      "yellow": 25.3,
+      "yellow": 25.2,
       "other": 0
     },
     {
@@ -8515,7 +8337,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 44,968 competitor products tracked. Vuori's 4,810 = 10% share of tracked catalog."
+      "text": "Market context: 44,973 competitor products tracked. Vuori's 4,810 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8659,10 +8481,10 @@
       {
         "category": "Women's Products",
         "vuori": 2242,
-        "competitor": 1525,
+        "competitor": 1526,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-09-06T13:15:11.416Z"
+  "generated_at": "2026-09-07T13:15:10.957Z"
 }
