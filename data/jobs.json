@@ -3,8 +3,8 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1085,
-      "change_from_last": 0,
+      "total_jobs": 1081,
+      "change_from_last": -4,
       "departments": {
         "design": 84,
         "finance": 6,
@@ -15,38 +15,38 @@
         "marketing": 9,
         "executive": 4,
         "hr": 1,
-        "operations": 401
+        "operations": 397
       },
       "seniority": {
-        "junior": 739,
+        "junior": 738,
         "manager": 132,
-        "mid": 23,
-        "c-suite": 16,
+        "mid": 21,
+        "c-suite": 17,
+        "lead": 152,
         "intern": 3,
-        "lead": 153,
-        "senior": 19
+        "senior": 18
       },
       "locations": [
+        "Houston Galleria, Houston, TX (10037)",
+        "Ross Park Mall, Pittsburgh, PA (10065)",
+        "Dedham, Massachusetts, United States",
+        "Boulder, Colorado, United States",
         "Greenwich, Connecticut, United States",
-        "Market Mall, Calgary\u00c2, AB (10070)",
-        "Memphis Distribution Center, Southaven, MS (DC-MS)",
-        "West Palm Beach, Florida, United States",
-        "Huntington Station, New York, United States",
-        "Country Club Plaza, Kansas City, MO (10174)",
-        "Rice Village, Houston, TX (10151)",
-        "Chicago, Illinois, United States",
-        "Oakbrook Center, Oak Brook, IL (10015)",
-        "Tulsa, Oklahoma, United States",
-        "Old Orchard, Skokie, IL (10016)",
-        "The Gardens Mall, Palm Beach Gardens, FL (10036)",
-        "Manchester, England, United Kingdom",
-        "Mall at Green Hills, Nashville, TN (10079)",
-        "Beverly Hills, California, United States",
-        "Ardmore, Pennsylvania, United States",
-        "Chinook Centre, Calgary, AB (10048)",
-        "McLean, Virginia, United States",
-        "Los Angeles, California, United States",
-        "Chestnut Hill, Massachusetts, United States"
+        "Kenwood Towne Centre, Cincinnati, OH (10082)",
+        "Hamburg, Hamburg, Germany",
+        "Walnut Street, Philadelphia, PA (10058)",
+        "New York, New York, United States",
+        "Dumbo, Brooklyn, NY (10139)",
+        "Perimeter Mall, Atlanta, GA (10176)",
+        "Georgetown, Washington, DC (10029)",
+        "Berlin, Berlin, Germany",
+        "Brookfield, Wisconsin, United States",
+        "Santa Barbara, California, United States",
+        "Town Center Boca Raton, Boca Raton, FL (10090)",
+        "Brentwood Town & Country, Los Angeles, CA (10162)",
+        "Shop at Crystals, Las Vegas, NV (10095)",
+        "Walnut Creek, California, United States",
+        "The Gardens Mall, Palm Beach Gardens, FL (10036)"
       ],
       "jobs": [
         {
@@ -405,7 +405,7 @@
           "location": "Remote",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6111091004?gh_jid=6111091004",
-          "posted_at": "2026-08-31T19:58:32-04:00",
+          "posted_at": "2026-09-10T18:06:48-04:00",
           "category": "executive",
           "seniority": "c-suite"
         },
@@ -550,28 +550,36 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-10T05:30:07.834857"
+      "checked_at": "2026-09-11T05:30:07.920204"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": -1,
+      "total_jobs": 18,
+      "change_from_last": 5,
       "departments": {
-        "other": 4,
+        "other": 3,
         "design": 1,
         "engineering": 6,
         "executive": 1,
+        "operations": 1,
+        "retail": 5,
         "finance": 1
       },
       "seniority": {
-        "mid": 7,
+        "mid": 6,
         "lead": 4,
+        "c-suite": 1,
+        "junior": 5,
         "senior": 1,
         "manager": 1
       },
       "locations": [
-        "Solihull, England, United Kingdom"
+        "New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Trafford Park, England, United Kingdom",
+        "Solihull, England, United Kingdom",
+        "London"
       ],
       "jobs": [
         {
@@ -615,16 +623,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4958364101",
-          "title": "German Copywriter - FTC",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4958364101",
-          "posted_at": "2026-08-25T09:25:52-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "4963395101",
           "title": "Head of Digital Product",
           "location": "Solihull, England, United Kingdom",
@@ -655,6 +653,16 @@
           "seniority": "lead"
         },
         {
+          "id": "4972780101",
+          "title": "People Operations Coordinator",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4972780101",
+          "posted_at": "2026-09-10T12:00:00-04:00",
+          "category": "operations",
+          "seniority": "c-suite"
+        },
+        {
           "id": "4927258101",
           "title": "Product Developer (Seamless)",
           "location": "Solihull, England, United Kingdom",
@@ -673,6 +681,56 @@
           "posted_at": "2026-09-06T03:57:24-04:00",
           "category": "other",
           "seniority": "mid"
+        },
+        {
+          "id": "4947474101",
+          "title": "Seasonal Sales Associate - Kalverstraat, Amsterdam",
+          "location": "Amsterdam, North Holland, Netherlands",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4947474101",
+          "posted_at": "2026-09-10T19:00:10-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
+          "id": "4947425101",
+          "title": "Seasonal Sales Associate - Regent Street, London",
+          "location": "London",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4947425101",
+          "posted_at": "2026-09-10T19:00:10-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
+          "id": "4971604101",
+          "title": "Seasonal Sales Associates - Stratford Store , London",
+          "location": "London",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4971604101",
+          "posted_at": "2026-09-10T19:00:10-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
+          "id": "4947448101",
+          "title": "Seasonal Sales Associates - Trafford, Manchester",
+          "location": "Trafford Park, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4947448101",
+          "posted_at": "2026-09-10T19:00:10-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
+          "id": "4969101101",
+          "title": "Seasonal Sales Associates - White City Store , London",
+          "location": "London",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4969101101",
+          "posted_at": "2026-09-10T19:00:10-04:00",
+          "category": "retail",
+          "seniority": "junior"
         },
         {
           "id": "4863674101",
@@ -705,7 +763,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-10T05:30:12.622483"
+      "checked_at": "2026-09-11T05:30:10.060853"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -763,14 +821,14 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 313,
-      "change_from_last": 3,
+      "total_jobs": 309,
+      "change_from_last": -4,
       "departments": {
         "engineering": 29,
-        "other": 53,
-        "retail": 173,
+        "other": 48,
+        "retail": 175,
         "marketing": 16,
-        "product": 4,
+        "product": 3,
         "operations": 7,
         "executive": 8,
         "design": 16,
@@ -778,34 +836,34 @@
         "hr": 2
       },
       "seniority": {
-        "mid": 98,
-        "lead": 174,
-        "c-suite": 9,
+        "mid": 103,
+        "lead": 165,
+        "c-suite": 10,
         "intern": 1,
         "manager": 1,
-        "senior": 30
+        "senior": 29
       },
       "locations": [
+        "Hong Kong",
+        "Chicago",
         "Tianjin",
-        "Ho Chi Minh City",
-        "Palo Alto",
-        "Munich",
-        "Nanjing",
-        "Seattle",
-        "Central Valley",
-        "Southlake",
-        "Chengdu",
+        "Beijing",
+        "Corte Madera",
+        "Guangzhou",
+        "Philadelphia",
+        "Portland",
         "Tokyo",
         "McLean",
-        "San Francisco",
-        "Aventura",
-        "Milan",
+        "D\u00fcsseldorf",
+        "S\u00e3o Paulo",
+        "Stockholm",
+        "San Diego",
+        "Shenzhen",
+        "Zurich",
+        "Paris",
+        "Rio de Janeiro",
         "Wuhan",
-        "Dallas",
-        "Macao",
-        "Chicago",
-        "London; Zurich",
-        "Brooklyn"
+        "Sydney"
       ],
       "jobs": [
         {
@@ -817,16 +875,6 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "engineering",
           "seniority": "mid"
-        },
-        {
-          "id": "7764845",
-          "title": "Area Lead, Oceania",
-          "location": "Melbourne",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7764845?gh_jid=7764845",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "other",
-          "seniority": "lead"
         },
         {
           "id": "8119272",
@@ -944,7 +992,7 @@
           "location": "Rio de Janeiro",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8084595?gh_jid=8084595",
-          "posted_at": "2026-09-04T02:52:57-04:00",
+          "posted_at": "2026-09-10T14:28:23-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1119,44 +1167,14 @@
           "seniority": "mid"
         },
         {
-          "id": "8123088",
-          "title": "Full-Time Store Advisor, The Village at Corte Madera",
-          "location": "Corte Madera",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8123088?gh_jid=8123088",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "retail",
-          "seniority": "mid"
-        },
-        {
           "id": "7687729",
-          "title": "Global Head of Brand Events",
+          "title": "Global Director of Brand Events",
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7687729?gh_jid=7687729",
-          "posted_at": "2026-09-04T02:52:57-04:00",
+          "posted_at": "2026-09-10T11:32:32-04:00",
           "category": "marketing",
-          "seniority": "lead"
-        },
-        {
-          "id": "8173652",
-          "title": " Global Lead - Retail Merchandising, Distributors & GTM",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8173652?gh_jid=8173652",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8069314",
-          "title": "Global Merchandising Head Of Lifestyle & Special Projects",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8069314?gh_jid=8069314",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "product",
-          "seniority": "lead"
+          "seniority": "c-suite"
         },
         {
           "id": "7402412",
@@ -1307,10 +1325,50 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "other",
           "seniority": "lead"
+        },
+        {
+          "id": "7721446",
+          "title": "Lead - Apparel Graphic Design",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7721446?gh_jid=7721446",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "design",
+          "seniority": "lead"
+        },
+        {
+          "id": "7775612",
+          "title": "Lead - Apparel Testing",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7775612?gh_jid=7775612",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "8127271",
+          "title": "Lead - B2B Retail Marketing, China",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8127271?gh_jid=8127271",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "marketing",
+          "seniority": "lead"
+        },
+        {
+          "id": "7189234",
+          "title": "Lead Backend Engineer \u2013 POS Platforms Integration",
+          "location": "London",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7189234?gh_jid=7189234",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "engineering",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-10T05:30:27.538487"
+      "checked_at": "2026-09-11T05:30:19.341081"
     }
   },
-  "generated_at": "2026-09-10T05:30:29.538675"
+  "generated_at": "2026-09-11T05:30:21.341260"
 }
