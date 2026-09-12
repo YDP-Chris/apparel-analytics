@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1081,
-      "change_from_last": -4,
+      "total_jobs": 1083,
+      "change_from_last": 2,
       "departments": {
-        "design": 84,
+        "design": 85,
         "finance": 6,
-        "other": 133,
+        "other": 134,
         "product": 4,
-        "retail": 425,
-        "engineering": 18,
+        "retail": 426,
+        "engineering": 20,
         "marketing": 9,
         "executive": 4,
         "hr": 1,
-        "operations": 397
+        "operations": 394
       },
       "seniority": {
         "junior": 738,
-        "manager": 132,
-        "mid": 21,
+        "manager": 134,
+        "mid": 23,
         "c-suite": 17,
-        "lead": 152,
+        "lead": 150,
         "intern": 3,
         "senior": 18
       },
       "locations": [
-        "Houston Galleria, Houston, TX (10037)",
-        "Ross Park Mall, Pittsburgh, PA (10065)",
-        "Dedham, Massachusetts, United States",
-        "Boulder, Colorado, United States",
-        "Greenwich, Connecticut, United States",
-        "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "Hamburg, Hamburg, Germany",
-        "Walnut Street, Philadelphia, PA (10058)",
-        "New York, New York, United States",
-        "Dumbo, Brooklyn, NY (10139)",
-        "Perimeter Mall, Atlanta, GA (10176)",
-        "Georgetown, Washington, DC (10029)",
-        "Berlin, Berlin, Germany",
-        "Brookfield, Wisconsin, United States",
+        "North Park Center, Dallas, TX (10019)",
+        "Germantown, Tennessee, United States",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "Edina, Minnesota, United States",
+        "Sydney ",
+        "Westbourne Grove, London (50104)",
+        "Century City, Los Angeles, CA (10101)",
+        "Westport, Connecticut, United States",
+        "Carlsbad, California, United States",
+        "Gilbert, Arizona, United States",
+        "Chicago, Illinois, United States",
+        "The Knox, Dallas, TX (10184)",
+        "Vancouver, British Columbia, Canada",
+        "Detroit, Michigan, United States",
+        "The Domain, Austin, TX (10038)",
+        "Southlake, Texas, United States",
+        "Ala Moana, Honolulu, HI (10045)",
         "Santa Barbara, California, United States",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Brentwood Town & Country, Los Angeles, CA (10162)",
-        "Shop at Crystals, Las Vegas, NV (10095)",
-        "Walnut Creek, California, United States",
-        "The Gardens Mall, Palm Beach Gardens, FL (10036)"
+        "Shops at Clearfork, Fort Worth, TX (10035)",
+        "Toronto Eaton Centre, Toronto, ON (10040)"
       ],
       "jobs": [
         {
@@ -550,35 +550,35 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-11T05:30:07.920204"
+      "checked_at": "2026-09-12T05:30:07.231422"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 18,
-      "change_from_last": 5,
+      "total_jobs": 25,
+      "change_from_last": 7,
       "departments": {
         "other": 3,
-        "design": 1,
-        "engineering": 6,
-        "executive": 1,
-        "operations": 1,
+        "design": 3,
+        "engineering": 8,
+        "executive": 2,
+        "operations": 2,
         "retail": 5,
-        "finance": 1
+        "finance": 2
       },
       "seniority": {
-        "mid": 6,
-        "lead": 4,
+        "mid": 9,
+        "lead": 5,
+        "manager": 2,
         "c-suite": 1,
         "junior": 5,
-        "senior": 1,
-        "manager": 1
+        "senior": 3
       },
       "locations": [
-        "New York, New York, United States",
-        "Amsterdam, North Holland, Netherlands",
-        "Trafford Park, England, United Kingdom",
         "Solihull, England, United Kingdom",
+        "Amsterdam, North Holland, Netherlands",
+        "New York, New York, United States",
+        "Trafford Park, England, United Kingdom",
         "London"
       ],
       "jobs": [
@@ -601,6 +601,26 @@
           "posted_at": "2026-09-06T13:33:21-04:00",
           "category": "design",
           "seniority": "lead"
+        },
+        {
+          "id": "4974423101",
+          "title": "Designer \u2013 Menswear",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974423101",
+          "posted_at": "2026-09-11T08:26:37-04:00",
+          "category": "design",
+          "seniority": "mid"
+        },
+        {
+          "id": "4974462101",
+          "title": "Designer \u2013 Womenswear",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974462101",
+          "posted_at": "2026-09-11T09:13:07-04:00",
+          "category": "design",
+          "seniority": "mid"
         },
         {
           "id": "4964048101",
@@ -633,6 +653,26 @@
           "seniority": "lead"
         },
         {
+          "id": "4974070101",
+          "title": "Head of Service Delivery",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974070101",
+          "posted_at": "2026-09-11T10:16:43-04:00",
+          "category": "executive",
+          "seniority": "lead"
+        },
+        {
+          "id": "4974352101",
+          "title": "Inbound Supply Chain Manager",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974352101",
+          "posted_at": "2026-09-11T07:59:04-04:00",
+          "category": "operations",
+          "seniority": "manager"
+        },
+        {
           "id": "4948180101",
           "title": "Lead Data Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -661,6 +701,16 @@
           "posted_at": "2026-09-10T12:00:00-04:00",
           "category": "operations",
           "seniority": "c-suite"
+        },
+        {
+          "id": "4974395101",
+          "title": "Product Developer - Accessories",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974395101",
+          "posted_at": "2026-09-11T08:07:10-04:00",
+          "category": "engineering",
+          "seniority": "mid"
         },
         {
           "id": "4927258101",
@@ -743,6 +793,16 @@
           "seniority": "senior"
         },
         {
+          "id": "4974208101",
+          "title": "Senior Software Engineer",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974208101",
+          "posted_at": "2026-09-11T12:07:04-04:00",
+          "category": "engineering",
+          "seniority": "senior"
+        },
+        {
           "id": "4941371101",
           "title": "Tax Manager - 9-12 Month FTC",
           "location": "Solihull, England, United Kingdom",
@@ -751,6 +811,16 @@
           "posted_at": "2026-07-30T04:54:25-04:00",
           "category": "finance",
           "seniority": "manager"
+        },
+        {
+          "id": "4974337101",
+          "title": "Transactional Finance Senior Manager - 12 Month FTC",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974337101",
+          "posted_at": "2026-09-11T07:48:34-04:00",
+          "category": "finance",
+          "seniority": "senior"
         },
         {
           "id": "4939895101",
@@ -763,7 +833,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-11T05:30:10.060853"
+      "checked_at": "2026-09-12T05:30:09.408971"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -821,15 +891,15 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 309,
-      "change_from_last": -4,
+      "total_jobs": 306,
+      "change_from_last": -3,
       "departments": {
         "engineering": 29,
         "other": 48,
-        "retail": 175,
+        "retail": 173,
         "marketing": 16,
         "product": 3,
-        "operations": 7,
+        "operations": 6,
         "executive": 8,
         "design": 16,
         "finance": 5,
@@ -837,33 +907,33 @@
       },
       "seniority": {
         "mid": 103,
-        "lead": 165,
+        "lead": 162,
         "c-suite": 10,
         "intern": 1,
         "manager": 1,
         "senior": 29
       },
       "locations": [
-        "Hong Kong",
-        "Chicago",
-        "Tianjin",
-        "Beijing",
-        "Corte Madera",
-        "Guangzhou",
-        "Philadelphia",
-        "Portland",
-        "Tokyo",
-        "McLean",
-        "D\u00fcsseldorf",
-        "S\u00e3o Paulo",
-        "Stockholm",
         "San Diego",
-        "Shenzhen",
-        "Zurich",
-        "Paris",
-        "Rio de Janeiro",
+        "Hong Kong",
+        "Melbourne",
+        "Shanghai",
+        "London; Zurich",
+        "Philadelphia",
+        "Guangzhou",
         "Wuhan",
-        "Sydney"
+        "Corte Madera",
+        "Mexico City",
+        "Miami",
+        "Berlin",
+        "Tokyo",
+        "London",
+        "Chengdu",
+        "Nanjing",
+        "Hanoi",
+        "Washington D.C.",
+        "Paris",
+        "San Francisco"
       ],
       "jobs": [
         {
@@ -893,16 +963,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8079104?gh_jid=8079104",
           "posted_at": "2026-09-08T08:37:47-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8131206",
-          "title": "Associate Store Leader, Century City Mall",
-          "location": "Los Angeles",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8131206?gh_jid=8131206",
-          "posted_at": "2026-09-04T18:54:36-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1172,7 +1232,7 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7687729?gh_jid=7687729",
-          "posted_at": "2026-09-10T11:32:32-04:00",
+          "posted_at": "2026-09-11T06:35:03-04:00",
           "category": "marketing",
           "seniority": "c-suite"
         },
@@ -1347,6 +1407,16 @@
           "seniority": "lead"
         },
         {
+          "id": "7850385",
+          "title": "Lead - Archive Management",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7850385?gh_jid=7850385",
+          "posted_at": "2026-09-11T08:32:14-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
           "id": "8127271",
           "title": "Lead - B2B Retail Marketing, China",
           "location": "Shanghai",
@@ -1367,8 +1437,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-11T05:30:19.341081"
+      "checked_at": "2026-09-12T05:30:18.653443"
     }
   },
-  "generated_at": "2026-09-11T05:30:21.341260"
+  "generated_at": "2026-09-12T05:30:20.653583"
 }

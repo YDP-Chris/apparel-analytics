@@ -3,9 +3,9 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4830,
+      "total": 4832,
       "categories": {
-        "bottoms": 2237,
+        "bottoms": 2239,
         "tops": 747,
         "outerwear": 655,
         "other": 704,
@@ -15,7 +15,7 @@
         "dresses": 46
       },
       "subcategories": {
-        "joggers": 175,
+        "joggers": 177,
         "shorts": 839,
         "tanks": 242,
         "tees": 260,
@@ -43,14 +43,14 @@
         "fleece": 13
       },
       "genders": {
-        "mens": 1745,
+        "mens": 1747,
         "womens": 2248,
         "unisex": 837
       },
       "colors": {
         "gray": 631,
         "navy": 112,
-        "black": 901,
+        "black": 902,
         "khaki": 221,
         "red": 51,
         "white": 443,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 83.6,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2735
+      "uniqueStyles": 2736
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -309,21 +309,21 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 10928,
+      "total": 10936,
       "categories": {
-        "bottoms": 3897,
+        "bottoms": 3903,
         "tops": 3562,
-        "other": 807,
+        "other": 809,
         "accessories": 662,
         "outerwear": 1102,
         "sports_bras": 886,
         "dresses": 12
       },
       "subcategories": {
-        "shorts": 1580,
+        "shorts": 1584,
         "leggings": 916,
         "crop_tops": 180,
-        "other": 3719,
+        "other": 3723,
         "long_sleeve": 628,
         "socks": 272,
         "tanks": 978,
@@ -347,41 +347,41 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 5007,
-        "womens": 3666,
+        "unisex": 5013,
+        "womens": 3668,
         "mens": 2255
       },
       "colors": {
         "green": 552,
         "pink": 963,
-        "black": 2523,
+        "black": 2527,
         "white": 829,
         "navy": 76,
         "gray": 1315,
         "brown": 892,
         "blue": 1744,
         "red": 345,
-        "purple": 623,
+        "purple": 625,
         "yellow": 108,
         "orange": 64,
         "khaki": 2,
         "print": 24
       },
-      "colorCoverage": 92.1,
+      "colorCoverage": 92,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 2812
+      "uniqueStyles": 2814
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10586,
+      "total": 10587,
       "categories": {
         "bottoms": 1735,
         "tops": 711,
         "accessories": 765,
         "sports_bras": 203,
         "other": 3085,
-        "footwear": 3091,
+        "footwear": 3092,
         "outerwear": 967,
         "dresses": 29
       },
@@ -392,7 +392,7 @@
         "hats": 242,
         "crop_tops": 218,
         "pants": 423,
-        "running": 2865,
+        "running": 2866,
         "tanks": 331,
         "jackets": 471,
         "joggers": 27,
@@ -412,7 +412,7 @@
         "trail": 2
       },
       "genders": {
-        "womens": 5039,
+        "womens": 5040,
         "mens": 4374,
         "unisex": 1173
       },
@@ -422,7 +422,7 @@
         "black": 1629,
         "purple": 191,
         "navy": 312,
-        "khaki": 223,
+        "khaki": 224,
         "gray": 347,
         "yellow": 84,
         "white": 1677,
@@ -953,10 +953,10 @@
     "everlast": {
       "name": "everlast",
       "slug": "everlast",
-      "total": 323,
+      "total": 324,
       "categories": {
         "other": 101,
-        "accessories": 98,
+        "accessories": 99,
         "bottoms": 52,
         "tops": 28,
         "sports_bras": 13,
@@ -965,7 +965,7 @@
       },
       "subcategories": {
         "other": 183,
-        "bags": 48,
+        "bags": 49,
         "leggings": 19,
         "tees": 2,
         "medium_support": 3,
@@ -984,7 +984,7 @@
         "hats": 1
       },
       "genders": {
-        "unisex": 213,
+        "unisex": 214,
         "womens": 69,
         "mens": 41
       },
@@ -1058,17 +1058,37 @@
     }
   },
   "totals": {
-    "products": 50051,
+    "products": 50063,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-09-12",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 2,
+      "products": [
+        {
+          "name": "kore jogger 2 0 28",
+          "url": "https://vuoriclothing.com/products/kore-jogger-2-0-28-black",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "kore jogger 2 0 28 biscotti",
+          "url": "https://vuoriclothing.com/products/kore-jogger-2-0-28-biscotti",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
       "date": "2026-09-11",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 8,
+      "count": 16,
       "products": [
         {
           "name": "gymshark element baselayer t shirt ss tops",
@@ -1116,6 +1136,54 @@
           "name": "gymshark vital headband headwear",
           "url": "https://www.gymshark.com/es-US/products/gymshark-vital-headband-headwear-brown-aw26",
           "category": "accessories",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark diffuse sweat headwrap headwear",
+          "url": "https://www.gymshark.com/products/gymshark-diffuse-sweat-headwrap-headwear",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running elite high split race day shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-running-elite-high-split-race-day-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running elite high split race day shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-running-elite-high-split-race-day-shorts-shorts-purple-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark seamless calf sleeves equipment",
+          "url": "https://www.gymshark.com/products/gymshark-seamless-calf-sleeves-equipment-black-aw26",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark diffuse sweat headwrap headwear",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-diffuse-sweat-headwrap-headwear",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running elite high split race day shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-running-elite-high-split-race-day-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running elite high split race day shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-running-elite-high-split-race-day-shorts-shorts-purple-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark seamless calf sleeves equipment",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-seamless-calf-sleeves-equipment-black-aw26",
+          "category": "other",
           "gender": "womens"
         }
       ]
@@ -1217,6 +1285,34 @@
         {
           "name": "venum waterimpact 500 water punching bag",
           "url": "https://www.venum.com/products/venum-waterimpact-500-water-punching-bag-black",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 1,
+      "products": [
+        {
+          "name": "cloudtilt arc w",
+          "url": "https://www.on.com/en-us/products/cloudtilt-arc-w-3wg3031/womens/biscuit-sable-shoes-3WG30315227",
+          "category": "footwear",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "brand": "everlast",
+      "brandSlug": "everlast",
+      "count": 1,
+      "products": [
+        {
+          "name": "double end speed bag bladder",
+          "url": "https://www.everlast.com/products/double-end-speed-bag-bladder",
           "category": "accessories",
           "gender": "unisex"
         }
@@ -6097,334 +6193,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-08-28",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 28,
-      "products": [
-        {
-          "name": "gymshark seamless running waistbelt equipment",
-          "url": "https://www.gymshark.com/products/gymshark-seamless-running-waistbelt-equipment-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark seamless running waistbelt equipment",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-seamless-running-waistbelt-equipment-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark speed long sleeve t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-speed-long-sleeve-t-shirt-navy-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark speed long sleeve t shirt papaya",
-          "url": "https://www.gymshark.com/products/gymshark-speed-long-sleeve-t-shirt-papaya-orange-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark speed long sleeve t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-speed-long-sleeve-t-shirt-black-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital tank with shelf sleeveless tops ss26 b4c6d kdfx",
-          "url": "https://www.gymshark.com/products/gymshark-vital-tank-with-shelf-sleeveless-tops-pink-ss26-b4c6d-kdfx",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-cap-headwear-black-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tote bags",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tote-bags-brown-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-cap-headwear-grey-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear aw26 i2c9k bdz9",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-cap-headwear-black-aw26-i2c9k-bdz9",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tote bags",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tote-bags-pink-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tote bags",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tote-bags-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-cap-headwear-brown-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark speed long sleeve t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-speed-long-sleeve-t-shirt-navy-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark speed long sleeve t shirt papaya",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-speed-long-sleeve-t-shirt-papaya-orange-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark speed long sleeve t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-speed-long-sleeve-t-shirt-black-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital tank with shelf sleeveless tops ss26 b4c6d kdfx",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-tank-with-shelf-sleeveless-tops-pink-ss26-b4c6d-kdfx",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-cap-headwear-black-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tote bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tote-bags-brown-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-cap-headwear-grey-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear aw26 i2c9k bdz9",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-cap-headwear-black-aw26-i2c9k-bdz9",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tote bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tote-bags-pink-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club tote bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tote-bags-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club cap headwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-cap-headwear-brown-aw26",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collectible pin misc",
-          "url": "https://www.gymshark.com/products/gymshark-collectible-pin-misc-pink-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collectible pin misc aw26 i2c9v gb7n",
-          "url": "https://www.gymshark.com/products/gymshark-collectible-pin-misc-grey-aw26-i2c9v-gb7n",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collectible pin misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collectible-pin-misc-pink-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark collectible pin misc aw26 i2c9v gb7n",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-collectible-pin-misc-grey-aw26-i2c9v-gb7n",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 24,
-      "products": [
-        {
-          "name": "club sock high 2p u",
-          "url": "https://www.on.com/en-us/products/club-sock-high-2p-u-2ug3002/unisex/black-accessories-2UG30020553",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "club sock high 2p u",
-          "url": "https://www.on.com/en-us/products/club-sock-high-2p-u-2ug3002/unisex/inkwell-accessories-2UG30025495",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "core run sock high 2p u",
-          "url": "https://www.on.com/en-us/products/core-run-sock-high-2p-u-2ug1005/unisex/flurry-wash-accessories-2UG10054946",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "core run sock high 2p u",
-          "url": "https://www.on.com/en-us/products/core-run-sock-high-2p-u-2ug1005/unisex/foxglove-mallow-accessories-2UG10054947",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "core run sock low 2p",
-          "url": "https://www.on.com/en-us/products/core-run-sock-low-2p-2uf1008/unisex/flurry-wash-accessories-2UF10084946",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "core run sock mid 2p",
-          "url": "https://www.on.com/en-us/products/core-run-sock-mid-2p-2uf1007/unisex/foxglove-mallow-accessories-2UF10074947",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "court sock low",
-          "url": "https://www.on.com/en-us/products/court-sock-low-2uf1010/unisex/white-neem-accessories-2UF10105294",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "courtside sock high 2p u",
-          "url": "https://www.on.com/en-us/products/courtside-sock-high-2p-u-2ug3004/unisex/ivory-mulberry-accessories-2UG30045028",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elite run sock high",
-          "url": "https://www.on.com/en-us/products/elite-run-sock-high-2uf1001/unisex/camellia-azalea-accessories-2UF10015973",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elite run sock high hyper u",
-          "url": "https://www.on.com/en-us/products/elite-run-sock-high-hyper-u-2ug3024/unisex/celeste-verdite-accessories-2UG30245042",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elite run sock high hyper u",
-          "url": "https://www.on.com/en-us/products/elite-run-sock-high-hyper-u-2ug3024/unisex/white-lime-accessories-2UG30242929",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elite run sock low",
-          "url": "https://www.on.com/en-us/products/elite-run-sock-low-2uf1044/unisex/camellia-azalea-accessories-2UF10445973",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "hybrid sock high 2p u",
-          "url": "https://www.on.com/en-us/products/hybrid-sock-high-2p-u-2ug1006/unisex/biscuit-accessories-2UG10064934",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "logo sock high 3p",
-          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-2uf1031/unisex/brook-storm-accessories-2UF10315057",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "logo sock high 3p",
-          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-2uf1031/unisex/sherbet-rhodonite-accessories-2UF10314952",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "logo sock mid 3p",
-          "url": "https://www.on.com/en-us/products/logo-sock-mid-3p-2uf1052/unisex/brook-storm-accessories-2UF10525057",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "logo sock mid 3p",
-          "url": "https://www.on.com/en-us/products/logo-sock-mid-3p-2uf1052/unisex/sherbet-rhodonite-accessories-2UF10524952",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "performance run sock low",
-          "url": "https://www.on.com/en-us/products/performance-run-sock-low-2uf1006/unisex/flurry-storm-accessories-2UF10065543",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "performance run sock mid",
-          "url": "https://www.on.com/en-us/products/performance-run-sock-mid-2uf1005/unisex/brume-clove-accessories-2UF10055974",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elite run sock high hyper u 2ug3024",
-          "url": "https://www.on.com/en-us/products/elite-run-sock-high-hyper-u-2ug3024/unisex",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "club sock high 2p u",
-          "url": "https://www.on.com/en-us/products/club-sock-high-2p-u-2ug3002/unisex/white-accessories-2UG30020069",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "core run sock low 2p",
-          "url": "https://www.on.com/en-us/products/core-run-sock-low-2p-2uf1008/unisex/foxglove-mallow-accessories-2UF10084947",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "core run sock mid 2p",
-          "url": "https://www.on.com/en-us/products/core-run-sock-mid-2p-2uf1007/unisex/flurry-wash-accessories-2UF10074946",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "trail sock high 2p u",
-          "url": "https://www.on.com/en-us/products/trail-sock-high-2p-u-2uf3021/unisex/foxglove-ash-accessories-2UF30215025",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6537,7 +6305,8 @@
       "2026-09-07": 3,
       "2026-09-09": 6,
       "2026-09-10": 6,
-      "2026-09-11": 5
+      "2026-09-11": 5,
+      "2026-09-12": 2
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -6899,7 +6668,7 @@
       "2026-09-08": 34,
       "2026-09-09": 23,
       "2026-09-10": 5,
-      "2026-09-11": 8
+      "2026-09-11": 16
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6944,7 +6713,8 @@
       "2026-08-31": 6,
       "2026-09-03": 168,
       "2026-09-05": 3,
-      "2026-09-08": 10
+      "2026-09-08": 10,
+      "2026-09-11": 1
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -7026,7 +6796,8 @@
       "2026-09-01": 1,
       "2026-09-02": 1,
       "2026-09-03": 1,
-      "2026-09-08": 6
+      "2026-09-08": 6,
+      "2026-09-11": 1
     },
     "dfyne": {
       "2026-08-31": 1003,
@@ -7036,12 +6807,12 @@
   },
   "byCategory": {
     "bottoms": {
-      "vuori": 2237,
+      "vuori": 2239,
       "outdoor_voices": 304,
       "tenthousand": 86,
       "lululemon": 1732,
       "alo": 1823,
-      "gymshark": 3897,
+      "gymshark": 3903,
       "on_running": 1735,
       "gymreapers": 224,
       "sbd": 25,
@@ -7101,7 +6872,7 @@
       "tenthousand": 15,
       "lululemon": 917,
       "alo": 849,
-      "gymshark": 807,
+      "gymshark": 809,
       "on_running": 3085,
       "gymreapers": 323,
       "sbd": 78,
@@ -7138,7 +6909,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 3091,
+      "on_running": 3092,
       "schiek": 1,
       "goruck": 198,
       "hayabusa": 5,
@@ -7164,7 +6935,7 @@
       "ghost": 51,
       "hayabusa": 90,
       "venum": 456,
-      "everlast": 98,
+      "everlast": 99,
       "dfyne": 18
     },
     "dresses": {
@@ -7178,7 +6949,7 @@
   },
   "bySubcategory": {
     "joggers": {
-      "vuori": 175,
+      "vuori": 177,
       "tenthousand": 9,
       "lululemon": 205,
       "alo": 42,
@@ -7200,7 +6971,7 @@
       "tenthousand": 51,
       "lululemon": 528,
       "alo": 427,
-      "gymshark": 1580,
+      "gymshark": 1584,
       "on_running": 765,
       "gymreapers": 147,
       "sbd": 17,
@@ -7267,7 +7038,7 @@
       "tenthousand": 39,
       "lululemon": 1593,
       "alo": 1707,
-      "gymshark": 3719,
+      "gymshark": 3723,
       "on_running": 3499,
       "gymreapers": 550,
       "sbd": 141,
@@ -7488,7 +7259,7 @@
       "ghost": 2,
       "hayabusa": 29,
       "venum": 72,
-      "everlast": 48
+      "everlast": 49
     },
     "socks": {
       "vuori": 93,
@@ -7536,7 +7307,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2865,
+      "on_running": 2866,
       "goruck": 90,
       "dfyne": 4
     },
@@ -7604,10 +7375,10 @@
       "dfyne": 43
     },
     "black": {
-      "vuori": 901,
+      "vuori": 902,
       "outdoor_voices": 101,
       "alo": 1063,
-      "gymshark": 2523,
+      "gymshark": 2527,
       "on_running": 1629,
       "gymreapers": 132,
       "sbd": 2,
@@ -7627,7 +7398,7 @@
       "outdoor_voices": 10,
       "alo": 136,
       "gymshark": 2,
-      "on_running": 223,
+      "on_running": 224,
       "gymreapers": 60,
       "bear_grips": 1,
       "asrv": 42,
@@ -7739,7 +7510,7 @@
       "vuori": 139,
       "outdoor_voices": 10,
       "alo": 41,
-      "gymshark": 623,
+      "gymshark": 625,
       "on_running": 191,
       "gymreapers": 12,
       "sbd": 2,
@@ -7969,13 +7740,13 @@
     },
     {
       "brand": "everlast",
-      "bottoms": 16.1,
-      "tops": 8.7,
+      "bottoms": 16,
+      "tops": 8.6,
       "outerwear": 7.4,
       "dresses": 0,
       "sports_bras": 4,
-      "accessories": 30.3,
-      "other": 31.3
+      "accessories": 30.6,
+      "other": 31.2
     },
     {
       "brand": "hayabusa",
@@ -8045,8 +7816,8 @@
       "white": 7.6,
       "gray": 12,
       "navy": 0.7,
-      "blue": 16,
-      "green": 5.1,
+      "blue": 15.9,
+      "green": 5,
       "khaki": 0,
       "brown": 8.2,
       "purple": 5.7,
@@ -8414,7 +8185,7 @@
     {
       "type": "comparison",
       "metric": "joggers_vs_lulu",
-      "text": "Jogger battle: Vuori (175) vs Lululemon (205). Gap of 30 to close."
+      "text": "Jogger battle: Vuori (177) vs Lululemon (205). Gap of 28 to close."
     },
     {
       "type": "trend",
@@ -8427,15 +8198,15 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1745,
-      "text": "Vuori leads Lululemon in men's: 1745 vs 1286 products. A 36% advantage."
+      "value": 1747,
+      "text": "Vuori leads Lululemon in men's: 1747 vs 1286 products. A 36% advantage."
     },
     {
       "type": "leader",
       "metric": "shorts",
       "brand": "Vuori",
       "value": 839,
-      "text": "Vuori ranks #2 in shorts with 839 products. Behind Gymshark (1580)."
+      "text": "Vuori ranks #2 in shorts with 839 products. Behind Gymshark (1584)."
     },
     {
       "type": "comparison",
@@ -8445,7 +8216,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 45,221 competitor products tracked. Vuori's 4,830 = 10% share of tracked catalog."
+      "text": "Market context: 45,231 competitor products tracked. Vuori's 4,832 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8465,7 +8236,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 3015 products"
+        "comparison": "Competitors have 3016 products"
       },
       {
         "metric": "Medium Support",
@@ -8496,7 +8267,7 @@
     "vsLululemon": [
       {
         "category": "Joggers",
-        "vuori": 175,
+        "vuori": 177,
         "competitor": 205,
         "winner": "competitor"
       },
@@ -8532,7 +8303,7 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1745,
+        "vuori": 1747,
         "competitor": 1286,
         "winner": "vuori"
       },
@@ -8546,7 +8317,7 @@
     "vsAlo": [
       {
         "category": "Joggers",
-        "vuori": 175,
+        "vuori": 177,
         "competitor": 42,
         "winner": "vuori"
       },
@@ -8582,7 +8353,7 @@
       },
       {
         "category": "Men's Products",
-        "vuori": 1745,
+        "vuori": 1747,
         "competitor": 309,
         "winner": "vuori"
       },
@@ -8594,5 +8365,5 @@
       }
     ]
   },
-  "generated_at": "2026-09-11T13:15:08.355Z"
+  "generated_at": "2026-09-12T13:15:09.805Z"
 }
