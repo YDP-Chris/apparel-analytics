@@ -239,11 +239,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4900,
+      "total": 4903,
       "categories": {
-        "other": 849,
+        "other": 850,
         "bottoms": 1823,
-        "tops": 584,
+        "tops": 586,
         "sports_bras": 341,
         "accessories": 434,
         "outerwear": 694,
@@ -251,7 +251,7 @@
         "dresses": 130
       },
       "subcategories": {
-        "other": 1707,
+        "other": 1708,
         "leggings": 375,
         "tanks": 272,
         "shorts": 427,
@@ -259,7 +259,7 @@
         "sweatpants": 219,
         "hoodies": 228,
         "running": 32,
-        "long_sleeve": 40,
+        "long_sleeve": 41,
         "pants": 251,
         "tees": 56,
         "pullovers": 170,
@@ -269,7 +269,7 @@
         "socks": 193,
         "bralette": 12,
         "polos": 14,
-        "crop_tops": 190,
+        "crop_tops": 191,
         "casual_dress": 65,
         "tennis_dress": 33,
         "headwear": 53,
@@ -279,14 +279,14 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3064,
-        "womens": 1527,
+        "unisex": 3066,
+        "womens": 1528,
         "mens": 309
       },
       "colors": {
         "navy": 198,
-        "black": 1063,
-        "white": 942,
+        "black": 1065,
+        "white": 943,
         "gray": 510,
         "khaki": 136,
         "pink": 245,
@@ -304,7 +304,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3010
+      "uniqueStyles": 3013
     },
     "gymshark": {
       "name": "Gymshark",
@@ -1058,12 +1058,38 @@
     }
   },
   "totals": {
-    "products": 50063,
+    "products": 50066,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-09-13",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 3,
+      "products": [
+        {
+          "name": "quilted cropped arena hoodie",
+          "url": "https://www.aloyoga.com/products/w3642r-quilted-cropped-arena-hoodie-black",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "seamless cable knit long sleeve top",
+          "url": "https://www.aloyoga.com/products/w3675r-seamless-cable-knit-long-sleeve-top-black",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "faux fur ear muff",
+          "url": "https://www.aloyoga.com/products/a0430u-faux-fur-ear-muff-ivory",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "brand": "Vuori",
@@ -6179,20 +6205,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-08-29",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 1,
-      "products": [
-        {
-          "name": "cloudtilt hi loewe m",
-          "url": "https://www.on.com/en-us/products/cloudtilt-hi-loewe-m-3mg1083/mens/teal-oatmeal-burgundy-shoes-3MG10835525",
-          "category": "footwear",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6526,7 +6538,8 @@
       "2026-08-19": 1,
       "2026-09-01": 39,
       "2026-09-06": 4,
-      "2026-09-09": 4
+      "2026-09-09": 4,
+      "2026-09-13": 3
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6831,7 +6844,7 @@
       "outdoor_voices": 85,
       "tenthousand": 48,
       "lululemon": 835,
-      "alo": 584,
+      "alo": 586,
       "gymshark": 3562,
       "on_running": 711,
       "gymreapers": 236,
@@ -6871,7 +6884,7 @@
       "outdoor_voices": 67,
       "tenthousand": 15,
       "lululemon": 917,
-      "alo": 849,
+      "alo": 850,
       "gymshark": 809,
       "on_running": 3085,
       "gymreapers": 323,
@@ -7037,7 +7050,7 @@
       "outdoor_voices": 186,
       "tenthousand": 39,
       "lululemon": 1593,
-      "alo": 1707,
+      "alo": 1708,
       "gymshark": 3723,
       "on_running": 3499,
       "gymreapers": 550,
@@ -7121,7 +7134,7 @@
       "outdoor_voices": 1,
       "tenthousand": 6,
       "lululemon": 183,
-      "alo": 40,
+      "alo": 41,
       "gymshark": 628,
       "on_running": 18,
       "gymreapers": 14,
@@ -7197,7 +7210,7 @@
       "vuori": 10,
       "outdoor_voices": 17,
       "lululemon": 96,
-      "alo": 190,
+      "alo": 191,
       "gymshark": 180,
       "on_running": 218,
       "gymreapers": 16,
@@ -7377,7 +7390,7 @@
     "black": {
       "vuori": 902,
       "outdoor_voices": 101,
-      "alo": 1063,
+      "alo": 1065,
       "gymshark": 2527,
       "on_running": 1629,
       "gymreapers": 132,
@@ -7429,7 +7442,7 @@
       "vuori": 443,
       "outdoor_voices": 31,
       "lululemon": 17,
-      "alo": 942,
+      "alo": 943,
       "gymshark": 829,
       "on_running": 1677,
       "gymreapers": 94,
@@ -7631,7 +7644,7 @@
     {
       "brand": "Alo Yoga",
       "bottoms": 37.2,
-      "tops": 11.9,
+      "tops": 12,
       "outerwear": 14.2,
       "dresses": 2.7,
       "sports_bras": 7,
@@ -8216,7 +8229,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 45,231 competitor products tracked. Vuori's 4,832 = 10% share of tracked catalog."
+      "text": "Market context: 45,234 competitor products tracked. Vuori's 4,832 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8360,10 +8373,10 @@
       {
         "category": "Women's Products",
         "vuori": 2248,
-        "competitor": 1527,
+        "competitor": 1528,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-09-13T13:15:11.534Z"
+  "generated_at": "2026-09-14T13:15:11.419Z"
 }

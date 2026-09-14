@@ -4,49 +4,49 @@
       "name": "Alo Yoga",
       "platform": "greenhouse",
       "total_jobs": 1080,
-      "change_from_last": -3,
+      "change_from_last": 0,
       "departments": {
         "design": 84,
         "finance": 6,
-        "other": 133,
+        "other": 134,
         "product": 4,
-        "retail": 426,
+        "retail": 427,
         "engineering": 20,
         "marketing": 9,
         "executive": 4,
         "hr": 1,
-        "operations": 393
+        "operations": 391
       },
       "seniority": {
-        "junior": 737,
+        "junior": 736,
         "manager": 132,
         "mid": 23,
         "c-suite": 17,
-        "lead": 150,
+        "lead": 151,
         "intern": 3,
         "senior": 18
       },
       "locations": [
-        "Fashion Place, Murray, UT (10061)",
-        "Carlsbad, California, United States",
-        "Westfield London, London (50058)",
-        "Columbus Ave, New York, NY (10188)",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Bondi Junction, Bondi Junction (50094)",
-        "Somerset Collection, Troy, MI (10072)",
-        "Merrick Park, Coral Gables, FL (10042)",
         "Houston Galleria, Houston, TX (10037)",
-        "North Park Center, Dallas, TX (10019)",
-        "Glendale, California, United States",
+        "Dallas Galleria, Dallas, TX (10154)",
+        "Santa Barbara, California, United States",
+        "Wayne, New Jersey, United States",
+        "Sydney ",
+        "Yorkdale Shopping Centre, Toronto, ON (10027)",
         "San Diego, California, United States",
-        "Bethesda, Maryland, United States",
-        "San Luis Obispo, California, United States",
-        "Milano, Milan, Italy",
-        "Newbury Street, Boston, MA (10041)",
-        "Macau",
-        "Westbourne Grove, London (50104)",
-        "Mississauga, Ontario, Canada",
-        "Alys Beach, Florida, United States"
+        "Fashion Place Mall, Murray, UT (10179)",
+        "Hamburg, Hamburg, Germany",
+        "Phoenix, Arizona, United States",
+        "Gilbert, Arizona, United States",
+        "Bloor Street, Toronto, ON (10026)",
+        "Florence, Italy",
+        "Corte Madera, California, United States",
+        "Laval, Quebec, Canada",
+        "Old Orchard, Skokie, IL (10016)",
+        "Park Meadows Mall, Lone Tree, CO (10031)",
+        "Roseville, California, United States",
+        "King of Prussia, Pennsylvania, United States",
+        "Aspen, Aspen, CO (10020)"
       ],
       "jobs": [
         {
@@ -118,6 +118,16 @@
           "posted_at": "2026-08-28T12:31:57-04:00",
           "category": "product",
           "seniority": "junior"
+        },
+        {
+          "id": "6009800004",
+          "title": "Assistant Store Manager - Bondi Junction (Flagship)",
+          "location": "Bondi Junction, Bondi Junction (50094)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6009800004?gh_jid=6009800004",
+          "posted_at": "2026-09-14T02:47:49-04:00",
+          "category": "retail",
+          "seniority": "manager"
         },
         {
           "id": "6141784004",
@@ -318,6 +328,16 @@
           "posted_at": "2026-08-24T17:37:28-04:00",
           "category": "engineering",
           "seniority": "junior"
+        },
+        {
+          "id": "6120324004",
+          "title": "Back of House Manager - Bondi Junction (Flagship)",
+          "location": "Bondi Junction, Bondi Junction (50094)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6120324004?gh_jid=6120324004",
+          "posted_at": "2026-09-14T03:32:08-04:00",
+          "category": "other",
+          "seniority": "manager"
         },
         {
           "id": "6107239004",
@@ -528,58 +548,38 @@
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "engineering",
           "seniority": "manager"
-        },
-        {
-          "id": "6111097004",
-          "title": "Facilities Facilities Project Coordinator",
-          "location": "Remote",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6111097004?gh_jid=6111097004",
-          "posted_at": "2026-08-20T18:16:29-04:00",
-          "category": "other",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "6111103004",
-          "title": "Facilities Manager",
-          "location": "Remote",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6111103004?gh_jid=6111103004",
-          "posted_at": "2026-08-20T18:16:29-04:00",
-          "category": "other",
-          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-13T05:30:07.956842"
+      "checked_at": "2026-09-14T05:30:25.755518"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 25,
-      "change_from_last": 0,
+      "total_jobs": 22,
+      "change_from_last": -3,
       "departments": {
-        "other": 3,
+        "other": 2,
         "design": 3,
-        "engineering": 8,
-        "executive": 2,
+        "engineering": 7,
+        "executive": 1,
         "operations": 2,
         "retail": 5,
         "finance": 2
       },
       "seniority": {
-        "mid": 9,
-        "lead": 5,
+        "mid": 8,
+        "lead": 4,
         "manager": 2,
         "c-suite": 1,
         "junior": 5,
-        "senior": 3
+        "senior": 2
       },
       "locations": [
         "Trafford Park, England, United Kingdom",
-        "New York, New York, United States",
-        "London",
         "Amsterdam, North Holland, Netherlands",
-        "Solihull, England, United Kingdom"
+        "New York, New York, United States",
+        "Solihull, England, United Kingdom",
+        "London"
       ],
       "jobs": [
         {
@@ -623,16 +623,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4964048101",
-          "title": "Ecommerce Executive",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4964048101",
-          "posted_at": "2026-09-01T14:42:51-04:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "4927186101",
           "title": "Fabric Technologist",
           "location": "Solihull, England, United Kingdom",
@@ -641,16 +631,6 @@
           "posted_at": "2026-08-07T08:16:12-04:00",
           "category": "engineering",
           "seniority": "mid"
-        },
-        {
-          "id": "4963395101",
-          "title": "Head of Digital Product",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4963395101",
-          "posted_at": "2026-08-28T15:27:39-04:00",
-          "category": "executive",
-          "seniority": "lead"
         },
         {
           "id": "4974070101",
@@ -783,16 +763,6 @@
           "seniority": "junior"
         },
         {
-          "id": "4863674101",
-          "title": "Senior Android Engineer ",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4863674101",
-          "posted_at": "2026-08-18T18:14:25-04:00",
-          "category": "engineering",
-          "seniority": "senior"
-        },
-        {
           "id": "4974208101",
           "title": "Senior Software Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -833,7 +803,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-13T05:30:10.118366"
+      "checked_at": "2026-09-14T05:30:27.916486"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -914,26 +884,26 @@
         "senior": 29
       },
       "locations": [
-        "London; Zurich",
-        "Seoul",
-        "Zurich",
-        "Nanjing",
-        "New York City",
-        "Palo Alto",
-        "Tianjin",
-        "Chengdu",
-        "Berlin",
-        "Madrid",
-        "Seattle",
-        "Philadelphia",
-        "Dallas",
-        "Mexico City",
+        "Stockholm",
+        "Las Vegas",
+        "Landquart",
+        "Rio de Janeiro",
+        "Tokyo",
+        "Newport Beach",
+        "Paris",
+        "Guangzhou",
         "London",
-        "Amsterdam",
-        "Chicago",
-        "Boston",
-        "Milan",
-        "San Diego"
+        "Shenzhen",
+        "San Diego",
+        "Cirebon",
+        "S\u00e3o Paulo",
+        "Zurich",
+        "Chengdu",
+        "Macao",
+        "Dallas",
+        "Southlake",
+        "Wuhan",
+        "Los Angeles"
       ],
       "jobs": [
         {
@@ -1437,8 +1407,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-13T05:30:20.296882"
+      "checked_at": "2026-09-14T05:30:37.232156"
     }
   },
-  "generated_at": "2026-09-13T05:30:22.297068"
+  "generated_at": "2026-09-14T05:30:39.232303"
 }
