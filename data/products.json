@@ -309,9 +309,9 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 11558,
+      "total": 11562,
       "categories": {
-        "bottoms": 4137,
+        "bottoms": 4141,
         "tops": 3762,
         "other": 837,
         "accessories": 664,
@@ -320,7 +320,7 @@
         "dresses": 12
       },
       "subcategories": {
-        "shorts": 1684,
+        "shorts": 1688,
         "leggings": 1000,
         "crop_tops": 200,
         "other": 3959,
@@ -347,19 +347,19 @@
         "medium_support": 12
       },
       "genders": {
-        "unisex": 5235,
+        "unisex": 5239,
         "womens": 3970,
         "mens": 2353
       },
       "colors": {
         "green": 606,
         "pink": 1069,
-        "black": 2653,
+        "black": 2655,
         "white": 881,
         "navy": 84,
         "gray": 1367,
         "brown": 936,
-        "blue": 1838,
+        "blue": 1840,
         "red": 367,
         "purple": 655,
         "yellow": 128,
@@ -1058,12 +1058,44 @@
     }
   },
   "totals": {
-    "products": 51117,
+    "products": 51121,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-09-19",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 4,
+      "products": [
+        {
+          "name": "gymshark conditioning club 4 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-4-shorts-shorts-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark conditioning club 4 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-4-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark conditioning club 4 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-4-shorts-shorts-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark conditioning club 4 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-4-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "brand": "sbd",
@@ -6709,46 +6741,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-09-05",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 3,
-      "products": [
-        {
-          "name": "cloudmonster 3 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg3090/womens/dustrose-doe-shoes-3WG30906314",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 w",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg3090/womens/ivory-pearl-shoes-3WG30901021",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloudmonster 3 w 3wg3090",
-          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg3090/womens",
-          "category": "footwear",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 1,
-      "products": [
-        {
-          "name": "coronado pant 30",
-          "url": "https://vuoriclothing.com/products/coronado-pant-30-midnight-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7235,7 +7227,8 @@
       "2026-09-15": 4,
       "2026-09-16": 14,
       "2026-09-17": 18,
-      "2026-09-18": 14
+      "2026-09-18": 14,
+      "2026-09-19": 4
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7405,7 +7398,7 @@
       "tenthousand": 86,
       "lululemon": 1732,
       "alo": 1823,
-      "gymshark": 4137,
+      "gymshark": 4141,
       "on_running": 1739,
       "gymreapers": 228,
       "sbd": 45,
@@ -7564,7 +7557,7 @@
       "tenthousand": 51,
       "lululemon": 528,
       "alo": 427,
-      "gymshark": 1684,
+      "gymshark": 1688,
       "on_running": 765,
       "gymreapers": 148,
       "sbd": 29,
@@ -7971,7 +7964,7 @@
       "vuori": 904,
       "outdoor_voices": 101,
       "alo": 1065,
-      "gymshark": 2653,
+      "gymshark": 2655,
       "on_running": 1630,
       "gymreapers": 133,
       "sbd": 6,
@@ -8042,7 +8035,7 @@
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 254,
-      "gymshark": 1838,
+      "gymshark": 1840,
       "on_running": 843,
       "gymreapers": 34,
       "sbd": 12,
@@ -8799,7 +8792,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 839,
-      "text": "Vuori ranks #2 in shorts with 839 products. Behind Gymshark (1684)."
+      "text": "Vuori ranks #2 in shorts with 839 products. Behind Gymshark (1688)."
     },
     {
       "type": "comparison",
@@ -8809,7 +8802,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 46,277 competitor products tracked. Vuori's 4,840 = 9% share of tracked catalog."
+      "text": "Market context: 46,281 competitor products tracked. Vuori's 4,840 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8958,5 +8951,5 @@
       }
     ]
   },
-  "generated_at": "2026-09-19T13:15:10.810Z"
+  "generated_at": "2026-09-20T13:15:09.853Z"
 }
