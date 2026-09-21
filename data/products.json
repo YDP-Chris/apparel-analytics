@@ -239,11 +239,11 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4903,
+      "total": 4906,
       "categories": {
         "other": 850,
-        "bottoms": 1823,
-        "tops": 586,
+        "bottoms": 1825,
+        "tops": 587,
         "sports_bras": 341,
         "accessories": 434,
         "outerwear": 694,
@@ -256,7 +256,7 @@
         "tanks": 272,
         "shorts": 427,
         "hats": 152,
-        "sweatpants": 219,
+        "sweatpants": 221,
         "hoodies": 228,
         "running": 32,
         "long_sleeve": 41,
@@ -269,7 +269,7 @@
         "socks": 193,
         "bralette": 12,
         "polos": 14,
-        "crop_tops": 191,
+        "crop_tops": 192,
         "casual_dress": 65,
         "tennis_dress": 33,
         "headwear": 53,
@@ -279,13 +279,13 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3066,
+        "unisex": 3068,
         "womens": 1528,
-        "mens": 309
+        "mens": 310
       },
       "colors": {
         "navy": 198,
-        "black": 1065,
+        "black": 1066,
         "white": 943,
         "gray": 510,
         "khaki": 136,
@@ -296,7 +296,7 @@
         "brown": 299,
         "red": 224,
         "heather": 24,
-        "rust": 9,
+        "rust": 11,
         "orange": 3,
         "yellow": 61,
         "multi": 4,
@@ -304,7 +304,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3013
+      "uniqueStyles": 3016
     },
     "gymshark": {
       "name": "Gymshark",
@@ -441,26 +441,26 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1155,
+      "total": 1165,
       "categories": {
-        "other": 347,
-        "accessories": 201,
-        "tops": 249,
-        "bottoms": 228,
-        "sports_bras": 68,
-        "outerwear": 62
+        "other": 349,
+        "accessories": 202,
+        "tops": 252,
+        "bottoms": 230,
+        "sports_bras": 69,
+        "outerwear": 63
       },
       "subcategories": {
-        "other": 574,
-        "tees": 126,
+        "other": 577,
+        "tees": 128,
         "shorts": 148,
-        "hats": 80,
+        "hats": 81,
         "leggings": 46,
         "tanks": 36,
-        "crop_tops": 21,
+        "crop_tops": 22,
         "socks": 8,
-        "joggers": 27,
-        "hoodies": 28,
+        "joggers": 29,
+        "hoodies": 29,
         "long_sleeve": 15,
         "quarter_zips": 9,
         "jackets": 19,
@@ -471,14 +471,14 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 978,
-        "womens": 153,
+        "unisex": 987,
+        "womens": 154,
         "mens": 24
       },
       "colors": {
         "green": 105,
         "black": 133,
-        "red": 61,
+        "red": 62,
         "khaki": 60,
         "white": 95,
         "gray": 78,
@@ -492,9 +492,9 @@
         "yellow": 5,
         "orange": 1
       },
-      "colorCoverage": 60.4,
+      "colorCoverage": 60,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 429
+      "uniqueStyles": 430
     },
     "sbd": {
       "name": "sbd",
@@ -652,11 +652,11 @@
     "asrv": {
       "name": "asrv",
       "slug": "asrv",
-      "total": 1825,
+      "total": 1830,
       "categories": {
         "accessories": 239,
         "other": 337,
-        "bottoms": 589,
+        "bottoms": 594,
         "outerwear": 217,
         "tops": 421,
         "sports_bras": 22
@@ -666,7 +666,7 @@
         "other": 447,
         "socks": 12,
         "hats": 139,
-        "joggers": 102,
+        "joggers": 107,
         "jackets": 56,
         "pants": 37,
         "shorts": 344,
@@ -684,19 +684,19 @@
         "polos": 4
       },
       "genders": {
-        "unisex": 1717,
+        "unisex": 1722,
         "womens": 97,
         "mens": 11
       },
       "colors": {
-        "black": 520,
+        "black": 521,
         "red": 80,
         "white": 209,
         "purple": 2,
-        "camo": 82,
+        "camo": 83,
         "green": 129,
-        "navy": 71,
-        "gray": 294,
+        "navy": 72,
+        "gray": 296,
         "pink": 1,
         "khaki": 46,
         "rust": 40,
@@ -704,7 +704,7 @@
       },
       "colorCoverage": 83.9,
       "avgColorsPerStyle": 1.5,
-      "uniqueStyles": 1018
+      "uniqueStyles": 1021
     },
     "goruck": {
       "name": "goruck",
@@ -1058,12 +1058,144 @@
     }
   },
   "totals": {
-    "products": 51121,
+    "products": 51139,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-09-20",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 10,
+      "products": [
+        {
+          "name": "championship oversized tee",
+          "url": "https://www.gymreapers.com/products/championship-oversized-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "olympia 2026 sandow cut off",
+          "url": "https://www.gymreapers.com/products/olympia-2026-sandow-cut-off",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "championship stringer",
+          "url": "https://www.gymreapers.com/products/championship-stringer",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "championship hoodie",
+          "url": "https://www.gymreapers.com/products/championship-hoodie",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "championship straight leg jogger",
+          "url": "https://www.gymreapers.com/products/championship-straight-leg-jogger",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "championship crop tee",
+          "url": "https://www.gymreapers.com/products/championship-crop-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "championship crop hoodie",
+          "url": "https://www.gymreapers.com/products/championship-crop-hoodie",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "championship wide leg jogger",
+          "url": "https://www.gymreapers.com/products/championship-wide-leg-jogger",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "olympia high neck bra ember",
+          "url": "https://www.gymreapers.com/products/olympia-high-neck-bra-ember-red",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "mr olympia corduroy 5 panel hat",
+          "url": "https://www.gymreapers.com/products/mr-olympia-corduroy-5-panel-hat",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "brand": "asrv",
+      "brandSlug": "asrv",
+      "count": 5,
+      "products": [
+        {
+          "name": "0690 tetra lite tech high rib jogger cyber",
+          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-black-cyber",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "0690 tetra lite tech high rib jogger slate cyber",
+          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-slate-grey-cyber",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "0690 tetra lite tech high rib jogger black cyber",
+          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-black-camo-cyber",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "0690 tetra lite tech high rib jogger cyber",
+          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-navy-cyber",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "0690 tetra lite tech high rib jogger cyber",
+          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-stone-cyber",
+          "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 3,
+      "products": [
+        {
+          "name": "cropped double take hoodie",
+          "url": "https://www.aloyoga.com/products/w3713r-cropped-double-take-hoodie-black",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "renown sweatpant",
+          "url": "https://www.aloyoga.com/products/u5002r-renown-sweatpant-soft-clay",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "renown sweatpant mens",
+          "url": "https://www.aloyoga.com/products/u5002r-renown-sweatpant-soft-clay-mens",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "brand": "Gymshark",
@@ -6709,38 +6841,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-09-06",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 4,
-      "products": [
-        {
-          "name": "7 8 easy sweatpant",
-          "url": "https://www.aloyoga.com/products/w51067r-7-8-easy-sweatpant-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "soho sweatpant",
-          "url": "https://www.aloyoga.com/products/w5912r-soho-sweatpant-oatmeal-heather",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "jacquard glenplaid tennis skirt titanium",
-          "url": "https://www.aloyoga.com/products/w6278r-jacquard-glenplaid-tennis-skirt-titanium-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "alolux cropped me time cardigan",
-          "url": "https://www.aloyoga.com/products/w3775r-alolux-cropped-me-time-cardigan-oatmeal-heather",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7080,7 +7180,8 @@
       "2026-09-01": 39,
       "2026-09-06": 4,
       "2026-09-09": 4,
-      "2026-09-13": 3
+      "2026-09-13": 3,
+      "2026-09-20": 3
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -7293,7 +7394,8 @@
       "2026-08-18": 6,
       "2026-09-16": 26,
       "2026-09-17": 2,
-      "2026-09-18": 20
+      "2026-09-18": 20,
+      "2026-09-20": 10
     },
     "sbd": {
       "2026-04-07": 206,
@@ -7326,7 +7428,8 @@
     "asrv": {
       "2026-08-30": 1788,
       "2026-09-10": 1,
-      "2026-09-17": 37
+      "2026-09-17": 37,
+      "2026-09-20": 5
     },
     "goruck": {
       "2026-08-30": 1921,
@@ -7397,14 +7500,14 @@
       "outdoor_voices": 305,
       "tenthousand": 86,
       "lululemon": 1732,
-      "alo": 1823,
+      "alo": 1825,
       "gymshark": 4141,
       "on_running": 1739,
-      "gymreapers": 228,
+      "gymreapers": 230,
       "sbd": 45,
       "schiek": 2,
       "bear_grips": 330,
-      "asrv": 589,
+      "asrv": 594,
       "goruck": 126,
       "ghost": 9,
       "hayabusa": 70,
@@ -7417,10 +7520,10 @@
       "outdoor_voices": 85,
       "tenthousand": 48,
       "lululemon": 835,
-      "alo": 586,
+      "alo": 587,
       "gymshark": 3762,
       "on_running": 715,
-      "gymreapers": 249,
+      "gymreapers": 252,
       "sbd": 153,
       "schiek": 8,
       "bear_grips": 1245,
@@ -7440,7 +7543,7 @@
       "alo": 694,
       "gymshark": 1144,
       "on_running": 967,
-      "gymreapers": 62,
+      "gymreapers": 63,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 453,
@@ -7460,7 +7563,7 @@
       "alo": 850,
       "gymshark": 837,
       "on_running": 3103,
-      "gymreapers": 347,
+      "gymreapers": 349,
       "sbd": 104,
       "harbinger": 26,
       "schiek": 59,
@@ -7481,7 +7584,7 @@
       "alo": 341,
       "gymshark": 1002,
       "on_running": 203,
-      "gymreapers": 68,
+      "gymreapers": 69,
       "bear_grips": 9,
       "asrv": 22,
       "goruck": 12,
@@ -7511,7 +7614,7 @@
       "alo": 434,
       "gymshark": 664,
       "on_running": 766,
-      "gymreapers": 201,
+      "gymreapers": 202,
       "sbd": 59,
       "harbinger": 29,
       "schiek": 44,
@@ -7541,10 +7644,10 @@
       "alo": 42,
       "gymshark": 623,
       "on_running": 27,
-      "gymreapers": 27,
+      "gymreapers": 29,
       "sbd": 12,
       "bear_grips": 30,
-      "asrv": 102,
+      "asrv": 107,
       "goruck": 12,
       "hayabusa": 1,
       "venum": 67,
@@ -7594,7 +7697,7 @@
       "lululemon": 22,
       "alo": 56,
       "gymshark": 104,
-      "gymreapers": 126,
+      "gymreapers": 128,
       "bear_grips": 567,
       "asrv": 279,
       "goruck": 102,
@@ -7626,7 +7729,7 @@
       "alo": 1708,
       "gymshark": 3959,
       "on_running": 3518,
-      "gymreapers": 574,
+      "gymreapers": 577,
       "sbd": 229,
       "harbinger": 55,
       "schiek": 109,
@@ -7727,7 +7830,7 @@
       "alo": 228,
       "gymshark": 628,
       "on_running": 347,
-      "gymreapers": 28,
+      "gymreapers": 29,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 259,
@@ -7746,7 +7849,7 @@
       "alo": 152,
       "gymshark": 124,
       "on_running": 243,
-      "gymreapers": 80,
+      "gymreapers": 81,
       "sbd": 8,
       "schiek": 1,
       "bear_grips": 157,
@@ -7783,10 +7886,10 @@
       "vuori": 10,
       "outdoor_voices": 17,
       "lululemon": 96,
-      "alo": 191,
+      "alo": 192,
       "gymshark": 200,
       "on_running": 221,
-      "gymreapers": 21,
+      "gymreapers": 22,
       "sbd": 8,
       "bear_grips": 7,
       "asrv": 6,
@@ -7825,7 +7928,7 @@
       "outdoor_voices": 24,
       "tenthousand": 2,
       "lululemon": 4,
-      "alo": 219,
+      "alo": 221,
       "on_running": 39,
       "bear_grips": 27,
       "asrv": 8,
@@ -7937,7 +8040,7 @@
       "gymreapers": 78,
       "sbd": 22,
       "schiek": 5,
-      "asrv": 294,
+      "asrv": 296,
       "goruck": 48,
       "optimum_nutrition": 33,
       "ghost": 20,
@@ -7953,7 +8056,7 @@
       "on_running": 312,
       "gymreapers": 42,
       "sbd": 7,
-      "asrv": 71,
+      "asrv": 72,
       "goruck": 6,
       "ghost": 4,
       "venum": 22,
@@ -7963,14 +8066,14 @@
     "black": {
       "vuori": 904,
       "outdoor_voices": 101,
-      "alo": 1065,
+      "alo": 1066,
       "gymshark": 2655,
       "on_running": 1630,
       "gymreapers": 133,
       "sbd": 6,
       "schiek": 8,
       "bear_grips": 4,
-      "asrv": 520,
+      "asrv": 521,
       "goruck": 66,
       "optimum_nutrition": 1,
       "ghost": 36,
@@ -8000,7 +8103,7 @@
       "alo": 224,
       "gymshark": 367,
       "on_running": 236,
-      "gymreapers": 61,
+      "gymreapers": 62,
       "sbd": 3,
       "harbinger": 2,
       "asrv": 80,
@@ -8162,7 +8265,7 @@
     "rust": {
       "vuori": 2,
       "outdoor_voices": 1,
-      "alo": 9,
+      "alo": 11,
       "on_running": 50,
       "gymreapers": 3,
       "bear_grips": 1,
@@ -8177,7 +8280,7 @@
       "alo": 1,
       "on_running": 6,
       "gymreapers": 34,
-      "asrv": 82,
+      "asrv": 83,
       "ghost": 1,
       "venum": 26,
       "everlast": 7
@@ -8218,10 +8321,10 @@
       "brand": "Alo Yoga",
       "bottoms": 37.2,
       "tops": 12,
-      "outerwear": 14.2,
-      "dresses": 2.7,
+      "outerwear": 14.1,
+      "dresses": 2.6,
       "sports_bras": 7,
-      "accessories": 8.9,
+      "accessories": 8.8,
       "other": 17.3
     },
     {
@@ -8266,13 +8369,13 @@
     },
     {
       "brand": "asrv",
-      "bottoms": 32.3,
-      "tops": 23.1,
+      "bottoms": 32.5,
+      "tops": 23,
       "outerwear": 11.9,
       "dresses": 0,
       "sports_bras": 1.2,
       "accessories": 13.1,
-      "other": 18.5
+      "other": 18.4
     },
     {
       "brand": "gymreapers",
@@ -8281,7 +8384,7 @@
       "outerwear": 5.4,
       "dresses": 0,
       "sports_bras": 5.9,
-      "accessories": 17.4,
+      "accessories": 17.3,
       "other": 30
     },
     {
@@ -8535,11 +8638,11 @@
     {
       "brand": "asrv",
       "black": 28.5,
-      "white": 11.5,
-      "gray": 16.1,
+      "white": 11.4,
+      "gray": 16.2,
       "navy": 3.9,
       "blue": 3.1,
-      "green": 7.1,
+      "green": 7,
       "khaki": 2.5,
       "brown": 0,
       "purple": 0.1,
@@ -8551,16 +8654,16 @@
     },
     {
       "brand": "gymreapers",
-      "black": 11.5,
+      "black": 11.4,
       "white": 8.2,
-      "gray": 6.8,
+      "gray": 6.7,
       "navy": 3.6,
       "blue": 2.9,
-      "green": 9.1,
+      "green": 9,
       "khaki": 5.2,
       "brown": 1.5,
       "purple": 1,
-      "pink": 1.6,
+      "pink": 1.5,
       "orange": 0.1,
       "red": 5.3,
       "yellow": 0.4,
@@ -8802,7 +8905,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 46,281 competitor products tracked. Vuori's 4,840 = 9% share of tracked catalog."
+      "text": "Market context: 46,299 competitor products tracked. Vuori's 4,840 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8940,7 +9043,7 @@
       {
         "category": "Men's Products",
         "vuori": 1747,
-        "competitor": 309,
+        "competitor": 310,
         "winner": "vuori"
       },
       {
@@ -8951,5 +9054,5 @@
       }
     ]
   },
-  "generated_at": "2026-09-20T13:15:09.853Z"
+  "generated_at": "2026-09-21T13:15:09.472Z"
 }

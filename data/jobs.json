@@ -3,22 +3,22 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1053,
-      "change_from_last": -4,
+      "total_jobs": 1054,
+      "change_from_last": 1,
       "departments": {
         "design": 78,
-        "other": 141,
+        "other": 140,
+        "operations": 387,
+        "retail": 409,
         "product": 4,
-        "retail": 408,
         "engineering": 19,
         "marketing": 8,
         "executive": 3,
         "finance": 5,
-        "hr": 1,
-        "operations": 386
+        "hr": 1
       },
       "seniority": {
-        "junior": 709,
+        "junior": 710,
         "mid": 35,
         "manager": 126,
         "c-suite": 16,
@@ -27,26 +27,26 @@
         "senior": 20
       },
       "locations": [
-        "Corte Madera, California, United States",
+        "Madison Ave, New York, NY (10198)",
         "Williamsburg, Brooklyn, NY (10006)",
-        "West Palm Beach, Florida, United States",
-        "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "Ponce City Market, Atlanta, GA (10186)",
-        "Remote",
-        "Old Orchard, Skokie, IL (10016)",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Los Angeles Metro Area",
-        "The Knox, Dallas, TX (10184)",
-        "Miami, Miami, FL (10013)",
-        "Southlake, Texas, United States",
-        "Multrees Walk, Edinburgh (50043)",
-        "White Plains, New York, United States",
-        "Miami Beach, Florida, United States",
-        "Durham, North Carolina, United States",
-        "Texas Distribution Center, Fort Worth, TX (WH-TX)",
-        "Scottsdale, Arizona, United States",
-        "Boulder, Colorado, United States",
-        "Orlando, Florida, United States"
+        "Alpharetta, Georgia, United States",
+        "Garden City, New York, United States",
+        "Chinook Centre, Calgary, AB (10048)",
+        "Lynnfield, Massachusetts, United States",
+        "Shops at Columbus Circle, New York, NY (10076)",
+        "Mall at Green Hills, Nashville, TN (10079)",
+        "San Diego, California, United States",
+        "Westfarms Mall, West Hartford, CT (10062)",
+        "Aspen, Aspen, CO (10020)",
+        "Fashion Place Mall, Murray, UT (10179)",
+        "Rice Village, Houston, TX (10151)",
+        "Toronto Eaton Centre, Toronto, ON (10040)",
+        "Milano, Milan, Italy",
+        "Shrewsbury, New Jersey, United States",
+        "San Luis Obispo, California, United States",
+        "Rockefeller Center, New York, NY (10022)",
+        "Beverly Hills LAND, Beverly Hills, CA (HQ-L); San Ramon Office, San Ramon, CA (LO-SF)",
+        "Bloomington, Minnesota, United States"
       ],
       "jobs": [
         {
@@ -68,6 +68,26 @@
           "posted_at": "2026-08-20T19:42:28-04:00",
           "category": "other",
           "seniority": "mid"
+        },
+        {
+          "id": "6155129004",
+          "title": "AMER - Seasonal Operations Associate (Part-Time) Template",
+          "location": "Tulsa, Oklahoma, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6155129004?gh_jid=6155129004",
+          "posted_at": "2026-09-20T15:51:27-04:00",
+          "category": "operations",
+          "seniority": "junior"
+        },
+        {
+          "id": "6158765004",
+          "title": "AMER - Seasonal Sales Associate (Part-Time) Template",
+          "location": "Tulsa, Oklahoma, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6158765004?gh_jid=6158765004",
+          "posted_at": "2026-09-20T15:51:34-04:00",
+          "category": "retail",
+          "seniority": "junior"
         },
         {
           "id": "6149278004",
@@ -268,16 +288,6 @@
           "posted_at": "2026-08-20T18:16:29-04:00",
           "category": "engineering",
           "seniority": "junior"
-        },
-        {
-          "id": "6120324004",
-          "title": "Back of House Manager - Bondi Junction (Flagship)",
-          "location": "Bondi Junction, Bondi Junction (50094)",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6120324004?gh_jid=6120324004",
-          "posted_at": "2026-09-14T03:32:08-04:00",
-          "category": "other",
-          "seniority": "manager"
         },
         {
           "id": "6107239004",
@@ -538,27 +548,17 @@
           "posted_at": "2026-08-20T19:59:22-04:00",
           "category": "other",
           "seniority": "manager"
-        },
-        {
-          "id": "6161094004",
-          "title": "Flagship Store Manager - Champs-Elys\u00e9es, Paris ",
-          "location": "Paris, Paris, France",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6161094004?gh_jid=6161094004",
-          "posted_at": "2026-08-25T04:11:45-04:00",
-          "category": "retail",
-          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-20T05:30:07.010423"
+      "checked_at": "2026-09-21T05:30:07.580371"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 24,
-      "change_from_last": 0,
+      "total_jobs": 23,
+      "change_from_last": -1,
       "departments": {
-        "design": 4,
+        "design": 3,
         "other": 3,
         "executive": 2,
         "marketing": 2,
@@ -568,8 +568,8 @@
         "finance": 1
       },
       "seniority": {
-        "lead": 7,
         "mid": 9,
+        "lead": 6,
         "c-suite": 1,
         "junior": 4,
         "senior": 3
@@ -581,16 +581,6 @@
         "Solihull, England, United Kingdom"
       ],
       "jobs": [
-        {
-          "id": "4793583101",
-          "title": "Creative Lead ",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4793583101",
-          "posted_at": "2026-09-06T13:33:21-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
         {
           "id": "4974423101",
           "title": "Designer \u2013 Menswear",
@@ -647,7 +637,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974222101",
-          "posted_at": "2026-09-16T08:29:13-04:00",
+          "posted_at": "2026-09-21T04:30:13-04:00",
           "category": "marketing",
           "seniority": "lead"
         },
@@ -822,7 +812,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-20T05:30:09.516573"
+      "checked_at": "2026-09-21T05:30:09.744751"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -880,47 +870,47 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 296,
-      "change_from_last": 0,
+      "total_jobs": 294,
+      "change_from_last": -2,
       "departments": {
         "other": 46,
-        "retail": 170,
+        "retail": 169,
         "marketing": 16,
         "engineering": 27,
-        "product": 4,
+        "product": 3,
         "operations": 5,
         "executive": 7,
         "design": 16,
         "finance": 5
       },
       "seniority": {
-        "lead": 157,
-        "mid": 100,
+        "lead": 156,
+        "mid": 99,
         "c-suite": 9,
         "manager": 1,
         "senior": 29
       },
       "locations": [
-        "Cirebon",
-        "London; Zurich",
-        "New York City",
-        "S\u00e3o Paulo",
-        "Las Vegas",
-        "Hanoi",
-        "Ho Chi Minh City",
-        "Stockholm",
-        "London",
-        "Shenzhen",
-        "Seoul",
+        "Paris",
+        "Amsterdam",
+        "Los Angeles",
         "Milan",
-        "Nanjing",
-        "Palo Alto",
-        "Melbourne",
+        "Ho Chi Minh City",
         "Portland",
-        "Sydney",
+        "Corte Madera",
         "Madrid",
-        "Shanghai",
-        "Wuhan"
+        "Copenhagen",
+        "Brooklyn",
+        "Chengdu",
+        "Landquart",
+        "Dallas",
+        "Southlake",
+        "Munich",
+        "Palo Alto",
+        "London; Zurich",
+        "Hanoi",
+        "Stockholm",
+        "Philadelphia"
       ],
       "jobs": [
         {
@@ -1324,16 +1314,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7831449",
-          "title": "Head of Product Management Tennis",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7831449?gh_jid=7831449",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "product",
-          "seniority": "lead"
-        },
-        {
           "id": "7984641",
           "title": "Lead - Accessories Developer  (Technical) Bags",
           "location": "Zurich",
@@ -1422,10 +1402,20 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "design",
           "seniority": "lead"
+        },
+        {
+          "id": "8087896",
+          "title": "Lead - Data, Reporting & Insights",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8087896?gh_jid=8087896",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "engineering",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-20T05:30:18.708510"
+      "checked_at": "2026-09-21T05:30:37.109358"
     }
   },
-  "generated_at": "2026-09-20T05:30:20.708671"
+  "generated_at": "2026-09-21T05:30:39.109508"
 }
