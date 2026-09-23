@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1033,
-      "change_from_last": -21,
+      "total_jobs": 1008,
+      "change_from_last": -25,
       "departments": {
-        "design": 77,
-        "other": 140,
-        "operations": 376,
-        "retail": 397,
+        "design": 74,
+        "other": 139,
         "product": 4,
-        "engineering": 23,
+        "retail": 384,
+        "engineering": 22,
         "executive": 3,
         "finance": 5,
         "hr": 1,
+        "operations": 369,
         "marketing": 7
       },
       "seniority": {
-        "junior": 694,
-        "mid": 38,
-        "manager": 122,
+        "junior": 672,
+        "mid": 39,
+        "manager": 121,
         "c-suite": 16,
-        "lead": 139,
+        "lead": 135,
         "intern": 3,
-        "senior": 21
+        "senior": 22
       },
       "locations": [
-        "The Woodlands, Texas, United States",
-        "Oakbrook Center, Oak Brook, IL (10015)",
+        "Roma, Rome, Italy",
         "Austin House at Music, Austin, TX (10010)",
-        "Naperville, Illinois, United States",
-        "Oklahoma City, Oklahoma, United States",
-        "Santa Barbara, California, United States",
-        "Alpharetta, Georgia, United States",
-        "Durham, North Carolina, United States",
-        "Dublin, Dublin, Ireland",
+        "Park City, Park City, UT (10192)",
+        "Town Center Plaza, Leawood, KS (10185)",
+        "Forum Shops at Ceasars, Las Vegas, NV (10063)",
+        "Birmingham, Alabama, United States",
+        "Santa Clara, California, United States",
+        "Upper East Side, New York, NY (10009)",
+        "Santa Monica, California, United States",
+        "Los Angeles, California, United States",
+        "Center of Waikiki, Honolulu, HI (10142)",
+        "Bondi Junction, Bondi Junction (50094)",
         "Cherry Creek Mall, Denver, CO (10028)",
-        "The Gardens Mall, Palm Beach Gardens, FL (10036)",
-        "Dallas Galleria, Dallas, TX (10154)",
-        "Greenwich, Connecticut, United States",
-        "Oakridge Centre, Vancouver, BC (10080)",
-        "Harbor East, Baltimore, MD (10105)",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Bloor Street, Toronto, ON (10026)",
-        "Columbus, Ohio, United States",
-        "Manhattan Beach, California, United States",
-        "Rice Village, Houston, TX (10151)"
+        "Dublin, Dublin, Ireland",
+        "Milano, Milan, Italy",
+        "Bellevue, Washington, United States",
+        "The Woodlands, Texas, United States",
+        "Canoga Park, California, United States",
+        "Kenwood Towne Centre, Cincinnati, OH (10082)",
+        "Greenwich, Greenwich, CT (10197)"
       ],
       "jobs": [
         {
@@ -70,46 +70,6 @@
           "seniority": "mid"
         },
         {
-          "id": "6158785004",
-          "title": "AMER - Seasonal Associate (Part-Time) Template",
-          "location": "Tulsa, Oklahoma, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6158785004?gh_jid=6158785004",
-          "posted_at": "2026-09-21T21:51:30-04:00",
-          "category": "other",
-          "seniority": "junior"
-        },
-        {
-          "id": "6155146004",
-          "title": "AMER - Seasonal Associate (Part-Time) Template",
-          "location": "Tulsa, Oklahoma, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6155146004?gh_jid=6155146004",
-          "posted_at": "2026-09-21T21:51:33-04:00",
-          "category": "other",
-          "seniority": "junior"
-        },
-        {
-          "id": "6155129004",
-          "title": "AMER - Seasonal Operations Associate (Part-Time) Template",
-          "location": "Tulsa, Oklahoma, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6155129004?gh_jid=6155129004",
-          "posted_at": "2026-09-21T21:52:01-04:00",
-          "category": "operations",
-          "seniority": "junior"
-        },
-        {
-          "id": "6158765004",
-          "title": "AMER - Seasonal Sales Associate (Part-Time) Template",
-          "location": "Tulsa, Oklahoma, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6158765004?gh_jid=6158765004",
-          "posted_at": "2026-09-20T15:51:34-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
           "id": "6149278004",
           "title": "AP Manager",
           "location": "Commerce, California, United States",
@@ -126,6 +86,16 @@
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5623418004?gh_jid=5623418004",
           "posted_at": "2026-08-20T18:16:29-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
+          "id": "6205927004",
+          "title": "Asset Protection Specialist - Rockefeller Center ",
+          "location": "Rockefeller Center, New York, NY (10022)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6205927004?gh_jid=6205927004",
+          "posted_at": "2026-09-22T18:16:45-04:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -490,16 +460,6 @@
           "seniority": "manager"
         },
         {
-          "id": "6111097004",
-          "title": "Facilities Facilities Project Coordinator",
-          "location": "Remote",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6111097004?gh_jid=6111097004",
-          "posted_at": "2026-08-20T18:16:29-04:00",
-          "category": "other",
-          "seniority": "c-suite"
-        },
-        {
           "id": "6111103004",
           "title": "Facilities Manager",
           "location": "Remote",
@@ -548,37 +508,78 @@
           "posted_at": "2026-09-21T10:20:23-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "6006955004",
+          "title": "Flagship General Manager - Milan",
+          "location": "Milano, Milan, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6006955004?gh_jid=6006955004",
+          "posted_at": "2026-08-20T18:16:29-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
+          "id": "6146472004",
+          "title": "Flagship Sales & Service Manager - Regent Street",
+          "location": "London, England, United Kingdom",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6146472004?gh_jid=6146472004",
+          "posted_at": "2026-08-20T19:59:22-04:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
+          "id": "6161094004",
+          "title": "Flagship Store Manager - Champs-Elys\u00e9es, Paris ",
+          "location": "Paris, Paris, France",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6161094004?gh_jid=6161094004",
+          "posted_at": "2026-08-25T04:11:45-04:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
+          "id": "5831128004",
+          "title": "Flagship Store Manager - Milan",
+          "location": "Milano, Milan, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5831128004?gh_jid=5831128004",
+          "posted_at": "2026-08-20T18:16:29-04:00",
+          "category": "retail",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-22T05:30:07.308572"
+      "checked_at": "2026-09-23T05:30:08.171888"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 24,
-      "change_from_last": 1,
+      "total_jobs": 26,
+      "change_from_last": 2,
       "departments": {
-        "other": 4,
+        "other": 5,
         "design": 3,
         "executive": 2,
         "marketing": 2,
         "engineering": 7,
         "operations": 1,
-        "retail": 4,
+        "retail": 5,
         "finance": 1
       },
       "seniority": {
-        "manager": 1,
+        "manager": 2,
         "mid": 9,
         "lead": 6,
         "c-suite": 1,
-        "junior": 4,
+        "junior": 5,
         "senior": 3
       },
       "locations": [
-        "Solihull, England, United Kingdom",
         "New York, New York, United States",
+        "Trafford Park, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
+        "Solihull, England, United Kingdom",
         "London"
       ],
       "jobs": [
@@ -611,6 +612,16 @@
           "posted_at": "2026-09-11T09:13:07-04:00",
           "category": "design",
           "seniority": "mid"
+        },
+        {
+          "id": "4981942101",
+          "title": "Ethics & Community Manager - Fixed Term Contract - 14 months",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981942101",
+          "posted_at": "2026-09-22T11:24:32-04:00",
+          "category": "other",
+          "seniority": "manager"
         },
         {
           "id": "4958327101",
@@ -648,7 +659,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974222101",
-          "posted_at": "2026-09-21T04:30:13-04:00",
+          "posted_at": "2026-09-22T12:15:01-04:00",
           "category": "marketing",
           "seniority": "lead"
         },
@@ -763,6 +774,16 @@
           "seniority": "junior"
         },
         {
+          "id": "4947448101",
+          "title": "Seasonal Sales Associates - Trafford, Manchester",
+          "location": "Trafford Park, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4947448101",
+          "posted_at": "2026-09-23T05:24:55-04:00",
+          "category": "retail",
+          "seniority": "junior"
+        },
+        {
           "id": "4969101101",
           "title": "Seasonal Sales Associates - White City Store , London",
           "location": "London",
@@ -823,7 +844,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-22T05:30:09.473122"
+      "checked_at": "2026-09-23T05:30:10.315045"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -881,47 +902,47 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 266,
-      "change_from_last": -28,
+      "total_jobs": 254,
+      "change_from_last": -12,
       "departments": {
-        "other": 35,
-        "retail": 167,
-        "marketing": 15,
+        "other": 32,
+        "retail": 166,
+        "marketing": 14,
         "product": 2,
         "executive": 6,
-        "engineering": 19,
-        "design": 15,
+        "design": 12,
+        "engineering": 17,
         "operations": 3,
-        "finance": 4
+        "finance": 2
       },
       "seniority": {
-        "lead": 141,
-        "mid": 97,
+        "lead": 137,
+        "mid": 96,
         "c-suite": 6,
         "manager": 1,
-        "senior": 21
+        "senior": 14
       },
       "locations": [
-        "Miami",
-        "Rio de Janeiro",
-        "Beijing",
-        "Austin",
-        "Dallas",
-        "Tokyo",
-        "Boston",
+        "D\u00fcsseldorf",
+        "Landquart",
+        "Philadelphia",
         "Seoul",
+        "Madrid",
+        "Seattle",
+        "Southlake",
         "Aventura",
-        "Macao",
-        "Shanghai",
-        "San Diego",
-        "Milan",
-        "Corte Madera",
-        "Chicago",
-        "Hanoi",
-        "Sydney",
-        "Los Angeles",
+        "Guangzhou",
+        "Brooklyn",
         "Washington D.C.",
-        "Portland"
+        "Paris",
+        "Shenzhen",
+        "Hanoi",
+        "Munich",
+        "Melbourne",
+        "Zurich",
+        "Tianjin",
+        "Newport Beach",
+        "Boston"
       ],
       "jobs": [
         {
@@ -951,16 +972,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8079104?gh_jid=8079104",
           "posted_at": "2026-09-08T08:37:47-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8032355",
-          "title": " Associate Store Leader, Chicago ",
-          "location": "Chicago",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8032355?gh_jid=8032355",
-          "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1182,16 +1193,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/8030127?gh_jid=8030127",
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "7681927",
-          "title": "Footwear Production Quality Assurance/Manufacturing Engineer",
-          "location": "Hanoi",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7681927?gh_jid=7681927",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "engineering",
           "seniority": "mid"
         },
         {
@@ -1423,10 +1424,30 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "design",
           "seniority": "lead"
+        },
+        {
+          "id": "7606445",
+          "title": "Lead - Footwear Tooling Engineer",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7606445?gh_jid=7606445",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "engineering",
+          "seniority": "lead"
+        },
+        {
+          "id": "8046066",
+          "title": "Lead - Inbound Transportation Operations",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8046066?gh_jid=8046066",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "operations",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-22T05:30:18.609234"
+      "checked_at": "2026-09-23T05:30:19.590579"
     }
   },
-  "generated_at": "2026-09-22T05:30:20.609391"
+  "generated_at": "2026-09-23T05:30:21.590781"
 }
