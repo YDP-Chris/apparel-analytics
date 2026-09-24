@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 1008,
-      "change_from_last": -25,
+      "total_jobs": 1001,
+      "change_from_last": -7,
       "departments": {
         "design": 74,
-        "other": 139,
+        "other": 136,
         "product": 4,
-        "retail": 384,
+        "retail": 385,
         "engineering": 22,
         "executive": 3,
         "finance": 5,
         "hr": 1,
-        "operations": 369,
+        "operations": 364,
         "marketing": 7
       },
       "seniority": {
-        "junior": 672,
-        "mid": 39,
+        "junior": 671,
+        "mid": 36,
         "manager": 121,
-        "c-suite": 16,
-        "lead": 135,
+        "c-suite": 15,
+        "lead": 133,
         "intern": 3,
         "senior": 22
       },
       "locations": [
-        "Roma, Rome, Italy",
-        "Austin House at Music, Austin, TX (10010)",
-        "Park City, Park City, UT (10192)",
-        "Town Center Plaza, Leawood, KS (10185)",
-        "Forum Shops at Ceasars, Las Vegas, NV (10063)",
-        "Birmingham, Alabama, United States",
-        "Santa Clara, California, United States",
-        "Upper East Side, New York, NY (10009)",
+        "Fashion Place, Murray, UT (10061)",
+        "Dadeland Mall, MIami, FL (10133)",
+        "Yorkdale Shopping Centre, Toronto, ON (10027)",
+        "Ponce City Market, Atlanta, GA (10186)",
         "Santa Monica, California, United States",
-        "Los Angeles, California, United States",
-        "Center of Waikiki, Honolulu, HI (10142)",
-        "Bondi Junction, Bondi Junction (50094)",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "Dublin, Dublin, Ireland",
-        "Milano, Milan, Italy",
-        "Bellevue, Washington, United States",
-        "The Woodlands, Texas, United States",
-        "Canoga Park, California, United States",
-        "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "Greenwich, Greenwich, CT (10197)"
+        "Williamsburg, Brooklyn, NY (10006)",
+        "Shops at Clearfork, Fort Worth, TX (10035)",
+        "Charleston, South Carolina, United States",
+        "Durham, North Carolina, United States",
+        "Perimeter Mall, Atlanta, GA (10176)",
+        "Tulsa, Oklahoma, United States",
+        "Brookfield Place, New York, NY (10173)",
+        "Warehouse 7, Montebello, CA (WH7)",
+        "Saint Catherine Street, Montr\u00e9al, QC (10086)",
+        "Atlanta, Georgia, United States",
+        "Commerce, California, United States",
+        "San Diego, California, United States",
+        "The Knox, Dallas, TX (10184)",
+        "Warehouse 2, Commerce, CA (WH2)",
+        "Oakridge Centre, Vancouver, BC (10080)"
       ],
       "jobs": [
         {
@@ -550,37 +550,36 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-23T05:30:08.171888"
+      "checked_at": "2026-09-24T05:30:07.272398"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 26,
-      "change_from_last": 2,
+      "total_jobs": 27,
+      "change_from_last": 1,
       "departments": {
-        "other": 5,
-        "design": 3,
+        "other": 7,
+        "design": 2,
         "executive": 2,
         "marketing": 2,
         "engineering": 7,
-        "operations": 1,
-        "retail": 5,
+        "retail": 6,
         "finance": 1
       },
       "seniority": {
         "manager": 2,
-        "mid": 9,
-        "lead": 6,
-        "c-suite": 1,
-        "junior": 5,
+        "mid": 8,
+        "lead": 8,
+        "junior": 6,
         "senior": 3
       },
       "locations": [
-        "New York, New York, United States",
-        "Trafford Park, England, United Kingdom",
-        "Amsterdam, North Holland, Netherlands",
         "Solihull, England, United Kingdom",
-        "London"
+        "New York, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Roosevelt, New York, United States",
+        "London",
+        "Trafford Park, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -592,16 +591,6 @@
           "posted_at": "2026-09-21T12:00:00-04:00",
           "category": "other",
           "seniority": "manager"
-        },
-        {
-          "id": "4974423101",
-          "title": "Designer \u2013 Menswear",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974423101",
-          "posted_at": "2026-09-11T08:26:37-04:00",
-          "category": "design",
-          "seniority": "mid"
         },
         {
           "id": "4974462101",
@@ -634,6 +623,16 @@
           "seniority": "lead"
         },
         {
+          "id": "4983839101",
+          "title": "Floor Lead - White City, London ",
+          "location": "London",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4983839101",
+          "posted_at": "2026-09-23T11:08:46-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
           "id": "4963395101",
           "title": "Head of Digital Product",
           "location": "Solihull, England, United Kingdom",
@@ -661,6 +660,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974222101",
           "posted_at": "2026-09-22T12:15:01-04:00",
           "category": "marketing",
+          "seniority": "lead"
+        },
+        {
+          "id": "4983795101",
+          "title": "IT Support Lead",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4983795101",
+          "posted_at": "2026-09-23T19:00:01-04:00",
+          "category": "other",
           "seniority": "lead"
         },
         {
@@ -704,14 +713,14 @@
           "seniority": "mid"
         },
         {
-          "id": "4972780101",
-          "title": "People Operations Coordinator",
-          "location": "New York, New York, United States",
+          "id": "4865088101",
+          "title": "Part Time Sales Associate - Roosevelt Field, Long Island, New York ",
+          "location": "Roosevelt, New York, United States",
           "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4972780101",
-          "posted_at": "2026-09-10T12:00:00-04:00",
-          "category": "operations",
-          "seniority": "c-suite"
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4865088101",
+          "posted_at": "2026-09-24T04:14:23-04:00",
+          "category": "retail",
+          "seniority": "junior"
         },
         {
           "id": "4974395101",
@@ -844,7 +853,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-23T05:30:10.315045"
+      "checked_at": "2026-09-24T05:30:09.432805"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -902,47 +911,47 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 254,
-      "change_from_last": -12,
+      "total_jobs": 248,
+      "change_from_last": -6,
       "departments": {
         "other": 32,
-        "retail": 166,
+        "retail": 163,
         "marketing": 14,
         "product": 2,
         "executive": 6,
-        "design": 12,
         "engineering": 17,
+        "design": 9,
         "operations": 3,
         "finance": 2
       },
       "seniority": {
-        "lead": 137,
-        "mid": 96,
+        "lead": 133,
+        "mid": 94,
         "c-suite": 6,
         "manager": 1,
         "senior": 14
       },
       "locations": [
-        "D\u00fcsseldorf",
-        "Landquart",
-        "Philadelphia",
-        "Seoul",
-        "Madrid",
-        "Seattle",
-        "Southlake",
-        "Aventura",
-        "Guangzhou",
-        "Brooklyn",
-        "Washington D.C.",
         "Paris",
+        "Seoul",
+        "Austin",
+        "Chicago",
+        "Amsterdam",
+        "Seattle",
+        "Philadelphia",
+        "Boston",
+        "London; Zurich",
+        "Milan",
+        "Portland",
+        "Guangzhou",
         "Shenzhen",
-        "Hanoi",
-        "Munich",
         "Melbourne",
-        "Zurich",
         "Tianjin",
-        "Newport Beach",
-        "Boston"
+        "Las Vegas",
+        "S\u00e3o Paulo",
+        "D\u00fcsseldorf",
+        "Brooklyn",
+        "New York City"
       ],
       "jobs": [
         {
@@ -1236,16 +1245,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7677225",
-          "title": " Head of Creative, Core Brand Design",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7677225?gh_jid=7677225",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
           "id": "7823208",
           "title": "Head of Digital Product Management, China",
           "location": "Shanghai",
@@ -1376,16 +1375,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8144388",
-          "title": "Lead - Digital Copywriter ",
-          "location": "London; Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8144388?gh_jid=8144388",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
           "id": "8110862",
           "title": "Lead - Digital Sales Planning, SEA, HK, TW & Oceania",
           "location": "Hong Kong",
@@ -1444,10 +1433,30 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "operations",
           "seniority": "lead"
+        },
+        {
+          "id": "8110850",
+          "title": "Lead - Polymer Process Engineer, Lightspray",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8110850?gh_jid=8110850",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "engineering",
+          "seniority": "lead"
+        },
+        {
+          "id": "8124324",
+          "title": "Lead -  Procurement to Pay",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8124324?gh_jid=8124324",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-23T05:30:19.590579"
+      "checked_at": "2026-09-24T05:30:18.619518"
     }
   },
-  "generated_at": "2026-09-23T05:30:21.590781"
+  "generated_at": "2026-09-24T05:30:20.619739"
 }
