@@ -499,16 +499,16 @@
     "sbd": {
       "name": "sbd",
       "slug": "sbd",
-      "total": 367,
+      "total": 374,
       "categories": {
-        "tops": 153,
+        "tops": 160,
         "other": 104,
         "accessories": 59,
         "outerwear": 6,
         "bottoms": 45
       },
       "subcategories": {
-        "other": 229,
+        "other": 236,
         "socks": 46,
         "hats": 8,
         "tanks": 24,
@@ -519,7 +519,7 @@
         "long_sleeve": 5
       },
       "genders": {
-        "unisex": 220,
+        "unisex": 227,
         "womens": 78,
         "mens": 69
       },
@@ -535,7 +535,7 @@
         "purple": 4,
         "pink": 2
       },
-      "colorCoverage": 22.3,
+      "colorCoverage": 21.9,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 48
     },
@@ -1058,12 +1058,62 @@
     }
   },
   "totals": {
-    "products": 51502,
+    "products": 51509,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-09-26",
+      "brand": "sbd",
+      "brandSlug": "sbd",
+      "count": 7,
+      "products": [
+        {
+          "name": "2021 worlds strongest man heats t shirt",
+          "url": "https://sbdapparel.com/products/2021-worlds-strongest-man-heats-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "2022 worlds strongest man heats t shirt",
+          "url": "https://sbdapparel.com/products/2022-worlds-strongest-man-heats-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "2021 worlds strongest man final t shirt",
+          "url": "https://sbdapparel.com/products/2021-worlds-strongest-man-final-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "2022 worlds strongest man final t shirt",
+          "url": "https://sbdapparel.com/products/2022-worlds-strongest-man-final-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "2023 worlds strongest man heats t shirt",
+          "url": "https://sbdapparel.com/products/2023-worlds-strongest-man-heats-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "2024 worlds strongest man final t shirt",
+          "url": "https://sbdapparel.com/products/2024-worlds-strongest-man-final-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "2024 worlds strongest man heats t shirt",
+          "url": "https://sbdapparel.com/products/2024-worlds-strongest-man-heats-t-shirt",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-09-26",
       "brand": "Vuori",
@@ -7410,7 +7460,8 @@
       "2026-09-14": 4,
       "2026-09-15": 1,
       "2026-09-16": 10,
-      "2026-09-18": 114
+      "2026-09-18": 114,
+      "2026-09-26": 7
     },
     "harbinger": {
       "2026-04-07": 46,
@@ -7543,7 +7594,7 @@
       "gymshark": 3824,
       "on_running": 715,
       "gymreapers": 258,
-      "sbd": 153,
+      "sbd": 160,
       "schiek": 8,
       "bear_grips": 1245,
       "asrv": 421,
@@ -7749,7 +7800,7 @@
       "gymshark": 4001,
       "on_running": 3518,
       "gymreapers": 583,
-      "sbd": 229,
+      "sbd": 236,
       "harbinger": 55,
       "schiek": 109,
       "bear_grips": 471,
@@ -8448,13 +8499,13 @@
     },
     {
       "brand": "sbd",
-      "bottoms": 12.3,
-      "tops": 41.7,
+      "bottoms": 12,
+      "tops": 42.8,
       "outerwear": 1.6,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 16.1,
-      "other": 28.3
+      "accessories": 15.8,
+      "other": 27.8
     },
     {
       "brand": "everlast",
@@ -8760,15 +8811,15 @@
       "brand": "sbd",
       "black": 1.6,
       "white": 1.6,
-      "gray": 6,
+      "gray": 5.9,
       "navy": 1.9,
-      "blue": 3.3,
+      "blue": 3.2,
       "green": 1.6,
       "khaki": 0,
       "brown": 0,
       "purple": 1.1,
       "pink": 0.5,
-      "orange": 3.8,
+      "orange": 3.7,
       "red": 0.8,
       "yellow": 0,
       "other": 0
@@ -8924,7 +8975,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 46,653 competitor products tracked. Vuori's 4,849 = 9% share of tracked catalog."
+      "text": "Market context: 46,660 competitor products tracked. Vuori's 4,849 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9073,5 +9124,5 @@
       }
     ]
   },
-  "generated_at": "2026-09-26T13:15:10.176Z"
+  "generated_at": "2026-09-27T13:15:13.217Z"
 }
