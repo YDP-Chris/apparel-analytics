@@ -3,13 +3,13 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 959,
-      "change_from_last": -4,
+      "total_jobs": 958,
+      "change_from_last": -1,
       "departments": {
         "design": 73,
         "other": 130,
         "product": 4,
-        "retail": 372,
+        "retail": 371,
         "engineering": 20,
         "executive": 3,
         "finance": 5,
@@ -18,7 +18,7 @@
         "marketing": 7
       },
       "seniority": {
-        "junior": 642,
+        "junior": 641,
         "mid": 29,
         "manager": 122,
         "c-suite": 14,
@@ -27,26 +27,26 @@
         "senior": 22
       },
       "locations": [
-        "Brentwood Town & Country, Los Angeles, CA (10162)",
-        "Fashion Place Mall, Murray, UT (10179)",
-        "Garden State Plaza, Paramus, NJ (10044)",
-        "Texas Distribution Center, Fort Worth, TX (WH-TX)",
-        "San Luis Obispo, California, United States",
-        "Los Angeles Metro Area",
-        "Garden City, New York, United States",
-        "Town Center Plaza, Leawood, KS (10185)",
-        "Greenwich, Greenwich, CT (10197)",
-        "Hannam Dong (50060)",
-        "Yorkdale Shopping Centre, Toronto, ON (10027)",
-        "Edina, Minnesota, United States",
-        "Warehouse 2, Commerce, CA (WH2)",
-        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
-        "Oakridge Centre, Vancouver, BC (10080)",
-        "Torrance, California, United States",
-        "Plaza at Frotenac, St. Louis, MO (10051)",
-        "Old Orchard, Skokie, IL (10016)",
-        "Thousand Oaks, California, United States",
-        "Munich, Bavaria, Germany"
+        "Town Center Boca Raton, Boca Raton, FL (10090)",
+        "Wolvenstraat 9 Streets, Amsterdam (50069)",
+        "Huntington Station, New York, United States",
+        "SoHo, New York, NY (10004)",
+        "Lynnfield, Massachusetts, United States",
+        "Santa Monica, California, United States",
+        "East Rutherford, New Jersey, United States",
+        "Laval, Quebec, Canada",
+        "Dublin, Dublin, Ireland",
+        "Royalmount, Mount Royal, QC (10085)",
+        "Brea, California, United States",
+        "Macau",
+        "Southgate Centre, Edmonton, AB (10071)",
+        "UTC Sarasota, Sarasota, FL (10091)",
+        "King of Prussia, Pennsylvania, United States",
+        "Aventura, Florida, United States",
+        "Newport Beach, California, United States",
+        "Walnut Street, Philadelphia, PA (10058)",
+        "Shrewsbury, New Jersey, United States",
+        "Pinecrest, Orange Village, OH (10103)"
       ],
       "jobs": [
         {
@@ -550,37 +550,37 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-27T05:30:07.942413"
+      "checked_at": "2026-09-28T05:30:07.979323"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 26,
-      "change_from_last": 0,
+      "total_jobs": 24,
+      "change_from_last": -2,
       "departments": {
         "other": 8,
         "design": 2,
         "executive": 1,
         "engineering": 7,
-        "marketing": 2,
-        "retail": 5,
+        "retail": 4,
+        "marketing": 1,
         "finance": 1
       },
       "seniority": {
         "manager": 3,
-        "mid": 8,
+        "mid": 7,
         "lead": 5,
-        "junior": 5,
+        "junior": 4,
         "senior": 4,
         "c-suite": 1
       },
       "locations": [
-        "New York, New York, United States",
         "Solihull, England, United Kingdom",
-        "Trafford Park, England, United Kingdom",
         "Roosevelt, New York, United States",
-        "Amsterdam, North Holland, Netherlands",
-        "London"
+        "Trafford Park, England, United Kingdom",
+        "New York, New York, United States",
+        "London",
+        "Amsterdam, North Holland, Netherlands"
       ],
       "jobs": [
         {
@@ -609,7 +609,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981942101",
-          "posted_at": "2026-09-25T08:59:23-04:00",
+          "posted_at": "2026-09-28T04:25:16-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -674,16 +674,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4980314101",
-          "title": "Paid Social Executive",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4980314101",
-          "posted_at": "2026-09-18T11:45:12-04:00",
-          "category": "marketing",
-          "seniority": "mid"
-        },
-        {
           "id": "4865088101",
           "title": "Part Time Sales Associate - Roosevelt Field, Long Island, New York ",
           "location": "Roosevelt, New York, United States",
@@ -730,16 +720,6 @@
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981257101",
           "posted_at": "2026-09-25T09:38:32-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
-          "id": "4947474101",
-          "title": "Seasonal Sales Associate - Kalverstraat, Amsterdam",
-          "location": "Amsterdam, North Holland, Netherlands",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4947474101",
-          "posted_at": "2026-09-10T19:00:10-04:00",
           "category": "retail",
           "seniority": "junior"
         },
@@ -844,7 +824,7 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-27T05:30:10.115782"
+      "checked_at": "2026-09-28T05:30:10.165696"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -902,47 +882,47 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 248,
-      "change_from_last": 0,
+      "total_jobs": 246,
+      "change_from_last": -2,
       "departments": {
         "other": 31,
         "retail": 163,
         "marketing": 14,
-        "product": 3,
         "executive": 6,
-        "engineering": 17,
+        "product": 2,
+        "engineering": 16,
         "design": 9,
         "operations": 3,
         "finance": 2
       },
       "seniority": {
-        "lead": 134,
+        "lead": 133,
         "mid": 95,
-        "c-suite": 6,
+        "c-suite": 5,
         "manager": 1,
         "senior": 12
       },
       "locations": [
-        "Rio de Janeiro",
-        "Shanghai",
-        "Nanjing",
-        "Madrid",
-        "Guangzhou",
-        "New York City",
-        "Corte Madera",
-        "London; Zurich",
-        "Boston",
-        "Las Vegas",
-        "Landquart",
-        "Chengdu",
-        "Paris",
-        "Washington D.C.",
-        "S\u00e3o Paulo",
-        "Austin",
+        "Wuhan",
+        "Chicago",
+        "Aventura",
         "Houston",
+        "Hong Kong",
+        "Nanjing",
+        "Central Valley",
+        "Hanoi",
+        "Melbourne",
+        "Shenzhen",
+        "Tokyo",
+        "Newport Beach",
         "San Diego",
+        "Guangzhou",
+        "Philadelphia",
         "D\u00fcsseldorf",
-        "Mexico City"
+        "Macao",
+        "Dallas",
+        "London; Zurich",
+        "Boston"
       ],
       "jobs": [
         {
@@ -1156,16 +1136,6 @@
           "seniority": "mid"
         },
         {
-          "id": "8029758",
-          "title": "Contractor - Senior Specialist - Digital Site Merchandising",
-          "location": "Hong Kong",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8029758?gh_jid=8029758",
-          "posted_at": "2026-09-17T04:14:06-04:00",
-          "category": "product",
-          "seniority": "c-suite"
-        },
-        {
           "id": "7430793",
           "title": "Director of Real Estate & Development APAC",
           "location": "Shanghai",
@@ -1366,16 +1336,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8087896",
-          "title": "Lead - Data, Reporting & Insights",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8087896?gh_jid=8087896",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "engineering",
-          "seniority": "lead"
-        },
-        {
           "id": "8110862",
           "title": "Lead - Digital Sales Planning, SEA, HK, TW & Oceania",
           "location": "Hong Kong",
@@ -1444,10 +1404,30 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "engineering",
           "seniority": "lead"
+        },
+        {
+          "id": "8124324",
+          "title": "Lead -  Procurement to Pay",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8124324?gh_jid=8124324",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "other",
+          "seniority": "lead"
+        },
+        {
+          "id": "8095893",
+          "title": "Lead \u2013 Responsive & NOS Flows",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8095893?gh_jid=8095893",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-27T05:30:19.700925"
+      "checked_at": "2026-09-28T05:30:25.990971"
     }
   },
-  "generated_at": "2026-09-27T05:30:21.701153"
+  "generated_at": "2026-09-28T05:30:27.991162"
 }
