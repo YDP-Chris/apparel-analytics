@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 937,
-      "change_from_last": -21,
+      "total_jobs": 834,
+      "change_from_last": -103,
       "departments": {
         "design": 71,
-        "other": 130,
+        "other": 129,
         "product": 5,
-        "retail": 362,
+        "retail": 312,
         "engineering": 20,
         "executive": 3,
         "finance": 4,
         "hr": 1,
-        "operations": 335,
-        "marketing": 6
+        "operations": 285,
+        "marketing": 4
       },
       "seniority": {
-        "junior": 632,
+        "junior": 533,
         "mid": 27,
-        "manager": 121,
+        "manager": 122,
         "c-suite": 12,
-        "lead": 122,
+        "lead": 117,
         "intern": 3,
         "senior": 20
       },
       "locations": [
-        "Berlin, Berlin, Germany",
-        "Boulder, Colorado, United States",
-        "Yorkdale Shopping Centre, Toronto, ON (10027)",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
-        "Seaport Square, Boston, MA (10017)",
-        "Warehouse 7, Montebello, CA (WH7)",
-        "Shops at Clearfork, Fort Worth, TX (10035)",
-        "Toronto Eaton Centre, Toronto, ON (10040)",
-        "Kierland Commons, Scottsdale, AZ (10024)",
-        "Dadeland Mall, MIami, FL (10133)",
-        "Los Angeles, California, United States",
-        "Alpharetta, Georgia, United States",
-        "Kings Road, London (50013)",
-        "Louisiana, United States",
+        "Atlanta, Georgia, United States",
+        "Thousand Oaks, California, United States",
+        "Westbourne Grove, London (50104)",
+        "Ponce City Market, Atlanta, GA (10186)",
         "Downtown Summerlin, Summerlin, NV (10130)",
-        "The Domain, Austin, TX (10038)",
-        "Santa Barbara, California, United States",
-        "Phoenix, Arizona, United States",
-        "West Palm Beach, Florida, United States",
-        "The Knox, Dallas, TX (10184)"
+        "Rockefeller Center, New York, NY (10022)",
+        "Brickell City Centre, Miami, FL (10077)",
+        "Merrick Park, Coral Gables, FL (10042)",
+        "Chicago, Illinois, United States",
+        "Florence, Italy",
+        "Palo Alto, California, United States",
+        "Laval, Quebec, Canada",
+        "Vail Village, Vail, CO (10167)",
+        "Westport, Connecticut, United States",
+        "Prudential Center, Boston, MA (10053)",
+        "Dumbo, Brooklyn, NY (10139)",
+        "White Plains, New York, United States",
+        "Roseville, California, United States",
+        "Columbus, Ohio, United States",
+        "Studio City, California, United States"
       ],
       "jobs": [
         {
@@ -550,37 +550,36 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-09-29T05:30:09.433115"
+      "checked_at": "2026-09-30T05:30:07.702425"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 25,
-      "change_from_last": 1,
+      "change_from_last": 0,
       "departments": {
-        "other": 10,
+        "other": 11,
         "design": 2,
-        "executive": 1,
-        "engineering": 6,
+        "marketing": 2,
+        "engineering": 5,
         "retail": 4,
-        "marketing": 1,
         "finance": 1
       },
       "seniority": {
         "manager": 4,
-        "mid": 8,
-        "lead": 4,
+        "mid": 6,
+        "lead": 5,
         "junior": 4,
-        "senior": 4,
-        "c-suite": 1
+        "c-suite": 2,
+        "senior": 4
       },
       "locations": [
+        "Solihull, England, United Kingdom",
         "London",
-        "Amsterdam, North Holland, Netherlands",
-        "New York, New York, United States",
         "Roosevelt, New York, United States",
+        "Amsterdam, North Holland, Netherlands",
         "Trafford Park, England, United Kingdom",
-        "Solihull, England, United Kingdom"
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -589,7 +588,7 @@
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4987366101",
-          "posted_at": "2026-09-29T05:15:58-04:00",
+          "posted_at": "2026-09-29T13:27:21-04:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -654,13 +653,23 @@
           "seniority": "lead"
         },
         {
-          "id": "4974070101",
-          "title": "Head of Service Delivery",
+          "id": "4974222101",
+          "title": "Head of Social Communications- 12m FTC",
           "location": "Solihull, England, United Kingdom",
           "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974070101",
-          "posted_at": "2026-09-11T10:16:43-04:00",
-          "category": "executive",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974222101",
+          "posted_at": "2026-09-29T07:44:42-04:00",
+          "category": "marketing",
+          "seniority": "lead"
+        },
+        {
+          "id": "4983795101",
+          "title": "IT Support Lead",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4983795101",
+          "posted_at": "2026-09-29T11:11:45-04:00",
+          "category": "other",
           "seniority": "lead"
         },
         {
@@ -715,13 +724,13 @@
         },
         {
           "id": "4928893101",
-          "title": "Quality Assurance Executive - Product Integrity - 12 Month FCT",
+          "title": "Quality Assurance Coordinator - Product Integrity - 12 Month FCT",
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4928893101",
-          "posted_at": "2026-09-17T05:23:27-04:00",
+          "posted_at": "2026-09-29T10:37:56-04:00",
           "category": "other",
-          "seniority": "mid"
+          "seniority": "c-suite"
         },
         {
           "id": "4981257101",
@@ -822,19 +831,9 @@
           "posted_at": "2026-09-11T07:48:34-04:00",
           "category": "finance",
           "seniority": "senior"
-        },
-        {
-          "id": "4939895101",
-          "title": "Yarn & Materials Developer",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4939895101",
-          "posted_at": "2026-07-28T10:09:40-04:00",
-          "category": "engineering",
-          "seniority": "mid"
         }
       ],
-      "checked_at": "2026-09-29T05:30:11.616660"
+      "checked_at": "2026-09-30T05:30:09.872884"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -892,13 +891,13 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 244,
+      "total_jobs": 242,
       "change_from_last": -2,
       "departments": {
-        "other": 31,
+        "other": 30,
         "retail": 162,
         "marketing": 14,
-        "executive": 6,
+        "executive": 5,
         "product": 2,
         "engineering": 15,
         "design": 9,
@@ -906,33 +905,33 @@
         "finance": 2
       },
       "seniority": {
-        "lead": 131,
+        "lead": 129,
         "mid": 95,
         "c-suite": 5,
         "manager": 1,
         "senior": 12
       },
       "locations": [
-        "Rio de Janeiro",
-        "Tianjin",
-        "Aventura",
-        "Paris",
+        "Melbourne",
         "Dallas",
-        "Zurich",
-        "Philadelphia",
-        "McLean",
-        "Landquart",
-        "Shenzhen",
-        "Austin",
+        "Portland",
+        "Tokyo",
         "Hanoi",
+        "Houston",
+        "S\u00e3o Paulo",
+        "Rio de Janeiro",
+        "Philadelphia",
+        "Los Angeles",
+        "Seattle",
+        "Milan",
+        "Mexico City",
+        "New York City",
         "Southlake",
-        "London",
-        "San Diego",
-        "Seoul",
+        "Washington D.C.",
         "Nanjing",
-        "Macao",
-        "D\u00fcsseldorf",
-        "Melbourne"
+        "San Francisco",
+        "London; Zurich",
+        "D\u00fcsseldorf"
       ],
       "jobs": [
         {
@@ -961,7 +960,7 @@
           "location": "Amsterdam",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8079104?gh_jid=8079104",
-          "posted_at": "2026-09-08T08:37:47-04:00",
+          "posted_at": "2026-09-29T11:36:15-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1041,7 +1040,7 @@
           "location": "Paris",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7846530?gh_jid=7846530",
-          "posted_at": "2026-09-04T02:52:57-04:00",
+          "posted_at": "2026-09-29T12:23:41-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1211,16 +1210,6 @@
           "location": "Zurich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/7384378?gh_jid=7384378",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "executive",
-          "seniority": "lead"
-        },
-        {
-          "id": "8176597",
-          "title": "Head of Commercial Strategy",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8176597?gh_jid=8176597",
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "executive",
           "seniority": "lead"
@@ -1416,16 +1405,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8124324",
-          "title": "Lead -  Procurement to Pay",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8124324?gh_jid=8124324",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
           "id": "8095893",
           "title": "Lead \u2013 Responsive & NOS Flows",
           "location": "Zurich",
@@ -1434,10 +1413,30 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "other",
           "seniority": "lead"
+        },
+        {
+          "id": "7864315",
+          "title": "Lead - Retail Architect",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7864315?gh_jid=7864315",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "8158962",
+          "title": "Lead - Sample Maker",
+          "location": "Zurich",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8158962?gh_jid=8158962",
+          "posted_at": "2026-09-08T08:35:35-04:00",
+          "category": "other",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-09-29T05:30:20.970780"
+      "checked_at": "2026-09-30T05:30:19.261670"
     }
   },
-  "generated_at": "2026-09-29T05:30:22.970960"
+  "generated_at": "2026-09-30T05:30:21.261833"
 }
