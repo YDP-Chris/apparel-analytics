@@ -3,11 +3,11 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 4860,
+      "total": 4864,
       "categories": {
         "bottoms": 2252,
-        "tops": 751,
-        "outerwear": 657,
+        "tops": 753,
+        "outerwear": 659,
         "other": 709,
         "sports_bras": 162,
         "footwear": 18,
@@ -17,7 +17,7 @@
       "subcategories": {
         "joggers": 177,
         "shorts": 842,
-        "tanks": 243,
+        "tanks": 245,
         "tees": 260,
         "leggings": 209,
         "other": 1461,
@@ -27,7 +27,7 @@
         "training": 18,
         "jackets": 195,
         "long_sleeve": 42,
-        "hoodies": 255,
+        "hoodies": 257,
         "hats": 124,
         "skirts": 45,
         "vests": 47,
@@ -44,17 +44,17 @@
       },
       "genders": {
         "mens": 1747,
-        "womens": 2267,
+        "womens": 2271,
         "unisex": 846
       },
       "colors": {
-        "gray": 633,
+        "gray": 634,
         "navy": 113,
-        "black": 909,
+        "black": 910,
         "khaki": 221,
         "red": 51,
-        "white": 451,
-        "blue": 661,
+        "white": 452,
+        "blue": 662,
         "green": 225,
         "brown": 201,
         "print": 38,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 83.7,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 2757
+      "uniqueStyles": 2760
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -1059,12 +1059,44 @@
     }
   },
   "totals": {
-    "products": 52470,
+    "products": 52474,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-10-03",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 4,
+      "products": [
+        {
+          "name": "halo essential scoop tank coast heather",
+          "url": "https://vuoriclothing.com/products/womens-halo-essential-scoop-tank-blue-coast-heather",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "pose plyo tank tonal",
+          "url": "https://vuoriclothing.com/products/womens-pose-plyo-tank-black-tonal",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "restore oversized hoodie tonal",
+          "url": "https://vuoriclothing.com/products/womens-restore-oversized-hoodie-ecru-tonal",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "restore oversized hoodie tonal",
+          "url": "https://vuoriclothing.com/products/womens-restore-oversized-hoodie-pale-grey-heather-tonal",
+          "category": "outerwear",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-10-02",
       "brand": "Gymshark",
@@ -6982,38 +7014,6 @@
           "gender": "mens"
         }
       ]
-    },
-    {
-      "date": "2026-09-19",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 4,
-      "products": [
-        {
-          "name": "gymshark conditioning club 4 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-4-shorts-shorts-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club 4 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-4-shorts-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club 4 shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-4-shorts-shorts-blue-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark conditioning club 4 shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-4-shorts-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7136,7 +7136,8 @@
       "2026-09-25": 7,
       "2026-09-26": 1,
       "2026-09-29": 10,
-      "2026-10-01": 1
+      "2026-10-01": 1,
+      "2026-10-03": 4
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -7744,7 +7745,7 @@
       "dfyne": 354
     },
     "tops": {
-      "vuori": 751,
+      "vuori": 753,
       "outdoor_voices": 85,
       "tenthousand": 48,
       "lululemon": 835,
@@ -7764,7 +7765,7 @@
       "dfyne": 92
     },
     "outerwear": {
-      "vuori": 657,
+      "vuori": 659,
       "outdoor_voices": 47,
       "tenthousand": 22,
       "lululemon": 680,
@@ -7901,7 +7902,7 @@
       "dfyne": 174
     },
     "tanks": {
-      "vuori": 243,
+      "vuori": 245,
       "outdoor_voices": 41,
       "tenthousand": 6,
       "lululemon": 290,
@@ -8051,7 +8052,7 @@
       "everlast": 4
     },
     "hoodies": {
-      "vuori": 255,
+      "vuori": 257,
       "outdoor_voices": 14,
       "tenthousand": 10,
       "lululemon": 139,
@@ -8261,7 +8262,7 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 633,
+      "vuori": 634,
       "outdoor_voices": 35,
       "alo": 512,
       "gymshark": 1407,
@@ -8293,7 +8294,7 @@
       "dfyne": 43
     },
     "black": {
-      "vuori": 909,
+      "vuori": 910,
       "outdoor_voices": 103,
       "alo": 1067,
       "gymshark": 2823,
@@ -8344,7 +8345,7 @@
       "dfyne": 41
     },
     "white": {
-      "vuori": 451,
+      "vuori": 452,
       "outdoor_voices": 31,
       "lululemon": 17,
       "alo": 945,
@@ -8363,7 +8364,7 @@
       "dfyne": 69
     },
     "blue": {
-      "vuori": 661,
+      "vuori": 662,
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 254,
@@ -8563,7 +8564,7 @@
       "outerwear": 13.5,
       "dresses": 0.9,
       "sports_bras": 3.3,
-      "accessories": 5.5,
+      "accessories": 5.4,
       "other": 14.6
     },
     {
@@ -9129,12 +9130,12 @@
     {
       "type": "comparison",
       "metric": "outerwear",
-      "text": "Outerwear depth: Vuori has 657 products vs Lululemon's 680. Key for cooler weather expansion."
+      "text": "Outerwear depth: Vuori has 659 products vs Lululemon's 680. Key for cooler weather expansion."
     },
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 47,610 competitor products tracked. Vuori's 4,860 = 9% share of tracked catalog."
+      "text": "Market context: 47,610 competitor products tracked. Vuori's 4,864 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9146,7 +9147,7 @@
       },
       {
         "metric": "Gender Balance",
-        "value": "56% W / 44% M",
+        "value": "57% W / 43% M",
         "comparison": "Strong balance"
       }
     ],
@@ -9203,13 +9204,13 @@
       },
       {
         "category": "Hoodies",
-        "vuori": 255,
+        "vuori": 257,
         "competitor": 139,
         "winner": "vuori"
       },
       {
         "category": "Tanks",
-        "vuori": 243,
+        "vuori": 245,
         "competitor": 290,
         "winner": "competitor"
       },
@@ -9227,7 +9228,7 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 2267,
+        "vuori": 2271,
         "competitor": 1597,
         "winner": "vuori"
       }
@@ -9253,13 +9254,13 @@
       },
       {
         "category": "Hoodies",
-        "vuori": 255,
+        "vuori": 257,
         "competitor": 228,
         "winner": "vuori"
       },
       {
         "category": "Tanks",
-        "vuori": 243,
+        "vuori": 245,
         "competitor": 272,
         "winner": "competitor"
       },
@@ -9277,11 +9278,11 @@
       },
       {
         "category": "Women's Products",
-        "vuori": 2267,
+        "vuori": 2271,
         "competitor": 1532,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-10-03T13:15:13.934Z"
+  "generated_at": "2026-10-04T13:15:09.508Z"
 }
