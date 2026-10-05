@@ -309,10 +309,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 12318,
+      "total": 12320,
       "categories": {
         "bottoms": 4431,
-        "tops": 4030,
+        "tops": 4032,
         "other": 881,
         "accessories": 672,
         "outerwear": 1218,
@@ -323,7 +323,7 @@
         "shorts": 1762,
         "leggings": 1194,
         "crop_tops": 200,
-        "other": 4183,
+        "other": 4185,
         "long_sleeve": 688,
         "socks": 276,
         "tanks": 1130,
@@ -349,7 +349,7 @@
       },
       "genders": {
         "unisex": 5499,
-        "womens": 4360,
+        "womens": 4362,
         "mens": 2459
       },
       "colors": {
@@ -360,7 +360,7 @@
         "navy": 84,
         "gray": 1407,
         "brown": 1072,
-        "blue": 1950,
+        "blue": 1952,
         "red": 371,
         "purple": 693,
         "yellow": 158,
@@ -895,29 +895,29 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2569,
+      "total": 2625,
       "categories": {
-        "accessories": 479,
-        "other": 845,
-        "tops": 255,
-        "bottoms": 640,
-        "footwear": 38,
-        "outerwear": 283,
+        "accessories": 490,
+        "other": 858,
+        "tops": 262,
+        "bottoms": 656,
+        "footwear": 41,
+        "outerwear": 289,
         "sports_bras": 29
       },
       "subcategories": {
-        "other": 1538,
-        "shorts": 416,
+        "other": 1571,
+        "shorts": 424,
         "training": 7,
         "bags": 72,
-        "socks": 36,
+        "socks": 38,
         "leggings": 17,
         "hoodies": 235,
-        "joggers": 67,
-        "jackets": 38,
-        "pants": 21,
+        "joggers": 71,
+        "jackets": 44,
+        "pants": 22,
         "polos": 1,
-        "tanks": 22,
+        "tanks": 24,
         "hats": 57,
         "long_sleeve": 29,
         "low_support": 1,
@@ -926,30 +926,30 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2068,
+        "unisex": 2124,
         "womens": 196,
         "mens": 305
       },
       "colors": {
-        "black": 549,
-        "red": 276,
+        "black": 552,
+        "red": 293,
         "white": 459,
-        "blue": 240,
-        "gray": 190,
-        "yellow": 245,
+        "blue": 241,
+        "gray": 206,
+        "yellow": 252,
         "purple": 60,
         "camo": 26,
-        "khaki": 90,
+        "khaki": 92,
         "brown": 62,
         "pink": 27,
         "orange": 50,
-        "green": 49,
+        "green": 59,
         "navy": 22,
         "rust": 7
       },
-      "colorCoverage": 91.6,
+      "colorCoverage": 91.7,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 1671
+      "uniqueStyles": 1701
     },
     "everlast": {
       "name": "everlast",
@@ -1059,12 +1059,376 @@
     }
   },
   "totals": {
-    "products": 52474,
+    "products": 52532,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-10-05",
+      "brand": "venum",
+      "brandSlug": "venum",
+      "count": 56,
+      "products": [
+        {
+          "name": "venum reverso boxing gloves black",
+          "url": "https://www.venum.com/products/venum-reverso-boxing-gloves-black-gold",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum reverso boxing gloves silver",
+          "url": "https://www.venum.com/products/venum-reverso-boxing-gloves-black-silver",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum reverso boxing gloves black",
+          "url": "https://www.venum.com/products/venum-reverso-boxing-gloves-black-red",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "amazonia reborn backpack black",
+          "url": "https://www.venum.com/products/amazonia-reborn-backpack-black-green",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "amazonia reborn backpack black",
+          "url": "https://www.venum.com/products/amazonia-reborn-backpack-black-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn shin guards black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-shin-guards-black-red",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential kids cotton t shirt black",
+          "url": "https://www.venum.com/products/venum-essential-kids-cotton-t-shirt-black-gold",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn tank top black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-tank-top-black-red",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn shin guards black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-shin-guards-black-green",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum vectra track jacket black",
+          "url": "https://www.venum.com/products/venum-vectra-track-jacket-black-gold",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum contender aero joggers",
+          "url": "https://www.venum.com/products/venum-contender-aero-joggers-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum vectra kids joggers black",
+          "url": "https://www.venum.com/products/venum-vectra-kids-joggers-black-gold",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn shin guards black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-shin-guards-black-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn tank top black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-tank-top-black-grey",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential cotton t shirt black",
+          "url": "https://www.venum.com/products/venum-essential-cotton-t-shirt-black-gold",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum attack urban gi down jacket navy",
+          "url": "https://www.venum.com/products/venum-attack-urban-gi-down-jacket-navy-blue",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn long sleeve rashguard black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-long-sleeve-rashguard-black-red",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn long sleeve rashguard black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-long-sleeve-rashguard-black-green",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn fightshorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-fightshorts-black-green",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential woven straight pants",
+          "url": "https://www.venum.com/products/venum-essential-woven-straight-pants-black",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum contender aero track jacket",
+          "url": "https://www.venum.com/products/venum-contender-aero-track-jacket-grey",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum vectra kids track jacket black",
+          "url": "https://www.venum.com/products/venum-vectra-kids-track-jacket-black-gold",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn fightshorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-fightshorts-black-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum impact amazonia reborn boxing gloves black",
+          "url": "https://www.venum.com/products/venum-impact-amazonia-reborn-boxing-gloves-black-red",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn fightshorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-fightshorts-black-red",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn training shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-training-shorts-black-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum attack urban gi down jacket",
+          "url": "https://www.venum.com/products/venum-attack-urban-gi-down-jacket-beige",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum vectra joggers black",
+          "url": "https://www.venum.com/products/venum-vectra-joggers-black-gold",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn track jacket black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-track-jacket-black-red",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum impact amazonia reborn boxing gloves black",
+          "url": "https://www.venum.com/products/venum-impact-amazonia-reborn-boxing-gloves-black-green",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn spats black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-spats-black-red",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn long sleeve rashguard black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-long-sleeve-rashguard-black-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum impact amazonia reborn boxing gloves black",
+          "url": "https://www.venum.com/products/venum-impact-amazonia-reborn-boxing-gloves-black-grey",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn sparring gloves black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-sparring-gloves-black-red",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn spats black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-spats-black-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn sparring gloves black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-sparring-gloves-black-green",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn training shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-training-shorts-black-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum adrenaline crew socks 3 pack white",
+          "url": "https://www.venum.com/products/venum-adrenaline-crew-socks-3-pack-white-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn sparring gloves black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-sparring-gloves-black-grey",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn training shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-training-shorts-black-green",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum adrenaline crew socks 3 pack black white",
+          "url": "https://www.venum.com/products/venum-adrenaline-crew-socks-3-pack-black-white-red",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn joggers black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-joggers-black-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn short sleeve rashguard black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-short-sleeve-rashguard-black-green",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn vale tudo shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-vale-tudo-shorts-black-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn short sleeve rashguard black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-short-sleeve-rashguard-black-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn vale tudo shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-vale-tudo-shorts-black-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn short sleeve rashguard black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-short-sleeve-rashguard-black-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum contender boxing shoes",
+          "url": "https://www.venum.com/products/venum-contender-boxing-shoes-beige",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn t shirt black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-t-shirt-black-red",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn muay thai shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-muay-thai-shorts-black-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn muay thai shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-muay-thai-shorts-black-green",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn t shirt black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-t-shirt-black-green",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn muay thai shorts black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-muay-thai-shorts-black-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum amazonia reborn t shirt black",
+          "url": "https://www.venum.com/products/venum-amazonia-reborn-t-shirt-black-grey",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum contender boxing shoes black",
+          "url": "https://www.venum.com/products/venum-contender-boxing-shoes-black-grey",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum contender boxing shoes khaki",
+          "url": "https://www.venum.com/products/venum-contender-boxing-shoes-khaki-red",
+          "category": "footwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark adapt x whitney zip front top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-adapt-x-whitney-zip-front-top-sleeveless-tops-blue-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark adapt x whitney zip front top sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-x-whitney-zip-front-top-sleeveless-tops-blue-aw26",
+          "category": "tops",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-10-03",
       "brand": "Vuori",
@@ -6882,138 +7246,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-09-20",
-      "brand": "gymreapers",
-      "brandSlug": "gymreapers",
-      "count": 10,
-      "products": [
-        {
-          "name": "championship oversized tee",
-          "url": "https://www.gymreapers.com/products/championship-oversized-tee",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "olympia 2026 sandow cut off",
-          "url": "https://www.gymreapers.com/products/olympia-2026-sandow-cut-off",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "championship stringer",
-          "url": "https://www.gymreapers.com/products/championship-stringer",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "championship hoodie",
-          "url": "https://www.gymreapers.com/products/championship-hoodie",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "championship straight leg jogger",
-          "url": "https://www.gymreapers.com/products/championship-straight-leg-jogger",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "championship crop tee",
-          "url": "https://www.gymreapers.com/products/championship-crop-tee",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "championship crop hoodie",
-          "url": "https://www.gymreapers.com/products/championship-crop-hoodie",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "championship wide leg jogger",
-          "url": "https://www.gymreapers.com/products/championship-wide-leg-jogger",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "olympia high neck bra ember",
-          "url": "https://www.gymreapers.com/products/olympia-high-neck-bra-ember-red",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "mr olympia corduroy 5 panel hat",
-          "url": "https://www.gymreapers.com/products/mr-olympia-corduroy-5-panel-hat",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "brand": "asrv",
-      "brandSlug": "asrv",
-      "count": 5,
-      "products": [
-        {
-          "name": "0690 tetra lite tech high rib jogger cyber",
-          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-black-cyber",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0690 tetra lite tech high rib jogger slate cyber",
-          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-slate-grey-cyber",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0690 tetra lite tech high rib jogger black cyber",
-          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-black-camo-cyber",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0690 tetra lite tech high rib jogger cyber",
-          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-navy-cyber",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0690 tetra lite tech high rib jogger cyber",
-          "url": "https://asrv.com/products/0690-tetra-lite-tech-high-rib-jogger-stone-cyber",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 3,
-      "products": [
-        {
-          "name": "cropped double take hoodie",
-          "url": "https://www.aloyoga.com/products/w3713r-cropped-double-take-hoodie-black",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "renown sweatpant",
-          "url": "https://www.aloyoga.com/products/u5002r-renown-sweatpant-soft-clay",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "renown sweatpant mens",
-          "url": "https://www.aloyoga.com/products/u5002r-renown-sweatpant-soft-clay-mens",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7523,7 +7755,8 @@
       "2026-09-28": 28,
       "2026-09-29": 24,
       "2026-10-01": 396,
-      "2026-10-02": 66
+      "2026-10-02": 66,
+      "2026-10-05": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7699,7 +7932,8 @@
       "2026-09-24": 15,
       "2026-09-28": 5,
       "2026-09-29": 1,
-      "2026-09-30": 18
+      "2026-09-30": 18,
+      "2026-10-05": 56
     },
     "everlast": {
       "2026-08-30": 315,
@@ -7740,7 +7974,7 @@
       "goruck": 126,
       "ghost": 9,
       "hayabusa": 70,
-      "venum": 640,
+      "venum": 656,
       "everlast": 53,
       "dfyne": 354
     },
@@ -7750,7 +7984,7 @@
       "tenthousand": 48,
       "lululemon": 835,
       "alo": 588,
-      "gymshark": 4030,
+      "gymshark": 4032,
       "on_running": 727,
       "gymreapers": 260,
       "sbd": 160,
@@ -7760,7 +7994,7 @@
       "goruck": 276,
       "ghost": 51,
       "hayabusa": 21,
-      "venum": 255,
+      "venum": 262,
       "everlast": 33,
       "dfyne": 92
     },
@@ -7780,7 +8014,7 @@
       "goruck": 108,
       "ghost": 62,
       "hayabusa": 10,
-      "venum": 283,
+      "venum": 289,
       "everlast": 25,
       "dfyne": 87
     },
@@ -7802,7 +8036,7 @@
       "optimum_nutrition": 559,
       "ghost": 334,
       "hayabusa": 91,
-      "venum": 845,
+      "venum": 858,
       "everlast": 106,
       "dfyne": 337
     },
@@ -7831,7 +8065,7 @@
       "schiek": 1,
       "goruck": 312,
       "hayabusa": 5,
-      "venum": 38,
+      "venum": 41,
       "everlast": 9,
       "dfyne": 4
     },
@@ -7852,7 +8086,7 @@
       "goruck": 156,
       "ghost": 59,
       "hayabusa": 92,
-      "venum": 479,
+      "venum": 490,
       "everlast": 107,
       "dfyne": 18
     },
@@ -7879,7 +8113,7 @@
       "asrv": 107,
       "goruck": 12,
       "hayabusa": 1,
-      "venum": 67,
+      "venum": 71,
       "everlast": 1,
       "dfyne": 47
     },
@@ -7897,7 +8131,7 @@
       "asrv": 344,
       "goruck": 42,
       "hayabusa": 37,
-      "venum": 416,
+      "venum": 424,
       "everlast": 12,
       "dfyne": 174
     },
@@ -7915,7 +8149,7 @@
       "asrv": 130,
       "goruck": 24,
       "hayabusa": 2,
-      "venum": 22,
+      "venum": 24,
       "everlast": 6,
       "dfyne": 9
     },
@@ -7956,7 +8190,7 @@
       "tenthousand": 41,
       "lululemon": 1593,
       "alo": 1709,
-      "gymshark": 4183,
+      "gymshark": 4185,
       "on_running": 3582,
       "gymreapers": 584,
       "sbd": 236,
@@ -7968,7 +8202,7 @@
       "optimum_nutrition": 559,
       "ghost": 344,
       "hayabusa": 190,
-      "venum": 1538,
+      "venum": 1571,
       "everlast": 197,
       "dfyne": 609
     },
@@ -7983,7 +8217,7 @@
       "asrv": 40,
       "goruck": 24,
       "hayabusa": 13,
-      "venum": 21,
+      "venum": 22,
       "everlast": 6,
       "dfyne": 13
     },
@@ -8030,7 +8264,7 @@
       "goruck": 12,
       "ghost": 12,
       "hayabusa": 7,
-      "venum": 38,
+      "venum": 44,
       "everlast": 4,
       "dfyne": 40
     },
@@ -8194,7 +8428,7 @@
       "goruck": 30,
       "ghost": 6,
       "hayabusa": 1,
-      "venum": 36,
+      "venum": 38,
       "everlast": 5,
       "dfyne": 14
     },
@@ -8275,7 +8509,7 @@
       "optimum_nutrition": 33,
       "ghost": 21,
       "hayabusa": 3,
-      "venum": 190,
+      "venum": 206,
       "dfyne": 117
     },
     "navy": {
@@ -8308,7 +8542,7 @@
       "optimum_nutrition": 1,
       "ghost": 39,
       "hayabusa": 2,
-      "venum": 549,
+      "venum": 552,
       "everlast": 8,
       "dfyne": 175
     },
@@ -8323,7 +8557,7 @@
       "asrv": 46,
       "goruck": 48,
       "ghost": 3,
-      "venum": 90,
+      "venum": 92,
       "dfyne": 1
     },
     "red": {
@@ -8340,7 +8574,7 @@
       "goruck": 24,
       "optimum_nutrition": 7,
       "ghost": 24,
-      "venum": 276,
+      "venum": 293,
       "everlast": 9,
       "dfyne": 41
     },
@@ -8368,7 +8602,7 @@
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 254,
-      "gymshark": 1950,
+      "gymshark": 1952,
       "on_running": 858,
       "gymreapers": 34,
       "sbd": 12,
@@ -8376,7 +8610,7 @@
       "asrv": 57,
       "goruck": 18,
       "ghost": 8,
-      "venum": 240,
+      "venum": 241,
       "everlast": 2,
       "dfyne": 177
     },
@@ -8391,7 +8625,7 @@
       "sbd": 6,
       "asrv": 130,
       "ghost": 10,
-      "venum": 49,
+      "venum": 59,
       "everlast": 1,
       "dfyne": 87
     },
@@ -8464,7 +8698,7 @@
       "optimum_nutrition": 137,
       "ghost": 13,
       "hayabusa": 3,
-      "venum": 245,
+      "venum": 252,
       "everlast": 2,
       "dfyne": 19
     },
@@ -8569,13 +8803,13 @@
     },
     {
       "brand": "venum",
-      "bottoms": 24.9,
-      "tops": 9.9,
+      "bottoms": 25,
+      "tops": 10,
       "outerwear": 11,
       "dresses": 0,
       "sports_bras": 1.1,
-      "accessories": 18.6,
-      "other": 32.9
+      "accessories": 18.7,
+      "other": 32.7
     },
     {
       "brand": "bear_grips",
@@ -8816,19 +9050,19 @@
     },
     {
       "brand": "venum",
-      "black": 21.4,
-      "white": 17.9,
-      "gray": 7.4,
-      "navy": 0.9,
-      "blue": 9.3,
-      "green": 1.9,
+      "black": 21,
+      "white": 17.5,
+      "gray": 7.8,
+      "navy": 0.8,
+      "blue": 9.2,
+      "green": 2.2,
       "khaki": 3.5,
       "brown": 2.4,
       "purple": 2.3,
-      "pink": 1.1,
+      "pink": 1,
       "orange": 1.9,
-      "red": 10.7,
-      "yellow": 9.5,
+      "red": 11.2,
+      "yellow": 9.6,
       "other": 1.3
     },
     {
@@ -9135,7 +9369,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 47,610 competitor products tracked. Vuori's 4,864 = 9% share of tracked catalog."
+      "text": "Market context: 47,668 competitor products tracked. Vuori's 4,864 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9284,5 +9518,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-04T13:15:09.508Z"
+  "generated_at": "2026-10-05T13:15:09.434Z"
 }
