@@ -1,22 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "outdoor_voices:w-polka-tee-polka-dot",
-      "title": "Polka Tee",
-      "product_type": "Shortsleeve",
-      "detected_at": "2026-07-07T06:54:37.198402",
-      "days_since_launch": 152,
-      "is_fast_sellout": false
-    },
-    {
-      "product_id": "outdoor_voices:w-rectrek-cargo-pant-milk-stone",
-      "title": "RecTrek Cargo Pant",
-      "product_type": "Pants",
-      "detected_at": "2026-07-07T21:33:12.746374",
-      "days_since_launch": 477,
-      "is_fast_sellout": false
-    },
-    {
       "product_id": "outdoor_voices:m-thinkfast-vent-tank-white",
       "title": "ThinkFast Vent Tank",
       "product_type": "Tanks",
@@ -1357,15 +1341,17 @@
       "partial": true,
       "old_pct": 100,
       "new_pct": 50
+    },
+    {
+      "product_id": "tenthousand:al-pack-15l",
+      "title": "Training Pack 15L",
+      "product_type": "A\u2014L Pack 15L",
+      "detected_at": "2026-10-05T21:26:12.268768",
+      "days_since_launch": 356,
+      "is_fast_sellout": false
     }
   ],
   "restocks": [
-    {
-      "product_id": "outdoor_voices:w-techsweat-3-short-joggy-green-helios",
-      "title": "TechSweat 3\" Short",
-      "product_type": "",
-      "detected_at": "2026-07-07T16:38:10.967711"
-    },
     {
       "product_id": "outdoor_voices:w-rectrek-cargo-pant-balsam",
       "title": "RecTrek Cargo Pant",
