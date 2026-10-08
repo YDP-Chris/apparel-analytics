@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 819,
-      "change_from_last": 5,
+      "total_jobs": 815,
+      "change_from_last": -4,
       "departments": {
-        "design": 64,
+        "design": 65,
         "finance": 5,
-        "other": 134,
+        "other": 128,
         "product": 5,
-        "retail": 300,
+        "retail": 302,
+        "marketing": 6,
         "engineering": 22,
         "executive": 3,
         "hr": 1,
-        "operations": 281,
-        "marketing": 4
+        "operations": 278
       },
       "seniority": {
         "junior": 502,
-        "manager": 133,
-        "mid": 30,
-        "c-suite": 12,
-        "lead": 116,
+        "manager": 129,
+        "mid": 29,
+        "c-suite": 14,
+        "lead": 114,
         "intern": 3,
-        "senior": 23
+        "senior": 24
       },
       "locations": [
-        "Westport, Connecticut, United States",
-        "Laval, Quebec, Canada",
-        "Flatiron, New York, NY (10007)",
-        "Somerset Collection, Troy, MI (10072)",
-        "Town Center Plaza, Leawood, KS (10185)",
-        "Brickell City Centre, Miami, FL (10077)",
-        "Brookfield Place, New York, NY (10173)",
-        "San Diego, California, United States",
-        "Aventura, Florida, United States",
-        "Lynnfield, Massachusetts, United States",
-        "Manhattan Beach, California, United States",
         "Bondi Junction, Bondi Junction (50094)",
-        "Georgetown, Washington, DC (10029)",
-        "Berlin, Berlin, Germany",
-        "Jordan Creek, West Des Moines, IA (10178)",
-        "Dumbo, Brooklyn, NY (10139)",
-        "Durham, North Carolina, United States",
-        "Palm Desert, California, United States",
-        "Warehouse 2, Commerce, CA (WH2)",
-        "Mall at Short Hills, Millburn, NJ (10043)"
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "Alexandria, Virginia, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "The Gardens Mall, Palm Beach Gardens, FL (10036)",
+        "Koenigsallee, D\u00fcsseldorf (50112)",
+        "Aventura, Florida, United States",
+        "Market Mall, Calgary, AB (10070)",
+        "Shops at La Cantera, San Antonio, TX (10054)",
+        "Hong Kong",
+        "North East, Maryland, United States",
+        "Rochester Hills, Michigan, United States",
+        "Dadeland Mall, MIami, FL (10133)",
+        "Wolvenstraat 9 Streets, Amsterdam (50069)",
+        "Houston Galleria, Houston, TX (10037)",
+        "Westfield London, London (50058)",
+        "Century City, Los Angeles, CA (10101)",
+        "Country Club Plaza, Kansas City, MO (10174)",
+        "Ottawa, Ontario, Canada",
+        "Harbor East, Baltimore, MD (10105)"
       ],
       "jobs": [
         {
@@ -280,14 +280,14 @@
           "seniority": "manager"
         },
         {
-          "id": "6192460004",
-          "title": "Company Planner",
+          "id": "6219001004",
+          "title": "Brand Protection Coordinator",
           "location": "Beverly Hills, California, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6192460004?gh_jid=6192460004",
-          "posted_at": "2026-10-02T20:12:08-04:00",
-          "category": "other",
-          "seniority": "mid"
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6219001004?gh_jid=6219001004",
+          "posted_at": "2026-10-07T18:49:59-04:00",
+          "category": "marketing",
+          "seniority": "c-suite"
         },
         {
           "id": "6129241004",
@@ -520,16 +520,6 @@
           "seniority": "manager"
         },
         {
-          "id": "6006955004",
-          "title": "Flagship General Manager - Milan",
-          "location": "Milano, Milan, Italy",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6006955004?gh_jid=6006955004",
-          "posted_at": "2026-10-02T20:12:08-04:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "6146472004",
           "title": "Flagship Sales & Service Manager - Regent Street",
           "location": "London, England, United Kingdom",
@@ -538,6 +528,16 @@
           "posted_at": "2026-10-02T20:12:08-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "6006955004",
+          "title": "Flagship Store Director - Milan",
+          "location": "Milano, Milan, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6006955004?gh_jid=6006955004",
+          "posted_at": "2026-10-07T13:11:21-04:00",
+          "category": "retail",
+          "seniority": "c-suite"
         },
         {
           "id": "6161094004",
@@ -550,13 +550,13 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-07T05:30:07.339365"
+      "checked_at": "2026-10-08T05:30:08.319006"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 16,
-      "change_from_last": -6,
+      "change_from_last": 0,
       "departments": {
         "other": 9,
         "design": 1,
@@ -573,12 +573,12 @@
         "senior": 2
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
-        "London",
-        "Roosevelt, New York, United States",
-        "London; Solihull, England, United Kingdom",
         "New York, New York, United States",
-        "Solihull, England, United Kingdom"
+        "London",
+        "London; Solihull, England, United Kingdom",
+        "Amsterdam, North Holland, Netherlands",
+        "Solihull, England, United Kingdom",
+        "Roosevelt, New York, United States"
       ],
       "jobs": [
         {
@@ -742,7 +742,7 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-10-07T05:30:09.499360"
+      "checked_at": "2026-10-08T05:30:10.484930"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -800,10 +800,10 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 226,
-      "change_from_last": -2,
+      "total_jobs": 225,
+      "change_from_last": -1,
       "departments": {
-        "other": 25,
+        "other": 24,
         "retail": 154,
         "marketing": 13,
         "executive": 5,
@@ -817,29 +817,29 @@
         "lead": 121,
         "mid": 89,
         "c-suite": 5,
-        "senior": 11
+        "senior": 10
       },
       "locations": [
-        "McLean",
-        "Munich",
-        "Guangzhou",
-        "Palo Alto",
-        "Madrid",
-        "Seattle",
-        "Shanghai",
-        "D\u00fcsseldorf",
-        "Philadelphia",
-        "Newport Beach",
-        "Wuhan",
+        "Amsterdam",
         "Brooklyn",
-        "Landquart",
-        "Melbourne",
+        "Hanoi",
+        "Tokyo",
+        "Seoul",
+        "Munich",
+        "Portland",
+        "Palo Alto",
+        "Seattle",
+        "Central Valley",
+        "San Francisco",
+        "Hong Kong",
         "New York City",
-        "Beijing",
+        "Boston",
+        "Mexico City",
+        "D\u00fcsseldorf",
         "London",
-        "Miami",
-        "Aventura",
-        "Chengdu"
+        "Southlake",
+        "Tianjin",
+        "Washington D.C."
       ],
       "jobs": [
         {
@@ -968,7 +968,7 @@
           "location": "McLean",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8094259?gh_jid=8094259",
-          "posted_at": "2026-09-04T02:52:57-04:00",
+          "posted_at": "2026-10-07T17:05:51-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -978,7 +978,7 @@
           "location": "Washington D.C.",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8099905?gh_jid=8099905",
-          "posted_at": "2026-09-04T02:52:57-04:00",
+          "posted_at": "2026-10-07T17:05:52-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1343,8 +1343,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-07T05:30:18.745095"
+      "checked_at": "2026-10-08T05:30:19.781911"
     }
   },
-  "generated_at": "2026-10-07T05:30:20.745248"
+  "generated_at": "2026-10-08T05:30:21.782069"
 }
