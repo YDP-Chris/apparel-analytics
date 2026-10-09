@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 815,
-      "change_from_last": -4,
+      "total_jobs": 797,
+      "change_from_last": -18,
       "departments": {
         "design": 65,
         "finance": 5,
         "other": 128,
         "product": 5,
-        "retail": 302,
+        "retail": 292,
         "marketing": 6,
         "engineering": 22,
         "executive": 3,
         "hr": 1,
-        "operations": 278
+        "operations": 270
       },
       "seniority": {
-        "junior": 502,
+        "junior": 484,
         "manager": 129,
-        "mid": 29,
+        "mid": 30,
         "c-suite": 14,
-        "lead": 114,
+        "lead": 113,
         "intern": 3,
         "senior": 24
       },
       "locations": [
-        "Bondi Junction, Bondi Junction (50094)",
-        "Cherry Creek Mall, Denver, CO (10028)",
+        "Detroit, Michigan, United States",
+        "SoHo, New York, NY (10004)",
+        "Roma, Rome, Italy",
+        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
+        "Palo Alto, California, United States",
+        "Santa Barbara, California, United States",
+        "Ponce City Market, Atlanta, GA (10186)",
+        "Texas Distribution Center, Fort Worth, TX (WH-TX)",
+        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
+        "Glendale, California, United States",
+        "Shop at Hudson Yards, New York, NY (10078)",
+        "Boulder, Colorado, United States",
+        "City Creek Centre, Salt Lake City, UT (10064)",
+        "Harbor East, Baltimore, MD (10105)",
+        "Greenwich, Greenwich, CT (10197)",
+        "Cologne, North Rhine-Westphalia, Germany",
         "Alexandria, Virginia, United States",
-        "Amsterdam, North Holland, Netherlands",
-        "The Gardens Mall, Palm Beach Gardens, FL (10036)",
-        "Koenigsallee, D\u00fcsseldorf (50112)",
-        "Aventura, Florida, United States",
-        "Market Mall, Calgary, AB (10070)",
-        "Shops at La Cantera, San Antonio, TX (10054)",
-        "Hong Kong",
-        "North East, Maryland, United States",
-        "Rochester Hills, Michigan, United States",
-        "Dadeland Mall, MIami, FL (10133)",
-        "Wolvenstraat 9 Streets, Amsterdam (50069)",
-        "Houston Galleria, Houston, TX (10037)",
-        "Westfield London, London (50058)",
-        "Century City, Los Angeles, CA (10101)",
+        "Somerset Collection, Troy, MI (10072)",
         "Country Club Plaza, Kansas City, MO (10174)",
-        "Ottawa, Ontario, Canada",
-        "Harbor East, Baltimore, MD (10105)"
+        "Durham, North Carolina, United States"
       ],
       "jobs": [
         {
@@ -290,6 +290,16 @@
           "seniority": "c-suite"
         },
         {
+          "id": "6220799004",
+          "title": "Construction Program Specialist",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6220799004?gh_jid=6220799004",
+          "posted_at": "2026-10-08T19:06:00-04:00",
+          "category": "other",
+          "seniority": "mid"
+        },
+        {
           "id": "6129241004",
           "title": "Creative Project Manager",
           "location": "Beverly Hills, California, United States",
@@ -440,16 +450,6 @@
           "seniority": "manager"
         },
         {
-          "id": "6120109004",
-          "title": "Engineering Manager, Marketing Technology ",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6120109004?gh_jid=6120109004",
-          "posted_at": "2026-10-02T20:12:08-04:00",
-          "category": "engineering",
-          "seniority": "manager"
-        },
-        {
           "id": "5779064004",
           "title": "Engineering Manager, Performance Engineering",
           "location": "San Ramon, California, United States",
@@ -550,15 +550,15 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-08T05:30:08.319006"
+      "checked_at": "2026-10-09T05:30:06.931005"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 16,
-      "change_from_last": 0,
+      "total_jobs": 15,
+      "change_from_last": -1,
       "departments": {
-        "other": 9,
+        "other": 8,
         "design": 1,
         "marketing": 2,
         "engineering": 3,
@@ -568,17 +568,17 @@
         "manager": 3,
         "lead": 5,
         "mid": 3,
-        "c-suite": 2,
+        "c-suite": 1,
         "junior": 1,
         "senior": 2
       },
       "locations": [
-        "New York, New York, United States",
-        "London",
-        "London; Solihull, England, United Kingdom",
         "Amsterdam, North Holland, Netherlands",
         "Solihull, England, United Kingdom",
-        "Roosevelt, New York, United States"
+        "Roosevelt, New York, United States",
+        "London; Solihull, England, United Kingdom",
+        "New York, New York, United States",
+        "London"
       ],
       "jobs": [
         {
@@ -730,19 +730,9 @@
           "posted_at": "2026-10-06T10:10:56-04:00",
           "category": "other",
           "seniority": "manager"
-        },
-        {
-          "id": "4960305101",
-          "title": "Supply Planning Coordinator (12 Month FTC)",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4960305101",
-          "posted_at": "2026-10-06T10:05:09-04:00",
-          "category": "other",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-10-08T05:30:10.484930"
+      "checked_at": "2026-10-09T05:30:09.135478"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -800,46 +790,46 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 225,
-      "change_from_last": -1,
+      "total_jobs": 221,
+      "change_from_last": -4,
       "departments": {
         "other": 24,
-        "retail": 154,
+        "retail": 151,
         "marketing": 13,
         "executive": 5,
         "product": 2,
-        "engineering": 13,
+        "engineering": 12,
         "design": 9,
         "operations": 3,
         "finance": 2
       },
       "seniority": {
-        "lead": 121,
+        "lead": 118,
         "mid": 89,
         "c-suite": 5,
-        "senior": 10
+        "senior": 9
       },
       "locations": [
-        "Amsterdam",
-        "Brooklyn",
-        "Hanoi",
-        "Tokyo",
-        "Seoul",
-        "Munich",
+        "Melbourne",
         "Portland",
-        "Palo Alto",
-        "Seattle",
-        "Central Valley",
-        "San Francisco",
-        "Hong Kong",
-        "New York City",
-        "Boston",
-        "Mexico City",
         "D\u00fcsseldorf",
-        "London",
+        "Hanoi",
+        "Corte Madera",
+        "Wuhan",
+        "Milan",
+        "Munich",
+        "Shanghai",
+        "Rio de Janeiro",
+        "Chengdu",
+        "Shenzhen",
+        "Philadelphia",
+        "Dallas",
+        "S\u00e3o Paulo",
         "Southlake",
-        "Tianjin",
-        "Washington D.C."
+        "Hong Kong",
+        "Paris",
+        "Nanjing",
+        "Boston"
       ],
       "jobs": [
         {
@@ -959,26 +949,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8037845?gh_jid=8037845",
           "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8094259",
-          "title": " Associate Store Leader, Tyson's Corner ",
-          "location": "McLean",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8094259?gh_jid=8094259",
-          "posted_at": "2026-10-07T17:05:51-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8099905",
-          "title": "Associate Store Leader, Tyson's Corner ",
-          "location": "Washington D.C.",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8099905?gh_jid=8099905",
-          "posted_at": "2026-10-07T17:05:52-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1341,10 +1311,30 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "8127441",
+          "title": "Lead Store Advisor, D\u00fcsseldorf",
+          "location": "D\u00fcsseldorf",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8127441?gh_jid=8127441",
+          "posted_at": "2026-09-07T10:43:22-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "8070247",
+          "title": "Lead Store Advisor, Flatiron",
+          "location": "New York City",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/8070247?gh_jid=8070247",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-08T05:30:19.781911"
+      "checked_at": "2026-10-09T05:30:18.473953"
     }
   },
-  "generated_at": "2026-10-08T05:30:21.782069"
+  "generated_at": "2026-10-09T05:30:20.474132"
 }
