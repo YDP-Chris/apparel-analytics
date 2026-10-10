@@ -309,12 +309,12 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 12372,
+      "total": 12386,
       "categories": {
-        "bottoms": 4453,
-        "tops": 4052,
+        "bottoms": 4455,
+        "tops": 4062,
         "other": 881,
-        "accessories": 680,
+        "accessories": 682,
         "outerwear": 1220,
         "sports_bras": 1074,
         "dresses": 12
@@ -323,14 +323,14 @@
         "shorts": 1774,
         "leggings": 1198,
         "crop_tops": 200,
-        "other": 4201,
-        "long_sleeve": 690,
-        "socks": 278,
+        "other": 4209,
+        "long_sleeve": 692,
+        "socks": 280,
         "tanks": 1134,
         "joggers": 627,
         "hoodies": 642,
         "jackets": 314,
-        "pants": 448,
+        "pants": 450,
         "pullovers": 196,
         "high_support": 48,
         "bags": 94,
@@ -348,21 +348,21 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 5523,
-        "womens": 4366,
-        "mens": 2483
+        "unisex": 5531,
+        "womens": 4370,
+        "mens": 2485
       },
       "colors": {
-        "green": 696,
-        "pink": 1189,
-        "black": 2841,
+        "green": 702,
+        "pink": 1191,
+        "black": 2843,
         "white": 921,
         "navy": 84,
         "gray": 1409,
         "brown": 1076,
-        "blue": 1958,
+        "blue": 1960,
         "red": 371,
-        "purple": 695,
+        "purple": 697,
         "yellow": 158,
         "orange": 64,
         "khaki": 4,
@@ -370,18 +370,18 @@
       },
       "colorCoverage": 92.9,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3173
+      "uniqueStyles": 3175
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 10876,
+      "total": 10877,
       "categories": {
         "bottoms": 1790,
         "tops": 727,
         "accessories": 773,
         "sports_bras": 205,
-        "other": 3169,
+        "other": 3170,
         "footwear": 3163,
         "outerwear": 1020,
         "dresses": 29
@@ -389,7 +389,7 @@
       "subcategories": {
         "shorts": 788,
         "leggings": 443,
-        "other": 3594,
+        "other": 3595,
         "hats": 243,
         "crop_tops": 227,
         "pants": 439,
@@ -414,7 +414,7 @@
       },
       "genders": {
         "womens": 5181,
-        "mens": 4498,
+        "mens": 4499,
         "unisex": 1197
       },
       "colors": {
@@ -710,9 +710,9 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2275,
+      "total": 2287,
       "categories": {
-        "other": 1285,
+        "other": 1297,
         "accessories": 156,
         "tops": 276,
         "bottoms": 126,
@@ -721,7 +721,7 @@
         "sports_bras": 12
       },
       "subcategories": {
-        "other": 1495,
+        "other": 1507,
         "hats": 42,
         "shorts": 42,
         "quarter_zips": 24,
@@ -742,7 +742,7 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 1735,
+        "unisex": 1747,
         "mens": 282,
         "womens": 258
       },
@@ -760,7 +760,7 @@
         "navy": 18,
         "yellow": 24
       },
-      "colorCoverage": 17.9,
+      "colorCoverage": 17.8,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 50
     },
@@ -895,9 +895,9 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2626,
+      "total": 2634,
       "categories": {
-        "accessories": 490,
+        "accessories": 498,
         "other": 859,
         "tops": 262,
         "bottoms": 656,
@@ -909,7 +909,7 @@
         "other": 1572,
         "shorts": 424,
         "training": 7,
-        "bags": 72,
+        "bags": 80,
         "socks": 38,
         "leggings": 17,
         "hoodies": 235,
@@ -926,14 +926,14 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2125,
+        "unisex": 2133,
         "womens": 196,
         "mens": 305
       },
       "colors": {
-        "black": 552,
+        "black": 556,
         "red": 294,
-        "white": 459,
+        "white": 463,
         "blue": 241,
         "gray": 206,
         "yellow": 252,
@@ -947,9 +947,9 @@
         "navy": 22,
         "rust": 7
       },
-      "colorCoverage": 91.7,
+      "colorCoverage": 91.8,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 1701
+      "uniqueStyles": 1709
     },
     "everlast": {
       "name": "everlast",
@@ -1060,17 +1060,73 @@
     }
   },
   "totals": {
-    "products": 52932,
+    "products": 52967,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-10-10",
+      "brand": "venum",
+      "brandSlug": "venum",
+      "count": 8,
+      "products": [
+        {
+          "name": "venum hurricane wide heavy bag black",
+          "url": "https://www.venum.com/products/venum-hurricane-wide-heavy-bag-black-white",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum origins punching bag 80 lbs",
+          "url": "https://www.venum.com/products/venum-origins-punching-bag-80-lbs-black-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum origins punching bag 80 lbs black",
+          "url": "https://www.venum.com/products/venum-origins-punching-bag-80-lbs-black-white",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "challenger water punching bag black",
+          "url": "https://www.venum.com/products/challenger-water-punching-bag-black-white",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum origins punching bag 40 lbs khaki",
+          "url": "https://www.venum.com/products/venum-origins-punching-bag-40-lbs-khaki-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum origins punching bag 80 lbs khaki",
+          "url": "https://www.venum.com/products/venum-origins-punching-bag-80-lbs-khaki-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum origins punching bag 40 lbs",
+          "url": "https://www.venum.com/products/venum-origins-punching-bag-40-lbs-black-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum origins punching bag 40 lbs black",
+          "url": "https://www.venum.com/products/venum-origins-punching-bag-40-lbs-black-white",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
       "date": "2026-10-09",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 6,
+      "count": 20,
       "products": [
         {
           "name": "gymshark 700ml bottle bottles",
@@ -1107,6 +1163,90 @@
           "url": "https://www.gymshark.com/es-US/products/gymshark-700ml-bottle-bottles-black-aw26",
           "category": "accessories",
           "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultra light performance t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-ultra-light-performance-t-shirt-ss-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultra light performance t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-ultra-light-performance-t-shirt-ss-tops-purple-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-green-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark shadow seamless t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-shadow-seamless-t-shirt-ss-tops-green-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark running elite crew single sock socks",
+          "url": "https://www.gymshark.com/products/gymshark-running-elite-crew-single-sock-socks-black-aw26",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultra light performance t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-ultra-light-performance-t-shirt-ss-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultra light performance t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-ultra-light-performance-t-shirt-ss-tops-purple-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark shadow seamless long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-long-sleeve-t-shirt-ls-tops-green-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark shadow seamless t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-shadow-seamless-t-shirt-ss-tops-green-aw26",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark running elite crew single sock socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-running-elite-crew-single-sock-socks-black-aw26",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gs graphic pant pants aw26 b7b5z kdp2",
+          "url": "https://www.gymshark.com/products/gymshark-gs-graphic-pant-pants-pink-aw26-b7b5z-kdp2",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark sport iteration t shirt ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-sport-iteration-t-shirt-ss-tops-green-aw26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark gs graphic pant pants aw26 b7b5z kdp2",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-gs-graphic-pant-pants-pink-aw26-b7b5z-kdp2",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark sport iteration t shirt ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-iteration-t-shirt-ss-tops-green-aw26",
+          "category": "tops",
+          "gender": "mens"
         }
       ]
     },
@@ -1114,7 +1254,7 @@
       "date": "2026-10-09",
       "brand": "goruck",
       "brandSlug": "goruck",
-      "count": 6,
+      "count": 18,
       "products": [
         {
           "name": "libertys torch",
@@ -1149,6 +1289,78 @@
         {
           "name": "libertys torch",
           "url": "https://www.goruck.com/en-gb/products/libertys-torch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ruck or die 005 austin",
+          "url": "https://www.goruck.com/products/ruck-or-die-005-austin",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "uwvc honor ruck",
+          "url": "https://www.goruck.com/products/uwvc-honor-ruck",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ruck or die 005 austin",
+          "url": "https://www.goruck.com/en-ca/products/ruck-or-die-005-austin",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ruck or die 005 austin",
+          "url": "https://www.goruck.com/en-sg/products/ruck-or-die-005-austin",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "uwvc honor ruck",
+          "url": "https://www.goruck.com/en-ca/products/uwvc-honor-ruck",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ruck or die 005 austin",
+          "url": "https://www.goruck.com/en-au/products/ruck-or-die-005-austin",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "uwvc honor ruck",
+          "url": "https://www.goruck.com/en-au/products/uwvc-honor-ruck",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "uwvc honor ruck",
+          "url": "https://www.goruck.com/en-sg/products/uwvc-honor-ruck",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ruck or die 005 austin",
+          "url": "https://www.goruck.com/en-gb/products/ruck-or-die-005-austin",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "uwvc honor ruck",
+          "url": "https://www.goruck.com/en-gb/products/uwvc-honor-ruck",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ruck or die 005 austin",
+          "url": "https://www.goruck.com/en-eu/products/ruck-or-die-005-austin",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "uwvc honor ruck",
+          "url": "https://www.goruck.com/en-eu/products/uwvc-honor-ruck",
           "category": "other",
           "gender": "unisex"
         }
@@ -1197,6 +1409,20 @@
           "url": "https://www.everlast.com/products/butterfly-bee-gloves",
           "category": "accessories",
           "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 1,
+      "products": [
+        {
+          "name": "club collective t pixel m",
+          "url": "https://www.on.com/en-us/products/club-collective-t-pixel-m-1mg3161/mens/ember-apparel-1MG31614989",
+          "category": "other",
+          "gender": "mens"
         }
       ]
     },
@@ -7343,122 +7569,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-09-25",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 7,
-      "products": [
-        {
-          "name": "jeffreys crew 2 0",
-          "url": "https://vuoriclothing.com/products/jeffreys-crew-2-0-mocha-heather",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "jeffreys crew 2 0",
-          "url": "https://vuoriclothing.com/products/jeffreys-crew-2-0-salt-heather",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "elevation square neck cami army",
-          "url": "https://vuoriclothing.com/products/womens-elevation-square-neck-cami-army-heather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "elevation square neck cami light",
-          "url": "https://vuoriclothing.com/products/womens-elevation-square-neck-cami-light-heather-grey",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "long sleeve halo double zip top",
-          "url": "https://vuoriclothing.com/products/womens-long-sleeve-halo-double-zip-top-pale-grey-heather",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "long sleeve halo double zip top solid",
-          "url": "https://vuoriclothing.com/products/womens-long-sleeve-halo-double-zip-top-solid-black",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "long sleeve halo double zip top velvet",
-          "url": "https://vuoriclothing.com/products/womens-long-sleeve-halo-double-zip-top-velvet-violet",
-          "category": "tops",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "brand": "everlast",
-      "brandSlug": "everlast",
-      "count": 3,
-      "products": [
-        {
-          "name": "prospect 2 youth heavy bag kit 35lb",
-          "url": "https://www.everlast.com/products/prospect-2-youth-heavy-bag-kit-35lb",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "elite free standing heavy bag",
-          "url": "https://www.everlast.com/products/elite-free-standing-heavy-bag",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "150lb 1910 pro heavy bag",
-          "url": "https://www.everlast.com/products/150lb-1910-pro-heavy-bag",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "brand": "Ten Thousand",
-      "brandSlug": "tenthousand",
-      "count": 2,
-      "products": [
-        {
-          "name": "insulated tech jacket",
-          "url": "https://www.tenthousand.cc/products/insulated-tech-jacket",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "tt bandana",
-          "url": "https://www.tenthousand.cc/products/tt-bandana",
-          "category": "other",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "brand": "optimum_nutrition",
-      "brandSlug": "optimum_nutrition",
-      "count": 2,
-      "products": [
-        {
-          "name": "creatine electrolyte sachet pack",
-          "url": "https://www.optimumnutrition.com/en-gb/products/creatine-electrolyte-sachet-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "micronized creatine stick packs",
-          "url": "https://www.optimumnutrition.com/en-us/products/micronized-creatine-stick-packs",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7981,7 +8091,7 @@
       "2026-10-06": 20,
       "2026-10-07": 10,
       "2026-10-08": 2,
-      "2026-10-09": 6
+      "2026-10-09": 20
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -8035,7 +8145,8 @@
       "2026-10-01": 48,
       "2026-10-05": 19,
       "2026-10-07": 3,
-      "2026-10-08": 25
+      "2026-10-08": 25,
+      "2026-10-09": 1
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -8116,7 +8227,7 @@
       "2026-10-01": 6,
       "2026-10-06": 24,
       "2026-10-07": 6,
-      "2026-10-09": 6
+      "2026-10-09": 18
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -8169,7 +8280,8 @@
       "2026-09-29": 1,
       "2026-09-30": 18,
       "2026-10-05": 56,
-      "2026-10-08": 1
+      "2026-10-08": 1,
+      "2026-10-10": 8
     },
     "everlast": {
       "2026-08-30": 315,
@@ -8203,7 +8315,7 @@
       "tenthousand": 87,
       "lululemon": 1732,
       "alo": 1834,
-      "gymshark": 4453,
+      "gymshark": 4455,
       "on_running": 1790,
       "gymreapers": 235,
       "sbd": 45,
@@ -8223,7 +8335,7 @@
       "tenthousand": 48,
       "lululemon": 835,
       "alo": 588,
-      "gymshark": 4052,
+      "gymshark": 4062,
       "on_running": 727,
       "gymreapers": 260,
       "sbd": 160,
@@ -8264,14 +8376,14 @@
       "lululemon": 917,
       "alo": 850,
       "gymshark": 881,
-      "on_running": 3169,
+      "on_running": 3170,
       "gymreapers": 355,
       "sbd": 104,
       "harbinger": 26,
       "schiek": 59,
       "bear_grips": 254,
       "asrv": 342,
-      "goruck": 1285,
+      "goruck": 1297,
       "optimum_nutrition": 560,
       "ghost": 334,
       "hayabusa": 91,
@@ -8314,7 +8426,7 @@
       "tenthousand": 4,
       "lululemon": 627,
       "alo": 435,
-      "gymshark": 680,
+      "gymshark": 682,
       "on_running": 773,
       "gymreapers": 204,
       "sbd": 59,
@@ -8325,7 +8437,7 @@
       "goruck": 156,
       "ghost": 59,
       "hayabusa": 92,
-      "venum": 490,
+      "venum": 498,
       "everlast": 110,
       "dfyne": 18
     },
@@ -8429,15 +8541,15 @@
       "tenthousand": 41,
       "lululemon": 1593,
       "alo": 1710,
-      "gymshark": 4201,
-      "on_running": 3594,
+      "gymshark": 4209,
+      "on_running": 3595,
       "gymreapers": 585,
       "sbd": 236,
       "harbinger": 55,
       "schiek": 109,
       "bear_grips": 471,
       "asrv": 454,
-      "goruck": 1495,
+      "goruck": 1507,
       "optimum_nutrition": 560,
       "ghost": 344,
       "hayabusa": 190,
@@ -8451,7 +8563,7 @@
       "tenthousand": 20,
       "lululemon": 448,
       "alo": 252,
-      "gymshark": 448,
+      "gymshark": 450,
       "on_running": 439,
       "asrv": 40,
       "goruck": 24,
@@ -8514,7 +8626,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 41,
-      "gymshark": 690,
+      "gymshark": 692,
       "on_running": 18,
       "gymreapers": 15,
       "sbd": 5,
@@ -8651,7 +8763,7 @@
       "goruck": 54,
       "ghost": 2,
       "hayabusa": 29,
-      "venum": 72,
+      "venum": 80,
       "everlast": 55
     },
     "socks": {
@@ -8660,7 +8772,7 @@
       "tenthousand": 2,
       "lululemon": 159,
       "alo": 193,
-      "gymshark": 278,
+      "gymshark": 280,
       "on_running": 483,
       "gymreapers": 8,
       "sbd": 46,
@@ -8771,7 +8883,7 @@
       "vuori": 959,
       "outdoor_voices": 103,
       "alo": 1069,
-      "gymshark": 2841,
+      "gymshark": 2843,
       "on_running": 1659,
       "gymreapers": 133,
       "sbd": 6,
@@ -8782,7 +8894,7 @@
       "optimum_nutrition": 1,
       "ghost": 39,
       "hayabusa": 2,
-      "venum": 552,
+      "venum": 556,
       "everlast": 8,
       "dfyne": 175
     },
@@ -8833,7 +8945,7 @@
       "goruck": 90,
       "optimum_nutrition": 6,
       "ghost": 32,
-      "venum": 459,
+      "venum": 463,
       "everlast": 12,
       "dfyne": 69
     },
@@ -8842,7 +8954,7 @@
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 254,
-      "gymshark": 1958,
+      "gymshark": 1960,
       "on_running": 860,
       "gymreapers": 34,
       "sbd": 12,
@@ -8859,7 +8971,7 @@
       "outdoor_voices": 52,
       "lululemon": 4,
       "alo": 316,
-      "gymshark": 696,
+      "gymshark": 702,
       "on_running": 295,
       "gymreapers": 105,
       "sbd": 6,
@@ -8903,7 +9015,7 @@
       "vuori": 156,
       "outdoor_voices": 10,
       "alo": 41,
-      "gymshark": 695,
+      "gymshark": 697,
       "on_running": 191,
       "gymreapers": 12,
       "sbd": 4,
@@ -8946,7 +9058,7 @@
       "vuori": 75,
       "outdoor_voices": 9,
       "alo": 246,
-      "gymshark": 1189,
+      "gymshark": 1191,
       "on_running": 185,
       "gymreapers": 18,
       "sbd": 2,
@@ -8995,7 +9107,7 @@
       "brand": "Gymshark",
       "bottoms": 36,
       "tops": 32.8,
-      "outerwear": 9.9,
+      "outerwear": 9.8,
       "dresses": 0.1,
       "sports_bras": 8.7,
       "accessories": 5.5,
@@ -9043,13 +9155,13 @@
     },
     {
       "brand": "venum",
-      "bottoms": 25,
-      "tops": 10,
+      "bottoms": 24.9,
+      "tops": 9.9,
       "outerwear": 11,
       "dresses": 0,
       "sports_bras": 1.1,
-      "accessories": 18.7,
-      "other": 32.7
+      "accessories": 18.9,
+      "other": 32.6
     },
     {
       "brand": "bear_grips",
@@ -9068,8 +9180,8 @@
       "outerwear": 4.7,
       "dresses": 0,
       "sports_bras": 0.5,
-      "accessories": 6.9,
-      "other": 56.5
+      "accessories": 6.8,
+      "other": 56.7
     },
     {
       "brand": "asrv",
@@ -9210,7 +9322,7 @@
       "gray": 11.4,
       "navy": 0.7,
       "blue": 15.8,
-      "green": 5.6,
+      "green": 5.7,
       "khaki": 0,
       "brown": 8.7,
       "purple": 5.6,
@@ -9290,11 +9402,11 @@
     },
     {
       "brand": "venum",
-      "black": 21,
-      "white": 17.5,
+      "black": 21.1,
+      "white": 17.6,
       "gray": 7.8,
       "navy": 0.8,
-      "blue": 9.2,
+      "blue": 9.1,
       "green": 2.2,
       "khaki": 3.5,
       "brown": 2.4,
@@ -9325,7 +9437,7 @@
     {
       "brand": "goruck",
       "black": 3.4,
-      "white": 4,
+      "white": 3.9,
       "gray": 2.9,
       "navy": 0.8,
       "blue": 0.8,
@@ -9336,7 +9448,7 @@
       "pink": 0.5,
       "orange": 0,
       "red": 1.3,
-      "yellow": 1.1,
+      "yellow": 1,
       "other": 0.8
     },
     {
@@ -9609,7 +9721,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 47,823 competitor products tracked. Vuori's 5,109 = 10% share of tracked catalog."
+      "text": "Market context: 47,858 competitor products tracked. Vuori's 5,109 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9758,5 +9870,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-09T13:15:09.021Z"
+  "generated_at": "2026-10-10T13:15:08.593Z"
 }
