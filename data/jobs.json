@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 794,
+      "total_jobs": 797,
       "change_from_last": 3,
       "departments": {
-        "design": 61,
+        "design": 64,
         "finance": 5,
         "other": 124,
         "product": 6,
-        "retail": 288,
+        "retail": 286,
         "marketing": 6,
-        "engineering": 23,
+        "engineering": 24,
         "executive": 5,
         "hr": 1,
-        "operations": 275
+        "operations": 276
       },
       "seniority": {
         "junior": 483,
-        "manager": 127,
+        "manager": 129,
         "mid": 29,
         "c-suite": 16,
-        "lead": 111,
+        "lead": 113,
         "intern": 3,
-        "senior": 25
+        "senior": 24
       },
       "locations": [
-        "Bondi Junction, Bondi Junction (50094)",
-        "Williamsburg, Brooklyn, NY (10006)",
-        "Ross Park Mall, Pittsburgh, PA (10065)",
-        "Charleston, South Carolina, United States",
-        "Princeton, New Jersey, United States",
-        "Ashburn, Virginia, United States",
-        "Santa Clara, California, United States",
-        "Studio City, California, United States",
-        "Wayne, New Jersey, United States",
-        "San Ramon, California, United States",
-        "Bloomington, Minnesota, United States",
-        "Memphis Distribution Center, Southaven, MS (DC-MS)",
-        "Westfield London, London (50058)",
-        "Shrewsbury, New Jersey, United States",
-        "Alpharetta, Georgia, United States",
-        "Sydney ",
+        "Corte Madera, California, United States",
+        "International Plaza, Tampa, FL (10039)",
+        "Westbourne Grove, London (50104)",
+        "Manchester, England, United Kingdom",
+        "Roma, Rome, Italy",
+        "Park City, Park City, UT (10192)",
         "Upper East Side, New York, NY (10009)",
-        "Jordan Creek, West Des Moines, IA (10178)",
+        "Cologne, North Rhine-Westphalia, Germany",
+        "Harbor East, Baltimore, MD (10105)",
         "Palo Alto, California, United States",
-        "Multrees Walk, Edinburgh (50043)"
+        "Koenigsallee, D\u00fcsseldorf (50112)",
+        "Las Vegas, Nevada, United States",
+        "Los Angeles, California, United States",
+        "Boulder, Colorado, United States",
+        "Plaza at Frotenac, St. Louis, MO (10051)",
+        "Brookfield, Wisconsin, United States",
+        "New York Metro Area",
+        "Shrewsbury, New Jersey, United States",
+        "Warehouse 7, Montebello, CA (WH7)",
+        "Venice, California, United States"
       ],
       "jobs": [
         {
@@ -65,7 +65,7 @@
           "location": "Commerce, California, United States",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6211215004?gh_jid=6211215004",
-          "posted_at": "2026-10-10T03:03:20-04:00",
+          "posted_at": "2026-10-14T17:38:22-04:00",
           "category": "finance",
           "seniority": "manager"
         },
@@ -550,13 +550,13 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-14T05:30:07.703579"
+      "checked_at": "2026-10-15T05:30:07.404623"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 12,
-      "change_from_last": -1,
+      "change_from_last": 0,
       "departments": {
         "engineering": 3,
         "design": 2,
@@ -566,17 +566,17 @@
       "seniority": {
         "mid": 4,
         "lead": 4,
-        "manager": 1,
-        "junior": 2,
+        "manager": 2,
+        "junior": 1,
         "senior": 1
       },
       "locations": [
         "London; Solihull, England, United Kingdom",
-        "Roosevelt, New York, United States",
-        "London, England, United Kingdom",
         "Solihull, England, United Kingdom",
-        "New York, New York, United States",
-        "London"
+        "London, England, United Kingdom",
+        "US",
+        "London",
+        "New York, New York, United States"
       ],
       "jobs": [
         {
@@ -680,16 +680,6 @@
           "seniority": "junior"
         },
         {
-          "id": "4981273101",
-          "title": "Seasonal Sales Associate - Roosevelt Field, New York",
-          "location": "Roosevelt, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981273101",
-          "posted_at": "2026-10-05T11:10:07-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
           "id": "4974208101",
           "title": "Senior Software Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -698,9 +688,19 @@
           "posted_at": "2026-10-06T09:01:12-04:00",
           "category": "engineering",
           "seniority": "senior"
+        },
+        {
+          "id": "5006556101",
+          "title": "Store Manager, Bond Street, NYC",
+          "location": "US",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5006556101",
+          "posted_at": "2026-10-14T18:01:17-04:00",
+          "category": "retail",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-14T05:30:09.836628"
+      "checked_at": "2026-10-15T05:30:09.529292"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -758,46 +758,46 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 212,
+      "total_jobs": 211,
       "change_from_last": -1,
       "departments": {
         "other": 23,
-        "retail": 143,
+        "retail": 142,
         "marketing": 13,
         "executive": 5,
         "product": 2,
-        "engineering": 12,
+        "engineering": 13,
         "design": 9,
-        "operations": 3,
-        "finance": 2
+        "finance": 2,
+        "operations": 2
       },
       "seniority": {
-        "lead": 114,
-        "mid": 84,
+        "lead": 113,
+        "mid": 83,
         "c-suite": 5,
-        "senior": 9
+        "senior": 10
       },
       "locations": [
-        "Shenzhen",
-        "Nanjing",
-        "Brooklyn",
-        "Southlake",
-        "Macao",
-        "New York City",
-        "San Diego",
-        "Paris",
-        "Seoul",
-        "Madrid",
-        "Guangzhou",
-        "Amsterdam",
-        "Washington D.C.",
-        "Newport Beach",
-        "Chengdu",
+        "Munich",
+        "Melbourne",
+        "San Francisco",
+        "Chicago",
+        "Zurich",
+        "Miami",
         "Beijing",
+        "Hanoi",
+        "Las Vegas",
+        "Dallas",
+        "Amsterdam",
+        "Tokyo",
         "Central Valley",
-        "Mexico City",
-        "Shanghai",
-        "D\u00fcsseldorf"
+        "D\u00fcsseldorf",
+        "Seoul",
+        "Wuhan",
+        "Austin",
+        "Landquart",
+        "Southlake",
+        "Guangzhou"
       ],
       "jobs": [
         {
@@ -1211,16 +1211,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8046066",
-          "title": "Lead - Inbound Transportation Operations",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8046066?gh_jid=8046066",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "operations",
-          "seniority": "lead"
-        },
-        {
           "id": "8095893",
           "title": "Lead \u2013 Responsive & NOS Flows",
           "location": "Zurich",
@@ -1299,10 +1289,20 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "6017601",
+          "title": "Lead Store Advisor\uff08Florence CHE\uff09",
+          "location": "Chengdu",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/6017601?gh_jid=6017601",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-14T05:30:18.972856"
+      "checked_at": "2026-10-15T05:30:18.661199"
     }
   },
-  "generated_at": "2026-10-14T05:30:20.973016"
+  "generated_at": "2026-10-15T05:30:20.661364"
 }
