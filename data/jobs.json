@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 797,
-      "change_from_last": 3,
+      "total_jobs": 803,
+      "change_from_last": 6,
       "departments": {
         "design": 64,
         "finance": 5,
         "other": 124,
         "product": 6,
-        "retail": 286,
+        "retail": 288,
         "marketing": 6,
         "engineering": 24,
         "executive": 5,
-        "hr": 1,
-        "operations": 276
+        "hr": 4,
+        "operations": 277
       },
       "seniority": {
-        "junior": 483,
-        "manager": 129,
+        "junior": 484,
+        "manager": 132,
         "mid": 29,
         "c-suite": 16,
-        "lead": 113,
+        "lead": 114,
         "intern": 3,
-        "senior": 24
+        "senior": 25
       },
       "locations": [
-        "Corte Madera, California, United States",
-        "International Plaza, Tampa, FL (10039)",
-        "Westbourne Grove, London (50104)",
-        "Manchester, England, United Kingdom",
-        "Roma, Rome, Italy",
-        "Park City, Park City, UT (10192)",
-        "Upper East Side, New York, NY (10009)",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Harbor East, Baltimore, MD (10105)",
-        "Palo Alto, California, United States",
-        "Koenigsallee, D\u00fcsseldorf (50112)",
-        "Las Vegas, Nevada, United States",
-        "Los Angeles, California, United States",
-        "Boulder, Colorado, United States",
-        "Plaza at Frotenac, St. Louis, MO (10051)",
-        "Brookfield, Wisconsin, United States",
-        "New York Metro Area",
-        "Shrewsbury, New Jersey, United States",
-        "Warehouse 7, Montebello, CA (WH7)",
-        "Venice, California, United States"
+        "New York, New York, United States",
+        "Gilbert, Arizona, United States",
+        "La Jolla, California, United States",
+        "Mall at Green Hills, Nashville, TN (10079)",
+        "Newport Beach, California, United States",
+        "Leeds, England, United Kingdom",
+        "Rochester Hills, Michigan, United States",
+        "Southlake, Texas, United States",
+        "Southpark Mall, Charlotte, NC (10032)",
+        "Manhasset, NY",
+        "Lexington, Kentucky, United States",
+        "San Ramon Office, San Ramon, CA (LO-SF)",
+        "Etobicoke, Ontario, Canada",
+        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
+        "Sydney, New South Wales, Australia",
+        "Greenwich, Connecticut, United States",
+        "Seaport Square, Boston, MA (10017)",
+        "Fashion Place, Murray, UT (10061)",
+        "St. Johns Town Center, Jacksonville, FL (10060)",
+        "Dosan Office (LO-KR); Seoul Metro Area; Seoul, Seoul, South Korea"
       ],
       "jobs": [
         {
@@ -550,33 +550,33 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-15T05:30:07.404623"
+      "checked_at": "2026-10-16T05:30:07.276465"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 12,
-      "change_from_last": 0,
+      "total_jobs": 13,
+      "change_from_last": 1,
       "departments": {
         "engineering": 3,
+        "other": 6,
         "design": 2,
-        "other": 5,
         "retail": 2
       },
       "seniority": {
         "mid": 4,
+        "manager": 3,
         "lead": 4,
-        "manager": 2,
         "junior": 1,
         "senior": 1
       },
       "locations": [
-        "London; Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom",
-        "London, England, United Kingdom",
-        "US",
         "London",
-        "New York, New York, United States"
+        "London; Solihull, England, United Kingdom",
+        "New York, New York, United States",
+        "London, England, United Kingdom",
+        "Solihull, England, United Kingdom",
+        "US"
       ],
       "jobs": [
         {
@@ -588,6 +588,16 @@
           "posted_at": "2026-10-09T05:38:40-04:00",
           "category": "engineering",
           "seniority": "mid"
+        },
+        {
+          "id": "4981295101",
+          "title": "Department Manager - Bond Street, New York",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981295101",
+          "posted_at": "2026-10-15T06:01:55-04:00",
+          "category": "other",
+          "seniority": "manager"
         },
         {
           "id": "4974423101",
@@ -700,7 +710,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-15T05:30:09.529292"
+      "checked_at": "2026-10-16T05:30:09.401470"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -758,58 +768,48 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 211,
-      "change_from_last": -1,
+      "total_jobs": 207,
+      "change_from_last": -4,
       "departments": {
-        "other": 23,
         "retail": 142,
         "marketing": 13,
+        "other": 21,
         "executive": 5,
         "product": 2,
-        "engineering": 13,
-        "design": 9,
+        "engineering": 12,
+        "design": 8,
         "finance": 2,
         "operations": 2
       },
       "seniority": {
-        "lead": 113,
+        "lead": 110,
         "mid": 83,
         "c-suite": 5,
-        "senior": 10
+        "senior": 9
       },
       "locations": [
-        "Munich",
-        "Melbourne",
-        "San Francisco",
-        "Chicago",
-        "Zurich",
-        "Miami",
-        "Beijing",
-        "Hanoi",
-        "Las Vegas",
-        "Dallas",
-        "Amsterdam",
-        "Tokyo",
-        "Central Valley",
+        "London",
+        "Chengdu",
+        "Seattle",
+        "S\u00e3o Paulo",
+        "Boston",
+        "San Diego",
+        "Nanjing",
         "D\u00fcsseldorf",
-        "Seoul",
+        "Macao",
+        "Milan",
+        "Shanghai",
+        "Brooklyn",
+        "Munich",
+        "Zurich",
+        "Hong Kong",
+        "Rio de Janeiro",
         "Wuhan",
-        "Austin",
-        "Landquart",
-        "Southlake",
-        "Guangzhou"
+        "Melbourne",
+        "Shenzhen",
+        "Landquart"
       ],
       "jobs": [
-        {
-          "id": "8119272",
-          "title": "Area Lead, South Europe ",
-          "location": "Paris",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8119272?gh_jid=8119272",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
         {
           "id": "8220043",
           "title": "Associate Store Leader (Adjoint de boutique), La Vall\u00e9e Village Outlet",
@@ -1151,16 +1151,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7955959",
-          "title": "Lead - Commercial Training Design",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7955959?gh_jid=7955959",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
           "id": "8110862",
           "title": "Lead - Digital Sales Planning, SEA, HK, TW & Oceania",
           "location": "Hong Kong",
@@ -1198,16 +1188,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7742550?gh_jid=7742550",
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "design",
-          "seniority": "lead"
-        },
-        {
-          "id": "7606445",
-          "title": "Lead - Footwear Tooling Engineer",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7606445?gh_jid=7606445",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "engineering",
           "seniority": "lead"
         },
         {
@@ -1299,10 +1279,40 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "7960028",
+          "title": "Lead Store Advisor, Georgetown",
+          "location": "Washington D.C.",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7960028?gh_jid=7960028",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7091966",
+          "title": "Lead Store Advisor, Hyundai Store",
+          "location": "Seoul",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7091966?gh_jid=7091966",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "7130564",
+          "title": "Lead Store Advisor, K11 MUSEA, Hong Kong ",
+          "location": "Hong Kong",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/7130564?gh_jid=7130564",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-15T05:30:18.661199"
+      "checked_at": "2026-10-16T05:30:18.623791"
     }
   },
-  "generated_at": "2026-10-15T05:30:20.661364"
+  "generated_at": "2026-10-16T05:30:20.623967"
 }
