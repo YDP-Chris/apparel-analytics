@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 803,
-      "change_from_last": 6,
+      "total_jobs": 774,
+      "change_from_last": -29,
       "departments": {
         "design": 64,
         "finance": 5,
-        "other": 124,
+        "other": 123,
         "product": 6,
-        "retail": 288,
+        "retail": 277,
         "marketing": 6,
-        "engineering": 24,
+        "engineering": 23,
         "executive": 5,
         "hr": 4,
-        "operations": 277
+        "operations": 261
       },
       "seniority": {
-        "junior": 484,
-        "manager": 132,
-        "mid": 29,
-        "c-suite": 16,
+        "junior": 457,
+        "manager": 131,
+        "mid": 30,
+        "c-suite": 15,
         "lead": 114,
         "intern": 3,
-        "senior": 25
+        "senior": 24
       },
       "locations": [
-        "New York, New York, United States",
-        "Gilbert, Arizona, United States",
-        "La Jolla, California, United States",
-        "Mall at Green Hills, Nashville, TN (10079)",
-        "Newport Beach, California, United States",
-        "Leeds, England, United Kingdom",
-        "Rochester Hills, Michigan, United States",
-        "Southlake, Texas, United States",
+        "Roseville, California, United States",
+        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
+        "Thousand Oaks, California, United States",
         "Southpark Mall, Charlotte, NC (10032)",
-        "Manhasset, NY",
-        "Lexington, Kentucky, United States",
-        "San Ramon Office, San Ramon, CA (LO-SF)",
-        "Etobicoke, Ontario, Canada",
-        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
+        "Rockefeller Center, New York, NY (10022)",
+        "Georgetown, Washington, DC (10029)",
+        "Columbus Ave, New York, NY (10188)",
+        "Mall at Green Hills, Nashville, TN (10079)",
+        "Brickell City Centre, Miami, FL (10077)",
+        "Louisville, Kentucky, United States",
+        "Ponce City Market, Atlanta, GA (10186)",
         "Sydney, New South Wales, Australia",
-        "Greenwich, Connecticut, United States",
-        "Seaport Square, Boston, MA (10017)",
-        "Fashion Place, Murray, UT (10061)",
-        "St. Johns Town Center, Jacksonville, FL (10060)",
-        "Dosan Office (LO-KR); Seoul Metro Area; Seoul, Seoul, South Korea"
+        "Miami, Miami, FL (10013)",
+        "Walnut Creek, California, United States",
+        "Santa Monica, California, United States",
+        "Perimeter Mall, Atlanta, GA (10176)",
+        "Waterside Shops, Naples, FL (10106)",
+        "Yorkdale Shopping Centre, Toronto, ON (10027)",
+        "Amsterdam, North Holland, Netherlands",
+        "Williamsburg, Brooklyn, NY (10006)"
       ],
       "jobs": [
         {
@@ -372,10 +372,10 @@
         {
           "id": "6222779004",
           "title": "Director, DC Security & Asset Protection",
-          "location": "Las Vegas, Nevada, United States",
+          "location": "Remote",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6222779004?gh_jid=6222779004",
-          "posted_at": "2026-10-13T13:33:47-04:00",
+          "posted_at": "2026-10-16T14:48:55-04:00",
           "category": "executive",
           "seniority": "c-suite"
         },
@@ -437,16 +437,6 @@
           "url": "https://boards.greenhouse.io/aloyoga/jobs/5658702004?gh_jid=5658702004",
           "posted_at": "2026-10-02T20:12:08-04:00",
           "category": "product",
-          "seniority": "c-suite"
-        },
-        {
-          "id": "6174180004",
-          "title": "Director of Product Integrity Technical & Compliance ",
-          "location": "Office, Montebello, CA (WH7-LO)",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6174180004?gh_jid=6174180004",
-          "posted_at": "2026-10-02T20:12:08-04:00",
-          "category": "engineering",
           "seniority": "c-suite"
         },
         {
@@ -548,15 +538,25 @@
           "posted_at": "2026-10-02T20:12:08-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "6006955004",
+          "title": "Flagship Store Director - Milan",
+          "location": "Milano, Milan, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6006955004?gh_jid=6006955004",
+          "posted_at": "2026-10-07T13:11:21-04:00",
+          "category": "retail",
+          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-10-16T05:30:07.276465"
+      "checked_at": "2026-10-17T05:30:07.313582"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 13,
-      "change_from_last": 1,
+      "change_from_last": 0,
       "departments": {
         "engineering": 3,
         "other": 6,
@@ -571,12 +571,12 @@
         "senior": 1
       },
       "locations": [
-        "London",
-        "London; Solihull, England, United Kingdom",
         "New York, New York, United States",
-        "London, England, United Kingdom",
+        "London; Solihull, England, United Kingdom",
+        "London",
+        "US",
         "Solihull, England, United Kingdom",
-        "US"
+        "London, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -710,7 +710,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-16T05:30:09.401470"
+      "checked_at": "2026-10-17T05:30:09.470229"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -768,10 +768,10 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 207,
-      "change_from_last": -4,
+      "total_jobs": 208,
+      "change_from_last": 1,
       "departments": {
-        "retail": 142,
+        "retail": 143,
         "marketing": 13,
         "other": 21,
         "executive": 5,
@@ -783,31 +783,31 @@
       },
       "seniority": {
         "lead": 110,
-        "mid": 83,
+        "mid": 84,
         "c-suite": 5,
         "senior": 9
       },
       "locations": [
-        "London",
-        "Chengdu",
-        "Seattle",
-        "S\u00e3o Paulo",
-        "Boston",
-        "San Diego",
-        "Nanjing",
-        "D\u00fcsseldorf",
-        "Macao",
-        "Milan",
+        "Washington D.C.",
+        "Vienna",
         "Shanghai",
-        "Brooklyn",
-        "Munich",
-        "Zurich",
-        "Hong Kong",
-        "Rio de Janeiro",
+        "Miami",
+        "Austin",
+        "London",
+        "Hanoi",
+        "Chengdu",
+        "Portland",
+        "Central Valley",
+        "New York City",
+        "Nanjing",
+        "Paris",
         "Wuhan",
-        "Melbourne",
-        "Shenzhen",
-        "Landquart"
+        "Boston",
+        "Landquart",
+        "Mexico City",
+        "San Francisco",
+        "Palo Alto",
+        "Aventura"
       ],
       "jobs": [
         {
@@ -1311,8 +1311,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-16T05:30:18.623791"
+      "checked_at": "2026-10-17T05:30:18.907208"
     }
   },
-  "generated_at": "2026-10-16T05:30:20.623967"
+  "generated_at": "2026-10-17T05:30:20.907404"
 }

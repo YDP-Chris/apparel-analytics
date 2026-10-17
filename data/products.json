@@ -139,16 +139,16 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 180,
+      "total": 182,
       "categories": {
-        "bottoms": 87,
+        "bottoms": 89,
         "other": 18,
         "tops": 48,
         "outerwear": 22,
         "accessories": 5
       },
       "subcategories": {
-        "shorts": 52,
+        "shorts": 54,
         "other": 42,
         "long_sleeve": 6,
         "tanks": 6,
@@ -164,8 +164,8 @@
         "hats": 1
       },
       "genders": {
-        "mens": 179,
-        "womens": 1
+        "mens": 180,
+        "womens": 2
       },
       "colors": {},
       "colorCoverage": 0,
@@ -310,31 +310,31 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 12493,
+      "total": 12677,
       "categories": {
-        "bottoms": 4515,
-        "tops": 4101,
-        "other": 881,
-        "accessories": 682,
-        "outerwear": 1222,
-        "sports_bras": 1080,
+        "bottoms": 4631,
+        "tops": 4127,
+        "other": 891,
+        "accessories": 690,
+        "outerwear": 1230,
+        "sports_bras": 1096,
         "dresses": 12
       },
       "subcategories": {
-        "shorts": 1794,
-        "leggings": 1206,
+        "shorts": 1800,
+        "leggings": 1316,
         "crop_tops": 202,
-        "other": 4236,
-        "long_sleeve": 696,
-        "socks": 280,
-        "tanks": 1142,
+        "other": 4262,
+        "long_sleeve": 712,
+        "socks": 286,
+        "tanks": 1152,
         "joggers": 633,
         "hoodies": 644,
-        "jackets": 314,
+        "jackets": 322,
         "pants": 476,
         "pullovers": 196,
         "high_support": 50,
-        "bags": 94,
+        "bags": 96,
         "bralette": 90,
         "tees": 114,
         "headwear": 38,
@@ -349,29 +349,29 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 5565,
-        "womens": 4397,
-        "mens": 2531
+        "unisex": 5619,
+        "womens": 4525,
+        "mens": 2533
       },
       "colors": {
         "green": 712,
         "pink": 1210,
-        "black": 2863,
-        "white": 929,
+        "black": 2905,
+        "white": 951,
         "navy": 86,
-        "gray": 1415,
-        "brown": 1090,
-        "blue": 1972,
-        "red": 379,
+        "gray": 1419,
+        "brown": 1128,
+        "blue": 2008,
+        "red": 421,
         "purple": 705,
         "yellow": 158,
         "orange": 64,
         "khaki": 4,
         "print": 24
       },
-      "colorCoverage": 92.9,
+      "colorCoverage": 93,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3203
+      "uniqueStyles": 3232
     },
     "on_running": {
       "name": "On Running",
@@ -712,9 +712,9 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2491,
+      "total": 2497,
       "categories": {
-        "other": 1326,
+        "other": 1332,
         "accessories": 163,
         "tops": 288,
         "bottoms": 132,
@@ -723,7 +723,7 @@
         "sports_bras": 12
       },
       "subcategories": {
-        "other": 1548,
+        "other": 1554,
         "hats": 42,
         "shorts": 42,
         "quarter_zips": 24,
@@ -746,7 +746,7 @@
       "genders": {
         "unisex": 1951,
         "mens": 282,
-        "womens": 258
+        "womens": 264
       },
       "colors": {
         "rust": 6,
@@ -897,9 +897,9 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2679,
+      "total": 2680,
       "categories": {
-        "accessories": 504,
+        "accessories": 505,
         "other": 874,
         "tops": 268,
         "bottoms": 672,
@@ -911,7 +911,7 @@
         "other": 1600,
         "shorts": 435,
         "training": 7,
-        "bags": 83,
+        "bags": 84,
         "socks": 38,
         "leggings": 17,
         "hoodies": 236,
@@ -928,7 +928,7 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2177,
+        "unisex": 2178,
         "womens": 196,
         "mens": 306
       },
@@ -949,7 +949,7 @@
         "navy": 22,
         "rust": 7
       },
-      "colorCoverage": 91.9,
+      "colorCoverage": 91.8,
       "avgColorsPerStyle": 1.3,
       "uniqueStyles": 1740
     },
@@ -1063,17 +1063,659 @@
     }
   },
   "totals": {
-    "products": 53437,
+    "products": 53630,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-10-17",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 2,
+      "products": [
+        {
+          "name": "18inch triblend",
+          "url": "https://www.goruck.com/products/womens-18inch-triblend",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "18inch triblend",
+          "url": "https://www.goruck.com/en-gb/products/womens-18inch-triblend",
+          "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "brand": "venum",
+      "brandSlug": "venum",
+      "count": 1,
+      "products": [
+        {
+          "name": "venum classic heavy bag mount single",
+          "url": "https://www.venum.com/products/venum-classic-heavy-bag-mount-single",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 184,
+      "products": [
+        {
+          "name": "gymshark stripe crew single linen camo",
+          "url": "https://www.gymshark.com/products/gymshark-stripe-crew-single-linen-brown-camo-brown-aw23",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark tactical large barrel bag",
+          "url": "https://www.gymshark.com/products/gymshark-tactical-large-barrel-bag-black-ss24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark active holdall small ice",
+          "url": "https://www.gymshark.com/products/gymshark-active-holdall-small-ice-grey-aw24",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark power holdall ecru",
+          "url": "https://www.gymshark.com/products/gymshark-power-holdall-ecru-white-aw24",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark legacy crew 2pk",
+          "url": "https://www.gymshark.com/products/gymshark-legacy-crew-2pk-white-aw24",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark wordmark crew 3pk socks",
+          "url": "https://www.gymshark.com/products/gymshark-wordmark-crew-3pk-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gfx heart crew sock single socks",
+          "url": "https://www.gymshark.com/products/gymshark-gfx-heart-crew-sock-single-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gfx kettlebell crew sock single socks",
+          "url": "https://www.gymshark.com/products/gymshark-gfx-kettlebell-crew-sock-single-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark sharkhead holdall bags",
+          "url": "https://www.gymshark.com/products/gymshark-sharkhead-holdall-bags-grey-ss25",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-tall-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-tall-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-short-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-short-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-tall-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-leggings-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-short-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-leggings-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-short-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-tall-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-short-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-short-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-tall-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-tall-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-short-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-shorts-shorts-black-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-tall-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-shorts-shorts-red-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-tall-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-shorts-shorts-blue-aw26",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-tall-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-tall-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-short-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-tall-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-short-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-short-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise flared leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-flared-leggings-short-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive flared leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-flared-leggings-tall-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive mid rise straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-mid-rise-straight-leg-leggings-short-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-short-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-tall-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-tall-leggings-black-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-short-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-tall-leggings-red-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-short-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings tall leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-tall-leggings-brown-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark ultimate adaptive straight leg leggings short leggings",
+          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-straight-leg-leggings-short-leggings-blue-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense jacket jackets outerwear",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-jacket-jackets-outerwear-black-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway v neck long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-v-neck-long-sleeve-top-ls-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway tank top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-tank-top-sleeveless-tops-brown-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway tank top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-tank-top-sleeveless-tops-red-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway v neck long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-v-neck-long-sleeve-top-ls-tops-red-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway v neck long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-v-neck-long-sleeve-top-ls-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-long-sleeve-top-ls-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense longline sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-longline-sports-bra-sports-bras-red-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense longline sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-longline-sports-bra-sports-bras-blue-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense jacket jackets outerwear",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-jacket-jackets-outerwear-brown-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense jacket jackets outerwear",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-jacket-jackets-outerwear-white-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-sports-bra-sports-bras-white-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense longline sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-longline-sports-bra-sports-bras-white-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense jacket jackets outerwear",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-jacket-jackets-outerwear-red-aw26",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-long-sleeve-top-ls-tops-brown-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-long-sleeve-top-ls-tops-red-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense longline sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-longline-sports-bra-sports-bras-black-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-sports-bra-sports-bras-red-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense multiway tank top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-tank-top-sleeveless-tops-black-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-long-sleeve-top-ls-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway tank top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-tank-top-sleeveless-tops-white-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway v neck long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-v-neck-long-sleeve-top-ls-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense multiway tank top sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-multiway-tank-top-sleeveless-tops-blue-aw26",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark softsense sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-sports-bra-sports-bras-brown-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark softsense sports bra sports bras",
+          "url": "https://www.gymshark.com/products/gymshark-softsense-sports-bra-sports-bras-black-aw26",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark stripe crew single linen camo",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-stripe-crew-single-linen-brown-camo-brown-aw23",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark tactical large barrel bag",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-tactical-large-barrel-bag-black-ss24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark active holdall small ice",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-active-holdall-small-ice-grey-aw24",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark power holdall ecru",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-holdall-ecru-white-aw24",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark legacy crew 2pk",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-legacy-crew-2pk-white-aw24",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark wordmark crew 3pk socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-wordmark-crew-3pk-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gfx heart crew sock single socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-gfx-heart-crew-sock-single-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gfx kettlebell crew sock single socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-gfx-kettlebell-crew-sock-single-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "brand": "goruck",
       "brandSlug": "goruck",
-      "count": 10,
+      "count": 14,
       "products": [
         {
           "name": "fireworks gr1 21l built by scars copy",
@@ -1134,6 +1776,50 @@
           "url": "https://www.goruck.com/en-eu/products/barbed-wire-bullet-15l-built-by-scars",
           "category": "other",
           "gender": "unisex"
+        },
+        {
+          "name": "18inch triblend",
+          "url": "https://www.goruck.com/en-ca/products/womens-18inch-triblend",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "18inch triblend",
+          "url": "https://www.goruck.com/en-au/products/womens-18inch-triblend",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "18inch triblend",
+          "url": "https://www.goruck.com/en-sg/products/womens-18inch-triblend",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "18inch triblend",
+          "url": "https://www.goruck.com/en-eu/products/womens-18inch-triblend",
+          "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 2,
+      "products": [
+        {
+          "name": "co go short legacy v1",
+          "url": "https://www.tenthousand.cc/products/co-go-short-legacy-v1",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "co roam short",
+          "url": "https://www.tenthousand.cc/products/co-roam-short",
+          "category": "bottoms",
+          "gender": "mens"
         }
       ]
     },
@@ -6256,410 +6942,6 @@
           "gender": "womens"
         }
       ]
-    },
-    {
-      "date": "2026-10-02",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 66,
-      "products": [
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-green-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark distance 1 4 zip jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-distance-1-4-zip-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark washed waffle tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-washed-waffle-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-shorts-shorts-green-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-shorts-shorts-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-leggings-leggings-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-leggings-leggings-green-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts aw26 b7b4a edrp",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-shorts-shorts-green-aw26-b7b4a-edrp",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings aw26 b7b1m edrp",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-leggings-leggings-green-aw26-b7b1m-edrp",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-leggings-leggings-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-leggings-leggings-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-shorts-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-shorts-shorts-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark power satchel bags",
-          "url": "https://www.gymshark.com/products/gymshark-power-satchel-bags-green-aw26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power satchel bags",
-          "url": "https://www.gymshark.com/products/gymshark-power-satchel-bags-black-aw26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power washed oversized full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-power-washed-oversized-full-zip-hoodie-pullovers-brown-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark conditioning club oversized t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-oversized-t-shirt-ss-tops-green-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark distance 1 4 zip jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-distance-1-4-zip-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark washed waffle tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-washed-waffle-tank-sleeveless-tops-brown-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-shorts-shorts-green-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-shorts-shorts-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-leggings-leggings-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-leggings-leggings-green-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts aw26 b7b4a edrp",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-shorts-shorts-green-aw26-b7b4a-edrp",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings aw26 b7b1m edrp",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-leggings-leggings-green-aw26-b7b1m-edrp",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-leggings-leggings-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-leggings-leggings-grey-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-shorts-shorts-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-shorts-shorts-pink-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark power satchel bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-satchel-bags-green-aw26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power satchel bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-satchel-bags-black-aw26",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power washed oversized full zip hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-washed-oversized-full-zip-hoodie-pullovers-brown-aw26",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark washed waffle 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-washed-waffle-1-4-zip-pullovers-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark washed waffle 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-washed-waffle-1-4-zip-pullovers-brown-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-grey-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-green-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops aw26 b6c9b edrx",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-green-aw26-b6c9b-edrx",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-pink-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-pink-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-green-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras aw26 b6c6b edrv",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-green-aw26-b6c6b-edrv",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-grey-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-green-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-pink-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops aw26 b6c4r edrr",
-          "url": "https://www.gymshark.com/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-green-aw26-b6c4r-edrr",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark washed waffle 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-washed-waffle-1-4-zip-pullovers-pink-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark washed waffle 1 4 zip pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-washed-waffle-1-4-zip-pullovers-brown-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-grey-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-green-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops aw26 b6c9b edrx",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-green-aw26-b6c9b-edrx",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-pink-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-pink-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-green-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras aw26 b6c6b edrv",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-green-aw26-b6c6b-edrv",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-grey-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-sports-bra-sports-bras-black-aw26",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-green-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-pink-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney long sleeve crop top ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-long-sleeve-crop-top-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark adapt animal x whitney halter neck shelf cami sleeveless tops aw26 b6c4r edrr",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-animal-x-whitney-halter-neck-shelf-cami-sleeveless-tops-green-aw26-b6c4r-edrr",
-          "category": "other",
-          "gender": "womens"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6852,7 +7134,8 @@
       "2026-09-22": 1,
       "2026-09-25": 2,
       "2026-10-07": 1,
-      "2026-10-15": 2
+      "2026-10-15": 2,
+      "2026-10-16": 2
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -7197,7 +7480,8 @@
       "2026-10-12": 10,
       "2026-10-13": 47,
       "2026-10-14": 42,
-      "2026-10-15": 8
+      "2026-10-15": 8,
+      "2026-10-16": 184
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7344,7 +7628,8 @@
       "2026-10-13": 4,
       "2026-10-14": 185,
       "2026-10-15": 2,
-      "2026-10-16": 10
+      "2026-10-16": 14,
+      "2026-10-17": 2
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -7402,7 +7687,8 @@
       "2026-10-08": 1,
       "2026-10-10": 8,
       "2026-10-13": 4,
-      "2026-10-15": 41
+      "2026-10-15": 41,
+      "2026-10-17": 1
     },
     "everlast": {
       "2026-08-30": 315,
@@ -7437,10 +7723,10 @@
     "bottoms": {
       "vuori": 2347,
       "outdoor_voices": 311,
-      "tenthousand": 87,
+      "tenthousand": 89,
       "lululemon": 1732,
       "alo": 1835,
-      "gymshark": 4515,
+      "gymshark": 4631,
       "on_running": 1792,
       "gymreapers": 235,
       "sbd": 47,
@@ -7460,7 +7746,7 @@
       "tenthousand": 48,
       "lululemon": 835,
       "alo": 588,
-      "gymshark": 4101,
+      "gymshark": 4127,
       "on_running": 736,
       "gymreapers": 260,
       "sbd": 161,
@@ -7480,7 +7766,7 @@
       "tenthousand": 22,
       "lululemon": 680,
       "alo": 699,
-      "gymshark": 1222,
+      "gymshark": 1230,
       "on_running": 1028,
       "gymreapers": 65,
       "sbd": 6,
@@ -7500,7 +7786,7 @@
       "tenthousand": 18,
       "lululemon": 917,
       "alo": 852,
-      "gymshark": 881,
+      "gymshark": 891,
       "on_running": 3181,
       "gymreapers": 361,
       "sbd": 104,
@@ -7508,7 +7794,7 @@
       "schiek": 59,
       "bear_grips": 254,
       "asrv": 342,
-      "goruck": 1326,
+      "goruck": 1332,
       "optimum_nutrition": 561,
       "ghost": 334,
       "hayabusa": 91,
@@ -7521,7 +7807,7 @@
       "outdoor_voices": 46,
       "lululemon": 186,
       "alo": 342,
-      "gymshark": 1080,
+      "gymshark": 1096,
       "on_running": 205,
       "gymreapers": 70,
       "bear_grips": 9,
@@ -7551,7 +7837,7 @@
       "tenthousand": 5,
       "lululemon": 627,
       "alo": 435,
-      "gymshark": 682,
+      "gymshark": 690,
       "on_running": 773,
       "gymreapers": 204,
       "sbd": 59,
@@ -7562,7 +7848,7 @@
       "goruck": 163,
       "ghost": 59,
       "hayabusa": 92,
-      "venum": 504,
+      "venum": 505,
       "everlast": 114,
       "dfyne": 18
     },
@@ -7596,10 +7882,10 @@
     "shorts": {
       "vuori": 866,
       "outdoor_voices": 106,
-      "tenthousand": 52,
+      "tenthousand": 54,
       "lululemon": 528,
       "alo": 432,
-      "gymshark": 1794,
+      "gymshark": 1800,
       "on_running": 790,
       "gymreapers": 149,
       "sbd": 29,
@@ -7617,7 +7903,7 @@
       "tenthousand": 6,
       "lululemon": 290,
       "alo": 272,
-      "gymshark": 1142,
+      "gymshark": 1152,
       "on_running": 334,
       "gymreapers": 39,
       "sbd": 24,
@@ -7649,7 +7935,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 376,
-      "gymshark": 1206,
+      "gymshark": 1316,
       "on_running": 443,
       "gymreapers": 47,
       "sbd": 1,
@@ -7667,7 +7953,7 @@
       "tenthousand": 42,
       "lululemon": 1593,
       "alo": 1712,
-      "gymshark": 4236,
+      "gymshark": 4262,
       "on_running": 3613,
       "gymreapers": 591,
       "sbd": 238,
@@ -7675,7 +7961,7 @@
       "schiek": 109,
       "bear_grips": 471,
       "asrv": 454,
-      "goruck": 1548,
+      "goruck": 1554,
       "optimum_nutrition": 561,
       "ghost": 344,
       "hayabusa": 190,
@@ -7734,7 +8020,7 @@
       "tenthousand": 7,
       "lululemon": 300,
       "alo": 190,
-      "gymshark": 314,
+      "gymshark": 322,
       "on_running": 495,
       "gymreapers": 20,
       "bear_grips": 14,
@@ -7752,7 +8038,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 41,
-      "gymshark": 696,
+      "gymshark": 712,
       "on_running": 18,
       "gymreapers": 15,
       "sbd": 5,
@@ -7883,14 +8169,14 @@
       "vuori": 13,
       "lululemon": 217,
       "alo": 2,
-      "gymshark": 94,
+      "gymshark": 96,
       "gymreapers": 5,
       "schiek": 2,
       "asrv": 47,
       "goruck": 61,
       "ghost": 2,
       "hayabusa": 29,
-      "venum": 83,
+      "venum": 84,
       "everlast": 57
     },
     "socks": {
@@ -7899,7 +8185,7 @@
       "tenthousand": 2,
       "lululemon": 159,
       "alo": 193,
-      "gymshark": 280,
+      "gymshark": 286,
       "on_running": 483,
       "gymreapers": 8,
       "sbd": 46,
@@ -7978,7 +8264,7 @@
       "vuori": 654,
       "outdoor_voices": 35,
       "alo": 514,
-      "gymshark": 1415,
+      "gymshark": 1419,
       "on_running": 353,
       "gymreapers": 79,
       "sbd": 22,
@@ -8010,7 +8296,7 @@
       "vuori": 970,
       "outdoor_voices": 104,
       "alo": 1070,
-      "gymshark": 2863,
+      "gymshark": 2905,
       "on_running": 1666,
       "gymreapers": 133,
       "sbd": 6,
@@ -8044,7 +8330,7 @@
       "outdoor_voices": 1,
       "lululemon": 12,
       "alo": 225,
-      "gymshark": 379,
+      "gymshark": 421,
       "on_running": 237,
       "gymreapers": 63,
       "sbd": 3,
@@ -8062,7 +8348,7 @@
       "outdoor_voices": 31,
       "lululemon": 17,
       "alo": 946,
-      "gymshark": 929,
+      "gymshark": 951,
       "on_running": 1702,
       "gymreapers": 98,
       "sbd": 6,
@@ -8081,7 +8367,7 @@
       "outdoor_voices": 37,
       "lululemon": 8,
       "alo": 255,
-      "gymshark": 1972,
+      "gymshark": 2008,
       "on_running": 863,
       "gymreapers": 34,
       "sbd": 12,
@@ -8112,7 +8398,7 @@
       "vuori": 206,
       "outdoor_voices": 2,
       "alo": 301,
-      "gymshark": 1090,
+      "gymshark": 1128,
       "on_running": 121,
       "gymreapers": 17,
       "schiek": 2,
@@ -8233,13 +8519,13 @@
   "categoryMix": [
     {
       "brand": "Gymshark",
-      "bottoms": 36.1,
-      "tops": 32.8,
-      "outerwear": 9.8,
+      "bottoms": 36.5,
+      "tops": 32.6,
+      "outerwear": 9.7,
       "dresses": 0.1,
       "sports_bras": 8.6,
-      "accessories": 5.5,
-      "other": 7.1
+      "accessories": 5.4,
+      "other": 7
     },
     {
       "brand": "On Running",
@@ -8294,12 +8580,12 @@
     {
       "brand": "goruck",
       "bottoms": 5.3,
-      "tops": 11.6,
+      "tops": 11.5,
       "outerwear": 4.6,
       "dresses": 0,
       "sports_bras": 0.5,
       "accessories": 6.5,
-      "other": 53.2
+      "other": 53.3
     },
     {
       "brand": "bear_grips",
@@ -8403,13 +8689,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 48.3,
-      "tops": 26.7,
-      "outerwear": 12.2,
+      "bottoms": 48.9,
+      "tops": 26.4,
+      "outerwear": 12.1,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 2.8,
-      "other": 10
+      "accessories": 2.7,
+      "other": 9.9
     },
     {
       "brand": "schiek",
@@ -8446,18 +8732,18 @@
     {
       "brand": "Gymshark",
       "black": 22.9,
-      "white": 7.4,
-      "gray": 11.3,
+      "white": 7.5,
+      "gray": 11.2,
       "navy": 0.7,
       "blue": 15.8,
-      "green": 5.7,
+      "green": 5.6,
       "khaki": 0,
-      "brown": 8.7,
+      "brown": 8.9,
       "purple": 5.6,
-      "pink": 9.7,
+      "pink": 9.5,
       "orange": 0.5,
-      "red": 3,
-      "yellow": 1.3,
+      "red": 3.3,
+      "yellow": 1.2,
       "other": 0.2
     },
     {
@@ -8548,7 +8834,7 @@
     {
       "brand": "goruck",
       "black": 4.3,
-      "white": 3.9,
+      "white": 3.8,
       "gray": 4.1,
       "navy": 1,
       "blue": 1,
@@ -8839,7 +9125,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 866,
-      "text": "Vuori ranks #2 in shorts with 866 products. Behind Gymshark (1794)."
+      "text": "Vuori ranks #2 in shorts with 866 products. Behind Gymshark (1800)."
     },
     {
       "type": "comparison",
@@ -8849,7 +9135,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 48,293 competitor products tracked. Vuori's 5,144 = 10% share of tracked catalog."
+      "text": "Market context: 48,486 competitor products tracked. Vuori's 5,144 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8998,5 +9284,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-16T13:15:14.290Z"
+  "generated_at": "2026-10-17T13:15:10.235Z"
 }
