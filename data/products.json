@@ -139,16 +139,16 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 182,
+      "total": 183,
       "categories": {
-        "bottoms": 89,
+        "bottoms": 90,
         "other": 18,
         "tops": 48,
         "outerwear": 22,
         "accessories": 5
       },
       "subcategories": {
-        "shorts": 54,
+        "shorts": 55,
         "other": 42,
         "long_sleeve": 6,
         "tanks": 6,
@@ -164,7 +164,7 @@
         "hats": 1
       },
       "genders": {
-        "mens": 180,
+        "mens": 181,
         "womens": 2
       },
       "colors": {},
@@ -897,9 +897,9 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2680,
+      "total": 2681,
       "categories": {
-        "accessories": 505,
+        "accessories": 506,
         "other": 874,
         "tops": 268,
         "bottoms": 672,
@@ -911,7 +911,7 @@
         "other": 1600,
         "shorts": 435,
         "training": 7,
-        "bags": 84,
+        "bags": 85,
         "socks": 38,
         "leggings": 17,
         "hoodies": 236,
@@ -928,7 +928,7 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2178,
+        "unisex": 2179,
         "womens": 196,
         "mens": 306
       },
@@ -942,7 +942,7 @@
         "purple": 60,
         "camo": 26,
         "khaki": 94,
-        "brown": 62,
+        "brown": 63,
         "pink": 27,
         "orange": 50,
         "green": 59,
@@ -951,7 +951,7 @@
       },
       "colorCoverage": 91.8,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 1740
+      "uniqueStyles": 1741
     },
     "everlast": {
       "name": "everlast",
@@ -1063,7 +1063,7 @@
     }
   },
   "totals": {
-    "products": 53630,
+    "products": 53632,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
@@ -1093,13 +1093,33 @@
       "date": "2026-10-17",
       "brand": "venum",
       "brandSlug": "venum",
-      "count": 1,
+      "count": 2,
       "products": [
         {
           "name": "venum classic heavy bag mount single",
           "url": "https://www.venum.com/products/venum-classic-heavy-bag-mount-single",
           "category": "accessories",
           "gender": "unisex"
+        },
+        {
+          "name": "venum vintage heavy bag filled cowhide leather",
+          "url": "https://www.venum.com/products/venum-vintage-heavy-bag-brown-filled-cowhide-leather",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 1,
+      "products": [
+        {
+          "name": "go short",
+          "url": "https://www.tenthousand.cc/products/go-short",
+          "category": "bottoms",
+          "gender": "mens"
         }
       ]
     },
@@ -7135,7 +7155,8 @@
       "2026-09-25": 2,
       "2026-10-07": 1,
       "2026-10-15": 2,
-      "2026-10-16": 2
+      "2026-10-16": 2,
+      "2026-10-17": 1
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -7688,7 +7709,7 @@
       "2026-10-10": 8,
       "2026-10-13": 4,
       "2026-10-15": 41,
-      "2026-10-17": 1
+      "2026-10-17": 2
     },
     "everlast": {
       "2026-08-30": 315,
@@ -7723,7 +7744,7 @@
     "bottoms": {
       "vuori": 2347,
       "outdoor_voices": 311,
-      "tenthousand": 89,
+      "tenthousand": 90,
       "lululemon": 1732,
       "alo": 1835,
       "gymshark": 4631,
@@ -7848,7 +7869,7 @@
       "goruck": 163,
       "ghost": 59,
       "hayabusa": 92,
-      "venum": 505,
+      "venum": 506,
       "everlast": 114,
       "dfyne": 18
     },
@@ -7882,7 +7903,7 @@
     "shorts": {
       "vuori": 866,
       "outdoor_voices": 106,
-      "tenthousand": 54,
+      "tenthousand": 55,
       "lululemon": 528,
       "alo": 432,
       "gymshark": 1800,
@@ -8176,7 +8197,7 @@
       "goruck": 61,
       "ghost": 2,
       "hayabusa": 29,
-      "venum": 84,
+      "venum": 85,
       "everlast": 57
     },
     "socks": {
@@ -8405,7 +8426,7 @@
       "bear_grips": 3,
       "goruck": 6,
       "ghost": 15,
-      "venum": 62,
+      "venum": 63,
       "everlast": 1,
       "dfyne": 97
     },
@@ -8574,7 +8595,7 @@
       "outerwear": 10.9,
       "dresses": 0,
       "sports_bras": 1.1,
-      "accessories": 18.8,
+      "accessories": 18.9,
       "other": 32.6
     },
     {
@@ -8689,13 +8710,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 48.9,
-      "tops": 26.4,
-      "outerwear": 12.1,
+      "bottoms": 49.2,
+      "tops": 26.2,
+      "outerwear": 12,
       "dresses": 0,
       "sports_bras": 0,
       "accessories": 2.7,
-      "other": 9.9
+      "other": 9.8
     },
     {
       "brand": "schiek",
@@ -8817,7 +8838,7 @@
     {
       "brand": "venum",
       "black": 21.3,
-      "white": 17.4,
+      "white": 17.3,
       "gray": 8,
       "navy": 0.8,
       "blue": 9.1,
@@ -8828,7 +8849,7 @@
       "pink": 1,
       "orange": 1.9,
       "red": 11.1,
-      "yellow": 9.9,
+      "yellow": 9.8,
       "other": 1.2
     },
     {
@@ -9135,7 +9156,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 48,486 competitor products tracked. Vuori's 5,144 = 10% share of tracked catalog."
+      "text": "Market context: 48,488 competitor products tracked. Vuori's 5,144 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9284,5 +9305,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-17T13:15:10.235Z"
+  "generated_at": "2026-10-18T13:15:07.814Z"
 }
