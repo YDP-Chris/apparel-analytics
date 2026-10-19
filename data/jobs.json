@@ -3,8 +3,8 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 771,
-      "change_from_last": -3,
+      "total_jobs": 772,
+      "change_from_last": 1,
       "departments": {
         "design": 63,
         "finance": 5,
@@ -15,38 +15,38 @@
         "engineering": 23,
         "executive": 5,
         "hr": 4,
-        "operations": 259
+        "operations": 260
       },
       "seniority": {
         "junior": 455,
         "manager": 131,
         "mid": 30,
         "c-suite": 15,
-        "lead": 113,
+        "lead": 114,
         "intern": 3,
         "senior": 24
       },
       "locations": [
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Saint Catherine Street, Montr\u00e9al, QC (10086)",
-        "Greenwich, Connecticut, United States",
+        "Newport Beach, California, United States",
+        "Corte Madera, California, United States",
+        "Santa Clara, California, United States",
+        "Somerset Collection, Troy, MI (10072)",
+        "Waterside Shops, Naples, FL (10106)",
+        "Pinecrest, Orange Village, OH (10103)",
+        "Berkeley, California, United States",
+        "Burlingame, California, United States",
+        "Park City, Park City, UT (10192)",
+        "Mall at Short Hills, Millburn, NJ (10043)",
+        "Saint-Tropez, Var, France",
+        "Alys Beach, Florida, United States",
         "Brompton Road, London (50014)",
-        "Meridian, Idaho, United States",
-        "Houston Galleria, Houston, TX (10037)",
-        "Bethesda, Maryland, United States",
-        "Greenwich, Greenwich, CT (10197)",
-        "Naperville, Illinois, United States",
-        "Warehouse 2, Commerce, CA (WH2)",
-        "Center of Waikiki, Honolulu, HI (10142)",
-        "White Plains, New York, United States",
-        "Columbus Ave, New York, NY (10188)",
-        "San Luis Obispo, California, United States",
-        "Tucson, Arizona, United States",
-        "Milano, Milan, Italy",
-        "Edina, Minnesota, United States",
-        "Newbury Street, Boston, MA (10041)",
-        "Market Mall, Calgary, AB (10070)",
-        "Carlsbad, California, United States"
+        "Durham, North Carolina, United States",
+        "St. Johns Town Center, Jacksonville, FL (10060)",
+        "Multrees Walk, Edinburgh (50043)",
+        "San Ramon Office, San Ramon, CA (LO-SF)",
+        "Wolvenstraat 9 Streets, Amsterdam (50069)",
+        "Albuquerque, New Mexico, United States",
+        "Forum Shops at Ceasars, Las Vegas, NV (10063)"
       ],
       "jobs": [
         {
@@ -550,33 +550,31 @@
           "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-10-18T05:30:07.917106"
+      "checked_at": "2026-10-19T05:30:07.874561"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 13,
-      "change_from_last": 0,
+      "total_jobs": 10,
+      "change_from_last": -3,
       "departments": {
         "engineering": 3,
-        "other": 6,
-        "design": 2,
+        "other": 4,
+        "design": 1,
         "retail": 2
       },
       "seniority": {
         "mid": 4,
-        "manager": 3,
-        "lead": 4,
+        "manager": 2,
+        "lead": 2,
         "junior": 1,
         "senior": 1
       },
       "locations": [
-        "New York, New York, United States",
         "US",
-        "London",
-        "London, England, United Kingdom",
-        "London; Solihull, England, United Kingdom",
-        "Solihull, England, United Kingdom"
+        "Solihull, England, United Kingdom",
+        "New York, New York, United States",
+        "London"
       ],
       "jobs": [
         {
@@ -620,16 +618,6 @@
           "seniority": "lead"
         },
         {
-          "id": "5003464101",
-          "title": "Floor Lead - Stratford, London",
-          "location": "London, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5003464101",
-          "posted_at": "2026-10-12T09:01:55-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
           "id": "4983839101",
           "title": "Floor Lead - White City, London ",
           "location": "London",
@@ -638,26 +626,6 @@
           "posted_at": "2026-09-23T11:08:46-04:00",
           "category": "other",
           "seniority": "lead"
-        },
-        {
-          "id": "4997182101",
-          "title": "Head of Creative Production - 12m FTC",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4997182101",
-          "posted_at": "2026-10-05T11:55:15-04:00",
-          "category": "design",
-          "seniority": "lead"
-        },
-        {
-          "id": "4958803101",
-          "title": "Merchandise Planning Manager - 12m FTC",
-          "location": "London; Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4958803101",
-          "posted_at": "2026-10-12T15:16:17-04:00",
-          "category": "other",
-          "seniority": "manager"
         },
         {
           "id": "4988756101",
@@ -710,7 +678,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-18T05:30:10.063774"
+      "checked_at": "2026-10-19T05:30:10.008859"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -768,15 +736,15 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 208,
-      "change_from_last": 0,
+      "total_jobs": 207,
+      "change_from_last": -1,
       "departments": {
         "retail": 143,
         "marketing": 13,
         "other": 21,
         "executive": 5,
         "product": 2,
-        "engineering": 12,
+        "engineering": 11,
         "design": 8,
         "finance": 2,
         "operations": 2
@@ -785,29 +753,29 @@
         "lead": 110,
         "mid": 84,
         "c-suite": 5,
-        "senior": 9
+        "senior": 8
       },
       "locations": [
-        "Southlake",
-        "Chicago",
-        "Mexico City",
-        "S\u00e3o Paulo",
-        "Corte Madera",
-        "D\u00fcsseldorf",
-        "Guangzhou",
-        "Shenzhen",
-        "San Francisco",
-        "Melbourne",
-        "New York City",
-        "Tianjin",
-        "Austin",
-        "Munich",
-        "Chengdu",
+        "Landquart",
+        "London",
+        "Aventura",
         "Seattle",
-        "Zurich",
+        "Rio de Janeiro",
+        "Melbourne",
+        "Amsterdam",
+        "Seoul",
+        "Shenzhen",
+        "Guangzhou",
+        "Brooklyn",
+        "S\u00e3o Paulo",
+        "Munich",
         "Portland",
-        "Hanoi",
-        "Aventura"
+        "Palo Alto",
+        "Miami",
+        "Las Vegas",
+        "Los Angeles",
+        "Chengdu",
+        "Zurich"
       ],
       "jobs": [
         {
@@ -1311,8 +1279,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-18T05:30:36.492796"
+      "checked_at": "2026-10-19T05:30:19.242404"
     }
   },
-  "generated_at": "2026-10-18T05:30:38.492992"
+  "generated_at": "2026-10-19T05:30:21.242587"
 }
