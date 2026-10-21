@@ -74,10 +74,10 @@
     "outdoor_voices": {
       "name": "Outdoor Voices",
       "slug": "outdoor_voices",
-      "total": 659,
+      "total": 664,
       "categories": {
         "other": 69,
-        "bottoms": 311,
+        "bottoms": 316,
         "dresses": 50,
         "accessories": 49,
         "tops": 86,
@@ -86,7 +86,7 @@
         "footwear": 1
       },
       "subcategories": {
-        "other": 190,
+        "other": 194,
         "shorts": 106,
         "tennis_dress": 15,
         "socks": 34,
@@ -97,7 +97,7 @@
         "skirts": 41,
         "casual_dress": 35,
         "hats": 13,
-        "pants": 54,
+        "pants": 55,
         "hoodies": 14,
         "leggings": 24,
         "crop_tops": 17,
@@ -111,18 +111,18 @@
       },
       "genders": {
         "unisex": 109,
-        "womens": 432,
-        "mens": 118
+        "womens": 434,
+        "mens": 121
       },
       "colors": {
         "black": 104,
         "white": 31,
-        "navy": 48,
+        "navy": 49,
         "gray": 35,
         "pink": 9,
-        "blue": 37,
+        "blue": 39,
         "orange": 6,
-        "green": 55,
+        "green": 57,
         "yellow": 7,
         "brown": 2,
         "purple": 10,
@@ -132,9 +132,9 @@
         "red": 1,
         "rust": 1
       },
-      "colorCoverage": 59.2,
+      "colorCoverage": 59.5,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 277
+      "uniqueStyles": 280
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -712,9 +712,9 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2497,
+      "total": 2503,
       "categories": {
-        "other": 1332,
+        "other": 1338,
         "accessories": 163,
         "tops": 288,
         "bottoms": 132,
@@ -723,7 +723,7 @@
         "sports_bras": 12
       },
       "subcategories": {
-        "other": 1554,
+        "other": 1560,
         "hats": 42,
         "shorts": 42,
         "quarter_zips": 24,
@@ -744,7 +744,7 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 1951,
+        "unisex": 1957,
         "mens": 282,
         "womens": 264
       },
@@ -762,7 +762,7 @@
         "navy": 24,
         "yellow": 36
       },
-      "colorCoverage": 21.4,
+      "colorCoverage": 21.3,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 68
     },
@@ -956,9 +956,9 @@
     "everlast": {
       "name": "everlast",
       "slug": "everlast",
-      "total": 360,
+      "total": 361,
       "categories": {
-        "other": 111,
+        "other": 112,
         "accessories": 114,
         "bottoms": 53,
         "tops": 33,
@@ -967,7 +967,7 @@
         "footwear": 11
       },
       "subcategories": {
-        "other": 206,
+        "other": 207,
         "bags": 57,
         "leggings": 19,
         "tees": 2,
@@ -988,7 +988,7 @@
         "training": 1
       },
       "genders": {
-        "unisex": 248,
+        "unisex": 249,
         "womens": 70,
         "mens": 42
       },
@@ -1063,12 +1063,94 @@
     }
   },
   "totals": {
-    "products": 53836,
+    "products": 53848,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-10-20",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 6,
+      "products": [
+        {
+          "name": "fightertown usa",
+          "url": "https://www.goruck.com/products/fightertown-usa",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "fightertown usa",
+          "url": "https://www.goruck.com/en-ca/products/fightertown-usa",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "fightertown usa",
+          "url": "https://www.goruck.com/en-sg/products/fightertown-usa",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "fightertown usa",
+          "url": "https://www.goruck.com/en-gb/products/fightertown-usa",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "fightertown usa",
+          "url": "https://www.goruck.com/en-eu/products/fightertown-usa",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "fightertown usa",
+          "url": "https://www.goruck.com/en-au/products/fightertown-usa",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "brand": "Outdoor Voices",
+      "brandSlug": "outdoor_voices",
+      "count": 5,
+      "products": [
+        {
+          "name": "m rectrek zip off pant",
+          "url": "https://www.outdoorvoices.com/products/m-rectrek-zip-off-pant-navy",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "m everyday classic shortsleeve gum",
+          "url": "https://www.outdoorvoices.com/products/m-everyday-classic-shortsleeve-blue-gum",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "m everyday classic shortsleeve",
+          "url": "https://www.outdoorvoices.com/products/m-everyday-classic-shortsleeve-eucalyptus",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "w everyday shortsleeve gum",
+          "url": "https://www.outdoorvoices.com/products/w-everyday-shortsleeve-blue-gum",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "w everyday shortsleeve dust",
+          "url": "https://www.outdoorvoices.com/products/w-everyday-shortsleeve-mint-dust",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "brand": "Gymshark",
@@ -1100,6 +1182,20 @@
           "url": "https://www.venum.com/products/men-s-ufc-adrenaline-unrivaled-by-venum-petr-yan-fight-short",
           "category": "bottoms",
           "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "brand": "everlast",
+      "brandSlug": "everlast",
+      "count": 1,
+      "products": [
+        {
+          "name": "1910 protection bundle",
+          "url": "https://www.everlast.com/products/1910-protection-bundle",
+          "category": "other",
+          "gender": "unisex"
         }
       ]
     },
@@ -7263,7 +7359,8 @@
       "2026-08-10": 1,
       "2026-09-15": 1,
       "2026-09-29": 4,
-      "2026-10-15": 7
+      "2026-10-15": 7,
+      "2026-10-20": 5
     },
     "tenthousand": {
       "2026-02-03": 88,
@@ -7792,7 +7889,8 @@
       "2026-10-14": 185,
       "2026-10-15": 2,
       "2026-10-16": 14,
-      "2026-10-17": 2
+      "2026-10-17": 2,
+      "2026-10-20": 6
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -7876,7 +7974,8 @@
       "2026-10-12": 1,
       "2026-10-13": 1,
       "2026-10-14": 2,
-      "2026-10-15": 1
+      "2026-10-15": 1,
+      "2026-10-20": 1
     },
     "dfyne": {
       "2026-08-31": 1003,
@@ -7887,7 +7986,7 @@
   "byCategory": {
     "bottoms": {
       "vuori": 2347,
-      "outdoor_voices": 311,
+      "outdoor_voices": 316,
       "tenthousand": 90,
       "lululemon": 1732,
       "alo": 1835,
@@ -7959,12 +8058,12 @@
       "schiek": 59,
       "bear_grips": 254,
       "asrv": 342,
-      "goruck": 1332,
+      "goruck": 1338,
       "optimum_nutrition": 561,
       "ghost": 334,
       "hayabusa": 91,
       "venum": 882,
-      "everlast": 111,
+      "everlast": 112,
       "dfyne": 337
     },
     "sports_bras": {
@@ -8114,7 +8213,7 @@
     },
     "other": {
       "vuori": 1547,
-      "outdoor_voices": 190,
+      "outdoor_voices": 194,
       "tenthousand": 42,
       "lululemon": 1593,
       "alo": 1714,
@@ -8126,17 +8225,17 @@
       "schiek": 109,
       "bear_grips": 471,
       "asrv": 454,
-      "goruck": 1554,
+      "goruck": 1560,
       "optimum_nutrition": 561,
       "ghost": 344,
       "hayabusa": 190,
       "venum": 1614,
-      "everlast": 206,
+      "everlast": 207,
       "dfyne": 609
     },
     "pants": {
       "vuori": 483,
-      "outdoor_voices": 54,
+      "outdoor_voices": 55,
       "tenthousand": 20,
       "lululemon": 448,
       "alo": 252,
@@ -8444,7 +8543,7 @@
     },
     "navy": {
       "vuori": 121,
-      "outdoor_voices": 48,
+      "outdoor_voices": 49,
       "alo": 198,
       "gymshark": 86,
       "on_running": 316,
@@ -8529,7 +8628,7 @@
     },
     "blue": {
       "vuori": 670,
-      "outdoor_voices": 37,
+      "outdoor_voices": 39,
       "lululemon": 8,
       "alo": 255,
       "gymshark": 2054,
@@ -8546,7 +8645,7 @@
     },
     "green": {
       "vuori": 233,
-      "outdoor_voices": 55,
+      "outdoor_voices": 57,
       "lululemon": 4,
       "alo": 316,
       "gymshark": 714,
@@ -8750,7 +8849,7 @@
       "dresses": 0,
       "sports_bras": 0.5,
       "accessories": 6.5,
-      "other": 53.3
+      "other": 53.5
     },
     {
       "brand": "bear_grips",
@@ -8794,13 +8893,13 @@
     },
     {
       "brand": "Outdoor Voices",
-      "bottoms": 47.2,
-      "tops": 13.1,
+      "bottoms": 47.6,
+      "tops": 13,
       "outerwear": 7.1,
-      "dresses": 7.6,
-      "sports_bras": 7,
+      "dresses": 7.5,
+      "sports_bras": 6.9,
       "accessories": 7.4,
-      "other": 10.5
+      "other": 10.4
     },
     {
       "brand": "optimum_nutrition",
@@ -8835,12 +8934,12 @@
     {
       "brand": "everlast",
       "bottoms": 14.7,
-      "tops": 9.2,
+      "tops": 9.1,
       "outerwear": 6.9,
       "dresses": 0,
       "sports_bras": 3.6,
-      "accessories": 31.7,
-      "other": 30.8
+      "accessories": 31.6,
+      "other": 31
     },
     {
       "brand": "hayabusa",
@@ -9083,12 +9182,12 @@
     },
     {
       "brand": "Outdoor Voices",
-      "black": 15.8,
+      "black": 15.7,
       "white": 4.7,
       "gray": 5.3,
-      "navy": 7.3,
-      "blue": 5.6,
-      "green": 8.3,
+      "navy": 7.4,
+      "blue": 5.9,
+      "green": 8.6,
       "khaki": 1.5,
       "brown": 0.3,
       "purple": 1.5,
@@ -9300,7 +9399,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 48,690 competitor products tracked. Vuori's 5,146 = 10% share of tracked catalog."
+      "text": "Market context: 48,702 competitor products tracked. Vuori's 5,146 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9449,5 +9548,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-20T13:15:11.912Z"
+  "generated_at": "2026-10-21T13:15:09.803Z"
 }
