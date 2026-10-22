@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 790,
-      "change_from_last": 19,
+      "total_jobs": 789,
+      "change_from_last": -1,
       "departments": {
-        "design": 65,
+        "design": 67,
         "finance": 6,
-        "other": 127,
+        "other": 126,
         "product": 6,
-        "retail": 281,
+        "retail": 280,
         "marketing": 6,
-        "engineering": 23,
+        "engineering": 22,
         "executive": 5,
         "operations": 267,
         "hr": 4
       },
       "seniority": {
-        "junior": 467,
-        "manager": 128,
-        "mid": 32,
+        "junior": 465,
+        "manager": 129,
+        "mid": 31,
         "c-suite": 16,
-        "lead": 118,
+        "lead": 119,
         "intern": 5,
         "senior": 24
       },
       "locations": [
-        "Torrance, California, United States",
-        "Shops at Columbus Circle, New York, NY (10076)",
-        "Bloor Street, Toronto, ON (10026)",
-        "Tucson, Arizona, United States",
-        "Minnetonka, Minnesota, United States",
-        "Oklahoma City, Oklahoma, United States",
-        "North Hills, Raleigh, NC (10100)",
-        "Las Vegas, Nevada, United States",
-        "East Rutherford, New Jersey, United States",
-        "Harbor East, Baltimore, MD (10105)",
-        "The Knox, Dallas, TX (10184)",
-        "Pinecrest, Orange Village, OH (10103)",
-        "Lee Gardens II, Wan Chai District (50100)",
-        "Atlanta, Georgia, United States",
-        "Covent Garden, London (50042); London, England, United Kingdom",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Portland, Oregon, United States",
-        "Santa Clara, California, United States",
+        "Georgetown, Washington, DC (10029)",
+        "Mall at Short Hills, Millburn, NJ (10043)",
         "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "King of Prussia, Pennsylvania, United States"
+        "Shop at Crystals, Las Vegas, NV (10095)",
+        "Amsterdam, North Holland, Netherlands",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "Toronto Eaton Centre, Toronto, ON (10040)",
+        "Roseville, California, United States",
+        "Waterside Shops, Naples, FL (10106)",
+        "Bloomington, Minnesota, United States",
+        "Amherst, New York, United States",
+        "Bondi Junction, Bondi Junction (50094)",
+        "Palo Alto, California, United States",
+        "Century City, Los Angeles, CA (10101)",
+        "Plaza at Frotenac, St. Louis, MO (10051)",
+        "San Ramon, California, United States",
+        "Manhattan Beach, California, United States",
+        "Studio City, California, United States",
+        "Lexington, Kentucky, United States",
+        "Milwaukee Ave, Chicago, IL (10199)"
       ],
       "jobs": [
         {
@@ -62,10 +62,10 @@
         {
           "id": "6211215004",
           "title": "Accounting Manager",
-          "location": "Commerce, California, United States",
+          "location": "Los Angeles Metro Area",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6211215004?gh_jid=6211215004",
-          "posted_at": "2026-10-20T17:54:23-04:00",
+          "posted_at": "2026-10-21T13:52:08-04:00",
           "category": "finance",
           "seniority": "manager"
         },
@@ -78,16 +78,6 @@
           "posted_at": "2026-10-20T17:54:23-04:00",
           "category": "other",
           "seniority": "mid"
-        },
-        {
-          "id": "6149278004",
-          "title": "AP Manager",
-          "location": "Commerce, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6149278004?gh_jid=6149278004",
-          "posted_at": "2026-10-20T17:54:23-04:00",
-          "category": "other",
-          "seniority": "manager"
         },
         {
           "id": "5623418004",
@@ -548,35 +538,48 @@
           "posted_at": "2026-10-20T17:54:23-04:00",
           "category": "retail",
           "seniority": "manager"
+        },
+        {
+          "id": "5831128004",
+          "title": "Flagship Store Manager - Milan",
+          "location": "Milano, Milan, Italy",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5831128004?gh_jid=5831128004",
+          "posted_at": "2026-10-20T17:54:23-04:00",
+          "category": "retail",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-21T05:30:07.046707"
+      "checked_at": "2026-10-22T05:30:07.973913"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 12,
-      "change_from_last": 2,
+      "total_jobs": 15,
+      "change_from_last": 3,
       "departments": {
-        "engineering": 3,
+        "engineering": 4,
+        "finance": 1,
+        "marketing": 1,
         "other": 5,
         "design": 1,
         "retail": 3
       },
       "seniority": {
-        "mid": 4,
-        "manager": 3,
+        "mid": 5,
+        "manager": 4,
+        "junior": 3,
         "lead": 2,
-        "junior": 2,
         "senior": 1
       },
       "locations": [
-        "New York, New York, United States",
-        "London",
         "Solihull, England, United Kingdom",
-        "New York, New York, United States; New York, New York, United States",
         "US",
-        "Miami, Florida, United States"
+        "New York, New York, United States; New York, New York, United States",
+        "London",
+        "Miami, Florida, United States",
+        "New York, New York, United States",
+        "London, England, United Kingdom; Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -588,6 +591,26 @@
           "posted_at": "2026-10-09T05:38:40-04:00",
           "category": "engineering",
           "seniority": "mid"
+        },
+        {
+          "id": "5012170101",
+          "title": "Commercial Finance Manager",
+          "location": "London, England, United Kingdom; Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5012170101",
+          "posted_at": "2026-10-21T09:19:39-04:00",
+          "category": "finance",
+          "seniority": "manager"
+        },
+        {
+          "id": "5009595101",
+          "title": "Creator Marketing Associate ",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5009595101",
+          "posted_at": "2026-10-21T15:56:55-04:00",
+          "category": "marketing",
+          "seniority": "junior"
         },
         {
           "id": "4981295101",
@@ -607,6 +630,16 @@
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974423101",
           "posted_at": "2026-10-13T08:30:23-04:00",
           "category": "design",
+          "seniority": "mid"
+        },
+        {
+          "id": "4927186101",
+          "title": "Fabric Technologist",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4927186101",
+          "posted_at": "2026-10-21T11:38:41-04:00",
+          "category": "engineering",
           "seniority": "mid"
         },
         {
@@ -700,7 +733,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-10-21T05:30:09.178018"
+      "checked_at": "2026-10-22T05:30:10.117226"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -759,7 +792,7 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 201,
-      "change_from_last": -5,
+      "change_from_last": 0,
       "departments": {
         "retail": 143,
         "marketing": 12,
@@ -778,26 +811,26 @@
         "senior": 6
       },
       "locations": [
-        "Chengdu",
-        "Miami",
-        "Macao",
-        "Landquart",
-        "Tianjin",
-        "New York City",
-        "Boston",
-        "San Diego",
-        "D\u00fcsseldorf",
         "Hong Kong",
-        "Dallas",
-        "Seattle",
+        "Beijing",
+        "San Francisco",
+        "Seoul",
+        "Nanjing",
+        "Amsterdam",
         "Rio de Janeiro",
         "London",
-        "Seoul",
-        "S\u00e3o Paulo",
-        "Newport Beach",
-        "Palo Alto",
-        "Aventura",
-        "Nanjing"
+        "Corte Madera",
+        "Southlake",
+        "Portland",
+        "Madrid",
+        "Austin",
+        "Brooklyn",
+        "Tokyo",
+        "Landquart",
+        "Paris",
+        "Chicago",
+        "Seattle",
+        "Mexico City"
       ],
       "jobs": [
         {
@@ -1301,8 +1334,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-10-21T05:30:18.333696"
+      "checked_at": "2026-10-22T05:30:38.091031"
     }
   },
-  "generated_at": "2026-10-21T05:30:20.333849"
+  "generated_at": "2026-10-22T05:30:40.091186"
 }
