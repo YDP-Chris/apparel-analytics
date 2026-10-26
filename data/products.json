@@ -310,9 +310,9 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13423,
+      "total": 13425,
       "categories": {
-        "bottoms": 5015,
+        "bottoms": 5017,
         "tops": 4301,
         "other": 945,
         "accessories": 714,
@@ -331,7 +331,7 @@
         "joggers": 679,
         "hoodies": 672,
         "jackets": 324,
-        "pants": 522,
+        "pants": 524,
         "pullovers": 212,
         "high_support": 52,
         "bags": 96,
@@ -351,7 +351,7 @@
       "genders": {
         "unisex": 5973,
         "womens": 4751,
-        "mens": 2699
+        "mens": 2701
       },
       "colors": {
         "green": 756,
@@ -360,7 +360,7 @@
         "white": 981,
         "navy": 90,
         "gray": 1479,
-        "brown": 1174,
+        "brown": 1176,
         "blue": 2168,
         "red": 445,
         "purple": 785,
@@ -443,19 +443,19 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1199,
+      "total": 1200,
       "categories": {
         "other": 361,
         "accessories": 204,
         "tops": 264,
-        "bottoms": 235,
+        "bottoms": 236,
         "sports_bras": 70,
         "outerwear": 65
       },
       "subcategories": {
         "other": 591,
         "tees": 130,
-        "shorts": 149,
+        "shorts": 150,
         "hats": 83,
         "leggings": 47,
         "tanks": 43,
@@ -473,7 +473,7 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 1011,
+        "unisex": 1012,
         "womens": 158,
         "mens": 30
       },
@@ -494,7 +494,7 @@
         "yellow": 18,
         "orange": 1
       },
-      "colorCoverage": 60.4,
+      "colorCoverage": 60.3,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 448
     },
@@ -1064,12 +1064,46 @@
     }
   },
   "totals": {
-    "products": 54656,
+    "products": 54659,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-10-26",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark power seasonals oversized pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-power-seasonals-oversized-pants-pants-brown-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark power seasonals oversized pants pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-seasonals-oversized-pants-pants-brown-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 1,
+      "products": [
+        {
+          "name": "axis 6 lined shorts lake",
+          "url": "https://www.gymreapers.com/products/axis-6-lined-shorts-lake",
+          "category": "bottoms",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "brand": "asrv",
@@ -8279,26 +8313,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-10-11",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "crosscourt jacket 2 0",
-          "url": "https://vuoriclothing.com/products/crosscourt-jacket-2-0-white",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori cord jacket 2 0 army",
-          "url": "https://vuoriclothing.com/products/vuori-cord-jacket-2-0-army",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -8854,7 +8868,8 @@
       "2026-10-21": 252,
       "2026-10-22": 264,
       "2026-10-23": 36,
-      "2026-10-24": 12
+      "2026-10-24": 12,
+      "2026-10-26": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -8937,7 +8952,8 @@
       "2026-10-01": 2,
       "2026-10-07": 1,
       "2026-10-12": 6,
-      "2026-10-22": 4
+      "2026-10-22": 4,
+      "2026-10-26": 1
     },
     "sbd": {
       "2026-04-07": 206,
@@ -9116,9 +9132,9 @@
       "tenthousand": 90,
       "lululemon": 1732,
       "alo": 1847,
-      "gymshark": 5015,
+      "gymshark": 5017,
       "on_running": 1792,
-      "gymreapers": 235,
+      "gymreapers": 236,
       "sbd": 48,
       "schiek": 2,
       "bear_grips": 330,
@@ -9277,7 +9293,7 @@
       "alo": 435,
       "gymshark": 1978,
       "on_running": 790,
-      "gymreapers": 149,
+      "gymreapers": 150,
       "sbd": 29,
       "bear_grips": 40,
       "asrv": 352,
@@ -9365,7 +9381,7 @@
       "tenthousand": 20,
       "lululemon": 448,
       "alo": 255,
-      "gymshark": 522,
+      "gymshark": 524,
       "on_running": 439,
       "asrv": 44,
       "goruck": 24,
@@ -9788,7 +9804,7 @@
       "vuori": 208,
       "outdoor_voices": 2,
       "alo": 313,
-      "gymshark": 1174,
+      "gymshark": 1176,
       "on_running": 122,
       "gymreapers": 17,
       "schiek": 2,
@@ -10000,7 +10016,7 @@
     },
     {
       "brand": "gymreapers",
-      "bottoms": 19.6,
+      "bottoms": 19.7,
       "tops": 22,
       "outerwear": 5.4,
       "dresses": 0,
@@ -10126,10 +10142,10 @@
       "white": 7.3,
       "gray": 11,
       "navy": 0.7,
-      "blue": 16.2,
+      "blue": 16.1,
       "green": 5.6,
       "khaki": 0,
-      "brown": 8.7,
+      "brown": 8.8,
       "purple": 5.8,
       "pink": 9.6,
       "orange": 0.5,
@@ -10526,7 +10542,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 49,491 competitor products tracked. Vuori's 5,165 = 9% share of tracked catalog."
+      "text": "Market context: 49,494 competitor products tracked. Vuori's 5,165 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -10675,5 +10691,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-25T13:15:11.268Z"
+  "generated_at": "2026-10-26T13:15:11.236Z"
 }
