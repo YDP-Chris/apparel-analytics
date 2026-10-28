@@ -310,9 +310,9 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13497,
+      "total": 13501,
       "categories": {
-        "bottoms": 5031,
+        "bottoms": 5035,
         "tops": 4341,
         "other": 947,
         "accessories": 714,
@@ -322,7 +322,7 @@
       },
       "subcategories": {
         "shorts": 1980,
-        "leggings": 1392,
+        "leggings": 1396,
         "crop_tops": 210,
         "other": 4480,
         "long_sleeve": 752,
@@ -350,7 +350,7 @@
       },
       "genders": {
         "unisex": 6031,
-        "womens": 4757,
+        "womens": 4761,
         "mens": 2709
       },
       "colors": {
@@ -359,7 +359,7 @@
         "black": 3123,
         "white": 985,
         "navy": 90,
-        "gray": 1493,
+        "gray": 1497,
         "brown": 1178,
         "blue": 2178,
         "red": 447,
@@ -371,7 +371,7 @@
       },
       "colorCoverage": 93.4,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3448
+      "uniqueStyles": 3450
     },
     "on_running": {
       "name": "On Running",
@@ -501,16 +501,16 @@
     "sbd": {
       "name": "sbd",
       "slug": "sbd",
-      "total": 382,
+      "total": 387,
       "categories": {
         "tops": 163,
-        "other": 104,
-        "accessories": 61,
+        "other": 107,
+        "accessories": 63,
         "outerwear": 6,
         "bottoms": 48
       },
       "subcategories": {
-        "other": 241,
+        "other": 246,
         "socks": 46,
         "hats": 10,
         "tanks": 24,
@@ -522,7 +522,7 @@
         "leggings": 1
       },
       "genders": {
-        "unisex": 229,
+        "unisex": 234,
         "womens": 83,
         "mens": 70
       },
@@ -538,7 +538,7 @@
         "purple": 4,
         "pink": 2
       },
-      "colorCoverage": 21.5,
+      "colorCoverage": 21.2,
       "avgColorsPerStyle": 1.6,
       "uniqueStyles": 48
     },
@@ -712,9 +712,9 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2533,
+      "total": 2539,
       "categories": {
-        "other": 1362,
+        "other": 1368,
         "accessories": 163,
         "tops": 288,
         "bottoms": 132,
@@ -723,7 +723,7 @@
         "sports_bras": 12
       },
       "subcategories": {
-        "other": 1584,
+        "other": 1590,
         "hats": 42,
         "shorts": 42,
         "quarter_zips": 24,
@@ -744,7 +744,7 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 1987,
+        "unisex": 1993,
         "mens": 282,
         "womens": 264
       },
@@ -763,22 +763,22 @@
         "yellow": 36,
         "orange": 6
       },
-      "colorCoverage": 21.6,
+      "colorCoverage": 21.5,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 69
     },
     "optimum_nutrition": {
       "name": "optimum_nutrition",
       "slug": "optimum_nutrition",
-      "total": 565,
+      "total": 566,
       "categories": {
-        "other": 565
+        "other": 566
       },
       "subcategories": {
-        "other": 565
+        "other": 566
       },
       "genders": {
-        "unisex": 516,
+        "unisex": 517,
         "womens": 41,
         "mens": 8
       },
@@ -789,7 +789,7 @@
         "white": 6,
         "black": 1
       },
-      "colorCoverage": 32.6,
+      "colorCoverage": 32.5,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 77
     },
@@ -1064,12 +1064,128 @@
     }
   },
   "totals": {
-    "products": 54825,
+    "products": 54841,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-10-28",
+      "brand": "sbd",
+      "brandSlug": "sbd",
+      "count": 5,
+      "products": [
+        {
+          "name": "weightlifting leather wrist wraps",
+          "url": "https://sbdapparel.com/products/weightlifting-leather-wrist-wraps",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "weightlifting hybrid belt",
+          "url": "https://sbdapparel.com/products/weightlifting-hybrid-belt",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "weightlifting fabric wrist wraps",
+          "url": "https://sbdapparel.com/products/weightlifting-fabric-wrist-wraps",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "weightlifting leather belt",
+          "url": "https://sbdapparel.com/products/weightlifting-leather-belt",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "weightlifting knee wraps",
+          "url": "https://sbdapparel.com/products/weightlifting-knee-wraps",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 4,
+      "products": [
+        {
+          "name": "gymshark training campus shorty leggings leggings",
+          "url": "https://www.gymshark.com/products/gymshark-training-campus-shorty-leggings-leggings-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark training campus leggings leggings aw26 b7b1i gc9q",
+          "url": "https://www.gymshark.com/products/gymshark-training-campus-leggings-leggings-grey-aw26-b7b1i-gc9q",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark training campus shorty leggings leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-campus-shorty-leggings-leggings-grey-aw26",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark training campus leggings leggings aw26 b7b1i gc9q",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-campus-leggings-leggings-grey-aw26-b7b1i-gc9q",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 4,
+      "products": [
+        {
+          "name": "chad 1000x x jacksonville jaguars foundation 2026",
+          "url": "https://www.goruck.com/products/chad-1000x-x-jacksonville-jaguars-foundation-2026",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "chad 1000x x jacksonville jaguars foundation 2026",
+          "url": "https://www.goruck.com/en-au/products/chad-1000x-x-jacksonville-jaguars-foundation-2026",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "chad 1000x x jacksonville jaguars foundation 2026",
+          "url": "https://www.goruck.com/en-sg/products/chad-1000x-x-jacksonville-jaguars-foundation-2026",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "chad 1000x x jacksonville jaguars foundation 2026",
+          "url": "https://www.goruck.com/en-gb/products/chad-1000x-x-jacksonville-jaguars-foundation-2026",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "brand": "optimum_nutrition",
+      "brandSlug": "optimum_nutrition",
+      "count": 1,
+      "products": [
+        {
+          "name": "magnesium glycinate plus",
+          "url": "https://www.optimumnutrition.com/nl-nl/products/magnesium-glycinate-plus",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "brand": "Gymshark",
@@ -1209,6 +1325,26 @@
         {
           "name": "magnesium glycinate plus",
           "url": "https://www.optimumnutrition.com/en-se/products/magnesium-glycinate-plus",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 2,
+      "products": [
+        {
+          "name": "chad 1000x x jacksonville jaguars foundation 2026",
+          "url": "https://www.goruck.com/en-ca/products/chad-1000x-x-jacksonville-jaguars-foundation-2026",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "chad 1000x x jacksonville jaguars foundation 2026",
+          "url": "https://www.goruck.com/en-eu/products/chad-1000x-x-jacksonville-jaguars-foundation-2026",
           "category": "other",
           "gender": "unisex"
         }
@@ -8739,422 +8875,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 47,
-      "products": [
-        {
-          "name": "gymshark vital seamless 2 0 crop top electric",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-2-0-crop-top-electric-blue-marl-ss23",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training oversized t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-training-oversized-t-shirt-navy-ss23",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark ribbed tank 1pk",
-          "url": "https://www.gymshark.com/products/gymshark-ribbed-tank-1pk-grey-aw23",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark flex high waisted leggings greyed purple",
-          "url": "https://www.gymshark.com/products/gymshark-flex-high-waisted-leggings-greyed-purple-white-ss24",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark block oversized t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-block-oversized-t-shirt-white-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless t shirt strength",
-          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-t-shirt-strength-green-aw24",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark rest day ribbed joggers brushed",
-          "url": "https://www.gymshark.com/products/gymshark-rest-day-ribbed-joggers-brushed-purple-aw24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark minimal sports bra reps",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-sports-bra-reps-red-aw24",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training cotton baby tee ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-cotton-baby-tee-ss-tops-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training fleece joggers calm",
-          "url": "https://www.gymshark.com/products/gymshark-training-fleece-joggers-calm-pink-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus classics graphic t shirt iron",
-          "url": "https://www.gymshark.com/products/gymshark-campus-classics-graphic-t-shirt-iron-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark block oversized t shirt classic",
-          "url": "https://www.gymshark.com/products/gymshark-block-oversized-t-shirt-classic-blue-aw24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark back gains graphic joggers pants",
-          "url": "https://www.gymshark.com/products/gymshark-back-gains-graphic-joggers-pants-grey-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark legacy logo oversized t shirt washed berry",
-          "url": "https://www.gymshark.com/products/gymshark-legacy-logo-oversized-t-shirt-washed-berry-pink-ss25",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark diffuse seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-diffuse-seamless-shorts-shorts-pink-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark diffuse seamless shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-diffuse-seamless-shorts-shorts-purple-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark waffle wide leg pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-waffle-wide-leg-pants-pants-blue-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark corset seamless leggings celeste",
-          "url": "https://www.gymshark.com/products/gymshark-corset-seamless-leggings-celeste-blue-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark crossover strap high support sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-crossover-strap-high-support-sports-bra-sports-bras-black-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark elevate ruched sports bra sports bras",
-          "url": "https://www.gymshark.com/products/gymshark-elevate-ruched-sports-bra-sports-bras-blue-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark vital seamless halter neck tank crop tops ss25",
-          "url": "https://www.gymshark.com/products/gymshark-vital-seamless-halter-neck-tank-crop-tops-red-ss25-2",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal bikini top swimwear",
-          "url": "https://www.gymshark.com/products/gymshark-minimal-bikini-top-swimwear-red-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vital seamless 2 0 crop top electric",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-2-0-crop-top-electric-blue-marl-ss23",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training oversized t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-oversized-t-shirt-navy-ss23",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark ribbed tank 1pk",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-ribbed-tank-1pk-grey-aw23",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark flex high waisted leggings greyed purple",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-flex-high-waisted-leggings-greyed-purple-white-ss24",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark block oversized t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-block-oversized-t-shirt-white-ss24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark everyday seamless t shirt strength",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-t-shirt-strength-green-aw24",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark rest day ribbed joggers brushed",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-ribbed-joggers-brushed-purple-aw24",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark minimal sports bra reps",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-sports-bra-reps-red-aw24",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark training cotton baby tee ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-cotton-baby-tee-ss-tops-black-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training fleece joggers calm",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-fleece-joggers-calm-pink-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus classics graphic t shirt iron",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-campus-classics-graphic-t-shirt-iron-blue-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark block oversized t shirt classic",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-block-oversized-t-shirt-classic-blue-aw24",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark back gains graphic joggers pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-back-gains-graphic-joggers-pants-grey-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark diffuse seamless shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-diffuse-seamless-shorts-shorts-pink-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark diffuse seamless shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-diffuse-seamless-shorts-shorts-purple-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark waffle wide leg pants pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-waffle-wide-leg-pants-pants-blue-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark corset seamless leggings celeste",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-corset-seamless-leggings-celeste-blue-ss25",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark crossover strap high support sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crossover-strap-high-support-sports-bra-sports-bras-black-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark elevate ruched sports bra sports bras",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-elevate-ruched-sports-bra-sports-bras-blue-ss25",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark vital seamless halter neck tank crop tops ss25",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vital-seamless-halter-neck-tank-crop-tops-red-ss25-2",
-          "category": "tops",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark minimal bikini top swimwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-minimal-bikini-top-swimwear-red-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark ultimate adaptive leggings leggings",
-          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-leggings-leggings-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark ultimate adaptive shorts shorts aw26 b7b4g rck3",
-          "url": "https://www.gymshark.com/products/gymshark-ultimate-adaptive-shorts-shorts-red-aw26-b7b4g-rck3",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark ultimate adaptive leggings leggings",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-ultimate-adaptive-leggings-leggings-black-aw26",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark ultimate adaptive shorts shorts aw26 b7b4g rck3",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-ultimate-adaptive-shorts-shorts-red-aw26-b7b4g-rck3",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "goruck",
-      "brandSlug": "goruck",
-      "count": 4,
-      "products": [
-        {
-          "name": "training weight vest",
-          "url": "https://www.goruck.com/products/training-weight-vest",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "training weight vest",
-          "url": "https://www.goruck.com/en-au/products/training-weight-vest",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "training weight vest",
-          "url": "https://www.goruck.com/en-gb/products/training-weight-vest",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "training weight vest",
-          "url": "https://www.goruck.com/en-eu/products/training-weight-vest",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "venum",
-      "brandSlug": "venum",
-      "count": 4,
-      "products": [
-        {
-          "name": "ufc zenith by venum fight week vale tudo shorts navy blue silver",
-          "url": "https://www.venum.com/products/ufc-zenith-by-venum-fight-week-vale-tudo-shorts-navy-blue-burgundy-silver-1",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "jujutsu kaisen x venum sukuna bjj gi white",
-          "url": "https://www.venum.com/products/jujutsu-kaisen-x-venum-sukuna-bjj-gi-white-blue",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum heavy boxing bag khaki 100 lbs size 100x30cm copy",
-          "url": "https://www.venum.com/products/venum-heavy-boxing-bag-khaki-black-100-lbs-size-100x30cm-copy",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum heavy boxing bag black 100 lbs size 100x30cm copy",
-          "url": "https://www.venum.com/products/venum-heavy-boxing-bag-black-white-100-lbs-size-100x30cm-copy",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 2,
-      "products": [
-        {
-          "name": "alta down jacket",
-          "url": "https://vuoriclothing.com/products/womens-alta-down-jacket-bone",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cinch waist jacket",
-          "url": "https://vuoriclothing.com/products/womens-cinch-waist-jacket-black",
-          "category": "outerwear",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "optimum_nutrition",
-      "brandSlug": "optimum_nutrition",
-      "count": 1,
-      "products": [
-        {
-          "name": "magnesium glycinate plus",
-          "url": "https://www.optimumnutrition.com/en-gb/products/magnesium-glycinate-plus",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "hayabusa",
-      "brandSlug": "hayabusa",
-      "count": 1,
-      "products": [
-        {
-          "name": "hayabusa full zip gi jacket",
-          "url": "https://www.hayabusafight.com/products/hayabusa-full-zip-gi-jacket",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "brand": "everlast",
-      "brandSlug": "everlast",
-      "count": 1,
-      "products": [
-        {
-          "name": "elite boxfit hybrid workout boxing gloves",
-          "url": "https://www.everlast.com/products/elite-boxfit-hybrid-workout-boxing-gloves",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -9713,7 +9433,8 @@
       "2026-10-23": 36,
       "2026-10-24": 12,
       "2026-10-26": 60,
-      "2026-10-27": 14
+      "2026-10-27": 14,
+      "2026-10-28": 4
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -9813,7 +9534,8 @@
       "2026-09-26": 7,
       "2026-10-15": 3,
       "2026-10-21": 4,
-      "2026-10-22": 1
+      "2026-10-22": 1,
+      "2026-10-28": 5
     },
     "harbinger": {
       "2026-04-07": 46,
@@ -9873,7 +9595,9 @@
       "2026-10-20": 6,
       "2026-10-22": 12,
       "2026-10-23": 9,
-      "2026-10-24": 9
+      "2026-10-24": 9,
+      "2026-10-27": 2,
+      "2026-10-28": 4
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -9892,7 +9616,8 @@
       "2026-10-07": 1,
       "2026-10-13": 1,
       "2026-10-26": 1,
-      "2026-10-27": 3
+      "2026-10-27": 3,
+      "2026-10-28": 1
     },
     "ghost": {
       "2026-08-30": 486,
@@ -9981,7 +9706,7 @@
       "tenthousand": 90,
       "lululemon": 1732,
       "alo": 1847,
-      "gymshark": 5031,
+      "gymshark": 5035,
       "on_running": 1792,
       "gymreapers": 244,
       "sbd": 48,
@@ -10044,13 +9769,13 @@
       "gymshark": 947,
       "on_running": 3183,
       "gymreapers": 361,
-      "sbd": 104,
+      "sbd": 107,
       "harbinger": 26,
       "schiek": 59,
       "bear_grips": 254,
       "asrv": 351,
-      "goruck": 1362,
-      "optimum_nutrition": 565,
+      "goruck": 1368,
+      "optimum_nutrition": 566,
       "ghost": 334,
       "hayabusa": 91,
       "venum": 906,
@@ -10095,7 +9820,7 @@
       "gymshark": 714,
       "on_running": 776,
       "gymreapers": 215,
-      "sbd": 61,
+      "sbd": 63,
       "harbinger": 29,
       "schiek": 44,
       "bear_grips": 164,
@@ -10190,7 +9915,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 380,
-      "gymshark": 1392,
+      "gymshark": 1396,
       "on_running": 443,
       "gymreapers": 49,
       "sbd": 1,
@@ -10211,13 +9936,13 @@
       "gymshark": 4480,
       "on_running": 3615,
       "gymreapers": 599,
-      "sbd": 241,
+      "sbd": 246,
       "harbinger": 55,
       "schiek": 109,
       "bear_grips": 471,
       "asrv": 468,
-      "goruck": 1584,
-      "optimum_nutrition": 565,
+      "goruck": 1590,
+      "optimum_nutrition": 566,
       "ghost": 344,
       "hayabusa": 192,
       "venum": 1654,
@@ -10519,7 +10244,7 @@
       "vuori": 657,
       "outdoor_voices": 35,
       "alo": 523,
-      "gymshark": 1493,
+      "gymshark": 1497,
       "on_running": 353,
       "gymreapers": 87,
       "sbd": 22,
@@ -10836,12 +10561,12 @@
     {
       "brand": "goruck",
       "bottoms": 5.2,
-      "tops": 11.4,
+      "tops": 11.3,
       "outerwear": 4.5,
       "dresses": 0,
       "sports_bras": 0.5,
       "accessories": 6.4,
-      "other": 53.8
+      "other": 53.9
     },
     {
       "brand": "bear_grips",
@@ -10915,13 +10640,13 @@
     },
     {
       "brand": "sbd",
-      "bottoms": 12.6,
-      "tops": 42.7,
+      "bottoms": 12.4,
+      "tops": 42.1,
       "outerwear": 1.6,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 16,
-      "other": 27.2
+      "accessories": 16.3,
+      "other": 27.6
     },
     {
       "brand": "everlast",
@@ -11227,7 +10952,7 @@
       "brand": "sbd",
       "black": 1.6,
       "white": 1.6,
-      "gray": 5.8,
+      "gray": 5.7,
       "navy": 1.8,
       "blue": 3.1,
       "green": 1.6,
@@ -11235,7 +10960,7 @@
       "brown": 0,
       "purple": 1,
       "pink": 0.5,
-      "orange": 3.7,
+      "orange": 3.6,
       "red": 0.8,
       "yellow": 0,
       "other": 0
@@ -11391,7 +11116,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 49,660 competitor products tracked. Vuori's 5,165 = 9% share of tracked catalog."
+      "text": "Market context: 49,676 competitor products tracked. Vuori's 5,165 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -11540,5 +11265,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-27T13:15:12.381Z"
+  "generated_at": "2026-10-28T13:15:08.602Z"
 }
