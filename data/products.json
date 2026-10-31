@@ -310,26 +310,26 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13545,
+      "total": 13549,
       "categories": {
         "bottoms": 5045,
-        "tops": 4359,
+        "tops": 4361,
         "other": 947,
         "accessories": 716,
-        "outerwear": 1324,
+        "outerwear": 1326,
         "sports_bras": 1142,
         "dresses": 12
       },
       "subcategories": {
         "shorts": 1984,
         "leggings": 1396,
-        "crop_tops": 224,
+        "crop_tops": 226,
         "other": 4482,
         "long_sleeve": 752,
         "socks": 296,
         "tanks": 1222,
         "joggers": 679,
-        "hoodies": 684,
+        "hoodies": 686,
         "jackets": 340,
         "pants": 542,
         "pullovers": 212,
@@ -351,10 +351,10 @@
       "genders": {
         "unisex": 6035,
         "womens": 4761,
-        "mens": 2749
+        "mens": 2753
       },
       "colors": {
-        "green": 760,
+        "green": 764,
         "pink": 1308,
         "black": 3135,
         "white": 985,
@@ -655,12 +655,12 @@
     "asrv": {
       "name": "asrv",
       "slug": "asrv",
-      "total": 1945,
+      "total": 1946,
       "categories": {
         "accessories": 249,
         "other": 356,
         "bottoms": 637,
-        "outerwear": 253,
+        "outerwear": 254,
         "tops": 427,
         "sports_bras": 23
       },
@@ -674,7 +674,7 @@
         "pants": 47,
         "shorts": 359,
         "tees": 285,
-        "hoodies": 138,
+        "hoodies": 139,
         "sweatpants": 8,
         "quarter_zips": 25,
         "tanks": 130,
@@ -687,7 +687,7 @@
         "polos": 4
       },
       "genders": {
-        "unisex": 1826,
+        "unisex": 1827,
         "womens": 108,
         "mens": 11
       },
@@ -898,30 +898,30 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2789,
+      "total": 2804,
       "categories": {
-        "accessories": 534,
-        "other": 914,
-        "tops": 271,
-        "bottoms": 693,
+        "accessories": 535,
+        "other": 919,
+        "tops": 275,
+        "bottoms": 697,
         "footwear": 44,
-        "outerwear": 301,
+        "outerwear": 302,
         "sports_bras": 32
       },
       "subcategories": {
-        "other": 1671,
-        "shorts": 442,
+        "other": 1682,
+        "shorts": 444,
         "training": 7,
         "bags": 85,
         "socks": 40,
         "leggings": 21,
-        "hoodies": 238,
+        "hoodies": 239,
         "joggers": 77,
         "jackets": 53,
         "pants": 22,
         "polos": 2,
         "tanks": 24,
-        "hats": 64,
+        "hats": 65,
         "long_sleeve": 30,
         "low_support": 1,
         "medium_support": 1,
@@ -929,19 +929,19 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2265,
+        "unisex": 2280,
         "womens": 211,
         "mens": 313
       },
       "colors": {
         "black": 594,
-        "red": 305,
-        "white": 481,
+        "red": 312,
+        "white": 482,
         "blue": 253,
-        "gray": 223,
+        "gray": 229,
         "yellow": 267,
         "purple": 60,
-        "camo": 27,
+        "camo": 28,
         "khaki": 100,
         "brown": 74,
         "pink": 30,
@@ -950,9 +950,9 @@
         "navy": 22,
         "rust": 19
       },
-      "colorCoverage": 92,
+      "colorCoverage": 92.1,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 1817
+      "uniqueStyles": 1831
     },
     "everlast": {
       "name": "everlast",
@@ -1064,7 +1064,7 @@
     }
   },
   "totals": {
-    "products": 54974,
+    "products": 54994,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
@@ -1074,7 +1074,7 @@
       "date": "2026-10-30",
       "brand": "asrv",
       "brandSlug": "asrv",
-      "count": 44,
+      "count": 45,
       "products": [
         {
           "name": "wn23 anorack jacket m discontinued",
@@ -1339,6 +1339,142 @@
           "url": "https://asrv.com/products/2018-technical-vest-os-discontinued-4",
           "category": "outerwear",
           "gender": "unisex"
+        },
+        {
+          "name": "wn24 herringbone terry hoodie unreleased",
+          "url": "https://asrv.com/products/wn24-herringbone-terry-hoodie-unreleased",
+          "category": "outerwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "brand": "venum",
+      "brandSlug": "venum",
+      "count": 15,
+      "products": [
+        {
+          "name": "venum x batman fightshorts",
+          "url": "https://www.venum.com/products/venum-x-batman-fightshorts-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman long sleeve rashguard black grey",
+          "url": "https://www.venum.com/products/venum-x-batman-long-sleeve-rashguard-black-grey-red",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman hoodie black",
+          "url": "https://www.venum.com/products/venum-x-batman-hoodie-black-grey",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman fightshorts black grey",
+          "url": "https://www.venum.com/products/venum-x-batman-fightshorts-black-grey-red",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman long sleeve rashguard black grey",
+          "url": "https://www.venum.com/products/venum-x-batman-long-sleeve-rashguard-black-grey-red-1",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman muay thai shorts black",
+          "url": "https://www.venum.com/products/venum-x-batman-muay-thai-shorts-black-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman short sleeve rashguard",
+          "url": "https://www.venum.com/products/venum-x-batman-short-sleeve-rashguard-grey",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman short sleeve rashguard black grey",
+          "url": "https://www.venum.com/products/venum-x-batman-short-sleeve-rashguard-black-grey-red",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman training shorts black grey",
+          "url": "https://www.venum.com/products/venum-x-batman-training-shorts-black-grey-white",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman dry tech t shirt",
+          "url": "https://www.venum.com/products/venum-x-batman-dry-tech-t-shirt-grey",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman dry tech t shirt black grey",
+          "url": "https://www.venum.com/products/venum-x-batman-dry-tech-t-shirt-black-grey-red",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman cotton t shirt grey black",
+          "url": "https://www.venum.com/products/venum-x-batman-cotton-t-shirt-grey-black-red",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman cotton t shirt black",
+          "url": "https://www.venum.com/products/venum-x-batman-cotton-t-shirt-black-grey",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum x batman cap black",
+          "url": "https://www.venum.com/products/venum-x-batman-cap-black-grey",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum kontact boxing hand wraps forest 2 5m 98 in",
+          "url": "https://www.venum.com/products/venum-kontact-boxing-hand-wraps-forest-camo-2-5m-98-in",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 4,
+      "products": [
+        {
+          "name": "gymshark power washed oversized hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-power-washed-oversized-hoodie-pullovers-green-aw26",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark power washed oversized hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-washed-oversized-hoodie-pullovers-green-aw26",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark power washed cropped full zip hoodie pullovers",
+          "url": "https://www.gymshark.com/products/gymshark-power-washed-cropped-full-zip-hoodie-pullovers-green-aw26",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark power washed cropped full zip hoodie pullovers",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-washed-cropped-full-zip-hoodie-pullovers-green-aw26",
+          "category": "tops",
+          "gender": "mens"
         }
       ]
     },
@@ -8526,7 +8662,8 @@
       "2026-10-26": 60,
       "2026-10-27": 14,
       "2026-10-28": 6,
-      "2026-10-29": 42
+      "2026-10-29": 42,
+      "2026-10-30": 4
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -8659,7 +8796,7 @@
       "2026-10-08": 1,
       "2026-10-24": 1,
       "2026-10-25": 54,
-      "2026-10-30": 44
+      "2026-10-30": 45
     },
     "goruck": {
       "2026-08-30": 1921,
@@ -8763,7 +8900,8 @@
       "2026-10-23": 4,
       "2026-10-24": 6,
       "2026-10-26": 26,
-      "2026-10-28": 17
+      "2026-10-28": 17,
+      "2026-10-30": 15
     },
     "everlast": {
       "2026-08-30": 315,
@@ -8814,7 +8952,7 @@
       "goruck": 132,
       "ghost": 9,
       "hayabusa": 70,
-      "venum": 693,
+      "venum": 697,
       "everlast": 53,
       "dfyne": 354
     },
@@ -8824,7 +8962,7 @@
       "tenthousand": 48,
       "lululemon": 835,
       "alo": 599,
-      "gymshark": 4359,
+      "gymshark": 4361,
       "on_running": 736,
       "gymreapers": 289,
       "sbd": 163,
@@ -8834,7 +8972,7 @@
       "goruck": 288,
       "ghost": 55,
       "hayabusa": 21,
-      "venum": 271,
+      "venum": 275,
       "everlast": 33,
       "dfyne": 92
     },
@@ -8844,17 +8982,17 @@
       "tenthousand": 22,
       "lululemon": 680,
       "alo": 709,
-      "gymshark": 1324,
+      "gymshark": 1326,
       "on_running": 1028,
       "gymreapers": 65,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 453,
-      "asrv": 253,
+      "asrv": 254,
       "goruck": 114,
       "ghost": 65,
       "hayabusa": 11,
-      "venum": 301,
+      "venum": 302,
       "everlast": 25,
       "dfyne": 87
     },
@@ -8876,7 +9014,7 @@
       "optimum_nutrition": 567,
       "ghost": 339,
       "hayabusa": 91,
-      "venum": 914,
+      "venum": 919,
       "everlast": 114,
       "dfyne": 337
     },
@@ -8926,7 +9064,7 @@
       "goruck": 163,
       "ghost": 61,
       "hayabusa": 94,
-      "venum": 534,
+      "venum": 535,
       "everlast": 114,
       "dfyne": 18
     },
@@ -8971,7 +9109,7 @@
       "asrv": 359,
       "goruck": 42,
       "hayabusa": 37,
-      "venum": 442,
+      "venum": 444,
       "everlast": 12,
       "dfyne": 174
     },
@@ -9043,7 +9181,7 @@
       "optimum_nutrition": 567,
       "ghost": 349,
       "hayabusa": 192,
-      "venum": 1671,
+      "venum": 1682,
       "everlast": 210,
       "dfyne": 609
     },
@@ -9133,17 +9271,17 @@
       "tenthousand": 10,
       "lululemon": 139,
       "alo": 231,
-      "gymshark": 684,
+      "gymshark": 686,
       "on_running": 369,
       "gymreapers": 30,
       "sbd": 6,
       "schiek": 1,
       "bear_grips": 259,
-      "asrv": 138,
+      "asrv": 139,
       "goruck": 6,
       "ghost": 51,
       "hayabusa": 3,
-      "venum": 238,
+      "venum": 239,
       "everlast": 17,
       "dfyne": 29
     },
@@ -9162,7 +9300,7 @@
       "asrv": 144,
       "goruck": 42,
       "ghost": 49,
-      "venum": 64,
+      "venum": 65,
       "everlast": 3
     },
     "skirts": {
@@ -9193,7 +9331,7 @@
       "outdoor_voices": 17,
       "lululemon": 96,
       "alo": 195,
-      "gymshark": 224,
+      "gymshark": 226,
       "on_running": 231,
       "gymreapers": 25,
       "sbd": 8,
@@ -9352,7 +9490,7 @@
       "optimum_nutrition": 33,
       "ghost": 21,
       "hayabusa": 3,
-      "venum": 223,
+      "venum": 229,
       "dfyne": 117
     },
     "navy": {
@@ -9417,7 +9555,7 @@
       "goruck": 42,
       "optimum_nutrition": 7,
       "ghost": 24,
-      "venum": 305,
+      "venum": 312,
       "everlast": 9,
       "dfyne": 41
     },
@@ -9436,7 +9574,7 @@
       "goruck": 96,
       "optimum_nutrition": 6,
       "ghost": 32,
-      "venum": 481,
+      "venum": 482,
       "everlast": 13,
       "dfyne": 69
     },
@@ -9462,7 +9600,7 @@
       "outdoor_voices": 60,
       "lululemon": 4,
       "alo": 325,
-      "gymshark": 760,
+      "gymshark": 764,
       "on_running": 295,
       "gymreapers": 113,
       "sbd": 6,
@@ -9591,7 +9729,7 @@
       "gymreapers": 36,
       "asrv": 83,
       "ghost": 3,
-      "venum": 27,
+      "venum": 28,
       "everlast": 7
     }
   },
@@ -9648,8 +9786,8 @@
     },
     {
       "brand": "venum",
-      "bottoms": 24.8,
-      "tops": 9.7,
+      "bottoms": 24.9,
+      "tops": 9.8,
       "outerwear": 10.8,
       "dresses": 0,
       "sports_bras": 1.1,
@@ -9678,9 +9816,9 @@
     },
     {
       "brand": "asrv",
-      "bottoms": 32.8,
-      "tops": 22,
-      "outerwear": 13,
+      "bottoms": 32.7,
+      "tops": 21.9,
+      "outerwear": 13.1,
       "dresses": 0,
       "sports_bras": 1.2,
       "accessories": 12.8,
@@ -9895,20 +10033,20 @@
     },
     {
       "brand": "venum",
-      "black": 21.3,
+      "black": 21.2,
       "white": 17.2,
-      "gray": 8,
+      "gray": 8.2,
       "navy": 0.8,
-      "blue": 9.1,
+      "blue": 9,
       "green": 2.2,
       "khaki": 3.6,
-      "brown": 2.7,
-      "purple": 2.2,
+      "brown": 2.6,
+      "purple": 2.1,
       "pink": 1.1,
       "orange": 1.8,
-      "red": 10.9,
-      "yellow": 9.6,
-      "other": 1.6
+      "red": 11.1,
+      "yellow": 9.5,
+      "other": 1.7
     },
     {
       "brand": "goruck",
@@ -10214,7 +10352,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 49,804 competitor products tracked. Vuori's 5,170 = 9% share of tracked catalog."
+      "text": "Market context: 49,824 competitor products tracked. Vuori's 5,170 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -10363,5 +10501,5 @@
       }
     ]
   },
-  "generated_at": "2026-10-30T13:15:10.186Z"
+  "generated_at": "2026-10-31T13:15:13.928Z"
 }
