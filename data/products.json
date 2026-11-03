@@ -139,17 +139,17 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 183,
+      "total": 184,
       "categories": {
         "bottoms": 90,
         "other": 18,
-        "tops": 48,
+        "tops": 49,
         "outerwear": 22,
         "accessories": 5
       },
       "subcategories": {
         "shorts": 55,
-        "other": 42,
+        "other": 43,
         "long_sleeve": 6,
         "tanks": 6,
         "pants": 20,
@@ -164,7 +164,7 @@
         "hats": 1
       },
       "genders": {
-        "mens": 181,
+        "mens": 182,
         "womens": 2
       },
       "colors": {},
@@ -240,9 +240,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4988,
+      "total": 4989,
       "categories": {
-        "other": 861,
+        "other": 862,
         "bottoms": 1847,
         "tops": 599,
         "sports_bras": 350,
@@ -252,7 +252,7 @@
         "dresses": 136
       },
       "subcategories": {
-        "other": 1732,
+        "other": 1733,
         "leggings": 380,
         "tanks": 280,
         "shorts": 435,
@@ -280,13 +280,13 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3114,
+        "unisex": 3115,
         "womens": 1563,
         "mens": 311
       },
       "colors": {
         "navy": 199,
-        "black": 1076,
+        "black": 1077,
         "white": 950,
         "gray": 523,
         "khaki": 137,
@@ -305,7 +305,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3062
+      "uniqueStyles": 3063
     },
     "gymshark": {
       "name": "Gymshark",
@@ -1065,7 +1065,7 @@
     }
   },
   "totals": {
-    "products": 56387,
+    "products": 56389,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
@@ -1099,6 +1099,34 @@
           "name": "gymshark training ruche arm tank sleeveless tops",
           "url": "https://www.gymshark.com/es-US/products/gymshark-training-ruche-arm-tank-sleeveless-tops-yellow-aw26",
           "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 1,
+      "products": [
+        {
+          "name": "lined shirt jacket",
+          "url": "https://www.tenthousand.cc/products/lined-shirt-jacket",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "chenille chalet cardigan",
+          "url": "https://www.aloyoga.com/products/w3683r-chenille-chalet-cardigan-black",
+          "category": "other",
           "gender": "unisex"
         }
       ]
@@ -8038,7 +8066,8 @@
       "2026-10-07": 1,
       "2026-10-15": 2,
       "2026-10-16": 2,
-      "2026-10-17": 1
+      "2026-10-17": 1,
+      "2026-11-02": 1
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -8223,7 +8252,8 @@
       "2026-10-19": 2,
       "2026-10-21": 56,
       "2026-10-22": 3,
-      "2026-10-23": 1
+      "2026-10-23": 1,
+      "2026-11-02": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -8698,7 +8728,7 @@
     "tops": {
       "vuori": 828,
       "outdoor_voices": 86,
-      "tenthousand": 48,
+      "tenthousand": 49,
       "lululemon": 835,
       "alo": 599,
       "gymshark": 4363,
@@ -8740,7 +8770,7 @@
       "outdoor_voices": 74,
       "tenthousand": 18,
       "lululemon": 917,
-      "alo": 861,
+      "alo": 862,
       "gymshark": 947,
       "on_running": 3183,
       "gymreapers": 361,
@@ -8905,9 +8935,9 @@
     "other": {
       "vuori": 1633,
       "outdoor_voices": 199,
-      "tenthousand": 42,
+      "tenthousand": 43,
       "lululemon": 1593,
-      "alo": 1732,
+      "alo": 1733,
       "gymshark": 4482,
       "on_running": 3615,
       "gymreapers": 599,
@@ -9250,7 +9280,7 @@
     "black": {
       "vuori": 996,
       "outdoor_voices": 105,
-      "alo": 1076,
+      "alo": 1077,
       "gymshark": 3135,
       "on_running": 1667,
       "gymreapers": 140,
@@ -9646,8 +9676,8 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 49.2,
-      "tops": 26.2,
+      "bottoms": 48.9,
+      "tops": 26.6,
       "outerwear": 12,
       "dresses": 0,
       "sports_bras": 0,
@@ -10092,7 +10122,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 50,980 competitor products tracked. Vuori's 5,407 = 10% share of tracked catalog."
+      "text": "Market context: 50,982 competitor products tracked. Vuori's 5,407 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -10241,5 +10271,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-02T14:15:09.701Z"
+  "generated_at": "2026-11-03T14:15:11.678Z"
 }
