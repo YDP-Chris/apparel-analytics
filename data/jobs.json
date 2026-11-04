@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 790,
-      "change_from_last": 1,
+      "total_jobs": 793,
+      "change_from_last": 3,
       "departments": {
-        "design": 78,
+        "design": 77,
         "finance": 6,
-        "other": 124,
-        "product": 5,
-        "retail": 280,
+        "other": 123,
+        "product": 6,
+        "retail": 283,
         "engineering": 20,
         "executive": 5,
-        "operations": 264,
+        "operations": 265,
         "hr": 5,
         "marketing": 3
       },
       "seniority": {
-        "junior": 462,
-        "manager": 131,
-        "mid": 36,
+        "junior": 466,
+        "manager": 130,
+        "mid": 37,
         "c-suite": 13,
         "lead": 120,
         "intern": 5,
-        "senior": 23
+        "senior": 22
       },
       "locations": [
-        "Phoenix, Arizona, United States",
-        "Somerset Collection, Troy, MI (10072)",
-        "Alys Beach, Florida, United States",
-        "Merrick Park, Coral Gables, FL (10042)",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Chicago, Illinois, United States",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
-        "Shop at Hudson Yards, New York, NY (10078)",
-        "Chicago Metro Area",
-        "La Croisette, Cannes (50122)",
-        "Rockefeller Center, New York, NY (10022)",
-        "Shops at La Cantera, San Antonio, TX (10054)",
+        "Huntington Station, New York, United States",
+        "Remote",
+        "Park City, Park City, UT (10192)",
         "Santa Clara, California, United States",
-        "Rue Gambetta, Saint-Tropez (50123)",
-        "Glendale, California, United States",
-        "Switzerland",
-        "Brompton Road, London (50014)",
-        "Cerritos, California, United States",
-        "Boulder, Colorado, United States",
-        "Oklahoma City, Oklahoma, United States"
+        "Waterside Shops, Naples, FL (10106)",
+        "Rockefeller Center, New York, NY (10022)",
+        "Multrees Walk, Edinburgh (50043)",
+        "Brickell City Centre, Miami, FL (10077)",
+        "Brookfield, Wisconsin, United States",
+        "Chestnut Hill, Massachusetts, United States",
+        "Miami Beach, Florida, United States",
+        "Mississauga, Ontario, Canada",
+        "Kenwood Towne Centre, Cincinnati, OH (10082)",
+        "Country Club Plaza, Kansas City, MO (10174)",
+        "Walnut Creek, California, United States",
+        "Princeton, New Jersey, United States",
+        "North East, Maryland, United States",
+        "Cherry Hill, New Jersey, United States",
+        "Birmingham, Alabama, United States",
+        "Chinook Centre, Calgary, AB (10048)"
       ],
       "jobs": [
         {
@@ -268,6 +268,16 @@
           "posted_at": "2026-10-27T15:38:40-04:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "6241245004",
+          "title": "Buying & Merchandising AI Analyst",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6241245004?gh_jid=6241245004",
+          "posted_at": "2026-11-03T16:00:39-05:00",
+          "category": "product",
+          "seniority": "mid"
         },
         {
           "id": "6220786004",
@@ -538,47 +548,35 @@
           "posted_at": "2026-10-27T15:38:40-04:00",
           "category": "other",
           "seniority": "manager"
-        },
-        {
-          "id": "6006955004",
-          "title": "Flagship Store Director (General Manager) - Piazza Duomo, Milan",
-          "location": "Milano, Milan, Italy",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6006955004?gh_jid=6006955004",
-          "posted_at": "2026-11-02T07:50:37-05:00",
-          "category": "retail",
-          "seniority": "c-suite"
         }
       ],
-      "checked_at": "2026-11-03T05:30:08.032778"
+      "checked_at": "2026-11-04T05:30:07.496976"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 14,
-      "change_from_last": -1,
+      "total_jobs": 11,
+      "change_from_last": -3,
       "departments": {
-        "other": 8,
-        "design": 1,
+        "other": 7,
         "engineering": 2,
-        "retail": 3
+        "retail": 2
       },
       "seniority": {
         "manager": 4,
-        "mid": 4,
-        "lead": 3,
-        "junior": 2,
+        "lead": 2,
+        "mid": 3,
+        "junior": 1,
         "senior": 1
       },
       "locations": [
         "New York, New York, United States",
-        "US",
-        "Miami, Florida, United States",
-        "London",
         "London; Solihull, England, United Kingdom",
+        "US",
+        "London",
         "Solihull, England, United Kingdom",
         "New York",
-        "Roosevelt, New York, United States"
+        "Miami, Florida, United States"
       ],
       "jobs": [
         {
@@ -592,32 +590,12 @@
           "seniority": "manager"
         },
         {
-          "id": "4974423101",
-          "title": "Designer \u2013 Menswear",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974423101",
-          "posted_at": "2026-10-13T08:30:23-04:00",
-          "category": "design",
-          "seniority": "mid"
-        },
-        {
           "id": "5024138101",
           "title": "Floor Lead",
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5024138101",
           "posted_at": "2026-10-30T11:29:43-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
-          "id": "4989012101",
-          "title": "Floor Lead - Roosevelt Field",
-          "location": "New York, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4989012101",
-          "posted_at": "2026-09-28T16:16:14-04:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -692,16 +670,6 @@
           "seniority": "junior"
         },
         {
-          "id": "4981273101",
-          "title": "Seasonal Sales Associate - Roosevelt Field, New York",
-          "location": "Roosevelt, New York, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981273101",
-          "posted_at": "2026-10-28T05:22:32-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
           "id": "4974208101",
           "title": "Senior Software Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -722,7 +690,7 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-11-03T05:30:10.242459"
+      "checked_at": "2026-11-04T05:30:09.660749"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -799,26 +767,26 @@
         "senior": 3
       },
       "locations": [
-        "Mexico City",
-        "Aventura",
-        "Dallas",
-        "Tokyo",
-        "Portland",
-        "Shanghai",
-        "Miami",
-        "Southlake",
         "Nanjing",
-        "Palo Alto",
+        "Seattle",
         "New York City",
+        "Milan",
+        "Dallas",
         "Wuhan",
-        "Chengdu",
-        "Seoul",
-        "London",
-        "Shenzhen",
-        "Chicago",
-        "Austin",
+        "Southlake",
+        "Hong Kong",
+        "Corte Madera",
         "Zurich",
-        "Vienna"
+        "Madrid",
+        "Newport Beach",
+        "Chicago",
+        "Beijing",
+        "Paris",
+        "D\u00fcsseldorf",
+        "Macao",
+        "Munich",
+        "Guangzhou",
+        "S\u00e3o Paulo"
       ],
       "jobs": [
         {
@@ -1322,8 +1290,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-11-03T05:30:19.463942"
+      "checked_at": "2026-11-04T05:30:18.928939"
     }
   },
-  "generated_at": "2026-11-03T05:30:21.464102"
+  "generated_at": "2026-11-04T05:30:20.929099"
 }
