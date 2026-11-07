@@ -310,10 +310,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13699,
+      "total": 13703,
       "categories": {
-        "bottoms": 5175,
-        "tops": 4371,
+        "bottoms": 5177,
+        "tops": 4373,
         "other": 953,
         "accessories": 716,
         "outerwear": 1330,
@@ -321,11 +321,11 @@
         "dresses": 12
       },
       "subcategories": {
-        "shorts": 1994,
+        "shorts": 1996,
         "leggings": 1514,
         "crop_tops": 228,
         "other": 4492,
-        "long_sleeve": 754,
+        "long_sleeve": 756,
         "socks": 296,
         "tanks": 1224,
         "joggers": 681,
@@ -350,8 +350,8 @@
       },
       "genders": {
         "unisex": 6057,
-        "womens": 4885,
-        "mens": 2757
+        "womens": 4887,
+        "mens": 2759
       },
       "colors": {
         "green": 764,
@@ -359,9 +359,9 @@
         "black": 3177,
         "white": 987,
         "navy": 92,
-        "gray": 1505,
+        "gray": 1507,
         "brown": 1220,
-        "blue": 2208,
+        "blue": 2210,
         "red": 481,
         "purple": 797,
         "yellow": 166,
@@ -371,19 +371,19 @@
       },
       "colorCoverage": 93.5,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3482
+      "uniqueStyles": 3483
     },
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 11024,
+      "total": 11029,
       "categories": {
         "bottoms": 1807,
         "tops": 740,
         "accessories": 779,
         "sports_bras": 208,
         "other": 3209,
-        "footwear": 3196,
+        "footwear": 3201,
         "outerwear": 1056,
         "dresses": 29
       },
@@ -394,7 +394,7 @@
         "hats": 243,
         "crop_tops": 233,
         "pants": 447,
-        "running": 2968,
+        "running": 2973,
         "tanks": 334,
         "jackets": 508,
         "joggers": 27,
@@ -414,8 +414,8 @@
         "trail": 2
       },
       "genders": {
-        "womens": 5251,
-        "mens": 4554,
+        "womens": 5252,
+        "mens": 4558,
         "unisex": 1219
       },
       "colors": {
@@ -427,9 +427,9 @@
         "khaki": 239,
         "gray": 354,
         "yellow": 84,
-        "white": 1706,
+        "white": 1707,
         "pink": 185,
-        "green": 295,
+        "green": 297,
         "orange": 82,
         "heather": 43,
         "brown": 123,
@@ -438,7 +438,7 @@
       },
       "colorCoverage": 58.8,
       "avgColorsPerStyle": 2.5,
-      "uniqueStyles": 1538
+      "uniqueStyles": 1540
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -900,12 +900,12 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2813,
+      "total": 2814,
       "categories": {
         "accessories": 541,
         "other": 920,
         "tops": 275,
-        "bottoms": 698,
+        "bottoms": 699,
         "footwear": 44,
         "outerwear": 303,
         "sports_bras": 32
@@ -920,7 +920,7 @@
         "hoodies": 239,
         "joggers": 77,
         "jackets": 54,
-        "pants": 22,
+        "pants": 23,
         "polos": 2,
         "tanks": 24,
         "hats": 65,
@@ -931,7 +931,7 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2289,
+        "unisex": 2290,
         "womens": 211,
         "mens": 313
       },
@@ -949,7 +949,7 @@
         "pink": 31,
         "orange": 50,
         "green": 62,
-        "navy": 23,
+        "navy": 24,
         "rust": 19
       },
       "colorCoverage": 92,
@@ -1066,12 +1066,32 @@
     }
   },
   "totals": {
-    "products": 56689,
+    "products": 56699,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-07",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark sport 5 2 in 1 shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-sport-5-2-in-1-shorts-shorts-teal-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sport 5 2 in 1 shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-5-2-in-1-shorts-shorts-teal-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "brand": "asrv",
@@ -1118,9 +1138,47 @@
     },
     {
       "date": "2026-11-06",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 5,
+      "products": [
+        {
+          "name": "cloudmonster 1 wp atmos m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-wp-atmos-m-3mg3116/mens/eclipse-olive-shoes-3MG31166308",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 1 wp atmos w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-wp-atmos-w-3wg3105/womens/eclipse-olive-shoes-3WG31056308",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/flowerbud-lucent-shoes-3MG10055934",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 3 m",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-m-3mg1005/mens/vellum-white-shoes-3MG10055705",
+          "category": "footwear",
+          "gender": "mens"
+        },
+        {
+          "name": "cloudmonster 1 wp atmos m 3mg3116",
+          "url": "https://www.on.com/en-us/products/cloudmonster-1-wp-atmos-m-3mg3116/mens",
+          "category": "footwear",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 2,
+      "count": 4,
       "products": [
         {
           "name": "gymshark edge leggings leggings",
@@ -1133,6 +1191,18 @@
           "url": "https://www.gymshark.com/es-US/products/gymshark-edge-leggings-leggings-purple-aw26",
           "category": "bottoms",
           "gender": "womens"
+        },
+        {
+          "name": "gymshark apex seamless long sleeve t shirt black silhouette",
+          "url": "https://www.gymshark.com/products/gymshark-apex-seamless-long-sleeve-t-shirt-black-silhouette-grey-aw22",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apex seamless long sleeve t shirt black silhouette",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-apex-seamless-long-sleeve-t-shirt-black-silhouette-grey-aw22",
+          "category": "tops",
+          "gender": "womens"
         }
       ]
     },
@@ -1140,11 +1210,17 @@
       "date": "2026-11-06",
       "brand": "venum",
       "brandSlug": "venum",
-      "count": 1,
+      "count": 2,
       "products": [
         {
           "name": "venum classic muay thai shorts desert",
           "url": "https://www.venum.com/products/venum-classic-muay-thai-shorts-desert-camo-1",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum attack 90 tracksuit pants",
+          "url": "https://www.venum.com/products/venum-attack-90-tracksuit-pants-navy",
           "category": "bottoms",
           "gender": "unisex"
         }
@@ -6775,206 +6851,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-10-24",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 12,
-      "products": [
-        {
-          "name": "gymshark training t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-training-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark training t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-training-t-shirt-ss-tops-blue-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark large pleat crossbody bags",
-          "url": "https://www.gymshark.com/products/gymshark-large-pleat-crossbody-bags-purple-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pleat ruched pouch bags",
-          "url": "https://www.gymshark.com/products/gymshark-pleat-ruched-pouch-bags-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark pleat crossbody bags aw26 i1c5o pcds",
-          "url": "https://www.gymshark.com/products/gymshark-pleat-crossbody-bags-purple-aw26-i1c5o-pcds",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pleat ruched pouch bags",
-          "url": "https://www.gymshark.com/products/gymshark-pleat-ruched-pouch-bags-purple-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark pleat crossbody bags aw26 i1c5o kdm7",
-          "url": "https://www.gymshark.com/products/gymshark-pleat-crossbody-bags-pink-aw26-i1c5o-kdm7",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark large pleat crossbody bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-large-pleat-crossbody-bags-purple-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pleat ruched pouch bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pleat-ruched-pouch-bags-black-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark pleat crossbody bags aw26 i1c5o pcds",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pleat-crossbody-bags-purple-aw26-i1c5o-pcds",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pleat ruched pouch bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pleat-ruched-pouch-bags-purple-aw26",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "gymshark pleat crossbody bags aw26 i1c5o kdm7",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pleat-crossbody-bags-pink-aw26-i1c5o-kdm7",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "brand": "goruck",
-      "brandSlug": "goruck",
-      "count": 9,
-      "products": [
-        {
-          "name": "packable bullet ruck ripstop robic 15l",
-          "url": "https://www.goruck.com/products/packable-bullet-ruck-ripstop-robic-15l",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ruck rack monster versatile mount for rucks weight vests tactical gear",
-          "url": "https://www.goruck.com/products/ruck-rack-monster-versatile-mount-for-rucks-weight-vests-tactical-gear",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ruck rack delta heavy duty wall mount storage for rucks weight vests tactical gear",
-          "url": "https://www.goruck.com/products/ruck-rack-delta-heavy-duty-wall-mount-storage-for-rucks-weight-vests-tactical-gear",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "packable bullet ruck ripstop robic 15l",
-          "url": "https://www.goruck.com/en-ca/products/packable-bullet-ruck-ripstop-robic-15l",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ruck rack monster versatile mount for rucks weight vests tactical gear",
-          "url": "https://www.goruck.com/en-ca/products/ruck-rack-monster-versatile-mount-for-rucks-weight-vests-tactical-gear",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ruck rack delta heavy duty wall mount storage for rucks weight vests tactical gear",
-          "url": "https://www.goruck.com/en-ca/products/ruck-rack-delta-heavy-duty-wall-mount-storage-for-rucks-weight-vests-tactical-gear",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "packable bullet ruck ripstop robic 15l",
-          "url": "https://www.goruck.com/en-au/products/packable-bullet-ruck-ripstop-robic-15l",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ruck rack monster versatile mount for rucks weight vests tactical gear",
-          "url": "https://www.goruck.com/en-au/products/ruck-rack-monster-versatile-mount-for-rucks-weight-vests-tactical-gear",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ruck rack delta heavy duty wall mount storage for rucks weight vests tactical gear",
-          "url": "https://www.goruck.com/en-au/products/ruck-rack-delta-heavy-duty-wall-mount-storage-for-rucks-weight-vests-tactical-gear",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "brand": "venum",
-      "brandSlug": "venum",
-      "count": 6,
-      "products": [
-        {
-          "name": "venum contender 1 5 shin guards",
-          "url": "https://www.venum.com/products/venum-contender-1-5-shin-guards-pink",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum contender 1 5 boxing gloves",
-          "url": "https://www.venum.com/products/venum-contender-1-5-boxing-gloves-pink",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum contender 1 5 shin guards green",
-          "url": "https://www.venum.com/products/venum-contender-1-5-shin-guards-green-white",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum contender 1 5 shin guards black",
-          "url": "https://www.venum.com/products/venum-contender-1-5-shin-guards-black-copper",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum contender 1 5 boxing gloves green",
-          "url": "https://www.venum.com/products/venum-contender-1-5-boxing-gloves-green-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum contender 1 5 boxing gloves black",
-          "url": "https://www.venum.com/products/venum-contender-1-5-boxing-gloves-black-copper",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "brand": "asrv",
-      "brandSlug": "asrv",
-      "count": 1,
-      "products": [
-        {
-          "name": "0906 thermal training quarter zip cyber",
-          "url": "https://asrv.com/products/0906-thermal-training-quarter-zip-navy-cyber",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7550,7 +7426,8 @@
       "2026-11-03": 122,
       "2026-11-04": 12,
       "2026-11-05": 10,
-      "2026-11-06": 2
+      "2026-11-06": 4,
+      "2026-11-07": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7613,7 +7490,8 @@
       "2026-10-27": 3,
       "2026-11-03": 8,
       "2026-11-04": 49,
-      "2026-11-05": 34
+      "2026-11-05": 34,
+      "2026-11-06": 5
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -7803,7 +7681,7 @@
       "2026-10-31": 4,
       "2026-11-03": 1,
       "2026-11-05": 3,
-      "2026-11-06": 1
+      "2026-11-06": 2
     },
     "everlast": {
       "2026-08-30": 315,
@@ -7844,7 +7722,7 @@
       "tenthousand": 91,
       "lululemon": 1732,
       "alo": 1851,
-      "gymshark": 5175,
+      "gymshark": 5177,
       "on_running": 1807,
       "gymreapers": 244,
       "sbd": 48,
@@ -7854,7 +7732,7 @@
       "goruck": 132,
       "ghost": 9,
       "hayabusa": 70,
-      "venum": 698,
+      "venum": 699,
       "everlast": 53,
       "dfyne": 354
     },
@@ -7864,7 +7742,7 @@
       "tenthousand": 49,
       "lululemon": 835,
       "alo": 599,
-      "gymshark": 4371,
+      "gymshark": 4373,
       "on_running": 740,
       "gymreapers": 289,
       "sbd": 163,
@@ -7941,7 +7819,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 3196,
+      "on_running": 3201,
       "schiek": 1,
       "goruck": 480,
       "hayabusa": 5,
@@ -8003,7 +7881,7 @@
       "tenthousand": 55,
       "lululemon": 528,
       "alo": 435,
-      "gymshark": 1994,
+      "gymshark": 1996,
       "on_running": 791,
       "gymreapers": 156,
       "sbd": 29,
@@ -8098,7 +7976,7 @@
       "asrv": 47,
       "goruck": 24,
       "hayabusa": 13,
-      "venum": 22,
+      "venum": 23,
       "everlast": 6,
       "dfyne": 13
     },
@@ -8156,7 +8034,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 41,
-      "gymshark": 754,
+      "gymshark": 756,
       "on_running": 19,
       "gymreapers": 15,
       "sbd": 5,
@@ -8343,7 +8221,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2968,
+      "on_running": 2973,
       "goruck": 234,
       "dfyne": 4
     },
@@ -8382,7 +8260,7 @@
       "vuori": 681,
       "outdoor_voices": 35,
       "alo": 525,
-      "gymshark": 1505,
+      "gymshark": 1507,
       "on_running": 354,
       "gymreapers": 87,
       "sbd": 22,
@@ -8406,7 +8284,7 @@
       "asrv": 80,
       "goruck": 24,
       "ghost": 4,
-      "venum": 23,
+      "venum": 24,
       "everlast": 2,
       "dfyne": 43
     },
@@ -8467,7 +8345,7 @@
       "lululemon": 17,
       "alo": 950,
       "gymshark": 987,
-      "on_running": 1706,
+      "on_running": 1707,
       "gymreapers": 112,
       "sbd": 6,
       "harbinger": 1,
@@ -8485,7 +8363,7 @@
       "outdoor_voices": 39,
       "lululemon": 8,
       "alo": 256,
-      "gymshark": 2208,
+      "gymshark": 2210,
       "on_running": 866,
       "gymreapers": 35,
       "sbd": 12,
@@ -8503,7 +8381,7 @@
       "lululemon": 4,
       "alo": 325,
       "gymshark": 764,
-      "on_running": 295,
+      "on_running": 297,
       "gymreapers": 113,
       "sbd": 6,
       "asrv": 130,
@@ -8940,7 +8818,7 @@
       "black": 21.1,
       "white": 17.2,
       "gray": 8.1,
-      "navy": 0.8,
+      "navy": 0.9,
       "blue": 9,
       "green": 2.2,
       "khaki": 3.6,
@@ -9246,7 +9124,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 891,
-      "text": "Vuori ranks #2 in shorts with 891 products. Behind Gymshark (1994)."
+      "text": "Vuori ranks #2 in shorts with 891 products. Behind Gymshark (1996)."
     },
     {
       "type": "comparison",
@@ -9256,7 +9134,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,276 competitor products tracked. Vuori's 5,413 = 10% share of tracked catalog."
+      "text": "Market context: 51,286 competitor products tracked. Vuori's 5,413 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9276,7 +9154,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 3262 products"
+        "comparison": "Competitors have 3267 products"
       },
       {
         "metric": "Medium Support",
@@ -9405,5 +9283,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-06T14:15:11.614Z"
+  "generated_at": "2026-11-07T14:15:09.364Z"
 }

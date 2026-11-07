@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 791,
-      "change_from_last": 0,
+      "total_jobs": 787,
+      "change_from_last": -4,
       "departments": {
-        "design": 78,
+        "design": 75,
         "finance": 6,
-        "other": 121,
+        "other": 120,
         "product": 6,
-        "retail": 283,
-        "engineering": 22,
+        "retail": 282,
+        "engineering": 21,
         "executive": 6,
-        "operations": 261,
+        "operations": 263,
         "hr": 5,
         "marketing": 3
       },
       "seniority": {
-        "junior": 467,
-        "manager": 125,
+        "junior": 468,
+        "manager": 122,
         "mid": 37,
         "c-suite": 14,
         "intern": 6,
-        "lead": 118,
-        "senior": 24
+        "lead": 117,
+        "senior": 23
       },
       "locations": [
-        "Toronto Eaton Centre, Toronto, ON (10040)",
-        "Phoenix, Arizona, United States",
-        "Manchester, England, United Kingdom",
-        "Chinook Centre, Calgary, AB (10048)",
-        "Roma, Rome, Italy",
-        "Dublin, Dublin, Ireland",
-        "Westport, Connecticut, United States",
-        "London, England, United Kingdom",
-        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
-        "Garden City, New York, United States",
-        "Ponce City Market, Atlanta, GA (10186)",
-        "Jordan Creek, West Des Moines, IA (10178)",
-        "Burlingame, California, United States",
-        "Brea, California, United States",
-        "Ross Park Mall, Pittsburgh, PA (10065)",
-        "Cherry Hill, New Jersey, United States",
+        "Alpharetta, Georgia, United States",
+        "Naperville, Illinois, United States",
+        "La Jolla, California, United States",
+        "Amsterdam, North Holland, Netherlands",
+        "Milwaukee Ave, Chicago, IL (10199)",
         "Roseville, California, United States",
-        "Tulsa, Oklahoma, United States",
+        "Ponce City Market, Atlanta, GA (10186)",
+        "Kenwood Towne Centre, Cincinnati, OH (10082)",
+        "Lexington, Kentucky, United States",
+        "Toronto Eaton Centre, Toronto, ON (10040)",
+        "McLean, Virginia, United States",
         "Hamburg, Hamburg, Germany",
-        "Multrees Walk, Edinburgh (50043)"
+        "Memphis Distribution Center, Southaven, MS (DC-MS)",
+        "Battersea Power Station, London (50079)",
+        "Perimeter Mall, Atlanta, GA (10176)",
+        "Memphis Distribution Center, Southaven, MS (USA-TN-Memphis Distribution Center)",
+        "Merrick Park, Coral Gables, FL (10042)",
+        "Oakbrook Center, Oak Brook, IL (10015)",
+        "The Gardens Mall, Palm Beach Gardens, FL (10036)",
+        "Williamsburg, Brooklyn, NY (10006)"
       ],
       "jobs": [
         {
@@ -550,30 +550,38 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-11-06T05:30:06.100697"
+      "checked_at": "2026-11-07T05:30:07.685619"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 6,
-      "change_from_last": -4,
+      "change_from_last": 0,
       "departments": {
-        "other": 3,
-        "engineering": 2,
-        "retail": 1
+        "other": 4,
+        "engineering": 2
       },
       "seniority": {
-        "manager": 1,
+        "manager": 2,
         "mid": 3,
-        "junior": 1,
         "senior": 1
       },
       "locations": [
-        "New York",
+        "New York, New York, United States",
         "Miami, Florida, United States",
         "Solihull, England, United Kingdom"
       ],
       "jobs": [
+        {
+          "id": "4981295101",
+          "title": "Department Manager ",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981295101",
+          "posted_at": "2026-11-06T08:34:08-05:00",
+          "category": "other",
+          "seniority": "manager"
+        },
         {
           "id": "4863068101",
           "title": "Gym Assistant General Manager",
@@ -615,16 +623,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4981257101",
-          "title": "Retail Sales Associates",
-          "location": "New York",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981257101",
-          "posted_at": "2026-10-23T12:02:49-04:00",
-          "category": "retail",
-          "seniority": "junior"
-        },
-        {
           "id": "4974208101",
           "title": "Senior Software Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -635,7 +633,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-11-06T05:30:08.223751"
+      "checked_at": "2026-11-07T05:30:09.817295"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -693,10 +691,10 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 178,
-      "change_from_last": -1,
+      "total_jobs": 176,
+      "change_from_last": -2,
       "departments": {
-        "retail": 139,
+        "retail": 137,
         "marketing": 10,
         "other": 13,
         "executive": 4,
@@ -706,32 +704,32 @@
         "operations": 1
       },
       "seniority": {
-        "lead": 93,
-        "mid": 78,
+        "lead": 92,
+        "mid": 77,
         "c-suite": 4,
         "senior": 3
       },
       "locations": [
-        "Southlake",
-        "Miami",
-        "Zurich",
-        "Wuhan",
-        "Boston",
-        "Central Valley",
+        "Brooklyn",
+        "Seoul",
+        "Nanjing",
         "Newport Beach",
-        "Beijing",
-        "Corte Madera",
-        "Macao",
-        "Tianjin",
         "Landquart",
-        "S\u00e3o Paulo",
-        "New York City",
-        "Guangzhou",
+        "Wuhan",
+        "Southlake",
+        "Zurich",
         "Aventura",
+        "Central Valley",
+        "Macao",
         "D\u00fcsseldorf",
-        "San Diego",
-        "Paris",
-        "Chengdu"
+        "New York City",
+        "London",
+        "Miami",
+        "S\u00e3o Paulo",
+        "Hong Kong",
+        "Madrid",
+        "Vienna",
+        "Beijing"
       ],
       "jobs": [
         {
@@ -751,16 +749,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8079104?gh_jid=8079104",
           "posted_at": "2026-09-29T11:36:15-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8129275",
-          "title": "Associate Store Leader , Dallas Southlake",
-          "location": "Southlake",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8129275?gh_jid=8129275",
-          "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -1233,10 +1221,20 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "marketing",
           "seniority": "c-suite"
+        },
+        {
+          "id": "6581102",
+          "title": "Part Time Store Advisor",
+          "location": "Tokyo",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/6581102?gh_jid=6581102",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "mid"
         }
       ],
-      "checked_at": "2026-11-06T05:30:17.640713"
+      "checked_at": "2026-11-07T05:30:19.162618"
     }
   },
-  "generated_at": "2026-11-06T05:30:19.640871"
+  "generated_at": "2026-11-07T05:30:21.162771"
 }
