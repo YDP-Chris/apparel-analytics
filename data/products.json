@@ -240,9 +240,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4994,
+      "total": 4995,
       "categories": {
-        "other": 862,
+        "other": 863,
         "bottoms": 1851,
         "tops": 599,
         "sports_bras": 350,
@@ -252,7 +252,7 @@
         "dresses": 136
       },
       "subcategories": {
-        "other": 1735,
+        "other": 1736,
         "leggings": 381,
         "tanks": 280,
         "shorts": 435,
@@ -280,13 +280,13 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3117,
+        "unisex": 3118,
         "womens": 1565,
         "mens": 312
       },
       "colors": {
         "navy": 199,
-        "black": 1079,
+        "black": 1080,
         "white": 950,
         "gray": 525,
         "khaki": 137,
@@ -305,7 +305,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3066
+      "uniqueStyles": 3067
     },
     "gymshark": {
       "name": "Gymshark",
@@ -655,11 +655,11 @@
     "asrv": {
       "name": "asrv",
       "slug": "asrv",
-      "total": 1955,
+      "total": 1956,
       "categories": {
         "accessories": 249,
         "other": 356,
-        "bottoms": 643,
+        "bottoms": 644,
         "outerwear": 257,
         "tops": 427,
         "sports_bras": 23
@@ -669,7 +669,7 @@
         "other": 474,
         "socks": 12,
         "hats": 144,
-        "joggers": 117,
+        "joggers": 118,
         "jackets": 64,
         "pants": 47,
         "shorts": 359,
@@ -687,12 +687,12 @@
         "polos": 4
       },
       "genders": {
-        "unisex": 1836,
+        "unisex": 1837,
         "womens": 108,
         "mens": 11
       },
       "colors": {
-        "black": 552,
+        "black": 553,
         "red": 81,
         "white": 214,
         "purple": 2,
@@ -1066,12 +1066,26 @@
     }
   },
   "totals": {
-    "products": 56699,
+    "products": 56701,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-08",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "sherpa snow angel puffer",
+          "url": "https://www.aloyoga.com/products/w4473r-sherpa-snow-angel-puffer-black",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "brand": "Gymshark",
@@ -1089,6 +1103,20 @@
           "url": "https://www.gymshark.com/es-US/products/gymshark-sport-5-2-in-1-shorts-shorts-teal-aw26",
           "category": "bottoms",
           "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "brand": "asrv",
+      "brandSlug": "asrv",
+      "count": 1,
+      "products": [
+        {
+          "name": "1067 tetra lite cuffed training jogger",
+          "url": "https://asrv.com/products/1067-tetra-lite-cuffed-training-jogger-black",
+          "category": "bottoms",
+          "gender": "unisex"
         }
       ]
     },
@@ -6519,338 +6547,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-10-25",
-      "brand": "asrv",
-      "brandSlug": "asrv",
-      "count": 54,
-      "products": [
-        {
-          "name": "1257 seamless balaclava",
-          "url": "https://asrv.com/products/1257-seamless-balaclava-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "1257 seamless balaclava slate",
-          "url": "https://asrv.com/products/1257-seamless-balaclava-slate-grey",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "1256 asrv x mechanix coldwork glove",
-          "url": "https://asrv.com/products/1256-asrv-x-mechanix-coldwork-glove-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "1259 modular airpods case",
-          "url": "https://asrv.com/products/1259-modular-airpods-case-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "0823 tetra lite 7 linerless short 8 asrv",
-          "url": "https://asrv.com/products/0823-tetra-lite-7-linerless-short-black-8-asrv",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0823 tetra lite 7 linerless short electric wings",
-          "url": "https://asrv.com/products/0823-tetra-lite-7-linerless-short-electric-blue-wings",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0823 tetra lite 7 linerless short electric 8 asrv",
-          "url": "https://asrv.com/products/0823-tetra-lite-7-linerless-short-electric-blue-8-asrv",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0823 tetra lite 7 linerless short slate 8 asrv",
-          "url": "https://asrv.com/products/0823-tetra-lite-7-linerless-short-slate-grey-8-asrv",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0906 thermal training quarter zip electric cyber",
-          "url": "https://asrv.com/products/0906-thermal-training-quarter-zip-electric-blue-cyber",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "0907 aerosilver training long sleeve electric space bracket",
-          "url": "https://asrv.com/products/0907-aerosilver-training-long-sleeve-electric-blue-space-bracket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "0907 aerosilver training long sleeve space bracket",
-          "url": "https://asrv.com/products/0907-aerosilver-training-long-sleeve-navy-space-bracket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "0953 aerotex hybrid liner short blade",
-          "url": "https://asrv.com/products/0953-aerotex-hybrid-liner-short-black-black-blade",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0953 aerotex hybrid liner short electric blackblade",
-          "url": "https://asrv.com/products/0953-aerotex-hybrid-liner-short-electric-blue-blackblade",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0953 aerotex hybrid liner short electric electric blade",
-          "url": "https://asrv.com/products/0953-aerotex-hybrid-liner-short-electric-blue-electric-blue-blade",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "0953 aerotex hybrid liner short slate grey blade",
-          "url": "https://asrv.com/products/0953-aerotex-hybrid-liner-short-slate-grey-black-blade",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1239 aerotex hybrid legging blade",
-          "url": "https://asrv.com/products/1239-aerotex-hybrid-legging-black-black-blade",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "1239 aerotex hybrid legging electric blue blade",
-          "url": "https://asrv.com/products/1239-aerotex-hybrid-legging-electric-blue-black-blade",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "1239 aerotex hybrid legging electric electric blade",
-          "url": "https://asrv.com/products/1239-aerotex-hybrid-legging-electric-blue-electric-blue-blade",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "1239 aerotex hybrid legging slate grey blade",
-          "url": "https://asrv.com/products/1239-aerotex-hybrid-legging-slate-grey-black-blade",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "1240 tetra lite quarter zip long sleeve",
-          "url": "https://asrv.com/products/1240-tetra-lite-quarter-zip-long-sleeve-black",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1240 tetra lite quarter zip long sleeve electric",
-          "url": "https://asrv.com/products/1240-tetra-lite-quarter-zip-long-sleeve-electric-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1240 tetra lite quarter zip long sleeve",
-          "url": "https://asrv.com/products/1240-tetra-lite-quarter-zip-long-sleeve-navy",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1240 tetra lite quarter zip long sleeve slate",
-          "url": "https://asrv.com/products/1240-tetra-lite-quarter-zip-long-sleeve-slate-grey",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1243 garment dyed ripstop zip jacket",
-          "url": "https://asrv.com/products/1243-garment-dyed-ripstop-zip-jacket-black",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1243 garment dyed ripstop zip jacket electric",
-          "url": "https://asrv.com/products/1243-garment-dyed-ripstop-zip-jacket-electric-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1243 garment dyed ripstop zip jacket slate",
-          "url": "https://asrv.com/products/1243-garment-dyed-ripstop-zip-jacket-slate-grey",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1244 garment dyed ripstop dri core jacket",
-          "url": "https://asrv.com/products/1244-garment-dyed-ripstop-dri-core-jacket-black",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1244 garment dyed ripstop dri core jacket electric",
-          "url": "https://asrv.com/products/1244-garment-dyed-ripstop-dri-core-jacket-electric-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1244 garment dyed ripstop dri core jacket",
-          "url": "https://asrv.com/products/1244-garment-dyed-ripstop-dri-core-jacket-navy",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1244 garment dyed ripstop dri core jacket slate",
-          "url": "https://asrv.com/products/1244-garment-dyed-ripstop-dri-core-jacket-slate-grey",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1245 dri core hoodie",
-          "url": "https://asrv.com/products/1245-dri-core-hoodie-black",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1245 dri core hoodie electric",
-          "url": "https://asrv.com/products/1245-dri-core-hoodie-electric-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1245 dri core hoodie slate",
-          "url": "https://asrv.com/products/1245-dri-core-hoodie-slate-grey",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "1251 garment dyed ripstop dri core cargo pant",
-          "url": "https://asrv.com/products/1251-garment-dyed-ripstop-dri-core-cargo-pant-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1251 garment dyed ripstop dri core cargo pant electric",
-          "url": "https://asrv.com/products/1251-garment-dyed-ripstop-dri-core-cargo-pant-electric-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1251 garment dyed ripstop dri core cargo pant",
-          "url": "https://asrv.com/products/1251-garment-dyed-ripstop-dri-core-cargo-pant-navy",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1251 garment dyed ripstop dri core cargo pant slate",
-          "url": "https://asrv.com/products/1251-garment-dyed-ripstop-dri-core-cargo-pant-slate-grey",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1253 dri core straight leg cargo sweats",
-          "url": "https://asrv.com/products/1253-dri-core-straight-leg-cargo-sweats-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1253 dri core straight leg cargo sweats",
-          "url": "https://asrv.com/products/1253-dri-core-straight-leg-cargo-sweats-navy",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "1253 dri core straight leg cargo sweats slate",
-          "url": "https://asrv.com/products/1253-dri-core-straight-leg-cargo-sweats-slate-grey",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "w031 thermal tech legging",
-          "url": "https://asrv.com/products/w031-thermal-tech-legging-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w031 thermal tech legging electric",
-          "url": "https://asrv.com/products/w031-thermal-tech-legging-electric-blue",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w031 thermal tech legging slate",
-          "url": "https://asrv.com/products/w031-thermal-tech-legging-slate-grey",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "w122 thermal training hoodie",
-          "url": "https://asrv.com/products/w122-thermal-training-hoodie-black",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "w122 thermal training hoodie electric",
-          "url": "https://asrv.com/products/w122-thermal-training-hoodie-electric-blue",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "w122 thermal training hoodie slate",
-          "url": "https://asrv.com/products/w122-thermal-training-hoodie-slate-grey",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "0813 tetra lite vented hat electric blue wings",
-          "url": "https://asrv.com/products/0813-tetra-lite-vented-hat-electric-blue-white-wings",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "w039 lycra hybrid sports bra electric",
-          "url": "https://asrv.com/products/w039-lycra-hybrid-sports-bra-electric-blue",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "warpflexx calf sleeve blade",
-          "url": "https://asrv.com/products/warpflexx-calf-sleeve-black-blade",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "warpflexx calf sleeve slate blade",
-          "url": "https://asrv.com/products/warpflexx-calf-sleeve-slate-grey-blade",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "warpflexx arm sleeve blade",
-          "url": "https://asrv.com/products/warpflexx-arm-sleeve-black-blade",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "warpflexx arm sleeve slate blade",
-          "url": "https://asrv.com/products/warpflexx-arm-sleeve-slate-grey-blade",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "1255 tetra lite notch hat black asrv",
-          "url": "https://asrv.com/products/1255-tetra-lite-notch-hat-black-white-asrv",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "1255 tetra lite notch hat electric blue asrv",
-          "url": "https://asrv.com/products/1255-tetra-lite-notch-hat-electric-blue-white-asrv",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -7245,7 +6941,8 @@
       "2026-10-23": 1,
       "2026-11-02": 1,
       "2026-11-04": 4,
-      "2026-11-05": 1
+      "2026-11-05": 1,
+      "2026-11-08": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -7568,7 +7265,8 @@
       "2026-10-30": 45,
       "2026-11-03": 1,
       "2026-11-05": 2,
-      "2026-11-06": 6
+      "2026-11-06": 6,
+      "2026-11-07": 1
     },
     "goruck": {
       "2026-08-30": 1921,
@@ -7728,7 +7426,7 @@
       "sbd": 48,
       "schiek": 2,
       "bear_grips": 330,
-      "asrv": 643,
+      "asrv": 644,
       "goruck": 132,
       "ghost": 9,
       "hayabusa": 70,
@@ -7781,7 +7479,7 @@
       "outdoor_voices": 74,
       "tenthousand": 18,
       "lululemon": 917,
-      "alo": 862,
+      "alo": 863,
       "gymshark": 953,
       "on_running": 3209,
       "gymreapers": 361,
@@ -7868,7 +7566,7 @@
       "gymreapers": 31,
       "sbd": 12,
       "bear_grips": 30,
-      "asrv": 117,
+      "asrv": 118,
       "goruck": 18,
       "hayabusa": 1,
       "venum": 77,
@@ -7948,7 +7646,7 @@
       "outdoor_voices": 199,
       "tenthousand": 43,
       "lululemon": 1593,
-      "alo": 1735,
+      "alo": 1736,
       "gymshark": 4492,
       "on_running": 3646,
       "gymreapers": 599,
@@ -8291,14 +7989,14 @@
     "black": {
       "vuori": 997,
       "outdoor_voices": 105,
-      "alo": 1079,
+      "alo": 1080,
       "gymshark": 3177,
       "on_running": 1678,
       "gymreapers": 140,
       "sbd": 6,
       "schiek": 8,
       "bear_grips": 4,
-      "asrv": 552,
+      "asrv": 553,
       "goruck": 108,
       "optimum_nutrition": 10,
       "ghost": 41,
@@ -8866,7 +8564,7 @@
     },
     {
       "brand": "asrv",
-      "black": 28.2,
+      "black": 28.3,
       "white": 10.9,
       "gray": 16.1,
       "navy": 4.1,
@@ -9134,7 +8832,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,286 competitor products tracked. Vuori's 5,413 = 10% share of tracked catalog."
+      "text": "Market context: 51,288 competitor products tracked. Vuori's 5,413 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -9283,5 +8981,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-07T14:15:09.364Z"
+  "generated_at": "2026-11-08T14:15:11.313Z"
 }
