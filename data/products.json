@@ -3,7 +3,7 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 5413,
+      "total": 5414,
       "categories": {
         "bottoms": 2450,
         "tops": 830,
@@ -11,7 +11,7 @@
         "other": 805,
         "sports_bras": 183,
         "footwear": 20,
-        "accessories": 310,
+        "accessories": 311,
         "dresses": 48
       },
       "subcategories": {
@@ -37,7 +37,7 @@
         "casual_dress": 26,
         "sweatpants": 170,
         "bags": 13,
-        "socks": 110,
+        "socks": 111,
         "headwear": 26,
         "rompers": 15,
         "fleece": 19
@@ -45,12 +45,12 @@
       "genders": {
         "mens": 1877,
         "womens": 2539,
-        "unisex": 997
+        "unisex": 998
       },
       "colors": {
         "gray": 681,
         "navy": 126,
-        "black": 997,
+        "black": 998,
         "khaki": 226,
         "red": 119,
         "white": 517,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 83.3,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3076
+      "uniqueStyles": 3077
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -240,19 +240,19 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4995,
+      "total": 4996,
       "categories": {
         "other": 863,
         "bottoms": 1851,
         "tops": 599,
-        "sports_bras": 350,
+        "sports_bras": 351,
         "accessories": 441,
         "outerwear": 710,
         "footwear": 45,
         "dresses": 136
       },
       "subcategories": {
-        "other": 1736,
+        "other": 1737,
         "leggings": 381,
         "tanks": 280,
         "shorts": 435,
@@ -281,7 +281,7 @@
       },
       "genders": {
         "unisex": 3118,
-        "womens": 1565,
+        "womens": 1566,
         "mens": 312
       },
       "colors": {
@@ -292,7 +292,7 @@
         "khaki": 137,
         "pink": 249,
         "blue": 256,
-        "purple": 41,
+        "purple": 42,
         "green": 325,
         "brown": 313,
         "red": 232,
@@ -310,10 +310,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13703,
+      "total": 13707,
       "categories": {
-        "bottoms": 5177,
-        "tops": 4373,
+        "bottoms": 5179,
+        "tops": 4375,
         "other": 953,
         "accessories": 716,
         "outerwear": 1330,
@@ -331,12 +331,12 @@
         "joggers": 681,
         "hoodies": 688,
         "jackets": 340,
-        "pants": 542,
+        "pants": 544,
         "pullovers": 214,
         "high_support": 52,
         "bags": 96,
         "bralette": 90,
-        "tees": 122,
+        "tees": 124,
         "headwear": 38,
         "polos": 34,
         "hats": 134,
@@ -349,17 +349,17 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 6057,
+        "unisex": 6059,
         "womens": 4887,
-        "mens": 2759
+        "mens": 2761
       },
       "colors": {
         "green": 764,
         "pink": 1308,
-        "black": 3177,
+        "black": 3179,
         "white": 987,
         "navy": 92,
-        "gray": 1507,
+        "gray": 1509,
         "brown": 1220,
         "blue": 2210,
         "red": 481,
@@ -371,7 +371,7 @@
       },
       "colorCoverage": 93.5,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3483
+      "uniqueStyles": 3485
     },
     "on_running": {
       "name": "On Running",
@@ -712,14 +712,14 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2581,
+      "total": 2617,
       "categories": {
         "other": 1392,
         "accessories": 163,
         "tops": 288,
         "bottoms": 132,
         "outerwear": 114,
-        "footwear": 480,
+        "footwear": 516,
         "sports_bras": 12
       },
       "subcategories": {
@@ -732,10 +732,10 @@
         "pants": 24,
         "vests": 42,
         "tees": 102,
-        "training": 246,
+        "training": 270,
         "socks": 30,
         "tanks": 24,
-        "running": 234,
+        "running": 246,
         "pullovers": 6,
         "joggers": 18,
         "jackets": 12,
@@ -744,29 +744,29 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 2035,
+        "unisex": 2071,
         "mens": 282,
         "womens": 264
       },
       "colors": {
         "rust": 6,
         "khaki": 54,
-        "black": 108,
-        "white": 96,
+        "black": 120,
+        "white": 108,
         "blue": 24,
         "gray": 114,
         "brown": 6,
         "print": 18,
         "pink": 18,
-        "red": 42,
+        "red": 48,
         "navy": 24,
         "yellow": 36,
         "orange": 6,
         "green": 6
       },
-      "colorCoverage": 21.6,
+      "colorCoverage": 22.5,
       "avgColorsPerStyle": 1,
-      "uniqueStyles": 71
+      "uniqueStyles": 76
     },
     "optimum_nutrition": {
       "name": "optimum_nutrition",
@@ -1066,23 +1066,307 @@
     }
   },
   "totals": {
-    "products": 56701,
+    "products": 56743,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
     {
+      "date": "2026-11-09",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 6,
+      "products": [
+        {
+          "name": "ballistic trainers slick blackout",
+          "url": "https://www.goruck.com/en-sg/products/ballistic-trainers-slick-blackout",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick gum",
+          "url": "https://www.goruck.com/en-sg/products/ballistic-trainers-slick-black-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick ranger green",
+          "url": "https://www.goruck.com/en-sg/products/ballistic-trainers-slick-ranger-green-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick coyote",
+          "url": "https://www.goruck.com/en-sg/products/ballistic-trainers-slick-black-coyote",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner black",
+          "url": "https://www.goruck.com/en-sg/products/rough-runner-black-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner light grey",
+          "url": "https://www.goruck.com/en-sg/products/rough-runner-light-grey-red",
+          "category": "footwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 4,
+      "products": [
+        {
+          "name": "gymshark mesh straight leg pants pants",
+          "url": "https://www.gymshark.com/products/gymshark-mesh-straight-leg-pants-pants-grey-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting girl graphic oversized tee ss tops",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-girl-graphic-oversized-tee-ss-tops-black-ss25",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark mesh straight leg pants pants",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-mesh-straight-leg-pants-pants-grey-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting girl graphic oversized tee ss tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-girl-graphic-oversized-tee-ss-tops-black-ss25",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 1,
+      "products": [
+        {
+          "name": "quarter crew v1 sock",
+          "url": "https://vuoriclothing.com/products/quarter-crew-v1-sock-black",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 30,
+      "products": [
+        {
+          "name": "ballistic trainers slick blackout",
+          "url": "https://www.goruck.com/products/ballistic-trainers-slick-blackout",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick gum",
+          "url": "https://www.goruck.com/products/ballistic-trainers-slick-black-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick ranger green",
+          "url": "https://www.goruck.com/products/ballistic-trainers-slick-ranger-green-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick coyote",
+          "url": "https://www.goruck.com/products/ballistic-trainers-slick-black-coyote",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner black",
+          "url": "https://www.goruck.com/products/rough-runner-black-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner light grey",
+          "url": "https://www.goruck.com/products/rough-runner-light-grey-red",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick blackout",
+          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-blackout",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick gum",
+          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-black-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick ranger green",
+          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-ranger-green-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick coyote",
+          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-black-coyote",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner black",
+          "url": "https://www.goruck.com/en-ca/products/rough-runner-black-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner light grey",
+          "url": "https://www.goruck.com/en-ca/products/rough-runner-light-grey-red",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick blackout",
+          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-blackout",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick gum",
+          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-black-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick ranger green",
+          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-ranger-green-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick coyote",
+          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-black-coyote",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner black",
+          "url": "https://www.goruck.com/en-au/products/rough-runner-black-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner light grey",
+          "url": "https://www.goruck.com/en-au/products/rough-runner-light-grey-red",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick blackout",
+          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-blackout",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick gum",
+          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-black-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick ranger green",
+          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-ranger-green-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick coyote",
+          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-black-coyote",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner black",
+          "url": "https://www.goruck.com/en-gb/products/rough-runner-black-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner light grey",
+          "url": "https://www.goruck.com/en-gb/products/rough-runner-light-grey-red",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick blackout",
+          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-blackout",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick gum",
+          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-black-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick ranger green",
+          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-ranger-green-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick coyote",
+          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-black-coyote",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner black",
+          "url": "https://www.goruck.com/en-eu/products/rough-runner-black-white",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "rough runner light grey",
+          "url": "https://www.goruck.com/en-eu/products/rough-runner-light-grey-red",
+          "category": "footwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "brand": "Alo Yoga",
       "brandSlug": "alo",
-      "count": 1,
+      "count": 2,
       "products": [
         {
           "name": "sherpa snow angel puffer",
           "url": "https://www.aloyoga.com/products/w4473r-sherpa-snow-angel-puffer-black",
           "category": "other",
           "gender": "unisex"
+        },
+        {
+          "name": "airlift intrigue bra",
+          "url": "https://www.aloyoga.com/products/w9557r-airlift-intrigue-bra-dark-plum",
+          "category": "sports_bras",
+          "gender": "womens"
         }
       ]
     },
@@ -5605,948 +5889,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-10-26",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 60,
-      "products": [
-        {
-          "name": "gymshark power seasonals oversized pants pants",
-          "url": "https://www.gymshark.com/products/gymshark-power-seasonals-oversized-pants-pants-brown-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark power seasonals oversized pants pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-power-seasonals-oversized-pants-pants-brown-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark vengeance track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-track-jacket-jackets-outerwear-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-graphic-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-t-shirt-ss-tops-purple-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-purple-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance utility pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-utility-pant-pants-brown-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-graphic-t-shirt-ss-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-graphic-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance full zip jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-full-zip-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance utility pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-utility-pant-pants-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-track-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-track-pant-pants-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance washed graphic hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-washed-graphic-hoodie-pullovers-purple-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance full zip jacket jackets outerwear",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-full-zip-jacket-jackets-outerwear-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-track-pant-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-t-shirt-ss-tops-teal-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-graphic-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance utility pant pants",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-utility-pant-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance washed graphic hoodie pullovers",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-washed-graphic-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic tank sleeveless tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-graphic-tank-sleeveless-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track pant pants aw26 a5c4a bb2j",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-track-pant-pants-black-aw26-a5c4a-bb2j",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track jacket jackets outerwear aw26 a5b7x bdqz",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-track-jacket-jackets-outerwear-black-aw26-a5b7x-bdqz",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-teal-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pleat messenger bags",
-          "url": "https://www.gymshark.com/products/gymshark-pleat-messenger-bags-purple-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-track-jacket-jackets-outerwear-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-graphic-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-t-shirt-ss-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-t-shirt-ss-tops-purple-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-purple-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance utility pant pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-utility-pant-pants-brown-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-graphic-t-shirt-ss-tops-grey-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-graphic-tank-sleeveless-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance full zip jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-full-zip-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance utility pant pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-utility-pant-pants-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-track-jacket-jackets-outerwear-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track pant pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-track-pant-pants-grey-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance washed graphic hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-washed-graphic-hoodie-pullovers-purple-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance full zip jacket jackets outerwear",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-full-zip-jacket-jackets-outerwear-grey-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track pant pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-track-pant-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-t-shirt-ss-tops-teal-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-graphic-t-shirt-ss-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance utility pant pants",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-utility-pant-pants-black-aw26",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance washed graphic hoodie pullovers",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-washed-graphic-hoodie-pullovers-black-aw26",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance graphic tank sleeveless tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-graphic-tank-sleeveless-tops-white-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-black-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track pant pants aw26 a5c4a bb2j",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-track-pant-pants-black-aw26-a5c4a-bb2j",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance track jacket jackets outerwear aw26 a5b7x bdqz",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-track-jacket-jackets-outerwear-black-aw26-a5b7x-bdqz",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark vengeance long sleeve t shirt ls tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-vengeance-long-sleeve-t-shirt-ls-tops-teal-aw26",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark pleat messenger bags",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-pleat-messenger-bags-purple-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-crest-t-shirt-ss-tops-teal-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-crest-t-shirt-ss-tops-red-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest t shirt ss tops",
-          "url": "https://www.gymshark.com/products/gymshark-crest-t-shirt-ss-tops-green-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-t-shirt-ss-tops-teal-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-t-shirt-ss-tops-red-aw26",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark crest t shirt ss tops",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-t-shirt-ss-tops-green-aw26",
-          "category": "tops",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "brand": "gymreapers",
-      "brandSlug": "gymreapers",
-      "count": 53,
-      "products": [
-        {
-          "name": "axis 6 lined shorts lake",
-          "url": "https://www.gymreapers.com/products/axis-6-lined-shorts-lake",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis cap sleeve tank",
-          "url": "https://www.gymreapers.com/products/axis-cap-sleeve-tank-black-black",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis cap sleeve tank black",
-          "url": "https://www.gymreapers.com/products/axis-cap-sleeve-tank-black-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis cap sleeve tank od",
-          "url": "https://www.gymreapers.com/products/axis-cap-sleeve-tank-od-green",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis cap sleeve tank",
-          "url": "https://www.gymreapers.com/products/axis-cap-sleeve-tank-heather-gray",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis cap sleeve tank lake",
-          "url": "https://www.gymreapers.com/products/axis-cap-sleeve-tank-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis muscle tank",
-          "url": "https://www.gymreapers.com/products/axis-muscle-tank-black-black",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis muscle tank black",
-          "url": "https://www.gymreapers.com/products/axis-muscle-tank-black-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis muscle tank od",
-          "url": "https://www.gymreapers.com/products/axis-muscle-tank-od-green",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis muscle tank",
-          "url": "https://www.gymreapers.com/products/axis-muscle-tank-heather-gray",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis muscle tank lake",
-          "url": "https://www.gymreapers.com/products/axis-muscle-tank-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis muscle tank",
-          "url": "https://www.gymreapers.com/products/axis-muscle-tank-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis raglan tee",
-          "url": "https://www.gymreapers.com/products/axis-raglan-tee-black-black",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis raglan tee black",
-          "url": "https://www.gymreapers.com/products/axis-raglan-tee-black-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis raglan tee od",
-          "url": "https://www.gymreapers.com/products/axis-raglan-tee-od-green",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis raglan tee",
-          "url": "https://www.gymreapers.com/products/axis-raglan-tee-heather-gray",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis raglan tee lake",
-          "url": "https://www.gymreapers.com/products/axis-raglan-tee-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis scoop hem tank",
-          "url": "https://www.gymreapers.com/products/axis-scoop-hem-tank-heather-gray",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis scoop hem tank lake",
-          "url": "https://www.gymreapers.com/products/axis-scoop-hem-tank-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis box tee",
-          "url": "https://www.gymreapers.com/products/axis-box-tee-heather-gray",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis box tee lake",
-          "url": "https://www.gymreapers.com/products/axis-box-tee-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis box tee",
-          "url": "https://www.gymreapers.com/products/axis-box-tee-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis 6 lined shorts",
-          "url": "https://www.gymreapers.com/products/axis-6-lined-shorts-black-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis 6 lined shorts black",
-          "url": "https://www.gymreapers.com/products/axis-6-lined-shorts-black-white",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis 6 lined shorts od",
-          "url": "https://www.gymreapers.com/products/axis-6-lined-shorts-od-green",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis open back bra od",
-          "url": "https://www.gymreapers.com/products/axis-open-back-bra-od-green",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis open back bra lake",
-          "url": "https://www.gymreapers.com/products/axis-open-back-bra-lake",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis open back bra",
-          "url": "https://www.gymreapers.com/products/axis-open-back-bra-white",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis high neck bra od",
-          "url": "https://www.gymreapers.com/products/axis-high-neck-bra-od-green",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis high neck bra lake",
-          "url": "https://www.gymreapers.com/products/axis-high-neck-bra-lake",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis high neck bra",
-          "url": "https://www.gymreapers.com/products/axis-high-neck-bra-white",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis twisted halter bra lake",
-          "url": "https://www.gymreapers.com/products/axis-twisted-halter-bra-lake",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis twisted halter bra",
-          "url": "https://www.gymreapers.com/products/axis-twisted-halter-bra-white",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "axis support tank lake",
-          "url": "https://www.gymreapers.com/products/axis-support-tank-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis support tank",
-          "url": "https://www.gymreapers.com/products/axis-support-tank-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis support baby tee lake",
-          "url": "https://www.gymreapers.com/products/axis-support-baby-tee-lake",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis support baby tee",
-          "url": "https://www.gymreapers.com/products/axis-support-baby-tee-white",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis 4 shorts lake",
-          "url": "https://www.gymreapers.com/products/axis-4-shorts-lake",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis sport shorts",
-          "url": "https://www.gymreapers.com/products/axis-sport-shorts-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis sport shorts lake",
-          "url": "https://www.gymreapers.com/products/axis-sport-shorts-lake",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "axis leggings lake",
-          "url": "https://www.gymreapers.com/products/axis-leggings-lake",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "axis flare leggings lake",
-          "url": "https://www.gymreapers.com/products/axis-flare-leggings-lake",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "5 panel initial hat",
-          "url": "https://www.gymreapers.com/products/5-panel-initial-hat-brown",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel initial hat white",
-          "url": "https://www.gymreapers.com/products/5-panel-initial-hat-white-camo",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel initial suede hat",
-          "url": "https://www.gymreapers.com/products/5-panel-initial-suede-hat-blue",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel initial suede hat white",
-          "url": "https://www.gymreapers.com/products/5-panel-initial-suede-hat-white-gray",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel corduroy reaper training club hat black",
-          "url": "https://www.gymreapers.com/products/5-panel-corduroy-reaper-training-club-hat-black-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel corduroy reaper training club hat white",
-          "url": "https://www.gymreapers.com/products/5-panel-corduroy-reaper-training-club-hat-white-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel skull hat black",
-          "url": "https://www.gymreapers.com/products/5-panel-skull-hat-black-green",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "5 panel skull hat cream",
-          "url": "https://www.gymreapers.com/products/5-panel-skull-hat-cream-grey",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "washed 6 panel dad hat",
-          "url": "https://www.gymreapers.com/products/washed-6-panel-dad-hat-camo",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "washed 6 panel dad hat",
-          "url": "https://www.gymreapers.com/products/washed-6-panel-dad-hat-brown",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "washed 6 panel dad hat lake",
-          "url": "https://www.gymreapers.com/products/washed-6-panel-dad-hat-lake",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "brand": "venum",
-      "brandSlug": "venum",
-      "count": 26,
-      "products": [
-        {
-          "name": "venum flexfit delta cap",
-          "url": "https://www.venum.com/products/venum-flexfit-delta-cap-grey",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum flexfit delta cap",
-          "url": "https://www.venum.com/products/venum-flexfit-delta-cap-beige",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum elite wrestling shoes",
-          "url": "https://www.venum.com/products/venum-elite-wrestling-shoes-khaki",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum elite wrestling shoes navy",
-          "url": "https://www.venum.com/products/venum-elite-wrestling-shoes-navy-blue",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum elite wrestling shoes",
-          "url": "https://www.venum.com/products/venum-elite-wrestling-shoes-beige",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum viper womens leggings",
-          "url": "https://www.venum.com/products/venum-viper-womens-leggings-brown",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens track jacket",
-          "url": "https://www.venum.com/products/venum-viper-womens-track-jacket-brown",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens sports bra",
-          "url": "https://www.venum.com/products/venum-viper-womens-sports-bra-black",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens leggings",
-          "url": "https://www.venum.com/products/venum-viper-womens-leggings-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens short sleeve rashguard",
-          "url": "https://www.venum.com/products/venum-viper-womens-short-sleeve-rashguard-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens short sleeve rashguard",
-          "url": "https://www.venum.com/products/venum-viper-womens-short-sleeve-rashguard-brown",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens track jacket",
-          "url": "https://www.venum.com/products/venum-viper-womens-track-jacket-black",
-          "category": "outerwear",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens 7 8 leggings",
-          "url": "https://www.venum.com/products/venum-viper-womens-7-8-leggings-brown",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens long sleeve rashguard",
-          "url": "https://www.venum.com/products/venum-viper-womens-long-sleeve-rashguard-brown",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens sports bra",
-          "url": "https://www.venum.com/products/venum-viper-womens-sports-bra-brown",
-          "category": "sports_bras",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens 7 8 leggings",
-          "url": "https://www.venum.com/products/venum-viper-womens-7-8-leggings-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens long sleeve rashguard",
-          "url": "https://www.venum.com/products/venum-viper-womens-long-sleeve-rashguard-black",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens training shorts",
-          "url": "https://www.venum.com/products/venum-viper-womens-training-shorts-brown",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum viper womens training shorts",
-          "url": "https://www.venum.com/products/venum-viper-womens-training-shorts-black",
-          "category": "bottoms",
-          "gender": "womens"
-        },
-        {
-          "name": "venum x jujutsu kaisen sukuna cap",
-          "url": "https://www.venum.com/products/venum-x-jujutsu-kaisen-sukuna-cap-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum x jujutsu kaisen fushiguro cap",
-          "url": "https://www.venum.com/products/venum-x-jujutsu-kaisen-fushiguro-cap-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum x jujutsu kaisen itadori cap",
-          "url": "https://www.venum.com/products/venum-x-jujutsu-kaisen-itadori-cap-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum x jujutsu kaisen gojo cap",
-          "url": "https://www.venum.com/products/venum-x-jujutsu-kaisen-gojo-cap-black",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum classic curved punching mitts",
-          "url": "https://www.venum.com/products/venum-classic-curved-punching-mitts",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum contender 1 5xt boxing gloves glossy burgundy",
-          "url": "https://www.venum.com/products/venum-contender-1-5xt-boxing-gloves-glossy-burgundy-white",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum challenger mouthguard black",
-          "url": "https://www.venum.com/products/venum-challenger-mouthguard-black-red",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "brand": "Outdoor Voices",
-      "brandSlug": "outdoor_voices",
-      "count": 7,
-      "products": [
-        {
-          "name": "gloss puffer",
-          "url": "https://www.outdoorvoices.com/products/gloss-puffer-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gloss puffer baby",
-          "url": "https://www.outdoorvoices.com/products/gloss-puffer-baby",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gloss puffer baby",
-          "url": "https://www.outdoorvoices.com/products/gloss-puffer-berry-baby",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gloss puffer swirl",
-          "url": "https://www.outdoorvoices.com/products/gloss-puffer-lilac-swirl",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gloss puffer",
-          "url": "https://www.outdoorvoices.com/products/gloss-puffer-moonlight",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "m sunday sweatpant earth",
-          "url": "https://www.outdoorvoices.com/products/m-sunday-sweatpant-earth",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "m sunday short earth",
-          "url": "https://www.outdoorvoices.com/products/m-sunday-short-earth",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "brand": "hayabusa",
-      "brandSlug": "hayabusa",
-      "count": 2,
-      "products": [
-        {
-          "name": "marvel s doctor doom boxing gloves",
-          "url": "https://www.hayabusafight.com/products/marvel-s-doctor-doom-boxing-gloves",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "marvel s spider man boxing gloves",
-          "url": "https://www.hayabusafight.com/products/marvel-s-spider-man-boxing-gloves",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "brand": "optimum_nutrition",
-      "brandSlug": "optimum_nutrition",
-      "count": 1,
-      "products": [
-        {
-          "name": "magnesium glycinate plus",
-          "url": "https://www.optimumnutrition.com/de-de/products/magnesium-glycinate-plus",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6688,7 +6030,8 @@
       "2026-10-29": 5,
       "2026-10-31": 237,
       "2026-11-03": 2,
-      "2026-11-05": 4
+      "2026-11-05": 4,
+      "2026-11-09": 1
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -6942,7 +6285,7 @@
       "2026-11-02": 1,
       "2026-11-04": 4,
       "2026-11-05": 1,
-      "2026-11-08": 1
+      "2026-11-08": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -7124,7 +6467,8 @@
       "2026-11-04": 12,
       "2026-11-05": 10,
       "2026-11-06": 4,
-      "2026-11-07": 2
+      "2026-11-07": 2,
+      "2026-11-09": 4
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -7301,7 +6645,9 @@
       "2026-10-29": 1,
       "2026-11-03": 12,
       "2026-11-04": 18,
-      "2026-11-05": 6
+      "2026-11-05": 6,
+      "2026-11-08": 30,
+      "2026-11-09": 6
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -7420,7 +6766,7 @@
       "tenthousand": 91,
       "lululemon": 1732,
       "alo": 1851,
-      "gymshark": 5177,
+      "gymshark": 5179,
       "on_running": 1807,
       "gymreapers": 244,
       "sbd": 48,
@@ -7440,7 +6786,7 @@
       "tenthousand": 49,
       "lululemon": 835,
       "alo": 599,
-      "gymshark": 4373,
+      "gymshark": 4375,
       "on_running": 740,
       "gymreapers": 289,
       "sbd": 163,
@@ -7500,7 +6846,7 @@
       "vuori": 183,
       "outdoor_voices": 46,
       "lululemon": 186,
-      "alo": 350,
+      "alo": 351,
       "gymshark": 1142,
       "on_running": 208,
       "gymreapers": 78,
@@ -7519,14 +6865,14 @@
       "alo": 45,
       "on_running": 3201,
       "schiek": 1,
-      "goruck": 480,
+      "goruck": 516,
       "hayabusa": 5,
       "venum": 44,
       "everlast": 12,
       "dfyne": 4
     },
     "accessories": {
-      "vuori": 310,
+      "vuori": 311,
       "outdoor_voices": 49,
       "tenthousand": 5,
       "lululemon": 627,
@@ -7615,7 +6961,7 @@
       "tenthousand": 15,
       "lululemon": 22,
       "alo": 56,
-      "gymshark": 122,
+      "gymshark": 124,
       "gymreapers": 140,
       "bear_grips": 567,
       "asrv": 285,
@@ -7646,7 +6992,7 @@
       "outdoor_voices": 199,
       "tenthousand": 43,
       "lululemon": 1593,
-      "alo": 1736,
+      "alo": 1737,
       "gymshark": 4492,
       "on_running": 3646,
       "gymreapers": 599,
@@ -7669,7 +7015,7 @@
       "tenthousand": 21,
       "lululemon": 448,
       "alo": 255,
-      "gymshark": 542,
+      "gymshark": 544,
       "on_running": 447,
       "asrv": 47,
       "goruck": 24,
@@ -7704,7 +7050,7 @@
       "vuori": 20,
       "lululemon": 8,
       "schiek": 1,
-      "goruck": 246,
+      "goruck": 270,
       "venum": 7,
       "everlast": 1
     },
@@ -7874,7 +7220,7 @@
       "everlast": 57
     },
     "socks": {
-      "vuori": 110,
+      "vuori": 111,
       "outdoor_voices": 34,
       "tenthousand": 2,
       "lululemon": 159,
@@ -7920,7 +7266,7 @@
       "lululemon": 23,
       "alo": 32,
       "on_running": 2973,
-      "goruck": 234,
+      "goruck": 246,
       "dfyne": 4
     },
     "medium_support": {
@@ -7958,7 +7304,7 @@
       "vuori": 681,
       "outdoor_voices": 35,
       "alo": 525,
-      "gymshark": 1507,
+      "gymshark": 1509,
       "on_running": 354,
       "gymreapers": 87,
       "sbd": 22,
@@ -7987,17 +7333,17 @@
       "dfyne": 43
     },
     "black": {
-      "vuori": 997,
+      "vuori": 998,
       "outdoor_voices": 105,
       "alo": 1080,
-      "gymshark": 3177,
+      "gymshark": 3179,
       "on_running": 1678,
       "gymreapers": 140,
       "sbd": 6,
       "schiek": 8,
       "bear_grips": 4,
       "asrv": 553,
-      "goruck": 108,
+      "goruck": 120,
       "optimum_nutrition": 10,
       "ghost": 41,
       "hayabusa": 2,
@@ -8030,7 +7376,7 @@
       "sbd": 3,
       "harbinger": 2,
       "asrv": 81,
-      "goruck": 42,
+      "goruck": 48,
       "optimum_nutrition": 16,
       "ghost": 24,
       "venum": 312,
@@ -8049,7 +7395,7 @@
       "harbinger": 1,
       "bear_grips": 2,
       "asrv": 214,
-      "goruck": 96,
+      "goruck": 108,
       "optimum_nutrition": 36,
       "ghost": 32,
       "venum": 483,
@@ -8124,7 +7470,7 @@
     "purple": {
       "vuori": 178,
       "outdoor_voices": 11,
-      "alo": 41,
+      "alo": 42,
       "gymshark": 797,
       "on_running": 195,
       "gymreapers": 12,
@@ -8256,7 +7602,7 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37.1,
+      "bottoms": 37,
       "tops": 12,
       "outerwear": 14.2,
       "dresses": 2.7,
@@ -8276,13 +7622,13 @@
     },
     {
       "brand": "goruck",
-      "bottoms": 5.1,
-      "tops": 11.2,
+      "bottoms": 5,
+      "tops": 11,
       "outerwear": 4.4,
       "dresses": 0,
       "sports_bras": 0.5,
-      "accessories": 6.3,
-      "other": 53.9
+      "accessories": 6.2,
+      "other": 53.2
     },
     {
       "brand": "bear_grips",
@@ -8463,7 +7809,7 @@
     {
       "brand": "Vuori",
       "black": 18.4,
-      "white": 9.6,
+      "white": 9.5,
       "gray": 12.6,
       "navy": 2.3,
       "blue": 12.7,
@@ -8530,8 +7876,8 @@
     },
     {
       "brand": "goruck",
-      "black": 4.2,
-      "white": 3.7,
+      "black": 4.6,
+      "white": 4.1,
       "gray": 4.4,
       "navy": 0.9,
       "blue": 0.9,
@@ -8541,7 +7887,7 @@
       "purple": 0,
       "pink": 0.7,
       "orange": 0.2,
-      "red": 1.6,
+      "red": 1.8,
       "yellow": 1.4,
       "other": 0.9
     },
@@ -8832,7 +8178,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,288 competitor products tracked. Vuori's 5,413 = 10% share of tracked catalog."
+      "text": "Market context: 51,329 competitor products tracked. Vuori's 5,414 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8852,7 +8198,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 3267 products"
+        "comparison": "Competitors have 3279 products"
       },
       {
         "metric": "Medium Support",
@@ -8976,10 +8322,10 @@
       {
         "category": "Women's Products",
         "vuori": 2539,
-        "competitor": 1565,
+        "competitor": 1566,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-11-08T14:15:11.313Z"
+  "generated_at": "2026-11-09T14:15:11.334Z"
 }
