@@ -1,15 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "tenthousand:tactical-utility-pant",
-      "title": "Utility Pant | Regular",
-      "product_type": "Tactical Utility Pant",
-      "detected_at": "2026-08-12T16:37:34.653473",
-      "partial": true,
-      "old_pct": 86,
-      "new_pct": 50
-    },
-    {
       "product_id": "tenthousand:compression-short",
       "title": "Compression Short",
       "product_type": "Compression Short",
@@ -1278,6 +1269,15 @@
       "detected_at": "2026-11-09T17:56:15.612594",
       "days_since_launch": 377,
       "is_fast_sellout": false
+    },
+    {
+      "product_id": "tenthousand:swiftwick-x-ten-thousand-sock",
+      "title": "Swiftwick x Ten Thousand Sock",
+      "product_type": "Swiftwick x Ten Thousand Sock",
+      "detected_at": "2026-11-11T06:02:58.336683",
+      "partial": true,
+      "old_pct": 67,
+      "new_pct": 33
     }
   ],
   "restocks": [
@@ -1412,6 +1412,18 @@
       "title": "Interval Jogger",
       "product_type": "Interval Jogger",
       "detected_at": "2026-10-28T17:35:42.448654"
+    },
+    {
+      "product_id": "tenthousand:tactical-jogger",
+      "title": "Tactical Jogger",
+      "product_type": "Tactical Jogger",
+      "detected_at": "2026-11-10T19:46:27.527380"
+    },
+    {
+      "product_id": "tenthousand:nylon-jogger-pant",
+      "title": "C\u00d8 Nylon Jogger",
+      "product_type": "C\u00d8 Nylon Jogger",
+      "detected_at": "2026-11-10T19:46:27.527426"
     }
   ],
   "hot_products": []

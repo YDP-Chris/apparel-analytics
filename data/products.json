@@ -310,10 +310,10 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13719,
+      "total": 13737,
       "categories": {
-        "bottoms": 5181,
-        "tops": 4379,
+        "bottoms": 5187,
+        "tops": 4391,
         "other": 953,
         "accessories": 716,
         "outerwear": 1334,
@@ -321,13 +321,13 @@
         "dresses": 12
       },
       "subcategories": {
-        "shorts": 1996,
-        "leggings": 1516,
+        "shorts": 2000,
+        "leggings": 1518,
         "crop_tops": 228,
-        "other": 4494,
-        "long_sleeve": 758,
+        "other": 4498,
+        "long_sleeve": 760,
         "socks": 296,
-        "tanks": 1224,
+        "tanks": 1230,
         "joggers": 681,
         "hoodies": 692,
         "jackets": 340,
@@ -349,29 +349,29 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 6061,
-        "womens": 4893,
-        "mens": 2765
+        "unisex": 6071,
+        "womens": 4897,
+        "mens": 2769
       },
       "colors": {
-        "green": 770,
-        "pink": 1308,
-        "black": 3179,
+        "green": 772,
+        "pink": 1310,
+        "black": 3181,
         "white": 987,
         "navy": 92,
-        "gray": 1511,
+        "gray": 1515,
         "brown": 1222,
-        "blue": 2212,
-        "red": 481,
-        "purple": 797,
+        "blue": 2214,
+        "red": 483,
+        "purple": 799,
         "yellow": 166,
-        "orange": 74,
+        "orange": 76,
         "khaki": 6,
         "print": 24
       },
       "colorCoverage": 93.5,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3488
+      "uniqueStyles": 3493
     },
     "on_running": {
       "name": "On Running",
@@ -712,14 +712,14 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2623,
+      "total": 2629,
       "categories": {
         "other": 1398,
         "accessories": 163,
         "tops": 288,
         "bottoms": 132,
         "outerwear": 114,
-        "footwear": 516,
+        "footwear": 522,
         "sports_bras": 12
       },
       "subcategories": {
@@ -732,7 +732,7 @@
         "pants": 24,
         "vests": 42,
         "tees": 102,
-        "training": 270,
+        "training": 276,
         "socks": 30,
         "tanks": 24,
         "running": 246,
@@ -744,7 +744,7 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 2077,
+        "unisex": 2083,
         "mens": 282,
         "womens": 264
       },
@@ -900,27 +900,27 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2814,
+      "total": 2873,
       "categories": {
         "accessories": 541,
-        "other": 920,
+        "other": 940,
         "tops": 275,
-        "bottoms": 699,
+        "bottoms": 725,
         "footwear": 44,
-        "outerwear": 303,
-        "sports_bras": 32
+        "outerwear": 314,
+        "sports_bras": 34
       },
       "subcategories": {
-        "other": 1684,
-        "shorts": 445,
+        "other": 1708,
+        "shorts": 467,
         "training": 7,
         "bags": 90,
         "socks": 40,
         "leggings": 21,
-        "hoodies": 239,
+        "hoodies": 250,
         "joggers": 77,
         "jackets": 54,
-        "pants": 23,
+        "pants": 25,
         "polos": 2,
         "tanks": 24,
         "hats": 65,
@@ -932,16 +932,16 @@
       },
       "genders": {
         "unisex": 2290,
-        "womens": 211,
-        "mens": 313
+        "womens": 239,
+        "mens": 344
       },
       "colors": {
-        "black": 594,
-        "red": 312,
-        "white": 483,
-        "blue": 253,
+        "black": 605,
+        "red": 325,
+        "white": 493,
+        "blue": 268,
         "gray": 229,
-        "yellow": 267,
+        "yellow": 277,
         "purple": 60,
         "camo": 29,
         "khaki": 102,
@@ -952,9 +952,9 @@
         "navy": 24,
         "rust": 19
       },
-      "colorCoverage": 92,
+      "colorCoverage": 92.2,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 1833
+      "uniqueStyles": 1876
     },
     "everlast": {
       "name": "everlast",
@@ -1066,7 +1066,7 @@
     }
   },
   "totals": {
-    "products": 56770,
+    "products": 56853,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
@@ -1074,9 +1074,371 @@
   "recentLaunches": [
     {
       "date": "2026-11-10",
+      "brand": "venum",
+      "brandSlug": "venum",
+      "count": 59,
+      "products": [
+        {
+          "name": "ufc trinity personalized mens hoodies black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-hoodies-black-blue",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens dry tech black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-dry-tech-black-blue",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens fightshorts long version black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-fightshorts-long-version-black-blue",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens dry tech blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-dry-tech-blue-white",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens hoodies blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-hoodies-blue-white",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens fightshorts long version blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-fightshorts-long-version-blue-white",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized womens fightshorts black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-fightshorts-black-blue",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens fightshorts blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-fightshorts-blue-white",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized mens hoodies burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-hoodies-burgundy-gold",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized womens dry tech black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-dry-tech-black-blue",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens fightshorts burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-fightshorts-burgundy-gold",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens hoodies black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-hoodies-black-blue",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized mens fightshorts long version burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-fightshorts-long-version-burgundy-gold",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized womens hoodies blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-hoodies-blue-white",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized mens fightshorts black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-fightshorts-black-blue",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized womens dry tech burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-dry-tech-burgundy-gold",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens vale tudo shorts long version black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-vale-tudo-shorts-long-version-black-blue",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens dry tech blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-dry-tech-blue-white",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens hoodies burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-hoodies-burgundy-gold",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized mens fightshorts blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-fightshorts-blue-white",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens dry tech burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-dry-tech-burgundy-gold",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens fightshorts burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-fightshorts-burgundy-gold",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized womens vale tudo shorts long version blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-vale-tudo-shorts-long-version-blue-white",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized mens vale tudo shorts black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-vale-tudo-shorts-black-blue",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens vale tudo shorts blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-vale-tudo-shorts-blue-white",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized mens vale tudo shorts burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-mens-vale-tudo-shorts-burgundy-gold",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "ufc trinity personalized womens vale tudo shorts black",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-vale-tudo-shorts-black-blue",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens vale tudo shorts long version burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-vale-tudo-shorts-long-version-burgundy-gold",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens vale tudo shorts blue",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-vale-tudo-shorts-blue-white",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "ufc trinity personalized womens vale tudo shorts burgundy",
+          "url": "https://www.venum.com/products/ufc-trinity-personalized-womens-vale-tudo-shorts-burgundy-gold",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens sports bra",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-sports-bra-burgundy",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens sports bra",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-sports-bra-black",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout hoodie",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-hoodie-blue",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout hoodie",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-hoodie-black",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens long fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-long-fit-fight-shorts-burgundy",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout jersey",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-jersey-blue",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens long fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-long-fit-fight-shorts-black",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout pants",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-pants-burgundy",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens walkout pants",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-walkout-pants-burgundy",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens long fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-long-fit-fight-shorts-blue",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout jersey",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-jersey-black",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens walkout hoodie",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-walkout-hoodie-burgundy",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout hoodie",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-hoodie-burgundy",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens walkout jersey",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-walkout-jersey-burgundy",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens walkout jersey",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-walkout-jersey-black",
+          "category": "other",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens short sleeve rashguard",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-short-sleeve-rashguard-burgundy",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens short fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-short-fit-fight-shorts-blue",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens walkout hoodie",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-walkout-hoodie-black",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens short sleeve rashguard",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-short-sleeve-rashguard-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens short fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-short-fit-fight-shorts-black",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens short fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-short-fit-fight-shorts-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens short fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-short-fit-fight-shorts-burgundy",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens compression shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-compression-shorts-black",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens compression shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-compression-shorts-blue",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens short fit fight shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-short-fit-fight-shorts-burgundy",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens compression shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-compression-shorts-burgundy",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night mens walkout jersey",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-mens-walkout-jersey-burgundy",
+          "category": "other",
+          "gender": "mens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens compression shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-compression-shorts-black",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "venum ufc trinity authentic fight night womens compression shorts",
+          "url": "https://www.venum.com/products/venum-ufc-trinity-authentic-fight-night-womens-compression-shorts-burgundy",
+          "category": "bottoms",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
       "brand": "Gymshark",
       "brandSlug": "gymshark",
-      "count": 6,
+      "count": 24,
       "products": [
         {
           "name": "gymshark training straight leg leggings leggings",
@@ -1113,6 +1475,158 @@
           "url": "https://www.gymshark.com/es-US/products/gymshark-vital-long-line-top-ls-tops-green-ss26",
           "category": "tops",
           "gender": "womens"
+        },
+        {
+          "name": "gymshark sport hybrid short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-sport-hybrid-short-shorts-grey-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sport hybrid short shorts",
+          "url": "https://www.gymshark.com/products/gymshark-sport-hybrid-short-shorts-teal-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sport hybrid short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-hybrid-short-shorts-grey-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark sport hybrid short shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-hybrid-short-shorts-teal-aw26",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark bold t shirt clay",
+          "url": "https://www.gymshark.com/products/gymshark-bold-t-shirt-clay-orange-ss22",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark apex seamless leggings black onyx",
+          "url": "https://www.gymshark.com/products/gymshark-apex-seamless-leggings-black-onyx-grey-aw22",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apollo muscle fit t shirt storm",
+          "url": "https://www.gymshark.com/products/gymshark-apollo-muscle-fit-t-shirt-storm-red-aw22",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark strappy crop cami tank",
+          "url": "https://www.gymshark.com/products/gymshark-strappy-crop-cami-tank-black-ss23",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark trace graphic long sleeve top ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-trace-graphic-long-sleeve-top-ls-tops-purple-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark bold t shirt clay",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-bold-t-shirt-clay-orange-ss22",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark apex seamless leggings black onyx",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-apex-seamless-leggings-black-onyx-grey-aw22",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark apollo muscle fit t shirt storm",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-apollo-muscle-fit-t-shirt-storm-red-aw22",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark strappy crop cami tank",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-strappy-crop-cami-tank-black-ss23",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark trace graphic long sleeve top ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-trace-graphic-long-sleeve-top-ls-tops-purple-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark everyday seamless crop tank crop tops",
+          "url": "https://www.gymshark.com/products/gymshark-everyday-seamless-crop-tank-crop-tops-pink-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark conditioning club tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-conditioning-club-tank-sleeveless-tops-green-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark everyday seamless crop tank crop tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-everyday-seamless-crop-tank-crop-tops-pink-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark conditioning club tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-conditioning-club-tank-sleeveless-tops-green-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 6,
+      "products": [
+        {
+          "name": "ballistic trainers slick lunar rock gum",
+          "url": "https://www.goruck.com/products/ballistic-trainers-slick-lunar-rock-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick lunar rock gum",
+          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-lunar-rock-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick lunar rock gum",
+          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-lunar-rock-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick lunar rock gum",
+          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-lunar-rock-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick lunar rock gum",
+          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-lunar-rock-gum",
+          "category": "footwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ballistic trainers slick lunar rock gum",
+          "url": "https://www.goruck.com/en-sg/products/ballistic-trainers-slick-lunar-rock-gum",
+          "category": "footwear",
+          "gender": "unisex"
         }
       ]
     },
@@ -6508,7 +7022,7 @@
       "2026-11-06": 4,
       "2026-11-07": 2,
       "2026-11-09": 10,
-      "2026-11-10": 6
+      "2026-11-10": 24
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6689,7 +7203,8 @@
       "2026-11-04": 18,
       "2026-11-05": 6,
       "2026-11-08": 30,
-      "2026-11-09": 12
+      "2026-11-09": 12,
+      "2026-11-10": 6
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -6767,7 +7282,8 @@
       "2026-10-31": 4,
       "2026-11-03": 1,
       "2026-11-05": 3,
-      "2026-11-06": 2
+      "2026-11-06": 2,
+      "2026-11-10": 59
     },
     "everlast": {
       "2026-08-30": 315,
@@ -6809,7 +7325,7 @@
       "tenthousand": 91,
       "lululemon": 1732,
       "alo": 1851,
-      "gymshark": 5181,
+      "gymshark": 5187,
       "on_running": 1808,
       "gymreapers": 244,
       "sbd": 48,
@@ -6819,7 +7335,7 @@
       "goruck": 132,
       "ghost": 9,
       "hayabusa": 70,
-      "venum": 699,
+      "venum": 725,
       "everlast": 53,
       "dfyne": 354
     },
@@ -6829,7 +7345,7 @@
       "tenthousand": 49,
       "lululemon": 835,
       "alo": 599,
-      "gymshark": 4379,
+      "gymshark": 4391,
       "on_running": 741,
       "gymreapers": 289,
       "sbd": 163,
@@ -6859,7 +7375,7 @@
       "goruck": 114,
       "ghost": 65,
       "hayabusa": 11,
-      "venum": 303,
+      "venum": 314,
       "everlast": 25,
       "dfyne": 87
     },
@@ -6881,7 +7397,7 @@
       "optimum_nutrition": 1715,
       "ghost": 339,
       "hayabusa": 91,
-      "venum": 920,
+      "venum": 940,
       "everlast": 114,
       "dfyne": 337
     },
@@ -6897,7 +7413,7 @@
       "asrv": 23,
       "goruck": 12,
       "hayabusa": 1,
-      "venum": 32,
+      "venum": 34,
       "everlast": 13,
       "dfyne": 177
     },
@@ -6908,7 +7424,7 @@
       "alo": 45,
       "on_running": 3201,
       "schiek": 1,
-      "goruck": 516,
+      "goruck": 522,
       "hayabusa": 5,
       "venum": 44,
       "everlast": 12,
@@ -6968,7 +7484,7 @@
       "tenthousand": 55,
       "lululemon": 528,
       "alo": 435,
-      "gymshark": 1996,
+      "gymshark": 2000,
       "on_running": 791,
       "gymreapers": 156,
       "sbd": 29,
@@ -6976,7 +7492,7 @@
       "asrv": 359,
       "goruck": 42,
       "hayabusa": 37,
-      "venum": 445,
+      "venum": 467,
       "everlast": 12,
       "dfyne": 174
     },
@@ -6986,7 +7502,7 @@
       "tenthousand": 6,
       "lululemon": 290,
       "alo": 280,
-      "gymshark": 1224,
+      "gymshark": 1230,
       "on_running": 335,
       "gymreapers": 58,
       "sbd": 24,
@@ -7018,7 +7534,7 @@
       "tenthousand": 4,
       "lululemon": 207,
       "alo": 381,
-      "gymshark": 1516,
+      "gymshark": 1518,
       "on_running": 448,
       "gymreapers": 49,
       "sbd": 1,
@@ -7036,7 +7552,7 @@
       "tenthousand": 43,
       "lululemon": 1593,
       "alo": 1737,
-      "gymshark": 4494,
+      "gymshark": 4498,
       "on_running": 3647,
       "gymreapers": 599,
       "sbd": 246,
@@ -7048,7 +7564,7 @@
       "optimum_nutrition": 1715,
       "ghost": 349,
       "hayabusa": 192,
-      "venum": 1684,
+      "venum": 1708,
       "everlast": 212,
       "dfyne": 609
     },
@@ -7063,7 +7579,7 @@
       "asrv": 47,
       "goruck": 24,
       "hayabusa": 13,
-      "venum": 23,
+      "venum": 25,
       "everlast": 6,
       "dfyne": 13
     },
@@ -7093,7 +7609,7 @@
       "vuori": 20,
       "lululemon": 8,
       "schiek": 1,
-      "goruck": 270,
+      "goruck": 276,
       "venum": 7,
       "everlast": 1
     },
@@ -7121,7 +7637,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 41,
-      "gymshark": 758,
+      "gymshark": 760,
       "on_running": 19,
       "gymreapers": 15,
       "sbd": 5,
@@ -7148,7 +7664,7 @@
       "goruck": 6,
       "ghost": 51,
       "hayabusa": 3,
-      "venum": 239,
+      "venum": 250,
       "everlast": 17,
       "dfyne": 29
     },
@@ -7347,7 +7863,7 @@
       "vuori": 681,
       "outdoor_voices": 35,
       "alo": 525,
-      "gymshark": 1511,
+      "gymshark": 1515,
       "on_running": 354,
       "gymreapers": 87,
       "sbd": 22,
@@ -7379,7 +7895,7 @@
       "vuori": 998,
       "outdoor_voices": 105,
       "alo": 1080,
-      "gymshark": 3179,
+      "gymshark": 3181,
       "on_running": 1678,
       "gymreapers": 140,
       "sbd": 6,
@@ -7390,7 +7906,7 @@
       "optimum_nutrition": 10,
       "ghost": 41,
       "hayabusa": 2,
-      "venum": 594,
+      "venum": 605,
       "everlast": 10,
       "dfyne": 175
     },
@@ -7413,7 +7929,7 @@
       "outdoor_voices": 2,
       "lululemon": 12,
       "alo": 232,
-      "gymshark": 481,
+      "gymshark": 483,
       "on_running": 241,
       "gymreapers": 63,
       "sbd": 3,
@@ -7422,7 +7938,7 @@
       "goruck": 48,
       "optimum_nutrition": 16,
       "ghost": 24,
-      "venum": 312,
+      "venum": 325,
       "everlast": 9,
       "dfyne": 41
     },
@@ -7441,7 +7957,7 @@
       "goruck": 108,
       "optimum_nutrition": 36,
       "ghost": 32,
-      "venum": 483,
+      "venum": 493,
       "everlast": 13,
       "dfyne": 69
     },
@@ -7450,7 +7966,7 @@
       "outdoor_voices": 39,
       "lululemon": 8,
       "alo": 256,
-      "gymshark": 2212,
+      "gymshark": 2214,
       "on_running": 866,
       "gymreapers": 35,
       "sbd": 12,
@@ -7458,7 +7974,7 @@
       "asrv": 72,
       "goruck": 24,
       "ghost": 8,
-      "venum": 253,
+      "venum": 268,
       "everlast": 2,
       "dfyne": 177
     },
@@ -7467,7 +7983,7 @@
       "outdoor_voices": 60,
       "lululemon": 4,
       "alo": 325,
-      "gymshark": 770,
+      "gymshark": 772,
       "on_running": 297,
       "gymreapers": 113,
       "sbd": 6,
@@ -7514,7 +8030,7 @@
       "vuori": 178,
       "outdoor_voices": 11,
       "alo": 42,
-      "gymshark": 797,
+      "gymshark": 799,
       "on_running": 195,
       "gymreapers": 12,
       "sbd": 4,
@@ -7527,7 +8043,7 @@
       "vuori": 23,
       "outdoor_voices": 6,
       "alo": 4,
-      "gymshark": 74,
+      "gymshark": 76,
       "on_running": 82,
       "gymreapers": 1,
       "sbd": 14,
@@ -7550,7 +8066,7 @@
       "optimum_nutrition": 494,
       "ghost": 13,
       "hayabusa": 3,
-      "venum": 267,
+      "venum": 277,
       "everlast": 2,
       "dfyne": 19
     },
@@ -7558,7 +8074,7 @@
       "vuori": 91,
       "outdoor_voices": 10,
       "alo": 249,
-      "gymshark": 1308,
+      "gymshark": 1310,
       "on_running": 185,
       "gymreapers": 19,
       "sbd": 2,
@@ -7606,7 +8122,7 @@
     {
       "brand": "Gymshark",
       "bottoms": 37.8,
-      "tops": 31.9,
+      "tops": 32,
       "outerwear": 9.7,
       "dresses": 0.1,
       "sports_bras": 8.3,
@@ -7655,12 +8171,12 @@
     },
     {
       "brand": "venum",
-      "bottoms": 24.8,
-      "tops": 9.8,
-      "outerwear": 10.8,
+      "bottoms": 25.2,
+      "tops": 9.6,
+      "outerwear": 10.9,
       "dresses": 0,
-      "sports_bras": 1.1,
-      "accessories": 19.2,
+      "sports_bras": 1.2,
+      "accessories": 18.8,
       "other": 32.7
     },
     {
@@ -7671,7 +8187,7 @@
       "dresses": 0,
       "sports_bras": 0.5,
       "accessories": 6.2,
-      "other": 53.3
+      "other": 53.2
     },
     {
       "brand": "bear_grips",
@@ -7827,7 +8343,7 @@
       "brown": 8.9,
       "purple": 5.8,
       "pink": 9.5,
-      "orange": 0.5,
+      "orange": 0.6,
       "red": 3.5,
       "yellow": 1.2,
       "other": 0.2
@@ -7904,17 +8420,17 @@
       "brand": "venum",
       "black": 21.1,
       "white": 17.2,
-      "gray": 8.1,
-      "navy": 0.9,
-      "blue": 9,
+      "gray": 8,
+      "navy": 0.8,
+      "blue": 9.3,
       "green": 2.2,
       "khaki": 3.6,
       "brown": 2.6,
       "purple": 2.1,
       "pink": 1.1,
-      "orange": 1.8,
-      "red": 11.1,
-      "yellow": 9.5,
+      "orange": 1.7,
+      "red": 11.3,
+      "yellow": 9.6,
       "other": 1.7
     },
     {
@@ -8211,7 +8727,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 891,
-      "text": "Vuori ranks #2 in shorts with 891 products. Behind Gymshark (1996)."
+      "text": "Vuori ranks #2 in shorts with 891 products. Behind Gymshark (2000)."
     },
     {
       "type": "comparison",
@@ -8221,7 +8737,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,354 competitor products tracked. Vuori's 5,416 = 10% share of tracked catalog."
+      "text": "Market context: 51,437 competitor products tracked. Vuori's 5,416 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8370,5 +8886,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-10T14:15:14.110Z"
+  "generated_at": "2026-11-11T14:15:11.541Z"
 }
