@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 783,
-      "change_from_last": 0,
+      "total_jobs": 760,
+      "change_from_last": -23,
       "departments": {
         "finance": 6,
-        "other": 118,
-        "product": 6,
-        "retail": 283,
-        "design": 77,
+        "other": 115,
+        "product": 7,
+        "retail": 279,
+        "design": 72,
         "engineering": 21,
         "executive": 4,
         "hr": 5,
-        "operations": 260,
+        "operations": 248,
         "marketing": 3
       },
       "seniority": {
-        "manager": 130,
-        "mid": 35,
-        "junior": 464,
-        "lead": 117,
+        "manager": 128,
+        "mid": 36,
+        "junior": 451,
+        "lead": 108,
         "c-suite": 11,
         "intern": 4,
         "senior": 22
       },
       "locations": [
-        "Carlsbad, California, United States",
-        "Fashion Mall at Keystone, Indianapolis, IN (10059)",
-        "Downtown Summerlin, Summerlin, NV (10130)",
-        "Houston Galleria, Houston, TX (10037)",
-        "Bloomington, Minnesota, United States",
-        "Koenigsallee, D\u00fcsseldorf (50112)",
-        "Merrick Park, Coral Gables, FL (10042)",
-        "Manhattan Beach, California, United States",
-        "Newbury Street, Boston, MA (10041)",
+        "Sydney ",
+        "SoHo, New York, NY (10004)",
+        "Columbus Ave, New York, NY (10188)",
         "Chicago Metro Area",
-        "King of Prussia, Pennsylvania, United States",
-        "Kenwood Towne Centre, Cincinnati, OH (10082)",
-        "La Croisette, Cannes (50122)",
-        "International Plaza, Tampa, FL (10039)",
-        "Southlake, Texas, United States",
+        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
         "Boston Metro Area",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "La Jolla, California, United States",
-        "Beverly Hills LAND, Beverly Hills, CA (HQ-L); San Ramon Office, San Ramon, CA (LO-SF)",
-        "Paris, Paris, France"
+        "Dadeland Mall, MIami, FL (10133)",
+        "Center of Waikiki, Honolulu, HI (10142)",
+        "Los Angeles Metro Area",
+        "Greenwich, Connecticut, United States",
+        "Ashburn, Virginia, United States",
+        "Miami, Miami, FL (10013)",
+        "Ross Park Mall, Pittsburgh, PA (10065)",
+        "Studio City, California, United States",
+        "San Luis Obispo, California, United States",
+        "Rue Faubourg Saint Honore, Paris (50132)",
+        "Westport, Connecticut, United States",
+        "Mississauga, Ontario, Canada",
+        "Oakbrook Center, Oak Brook, IL (10015)",
+        "Remote"
       ],
       "jobs": [
         {
@@ -280,6 +280,16 @@
           "seniority": "manager"
         },
         {
+          "id": "6253340004",
+          "title": "Buyer, North America",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6253340004?gh_jid=6253340004",
+          "posted_at": "2026-11-12T14:10:48-05:00",
+          "category": "product",
+          "seniority": "mid"
+        },
+        {
           "id": "6241245004",
           "title": "Buying & Merchandising AI Analyst",
           "location": "Beverly Hills, California, United States",
@@ -490,16 +500,6 @@
           "seniority": "manager"
         },
         {
-          "id": "6212206004",
-          "title": "Flagship General Manager  - Cannes",
-          "location": "La Croisette, Cannes (50122)",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6212206004?gh_jid=6212206004",
-          "posted_at": "2026-11-10T16:47:43-05:00",
-          "category": "other",
-          "seniority": "manager"
-        },
-        {
           "id": "6161095004",
           "title": "Flagship General Manager - Champs-Elys\u00e9es, Paris ",
           "location": "Paris, Paris, France",
@@ -550,13 +550,13 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-11-12T05:30:07.142782"
+      "checked_at": "2026-11-13T05:30:07.833969"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 6,
-      "change_from_last": 1,
+      "change_from_last": 0,
       "departments": {
         "other": 3,
         "engineering": 2,
@@ -569,9 +569,9 @@
         "senior": 2
       },
       "locations": [
-        "Roosevelt, New York, United States",
         "Solihull, England, United Kingdom",
         "Miami, Florida, United States",
+        "Roosevelt, New York, United States",
         "New York, New York, United States"
       ],
       "jobs": [
@@ -581,7 +581,7 @@
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981295101",
-          "posted_at": "2026-11-06T08:34:08-05:00",
+          "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -591,7 +591,7 @@
           "location": "Roosevelt, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4989012101",
-          "posted_at": "2026-11-09T14:03:24-05:00",
+          "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "other",
           "seniority": "lead"
         },
@@ -601,7 +601,7 @@
           "location": "Miami, Florida, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4875763101",
-          "posted_at": "2026-10-27T13:29:01-04:00",
+          "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "other",
           "seniority": "mid"
         },
@@ -611,7 +611,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4988756101",
-          "posted_at": "2026-09-28T11:21:09-04:00",
+          "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "engineering",
           "seniority": "mid"
         },
@@ -621,7 +621,7 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974208101",
-          "posted_at": "2026-10-06T09:01:12-04:00",
+          "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "engineering",
           "seniority": "senior"
         },
@@ -631,12 +631,12 @@
           "location": "Solihull, England, United Kingdom",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974337101",
-          "posted_at": "2026-11-11T10:16:27-05:00",
+          "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "finance",
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-11-12T05:30:09.273418"
+      "checked_at": "2026-11-13T05:30:10.013141"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -695,7 +695,7 @@
       "name": "On Running",
       "platform": "greenhouse",
       "total_jobs": 148,
-      "change_from_last": -15,
+      "change_from_last": 0,
       "departments": {
         "retail": 114,
         "marketing": 9,
@@ -713,26 +713,26 @@
         "senior": 3
       },
       "locations": [
-        "Washington D.C.",
-        "Aventura",
-        "Beijing",
-        "Guangzhou",
-        "Madrid",
-        "Munich",
-        "Brooklyn",
-        "Miami",
-        "Hong Kong",
-        "New York City",
-        "Chicago",
-        "Newport Beach",
-        "Chengdu",
-        "Mexico City",
-        "Shenzhen",
         "Tokyo",
         "Paris",
+        "Madrid",
+        "Corte Madera",
+        "Mexico City",
+        "Zurich",
+        "Portland",
         "Dallas",
-        "Landquart",
-        "Nanjing"
+        "Tianjin",
+        "Aventura",
+        "Newport Beach",
+        "Shanghai",
+        "Southlake",
+        "Guangzhou",
+        "New York City",
+        "Shenzhen",
+        "D\u00fcsseldorf",
+        "Chicago",
+        "Brooklyn",
+        "Vienna"
       ],
       "jobs": [
         {
@@ -1236,8 +1236,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-11-12T05:30:18.954190"
+      "checked_at": "2026-11-13T05:30:19.376982"
     }
   },
-  "generated_at": "2026-11-12T05:30:20.954337"
+  "generated_at": "2026-11-13T05:30:21.377137"
 }
