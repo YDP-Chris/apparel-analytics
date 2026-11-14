@@ -74,14 +74,14 @@
     "outdoor_voices": {
       "name": "Outdoor Voices",
       "slug": "outdoor_voices",
-      "total": 690,
+      "total": 708,
       "categories": {
         "other": 74,
         "bottoms": 337,
         "dresses": 50,
         "accessories": 49,
         "tops": 86,
-        "outerwear": 47,
+        "outerwear": 65,
         "sports_bras": 46,
         "footwear": 1
       },
@@ -91,7 +91,7 @@
         "tennis_dress": 15,
         "socks": 34,
         "tanks": 42,
-        "jackets": 16,
+        "jackets": 30,
         "tees": 16,
         "sweatpants": 25,
         "skirts": 41,
@@ -103,7 +103,7 @@
         "crop_tops": 17,
         "headwear": 2,
         "polos": 7,
-        "vests": 3,
+        "vests": 7,
         "running": 1,
         "quarter_zips": 3,
         "pullovers": 1,
@@ -111,30 +111,30 @@
       },
       "genders": {
         "unisex": 114,
-        "womens": 446,
-        "mens": 130
+        "womens": 454,
+        "mens": 140
       },
       "colors": {
-        "black": 105,
+        "black": 109,
         "white": 32,
-        "navy": 49,
+        "navy": 53,
         "gray": 35,
         "pink": 10,
         "blue": 39,
         "orange": 6,
-        "green": 60,
+        "green": 62,
         "yellow": 7,
-        "brown": 2,
-        "purple": 11,
+        "brown": 4,
+        "purple": 14,
         "print": 23,
         "multi": 13,
         "khaki": 10,
         "red": 2,
         "rust": 1
       },
-      "colorCoverage": 58.7,
+      "colorCoverage": 59.3,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 289
+      "uniqueStyles": 303
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -240,10 +240,10 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4996,
+      "total": 4998,
       "categories": {
-        "other": 863,
-        "bottoms": 1851,
+        "other": 864,
+        "bottoms": 1852,
         "tops": 599,
         "sports_bras": 351,
         "accessories": 441,
@@ -252,8 +252,8 @@
         "dresses": 136
       },
       "subcategories": {
-        "other": 1737,
-        "leggings": 381,
+        "other": 1738,
+        "leggings": 382,
         "tanks": 280,
         "shorts": 435,
         "hats": 154,
@@ -281,13 +281,13 @@
       },
       "genders": {
         "unisex": 3118,
-        "womens": 1566,
+        "womens": 1568,
         "mens": 312
       },
       "colors": {
         "navy": 199,
         "black": 1080,
-        "white": 950,
+        "white": 951,
         "gray": 525,
         "khaki": 137,
         "pink": 249,
@@ -305,36 +305,36 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3067
+      "uniqueStyles": 3068
     },
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13752,
+      "total": 13790,
       "categories": {
-        "bottoms": 5191,
-        "tops": 4397,
+        "bottoms": 5209,
+        "tops": 4409,
         "other": 953,
-        "accessories": 718,
-        "outerwear": 1337,
-        "sports_bras": 1144,
+        "accessories": 722,
+        "outerwear": 1339,
+        "sports_bras": 1146,
         "dresses": 12
       },
       "subcategories": {
-        "shorts": 2000,
-        "leggings": 1522,
-        "crop_tops": 228,
-        "other": 4500,
-        "long_sleeve": 762,
+        "shorts": 2004,
+        "leggings": 1526,
+        "crop_tops": 230,
+        "other": 4510,
+        "long_sleeve": 768,
         "socks": 296,
-        "tanks": 1232,
-        "joggers": 681,
-        "hoodies": 693,
+        "tanks": 1234,
+        "joggers": 687,
+        "hoodies": 695,
         "jackets": 340,
         "pants": 544,
         "pullovers": 216,
         "high_support": 52,
-        "bags": 96,
+        "bags": 98,
         "bralette": 90,
         "tees": 126,
         "headwear": 38,
@@ -349,29 +349,29 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 6071,
-        "womens": 4905,
-        "mens": 2776
+        "unisex": 6091,
+        "womens": 4917,
+        "mens": 2782
       },
       "colors": {
-        "green": 772,
-        "pink": 1310,
-        "black": 3183,
-        "white": 987,
+        "green": 774,
+        "pink": 1316,
+        "black": 3191,
+        "white": 989,
         "navy": 92,
-        "gray": 1518,
-        "brown": 1222,
-        "blue": 2222,
+        "gray": 1524,
+        "brown": 1226,
+        "blue": 2228,
         "red": 483,
-        "purple": 801,
-        "yellow": 166,
+        "purple": 803,
+        "yellow": 168,
         "orange": 76,
         "khaki": 6,
         "print": 24
       },
       "colorCoverage": 93.5,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3499
+      "uniqueStyles": 3518
     },
     "on_running": {
       "name": "On Running",
@@ -443,26 +443,26 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1252,
+      "total": 1280,
       "categories": {
-        "other": 361,
-        "accessories": 215,
-        "tops": 289,
+        "other": 369,
+        "accessories": 218,
+        "tops": 304,
         "bottoms": 244,
         "sports_bras": 78,
-        "outerwear": 65
+        "outerwear": 67
       },
       "subcategories": {
-        "other": 599,
-        "tees": 140,
+        "other": 607,
+        "tees": 148,
         "shorts": 156,
-        "hats": 94,
+        "hats": 97,
         "leggings": 49,
-        "tanks": 58,
-        "crop_tops": 25,
+        "tanks": 64,
+        "crop_tops": 26,
         "socks": 8,
         "joggers": 31,
-        "hoodies": 30,
+        "hoodies": 32,
         "long_sleeve": 15,
         "quarter_zips": 9,
         "jackets": 20,
@@ -473,7 +473,7 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 1054,
+        "unisex": 1082,
         "womens": 168,
         "mens": 30
       },
@@ -484,7 +484,7 @@
         "khaki": 60,
         "white": 112,
         "gray": 87,
-        "blue": 35,
+        "blue": 36,
         "camo": 36,
         "navy": 43,
         "rust": 3,
@@ -494,9 +494,9 @@
         "yellow": 18,
         "orange": 1
       },
-      "colorCoverage": 60.8,
+      "colorCoverage": 59.5,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 470
+      "uniqueStyles": 471
     },
     "sbd": {
       "name": "sbd",
@@ -1066,12 +1066,560 @@
     }
   },
   "totals": {
-    "products": 56934,
+    "products": 57020,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-14",
+      "brand": "Outdoor Voices",
+      "brandSlug": "outdoor_voices",
+      "count": 18,
+      "products": [
+        {
+          "name": "m rectrek jacket",
+          "url": "https://www.outdoorvoices.com/products/m-rectrek-jacket-black",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m rectrek jacket night",
+          "url": "https://www.outdoorvoices.com/products/m-rectrek-jacket-forest-night",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m rectrek jacket iris",
+          "url": "https://www.outdoorvoices.com/products/m-rectrek-jacket-navy-iris",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m sherpa jacket",
+          "url": "https://www.outdoorvoices.com/products/m-sherpa-jacket-black",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m sherpa jacket chinois mediterranean",
+          "url": "https://www.outdoorvoices.com/products/m-sherpa-jacket-chinois-green-mediterranean",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m sherpa jacket iris",
+          "url": "https://www.outdoorvoices.com/products/m-sherpa-jacket-navy-iris",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m sherpa jacket red mahogany",
+          "url": "https://www.outdoorvoices.com/products/m-sherpa-jacket-red-mahogany-navy",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m insulated jacket",
+          "url": "https://www.outdoorvoices.com/products/m-insulated-jacket-black",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m insulated jacket forged iron",
+          "url": "https://www.outdoorvoices.com/products/m-insulated-jacket-forged-iron",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "m insulated jacket iris",
+          "url": "https://www.outdoorvoices.com/products/m-insulated-jacket-navy-iris",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "w sherpa jacket black",
+          "url": "https://www.outdoorvoices.com/products/w-sherpa-jacket-black-coffee",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w sherpa jacket lustre overture",
+          "url": "https://www.outdoorvoices.com/products/w-sherpa-jacket-lavender-lustre-overture",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w sherpa jacket nacreous clouds thyme",
+          "url": "https://www.outdoorvoices.com/products/w-sherpa-jacket-nacreous-clouds-thyme",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w sherpa jacket perfect",
+          "url": "https://www.outdoorvoices.com/products/w-sherpa-jacket-perfect-plum",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w puffer vest",
+          "url": "https://www.outdoorvoices.com/products/w-puffer-vest-black",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w puffer vest",
+          "url": "https://www.outdoorvoices.com/products/w-puffer-vest-mocha",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w puffer vest nacreous clouds",
+          "url": "https://www.outdoorvoices.com/products/w-puffer-vest-nacreous-clouds",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "w puffer vest war",
+          "url": "https://www.outdoorvoices.com/products/w-puffer-vest-war-plum",
+          "category": "outerwear",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 2,
+      "products": [
+        {
+          "name": "airbrush high waist 7 8 flutter legging",
+          "url": "https://www.aloyoga.com/products/w51109r-airbrush-high-waist-7-8-flutter-legging-ivory",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "high waist dreamscape trouser dark cactus",
+          "url": "https://www.aloyoga.com/products/w51263r-high-waist-dreamscape-trouser-dark-cactus",
+          "category": "other",
+          "gender": "womens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 38,
+      "products": [
+        {
+          "name": "gymshark legacy lifting gloves",
+          "url": "https://www.gymshark.com/products/gymshark-legacy-lifting-gloves-black-ss25",
+          "category": "accessories",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark 315 long sleeve t shirt cherry",
+          "url": "https://www.gymshark.com/products/gymshark-315-long-sleeve-t-shirt-cherry-brown-ss22",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark crest joggers core",
+          "url": "https://www.gymshark.com/products/gymshark-crest-joggers-core-olive-aw22",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark rest day knit joggers pebble",
+          "url": "https://www.gymshark.com/products/gymshark-rest-day-knit-joggers-pebble-grey-aw22",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training oversized sweatshirt turmeric",
+          "url": "https://www.gymshark.com/products/gymshark-training-oversized-sweatshirt-turmeric-yellow-aw22",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark rest day sweats 1 2 zip pullover aura",
+          "url": "https://www.gymshark.com/products/gymshark-rest-day-sweats-1-2-zip-pullover-aura-lilac-marl-aw22",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark pocket shorts denim",
+          "url": "https://www.gymshark.com/products/gymshark-pocket-shorts-denim-blue-ss23",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark crossover tall flared leggings",
+          "url": "https://www.gymshark.com/products/gymshark-crossover-tall-flared-leggings-black-aw23",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark training leggings asphalt",
+          "url": "https://www.gymshark.com/products/gymshark-training-leggings-asphalt-grey-ss24",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark legacy graphic crop top vintage",
+          "url": "https://www.gymshark.com/products/gymshark-legacy-graphic-crop-top-vintage-pink-ss24",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark committed to the craft t shirt",
+          "url": "https://www.gymshark.com/products/gymshark-committed-to-the-craft-t-shirt-muted-pink-aw24",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark power hoodie silver",
+          "url": "https://www.gymshark.com/products/gymshark-power-hoodie-silver-grey-ss25",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark dipped waistband shorts shorts",
+          "url": "https://www.gymshark.com/products/gymshark-dipped-waistband-shorts-shorts-teal-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark adapt x whitney animal seamless long sleeve top sour vibrant",
+          "url": "https://www.gymshark.com/products/gymshark-adapt-x-whitney-animal-seamless-long-sleeve-top-sour-pink-vibrant-pink-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark adapt x whitney animal seamless twist front bra asphalt grey",
+          "url": "https://www.gymshark.com/products/gymshark-adapt-x-whitney-animal-seamless-twist-front-bra-asphalt-grey-black-ss25",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark rest day sweats 2 0 joggers camo",
+          "url": "https://www.gymshark.com/products/gymshark-rest-day-sweats-2-0-joggers-camo-brown-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running back vent tank",
+          "url": "https://www.gymshark.com/products/gymshark-running-back-vent-tank-white-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gymshark x analis duffle bag bags",
+          "url": "https://www.gymshark.com/products/gymshark-gymshark-x-analis-duffle-bag-bags-blue-aw25",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting club graphic oversized long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/products/gymshark-lifting-club-graphic-oversized-long-sleeve-t-shirt-ls-tops-black-aw25",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark legacy lifting gloves",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-legacy-lifting-gloves-black-ss25",
+          "category": "accessories",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark 315 long sleeve t shirt cherry",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-315-long-sleeve-t-shirt-cherry-brown-ss22",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark crest joggers core",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-crest-joggers-core-olive-aw22",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark rest day knit joggers pebble",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-knit-joggers-pebble-grey-aw22",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark training oversized sweatshirt turmeric",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-oversized-sweatshirt-turmeric-yellow-aw22",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark rest day sweats 1 2 zip pullover aura",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-sweats-1-2-zip-pullover-aura-lilac-marl-aw22",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark pocket shorts denim",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-pocket-shorts-denim-blue-ss23",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark crossover tall flared leggings",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-crossover-tall-flared-leggings-black-aw23",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark training leggings asphalt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-training-leggings-asphalt-grey-ss24",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark legacy graphic crop top vintage",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-legacy-graphic-crop-top-vintage-pink-ss24",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark committed to the craft t shirt",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-committed-to-the-craft-t-shirt-muted-pink-aw24",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark power hoodie silver",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-power-hoodie-silver-grey-ss25",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark dipped waistband shorts shorts",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-dipped-waistband-shorts-shorts-teal-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark adapt x whitney animal seamless long sleeve top sour vibrant",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-x-whitney-animal-seamless-long-sleeve-top-sour-pink-vibrant-pink-ss25",
+          "category": "tops",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark adapt x whitney animal seamless twist front bra asphalt grey",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-x-whitney-animal-seamless-twist-front-bra-asphalt-grey-black-ss25",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark rest day sweats 2 0 joggers camo",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-rest-day-sweats-2-0-joggers-camo-brown-ss25",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark running back vent tank",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-running-back-vent-tank-white-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gymshark x analis duffle bag bags",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-gymshark-x-analis-duffle-bag-bags-blue-aw25",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark lifting club graphic oversized long sleeve t shirt ls tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-lifting-club-graphic-oversized-long-sleeve-t-shirt-ls-tops-black-aw25",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 28,
+      "products": [
+        {
+          "name": "signal muscle tank",
+          "url": "https://www.gymreapers.com/products/signal-muscle-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "community stage muscle tank",
+          "url": "https://www.gymreapers.com/products/community-stage-muscle-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "huntington muscle tank",
+          "url": "https://www.gymreapers.com/products/huntington-muscle-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "grxwza takeover tri blend tee",
+          "url": "https://www.gymreapers.com/products/grxwza-takeover-tri-blend-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "coastal heat tri blend tee",
+          "url": "https://www.gymreapers.com/products/coastal-heat-tri-blend-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "signal tri blend tee",
+          "url": "https://www.gymreapers.com/products/signal-tri-blend-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "tech tri blend tee",
+          "url": "https://www.gymreapers.com/products/blue-tech-tri-blend-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "26 socal shield tri blend tee",
+          "url": "https://www.gymreapers.com/products/26-socal-shield-tri-blend-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "community stage cropped tee",
+          "url": "https://www.gymreapers.com/products/community-stage-cropped-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "signal cropped tee",
+          "url": "https://www.gymreapers.com/products/signal-cropped-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "vertical motion cropped tee",
+          "url": "https://www.gymreapers.com/products/vertical-motion-cropped-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "huntington full length tank",
+          "url": "https://www.gymreapers.com/products/huntington-full-length-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "blur tech full length tank",
+          "url": "https://www.gymreapers.com/products/blur-tech-full-length-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "coastal heat crop tank",
+          "url": "https://www.gymreapers.com/products/coastal-heat-crop-tank",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "reaper training long sleeve",
+          "url": "https://www.gymreapers.com/products/reaper-training-long-sleeve",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "26 socal shield hoodie",
+          "url": "https://www.gymreapers.com/products/26-socal-shield-hoodie",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "signal hoodie",
+          "url": "https://www.gymreapers.com/products/signal-hoodie",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "26 socal jersey",
+          "url": "https://www.gymreapers.com/products/26-socal-jersey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "26 socal cropped jersey",
+          "url": "https://www.gymreapers.com/products/26-socal-cropped-jersey",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "coastal heat patch",
+          "url": "https://www.gymreapers.com/products/coastal-heat-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "huntington beach patch",
+          "url": "https://www.gymreapers.com/products/huntington-beach-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "community stage patch",
+          "url": "https://www.gymreapers.com/products/community-stage-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "signal patch",
+          "url": "https://www.gymreapers.com/products/signal-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "painted shield patch",
+          "url": "https://www.gymreapers.com/products/painted-shield-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "2026 socal shield patch",
+          "url": "https://www.gymreapers.com/products/2026-socal-shield-patch",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "signal corduroy 5 panel hat",
+          "url": "https://www.gymreapers.com/products/signal-corduroy-5-panel-hat",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "2026 socal shield trucker hat",
+          "url": "https://www.gymreapers.com/products/2026-socal-shield-trucker-hat",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "signal performance 5 panel hat",
+          "url": "https://www.gymreapers.com/products/signal-performance-5-panel-hat",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "brand": "goruck",
@@ -5237,646 +5785,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-10-31",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 237,
-      "products": [
-        {
-          "name": "strato tech tee acorn",
-          "url": "https://vuoriclothing.com/products/strato-tech-tee-acorn-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "emilie cashmere crew",
-          "url": "https://vuoriclothing.com/products/womens-emilie-cashmere-crew-charcoal-heather",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "tuvalu tee firewood",
-          "url": "https://vuoriclothing.com/products/tuvalu-tee-firewood",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance tee boulder",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-tee-boulder-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance tee boulder heather",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-tee-salt-heather-boulder-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve ponto performance tee",
-          "url": "https://vuoriclothing.com/products/long-sleeve-ponto-performance-tee-black",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve ponto performance tee",
-          "url": "https://vuoriclothing.com/products/long-sleeve-ponto-performance-tee-raisin-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve ponto performance tee army",
-          "url": "https://vuoriclothing.com/products/long-sleeve-ponto-performance-tee-army-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve ponto performance polo",
-          "url": "https://vuoriclothing.com/products/short-sleeve-ponto-performance-polo-raisin-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve knit oxford button down classic fit ocean",
-          "url": "https://vuoriclothing.com/products/short-sleeve-knit-oxford-button-down-classic-fit-ocean-blue",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "long sleeve midweight flannel shirt boysenberry",
-          "url": "https://vuoriclothing.com/products/long-sleeve-midweight-flannel-shirt-boysenberry",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "strato tech tee multipack",
-          "url": "https://vuoriclothing.com/products/mens-strato-tech-tee-multipack-multi",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "short sleeve clearview engineered tee",
-          "url": "https://vuoriclothing.com/products/short-sleeve-clearview-engineered-tee-ink",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "long sleeve strato tech tee",
-          "url": "https://vuoriclothing.com/products/long-sleeve-strato-tech-tee-raisin-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado shirt jacket army",
-          "url": "https://vuoriclothing.com/products/coronado-shirt-jacket-army-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve coronado henley relaxed fit atmosphere",
-          "url": "https://vuoriclothing.com/products/long-sleeve-coronado-henley-relaxed-fit-atmosphere-heather",
-          "category": "tops",
-          "gender": "mens"
-        },
-        {
-          "name": "berik cashmere hoodie",
-          "url": "https://vuoriclothing.com/products/berik-cashmere-hoodie-black",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "berik cashmere hoodie hunter",
-          "url": "https://vuoriclothing.com/products/berik-cashmere-hoodie-hunter-green",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday element half zip",
-          "url": "https://vuoriclothing.com/products/sunday-element-half-zip-raisin-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday element half zip hunter",
-          "url": "https://vuoriclothing.com/products/sunday-element-half-zip-hunter-green-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto half zip mock neck army",
-          "url": "https://vuoriclothing.com/products/ponto-half-zip-mock-neck-army-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "beach fleece crew hunter",
-          "url": "https://vuoriclothing.com/products/beach-fleece-crew-hunter-green-heather",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "coronado full zip hoodie 2 0 slate",
-          "url": "https://vuoriclothing.com/products/coronado-full-zip-hoodie-2-0-slate-blue-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado v neck",
-          "url": "https://vuoriclothing.com/products/coronado-v-neck-black-heather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado v neck",
-          "url": "https://vuoriclothing.com/products/coronado-v-neck-midnight-heather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado v neck light",
-          "url": "https://vuoriclothing.com/products/coronado-v-neck-light-heather-grey",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve costa twill snap button shirt",
-          "url": "https://vuoriclothing.com/products/long-sleeve-costa-twill-snap-button-shirt-grey-heather",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "long sleeve costa twill snap button shirt army",
-          "url": "https://vuoriclothing.com/products/long-sleeve-costa-twill-snap-button-shirt-army-heather",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "long sleeve coronado rugby",
-          "url": "https://vuoriclothing.com/products/long-sleeve-coronado-rugby-mocha-heather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve coronado rugby army",
-          "url": "https://vuoriclothing.com/products/long-sleeve-coronado-rugby-army-heather",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "long sleeve coronado rugby light",
-          "url": "https://vuoriclothing.com/products/long-sleeve-coronado-rugby-light-heather-grey",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "pique fleece pullover hoodie boulder",
-          "url": "https://vuoriclothing.com/products/pique-fleece-pullover-hoodie-boulder",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece pullover hoodie",
-          "url": "https://vuoriclothing.com/products/pique-fleece-pullover-hoodie-ink",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece pullover hoodie",
-          "url": "https://vuoriclothing.com/products/pique-fleece-pullover-hoodie-salt",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday pullover hoodie",
-          "url": "https://vuoriclothing.com/products/sunday-pullover-hoodie-raisin-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "pique fleece shirt jacket boulder",
-          "url": "https://vuoriclothing.com/products/pique-fleece-shirt-jacket-boulder",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece shirt jacket",
-          "url": "https://vuoriclothing.com/products/pique-fleece-shirt-jacket-ink",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece shirt jacket",
-          "url": "https://vuoriclothing.com/products/pique-fleece-shirt-jacket-salt",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside crew 2 0 raindrop",
-          "url": "https://vuoriclothing.com/products/seaside-crew-2-0-raindrop",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside 1 2 zip 2 0 light",
-          "url": "https://vuoriclothing.com/products/seaside-1-2-zip-2-0-light-heather-grey",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside 1 2 zip 2 0",
-          "url": "https://vuoriclothing.com/products/seaside-1-2-zip-2-0-raisin",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside 1 2 zip 2 0",
-          "url": "https://vuoriclothing.com/products/seaside-1-2-zip-2-0-salt",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside pullover hoodie 2 0",
-          "url": "https://vuoriclothing.com/products/seaside-pullover-hoodie-2-0-raisin",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday element jacket",
-          "url": "https://vuoriclothing.com/products/sunday-element-jacket-raisin-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday element jacket hunter",
-          "url": "https://vuoriclothing.com/products/sunday-element-jacket-hunter-green-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "adventure sweater full zip hoodie",
-          "url": "https://vuoriclothing.com/products/adventure-sweater-full-zip-hoodie-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "adventure sweater full zip hoodie",
-          "url": "https://vuoriclothing.com/products/adventure-sweater-full-zip-hoodie-dark-pewter",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "coronado half zip boulder",
-          "url": "https://vuoriclothing.com/products/coronado-half-zip-boulder-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado half zip slate",
-          "url": "https://vuoriclothing.com/products/coronado-half-zip-slate-blue-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday element track jacket hunter",
-          "url": "https://vuoriclothing.com/products/sunday-element-track-jacket-hunter-green-heather",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "berik cashmere sweater hunter",
-          "url": "https://vuoriclothing.com/products/berik-cashmere-sweater-hunter-green",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "kore short lined 7 raindrop seaflow",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-7-raindrop-seaflow",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 5 raindrop",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-5-raindrop",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday track short 6",
-          "url": "https://vuoriclothing.com/products/sunday-track-short-6-raisin-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 lined 5 raindrop",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-lined-5-raindrop",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 lined 5",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-lined-5-raisin",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 lined 7 raindrop",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-lined-7-raindrop",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 lined 7",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-lined-7-raisin",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short lined 5 raindrop seaflow",
-          "url": "https://vuoriclothing.com/products/kore-short-lined-5-raindrop-seaflow",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short unlined 7 raindrop",
-          "url": "https://vuoriclothing.com/products/kore-short-unlined-7-raindrop",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "seaside sweatpant",
-          "url": "https://vuoriclothing.com/products/seaside-sweatpant-raisin",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside sweatpant long",
-          "url": "https://vuoriclothing.com/products/seaside-sweatpant-long-raisin",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori meta pant classic fit 34 hunter",
-          "url": "https://vuoriclothing.com/products/vuori-meta-pant-classic-fit-34-hunter-green",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta pant classic fit 30 hunter",
-          "url": "https://vuoriclothing.com/products/vuori-meta-pant-classic-fit-30-hunter-green",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta pant classic fit 32 hunter",
-          "url": "https://vuoriclothing.com/products/vuori-meta-pant-classic-fit-32-hunter-green",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "taika snow pant coast",
-          "url": "https://vuoriclothing.com/products/taika-snow-pant-blue-coast",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "taika snow pant",
-          "url": "https://vuoriclothing.com/products/taika-snow-pant-bone",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "taika pant silt",
-          "url": "https://vuoriclothing.com/products/taika-snow-pant-silt",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "suvi bib canyon",
-          "url": "https://vuoriclothing.com/products/suvi-snow-bib-canyon",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "suvi snow bib hunter",
-          "url": "https://vuoriclothing.com/products/suvi-snow-bib-hunter-green",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori vintage jean classic fit 30 sandy taupe",
-          "url": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-30-sandy-taupe-denim",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori vintage jean classic fit 32 sandy taupe",
-          "url": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-sandy-taupe-denim",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside straight leg sweatpant 32",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-32-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside straight leg sweatpant 32 light",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-32-light-heather-grey",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside straight leg sweatpant 32 raindrop",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-32-raindrop",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "seaside straight leg sweatpant 30 raindrop",
-          "url": "https://vuoriclothing.com/products/seaside-straight-leg-sweatpant-30-raindrop",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "optimist elastic waist pant classic fit 30 boulder",
-          "url": "https://vuoriclothing.com/products/optimist-elastic-waist-pant-classic-fit-30-boulder",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori vintage jean relaxed fit 30 sandy taupe",
-          "url": "https://vuoriclothing.com/products/vuori-vintage-jean-relaxed-fit-30-sandy-taupe-denim",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori vintage jean relaxed fit 32 sandy taupe",
-          "url": "https://vuoriclothing.com/products/vuori-vintage-jean-relaxed-fit-32-sandy-taupe-denim",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "vuori meta trouser classic fit 30 boulder",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-30-boulder",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser classic fit 32 boulder",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-classic-fit-32-boulder",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado pant classic fit 32 slate",
-          "url": "https://vuoriclothing.com/products/coronado-pant-classic-fit-32-slate-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado pant classic fit 32",
-          "url": "https://vuoriclothing.com/products/coronado-pant-classic-fit-32-black-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado pant classic fit 30 boulder",
-          "url": "https://vuoriclothing.com/products/coronado-pant-classic-fit-30-boulder-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "coronado pant classic fit 30 slate",
-          "url": "https://vuoriclothing.com/products/coronado-pant-classic-fit-30-slate-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser athletic slim fit 30 boulder",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-athletic-slim-fit-30-boulder",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta trouser athletic slim fit 32 boulder",
-          "url": "https://vuoriclothing.com/products/vuori-meta-trouser-athletic-slim-fit-32-boulder",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "pique fleece pant 30 boulder",
-          "url": "https://vuoriclothing.com/products/pique-fleece-pant-30-boulder",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece pant 30",
-          "url": "https://vuoriclothing.com/products/pique-fleece-pant-30-ink",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "pique fleece pant 30",
-          "url": "https://vuoriclothing.com/products/pique-fleece-pant-30-salt",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "sunday track pant 30",
-          "url": "https://vuoriclothing.com/products/sunday-track-pant-30-raisin-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance jogger",
-          "url": "https://vuoriclothing.com/products/sunday-performance-jogger-raisin-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "sunday performance jogger hunter",
-          "url": "https://vuoriclothing.com/products/sunday-performance-jogger-hunter-green-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto essential pant 30",
-          "url": "https://vuoriclothing.com/products/ponto-essential-pant-30-black",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto essential pant 30 bay",
-          "url": "https://vuoriclothing.com/products/ponto-essential-pant-30-bay-blue-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto essential pant 30",
-          "url": "https://vuoriclothing.com/products/ponto-essential-pant-30-grey-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "ponto essential pant 30 army",
-          "url": "https://vuoriclothing.com/products/ponto-essential-pant-30-army-heather",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "optimist cargo pant classic fit 30",
-          "url": "https://vuoriclothing.com/products/optimist-cargo-pant-classic-fit-30-charcoal",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "optimist cargo pant classic fit 30",
-          "url": "https://vuoriclothing.com/products/optimist-cargo-pant-classic-fit-30-dark-salt",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "vuori meta pant athletic slim fit 34 hunter",
-          "url": "https://vuoriclothing.com/products/vuori-meta-pant-athletic-slim-fit-34-hunter-green",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "brand": "venum",
-      "brandSlug": "venum",
-      "count": 4,
-      "products": [
-        {
-          "name": "venum origins punching bag black",
-          "url": "https://www.venum.com/products/venum-origins-punching-bag-black-khaki",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum venum origins punching bag blackwhite",
-          "url": "https://www.venum.com/products/venum-venum-origins-punching-bag-blackwhite",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum venum origins punching bag blackblack",
-          "url": "https://www.venum.com/products/venum-venum-origins-punching-bag-blackblack",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum origins punching bag black",
-          "url": "https://www.venum.com/products/venum-origins-punching-bag-black-white",
-          "category": "accessories",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6051,7 +5959,8 @@
       "2026-10-15": 7,
       "2026-10-20": 5,
       "2026-10-22": 19,
-      "2026-10-26": 7
+      "2026-10-26": 7,
+      "2026-11-14": 18
     },
     "tenthousand": {
       "2026-02-03": 88,
@@ -6274,7 +6183,8 @@
       "2026-11-02": 1,
       "2026-11-04": 4,
       "2026-11-05": 1,
-      "2026-11-08": 2
+      "2026-11-08": 2,
+      "2026-11-14": 2
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6460,7 +6370,8 @@
       "2026-11-09": 10,
       "2026-11-10": 24,
       "2026-11-11": 8,
-      "2026-11-12": 7
+      "2026-11-12": 7,
+      "2026-11-13": 38
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6551,7 +6462,8 @@
       "2026-10-07": 1,
       "2026-10-12": 6,
       "2026-10-22": 4,
-      "2026-10-26": 53
+      "2026-10-26": 53,
+      "2026-11-13": 28
     },
     "sbd": {
       "2026-04-07": 206,
@@ -6768,8 +6680,8 @@
       "outdoor_voices": 337,
       "tenthousand": 91,
       "lululemon": 1732,
-      "alo": 1851,
-      "gymshark": 5191,
+      "alo": 1852,
+      "gymshark": 5209,
       "on_running": 1808,
       "gymreapers": 244,
       "sbd": 53,
@@ -6789,9 +6701,9 @@
       "tenthousand": 49,
       "lululemon": 835,
       "alo": 599,
-      "gymshark": 4397,
+      "gymshark": 4409,
       "on_running": 741,
-      "gymreapers": 289,
+      "gymreapers": 304,
       "sbd": 172,
       "schiek": 8,
       "bear_grips": 1245,
@@ -6805,13 +6717,13 @@
     },
     "outerwear": {
       "vuori": 767,
-      "outdoor_voices": 47,
+      "outdoor_voices": 65,
       "tenthousand": 22,
       "lululemon": 680,
       "alo": 710,
-      "gymshark": 1337,
+      "gymshark": 1339,
       "on_running": 1057,
-      "gymreapers": 65,
+      "gymreapers": 67,
       "sbd": 7,
       "schiek": 1,
       "bear_grips": 453,
@@ -6828,10 +6740,10 @@
       "outdoor_voices": 74,
       "tenthousand": 18,
       "lululemon": 917,
-      "alo": 863,
+      "alo": 864,
       "gymshark": 953,
       "on_running": 3213,
-      "gymreapers": 361,
+      "gymreapers": 369,
       "sbd": 120,
       "harbinger": 26,
       "schiek": 59,
@@ -6850,7 +6762,7 @@
       "outdoor_voices": 46,
       "lululemon": 186,
       "alo": 351,
-      "gymshark": 1144,
+      "gymshark": 1146,
       "on_running": 208,
       "gymreapers": 78,
       "bear_grips": 9,
@@ -6880,9 +6792,9 @@
       "tenthousand": 5,
       "lululemon": 627,
       "alo": 441,
-      "gymshark": 718,
+      "gymshark": 722,
       "on_running": 779,
-      "gymreapers": 215,
+      "gymreapers": 218,
       "sbd": 68,
       "harbinger": 30,
       "schiek": 44,
@@ -6910,7 +6822,7 @@
       "tenthousand": 9,
       "lululemon": 205,
       "alo": 43,
-      "gymshark": 681,
+      "gymshark": 687,
       "on_running": 27,
       "gymreapers": 31,
       "sbd": 14,
@@ -6928,7 +6840,7 @@
       "tenthousand": 55,
       "lululemon": 528,
       "alo": 435,
-      "gymshark": 2000,
+      "gymshark": 2004,
       "on_running": 791,
       "gymreapers": 156,
       "sbd": 31,
@@ -6946,9 +6858,9 @@
       "tenthousand": 6,
       "lululemon": 290,
       "alo": 280,
-      "gymshark": 1232,
+      "gymshark": 1234,
       "on_running": 335,
-      "gymreapers": 58,
+      "gymreapers": 64,
       "sbd": 24,
       "bear_grips": 472,
       "asrv": 130,
@@ -6965,7 +6877,7 @@
       "lululemon": 22,
       "alo": 56,
       "gymshark": 126,
-      "gymreapers": 140,
+      "gymreapers": 148,
       "bear_grips": 567,
       "asrv": 285,
       "goruck": 102,
@@ -6977,8 +6889,8 @@
       "outdoor_voices": 24,
       "tenthousand": 4,
       "lululemon": 207,
-      "alo": 381,
-      "gymshark": 1522,
+      "alo": 382,
+      "gymshark": 1526,
       "on_running": 448,
       "gymreapers": 49,
       "sbd": 1,
@@ -6995,10 +6907,10 @@
       "outdoor_voices": 199,
       "tenthousand": 43,
       "lululemon": 1593,
-      "alo": 1737,
-      "gymshark": 4500,
+      "alo": 1738,
+      "gymshark": 4510,
       "on_running": 3650,
-      "gymreapers": 599,
+      "gymreapers": 607,
       "sbd": 268,
       "harbinger": 56,
       "schiek": 109,
@@ -7059,7 +6971,7 @@
     },
     "jackets": {
       "vuori": 229,
-      "outdoor_voices": 16,
+      "outdoor_voices": 30,
       "tenthousand": 7,
       "lululemon": 300,
       "alo": 197,
@@ -7081,7 +6993,7 @@
       "tenthousand": 6,
       "lululemon": 183,
       "alo": 41,
-      "gymshark": 762,
+      "gymshark": 768,
       "on_running": 19,
       "gymreapers": 15,
       "sbd": 7,
@@ -7098,9 +7010,9 @@
       "tenthousand": 10,
       "lululemon": 139,
       "alo": 231,
-      "gymshark": 693,
+      "gymshark": 695,
       "on_running": 378,
-      "gymreapers": 30,
+      "gymreapers": 32,
       "sbd": 7,
       "schiek": 1,
       "bear_grips": 259,
@@ -7120,7 +7032,7 @@
       "alo": 154,
       "gymshark": 134,
       "on_running": 243,
-      "gymreapers": 94,
+      "gymreapers": 97,
       "sbd": 11,
       "schiek": 1,
       "bear_grips": 157,
@@ -7142,7 +7054,7 @@
     },
     "vests": {
       "vuori": 52,
-      "outdoor_voices": 3,
+      "outdoor_voices": 7,
       "tenthousand": 4,
       "lululemon": 48,
       "alo": 18,
@@ -7158,9 +7070,9 @@
       "outdoor_voices": 17,
       "lululemon": 96,
       "alo": 195,
-      "gymshark": 228,
+      "gymshark": 230,
       "on_running": 233,
-      "gymreapers": 25,
+      "gymreapers": 26,
       "sbd": 9,
       "bear_grips": 7,
       "asrv": 6,
@@ -7212,7 +7124,7 @@
       "vuori": 13,
       "lululemon": 217,
       "alo": 2,
-      "gymshark": 96,
+      "gymshark": 98,
       "gymreapers": 5,
       "schiek": 2,
       "asrv": 48,
@@ -7307,7 +7219,7 @@
       "vuori": 681,
       "outdoor_voices": 35,
       "alo": 525,
-      "gymshark": 1518,
+      "gymshark": 1524,
       "on_running": 354,
       "gymreapers": 87,
       "sbd": 22,
@@ -7322,7 +7234,7 @@
     },
     "navy": {
       "vuori": 126,
-      "outdoor_voices": 49,
+      "outdoor_voices": 53,
       "alo": 199,
       "gymshark": 92,
       "on_running": 316,
@@ -7337,9 +7249,9 @@
     },
     "black": {
       "vuori": 998,
-      "outdoor_voices": 105,
+      "outdoor_voices": 109,
       "alo": 1080,
-      "gymshark": 3183,
+      "gymshark": 3191,
       "on_running": 1682,
       "gymreapers": 140,
       "sbd": 6,
@@ -7390,8 +7302,8 @@
       "vuori": 517,
       "outdoor_voices": 32,
       "lululemon": 17,
-      "alo": 950,
-      "gymshark": 987,
+      "alo": 951,
+      "gymshark": 989,
       "on_running": 1709,
       "gymreapers": 112,
       "sbd": 6,
@@ -7410,9 +7322,9 @@
       "outdoor_voices": 39,
       "lululemon": 8,
       "alo": 256,
-      "gymshark": 2222,
+      "gymshark": 2228,
       "on_running": 866,
-      "gymreapers": 35,
+      "gymreapers": 36,
       "sbd": 12,
       "schiek": 2,
       "asrv": 72,
@@ -7424,10 +7336,10 @@
     },
     "green": {
       "vuori": 250,
-      "outdoor_voices": 60,
+      "outdoor_voices": 62,
       "lululemon": 4,
       "alo": 325,
-      "gymshark": 772,
+      "gymshark": 774,
       "on_running": 299,
       "gymreapers": 113,
       "sbd": 6,
@@ -7441,9 +7353,9 @@
     },
     "brown": {
       "vuori": 214,
-      "outdoor_voices": 2,
+      "outdoor_voices": 4,
       "alo": 313,
-      "gymshark": 1222,
+      "gymshark": 1226,
       "on_running": 124,
       "gymreapers": 19,
       "schiek": 2,
@@ -7472,9 +7384,9 @@
     },
     "purple": {
       "vuori": 178,
-      "outdoor_voices": 11,
+      "outdoor_voices": 14,
       "alo": 42,
-      "gymshark": 801,
+      "gymshark": 803,
       "on_running": 195,
       "gymreapers": 12,
       "sbd": 4,
@@ -7501,7 +7413,7 @@
       "outdoor_voices": 7,
       "lululemon": 7,
       "alo": 61,
-      "gymshark": 166,
+      "gymshark": 168,
       "on_running": 84,
       "gymreapers": 18,
       "schiek": 4,
@@ -7518,7 +7430,7 @@
       "vuori": 91,
       "outdoor_voices": 10,
       "alo": 249,
-      "gymshark": 1310,
+      "gymshark": 1316,
       "on_running": 185,
       "gymreapers": 19,
       "sbd": 2,
@@ -7565,7 +7477,7 @@
   "categoryMix": [
     {
       "brand": "Gymshark",
-      "bottoms": 37.7,
+      "bottoms": 37.8,
       "tops": 32,
       "outerwear": 9.7,
       "dresses": 0.1,
@@ -7605,7 +7517,7 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37,
+      "bottoms": 37.1,
       "tops": 12,
       "outerwear": 14.2,
       "dresses": 2.7,
@@ -7665,12 +7577,12 @@
     },
     {
       "brand": "gymreapers",
-      "bottoms": 19.5,
-      "tops": 23.1,
+      "bottoms": 19.1,
+      "tops": 23.8,
       "outerwear": 5.2,
       "dresses": 0,
-      "sports_bras": 6.2,
-      "accessories": 17.2,
+      "sports_bras": 6.1,
+      "accessories": 17,
       "other": 28.8
     },
     {
@@ -7685,13 +7597,13 @@
     },
     {
       "brand": "Outdoor Voices",
-      "bottoms": 48.8,
-      "tops": 12.5,
-      "outerwear": 6.8,
-      "dresses": 7.2,
-      "sports_bras": 6.7,
-      "accessories": 7.1,
-      "other": 10.7
+      "bottoms": 47.6,
+      "tops": 12.1,
+      "outerwear": 9.2,
+      "dresses": 7.1,
+      "sports_bras": 6.5,
+      "accessories": 6.9,
+      "other": 10.5
     },
     {
       "brand": "ghost",
@@ -7779,7 +7691,7 @@
       "brand": "Gymshark",
       "black": 23.1,
       "white": 7.2,
-      "gray": 11,
+      "gray": 11.1,
       "navy": 0.7,
       "blue": 16.2,
       "green": 5.6,
@@ -7947,20 +7859,20 @@
     },
     {
       "brand": "gymreapers",
-      "black": 11.2,
-      "white": 8.9,
-      "gray": 6.9,
+      "black": 10.9,
+      "white": 8.8,
+      "gray": 6.8,
       "navy": 3.4,
       "blue": 2.8,
-      "green": 9,
-      "khaki": 4.8,
+      "green": 8.8,
+      "khaki": 4.7,
       "brown": 1.5,
-      "purple": 1,
+      "purple": 0.9,
       "pink": 1.5,
       "orange": 0.1,
-      "red": 5,
+      "red": 4.9,
       "yellow": 1.4,
-      "other": 3.1
+      "other": 3
     },
     {
       "brand": "dfyne",
@@ -7981,20 +7893,20 @@
     },
     {
       "brand": "Outdoor Voices",
-      "black": 15.2,
-      "white": 4.6,
-      "gray": 5.1,
-      "navy": 7.1,
-      "blue": 5.7,
-      "green": 8.7,
+      "black": 15.4,
+      "white": 4.5,
+      "gray": 4.9,
+      "navy": 7.5,
+      "blue": 5.5,
+      "green": 8.8,
       "khaki": 1.4,
-      "brown": 0.3,
-      "purple": 1.6,
+      "brown": 0.6,
+      "purple": 2,
       "pink": 1.4,
-      "orange": 0.9,
+      "orange": 0.8,
       "red": 0.3,
       "yellow": 1,
-      "other": 5.4
+      "other": 5.2
     },
     {
       "brand": "ghost",
@@ -8171,7 +8083,7 @@
       "metric": "shorts",
       "brand": "Vuori",
       "value": 891,
-      "text": "Vuori ranks #2 in shorts with 891 products. Behind Gymshark (2000)."
+      "text": "Vuori ranks #2 in shorts with 891 products. Behind Gymshark (2004)."
     },
     {
       "type": "comparison",
@@ -8181,7 +8093,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,518 competitor products tracked. Vuori's 5,416 = 10% share of tracked catalog."
+      "text": "Market context: 51,604 competitor products tracked. Vuori's 5,416 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8289,7 +8201,7 @@
       {
         "category": "Leggings",
         "vuori": 241,
-        "competitor": 381,
+        "competitor": 382,
         "winner": "competitor"
       },
       {
@@ -8325,10 +8237,10 @@
       {
         "category": "Women's Products",
         "vuori": 2539,
-        "competitor": 1566,
+        "competitor": 1568,
         "winner": "vuori"
       }
     ]
   },
-  "generated_at": "2026-11-13T14:15:12.602Z"
+  "generated_at": "2026-11-14T14:15:10.401Z"
 }
