@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 5416,
+      "total": 5419,
       "categories": {
         "bottoms": 2452,
-        "tops": 830,
+        "tops": 833,
         "outerwear": 767,
         "other": 805,
         "sports_bras": 183,
@@ -18,12 +18,12 @@
         "joggers": 186,
         "shorts": 891,
         "tanks": 259,
-        "tees": 287,
+        "tees": 288,
         "leggings": 241,
         "other": 1633,
         "pants": 518,
         "pullovers": 9,
-        "polos": 60,
+        "polos": 62,
         "training": 20,
         "jackets": 229,
         "long_sleeve": 58,
@@ -43,14 +43,14 @@
         "fleece": 19
       },
       "genders": {
-        "mens": 1879,
+        "mens": 1882,
         "womens": 2539,
         "unisex": 998
       },
       "colors": {
-        "gray": 681,
+        "gray": 683,
         "navy": 126,
-        "black": 998,
+        "black": 999,
         "khaki": 226,
         "red": 119,
         "white": 517,
@@ -69,7 +69,7 @@
       },
       "colorCoverage": 83.3,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3077
+      "uniqueStyles": 3078
     },
     "outdoor_voices": {
       "name": "Outdoor Voices",
@@ -240,9 +240,9 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 4998,
+      "total": 4999,
       "categories": {
-        "other": 864,
+        "other": 865,
         "bottoms": 1852,
         "tops": 599,
         "sports_bras": 351,
@@ -252,7 +252,7 @@
         "dresses": 136
       },
       "subcategories": {
-        "other": 1738,
+        "other": 1739,
         "leggings": 382,
         "tanks": 280,
         "shorts": 435,
@@ -280,14 +280,14 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3118,
+        "unisex": 3119,
         "womens": 1568,
         "mens": 312
       },
       "colors": {
         "navy": 199,
         "black": 1080,
-        "white": 951,
+        "white": 952,
         "gray": 525,
         "khaki": 137,
         "pink": 249,
@@ -305,7 +305,7 @@
       },
       "colorCoverage": 88.4,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 3068
+      "uniqueStyles": 3069
     },
     "gymshark": {
       "name": "Gymshark",
@@ -1066,7 +1066,7 @@
     }
   },
   "totals": {
-    "products": 57020,
+    "products": 57024,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
@@ -1190,9 +1190,35 @@
     },
     {
       "date": "2026-11-14",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 3,
+      "products": [
+        {
+          "name": "strato tech tee",
+          "url": "https://vuoriclothing.com/products/strato-tech-tee-grey-heather",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "strato tech polo tonal",
+          "url": "https://vuoriclothing.com/products/strato-tech-polo-black-tonal",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "strato tech polo",
+          "url": "https://vuoriclothing.com/products/strato-tech-polo-grey-heather",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
       "brand": "Alo Yoga",
       "brandSlug": "alo",
-      "count": 2,
+      "count": 3,
       "products": [
         {
           "name": "airbrush high waist 7 8 flutter legging",
@@ -1205,6 +1231,12 @@
           "url": "https://www.aloyoga.com/products/w51263r-high-waist-dreamscape-trouser-dark-cactus",
           "category": "other",
           "gender": "womens"
+        },
+        {
+          "name": "fresh mini scrunchie 3 pack celestial blue winter ivy",
+          "url": "https://www.aloyoga.com/products/a0290u-fresh-mini-scrunchie-3-pack-celestial-blue-winter-ivy-ivory",
+          "category": "other",
+          "gender": "unisex"
         }
       ]
     },
@@ -5928,7 +5960,8 @@
       "2026-11-03": 2,
       "2026-11-05": 4,
       "2026-11-09": 1,
-      "2026-11-10": 2
+      "2026-11-10": 2,
+      "2026-11-14": 3
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -6184,7 +6217,7 @@
       "2026-11-04": 4,
       "2026-11-05": 1,
       "2026-11-08": 2,
-      "2026-11-14": 2
+      "2026-11-14": 3
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -6696,7 +6729,7 @@
       "dfyne": 354
     },
     "tops": {
-      "vuori": 830,
+      "vuori": 833,
       "outdoor_voices": 86,
       "tenthousand": 49,
       "lululemon": 835,
@@ -6740,7 +6773,7 @@
       "outdoor_voices": 74,
       "tenthousand": 18,
       "lululemon": 917,
-      "alo": 864,
+      "alo": 865,
       "gymshark": 953,
       "on_running": 3213,
       "gymreapers": 369,
@@ -6871,7 +6904,7 @@
       "dfyne": 9
     },
     "tees": {
-      "vuori": 287,
+      "vuori": 288,
       "outdoor_voices": 16,
       "tenthousand": 15,
       "lululemon": 22,
@@ -6907,7 +6940,7 @@
       "outdoor_voices": 199,
       "tenthousand": 43,
       "lululemon": 1593,
-      "alo": 1738,
+      "alo": 1739,
       "gymshark": 4510,
       "on_running": 3650,
       "gymreapers": 607,
@@ -6949,7 +6982,7 @@
       "goruck": 6
     },
     "polos": {
-      "vuori": 60,
+      "vuori": 62,
       "outdoor_voices": 7,
       "lululemon": 65,
       "alo": 15,
@@ -7216,7 +7249,7 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 681,
+      "vuori": 683,
       "outdoor_voices": 35,
       "alo": 525,
       "gymshark": 1524,
@@ -7248,7 +7281,7 @@
       "dfyne": 43
     },
     "black": {
-      "vuori": 998,
+      "vuori": 999,
       "outdoor_voices": 109,
       "alo": 1080,
       "gymshark": 3191,
@@ -7302,7 +7335,7 @@
       "vuori": 517,
       "outdoor_voices": 32,
       "lululemon": 17,
-      "alo": 951,
+      "alo": 952,
       "gymshark": 989,
       "on_running": 1709,
       "gymreapers": 112,
@@ -7497,8 +7530,8 @@
     },
     {
       "brand": "Vuori",
-      "bottoms": 45.3,
-      "tops": 15.3,
+      "bottoms": 45.2,
+      "tops": 15.4,
       "outerwear": 14.2,
       "dresses": 0.9,
       "sports_bras": 3.4,
@@ -7517,7 +7550,7 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37.1,
+      "bottoms": 37,
       "tops": 12,
       "outerwear": 14.2,
       "dresses": 2.7,
@@ -7730,7 +7763,7 @@
       "blue": 12.7,
       "green": 4.6,
       "khaki": 4.2,
-      "brown": 4,
+      "brown": 3.9,
       "purple": 3.3,
       "pink": 1.7,
       "orange": 0.4,
@@ -8075,8 +8108,8 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1879,
-      "text": "Vuori leads Lululemon in men's: 1879 vs 1286 products. A 46% advantage."
+      "value": 1882,
+      "text": "Vuori leads Lululemon in men's: 1882 vs 1286 products. A 46% advantage."
     },
     {
       "type": "leader",
@@ -8093,7 +8126,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,604 competitor products tracked. Vuori's 5,416 = 9% share of tracked catalog."
+      "text": "Market context: 51,605 competitor products tracked. Vuori's 5,419 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8174,13 +8207,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 287,
+        "vuori": 288,
         "competitor": 22,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1879,
+        "vuori": 1882,
         "competitor": 1286,
         "winner": "vuori"
       },
@@ -8224,13 +8257,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 287,
+        "vuori": 288,
         "competitor": 56,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1879,
+        "vuori": 1882,
         "competitor": 312,
         "winner": "vuori"
       },
@@ -8242,5 +8275,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-14T14:15:10.401Z"
+  "generated_at": "2026-11-15T14:15:10.967Z"
 }
