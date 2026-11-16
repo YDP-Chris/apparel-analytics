@@ -3,8 +3,8 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 763,
-      "change_from_last": 0,
+      "total_jobs": 762,
+      "change_from_last": -1,
       "departments": {
         "finance": 6,
         "other": 114,
@@ -14,7 +14,7 @@
         "engineering": 22,
         "executive": 4,
         "hr": 5,
-        "operations": 248,
+        "operations": 247,
         "marketing": 3
       },
       "seniority": {
@@ -24,29 +24,29 @@
         "lead": 107,
         "c-suite": 11,
         "intern": 4,
-        "senior": 23
+        "senior": 22
       },
       "locations": [
-        "Perimeter Mall, Atlanta, GA (10176)",
-        "Boulder, Colorado, United States",
+        "Beverly Hills, California, United States; San Ramon Office, San Ramon, CA (LO-SF)",
+        "Miami, Miami, FL (10013)",
+        "Paris, Paris, France",
+        "Plaza at Frotenac, St. Louis, MO (10051)",
+        "Florence, Italy",
+        "North Hills, Raleigh, NC (10100)",
+        "Ashburn, Virginia, United States",
+        "Albuquerque, New Mexico, United States",
+        "San Ramon Office, San Ramon, CA (LO-SF)",
+        "Studio City, California, United States",
         "Switzerland",
-        "Portland, Oregon, United States",
-        "Charleston, South Carolina, United States",
-        "Amherst, New York, United States",
-        "Los Angeles, California, United States",
-        "Garden City, New York, United States",
-        "Town Center Plaza, Leawood, KS (10185)",
-        "Wayne, New Jersey, United States",
+        "Southgate Centre, Edmonton, AB (10071)",
         "Columbus Ave, New York, NY (10188)",
-        "Santa Monica, California, United States",
-        "Hamburg, Hamburg, Germany",
-        "Park Meadows Mall, Lone Tree, CO (10031)",
-        "San Diego, California, United States",
-        "Carlsbad, California, United States",
-        "Dedham, Massachusetts, United States",
-        "Rochester Hills, Michigan, United States",
-        "Gilbert, Arizona, United States",
-        "La Croisette, Cannes (50122)"
+        "Bridgewater, New Jersey, United States",
+        "Westfarms Mall, West Hartford, CT (10062)",
+        "Greenwich, Connecticut, United States",
+        "Fashion Place Mall, Murray, UT (10179)",
+        "Beverly Hills, California, United States",
+        "Pasadena, California, United States",
+        "Westfield London, London (50058)"
       ],
       "jobs": [
         {
@@ -550,29 +550,28 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-11-15T05:30:08.176622"
+      "checked_at": "2026-11-16T05:30:06.919338"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 6,
-      "change_from_last": 0,
+      "total_jobs": 5,
+      "change_from_last": -1,
       "departments": {
-        "other": 3,
+        "other": 2,
         "engineering": 2,
         "finance": 1
       },
       "seniority": {
         "manager": 1,
         "lead": 1,
-        "mid": 2,
+        "mid": 1,
         "senior": 2
       },
       "locations": [
-        "Solihull, England, United Kingdom",
         "Roosevelt, New York, United States",
         "New York, New York, United States",
-        "Miami, Florida, United States"
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -594,16 +593,6 @@
           "posted_at": "2026-11-12T12:01:24-05:00",
           "category": "other",
           "seniority": "lead"
-        },
-        {
-          "id": "4875763101",
-          "title": "Gym Team Member",
-          "location": "Miami, Florida, United States",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4875763101",
-          "posted_at": "2026-11-12T12:01:24-05:00",
-          "category": "other",
-          "seniority": "mid"
         },
         {
           "id": "4988756101",
@@ -636,7 +625,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-11-15T05:30:10.314882"
+      "checked_at": "2026-11-16T05:30:09.068464"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -694,10 +683,10 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 148,
-      "change_from_last": 0,
+      "total_jobs": 147,
+      "change_from_last": -1,
       "departments": {
-        "retail": 114,
+        "retail": 113,
         "marketing": 9,
         "executive": 4,
         "other": 11,
@@ -707,32 +696,32 @@
         "operations": 1
       },
       "seniority": {
-        "lead": 81,
+        "lead": 80,
         "c-suite": 4,
         "mid": 60,
         "senior": 3
       },
       "locations": [
-        "Tokyo",
-        "Shanghai",
-        "Miami",
-        "Portland",
-        "Tianjin",
-        "Beijing",
-        "Guangzhou",
-        "Paris",
-        "Vienna",
-        "New York City",
-        "Washington D.C.",
-        "Macao",
-        "Dallas",
+        "Chengdu",
+        "D\u00fcsseldorf",
+        "Shenzhen",
         "Aventura",
-        "Wuhan",
+        "Paris",
+        "Landquart",
+        "Washington D.C.",
+        "Southlake",
         "Mexico City",
-        "Brooklyn",
-        "Chicago",
-        "Zurich",
-        "Shenzhen"
+        "Guangzhou",
+        "Beijing",
+        "New York City",
+        "Miami",
+        "Corte Madera",
+        "Shanghai",
+        "Newport Beach",
+        "Vienna",
+        "Munich",
+        "Tianjin",
+        "Amsterdam"
       ],
       "jobs": [
         {
@@ -1016,16 +1005,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8127441",
-          "title": "Lead Store Advisor, D\u00fcsseldorf",
-          "location": "D\u00fcsseldorf",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8127441?gh_jid=8127441",
-          "posted_at": "2026-09-07T10:43:22-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "6017601",
           "title": "Lead Store Advisor\uff08Florence CHE\uff09",
           "location": "Chengdu",
@@ -1234,10 +1213,20 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "6629016",
+          "title": "Retail - Lead Store Advisor\uff08Coastal City\uff09",
+          "location": "Shenzhen",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/6629016?gh_jid=6629016",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-11-15T05:30:19.817014"
+      "checked_at": "2026-11-16T05:30:18.405373"
     }
   },
-  "generated_at": "2026-11-15T05:30:21.817269"
+  "generated_at": "2026-11-16T05:30:20.405520"
 }

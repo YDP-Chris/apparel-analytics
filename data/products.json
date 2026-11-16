@@ -310,24 +310,24 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13790,
+      "total": 13800,
       "categories": {
         "bottoms": 5209,
-        "tops": 4409,
+        "tops": 4411,
         "other": 953,
-        "accessories": 722,
+        "accessories": 728,
         "outerwear": 1339,
-        "sports_bras": 1146,
+        "sports_bras": 1148,
         "dresses": 12
       },
       "subcategories": {
         "shorts": 2004,
         "leggings": 1526,
         "crop_tops": 230,
-        "other": 4510,
+        "other": 4514,
         "long_sleeve": 768,
-        "socks": 296,
-        "tanks": 1234,
+        "socks": 300,
+        "tanks": 1236,
         "joggers": 687,
         "hoodies": 695,
         "jackets": 340,
@@ -349,29 +349,29 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 6091,
-        "womens": 4917,
-        "mens": 2782
+        "unisex": 6097,
+        "womens": 4919,
+        "mens": 2784
       },
       "colors": {
         "green": 774,
         "pink": 1316,
         "black": 3191,
-        "white": 989,
+        "white": 993,
         "navy": 92,
-        "gray": 1524,
-        "brown": 1226,
+        "gray": 1526,
+        "brown": 1228,
         "blue": 2228,
         "red": 483,
-        "purple": 803,
+        "purple": 805,
         "yellow": 168,
         "orange": 76,
         "khaki": 6,
         "print": 24
       },
-      "colorCoverage": 93.5,
+      "colorCoverage": 93.6,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3518
+      "uniqueStyles": 3522
     },
     "on_running": {
       "name": "On Running",
@@ -1066,12 +1066,80 @@
     }
   },
   "totals": {
-    "products": 57024,
+    "products": 57034,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-15",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 10,
+      "products": [
+        {
+          "name": "gymshark adapt camo seamless sports bra savanna cherry",
+          "url": "https://www.gymshark.com/products/gymshark-adapt-camo-seamless-sports-bra-savanna-cherry-brown-ss22",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark washed premium ribbed tank sleeveless tops",
+          "url": "https://www.gymshark.com/products/gymshark-washed-premium-ribbed-tank-sleeveless-tops-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark adapt camo seamless sports bra savanna cherry",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-adapt-camo-seamless-sports-bra-savanna-cherry-brown-ss22",
+          "category": "sports_bras",
+          "gender": "womens"
+        },
+        {
+          "name": "gymshark washed premium ribbed tank sleeveless tops",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-washed-premium-ribbed-tank-sleeveless-tops-grey-ss25",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gfx shaker crew sock single socks",
+          "url": "https://www.gymshark.com/products/gymshark-gfx-shaker-crew-sock-single-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark strength dept graphic crew socks",
+          "url": "https://www.gymshark.com/products/gymshark-strength-dept-graphic-crew-socks-white-aw24",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark shaker bottle bottles",
+          "url": "https://www.gymshark.com/products/gymshark-shaker-bottle-bottles-purple-aw26",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark gfx shaker crew sock single socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-gfx-shaker-crew-sock-single-socks-white-aw24",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark strength dept graphic crew socks",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-strength-dept-graphic-crew-socks-white-aw24",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "gymshark shaker bottle bottles",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-shaker-bottle-bottles-purple-aw26",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "brand": "Outdoor Voices",
@@ -5209,614 +5277,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-11-01",
-      "brand": "optimum_nutrition",
-      "brandSlug": "optimum_nutrition",
-      "count": 1148,
-      "products": [
-        {
-          "name": "starter pack nl",
-          "url": "https://www.optimumnutrition.com/products/starter-pack-nl",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "starter pack se",
-          "url": "https://www.optimumnutrition.com/products/starter-pack-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard whey protein creatine pack uk",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-whey-protein-creatine-pack-uk",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "starter pack fr",
-          "url": "https://www.optimumnutrition.com/products/starter-pack-fr",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "starter pack de",
-          "url": "https://www.optimumnutrition.com/products/starter-pack-de",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3 x proteinereep boxen",
-          "url": "https://www.optimumnutrition.com/products/3-x-proteinereep-boxen",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2 x proteinereep boxen",
-          "url": "https://www.optimumnutrition.com/products/2-x-proteinereep-boxen",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3x protein bar box se",
-          "url": "https://www.optimumnutrition.com/products/3x-protein-bar-box-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3 x standard 100 whey proteinepoeder 2270 g",
-          "url": "https://www.optimumnutrition.com/products/3-x-gold-standard-100-whey-proteinepoeder-2270-g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "pack 3 boites barres proteinees",
-          "url": "https://www.optimumnutrition.com/products/pack-3-boites-barres-proteinees",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x protein bar box se",
-          "url": "https://www.optimumnutrition.com/products/2x-protein-bar-box-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3x standard 100 whey protein powder 2270g se",
-          "url": "https://www.optimumnutrition.com/products/3x-gold-standard-100-whey-protein-powder-2270g-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard whey protein creatine pack x2",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-whey-protein-creatine-pack-x2",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "essentials pack uk",
-          "url": "https://www.optimumnutrition.com/products/essentials-pack-uk",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "clear starter pack",
-          "url": "https://www.optimumnutrition.com/products/clear-starter-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "starter pack gb",
-          "url": "https://www.optimumnutrition.com/products/starter-pack-gb",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3x creatine sachets pack",
-          "url": "https://www.optimumnutrition.com/products/3x-creatine-sachets-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "uk clear protein powder creatine",
-          "url": "https://www.optimumnutrition.com/products/uk-clear-protein-powder-creatine",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "refreshing summer pack",
-          "url": "https://www.optimumnutrition.com/products/refreshing-summer-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "pack duo standard 100 whey protein 900 g",
-          "url": "https://www.optimumnutrition.com/products/pack-duo-gold-standard-100-whey-protein-900-g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard whey protein kreatin paket",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-whey-protein-kreatin-paket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "nl standard whey protein creatine pack",
-          "url": "https://www.optimumnutrition.com/products/nl-gold-standard-whey-protein-creatine-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x standard 100 whey protein 5lb",
-          "url": "https://www.optimumnutrition.com/products/2x-gold-standard-100-whey-protein-5lb",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x standard 100 whey protein 2270g pack",
-          "url": "https://www.optimumnutrition.com/products/2x-gold-standard-100-whey-protein-2270g-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "serious mass gainer creatine pack se",
-          "url": "https://www.optimumnutrition.com/products/serious-mass-gainer-creatine-pack-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard starter pack",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-starter-pack-1",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3x standard 100 whey protein powder paket",
-          "url": "https://www.optimumnutrition.com/products/3x-gold-standard-100-whey-protein-powder-paket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2 x standard 100 whey proteinepoeder 900 g",
-          "url": "https://www.optimumnutrition.com/products/2-x-gold-standard-100-whey-proteinepoeder-900-g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "pack 2 boites barres proteinees",
-          "url": "https://www.optimumnutrition.com/products/pack-2-boites-barres-proteinees",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x standard 100 whey protein 2270g paket",
-          "url": "https://www.optimumnutrition.com/products/2x-gold-standard-100-whey-protein-2270g-paket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "serious mass gainer creatine pack x2",
-          "url": "https://www.optimumnutrition.com/products/serious-mass-gainer-creatine-pack-x2",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2erpack standard 100 whey protein 900 g",
-          "url": "https://www.optimumnutrition.com/products/2erpack-gold-standard-100-whey-protein-900-g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard whey protein creatine pack se",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-whey-protein-creatine-pack-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "nl serious mass gainer creatine pack",
-          "url": "https://www.optimumnutrition.com/products/nl-serious-mass-gainer-creatine-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "power pack se",
-          "url": "https://www.optimumnutrition.com/products/platinum-power-pack-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard starter pack uk",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-starter-pack-uk",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "nl power pack",
-          "url": "https://www.optimumnutrition.com/products/nl-platinum-power-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "pack puissance whey creatine",
-          "url": "https://www.optimumnutrition.com/products/pack-puissance-platinum-whey-creatine",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard 100 whey proteinepoeder duo pack 2 x 2270 g",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-100-whey-proteinepoeder-duo-pack-2-x-2270-g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x standard 100 whey protein 2270g",
-          "url": "https://www.optimumnutrition.com/products/2x-gold-standard-100-whey-protein-2270g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3x standard 100 whey protein powder 2270g",
-          "url": "https://www.optimumnutrition.com/products/3x-gold-standard-100-whey-protein-powder-2270g",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard starter pack se",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-starter-pack-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard pack essentiels",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-pack-essentiels",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2pack standard 100 whey protein 900 g se",
-          "url": "https://www.optimumnutrition.com/products/2pack-gold-standard-100-whey-protein-900-g-se",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "serious mass gainer kreatin paket",
-          "url": "https://www.optimumnutrition.com/products/serious-mass-gainer-kreatin-paket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "performance pack uk",
-          "url": "https://www.optimumnutrition.com/products/performance-pack-uk",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "proteinriegel box 3er pack",
-          "url": "https://www.optimumnutrition.com/products/proteinriegel-box-3er-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "proteinriegel box 2er pack",
-          "url": "https://www.optimumnutrition.com/products/proteinriegel-box-2er-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "power paket",
-          "url": "https://www.optimumnutrition.com/products/platinum-power-paket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "bundle product 118",
-          "url": "https://www.optimumnutrition.com/products/bundle-product-118",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "standard starterpaket",
-          "url": "https://www.optimumnutrition.com/products/gold-standard-starterpaket",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "3x electrolyte sachets pack",
-          "url": "https://www.optimumnutrition.com/products/3x-electrolyte-sachets-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "bundle product 120",
-          "url": "https://www.optimumnutrition.com/products/bundle-product-120",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "jp bundle product 120",
-          "url": "https://www.optimumnutrition.com/products/jp-bundle-product-120",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "bundle product 123",
-          "url": "https://www.optimumnutrition.com/products/bundle-product-123",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "creatine electrolyte sachet pack",
-          "url": "https://www.optimumnutrition.com/products/creatine-electrolyte-sachet-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "hydw creatinecaps100 advantage pack",
-          "url": "https://www.optimumnutrition.com/products/hydw_creatinecaps100_advantage_pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gsw creatinecaps100 advantage pack",
-          "url": "https://www.optimumnutrition.com/products/gsw_creatinecaps100_advantage_pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think delight protein bars chocolate peanut pie case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-delight-protein-bars-chocolate-peanut-butter-pie-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think crispy squares toffee pretzel crunch case of 60 squares",
-          "url": "https://www.optimumnutrition.com/products/think-crispy-squares-toffee-pretzel-crunch-case-of-60-squares",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think crispy squares marshmallow crunch case of 60 squares",
-          "url": "https://www.optimumnutrition.com/products/think-crispy-squares-marshmallow-crunch-case-of-60-squares",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think delight protein bars peanut chocolate cookie dough case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-delight-protein-bars-peanut-butter-chocolate-cookie-dough-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars creamy peanut case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-creamy-peanut-butter-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think crispy squares chocolate crunch case of 60 squares",
-          "url": "https://www.optimumnutrition.com/products/think-crispy-squares-chocolate-crunch-case-of-60-squares",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars chocolate creme cupcake case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-chocolate-creme-cupcake-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars chunky peanut case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-chunky-peanut-butter-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think plant based bars peanut chocolate chip case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-plant-based-bars-peanut-butter-chocolate-chip-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars chocolate case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-white-chocolate-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think plant based bars sea almond chocolate case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-plant-based-bars-sea-salt-almond-chocolate-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars coconut caramel case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-coconut-caramel-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars cookies case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-cookies-cream-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars delight case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-lemon-delight-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars chocolate fudge case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-chocolate-fudge-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars brownie crunch case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-brownie-crunch-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think delight protein bars chocolate mousse pie case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-delight-protein-bars-chocolate-mousse-pie-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think high protein bars thin case of 120 bars",
-          "url": "https://www.optimumnutrition.com/products/think-high-protein-bars-thin-mint-case-of-120-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x standard 100 plant 1lb",
-          "url": "https://www.optimumnutrition.com/products/2x-gold-standard-100-plant-1lb",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think protein crisp salted toffee pretzel case of 48 bars",
-          "url": "https://www.optimumnutrition.com/products/think-protein-crisp-salted-toffee-pretzel-case-of-48-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think protein crisp chocolate crunch case of 48 bars",
-          "url": "https://www.optimumnutrition.com/products/think-protein-crisp-chocolate-crunch-case-of-48-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think protein crisp chocolate crunch case of 48 bars",
-          "url": "https://www.optimumnutrition.com/products/think-protein-crisp-chocolate-crunch-case-of-48-bars-1",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "think protein crisp vanilla marshmallow case of 48 bars",
-          "url": "https://www.optimumnutrition.com/products/think-protein-crisp-vanilla-marshmallow-case-of-48-bars",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "2x standard 100 wheytm protein 2 lbs",
-          "url": "https://www.optimumnutrition.com/products/2x-gold-standard-100-wheytm-protein-2-lbs",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "creatineplus triplepack new",
-          "url": "https://www.optimumnutrition.com/products/creatineplus_triplepack-new",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ultimate workout bundle",
-          "url": "https://www.optimumnutrition.com/products/ultimate-workout-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "recover gain bundle",
-          "url": "https://www.optimumnutrition.com/products/recover-gain-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gsw aminoe advantage pack",
-          "url": "https://www.optimumnutrition.com/products/gsw_aminoe_advantage_pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "the original mass stack",
-          "url": "https://www.optimumnutrition.com/products/the-original-mass-stack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "optimum advantage starter stack",
-          "url": "https://www.optimumnutrition.com/products/optimum-advantage-starter-stack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "strength essentials kit",
-          "url": "https://www.optimumnutrition.com/products/strength-essentials-kit",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "hydration recovery duo",
-          "url": "https://www.optimumnutrition.com/products/hydration-recovery-duo",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "premium recover gain bundle",
-          "url": "https://www.optimumnutrition.com/products/premium-recover-gain-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "dynamic duo bundle energy recovery",
-          "url": "https://www.optimumnutrition.com/products/dynamic-duo-bundle-energy-recovery",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "performance nutrition bundle",
-          "url": "https://www.optimumnutrition.com/products/performance-nutrition-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "ultimate performance bundle",
-          "url": "https://www.optimumnutrition.com/products/ultimate-performance-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "optimum advantage travel pack",
-          "url": "https://www.optimumnutrition.com/products/optimum-advantage-travel-pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "starter plus bundle",
-          "url": "https://www.optimumnutrition.com/products/starter-plus-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "strength and endurance bundle",
-          "url": "https://www.optimumnutrition.com/products/strength-and-endurance-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "the standard bundle",
-          "url": "https://www.optimumnutrition.com/products/the-gold-standard-bundle",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "hydw aminoe advantage pack",
-          "url": "https://www.optimumnutrition.com/products/hydw_aminoe_advantage_pack",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "mass stack",
-          "url": "https://www.optimumnutrition.com/products/mass-stack",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -6404,7 +5864,8 @@
       "2026-11-10": 24,
       "2026-11-11": 8,
       "2026-11-12": 7,
-      "2026-11-13": 38
+      "2026-11-13": 38,
+      "2026-11-15": 10
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -6734,7 +6195,7 @@
       "tenthousand": 49,
       "lululemon": 835,
       "alo": 599,
-      "gymshark": 4409,
+      "gymshark": 4411,
       "on_running": 741,
       "gymreapers": 304,
       "sbd": 172,
@@ -6795,7 +6256,7 @@
       "outdoor_voices": 46,
       "lululemon": 186,
       "alo": 351,
-      "gymshark": 1146,
+      "gymshark": 1148,
       "on_running": 208,
       "gymreapers": 78,
       "bear_grips": 9,
@@ -6825,7 +6286,7 @@
       "tenthousand": 5,
       "lululemon": 627,
       "alo": 441,
-      "gymshark": 722,
+      "gymshark": 728,
       "on_running": 779,
       "gymreapers": 218,
       "sbd": 68,
@@ -6891,7 +6352,7 @@
       "tenthousand": 6,
       "lululemon": 290,
       "alo": 280,
-      "gymshark": 1234,
+      "gymshark": 1236,
       "on_running": 335,
       "gymreapers": 64,
       "sbd": 24,
@@ -6941,7 +6402,7 @@
       "tenthousand": 43,
       "lululemon": 1593,
       "alo": 1739,
-      "gymshark": 4510,
+      "gymshark": 4514,
       "on_running": 3650,
       "gymreapers": 607,
       "sbd": 268,
@@ -7173,7 +6634,7 @@
       "tenthousand": 2,
       "lululemon": 159,
       "alo": 198,
-      "gymshark": 296,
+      "gymshark": 300,
       "on_running": 489,
       "gymreapers": 8,
       "sbd": 48,
@@ -7252,7 +6713,7 @@
       "vuori": 683,
       "outdoor_voices": 35,
       "alo": 525,
-      "gymshark": 1524,
+      "gymshark": 1526,
       "on_running": 354,
       "gymreapers": 87,
       "sbd": 22,
@@ -7336,7 +6797,7 @@
       "outdoor_voices": 32,
       "lululemon": 17,
       "alo": 952,
-      "gymshark": 989,
+      "gymshark": 993,
       "on_running": 1709,
       "gymreapers": 112,
       "sbd": 6,
@@ -7388,7 +6849,7 @@
       "vuori": 214,
       "outdoor_voices": 4,
       "alo": 313,
-      "gymshark": 1226,
+      "gymshark": 1228,
       "on_running": 124,
       "gymreapers": 19,
       "schiek": 2,
@@ -7419,7 +6880,7 @@
       "vuori": 178,
       "outdoor_voices": 14,
       "alo": 42,
-      "gymshark": 803,
+      "gymshark": 805,
       "on_running": 195,
       "gymreapers": 12,
       "sbd": 4,
@@ -7510,12 +6971,12 @@
   "categoryMix": [
     {
       "brand": "Gymshark",
-      "bottoms": 37.8,
+      "bottoms": 37.7,
       "tops": 32,
       "outerwear": 9.7,
       "dresses": 0.1,
       "sports_bras": 8.3,
-      "accessories": 5.2,
+      "accessories": 5.3,
       "other": 6.9
     },
     {
@@ -7726,7 +7187,7 @@
       "white": 7.2,
       "gray": 11.1,
       "navy": 0.7,
-      "blue": 16.2,
+      "blue": 16.1,
       "green": 5.6,
       "khaki": 0,
       "brown": 8.9,
@@ -8126,7 +7587,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,605 competitor products tracked. Vuori's 5,419 = 10% share of tracked catalog."
+      "text": "Market context: 51,615 competitor products tracked. Vuori's 5,419 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -8275,5 +7736,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-15T14:15:10.967Z"
+  "generated_at": "2026-11-16T14:15:10.256Z"
 }
