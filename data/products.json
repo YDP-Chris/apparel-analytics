@@ -240,13 +240,13 @@
     "alo": {
       "name": "Alo Yoga",
       "slug": "alo",
-      "total": 5004,
+      "total": 5005,
       "categories": {
         "other": 866,
         "bottoms": 1854,
         "tops": 600,
         "sports_bras": 351,
-        "accessories": 442,
+        "accessories": 443,
         "outerwear": 710,
         "footwear": 45,
         "dresses": 136
@@ -267,7 +267,7 @@
         "skirts": 143,
         "jackets": 197,
         "bags": 2,
-        "socks": 198,
+        "socks": 199,
         "bralette": 13,
         "polos": 15,
         "crop_tops": 195,
@@ -280,7 +280,7 @@
         "high_support": 3
       },
       "genders": {
-        "unisex": 3122,
+        "unisex": 3123,
         "womens": 1570,
         "mens": 312
       },
@@ -288,7 +288,7 @@
         "navy": 200,
         "black": 1083,
         "white": 953,
-        "gray": 525,
+        "gray": 526,
         "khaki": 137,
         "pink": 249,
         "blue": 256,
@@ -376,30 +376,30 @@
     "on_running": {
       "name": "On Running",
       "slug": "on_running",
-      "total": 11042,
+      "total": 11061,
       "categories": {
-        "bottoms": 1809,
+        "bottoms": 1815,
         "tops": 741,
-        "accessories": 779,
+        "accessories": 784,
         "sports_bras": 208,
-        "other": 3213,
-        "footwear": 3206,
-        "outerwear": 1057,
+        "other": 3214,
+        "footwear": 3210,
+        "outerwear": 1060,
         "dresses": 29
       },
       "subcategories": {
-        "shorts": 792,
-        "leggings": 448,
-        "other": 3650,
+        "shorts": 793,
+        "leggings": 449,
+        "other": 3652,
         "hats": 243,
         "crop_tops": 233,
-        "pants": 448,
-        "running": 2978,
+        "pants": 452,
+        "running": 2982,
         "tanks": 335,
-        "jackets": 509,
+        "jackets": 511,
         "joggers": 27,
         "casual_dress": 29,
-        "socks": 489,
+        "socks": 494,
         "vests": 74,
         "hoodies": 378,
         "skirts": 44,
@@ -414,31 +414,31 @@
         "trail": 2
       },
       "genders": {
-        "womens": 5259,
-        "mens": 4562,
-        "unisex": 1221
+        "womens": 5266,
+        "mens": 4567,
+        "unisex": 1228
       },
       "colors": {
         "blue": 866,
         "red": 241,
-        "black": 1682,
+        "black": 1684,
         "purple": 195,
-        "navy": 316,
+        "navy": 317,
         "khaki": 239,
         "gray": 354,
         "yellow": 84,
-        "white": 1709,
+        "white": 1712,
         "pink": 185,
-        "green": 299,
-        "orange": 82,
+        "green": 300,
+        "orange": 83,
         "heather": 43,
-        "brown": 124,
+        "brown": 126,
         "rust": 64,
         "camo": 6
       },
       "colorCoverage": 58.8,
       "avgColorsPerStyle": 2.5,
-      "uniqueStyles": 1540
+      "uniqueStyles": 1541
     },
     "gymreapers": {
       "name": "gymreapers",
@@ -655,11 +655,11 @@
     "asrv": {
       "name": "asrv",
       "slug": "asrv",
-      "total": 1957,
+      "total": 1958,
       "categories": {
         "accessories": 250,
         "other": 356,
-        "bottoms": 644,
+        "bottoms": 645,
         "outerwear": 257,
         "tops": 427,
         "sports_bras": 23
@@ -672,7 +672,7 @@
         "joggers": 118,
         "jackets": 64,
         "pants": 47,
-        "shorts": 359,
+        "shorts": 360,
         "tees": 285,
         "hoodies": 141,
         "sweatpants": 8,
@@ -687,14 +687,14 @@
         "polos": 4
       },
       "genders": {
-        "unisex": 1838,
+        "unisex": 1839,
         "womens": 108,
         "mens": 11
       },
       "colors": {
         "black": 553,
         "red": 81,
-        "white": 214,
+        "white": 215,
         "purple": 2,
         "camo": 83,
         "green": 130,
@@ -707,14 +707,14 @@
       },
       "colorCoverage": 82.6,
       "avgColorsPerStyle": 1.4,
-      "uniqueStyles": 1087
+      "uniqueStyles": 1088
     },
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2647,
+      "total": 2659,
       "categories": {
-        "other": 1416,
+        "other": 1428,
         "accessories": 163,
         "tops": 288,
         "bottoms": 132,
@@ -723,7 +723,7 @@
         "sports_bras": 12
       },
       "subcategories": {
-        "other": 1638,
+        "other": 1650,
         "hats": 42,
         "shorts": 42,
         "quarter_zips": 24,
@@ -744,7 +744,7 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 2101,
+        "unisex": 2113,
         "mens": 282,
         "womens": 264
       },
@@ -764,7 +764,7 @@
         "orange": 6,
         "green": 6
       },
-      "colorCoverage": 22.2,
+      "colorCoverage": 22.1,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 76
     },
@@ -1066,12 +1066,222 @@
     }
   },
   "totals": {
-    "products": 57086,
+    "products": 57119,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-19",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 3,
+      "products": [
+        {
+          "name": "american windbreaker",
+          "url": "https://www.goruck.com/products/american-windbreaker",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "american windbreaker",
+          "url": "https://www.goruck.com/en-ca/products/american-windbreaker",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "american windbreaker",
+          "url": "https://www.goruck.com/en-sg/products/american-windbreaker",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "brand": "On Running",
+      "brandSlug": "on_running",
+      "count": 19,
+      "products": [
+        {
+          "name": "cloudmonster 3 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/flowerbud-lucent-shoes-3WG10035934",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudmonster 3 w",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-w-3wg1003/womens/pixie-lucent-shoes-3WG10035799",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudtilt w",
+          "url": "https://www.on.com/en-us/products/cloudtilt-w-3we1005/womens/ivory-camellia-shoes-3WE10055084",
+          "category": "footwear",
+          "gender": "womens"
+        },
+        {
+          "name": "core 1 4 zip m",
+          "url": "https://www.on.com/en-us/products/core-1-4-zip-m-1mg3072/mens/barberry-apparel-1MG30724977",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "core jacket m",
+          "url": "https://www.on.com/en-us/products/core-jacket-m-1me1033/mens/bark-vetiver-apparel-1ME10335547",
+          "category": "outerwear",
+          "gender": "mens"
+        },
+        {
+          "name": "logo sock high 3p kids u 2kf1005",
+          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-kids-u-2kf1005/unisex",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "core track pants m 1mg3030",
+          "url": "https://www.on.com/en-us/products/core-track-pants-m-1mg3030/mens",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "core pants",
+          "url": "https://www.on.com/en-us/products/core-pants-1mf1011/mens/bark-apparel-1MF10114966",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "core pants",
+          "url": "https://www.on.com/en-us/products/core-pants-1wf1014/womens/barberry-apparel-1WF10144977",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "core track pants m",
+          "url": "https://www.on.com/en-us/products/core-track-pants-m-1mg3030/mens/black-apparel-1MG30300553",
+          "category": "bottoms",
+          "gender": "mens"
+        },
+        {
+          "name": "logo sock high 3p kids u",
+          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-kids-u-2kf1005/unisex/black-accessories-2KF10050553",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "logo sock high 3p kids u",
+          "url": "https://www.on.com/en-us/products/logo-sock-high-3p-kids-u-2kf1005/unisex/navy-accessories-2KF10050255",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "socks u",
+          "url": "https://www.on.com/en-us/products/socks-u-2ug3061/unisex/dark-orange-accessories-2UG30614538",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "socks u",
+          "url": "https://www.on.com/en-us/products/socks-u-2ug3061/unisex/khaki-green-accessories-2UG30616239",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "studio tights 7 8 w",
+          "url": "https://www.on.com/en-us/products/studio-tights-7-8-w-1wg1092/womens/cassis-apparel-1WG10925007",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "train shorts 3 w",
+          "url": "https://www.on.com/en-us/products/train-shorts-3-w-1wg3028/womens/cassis-apparel-1WG30285007",
+          "category": "bottoms",
+          "gender": "womens"
+        },
+        {
+          "name": "weather hybrid jacket w",
+          "url": "https://www.on.com/en-us/products/weather-hybrid-jacket-w-1wg3072/womens/mulberry-cassis-apparel-1WG30725542",
+          "category": "outerwear",
+          "gender": "womens"
+        },
+        {
+          "name": "cloudboom strike 2 ls u",
+          "url": "https://www.on.com/en-us/products/cloudboom-strike-2-ls-u-3ug3002/unisex/white-cherrywood-shoes-3UG30026459",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "cloudmonster 3 hyper ls u",
+          "url": "https://www.on.com/en-us/products/cloudmonster-3-hyper-ls-u-3ug1001/unisex/white-cherrywood-shoes-3UG10016459",
+          "category": "footwear",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 9,
+      "products": [
+        {
+          "name": "2027 ranger creed double tough",
+          "url": "https://www.goruck.com/products/2027-ranger-creed-double-tough",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "2027 ranger creed double tough",
+          "url": "https://www.goruck.com/en-ca/products/2027-ranger-creed-double-tough",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "2027 ranger creed double tough",
+          "url": "https://www.goruck.com/en-au/products/2027-ranger-creed-double-tough",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "2027 ranger creed double tough",
+          "url": "https://www.goruck.com/en-sg/products/2027-ranger-creed-double-tough",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "american windbreaker",
+          "url": "https://www.goruck.com/en-au/products/american-windbreaker",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "2027 ranger creed double tough",
+          "url": "https://www.goruck.com/en-gb/products/2027-ranger-creed-double-tough",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "american windbreaker",
+          "url": "https://www.goruck.com/en-gb/products/american-windbreaker",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "2027 ranger creed double tough",
+          "url": "https://www.goruck.com/en-eu/products/2027-ranger-creed-double-tough",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "american windbreaker",
+          "url": "https://www.goruck.com/en-eu/products/american-windbreaker",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "brand": "Vuori",
@@ -1112,6 +1322,20 @@
     },
     {
       "date": "2026-11-18",
+      "brand": "Alo Yoga",
+      "brandSlug": "alo",
+      "count": 1,
+      "products": [
+        {
+          "name": "plush lush sock",
+          "url": "https://www.aloyoga.com/products/a0429w-plush-lush-sock-gravel",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
       "brand": "gymreapers",
       "brandSlug": "gymreapers",
       "count": 1,
@@ -1120,6 +1344,20 @@
           "name": "5 5 skull wristband",
           "url": "https://www.gymreapers.com/products/5-5-skull-wristband",
           "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "brand": "asrv",
+      "brandSlug": "asrv",
+      "count": 1,
+      "products": [
+        {
+          "name": "0828 aerosilver 5 liner short ivory cream wings",
+          "url": "https://asrv.com/products/0828-aerosilver-5-liner-short-ivory-cream-wings-white",
+          "category": "bottoms",
           "gender": "unisex"
         }
       ]
@@ -3859,422 +4097,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "On Running",
-      "brandSlug": "on_running",
-      "count": 34,
-      "products": [
-        {
-          "name": "all day puffer jacket m",
-          "url": "https://www.on.com/en-us/products/all-day-puffer-jacket-m-1mf3037/mens/urchin-apparel-1MF30374968",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "all day puffer vest m",
-          "url": "https://www.on.com/en-us/products/all-day-puffer-vest-m-1mf3036/mens/urchin-apparel-1MF30364968",
-          "category": "outerwear",
-          "gender": "mens"
-        },
-        {
-          "name": "balaclava shfg u",
-          "url": "https://www.on.com/en-us/products/balaclava-shfg-u-2ug3034/unisex/dandelion-red-accessories-2UG30345614",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "studio long t w",
-          "url": "https://www.on.com/en-us/products/studio-long-t-w-1wg1037/womens/cassis-apparel-1WG10375007",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "utility jacket shfg u",
-          "url": "https://www.on.com/en-us/products/utility-jacket-shfg-u-1ug3012/unisex/black-apparel-1UG30120553",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "cloud low wp shfg m",
-          "url": "https://www.on.com/en-us/products/cloud-low-wp-shfg-m-3mg3093/mens/black-black-shoes-3MG30931043",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud low wp shfg m",
-          "url": "https://www.on.com/en-us/products/cloud-low-wp-shfg-m-3mg3093/mens/date-torchwood-shoes-3MG30936417",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "cloud low wp shfg w",
-          "url": "https://www.on.com/en-us/products/cloud-low-wp-shfg-w-3wg3083/womens/black-black-shoes-3WG30831043",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "cloud low wp shfg w",
-          "url": "https://www.on.com/en-us/products/cloud-low-wp-shfg-w-3wg3083/womens/date-torchwood-shoes-3WG30836417",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "club t shfg u",
-          "url": "https://www.on.com/en-us/products/club-t-shfg-u-1ug3011/unisex/black-apparel-1UG30110553",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "club t shfg u",
-          "url": "https://www.on.com/en-us/products/club-t-shfg-u-1ug3011/unisex/medjool-apparel-1UG30116049",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "long johns shfg m 1mg3145",
-          "url": "https://www.on.com/en-us/products/long-johns-shfg-m-1mg3145/mens",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "merino sock shfg u 2ug3069",
-          "url": "https://www.on.com/en-us/products/merino-sock-shfg-u-2ug3069/unisex",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility pants shfg m 1mg3144",
-          "url": "https://www.on.com/en-us/products/utility-pants-shfg-m-1mg3144/mens",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "utility zip hoodie shfg u 1ug3010",
-          "url": "https://www.on.com/en-us/products/utility-zip-hoodie-shfg-u-1ug3010/unisex",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "waffle long t shfg u 1ug3009",
-          "url": "https://www.on.com/en-us/products/waffle-long-t-shfg-u-1ug3009/unisex",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility jacket shfg u 1ug3012",
-          "url": "https://www.on.com/en-us/products/utility-jacket-shfg-u-1ug3012/unisex",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility vest shfg u 1ug3051",
-          "url": "https://www.on.com/en-us/products/utility-vest-shfg-u-1ug3051/unisex",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "long johns shfg m",
-          "url": "https://www.on.com/en-us/products/long-johns-shfg-m-1mg3145/mens/red-apparel-1MG31450672",
-          "category": "other",
-          "gender": "mens"
-        },
-        {
-          "name": "merino sock shfg u",
-          "url": "https://www.on.com/en-us/products/merino-sock-shfg-u-2ug3069/unisex/black-accessories-2UG30690553",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "merino sock shfg u",
-          "url": "https://www.on.com/en-us/products/merino-sock-shfg-u-2ug3069/unisex/brown-accessories-2UG30693492",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "performance long t w",
-          "url": "https://www.on.com/en-us/products/performance-long-t-w-1we1032/womens/cassis-mulberry-apparel-1WE10325422",
-          "category": "other",
-          "gender": "womens"
-        },
-        {
-          "name": "utility jacket shfg u",
-          "url": "https://www.on.com/en-us/products/utility-jacket-shfg-u-1ug3012/unisex/medjool-apparel-1UG30126049",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility pants shfg m",
-          "url": "https://www.on.com/en-us/products/utility-pants-shfg-m-1mg3144/mens/black-apparel-1MG31440553",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "utility pants shfg m",
-          "url": "https://www.on.com/en-us/products/utility-pants-shfg-m-1mg3144/mens/medjool-apparel-1MG31446049",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "utility vest shfg u",
-          "url": "https://www.on.com/en-us/products/utility-vest-shfg-u-1ug3051/unisex/black-apparel-1UG30510553",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility vest shfg u",
-          "url": "https://www.on.com/en-us/products/utility-vest-shfg-u-1ug3051/unisex/medjool-apparel-1UG30516049",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility zip hoodie shfg u",
-          "url": "https://www.on.com/en-us/products/utility-zip-hoodie-shfg-u-1ug3010/unisex/black-apparel-1UG30100553",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "utility zip hoodie shfg u",
-          "url": "https://www.on.com/en-us/products/utility-zip-hoodie-shfg-u-1ug3010/unisex/medjool-apparel-1UG30106049",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "waffle long t shfg u",
-          "url": "https://www.on.com/en-us/products/waffle-long-t-shfg-u-1ug3009/unisex/dandelion-red-apparel-1UG30095614",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "balaclava shfg u 2ug3034",
-          "url": "https://www.on.com/en-us/products/balaclava-shfg-u-2ug3034/unisex",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "low wp shfg m 3mg3093",
-          "url": "https://www.on.com/en-us/products/cloud-low-wp-shfg-m-3mg3093/mens",
-          "category": "footwear",
-          "gender": "mens"
-        },
-        {
-          "name": "low wp shfg w 3wg3083",
-          "url": "https://www.on.com/en-us/products/cloud-low-wp-shfg-w-3wg3083/womens",
-          "category": "footwear",
-          "gender": "womens"
-        },
-        {
-          "name": "club t shfg u 1ug3011",
-          "url": "https://www.on.com/en-us/products/club-t-shfg-u-1ug3011/unisex",
-          "category": "other",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 10,
-      "products": [
-        {
-          "name": "gymshark bold t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-bold-t-shirt-navy-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gains washed loopback crew neck asphalt grey",
-          "url": "https://www.gymshark.com/products/gymshark-gains-washed-loopback-crew-neck-asphalt-grey-black-ss25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus 7 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-campus-7-shorts-shorts-red-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sticker sheet misc",
-          "url": "https://www.gymshark.com/products/gymshark-sticker-sheet-misc-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark bold t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-bold-t-shirt-navy-ss22",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark gains washed loopback crew neck asphalt grey",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-gains-washed-loopback-crew-neck-asphalt-grey-black-ss25",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark campus 7 shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-campus-7-shorts-shorts-red-ss25",
-          "category": "bottoms",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark sticker sheet misc",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-sticker-sheet-misc-black-aw26",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark est 2012 t shirt",
-          "url": "https://www.gymshark.com/products/gymshark-est-2012-t-shirt-white-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        },
-        {
-          "name": "gymshark est 2012 t shirt",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-est-2012-t-shirt-white-ss25",
-          "category": "tops",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "goruck",
-      "brandSlug": "goruck",
-      "count": 6,
-      "products": [
-        {
-          "name": "ballistic trainers slick black",
-          "url": "https://www.goruck.com/products/ballistic-trainers-slick-black-charcoal",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick black",
-          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-black-charcoal",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick black",
-          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-black-charcoal",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick black",
-          "url": "https://www.goruck.com/en-sg/products/ballistic-trainers-slick-black-charcoal",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick black",
-          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-black-charcoal",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick black",
-          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-black-charcoal",
-          "category": "footwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "Vuori",
-      "brandSlug": "vuori",
-      "count": 4,
-      "products": [
-        {
-          "name": "kore short x5 unlined 5 raindrop",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-unlined-5-raindrop",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 unlined 5",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-unlined-5-raisin",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 unlined 7 raindrop",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-unlined-7-raindrop",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "kore short x5 unlined 7",
-          "url": "https://vuoriclothing.com/products/kore-short-x5-unlined-7-raisin",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "venum",
-      "brandSlug": "venum",
-      "count": 3,
-      "products": [
-        {
-          "name": "venum contender 1 5 xt kids boxing gloves white",
-          "url": "https://www.venum.com/products/venum-contender-1-5-xt-kids-boxing-gloves-white-pink",
-          "category": "accessories",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum lineup skull wrap",
-          "url": "https://www.venum.com/products/venum-lineup-skull-wrap",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "venum attack 90 tracksuit jacket",
-          "url": "https://www.venum.com/products/venum-attack-90-tracksuit-jacket-navy",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "asrv",
-      "brandSlug": "asrv",
-      "count": 2,
-      "products": [
-        {
-          "name": "0682 training hoodie dark earth",
-          "url": "https://asrv.com/products/0682-training-hoodie-dark-earth",
-          "category": "outerwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "0682 training hoodie",
-          "url": "https://asrv.com/products/0682-training-hoodie-crimson",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 1,
-      "products": [
-        {
-          "name": "ribbed stardust jacket candy",
-          "url": "https://www.aloyoga.com/products/w4488r-ribbed-stardust-jacket-candy-orange",
-          "category": "outerwear",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4679,7 +4501,8 @@
       "2026-11-08": 2,
       "2026-11-14": 3,
       "2026-11-16": 4,
-      "2026-11-17": 1
+      "2026-11-17": 1,
+      "2026-11-18": 1
     },
     "gymshark": {
       "2026-02-03": 3581,
@@ -4935,7 +4758,8 @@
       "2026-11-09": 4,
       "2026-11-11": 7,
       "2026-11-16": 1,
-      "2026-11-17": 1
+      "2026-11-17": 1,
+      "2026-11-18": 19
     },
     "gymreapers": {
       "2026-04-07": 1020,
@@ -5019,7 +4843,8 @@
       "2026-11-05": 2,
       "2026-11-06": 6,
       "2026-11-07": 1,
-      "2026-11-09": 1
+      "2026-11-09": 1,
+      "2026-11-18": 1
     },
     "goruck": {
       "2026-08-30": 1921,
@@ -5059,7 +4884,9 @@
       "2026-11-09": 12,
       "2026-11-10": 6,
       "2026-11-12": 3,
-      "2026-11-13": 15
+      "2026-11-13": 15,
+      "2026-11-18": 9,
+      "2026-11-19": 3
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -5186,12 +5013,12 @@
       "lululemon": 1732,
       "alo": 1854,
       "gymshark": 5209,
-      "on_running": 1809,
+      "on_running": 1815,
       "gymreapers": 246,
       "sbd": 53,
       "schiek": 2,
       "bear_grips": 330,
-      "asrv": 644,
+      "asrv": 645,
       "goruck": 132,
       "ghost": 9,
       "hayabusa": 70,
@@ -5226,7 +5053,7 @@
       "lululemon": 680,
       "alo": 710,
       "gymshark": 1339,
-      "on_running": 1057,
+      "on_running": 1060,
       "gymreapers": 67,
       "sbd": 7,
       "schiek": 1,
@@ -5246,14 +5073,14 @@
       "lululemon": 917,
       "alo": 866,
       "gymshark": 953,
-      "on_running": 3213,
+      "on_running": 3214,
       "gymreapers": 372,
       "sbd": 120,
       "harbinger": 26,
       "schiek": 59,
       "bear_grips": 254,
       "asrv": 356,
-      "goruck": 1416,
+      "goruck": 1428,
       "optimum_nutrition": 1720,
       "ghost": 345,
       "hayabusa": 91,
@@ -5282,7 +5109,7 @@
       "outdoor_voices": 1,
       "lululemon": 50,
       "alo": 45,
-      "on_running": 3206,
+      "on_running": 3210,
       "schiek": 1,
       "goruck": 522,
       "hayabusa": 5,
@@ -5295,9 +5122,9 @@
       "outdoor_voices": 49,
       "tenthousand": 5,
       "lululemon": 627,
-      "alo": 442,
+      "alo": 443,
       "gymshark": 728,
-      "on_running": 779,
+      "on_running": 784,
       "gymreapers": 220,
       "sbd": 68,
       "harbinger": 30,
@@ -5345,11 +5172,11 @@
       "lululemon": 528,
       "alo": 435,
       "gymshark": 2004,
-      "on_running": 792,
+      "on_running": 793,
       "gymreapers": 158,
       "sbd": 31,
       "bear_grips": 40,
-      "asrv": 359,
+      "asrv": 360,
       "goruck": 42,
       "hayabusa": 37,
       "venum": 468,
@@ -5395,7 +5222,7 @@
       "lululemon": 207,
       "alo": 383,
       "gymshark": 1526,
-      "on_running": 448,
+      "on_running": 449,
       "gymreapers": 49,
       "sbd": 1,
       "bear_grips": 32,
@@ -5413,14 +5240,14 @@
       "lululemon": 1593,
       "alo": 1741,
       "gymshark": 4514,
-      "on_running": 3650,
+      "on_running": 3652,
       "gymreapers": 611,
       "sbd": 268,
       "harbinger": 56,
       "schiek": 109,
       "bear_grips": 471,
       "asrv": 474,
-      "goruck": 1638,
+      "goruck": 1650,
       "optimum_nutrition": 1720,
       "ghost": 355,
       "hayabusa": 192,
@@ -5435,7 +5262,7 @@
       "lululemon": 448,
       "alo": 255,
       "gymshark": 544,
-      "on_running": 448,
+      "on_running": 452,
       "asrv": 47,
       "goruck": 24,
       "hayabusa": 13,
@@ -5480,7 +5307,7 @@
       "lululemon": 300,
       "alo": 197,
       "gymshark": 340,
-      "on_running": 509,
+      "on_running": 511,
       "gymreapers": 20,
       "bear_grips": 14,
       "asrv": 64,
@@ -5643,9 +5470,9 @@
       "outdoor_voices": 34,
       "tenthousand": 2,
       "lululemon": 159,
-      "alo": 198,
+      "alo": 199,
       "gymshark": 300,
-      "on_running": 489,
+      "on_running": 494,
       "gymreapers": 8,
       "sbd": 48,
       "asrv": 12,
@@ -5684,7 +5511,7 @@
       "outdoor_voices": 1,
       "lululemon": 23,
       "alo": 32,
-      "on_running": 2978,
+      "on_running": 2982,
       "goruck": 246,
       "dfyne": 4
     },
@@ -5722,7 +5549,7 @@
     "gray": {
       "vuori": 685,
       "outdoor_voices": 35,
-      "alo": 525,
+      "alo": 526,
       "gymshark": 1526,
       "on_running": 354,
       "gymreapers": 88,
@@ -5741,7 +5568,7 @@
       "outdoor_voices": 53,
       "alo": 200,
       "gymshark": 92,
-      "on_running": 316,
+      "on_running": 317,
       "gymreapers": 44,
       "sbd": 7,
       "asrv": 80,
@@ -5756,7 +5583,7 @@
       "outdoor_voices": 109,
       "alo": 1083,
       "gymshark": 3191,
-      "on_running": 1682,
+      "on_running": 1684,
       "gymreapers": 143,
       "sbd": 6,
       "schiek": 8,
@@ -5808,12 +5635,12 @@
       "lululemon": 17,
       "alo": 953,
       "gymshark": 993,
-      "on_running": 1709,
+      "on_running": 1712,
       "gymreapers": 113,
       "sbd": 6,
       "harbinger": 1,
       "bear_grips": 2,
-      "asrv": 214,
+      "asrv": 215,
       "goruck": 108,
       "optimum_nutrition": 36,
       "ghost": 32,
@@ -5844,7 +5671,7 @@
       "lululemon": 4,
       "alo": 325,
       "gymshark": 774,
-      "on_running": 299,
+      "on_running": 300,
       "gymreapers": 115,
       "sbd": 6,
       "asrv": 130,
@@ -5860,7 +5687,7 @@
       "outdoor_voices": 4,
       "alo": 313,
       "gymshark": 1228,
-      "on_running": 124,
+      "on_running": 126,
       "gymreapers": 19,
       "schiek": 2,
       "bear_grips": 3,
@@ -5904,7 +5731,7 @@
       "outdoor_voices": 6,
       "alo": 4,
       "gymshark": 76,
-      "on_running": 82,
+      "on_running": 83,
       "gymreapers": 1,
       "sbd": 14,
       "goruck": 6,
@@ -6021,12 +5848,12 @@
     },
     {
       "brand": "Alo Yoga",
-      "bottoms": 37.1,
+      "bottoms": 37,
       "tops": 12,
       "outerwear": 14.2,
       "dresses": 2.7,
       "sports_bras": 7,
-      "accessories": 8.8,
+      "accessories": 8.9,
       "other": 17.3
     },
     {
@@ -6042,12 +5869,12 @@
     {
       "brand": "goruck",
       "bottoms": 5,
-      "tops": 10.9,
+      "tops": 10.8,
       "outerwear": 4.3,
       "dresses": 0,
       "sports_bras": 0.5,
-      "accessories": 6.2,
-      "other": 53.5
+      "accessories": 6.1,
+      "other": 53.7
     },
     {
       "brand": "bear_grips",
@@ -6220,7 +6047,7 @@
       "brown": 1.1,
       "purple": 1.8,
       "pink": 1.7,
-      "orange": 0.7,
+      "orange": 0.8,
       "red": 2.2,
       "yellow": 0.8,
       "other": 1
@@ -6329,13 +6156,13 @@
     },
     {
       "brand": "asrv",
-      "black": 28.3,
-      "white": 10.9,
+      "black": 28.2,
+      "white": 11,
       "gray": 16.1,
       "navy": 4.1,
       "blue": 3.7,
       "green": 6.6,
-      "khaki": 2.4,
+      "khaki": 2.3,
       "brown": 0,
       "purple": 0.1,
       "pink": 0.1,
@@ -6597,7 +6424,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,658 competitor products tracked. Vuori's 5,428 = 10% share of tracked catalog."
+      "text": "Market context: 51,691 competitor products tracked. Vuori's 5,428 = 10% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6617,7 +6444,7 @@
       {
         "metric": "Running",
         "value": "0 products",
-        "comparison": "Competitors have 3284 products"
+        "comparison": "Competitors have 3288 products"
       },
       {
         "metric": "Medium Support",
@@ -6746,5 +6573,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-18T14:15:11.832Z"
+  "generated_at": "2026-11-19T14:15:10.045Z"
 }
