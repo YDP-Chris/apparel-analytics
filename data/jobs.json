@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 737,
-      "change_from_last": -29,
+      "total_jobs": 734,
+      "change_from_last": -3,
       "departments": {
         "finance": 6,
-        "other": 117,
+        "other": 118,
         "product": 6,
-        "retail": 268,
-        "design": 66,
+        "retail": 266,
+        "design": 67,
         "engineering": 25,
         "hr": 6,
         "executive": 4,
-        "operations": 236,
+        "operations": 233,
         "marketing": 3
       },
       "seniority": {
         "manager": 115,
         "mid": 39,
-        "junior": 439,
-        "lead": 107,
+        "junior": 437,
+        "lead": 105,
         "c-suite": 10,
         "intern": 4,
-        "senior": 23
+        "senior": 24
       },
       "locations": [
-        "Ottawa, Ontario, Canada",
-        "Berlin, Berlin, Germany",
-        "Southgate Centre, Edmonton, AB (10071)",
-        "Jordan Creek, West Des Moines, IA (10178)",
-        "Santa Barbara, California, United States",
-        "Manchester, England, United Kingdom",
-        "Remote",
-        "Detroit, Michigan, United States",
-        "Austin House at Music, Austin, TX (10010)",
-        "Center of Waikiki, Honolulu, HI (10142)",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Chestnut Hill, Massachusetts, United States",
-        "Waterside Shops, Naples, FL (10106)",
-        "Shops at Clearfork, Fort Worth, TX (10035)",
-        "Mall at Short Hills, Millburn, NJ (10043)",
-        "Vail Village, Vail, CO (10167)",
-        "Beverly Hills, California, United States",
-        "Multrees Walk, Edinburgh (50043)",
-        "Yorkdale Shopping Centre, Toronto, ON (10027)",
-        "Milwaukee Ave, Chicago, IL (10199)"
+        "Corte Madera, California, United States",
+        "Venice, California, United States",
+        "UTC Sarasota, Sarasota, FL (10091)",
+        "Minnetonka, Minnesota, United States",
+        "The Woodlands, Texas, United States",
+        "Georgetown, Washington, DC (10029)",
+        "Roseville, California, United States",
+        "Brompton Road, London (50014)",
+        "Brea, California, United States",
+        "Dallas Galleria, Dallas, TX (10154)",
+        "San Ramon, California, United States",
+        "Texas Distribution Center, Fort Worth, TX (WH-TX)",
+        "Sydney ",
+        "East Rutherford, New Jersey, United States",
+        "Albuquerque, New Mexico, United States",
+        "San Luis Obispo, California, United States",
+        "Somerset Collection, Troy, MI (10072)",
+        "Rue Gambetta, Saint-Tropez (50123)",
+        "Orlando, Florida, United States",
+        "Kenwood Towne Centre, Cincinnati, OH (10082)"
       ],
       "jobs": [
         {
@@ -482,10 +482,10 @@
         {
           "id": "6202338004",
           "title": "Flagship General Manager  - Faubourg Saint-Honor\u00e9, Paris",
-          "location": "Paris, Paris, France",
+          "location": "Rue Faubourg Saint Honore, Paris (50132)",
           "department": "",
           "url": "https://boards.greenhouse.io/aloyoga/jobs/6202338004?gh_jid=6202338004",
-          "posted_at": "2026-11-16T19:40:09-05:00",
+          "posted_at": "2026-11-20T02:43:16-05:00",
           "category": "other",
           "seniority": "manager"
         },
@@ -550,21 +550,24 @@
           "seniority": "mid"
         }
       ],
-      "checked_at": "2026-11-19T05:30:08.533076"
+      "checked_at": "2026-11-20T05:30:07.216795"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 3,
-      "change_from_last": -1,
+      "total_jobs": 6,
+      "change_from_last": 3,
       "departments": {
-        "other": 1,
-        "engineering": 2
+        "other": 2,
+        "retail": 1,
+        "engineering": 2,
+        "marketing": 1
       },
       "seniority": {
         "manager": 1,
-        "mid": 1,
-        "senior": 1
+        "lead": 1,
+        "mid": 2,
+        "senior": 2
       },
       "locations": [
         "New York, New York, United States",
@@ -577,9 +580,29 @@
           "location": "New York, New York, United States",
           "department": "",
           "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4981295101",
-          "posted_at": "2026-11-12T12:01:24-05:00",
+          "posted_at": "2026-11-19T06:06:09-05:00",
           "category": "other",
           "seniority": "manager"
+        },
+        {
+          "id": "5042226101",
+          "title": "Floor Lead - Retail Operations",
+          "location": "New York, New York, United States",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5042226101",
+          "posted_at": "2026-11-19T05:52:55-05:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "5042541101",
+          "title": "Merchandise Planner ",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/5042541101",
+          "posted_at": "2026-11-20T04:10:14-05:00",
+          "category": "other",
+          "seniority": "mid"
         },
         {
           "id": "4988756101",
@@ -592,6 +615,16 @@
           "seniority": "mid"
         },
         {
+          "id": "4978978101",
+          "title": "Senior Executive, Creator Marketing",
+          "location": "Solihull, England, United Kingdom",
+          "department": "",
+          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4978978101",
+          "posted_at": "2026-11-20T04:16:29-05:00",
+          "category": "marketing",
+          "seniority": "senior"
+        },
+        {
           "id": "4974208101",
           "title": "Senior Software Engineer",
           "location": "Solihull, England, United Kingdom",
@@ -602,7 +635,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-11-19T05:30:10.673077"
+      "checked_at": "2026-11-20T05:30:09.346030"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -660,45 +693,45 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 142,
-      "change_from_last": 0,
+      "total_jobs": 141,
+      "change_from_last": -1,
       "departments": {
         "retail": 108,
         "marketing": 10,
         "executive": 4,
-        "other": 11,
+        "other": 10,
         "product": 2,
         "engineering": 1,
         "design": 5,
         "operations": 1
       },
       "seniority": {
-        "lead": 78,
+        "lead": 77,
         "c-suite": 4,
         "mid": 58,
         "senior": 2
       },
       "locations": [
-        "Seoul",
-        "Macao",
-        "Vienna",
-        "Dallas",
-        "Guangzhou",
-        "Miami",
-        "Wuhan",
-        "Southlake",
-        "Tokyo",
         "Chengdu",
-        "Paris",
-        "Nanjing",
-        "Washington D.C.",
-        "Hong Kong",
-        "Portland",
-        "D\u00fcsseldorf",
-        "Chicago",
+        "Shenzhen",
+        "Wuhan",
+        "Landquart",
         "Zurich",
+        "Munich",
+        "Nanjing",
+        "Macao",
+        "Amsterdam",
+        "Chicago",
         "Beijing",
-        "Mexico City"
+        "Seoul",
+        "New York City",
+        "Hong Kong",
+        "Brooklyn",
+        "Washington D.C.",
+        "D\u00fcsseldorf",
+        "Mexico City",
+        "Southlake",
+        "Aventura"
       ],
       "jobs": [
         {
@@ -1132,21 +1165,21 @@
           "seniority": "lead"
         },
         {
-          "id": "5310578",
-          "title": "Retail - Lead Store Advisor\uff08Bicester\uff09",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/5310578?gh_jid=5310578",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "5959444",
           "title": "Retail - Lead Store Advisor\uff08Bicester\uff09",
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/5959444?gh_jid=5959444",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "5310578",
+          "title": "Retail - Lead Store Advisor\uff08Bicester\uff09",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/5310578?gh_jid=5310578",
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
@@ -1202,8 +1235,8 @@
           "seniority": "lead"
         }
       ],
-      "checked_at": "2026-11-19T05:30:23.936076"
+      "checked_at": "2026-11-20T05:30:18.482683"
     }
   },
-  "generated_at": "2026-11-19T05:30:25.936234"
+  "generated_at": "2026-11-20T05:30:20.482901"
 }
