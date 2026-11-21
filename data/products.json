@@ -139,11 +139,11 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 185,
+      "total": 186,
       "categories": {
         "bottoms": 91,
         "other": 18,
-        "tops": 49,
+        "tops": 50,
         "outerwear": 22,
         "accessories": 5
       },
@@ -157,14 +157,14 @@
         "vests": 4,
         "hoodies": 10,
         "joggers": 9,
-        "tees": 15,
+        "tees": 16,
         "leggings": 4,
         "socks": 2,
         "sweatpants": 2,
         "hats": 1
       },
       "genders": {
-        "mens": 183,
+        "mens": 184,
         "womens": 2
       },
       "colors": {},
@@ -310,11 +310,11 @@
     "gymshark": {
       "name": "Gymshark",
       "slug": "gymshark",
-      "total": 13800,
+      "total": 13802,
       "categories": {
         "bottoms": 5209,
         "tops": 4411,
-        "other": 953,
+        "other": 955,
         "accessories": 728,
         "outerwear": 1339,
         "sports_bras": 1148,
@@ -324,7 +324,7 @@
         "shorts": 2004,
         "leggings": 1526,
         "crop_tops": 230,
-        "other": 4514,
+        "other": 4516,
         "long_sleeve": 768,
         "socks": 300,
         "tanks": 1236,
@@ -349,7 +349,7 @@
         "quarter_zips": 4
       },
       "genders": {
-        "unisex": 6097,
+        "unisex": 6099,
         "womens": 4919,
         "mens": 2784
       },
@@ -362,7 +362,7 @@
         "gray": 1526,
         "brown": 1228,
         "blue": 2228,
-        "red": 483,
+        "red": 485,
         "purple": 805,
         "yellow": 168,
         "orange": 76,
@@ -371,7 +371,7 @@
       },
       "colorCoverage": 93.6,
       "avgColorsPerStyle": 1.7,
-      "uniqueStyles": 3522
+      "uniqueStyles": 3523
     },
     "on_running": {
       "name": "On Running",
@@ -712,18 +712,18 @@
     "goruck": {
       "name": "goruck",
       "slug": "goruck",
-      "total": 2671,
+      "total": 2683,
       "categories": {
         "other": 1440,
-        "accessories": 163,
-        "tops": 288,
+        "accessories": 169,
+        "tops": 294,
         "bottoms": 132,
         "outerwear": 114,
         "footwear": 522,
         "sports_bras": 12
       },
       "subcategories": {
-        "other": 1662,
+        "other": 1668,
         "hats": 42,
         "shorts": 42,
         "quarter_zips": 24,
@@ -731,7 +731,7 @@
         "leggings": 30,
         "pants": 24,
         "vests": 42,
-        "tees": 102,
+        "tees": 108,
         "training": 276,
         "socks": 30,
         "tanks": 24,
@@ -744,8 +744,8 @@
         "polos": 18
       },
       "genders": {
-        "unisex": 2125,
-        "mens": 282,
+        "unisex": 2131,
+        "mens": 288,
         "womens": 264
       },
       "colors": {
@@ -764,7 +764,7 @@
         "orange": 6,
         "green": 6
       },
-      "colorCoverage": 22,
+      "colorCoverage": 21.9,
       "avgColorsPerStyle": 1,
       "uniqueStyles": 76
     },
@@ -798,10 +798,10 @@
     "ghost": {
       "name": "ghost",
       "slug": "ghost",
-      "total": 535,
+      "total": 536,
       "categories": {
         "other": 345,
-        "accessories": 61,
+        "accessories": 62,
         "tops": 55,
         "bottoms": 9,
         "outerwear": 65
@@ -811,14 +811,14 @@
         "socks": 6,
         "tees": 55,
         "jackets": 12,
-        "hats": 49,
+        "hats": 50,
         "bags": 2,
         "hoodies": 51,
         "sweatpants": 3,
         "quarter_zips": 2
       },
       "genders": {
-        "unisex": 517,
+        "unisex": 518,
         "womens": 18
       },
       "colors": {
@@ -839,7 +839,7 @@
         "navy": 4,
         "heather": 1
       },
-      "colorCoverage": 36.1,
+      "colorCoverage": 36,
       "avgColorsPerStyle": 1.3,
       "uniqueStyles": 148
     },
@@ -959,12 +959,12 @@
     "everlast": {
       "name": "everlast",
       "slug": "everlast",
-      "total": 372,
+      "total": 373,
       "categories": {
         "other": 114,
         "accessories": 117,
         "bottoms": 53,
-        "tops": 36,
+        "tops": 37,
         "sports_bras": 13,
         "outerwear": 27,
         "footwear": 12
@@ -973,7 +973,7 @@
         "other": 212,
         "bags": 58,
         "leggings": 19,
-        "tees": 5,
+        "tees": 6,
         "medium_support": 3,
         "shorts": 12,
         "tanks": 6,
@@ -991,7 +991,7 @@
         "training": 1
       },
       "genders": {
-        "unisex": 257,
+        "unisex": 258,
         "womens": 71,
         "mens": 44
       },
@@ -1009,7 +1009,7 @@
         "blue": 2,
         "brown": 1
       },
-      "colorCoverage": 15.1,
+      "colorCoverage": 15,
       "avgColorsPerStyle": 1.2,
       "uniqueStyles": 46
     },
@@ -1066,12 +1066,92 @@
     }
   },
   "totals": {
-    "products": 57149,
+    "products": 57166,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-20",
+      "brand": "goruck",
+      "brandSlug": "goruck",
+      "count": 12,
+      "products": [
+        {
+          "name": "usa performance tee toughmesh",
+          "url": "https://www.goruck.com/products/mens-usa-performance-tee-toughmesh",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "sternum belt pouch ripstop robic",
+          "url": "https://www.goruck.com/products/sternum-belt-pouch-ripstop-robic",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "usa performance tee toughmesh",
+          "url": "https://www.goruck.com/en-ca/products/mens-usa-performance-tee-toughmesh",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "sternum belt pouch ripstop robic",
+          "url": "https://www.goruck.com/en-ca/products/sternum-belt-pouch-ripstop-robic",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "usa performance tee toughmesh",
+          "url": "https://www.goruck.com/en-au/products/mens-usa-performance-tee-toughmesh",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "sternum belt pouch ripstop robic",
+          "url": "https://www.goruck.com/en-au/products/sternum-belt-pouch-ripstop-robic",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "usa performance tee toughmesh",
+          "url": "https://www.goruck.com/en-sg/products/mens-usa-performance-tee-toughmesh",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "sternum belt pouch ripstop robic",
+          "url": "https://www.goruck.com/en-sg/products/sternum-belt-pouch-ripstop-robic",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "usa performance tee toughmesh",
+          "url": "https://www.goruck.com/en-gb/products/mens-usa-performance-tee-toughmesh",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "sternum belt pouch ripstop robic",
+          "url": "https://www.goruck.com/en-gb/products/sternum-belt-pouch-ripstop-robic",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "usa performance tee toughmesh",
+          "url": "https://www.goruck.com/en-eu/products/mens-usa-performance-tee-toughmesh",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "sternum belt pouch ripstop robic",
+          "url": "https://www.goruck.com/en-eu/products/sternum-belt-pouch-ripstop-robic",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "brand": "asrv",
@@ -1117,6 +1197,68 @@
         {
           "name": "0841 3d lite 2 0 lycra 3 4 sleeve oversized tee sand otwr",
           "url": "https://asrv.com/products/0841-3d-lite-2-0-lycra-3-4-sleeve-oversized-tee-sand-smoke-otwr",
+          "category": "tops",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "brand": "Gymshark",
+      "brandSlug": "gymshark",
+      "count": 2,
+      "products": [
+        {
+          "name": "gymshark showing up patch misc",
+          "url": "https://www.gymshark.com/products/gymshark-showing-up-patch-misc-red-aw26",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "gymshark showing up patch misc",
+          "url": "https://www.gymshark.com/es-US/products/gymshark-showing-up-patch-misc-red-aw26",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 1,
+      "products": [
+        {
+          "name": "boxy core tee",
+          "url": "https://www.tenthousand.cc/products/boxy-core-tee",
+          "category": "tops",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "brand": "ghost",
+      "brandSlug": "ghost",
+      "count": 1,
+      "products": [
+        {
+          "name": "ghost core baseball hat classic",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-baseball-hat-classic-1",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "brand": "everlast",
+      "brandSlug": "everlast",
+      "count": 1,
+      "products": [
+        {
+          "name": "everlast 305 oversized tee",
+          "url": "https://www.everlast.com/products/everlast-305-oversized-tee",
           "category": "tops",
           "gender": "unisex"
         }
@@ -4387,7 +4529,8 @@
       "2026-10-16": 2,
       "2026-10-17": 1,
       "2026-11-02": 1,
-      "2026-11-03": 1
+      "2026-11-03": 1,
+      "2026-11-20": 1
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -4769,7 +4912,8 @@
       "2026-11-11": 8,
       "2026-11-12": 7,
       "2026-11-13": 38,
-      "2026-11-15": 10
+      "2026-11-15": 10,
+      "2026-11-20": 2
     },
     "on_running": {
       "2026-02-05": 3508,
@@ -4967,7 +5111,8 @@
       "2026-11-12": 3,
       "2026-11-13": 15,
       "2026-11-18": 9,
-      "2026-11-19": 15
+      "2026-11-19": 15,
+      "2026-11-20": 12
     },
     "optimum_nutrition": {
       "2026-08-30": 529,
@@ -5000,7 +5145,8 @@
       "2026-10-01": 6,
       "2026-10-28": 12,
       "2026-10-29": 2,
-      "2026-11-17": 6
+      "2026-11-17": 6,
+      "2026-11-20": 1
     },
     "bucked_up": {},
     "hayabusa": {
@@ -5079,7 +5225,8 @@
       "2026-10-28": 2,
       "2026-11-09": 2,
       "2026-11-11": 1,
-      "2026-11-19": 5
+      "2026-11-19": 5,
+      "2026-11-20": 1
     },
     "dfyne": {
       "2026-08-31": 1003,
@@ -5111,7 +5258,7 @@
     "tops": {
       "vuori": 835,
       "outdoor_voices": 86,
-      "tenthousand": 49,
+      "tenthousand": 50,
       "lululemon": 835,
       "alo": 600,
       "gymshark": 4411,
@@ -5121,11 +5268,11 @@
       "schiek": 8,
       "bear_grips": 1245,
       "asrv": 434,
-      "goruck": 288,
+      "goruck": 294,
       "ghost": 55,
       "hayabusa": 21,
       "venum": 275,
-      "everlast": 36,
+      "everlast": 37,
       "dfyne": 92
     },
     "outerwear": {
@@ -5154,7 +5301,7 @@
       "tenthousand": 18,
       "lululemon": 917,
       "alo": 866,
-      "gymshark": 953,
+      "gymshark": 955,
       "on_running": 3214,
       "gymreapers": 372,
       "sbd": 120,
@@ -5213,8 +5360,8 @@
       "schiek": 44,
       "bear_grips": 164,
       "asrv": 250,
-      "goruck": 163,
-      "ghost": 61,
+      "goruck": 169,
+      "ghost": 62,
       "hayabusa": 94,
       "venum": 543,
       "everlast": 117,
@@ -5286,16 +5433,16 @@
     "tees": {
       "vuori": 289,
       "outdoor_voices": 16,
-      "tenthousand": 15,
+      "tenthousand": 16,
       "lululemon": 22,
       "alo": 56,
       "gymshark": 126,
       "gymreapers": 150,
       "bear_grips": 567,
       "asrv": 288,
-      "goruck": 102,
+      "goruck": 108,
       "ghost": 55,
-      "everlast": 5
+      "everlast": 6
     },
     "leggings": {
       "vuori": 241,
@@ -5321,7 +5468,7 @@
       "tenthousand": 43,
       "lululemon": 1593,
       "alo": 1741,
-      "gymshark": 4514,
+      "gymshark": 4516,
       "on_running": 3652,
       "gymreapers": 611,
       "sbd": 268,
@@ -5329,7 +5476,7 @@
       "schiek": 109,
       "bear_grips": 471,
       "asrv": 477,
-      "goruck": 1662,
+      "goruck": 1668,
       "optimum_nutrition": 1720,
       "ghost": 355,
       "hayabusa": 192,
@@ -5451,7 +5598,7 @@
       "bear_grips": 157,
       "asrv": 144,
       "goruck": 42,
-      "ghost": 49,
+      "ghost": 50,
       "venum": 65,
       "everlast": 3
     },
@@ -5698,7 +5845,7 @@
       "outdoor_voices": 2,
       "lululemon": 12,
       "alo": 232,
-      "gymshark": 483,
+      "gymshark": 485,
       "on_running": 241,
       "gymreapers": 63,
       "sbd": 3,
@@ -5951,12 +6098,12 @@
     {
       "brand": "goruck",
       "bottoms": 4.9,
-      "tops": 10.8,
-      "outerwear": 4.3,
+      "tops": 11,
+      "outerwear": 4.2,
       "dresses": 0,
       "sports_bras": 0.4,
-      "accessories": 6.1,
-      "other": 53.9
+      "accessories": 6.3,
+      "other": 53.7
     },
     {
       "brand": "bear_grips",
@@ -6025,8 +6172,8 @@
       "outerwear": 12.1,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 11.4,
-      "other": 64.5
+      "accessories": 11.6,
+      "other": 64.4
     },
     {
       "brand": "sbd",
@@ -6041,11 +6188,11 @@
     {
       "brand": "everlast",
       "bottoms": 14.2,
-      "tops": 9.7,
-      "outerwear": 7.3,
+      "tops": 9.9,
+      "outerwear": 7.2,
       "dresses": 0,
       "sports_bras": 3.5,
-      "accessories": 31.5,
+      "accessories": 31.4,
       "other": 30.6
     },
     {
@@ -6060,9 +6207,9 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 49.2,
-      "tops": 26.5,
-      "outerwear": 11.9,
+      "bottoms": 48.9,
+      "tops": 26.9,
+      "outerwear": 11.8,
       "dresses": 0,
       "sports_bras": 0,
       "accessories": 2.7,
@@ -6206,7 +6353,7 @@
       "brand": "goruck",
       "black": 4.5,
       "white": 4,
-      "gray": 4.3,
+      "gray": 4.2,
       "navy": 0.9,
       "blue": 0.9,
       "green": 0.2,
@@ -6323,7 +6470,7 @@
     },
     {
       "brand": "ghost",
-      "black": 7.7,
+      "black": 7.6,
       "white": 6,
       "gray": 3.9,
       "navy": 0.7,
@@ -6506,7 +6653,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,721 competitor products tracked. Vuori's 5,428 = 9% share of tracked catalog."
+      "text": "Market context: 51,738 competitor products tracked. Vuori's 5,428 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6655,5 +6802,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-20T14:15:14.285Z"
+  "generated_at": "2026-11-21T14:15:13.450Z"
 }

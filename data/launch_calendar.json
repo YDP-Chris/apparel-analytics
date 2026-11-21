@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T06:39:31.058076",
-  "total_products": 77043,
+  "generated_at": "2026-11-21T09:01:06.421271",
+  "total_products": 77038,
   "date_range": {
     "start": "2014-07-03",
     "end": "2026-11-20"
@@ -36,17 +36,17 @@
         "periods_active": 39
       },
       "tenthousand": {
-        "mean": 0.6867167919799498,
-        "stdev": 5.9604727306951535,
+        "mean": 0.6942355889724311,
+        "stdev": 6.018542691990575,
         "max": 89,
-        "total": 274,
-        "periods_active": 34
+        "total": 277,
+        "periods_active": 35
       },
       "goruck": {
-        "mean": 7.4035087719298245,
-        "stdev": 97.48629635803863,
+        "mean": 7.4335839598997495,
+        "stdev": 97.4938986620134,
         "max": 1924,
-        "total": 2954,
+        "total": 2966,
         "periods_active": 145
       },
       "hayabusa": {
@@ -106,10 +106,10 @@
         "periods_active": 7
       },
       "everlast": {
-        "mean": 1.7418546365914787,
-        "stdev": 17.092154230821027,
+        "mean": 1.744360902255639,
+        "stdev": 17.09270648860511,
         "max": 316,
-        "total": 695,
+        "total": 696,
         "periods_active": 40
       },
       "asrv": {
@@ -120,17 +120,17 @@
         "periods_active": 133
       },
       "gymshark": {
-        "mean": 34.59147869674185,
-        "stdev": 240.67075662205846,
+        "mean": 34.59649122807018,
+        "stdev": 240.67005518976498,
         "max": 4401,
-        "total": 13802,
-        "periods_active": 41
+        "total": 13804,
+        "periods_active": 42
       },
       "alo": {
-        "mean": 23.781954887218046,
-        "stdev": 192.37058581451862,
+        "mean": 23.721804511278197,
+        "stdev": 192.25128891949703,
         "max": 3662,
-        "total": 9489,
+        "total": 9465,
         "periods_active": 170
       },
       "oner_active": {
@@ -141,10 +141,10 @@
         "periods_active": 130
       },
       "ghost": {
-        "mean": 2.4962406015037595,
-        "stdev": 24.58968531767675,
+        "mean": 2.49874686716792,
+        "stdev": 24.59009428853781,
         "max": 486,
-        "total": 996,
+        "total": 997,
         "periods_active": 96
       },
       "on_running": {
@@ -206,17 +206,17 @@
         "periods_active": 29
       },
       "goruck": {
-        "mean": 25.68695652173913,
-        "stdev": 185.02343925565032,
+        "mean": 25.791304347826088,
+        "stdev": 185.09013904810044,
         "max": 1936,
-        "total": 2954,
+        "total": 2966,
         "periods_active": 71
       },
       "tenthousand": {
-        "mean": 2.382608695652174,
-        "stdev": 11.293984277229612,
+        "mean": 2.408695652173913,
+        "stdev": 11.40013515784292,
         "max": 90,
-        "total": 274,
+        "total": 277,
         "periods_active": 16
       },
       "hayabusa": {
@@ -276,10 +276,10 @@
         "periods_active": 5
       },
       "everlast": {
-        "mean": 6.043478260869565,
-        "stdev": 32.39595797408581,
+        "mean": 6.052173913043478,
+        "stdev": 32.397434238418434,
         "max": 321,
-        "total": 695,
+        "total": 696,
         "periods_active": 18
       },
       "asrv": {
@@ -290,17 +290,17 @@
         "periods_active": 65
       },
       "gymshark": {
-        "mean": 120.01739130434783,
-        "stdev": 634.9760733523564,
+        "mean": 120.03478260869565,
+        "stdev": 634.9797196711031,
         "max": 6263,
-        "total": 13802,
+        "total": 13804,
         "periods_active": 10
       },
       "alo": {
-        "mean": 82.51304347826087,
-        "stdev": 403.0478480414347,
+        "mean": 82.30434782608695,
+        "stdev": 402.86348246924337,
         "max": 4136,
-        "total": 9489,
+        "total": 9465,
         "periods_active": 77
       },
       "oner_active": {
@@ -311,10 +311,10 @@
         "periods_active": 64
       },
       "ghost": {
-        "mean": 8.660869565217391,
-        "stdev": 48.723690508633304,
+        "mean": 8.669565217391304,
+        "stdev": 48.72330069392939,
         "max": 519,
-        "total": 996,
+        "total": 997,
         "periods_active": 47
       },
       "on_running": {
@@ -458,8 +458,8 @@
         "period": "2026-10-12",
         "brand": "goruck",
         "count": 209,
-        "mean": 7.4035087719298245,
-        "multiple": 28.229857819905213,
+        "mean": 7.4335839598997495,
+        "multiple": 28.11564396493594,
         "top_types": [
           [
             "training",
@@ -479,8 +479,8 @@
         "period": "2026-10-19",
         "brand": "gymshark",
         "count": 746,
-        "mean": 34.59147869674185,
-        "multiple": 21.566004926822202,
+        "mean": 34.59649122807018,
+        "multiple": 21.56288032454361,
         "top_types": [
           [
             "other",
@@ -570,8 +570,8 @@
         "period": "2026-08",
         "brand": "goruck",
         "count": 1936,
-        "mean": 25.68695652173913,
-        "multiple": 75.36899119837508,
+        "mean": 25.791304347826088,
+        "multiple": 75.06405933917733,
         "top_types": [
           [
             "other",
@@ -688,8 +688,8 @@
         "period": "2026-10",
         "brand": "gymshark",
         "count": 1693,
-        "mean": 120.01739130434783,
-        "multiple": 14.106288943631357,
+        "mean": 120.03478260869565,
+        "multiple": 14.104245146334396,
         "top_types": [
           [
             "other",
@@ -971,19 +971,21 @@
       },
       {
         "week": "2026-11-16",
-        "total": 125,
+        "total": 142,
         "by_brand": {
           "alo": 9,
           "twopood": 4,
           "asrv": 15,
-          "goruck": 26,
+          "goruck": 38,
           "vuori": 9,
+          "tenthousand": 1,
+          "gymshark": 2,
           "on_running": 21,
           "gymreapers": 14,
           "optimum_nutrition": 5,
-          "ghost": 6,
+          "ghost": 7,
           "venum": 11,
-          "everlast": 5
+          "everlast": 6
         }
       }
     ],
@@ -1012,12 +1014,12 @@
       },
       {
         "month": "2026-01",
-        "total": 588,
+        "total": 587,
         "by_brand": {
           "venum": 15,
           "slingshot": 5,
           "ghost": 16,
-          "alo": 36,
+          "alo": 35,
           "bear_grips": 43,
           "twopood": 3,
           "tenthousand": 2,
@@ -1056,12 +1058,12 @@
       },
       {
         "month": "2026-03",
-        "total": 5207,
+        "total": 5198,
         "by_brand": {
           "venum": 10,
           "slingshot": 2,
           "ghost": 40,
-          "alo": 801,
+          "alo": 792,
           "bear_grips": 60,
           "gymreapers": 65,
           "twopood": 9,
@@ -1082,11 +1084,11 @@
       },
       {
         "month": "2026-04",
-        "total": 6751,
+        "total": 6750,
         "by_brand": {
           "venum": 114,
           "ghost": 12,
-          "alo": 250,
+          "alo": 249,
           "bear_grips": 2451,
           "gymreapers": 1023,
           "twopood": 10,
@@ -1158,11 +1160,11 @@
       },
       {
         "month": "2026-07",
-        "total": 3175,
+        "total": 3174,
         "by_brand": {
           "venum": 4,
           "ghost": 26,
-          "alo": 693,
+          "alo": 692,
           "gymreapers": 82,
           "twopood": 10,
           "tenthousand": 2,
@@ -1257,25 +1259,25 @@
       },
       {
         "month": "2026-11",
-        "total": 2099,
+        "total": 2116,
         "by_brand": {
           "venum": 123,
           "alo": 26,
           "gymreapers": 43,
           "twopood": 10,
           "asrv": 28,
-          "everlast": 11,
+          "everlast": 12,
           "harbinger": 2,
           "outdoor_voices": 32,
-          "goruck": 137,
+          "goruck": 149,
           "oner_active": 93,
           "vuori": 21,
-          "tenthousand": 2,
-          "gymshark": 251,
+          "tenthousand": 3,
+          "gymshark": 253,
           "on_running": 128,
           "sbd": 33,
           "optimum_nutrition": 1153,
-          "ghost": 6
+          "ghost": 7
         }
       }
     ]
