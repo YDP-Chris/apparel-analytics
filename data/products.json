@@ -139,17 +139,17 @@
     "tenthousand": {
       "name": "Ten Thousand",
       "slug": "tenthousand",
-      "total": 186,
+      "total": 191,
       "categories": {
         "bottoms": 91,
         "other": 18,
         "tops": 50,
         "outerwear": 22,
-        "accessories": 5
+        "accessories": 10
       },
       "subcategories": {
         "shorts": 55,
-        "other": 43,
+        "other": 44,
         "long_sleeve": 6,
         "tanks": 6,
         "pants": 21,
@@ -159,12 +159,12 @@
         "joggers": 9,
         "tees": 16,
         "leggings": 4,
-        "socks": 2,
+        "socks": 5,
         "sweatpants": 2,
-        "hats": 1
+        "hats": 2
       },
       "genders": {
-        "mens": 184,
+        "mens": 189,
         "womens": 2
       },
       "colors": {},
@@ -798,27 +798,28 @@
     "ghost": {
       "name": "ghost",
       "slug": "ghost",
-      "total": 536,
+      "total": 561,
       "categories": {
-        "other": 345,
-        "accessories": 62,
+        "other": 356,
+        "accessories": 70,
         "tops": 55,
         "bottoms": 9,
-        "outerwear": 65
+        "outerwear": 71
       },
       "subcategories": {
-        "other": 355,
+        "other": 366,
         "socks": 6,
         "tees": 55,
         "jackets": 12,
-        "hats": 50,
+        "hats": 58,
         "bags": 2,
-        "hoodies": 51,
+        "hoodies": 54,
         "sweatpants": 3,
-        "quarter_zips": 2
+        "quarter_zips": 2,
+        "pullovers": 3
       },
       "genders": {
-        "unisex": 518,
+        "unisex": 543,
         "womens": 18
       },
       "colors": {
@@ -826,22 +827,22 @@
         "red": 24,
         "multi": 5,
         "orange": 3,
-        "white": 32,
+        "white": 33,
         "pink": 6,
         "blue": 8,
-        "black": 41,
-        "gray": 21,
-        "green": 11,
+        "black": 47,
+        "gray": 24,
+        "green": 12,
         "rust": 1,
-        "brown": 17,
+        "brown": 19,
         "khaki": 3,
         "camo": 3,
         "navy": 4,
         "heather": 1
       },
-      "colorCoverage": 36,
+      "colorCoverage": 36.7,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 148
+      "uniqueStyles": 157
     },
     "bucked_up": {
       "name": "bucked_up",
@@ -900,25 +901,25 @@
     "venum": {
       "name": "venum",
       "slug": "venum",
-      "total": 2891,
+      "total": 2902,
       "categories": {
         "accessories": 543,
-        "other": 949,
-        "tops": 275,
-        "bottoms": 726,
+        "other": 954,
+        "tops": 280,
+        "bottoms": 727,
         "footwear": 44,
         "outerwear": 320,
         "sports_bras": 34
       },
       "subcategories": {
-        "other": 1719,
+        "other": 1729,
         "shorts": 468,
         "training": 7,
         "bags": 90,
         "socks": 40,
         "leggings": 21,
         "hoodies": 256,
-        "joggers": 77,
+        "joggers": 78,
         "jackets": 54,
         "pants": 25,
         "polos": 2,
@@ -931,16 +932,16 @@
         "fleece": 10
       },
       "genders": {
-        "unisex": 2296,
+        "unisex": 2307,
         "womens": 244,
         "mens": 351
       },
       "colors": {
-        "black": 605,
+        "black": 608,
         "red": 333,
-        "white": 495,
-        "blue": 272,
-        "gray": 229,
+        "white": 499,
+        "blue": 273,
+        "gray": 231,
         "yellow": 278,
         "purple": 60,
         "camo": 30,
@@ -950,11 +951,11 @@
         "orange": 50,
         "green": 62,
         "navy": 24,
-        "rust": 19
+        "rust": 20
       },
       "colorCoverage": 92.2,
       "avgColorsPerStyle": 1.3,
-      "uniqueStyles": 1887
+      "uniqueStyles": 1896
     },
     "everlast": {
       "name": "everlast",
@@ -1066,12 +1067,282 @@
     }
   },
   "totals": {
-    "products": 57166,
+    "products": 57207,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-24",
+      "brand": "Ten Thousand",
+      "brandSlug": "tenthousand",
+      "count": 5,
+      "products": [
+        {
+          "name": "engineered training crew sock",
+          "url": "https://www.tenthousand.cc/products/engineered-training-crew-sock",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "engineered training quarter sock",
+          "url": "https://www.tenthousand.cc/products/engineered-training-quarter-sock",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "engineered training tab sock",
+          "url": "https://www.tenthousand.cc/products/engineered-training-tab-sock",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "nalgene bottle",
+          "url": "https://www.tenthousand.cc/products/nalgene-bottle",
+          "category": "accessories",
+          "gender": "mens"
+        },
+        {
+          "name": "waffle beanie",
+          "url": "https://www.tenthousand.cc/products/waffle-beanie",
+          "category": "accessories",
+          "gender": "mens"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "brand": "ghost",
+      "brandSlug": "ghost",
+      "count": 25,
+      "products": [
+        {
+          "name": "ghost apres beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-apres-beanie",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost apres beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-apres-beanie-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost cozy knits",
+          "url": "https://www.ghostlifestyle.com/products/ghost-cozy-knits",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost cozy knits",
+          "url": "https://www.ghostlifestyle.com/products/ghost-cozy-knits-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost globe",
+          "url": "https://www.ghostlifestyle.com/products/ghost-snow-globe",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost snow globe",
+          "url": "https://www.ghostlifestyle.com/products/ghost-snow-globe-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost stocking",
+          "url": "https://www.ghostlifestyle.com/products/ghost-stocking",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost stocking whiteout",
+          "url": "https://www.ghostlifestyle.com/products/ghost-stocking-whiteout",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost knit pullover",
+          "url": "https://www.ghostlifestyle.com/products/ghost-knit-pullover",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost skateboard",
+          "url": "https://www.ghostlifestyle.com/products/ghost-skateboard",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost skateboard misc",
+          "url": "https://www.ghostlifestyle.com/products/ghost-skateboard-misc",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost summit beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-summit-beanie",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost summit beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-summit-beanie-heather-grey",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost summit beanie volt",
+          "url": "https://www.ghostlifestyle.com/products/ghost-summit-beanie-volt",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost knit pullover",
+          "url": "https://www.ghostlifestyle.com/products/ghost-knit-pullover-pine",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost knit pullover",
+          "url": "https://www.ghostlifestyle.com/products/ghost-knit-pullover-mocha",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core oversized hoodie v2",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-oversized-hoodie-black-v2",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core oversized hoodie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-oversized-hoodie-heather-grey",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core oversized hoodie natural",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-oversized-hoodie-natural",
+          "category": "outerwear",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core crewneck",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-crewneck",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core crewneck",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-crewneck-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core crewneck",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-crewneck-heather-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-beanie",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-beanie-black",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "ghost core beanie",
+          "url": "https://www.ghostlifestyle.com/products/ghost-core-beanie-mocha",
+          "category": "accessories",
+          "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "brand": "venum",
+      "brandSlug": "venum",
+      "count": 11,
+      "products": [
+        {
+          "name": "venum essential t shirt",
+          "url": "https://www.venum.com/products/venum-essential-t-shirt-black-1",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential underwear x3",
+          "url": "https://www.venum.com/products/venum-essential-underwear-x3-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum absolute joggers",
+          "url": "https://www.venum.com/products/venum-absolute-joggers-black",
+          "category": "bottoms",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential t shirt off",
+          "url": "https://www.venum.com/products/venum-essential-t-shirt-white-off-white",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential underwear x3",
+          "url": "https://www.venum.com/products/venum-essential-underwear-x3-white",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential t shirt green",
+          "url": "https://www.venum.com/products/venum-essential-t-shirt-green-white",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential underwear x3 navy",
+          "url": "https://www.venum.com/products/venum-essential-underwear-x3-navy-blue",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential t shirt black",
+          "url": "https://www.venum.com/products/venum-essential-t-shirt-black-copper",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential underwear x3 light",
+          "url": "https://www.venum.com/products/venum-essential-underwear-x3-light-heather-grey",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential t shirt heather grey",
+          "url": "https://www.venum.com/products/venum-essential-t-shirt-heather-grey-white",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "venum essential underwear x3 black white light",
+          "url": "https://www.venum.com/products/venum-essential-underwear-x3-black-white-light-heather-grey",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "brand": "goruck",
@@ -4075,248 +4346,6 @@
           "gender": "unisex"
         }
       ]
-    },
-    {
-      "date": "2026-11-08",
-      "brand": "goruck",
-      "brandSlug": "goruck",
-      "count": 30,
-      "products": [
-        {
-          "name": "ballistic trainers slick blackout",
-          "url": "https://www.goruck.com/products/ballistic-trainers-slick-blackout",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick gum",
-          "url": "https://www.goruck.com/products/ballistic-trainers-slick-black-gum",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick ranger green",
-          "url": "https://www.goruck.com/products/ballistic-trainers-slick-ranger-green-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick coyote",
-          "url": "https://www.goruck.com/products/ballistic-trainers-slick-black-coyote",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner black",
-          "url": "https://www.goruck.com/products/rough-runner-black-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner light grey",
-          "url": "https://www.goruck.com/products/rough-runner-light-grey-red",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick blackout",
-          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-blackout",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick gum",
-          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-black-gum",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick ranger green",
-          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-ranger-green-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick coyote",
-          "url": "https://www.goruck.com/en-ca/products/ballistic-trainers-slick-black-coyote",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner black",
-          "url": "https://www.goruck.com/en-ca/products/rough-runner-black-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner light grey",
-          "url": "https://www.goruck.com/en-ca/products/rough-runner-light-grey-red",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick blackout",
-          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-blackout",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick gum",
-          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-black-gum",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick ranger green",
-          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-ranger-green-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick coyote",
-          "url": "https://www.goruck.com/en-au/products/ballistic-trainers-slick-black-coyote",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner black",
-          "url": "https://www.goruck.com/en-au/products/rough-runner-black-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner light grey",
-          "url": "https://www.goruck.com/en-au/products/rough-runner-light-grey-red",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick blackout",
-          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-blackout",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick gum",
-          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-black-gum",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick ranger green",
-          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-ranger-green-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick coyote",
-          "url": "https://www.goruck.com/en-gb/products/ballistic-trainers-slick-black-coyote",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner black",
-          "url": "https://www.goruck.com/en-gb/products/rough-runner-black-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner light grey",
-          "url": "https://www.goruck.com/en-gb/products/rough-runner-light-grey-red",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick blackout",
-          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-blackout",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick gum",
-          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-black-gum",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick ranger green",
-          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-ranger-green-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "ballistic trainers slick coyote",
-          "url": "https://www.goruck.com/en-eu/products/ballistic-trainers-slick-black-coyote",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner black",
-          "url": "https://www.goruck.com/en-eu/products/rough-runner-black-white",
-          "category": "footwear",
-          "gender": "unisex"
-        },
-        {
-          "name": "rough runner light grey",
-          "url": "https://www.goruck.com/en-eu/products/rough-runner-light-grey-red",
-          "category": "footwear",
-          "gender": "unisex"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "brand": "Alo Yoga",
-      "brandSlug": "alo",
-      "count": 2,
-      "products": [
-        {
-          "name": "sherpa snow angel puffer",
-          "url": "https://www.aloyoga.com/products/w4473r-sherpa-snow-angel-puffer-black",
-          "category": "other",
-          "gender": "unisex"
-        },
-        {
-          "name": "airlift intrigue bra",
-          "url": "https://www.aloyoga.com/products/w9557r-airlift-intrigue-bra-dark-plum",
-          "category": "sports_bras",
-          "gender": "womens"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "brand": "Gymshark",
-      "brandSlug": "gymshark",
-      "count": 2,
-      "products": [
-        {
-          "name": "gymshark sport 5 2 in 1 shorts shorts",
-          "url": "https://www.gymshark.com/products/gymshark-sport-5-2-in-1-shorts-shorts-teal-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        },
-        {
-          "name": "gymshark sport 5 2 in 1 shorts shorts",
-          "url": "https://www.gymshark.com/es-US/products/gymshark-sport-5-2-in-1-shorts-shorts-teal-aw26",
-          "category": "bottoms",
-          "gender": "mens"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "brand": "asrv",
-      "brandSlug": "asrv",
-      "count": 1,
-      "products": [
-        {
-          "name": "1067 tetra lite cuffed training jogger",
-          "url": "https://asrv.com/products/1067-tetra-lite-cuffed-training-jogger-black",
-          "category": "bottoms",
-          "gender": "unisex"
-        }
-      ]
     }
   ],
   "launchVelocity": {
@@ -4530,7 +4559,8 @@
       "2026-10-17": 1,
       "2026-11-02": 1,
       "2026-11-03": 1,
-      "2026-11-20": 1
+      "2026-11-20": 1,
+      "2026-11-24": 5
     },
     "lululemon": {
       "2026-02-03": 2379,
@@ -5146,7 +5176,8 @@
       "2026-10-28": 12,
       "2026-10-29": 2,
       "2026-11-17": 6,
-      "2026-11-20": 1
+      "2026-11-20": 1,
+      "2026-11-23": 25
     },
     "bucked_up": {},
     "hayabusa": {
@@ -5196,7 +5227,8 @@
       "2026-11-06": 2,
       "2026-11-10": 59,
       "2026-11-12": 7,
-      "2026-11-16": 11
+      "2026-11-16": 11,
+      "2026-11-23": 11
     },
     "everlast": {
       "2026-08-30": 315,
@@ -5251,7 +5283,7 @@
       "goruck": 132,
       "ghost": 9,
       "hayabusa": 70,
-      "venum": 726,
+      "venum": 727,
       "everlast": 53,
       "dfyne": 354
     },
@@ -5271,7 +5303,7 @@
       "goruck": 294,
       "ghost": 55,
       "hayabusa": 21,
-      "venum": 275,
+      "venum": 280,
       "everlast": 37,
       "dfyne": 92
     },
@@ -5289,7 +5321,7 @@
       "bear_grips": 453,
       "asrv": 257,
       "goruck": 114,
-      "ghost": 65,
+      "ghost": 71,
       "hayabusa": 11,
       "venum": 320,
       "everlast": 27,
@@ -5311,9 +5343,9 @@
       "asrv": 359,
       "goruck": 1440,
       "optimum_nutrition": 1720,
-      "ghost": 345,
+      "ghost": 356,
       "hayabusa": 91,
-      "venum": 949,
+      "venum": 954,
       "everlast": 114,
       "dfyne": 337
     },
@@ -5349,7 +5381,7 @@
     "accessories": {
       "vuori": 311,
       "outdoor_voices": 49,
-      "tenthousand": 5,
+      "tenthousand": 10,
       "lululemon": 627,
       "alo": 443,
       "gymshark": 728,
@@ -5361,7 +5393,7 @@
       "bear_grips": 164,
       "asrv": 250,
       "goruck": 169,
-      "ghost": 62,
+      "ghost": 70,
       "hayabusa": 94,
       "venum": 543,
       "everlast": 117,
@@ -5390,7 +5422,7 @@
       "asrv": 119,
       "goruck": 18,
       "hayabusa": 1,
-      "venum": 77,
+      "venum": 78,
       "everlast": 1,
       "dfyne": 47
     },
@@ -5465,7 +5497,7 @@
     "other": {
       "vuori": 1634,
       "outdoor_voices": 199,
-      "tenthousand": 43,
+      "tenthousand": 44,
       "lululemon": 1593,
       "alo": 1741,
       "gymshark": 4516,
@@ -5478,9 +5510,9 @@
       "asrv": 477,
       "goruck": 1668,
       "optimum_nutrition": 1720,
-      "ghost": 355,
+      "ghost": 366,
       "hayabusa": 192,
-      "venum": 1719,
+      "venum": 1729,
       "everlast": 212,
       "dfyne": 609
     },
@@ -5506,7 +5538,8 @@
       "alo": 173,
       "gymshark": 216,
       "on_running": 5,
-      "goruck": 6
+      "goruck": 6,
+      "ghost": 3
     },
     "polos": {
       "vuori": 63,
@@ -5578,7 +5611,7 @@
       "bear_grips": 259,
       "asrv": 141,
       "goruck": 6,
-      "ghost": 51,
+      "ghost": 54,
       "hayabusa": 3,
       "venum": 256,
       "everlast": 19,
@@ -5587,7 +5620,7 @@
     "hats": {
       "vuori": 144,
       "outdoor_voices": 13,
-      "tenthousand": 1,
+      "tenthousand": 2,
       "lululemon": 139,
       "alo": 154,
       "gymshark": 134,
@@ -5598,7 +5631,7 @@
       "bear_grips": 157,
       "asrv": 144,
       "goruck": 42,
-      "ghost": 50,
+      "ghost": 58,
       "venum": 65,
       "everlast": 3
     },
@@ -5697,7 +5730,7 @@
     "socks": {
       "vuori": 111,
       "outdoor_voices": 34,
-      "tenthousand": 2,
+      "tenthousand": 5,
       "lululemon": 159,
       "alo": 199,
       "gymshark": 300,
@@ -5787,9 +5820,9 @@
       "asrv": 318,
       "goruck": 114,
       "optimum_nutrition": 79,
-      "ghost": 21,
+      "ghost": 24,
       "hayabusa": 3,
-      "venum": 229,
+      "venum": 231,
       "dfyne": 117
     },
     "navy": {
@@ -5820,9 +5853,9 @@
       "asrv": 553,
       "goruck": 120,
       "optimum_nutrition": 10,
-      "ghost": 41,
+      "ghost": 47,
       "hayabusa": 2,
-      "venum": 605,
+      "venum": 608,
       "everlast": 10,
       "dfyne": 175
     },
@@ -5872,8 +5905,8 @@
       "asrv": 217,
       "goruck": 108,
       "optimum_nutrition": 36,
-      "ghost": 32,
-      "venum": 495,
+      "ghost": 33,
+      "venum": 499,
       "everlast": 13,
       "dfyne": 69
     },
@@ -5890,7 +5923,7 @@
       "asrv": 72,
       "goruck": 24,
       "ghost": 8,
-      "venum": 272,
+      "venum": 273,
       "everlast": 2,
       "dfyne": 177
     },
@@ -5906,7 +5939,7 @@
       "asrv": 131,
       "goruck": 6,
       "optimum_nutrition": 10,
-      "ghost": 11,
+      "ghost": 12,
       "venum": 62,
       "everlast": 1,
       "dfyne": 87
@@ -5921,7 +5954,7 @@
       "schiek": 2,
       "bear_grips": 3,
       "goruck": 6,
-      "ghost": 17,
+      "ghost": 19,
       "venum": 76,
       "everlast": 1,
       "dfyne": 97
@@ -6020,7 +6053,7 @@
       "asrv": 40,
       "goruck": 6,
       "ghost": 1,
-      "venum": 19,
+      "venum": 20,
       "dfyne": 2
     },
     "camo": {
@@ -6088,12 +6121,12 @@
     {
       "brand": "venum",
       "bottoms": 25.1,
-      "tops": 9.5,
-      "outerwear": 11.1,
+      "tops": 9.6,
+      "outerwear": 11,
       "dresses": 0,
       "sports_bras": 1.2,
-      "accessories": 18.8,
-      "other": 32.8
+      "accessories": 18.7,
+      "other": 32.9
     },
     {
       "brand": "goruck",
@@ -6167,13 +6200,13 @@
     },
     {
       "brand": "ghost",
-      "bottoms": 1.7,
-      "tops": 10.3,
-      "outerwear": 12.1,
+      "bottoms": 1.6,
+      "tops": 9.8,
+      "outerwear": 12.7,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 11.6,
-      "other": 64.4
+      "accessories": 12.5,
+      "other": 63.5
     },
     {
       "brand": "sbd",
@@ -6207,13 +6240,13 @@
     },
     {
       "brand": "Ten Thousand",
-      "bottoms": 48.9,
-      "tops": 26.9,
-      "outerwear": 11.8,
+      "bottoms": 47.6,
+      "tops": 26.2,
+      "outerwear": 11.5,
       "dresses": 0,
       "sports_bras": 0,
-      "accessories": 2.7,
-      "other": 9.7
+      "accessories": 5.2,
+      "other": 9.4
     },
     {
       "brand": "schiek",
@@ -6334,9 +6367,9 @@
     },
     {
       "brand": "venum",
-      "black": 20.9,
-      "white": 17.1,
-      "gray": 7.9,
+      "black": 21,
+      "white": 17.2,
+      "gray": 8,
       "navy": 0.8,
       "blue": 9.4,
       "green": 2.1,
@@ -6470,20 +6503,20 @@
     },
     {
       "brand": "ghost",
-      "black": 7.6,
-      "white": 6,
-      "gray": 3.9,
+      "black": 8.4,
+      "white": 5.9,
+      "gray": 4.3,
       "navy": 0.7,
-      "blue": 1.5,
+      "blue": 1.4,
       "green": 2.1,
-      "khaki": 0.6,
-      "brown": 3.2,
+      "khaki": 0.5,
+      "brown": 3.4,
       "purple": 0,
       "pink": 1.1,
-      "orange": 0.6,
-      "red": 4.5,
-      "yellow": 2.4,
-      "other": 1.9
+      "orange": 0.5,
+      "red": 4.3,
+      "yellow": 2.3,
+      "other": 1.8
     },
     {
       "brand": "sbd",
@@ -6653,7 +6686,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 51,738 competitor products tracked. Vuori's 5,428 = 9% share of tracked catalog."
+      "text": "Market context: 51,779 competitor products tracked. Vuori's 5,428 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -6802,5 +6835,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-23T14:15:13.903Z"
+  "generated_at": "2026-11-24T14:15:11.580Z"
 }

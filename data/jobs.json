@@ -3,50 +3,50 @@
     "alo": {
       "name": "Alo Yoga",
       "platform": "greenhouse",
-      "total_jobs": 733,
-      "change_from_last": -1,
+      "total_jobs": 726,
+      "change_from_last": -7,
       "departments": {
         "finance": 6,
-        "other": 118,
-        "product": 6,
-        "retail": 266,
-        "design": 66,
-        "engineering": 25,
+        "other": 117,
+        "retail": 264,
+        "design": 65,
+        "product": 5,
         "hr": 6,
         "executive": 4,
-        "operations": 233,
+        "engineering": 24,
+        "operations": 232,
         "marketing": 3
       },
       "seniority": {
         "manager": 114,
-        "mid": 39,
-        "junior": 437,
-        "lead": 105,
+        "mid": 36,
+        "junior": 434,
+        "lead": 104,
         "c-suite": 10,
         "intern": 4,
         "senior": 24
       },
       "locations": [
-        "Amsterdam, North Holland, Netherlands",
-        "Chicago Metro Area",
+        "Vancouver, British Columbia, Canada",
+        "Garden State Plaza, Paramus, NJ (10044)",
+        "Studio City, California, United States",
+        "Manhasset, NY",
+        "Flatiron, New York, NY (10007)",
+        "Orlando, Florida, United States",
+        "Bloor Street, Toronto, ON (10026)",
+        "Cerritos, California, United States",
+        "Upper East Side, New York, NY (10009)",
+        "Bloomington, Minnesota, United States",
         "White Plains, New York, United States",
-        "Beverly Hills LAND, Beverly Hills, CA (HQ-L)",
-        "Rice Village, Houston, TX (10151)",
-        "Aventura, Florida, United States",
-        "Charleston, South Carolina, United States",
-        "Burlingame, California, United States",
-        "Beverly Hills LAND, Beverly Hills, CA (HQ-L); San Ramon, California, United States",
-        "La Jolla, California, United States",
+        "Seoul, Seoul, South Korea",
+        "Cherry Creek Mall, Denver, CO (10028)",
+        "New York, New York, United States",
+        "Milwaukee Ave, Chicago, IL (10199)",
+        "Town Center Boca Raton, Boca Raton, FL (10090)",
+        "Chinook Centre, Calgary, AB (10048)",
+        "Albuquerque, New Mexico, United States",
         "Lee Gardens II, Wan Chai District (50100)",
-        "Warehouse 2, Commerce, CA (WH2)",
-        "Saint Catherine Street, Montr\u00e9al, QC (10086)",
-        "Mississauga, Ontario, Canada",
-        "Seaport Square, Boston, MA (10017)",
-        "Cologne, North Rhine-Westphalia, Germany",
-        "Prudential Center, Boston, MA (10053)",
-        "Rue Faubourg Saint Honore, Paris (50132)",
-        "Shop at Crystals, Las Vegas, NV (10095)",
-        "McLean, Virginia, United States"
+        "Waterside Shops, Naples, FL (10106)"
       ],
       "jobs": [
         {
@@ -98,16 +98,6 @@
           "posted_at": "2026-11-21T03:02:58-05:00",
           "category": "other",
           "seniority": "mid"
-        },
-        {
-          "id": "6123742004",
-          "title": "Assistant Buyer - APAC",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6123742004?gh_jid=6123742004",
-          "posted_at": "2026-11-20T12:18:48-05:00",
-          "category": "product",
-          "seniority": "junior"
         },
         {
           "id": "6255543004",
@@ -288,36 +278,6 @@
           "posted_at": "2026-11-20T12:18:48-05:00",
           "category": "other",
           "seniority": "mid"
-        },
-        {
-          "id": "6218388004",
-          "title": "CRM Developer (Contract)",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6218388004?gh_jid=6218388004",
-          "posted_at": "2026-11-20T12:18:48-05:00",
-          "category": "engineering",
-          "seniority": "mid"
-        },
-        {
-          "id": "6218473004",
-          "title": "CRM Lifecycle Specialist (Contract)",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6218473004?gh_jid=6218473004",
-          "posted_at": "2026-11-20T12:18:48-05:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
-          "id": "6218403004",
-          "title": "CRM Manager - International (Contract)",
-          "location": "Beverly Hills, California, United States",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6218403004?gh_jid=6218403004",
-          "posted_at": "2026-11-20T12:18:48-05:00",
-          "category": "other",
-          "seniority": "manager"
         },
         {
           "id": "6241458004",
@@ -548,15 +508,55 @@
           "posted_at": "2026-11-20T12:18:48-05:00",
           "category": "retail",
           "seniority": "mid"
+        },
+        {
+          "id": "6211219004",
+          "title": "FP&A Manager, Retail",
+          "location": "Beverly Hills, California, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6211219004?gh_jid=6211219004",
+          "posted_at": "2026-11-20T12:18:48-05:00",
+          "category": "retail",
+          "seniority": "manager"
+        },
+        {
+          "id": "5491142004",
+          "title": "General Manager - New York, NY",
+          "location": "SoHo, New York, NY (10004)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5491142004?gh_jid=5491142004",
+          "posted_at": "2026-11-20T12:18:48-05:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
+          "id": "6129684004",
+          "title": "General Manager - Soho",
+          "location": "SoHo, New York, NY (10004)",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6129684004?gh_jid=6129684004",
+          "posted_at": "2026-11-20T12:18:48-05:00",
+          "category": "other",
+          "seniority": "manager"
+        },
+        {
+          "id": "5843136004",
+          "title": "General/Store Manager - London",
+          "location": "London, England, United Kingdom",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/5843136004?gh_jid=5843136004",
+          "posted_at": "2026-11-20T12:18:48-05:00",
+          "category": "retail",
+          "seniority": "manager"
         }
       ],
-      "checked_at": "2026-11-23T05:30:07.909951"
+      "checked_at": "2026-11-24T05:30:07.626220"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
       "total_jobs": 9,
-      "change_from_last": 1,
+      "change_from_last": 0,
       "departments": {
         "other": 4,
         "retail": 1,
@@ -666,7 +666,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-11-23T05:30:10.075164"
+      "checked_at": "2026-11-24T05:30:09.760376"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -724,43 +724,43 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 140,
-      "change_from_last": -1,
+      "total_jobs": 138,
+      "change_from_last": -2,
       "departments": {
         "retail": 108,
         "marketing": 10,
         "executive": 4,
-        "other": 9,
+        "other": 7,
         "product": 2,
         "engineering": 1,
         "design": 5,
         "operations": 1
       },
       "seniority": {
-        "lead": 76,
+        "lead": 74,
         "c-suite": 4,
         "mid": 58,
         "senior": 2
       },
       "locations": [
         "Hong Kong",
-        "D\u00fcsseldorf",
-        "Seoul",
-        "Paris",
-        "Beijing",
         "Chicago",
-        "Guangzhou",
-        "Vienna",
-        "Mexico City",
-        "New York City",
-        "Munich",
-        "Dallas",
-        "Amsterdam",
-        "Shenzhen",
-        "Southlake",
-        "Tokyo",
-        "Zurich",
         "Shanghai",
+        "Brooklyn",
+        "Tianjin",
+        "Tokyo",
+        "Nanjing",
+        "Chengdu",
+        "Zurich",
+        "Vienna",
+        "Guangzhou",
+        "Paris",
+        "Mexico City",
+        "Dallas",
+        "Shenzhen",
+        "New York City",
+        "Macao",
+        "Munich",
         "Wuhan",
         "Washington D.C."
       ],
@@ -831,7 +831,7 @@
           "location": "Munich",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8210553?gh_jid=8210553",
-          "posted_at": "2026-11-02T05:17:28-05:00",
+          "posted_at": "2026-11-23T05:55:36-05:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -966,16 +966,6 @@
           "seniority": "lead"
         },
         {
-          "id": "7775612",
-          "title": "Lead - Apparel Testing",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/7775612?gh_jid=7775612",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "other",
-          "seniority": "lead"
-        },
-        {
           "id": "8127271",
           "title": "Lead - B2B Retail Marketing, China",
           "location": "Shanghai",
@@ -1003,16 +993,6 @@
           "url": "https://boards.greenhouse.io/onrunning/jobs/7760455?gh_jid=7760455",
           "posted_at": "2026-10-28T23:28:49-04:00",
           "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8158962",
-          "title": "Lead - Sample Maker",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8158962?gh_jid=8158962",
-          "posted_at": "2026-09-08T08:35:35-04:00",
-          "category": "other",
           "seniority": "lead"
         },
         {
@@ -1264,10 +1244,30 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "5928014",
+          "title": "Retail - Lead Store Advisor\uff08Guomao BEI\uff09",
+          "location": "Beijing",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/5928014?gh_jid=5928014",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "5566760",
+          "title": "Retail - Lead Store Advisor\uff08Hopson\uff09  ",
+          "location": "Beijing",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/5566760?gh_jid=5566760",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-11-23T05:30:19.224618"
+      "checked_at": "2026-11-24T05:30:19.222696"
     }
   },
-  "generated_at": "2026-11-23T05:30:21.224779"
+  "generated_at": "2026-11-24T05:30:21.222854"
 }
