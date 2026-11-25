@@ -4,49 +4,49 @@
       "name": "Alo Yoga",
       "platform": "greenhouse",
       "total_jobs": 726,
-      "change_from_last": -7,
+      "change_from_last": 0,
       "departments": {
         "finance": 6,
-        "other": 117,
+        "other": 113,
         "retail": 264,
-        "design": 65,
-        "product": 5,
+        "design": 66,
+        "product": 6,
+        "operations": 234,
         "hr": 6,
         "executive": 4,
         "engineering": 24,
-        "operations": 232,
         "marketing": 3
       },
       "seniority": {
         "manager": 114,
-        "mid": 36,
+        "mid": 35,
         "junior": 434,
-        "lead": 104,
+        "lead": 103,
         "c-suite": 10,
         "intern": 4,
-        "senior": 24
+        "senior": 26
       },
       "locations": [
-        "Vancouver, British Columbia, Canada",
-        "Garden State Plaza, Paramus, NJ (10044)",
-        "Studio City, California, United States",
-        "Manhasset, NY",
-        "Flatiron, New York, NY (10007)",
-        "Orlando, Florida, United States",
-        "Bloor Street, Toronto, ON (10026)",
-        "Cerritos, California, United States",
-        "Upper East Side, New York, NY (10009)",
-        "Bloomington, Minnesota, United States",
-        "White Plains, New York, United States",
-        "Seoul, Seoul, South Korea",
-        "Cherry Creek Mall, Denver, CO (10028)",
-        "New York, New York, United States",
-        "Milwaukee Ave, Chicago, IL (10199)",
-        "Town Center Boca Raton, Boca Raton, FL (10090)",
-        "Chinook Centre, Calgary, AB (10048)",
-        "Albuquerque, New Mexico, United States",
-        "Lee Gardens II, Wan Chai District (50100)",
-        "Waterside Shops, Naples, FL (10106)"
+        "Sydney ",
+        "Lexington, Kentucky, United States",
+        "Georgetown, Washington, DC (10029)",
+        "Etobicoke, Ontario, Canada",
+        "Old Bond Street, London (50065)",
+        "Naperville, Illinois, United States",
+        "Louisiana, United States",
+        "Manhattan Beach, California, United States",
+        "East Rutherford, New Jersey, United States",
+        "Las Vegas, Nevada, United States",
+        "La Jolla, California, United States",
+        "Tulsa, Oklahoma, United States",
+        "North Hills, Raleigh, NC (10100)",
+        "Ala Moana, Honolulu, HI (10045)",
+        "San Ramon Office, San Ramon, CA (LO-SF)",
+        "Dedham, Massachusetts, United States",
+        "Portland, Oregon, United States",
+        "Merrick Park, Coral Gables, FL (10042)",
+        "Palo Alto, California, United States",
+        "Newport Beach, California, United States"
       ],
       "jobs": [
         {
@@ -250,16 +250,6 @@
           "seniority": "mid"
         },
         {
-          "id": "6264361004",
-          "title": "Colorist ",
-          "location": "Warehouse 2, Commerce, CA (WH2)",
-          "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6264361004?gh_jid=6264361004",
-          "posted_at": "2026-11-20T12:18:48-05:00",
-          "category": "other",
-          "seniority": "mid"
-        },
-        {
           "id": "6220786004",
           "title": "Computer Programmer ",
           "location": "San Ramon Office, San Ramon, CA (LO-SF)",
@@ -270,13 +260,23 @@
           "seniority": "mid"
         },
         {
-          "id": "6220799004",
-          "title": "Construction Program Specialist",
-          "location": "Remote",
+          "id": "6209964004",
+          "title": "DC- Operations Manager",
+          "location": "North East, Maryland, United States",
           "department": "",
-          "url": "https://boards.greenhouse.io/aloyoga/jobs/6220799004?gh_jid=6220799004",
-          "posted_at": "2026-11-20T12:18:48-05:00",
-          "category": "other",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6209964004?gh_jid=6209964004",
+          "posted_at": "2026-11-24T15:22:18-05:00",
+          "category": "operations",
+          "seniority": "manager"
+        },
+        {
+          "id": "6241419004",
+          "title": "DC- Operations Supervisor",
+          "location": "North East, Maryland, United States",
+          "department": "",
+          "url": "https://boards.greenhouse.io/aloyoga/jobs/6241419004?gh_jid=6241419004",
+          "posted_at": "2026-11-24T15:18:19-05:00",
+          "category": "operations",
           "seniority": "mid"
         },
         {
@@ -550,29 +550,29 @@
           "seniority": "manager"
         }
       ],
-      "checked_at": "2026-11-24T05:30:07.626220"
+      "checked_at": "2026-11-25T05:30:07.475818"
     },
     "gymshark": {
       "name": "Gymshark",
       "platform": "greenhouse",
-      "total_jobs": 9,
-      "change_from_last": 0,
+      "total_jobs": 8,
+      "change_from_last": -1,
       "departments": {
         "other": 4,
         "retail": 1,
         "marketing": 2,
-        "engineering": 2
+        "engineering": 1
       },
       "seniority": {
-        "mid": 3,
+        "mid": 2,
         "manager": 1,
         "lead": 2,
         "c-suite": 1,
         "senior": 2
       },
       "locations": [
-        "Solihull, England, United Kingdom",
-        "New York, New York, United States"
+        "New York, New York, United States",
+        "Solihull, England, United Kingdom"
       ],
       "jobs": [
         {
@@ -626,16 +626,6 @@
           "seniority": "mid"
         },
         {
-          "id": "4988756101",
-          "title": "Mobile Engineer - IOS",
-          "location": "Solihull, England, United Kingdom",
-          "department": "",
-          "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4988756101",
-          "posted_at": "2026-11-12T12:01:24-05:00",
-          "category": "engineering",
-          "seniority": "mid"
-        },
-        {
           "id": "5043202101",
           "title": "Partnerships Coordinator (12-month FTC)",
           "location": "Solihull, England, United Kingdom",
@@ -666,7 +656,7 @@
           "seniority": "senior"
         }
       ],
-      "checked_at": "2026-11-24T05:30:09.760376"
+      "checked_at": "2026-11-25T05:30:09.613553"
     },
     "tenthousand": {
       "name": "Ten Thousand",
@@ -724,45 +714,45 @@
     "on_running": {
       "name": "On Running",
       "platform": "greenhouse",
-      "total_jobs": 138,
-      "change_from_last": -2,
+      "total_jobs": 135,
+      "change_from_last": -3,
       "departments": {
-        "retail": 108,
+        "retail": 106,
         "marketing": 10,
         "executive": 4,
         "other": 7,
-        "product": 2,
+        "product": 1,
         "engineering": 1,
         "design": 5,
         "operations": 1
       },
       "seniority": {
-        "lead": 74,
+        "lead": 71,
         "c-suite": 4,
         "mid": 58,
         "senior": 2
       },
       "locations": [
-        "Hong Kong",
-        "Chicago",
-        "Shanghai",
-        "Brooklyn",
-        "Tianjin",
-        "Tokyo",
-        "Nanjing",
-        "Chengdu",
         "Zurich",
-        "Vienna",
-        "Guangzhou",
-        "Paris",
-        "Mexico City",
-        "Dallas",
-        "Shenzhen",
-        "New York City",
+        "Brooklyn",
         "Macao",
-        "Munich",
+        "Guangzhou",
+        "Seoul",
         "Wuhan",
-        "Washington D.C."
+        "Vienna",
+        "Miami",
+        "Dallas",
+        "Southlake",
+        "Amsterdam",
+        "Portland",
+        "Aventura",
+        "D\u00fcsseldorf",
+        "New York City",
+        "Washington D.C.",
+        "Chengdu",
+        "Shenzhen",
+        "Chicago",
+        "Mexico City"
       ],
       "jobs": [
         {
@@ -826,16 +816,6 @@
           "seniority": "lead"
         },
         {
-          "id": "8210553",
-          "title": "Associate Store Leader, Munich",
-          "location": "Munich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8210553?gh_jid=8210553",
-          "posted_at": "2026-11-23T05:55:36-05:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "8020094",
           "title": "Associate Store Leader, Parc Central GZ",
           "location": "Guangzhou",
@@ -852,16 +832,6 @@
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/8305647?gh_jid=8305647",
           "posted_at": "2026-10-30T01:15:48-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
-          "id": "8037845",
-          "title": "Associate Store Leader, Tokyo Cat Street Store",
-          "location": "Tokyo",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8037845?gh_jid=8037845",
-          "posted_at": "2026-10-12T23:34:18-04:00",
           "category": "retail",
           "seniority": "lead"
         },
@@ -904,16 +874,6 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "other",
           "seniority": "mid"
-        },
-        {
-          "id": "8069314",
-          "title": "Global Merchandising Head Of Lifestyle & Special Projects",
-          "location": "Zurich",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/8069314?gh_jid=8069314",
-          "posted_at": "2026-09-24T06:35:22-04:00",
-          "category": "product",
-          "seniority": "lead"
         },
         {
           "id": "7402412",
@@ -1166,21 +1126,21 @@
           "seniority": "lead"
         },
         {
-          "id": "5959444",
-          "title": "Retail - Lead Store Advisor\uff08Bicester\uff09",
-          "location": "Shanghai",
-          "department": "",
-          "url": "https://boards.greenhouse.io/onrunning/jobs/5959444?gh_jid=5959444",
-          "posted_at": "2026-09-04T02:52:57-04:00",
-          "category": "retail",
-          "seniority": "lead"
-        },
-        {
           "id": "5310578",
           "title": "Retail - Lead Store Advisor\uff08Bicester\uff09",
           "location": "Shanghai",
           "department": "",
           "url": "https://boards.greenhouse.io/onrunning/jobs/5310578?gh_jid=5310578",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "5959444",
+          "title": "Retail - Lead Store Advisor\uff08Bicester\uff09",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/5959444?gh_jid=5959444",
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
@@ -1264,10 +1224,40 @@
           "posted_at": "2026-09-04T02:52:57-04:00",
           "category": "retail",
           "seniority": "lead"
+        },
+        {
+          "id": "5931372",
+          "title": "Retail - Lead Store Advisor\uff08H Queen's Hong Kong\uff09",
+          "location": "Hong Kong",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/5931372?gh_jid=5931372",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "6428522",
+          "title": "Retail - Lead Store Advisor\uff08IAPM\uff09",
+          "location": "Shanghai",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/6428522?gh_jid=6428522",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
+        },
+        {
+          "id": "6629081",
+          "title": "Retail - Lead Store Advisor\uff08IFS CHE\uff09 ",
+          "location": "Chengdu",
+          "department": "",
+          "url": "https://boards.greenhouse.io/onrunning/jobs/6629081?gh_jid=6629081",
+          "posted_at": "2026-09-04T02:52:57-04:00",
+          "category": "retail",
+          "seniority": "lead"
         }
       ],
-      "checked_at": "2026-11-24T05:30:19.222696"
+      "checked_at": "2026-11-25T05:30:27.088958"
     }
   },
-  "generated_at": "2026-11-24T05:30:21.222854"
+  "generated_at": "2026-11-25T05:30:29.089109"
 }
