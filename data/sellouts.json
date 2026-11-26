@@ -1,33 +1,6 @@
 {
   "sellouts": [
     {
-      "product_id": "tenthousand:interval-tee-shirt-sale",
-      "title": "Interval Shirt",
-      "product_type": "Interval Shirt",
-      "detected_at": "2026-08-27T12:35:04.847514",
-      "partial": true,
-      "old_pct": 69,
-      "new_pct": 24
-    },
-    {
-      "product_id": "tenthousand:reset-jogger-sale",
-      "title": "Reset Jogger",
-      "product_type": "Reset Jogger",
-      "detected_at": "2026-08-27T12:35:04.847553",
-      "partial": true,
-      "old_pct": 100,
-      "new_pct": 25
-    },
-    {
-      "product_id": "tenthousand:heavyweight-core-short-sale",
-      "title": "Heavyweight Core Short",
-      "product_type": "",
-      "detected_at": "2026-08-27T12:35:04.847582",
-      "partial": true,
-      "old_pct": 83,
-      "new_pct": 50
-    },
-    {
       "product_id": "outdoor_voices:ov-club-crew-sock-pinkfinch",
       "title": "OV Club Crew Sock",
       "product_type": "Socks",
@@ -1287,6 +1260,22 @@
       "product_type": "Socks",
       "detected_at": "2026-11-25T06:09:57.023065",
       "days_since_launch": 517,
+      "is_fast_sellout": false
+    },
+    {
+      "product_id": "tenthousand:output-muscle-tee",
+      "title": "Output Muscle Tee",
+      "product_type": "",
+      "detected_at": "2026-11-25T21:57:09.946390",
+      "days_since_launch": 133,
+      "is_fast_sellout": false
+    },
+    {
+      "product_id": "outdoor_voices:m-rectrek-pant-dark-storm",
+      "title": "RecTrek Pant",
+      "product_type": "Pants",
+      "detected_at": "2026-11-25T21:57:10.973122",
+      "days_since_launch": 72,
       "is_fast_sellout": false
     }
   ],
