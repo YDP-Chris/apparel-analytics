@@ -3,10 +3,10 @@
     "vuori": {
       "name": "Vuori",
       "slug": "vuori",
-      "total": 5502,
+      "total": 5504,
       "categories": {
         "bottoms": 2489,
-        "tops": 840,
+        "tops": 842,
         "outerwear": 790,
         "other": 813,
         "sports_bras": 185,
@@ -18,7 +18,7 @@
         "joggers": 186,
         "shorts": 905,
         "tanks": 262,
-        "tees": 290,
+        "tees": 292,
         "leggings": 248,
         "other": 1657,
         "pants": 523,
@@ -43,13 +43,13 @@
         "fleece": 19
       },
       "genders": {
-        "mens": 1903,
+        "mens": 1905,
         "womens": 2584,
         "unisex": 1015
       },
       "colors": {
-        "gray": 687,
-        "navy": 127,
+        "gray": 688,
+        "navy": 128,
         "black": 1015,
         "khaki": 226,
         "red": 122,
@@ -443,18 +443,18 @@
     "gymreapers": {
       "name": "gymreapers",
       "slug": "gymreapers",
-      "total": 1294,
+      "total": 1314,
       "categories": {
-        "other": 372,
-        "accessories": 220,
-        "tops": 311,
+        "other": 379,
+        "accessories": 226,
+        "tops": 318,
         "bottoms": 246,
         "sports_bras": 78,
         "outerwear": 67
       },
       "subcategories": {
-        "other": 611,
-        "tees": 150,
+        "other": 624,
+        "tees": 157,
         "shorts": 158,
         "hats": 98,
         "leggings": 49,
@@ -473,30 +473,30 @@
         "polos": 5
       },
       "genders": {
-        "unisex": 1096,
+        "unisex": 1116,
         "womens": 168,
         "mens": 30
       },
       "colors": {
-        "green": 115,
-        "black": 143,
+        "green": 116,
+        "black": 146,
         "red": 63,
-        "khaki": 60,
+        "khaki": 62,
         "white": 113,
-        "gray": 88,
+        "gray": 91,
         "blue": 36,
         "camo": 36,
-        "navy": 44,
+        "navy": 45,
         "rust": 3,
         "pink": 19,
-        "purple": 12,
-        "brown": 19,
+        "purple": 13,
+        "brown": 20,
         "yellow": 18,
         "orange": 1
       },
       "colorCoverage": 59.5,
       "avgColorsPerStyle": 1.6,
-      "uniqueStyles": 476
+      "uniqueStyles": 483
     },
     "sbd": {
       "name": "sbd",
@@ -1068,12 +1068,140 @@
     }
   },
   "totals": {
-    "products": 58031,
+    "products": 58053,
     "brands": 21,
     "categories": 8,
     "subcategories": 33
   },
   "recentLaunches": [
+    {
+      "date": "2026-11-27",
+      "brand": "gymreapers",
+      "brandSlug": "gymreapers",
+      "count": 20,
+      "products": [
+        {
+          "name": "classic skull graphic tee",
+          "url": "https://www.gymreapers.com/products/classic-skull-graphic-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "wireframe graphic tee",
+          "url": "https://www.gymreapers.com/products/wireframe-graphic-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "cold resolve graphic tee",
+          "url": "https://www.gymreapers.com/products/cold-resolve-graphic-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "matrix graphic tee",
+          "url": "https://www.gymreapers.com/products/matrix-graphic-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "wraith graphic tee",
+          "url": "https://www.gymreapers.com/products/wraith-graphic-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "dread cropped tee",
+          "url": "https://www.gymreapers.com/products/dread-cropped-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "cold resolve cropped tee",
+          "url": "https://www.gymreapers.com/products/cold-resolve-cropped-tee",
+          "category": "tops",
+          "gender": "unisex"
+        },
+        {
+          "name": "lifting belt keychain gloss leather",
+          "url": "https://www.gymreapers.com/products/lifting-belt-keychain-gloss-black-leather",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "lifting belt keychain matte leather",
+          "url": "https://www.gymreapers.com/products/lifting-belt-keychain-matte-black-leather",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "lifting belt keychain suede",
+          "url": "https://www.gymreapers.com/products/lifting-belt-keychain-brown-suede",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "lifting belt keychain suede",
+          "url": "https://www.gymreapers.com/products/lifting-belt-keychain-gray-suede",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "lifting belt keychain leather",
+          "url": "https://www.gymreapers.com/products/lifting-belt-keychain-sand-leather",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "lifting belt keychain desert suede",
+          "url": "https://www.gymreapers.com/products/lifting-belt-keychain-desert-sand-suede",
+          "category": "accessories",
+          "gender": "unisex"
+        },
+        {
+          "name": "skull keychain natural leather",
+          "url": "https://www.gymreapers.com/products/skull-keychain-natural-leather",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "basic gym duffle 31l",
+          "url": "https://www.gymreapers.com/products/basic-gym-duffle-31l-black",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "basic gym duffle 31l",
+          "url": "https://www.gymreapers.com/products/basic-gym-duffle-31l-dark-gray",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "basic gym duffle 31l",
+          "url": "https://www.gymreapers.com/products/basic-gym-duffle-31l-light-gray",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "basic gym duffle 31l od",
+          "url": "https://www.gymreapers.com/products/basic-gym-duffle-31l-od-green",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "basic gym duffle 31l",
+          "url": "https://www.gymreapers.com/products/basic-gym-duffle-31l-lavender",
+          "category": "other",
+          "gender": "unisex"
+        },
+        {
+          "name": "basic gym duffle 31l",
+          "url": "https://www.gymreapers.com/products/basic-gym-duffle-31l-navy",
+          "category": "other",
+          "gender": "unisex"
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "brand": "On Running",
@@ -1267,6 +1395,26 @@
           "url": "https://www.ghostlifestyle.com/products/ghost-resistance-bands-3-pack",
           "category": "other",
           "gender": "unisex"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "brand": "Vuori",
+      "brandSlug": "vuori",
+      "count": 2,
+      "products": [
+        {
+          "name": "strato tech tee tonal",
+          "url": "https://vuoriclothing.com/products/strato-tech-tee-charcoal-heather-tonal",
+          "category": "tops",
+          "gender": "mens"
+        },
+        {
+          "name": "strato tech tee",
+          "url": "https://vuoriclothing.com/products/strato-tech-tee-navy",
+          "category": "tops",
+          "gender": "mens"
         }
       ]
     },
@@ -4982,7 +5130,8 @@
       "2026-11-14": 3,
       "2026-11-17": 4,
       "2026-11-18": 5,
-      "2026-11-24": 74
+      "2026-11-24": 74,
+      "2026-11-27": 2
     },
     "outdoor_voices": {
       "2026-02-03": 297,
@@ -5535,7 +5684,8 @@
       "2026-11-13": 28,
       "2026-11-16": 1,
       "2026-11-17": 12,
-      "2026-11-18": 1
+      "2026-11-18": 1,
+      "2026-11-27": 20
     },
     "sbd": {
       "2026-04-07": 206,
@@ -5786,14 +5936,14 @@
       "dfyne": 354
     },
     "tops": {
-      "vuori": 840,
+      "vuori": 842,
       "outdoor_voices": 86,
       "tenthousand": 50,
       "lululemon": 835,
       "alo": 600,
       "gymshark": 4415,
       "on_running": 742,
-      "gymreapers": 311,
+      "gymreapers": 318,
       "sbd": 173,
       "schiek": 8,
       "bear_grips": 1245,
@@ -5833,7 +5983,7 @@
       "alo": 866,
       "gymshark": 955,
       "on_running": 3224,
-      "gymreapers": 372,
+      "gymreapers": 379,
       "sbd": 120,
       "harbinger": 26,
       "schiek": 59,
@@ -5884,7 +6034,7 @@
       "alo": 443,
       "gymshark": 728,
       "on_running": 784,
-      "gymreapers": 220,
+      "gymreapers": 226,
       "sbd": 68,
       "harbinger": 30,
       "schiek": 44,
@@ -5961,13 +6111,13 @@
       "dfyne": 9
     },
     "tees": {
-      "vuori": 290,
+      "vuori": 292,
       "outdoor_voices": 16,
       "tenthousand": 16,
       "lululemon": 22,
       "alo": 56,
       "gymshark": 126,
-      "gymreapers": 150,
+      "gymreapers": 157,
       "bear_grips": 567,
       "asrv": 288,
       "goruck": 306,
@@ -6000,7 +6150,7 @@
       "alo": 1741,
       "gymshark": 4518,
       "on_running": 3665,
-      "gymreapers": 611,
+      "gymreapers": 624,
       "sbd": 269,
       "harbinger": 56,
       "schiek": 109,
@@ -6308,12 +6458,12 @@
   },
   "byColor": {
     "gray": {
-      "vuori": 687,
+      "vuori": 688,
       "outdoor_voices": 35,
       "alo": 526,
       "gymshark": 1526,
       "on_running": 356,
-      "gymreapers": 88,
+      "gymreapers": 91,
       "sbd": 22,
       "schiek": 5,
       "asrv": 318,
@@ -6325,12 +6475,12 @@
       "dfyne": 117
     },
     "navy": {
-      "vuori": 127,
+      "vuori": 128,
       "outdoor_voices": 53,
       "alo": 200,
       "gymshark": 92,
       "on_running": 318,
-      "gymreapers": 44,
+      "gymreapers": 45,
       "sbd": 7,
       "asrv": 81,
       "goruck": 24,
@@ -6345,7 +6495,7 @@
       "alo": 1083,
       "gymshark": 3195,
       "on_running": 1687,
-      "gymreapers": 143,
+      "gymreapers": 146,
       "sbd": 6,
       "schiek": 8,
       "bear_grips": 4,
@@ -6364,7 +6514,7 @@
       "alo": 137,
       "gymshark": 6,
       "on_running": 239,
-      "gymreapers": 60,
+      "gymreapers": 62,
       "bear_grips": 1,
       "asrv": 46,
       "goruck": 54,
@@ -6433,7 +6583,7 @@
       "alo": 326,
       "gymshark": 774,
       "on_running": 300,
-      "gymreapers": 115,
+      "gymreapers": 116,
       "sbd": 6,
       "asrv": 131,
       "goruck": 6,
@@ -6449,7 +6599,7 @@
       "alo": 313,
       "gymshark": 1232,
       "on_running": 127,
-      "gymreapers": 19,
+      "gymreapers": 20,
       "schiek": 2,
       "bear_grips": 3,
       "goruck": 6,
@@ -6480,7 +6630,7 @@
       "alo": 42,
       "gymshark": 805,
       "on_running": 195,
-      "gymreapers": 12,
+      "gymreapers": 13,
       "sbd": 4,
       "asrv": 2,
       "venum": 60,
@@ -6669,13 +6819,13 @@
     },
     {
       "brand": "gymreapers",
-      "bottoms": 19,
-      "tops": 24,
-      "outerwear": 5.2,
+      "bottoms": 18.7,
+      "tops": 24.2,
+      "outerwear": 5.1,
       "dresses": 0,
-      "sports_bras": 6,
-      "accessories": 17,
-      "other": 28.7
+      "sports_bras": 5.9,
+      "accessories": 17.2,
+      "other": 28.8
     },
     {
       "brand": "dfyne",
@@ -6952,17 +7102,17 @@
     {
       "brand": "gymreapers",
       "black": 11.1,
-      "white": 8.7,
-      "gray": 6.8,
+      "white": 8.6,
+      "gray": 6.9,
       "navy": 3.4,
-      "blue": 2.8,
-      "green": 8.9,
-      "khaki": 4.6,
+      "blue": 2.7,
+      "green": 8.8,
+      "khaki": 4.7,
       "brown": 1.5,
-      "purple": 0.9,
-      "pink": 1.5,
+      "purple": 1,
+      "pink": 1.4,
       "orange": 0.1,
-      "red": 4.9,
+      "red": 4.8,
       "yellow": 1.4,
       "other": 3
     },
@@ -7167,8 +7317,8 @@
       "type": "leader",
       "metric": "mens_catalog",
       "brand": "Vuori",
-      "value": 1903,
-      "text": "Vuori leads Lululemon in men's: 1903 vs 1286 products. A 48% advantage."
+      "value": 1905,
+      "text": "Vuori leads Lululemon in men's: 1905 vs 1286 products. A 48% advantage."
     },
     {
       "type": "leader",
@@ -7185,7 +7335,7 @@
     {
       "type": "comparison",
       "metric": "market_landscape",
-      "text": "Market context: 52,529 competitor products tracked. Vuori's 5,502 = 9% share of tracked catalog."
+      "text": "Market context: 52,549 competitor products tracked. Vuori's 5,504 = 9% share of tracked catalog."
     }
   ],
   "vuoriScorecard": {
@@ -7266,13 +7416,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 290,
+        "vuori": 292,
         "competitor": 22,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1903,
+        "vuori": 1905,
         "competitor": 1286,
         "winner": "vuori"
       },
@@ -7316,13 +7466,13 @@
       },
       {
         "category": "Tees",
-        "vuori": 290,
+        "vuori": 292,
         "competitor": 56,
         "winner": "vuori"
       },
       {
         "category": "Men's Products",
-        "vuori": 1903,
+        "vuori": 1905,
         "competitor": 312,
         "winner": "vuori"
       },
@@ -7334,5 +7484,5 @@
       }
     ]
   },
-  "generated_at": "2026-11-27T14:15:11.848Z"
+  "generated_at": "2026-11-28T14:15:16.162Z"
 }
